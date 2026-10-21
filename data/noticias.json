@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T01:10:00Z",
+ "updatedAt": "2026-10-21T23:46:04Z",
  "items": [
   {
    "scope": "am",
@@ -11,17 +11,6 @@
    "title": "Brasil exportó 3,9 millones de sacos en septiembre, 3,1% más que en 2025",
    "summary": "El año-cosecha 26/27 acumula 11,21 millones de sacos entre julio y septiembre (+15,5%). En lo corrido del año, el arábica cae 10,7% y el conilon y robusta suben 68,3%.",
    "id": "a1"
-  },
-  {
-   "date": "2026-10-14",
-   "id": "a2",
-   "scope": "am",
-   "source": "Barchart · TradingView",
-   "summary": "Brasil cosecharía 67,6 millones de sacos en 2026, con 48,21 millones de arábica. Los inventarios certificados ICE rebotaron a 260.654 sacos tras tocar mínimo de 27 años.",
-   "tag": "Producción",
-   "title": "Conab sube su estimado de Brasil: arábica +34,8%",
-   "url": "https://www.tradingview.com/news/barchart:f50148f03094b:0-arabica-coffee-prices-finish-higher-on-supply-concerns/",
-   "pais": "Brasil"
   },
   {
    "scope": "am",
@@ -57,17 +46,6 @@
    "id": "a5"
   },
   {
-   "date": "2026-10-14",
-   "id": "a6",
-   "scope": "am",
-   "source": "Comunicaffe",
-   "summary": "El arábica diciembre subió a 292,70 ¢/lb el 13-oct. La UE y JDE Peet's financian un proyecto con 65 empresas cafeteras en Vietnam.",
-   "tag": "Industria",
-   "title": "Nestlé duplica su inversión en México a US$2.000 millones",
-   "url": "https://www.comunicaffe.com/arabica-coffee-futures-extend-recovery-nestle-to-invest-us2bn-in-mexico-the-eu-and-jde-peets-to-fund-a-project-in-vietnams-arabica-coffee-growing-region/",
-   "pais": "México"
-  },
-  {
    "date": "2026-10-09",
    "id": "a7",
    "scope": "am",
@@ -90,26 +68,6 @@
    "pais": "Colombia"
   },
   {
-   "date": "2026-10-08",
-   "id": "a9",
-   "scope": "mundo",
-   "source": "NOAA CPC",
-   "summary": "Más de 83% de probabilidad de un evento fuerte a muy fuerte hasta enero-marzo de 2027. Niño 3.4 en +2,1 °C.",
-   "tag": "Clima",
-   "title": "NOAA: El Niño sigue fortaleciéndose y podría ser histórico",
-   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "id": "a10",
-   "scope": "mundo",
-   "source": "World Coffee Index",
-   "summary": "Brasil exportó 3,93 millones de sacos en septiembre (+20,4%). El arábica pasó de US$3/lb y cerró la semana cerca de donde empezó. El USDA proyecta producción mundial récord de 189,7 millones de sacos en 2026/27.",
-   "tag": "Mercado",
-   "title": "Arábica volátil mientras llegan exportaciones récord de Brasil",
-   "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-10-10/"
-  },
-  {
    "date": "2026-10-16",
    "id": "a11",
    "scope": "mundo",
@@ -128,16 +86,6 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
-   "id": "a13",
-   "scope": "mundo",
-   "tag": "Precios",
-   "date": "2026-10-16",
-   "source": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/coffee/news/592784",
-   "title": "El arábica supera los US$3 por libra, máximo desde inicios de septiembre",
-   "summary": "Los futuros subieron a cerca de US$3,10/lb con inventarios certificados de 238.976 sacos, cerca del mínimo de 27 años (217.646). Preocupa que el café brasileño no llegue a bodegas ICE antes del vencimiento de diciembre."
   },
   {
    "scope": "am",
@@ -185,17 +133,6 @@
   },
   {
    "scope": "am",
-   "pais": "Ecuador",
-   "tag": "Mercado",
-   "date": "2026-10-06",
-   "source": "Revista Zona Libre",
-   "url": "https://www.revistazonalibre.ec/2026/10/06/mas-mercados-nuevas-oportunidades-el-camino-del-cafe-ecuatoriano-hacia-el-exterior/",
-   "title": "Ecuador exportó 261.787 sacos de café en el primer semestre, 41% más",
-   "summary": "Según Anecafé, los envíos de enero a junio generaron cerca de US$79,3 millones.",
-   "id": "a18"
-  },
-  {
-   "scope": "am",
    "pais": "Guatemala",
    "tag": "Cafés especiales",
    "date": "2026-10-16",
@@ -204,17 +141,6 @@
    "title": "La Unión Europea protege el Café Antigua de Guatemala como indicación geográfica",
    "summary": "El nombre queda protegido frente a usos indebidos en el mercado europeo. En 2024-25 Guatemala exportó 3,73 millones de quintales oro por US$1.285 millones; Europa compró el 26%.",
    "id": "a19"
-  },
-  {
-   "scope": "am",
-   "pais": "Costa Rica",
-   "tag": "Producción",
-   "date": "2026-09-27",
-   "source": "Monumental",
-   "url": "https://www.monumental.co.cr/2026/09/27/urgen-recolectores-de-cafe-mas-del-50-de-quienes-recogen-el-grano-provienen-del-extranjero/",
-   "title": "Costa Rica busca recolectores: más de la mitad llega de Nicaragua y Panamá",
-   "summary": "Según el Icafé, la falta de mano de obra pesa más en Coto Brus, Pérez Zeledón y Turrialba, justo antes de la cosecha de octubre a marzo. Unas 22 mil familias siguen produciendo café.",
-   "id": "a20"
   },
   {
    "scope": "am",
@@ -230,17 +156,6 @@
   {
    "scope": "am",
    "pais": "Perú",
-   "tag": "Mercado",
-   "date": "2026-10-08",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/peru/2026/10/08/negro-amanecer-para-las-agroexportaciones-peruanas-crecen-apenas-19-hasta-agosto-y-cacao-mango-y-esparragos-se-desploman/",
-   "title": "Exportaciones de café de Perú suman US$701,7 millones hasta agosto, +0,6%",
-   "summary": "La cosecha se adelantó por El Niño y el precio promedio fue más alto. EE. UU. y Alemania concentran 44% de los envíos: las ventas a EE. UU. suben 16,1% y a Alemania caen 30,8%.",
-   "id": "a22"
-  },
-  {
-   "scope": "am",
-   "pais": "Perú",
    "tag": "Industria",
    "date": "2026-10-15",
    "source": "Diario Voces",
@@ -250,26 +165,80 @@
    "id": "a23"
   },
   {
-   "scope": "am",
-   "pais": "Perú",
-   "tag": "Producción",
-   "date": "2026-10-09",
-   "source": "Agroperú",
-   "url": "https://www.agroperu.pe/junin-125-productores-adoptaron-nuevas-tecnicas-para-elevar-la-productividad-de-sus-parcelas-de-cafe/",
-   "title": "Junín: 125 caficultores aprenden nuevas técnicas para subir la productividad",
-   "summary": "Devida organizó un día de campo en Pangoa con productores de Mazamari, Pangoa y Río Tambo, de 35 centros poblados. Practicaron injerto, fertilización, manejo de plagas y biofertilizantes.",
-   "id": "a24"
+   "id": "a26",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-19",
+   "source": "The Rio Times",
+   "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
+   "title": "Arábica toca su máximo en un mes con inventarios certificados muy bajos",
+   "summary": "El contrato de diciembre en Nueva York subió 3,3 % el 19-oct hasta 315,7 ¢/lb, con existencias certificadas cerca de su mínimo en 27 años y un real firme en R$ 5,04 por dólar. La escasez de café certificado sostiene el precio de las primeras posiciones."
   },
   {
+   "id": "a27",
    "scope": "am",
-   "pais": "Bolivia",
+   "pais": "Perú",
+   "tag": "Exportaciones",
+   "date": "2026-10-14",
+   "source": "El Peruano (Mincetur)",
+   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-del-2026",
+   "title": "Perú vendió US$ 705 millones en café al exterior entre enero y agosto",
+   "summary": "Mincetur indica que más de 300 empresas exportan café cada año y que el 59 % son mipymes; en 2025 los envíos superaron US$ 1.800 millones. Muestra un origen con base amplia de pequeños exportadores."
+  },
+  {
+   "id": "a28",
+   "scope": "am",
+   "pais": "México",
    "tag": "Producción",
-   "date": "2026-10-01",
-   "source": "Publiagro",
-   "url": "https://publiagro.com.bo/2026/10/el-cafe-boliviano-escribe-una-nueva-historia-entre-los-yungas-y-santa-cruz/",
-   "title": "El café boliviano crece entre los Yungas y Santa Cruz",
-   "summary": "La Paz concentra el 96% de más de 25.000 hectáreas de café; Santa Cruz ya suma unas 1.300 familias y más de 1.000 hectáreas. Bolivia exportó 2.169 toneladas por más de US$17 millones en 2025.",
-   "id": "a25"
+   "date": "2026-10-21",
+   "source": "Másnoticias",
+   "url": "https://www.masnoticias.mx/en-veracruz-se-espera-una-cosecha-de-cafe-por-arriba-del-promedio/",
+   "title": "Veracruz espera una cosecha de café por encima del promedio",
+   "summary": "Un investigador del INIFAP en Teocelo calcula de forma visual unos 4,2 a 4,5 millones de sacos y menciona lotes con más de 86 puntos en taza. Es una estimación cualitativa, no una cifra oficial."
+  },
+  {
+   "id": "a29",
+   "scope": "am",
+   "pais": "Brasil",
+   "tag": "Precios",
+   "date": "2026-10-19",
+   "source": "Portal do Agronegócio (Itaú BBA)",
+   "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/preco-do-cafe-arabica-cai-6-no-brasil-com-oferta-maior-e-real-valorizado-aponta-itau-bba",
+   "title": "El arábica brasileño cae 6 % en 30 días por mayor oferta y real fuerte",
+   "summary": "Según Itaú BBA, el indicador Cepea del arábica estaba en R$ 1.531 por saca el 9-oct y el conilon en R$ 910 (−3 %). Las exportaciones de septiembre sumaron 3,9 millones de sacas, +20 %."
+  },
+  {
+   "id": "a30",
+   "scope": "am",
+   "pais": "Colombia",
+   "tag": "Precios",
+   "date": "2026-10-21",
+   "source": "Federación Nacional de Cafeteros",
+   "url": "https://federaciondecafeteros.org/ventadecafepreciopiso/",
+   "title": "Precio interno de referencia en Colombia: $2.235.000 por carga",
+   "summary": "La FNC fija para el 21-oct $2.235.000 por carga de 125 kg de pergamino seco, con Nueva York en 316,15 ¢/lb y tasa de cambio de $3.190. La referencia cambia a diario."
+  },
+  {
+   "id": "a31",
+   "scope": "am",
+   "pais": "Colombia",
+   "tag": "Exportaciones",
+   "date": "2026-10-19",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/colombia/2026/10/19/colombia-vendio-menos-cafe-al-exterior-durante-2026-debido-a-la-revaluacion-del-peso-frente-al-dolar-asi-estan-las-preocupantes-cifras/",
+   "title": "Exportaciones de café de Colombia caen 13,8 % hasta septiembre",
+   "summary": "Entre enero y septiembre salieron 8,45 millones de sacos frente a 9,80 millones un año antes; los exportadores culpan a la revaluación del peso y a los costos. La producción del año cafetero fue de 12,65 millones de sacos, −15 %."
+  },
+  {
+   "id": "a32",
+   "scope": "am",
+   "pais": "Costa Rica",
+   "tag": "Precios",
+   "date": "2026-10-21",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
+   "title": "Caficultores ticos reciben menos colones por fanega pese al récord exportador",
+   "summary": "El precio estimado de la cosecha en curso es ¢117.000 (USD 257,40) por fanega, y un dirigente habla de pérdidas cercanas a ¢20.000 por fanega para productores rurales por el dólar bajo. Hay que cotizar con la divisa en mente."
   }
  ]
 }

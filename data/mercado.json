@@ -1,22 +1,22 @@
 {
- "updatedAt": "2026-10-17T00:30:00Z",
+ "updatedAt": "2026-10-21T23:46:04Z",
  "items": {
   "kc1": {
-   "asOf": "2026-10-15",
-   "change": 0.65,
+   "asOf": "2026-10-21",
+   "change": 4.85,
    "chgDec": 2,
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Último cierre completo.",
+   "note": "Liquidación del 21-oct.",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-   "value": 298.7
+   "value": 316.15
   },
   "kc2": {
-   "asOf": "2026-10-09",
-   "change": -1.55,
+   "asOf": "2026-10-21",
+   "change": 2.25,
    "chgDec": 2,
    "contract": "Mar-27",
    "dec": 2,
@@ -24,11 +24,11 @@
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 279.8
+   "value": 301.25
   },
   "kc3": {
-   "asOf": "2026-10-09",
-   "change": -1.35,
+   "asOf": "2026-10-21",
+   "change": 1.9,
    "chgDec": 2,
    "contract": "May-27",
    "dec": 2,
@@ -36,11 +36,11 @@
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 276.55
+   "value": 296.2
   },
   "kc4": {
-   "asOf": "2026-10-09",
-   "change": -1.2,
+   "asOf": "2026-10-21",
+   "change": 1.8,
    "chgDec": 2,
    "contract": "Jul-27",
    "dec": 2,
@@ -48,20 +48,20 @@
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 274.15
+   "value": 292.85
   },
   "robusta": {
-   "asOf": "2026-10-16",
-   "change": 112,
-   "changePct": 3.32,
+   "asOf": "2026-10-19",
+   "change": 109,
+   "changePct": 3.23,
    "contract": "Nov-26",
    "dec": 0,
    "label": "Robusta Londres (ICE)",
-   "note": "Intradía 16-oct",
-   "source": "Investing.com",
+   "note": "Cierre del 19-oct (el 20-oct habría caído con fuerza; sin cifra confirmada)",
+   "source": "The Rio Times · Investing.com",
    "unit": "USD/t",
-   "url": "https://www.investing.com/commodities/london-coffee",
-   "value": 3483
+   "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
+   "value": 3484
   },
   "cot": {
    "asOf": "2026-10-06",
@@ -85,14 +85,14 @@
    "value": 238976
   },
   "icoComp": {
-   "asOf": "2026-10-14",
-   "changePct": 1.59,
+   "asOf": "2026-10-20",
+   "changePct": -1.0,
    "dec": 0,
    "label": "Indicador compuesto OIC",
    "source": "OIC · La República",
    "unit": "¢/lb",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-   "value": 266
+   "value": 270
   },
   "icoCM": {
    "label": "Suaves colombianos",
@@ -178,27 +178,27 @@
   }
  },
  "curve": {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-21",
   "points": [
    {
     "contract": "Dic-26",
-    "value": 286.95
+    "value": 316.15
    },
    {
     "contract": "Mar-27",
-    "value": 279.8
+    "value": 301.25
    },
    {
     "contract": "May-27",
-    "value": 276.55
+    "value": 296.2
    },
    {
     "contract": "Jul-27",
-    "value": 274.15
+    "value": 292.85
    },
    {
     "contract": "Sep-27",
-    "value": 271.85
+    "value": 289.65
    }
   ],
   "source": "Investing.com",
@@ -206,20 +206,20 @@
  },
  "fx": {
   "base": "USD",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-21",
   "source": "ExchangeRate-API",
   "url": "https://open.er-api.com/v6/latest/USD",
   "rates": {
-   "BRL": 5.054452,
-   "COP": 3184.574607,
-   "MXN": 18.457205,
-   "GTQ": 7.640832,
-   "HNL": 26.885363,
-   "NIO": 36.816312,
-   "CRC": 455.441359,
-   "VES": 880.1159,
-   "PEN": 3.435254,
-   "BOB": 11.716552
+   "BRL": 5.023053,
+   "COP": 3153.773599,
+   "MXN": 18.441949,
+   "GTQ": 7.64428,
+   "HNL": 26.871772,
+   "NIO": 36.811405,
+   "CRC": 454.325595,
+   "VES": 883.3963,
+   "PEN": 3.437582,
+   "BOB": 11.685224
   }
  },
  "oferta": {
