@@ -1,0 +1,297 @@
+{
+ "updatedAt": "2026-10-17T00:30:00Z",
+ "temporada": "2026-27",
+ "regiones": [
+  {
+   "id": "mexico",
+   "dep": "México",
+   "sub": "Chiapas, Veracruz, Oaxaca, Puebla",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Zonas bajas desde octubre; las de altura pueden seguir hasta marzo-abril"
+  },
+  {
+   "id": "guatemala",
+   "dep": "Guatemala",
+   "sub": "General",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Zonas bajas desde septiembre; Huehuetenango y altura hasta marzo-abril"
+  },
+  {
+   "id": "honduras",
+   "dep": "Honduras",
+   "sub": "General",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "El ciclo cafetero arranca el 1 de octubre; las zonas altas cosechan hasta abril"
+  },
+  {
+   "id": "el-salvador",
+   "dep": "El Salvador",
+   "sub": "General",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Bajío primero; estricta altura de enero a marzo"
+  },
+  {
+   "id": "nicaragua",
+   "dep": "Nicaragua",
+   "sub": "Jinotega, Matagalpa, Nueva Segovia",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": ""
+  },
+  {
+   "id": "costa-rica",
+   "dep": "Costa Rica",
+   "sub": "General",
+   "zona": "México y Centroamérica",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Varía por región: Brunca empieza en agosto-septiembre; Tarrazú y Valle Occidental de noviembre a marzo"
+  },
+  {
+   "id": "panama",
+   "dep": "Panamá",
+   "sub": "Chiriquí (Boquete, Volcán)",
+   "zona": "México y Centroamérica",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": ""
+  },
+  {
+   "id": "colombia",
+   "dep": "Colombia",
+   "sub": "General",
+   "zona": "Andes",
+   "pI": 9,
+   "pF": 12,
+   "mI": 4,
+   "mF": 6,
+   "conf": "alta",
+   "nota": "Oferta casi todo el año: el sur (Nariño, Cauca, parte del Huila y Tolima) tiene la principal en el primer semestre"
+  },
+  {
+   "id": "venezuela",
+   "dep": "Venezuela",
+   "sub": "Andes y Lara",
+   "zona": "Andes",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "ecuador",
+   "dep": "Ecuador",
+   "sub": "Loja, Zamora, El Oro",
+   "zona": "Andes",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Arábica de altura; el robusta de costa y Amazonía varía"
+  },
+  {
+   "id": "peru",
+   "dep": "Perú",
+   "sub": "Cajamarca, Amazonas, San Martín, Junín, Cusco",
+   "zona": "Andes",
+   "pI": 4,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "El centro y el sur empiezan en marzo; el norte tiene el pico en junio-julio"
+  },
+  {
+   "id": "bolivia",
+   "dep": "Bolivia",
+   "sub": "Yungas (Caranavi)",
+   "zona": "Andes",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "brasil-arabica",
+   "dep": "Brasil",
+   "sub": "Arábica (Sul de Minas, Cerrado, Mogiana)",
+   "zona": "Brasil",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Pico de junio a agosto; un solo ciclo al año"
+  },
+  {
+   "id": "brasil-conilon",
+   "dep": "Brasil",
+   "sub": "Conilon (Espírito Santo, Rondônia)",
+   "zona": "Brasil",
+   "pI": 4,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Empieza antes que el arábica"
+  }
+ ],
+ "estado": {
+  "brasil-arabica": {
+   "ajusteSemanas": 0,
+   "volumen": "alto",
+   "resumen": "Conab (24-sep) eleva el arábica 2026 a 48,21 M sacos, +34,8% anual. Cosecha terminada; exportaciones jul–sep +15,5%.",
+   "fecha": "2026-09-24",
+   "fuente": "Conab vía Barchart",
+   "url": "https://www.tradingview.com/news/barchart:f50148f03094b:0-arabica-coffee-prices-finish-higher-on-supply-concerns/"
+  },
+  "brasil-conilon": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Conab estima el robusta/conilon en 19,39 M sacos, −6,6% anual.",
+   "fecha": "2026-09-24",
+   "fuente": "Conab vía Barchart",
+   "url": "https://www.tradingview.com/news/barchart:f50148f03094b:0-arabica-coffee-prices-finish-higher-on-supply-concerns/"
+  },
+  "honduras": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Ciclo 2026-27 abierto el 1-oct. Ihcafé prevé exportar ~7 M quintales (7,3 M en 25-26).",
+   "fecha": "2026-10-13",
+   "fuente": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
+  },
+  "el-salvador": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "La Asociación Cafetalera prevé 750–800 mil quintales en 26-27 (963.650 en 25-26) por 89 días secos asociados a El Niño.",
+   "fecha": "2026-09-29",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/"
+  },
+  "guatemala": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Anacafé teme que la falta de lluvias recorte entre 5% y 15% la cosecha 2026-27.",
+   "fecha": "2026-09-16",
+   "fuente": "Prensa Libre",
+   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/"
+  },
+  "mexico": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Inicia la cosecha en Veracruz con pagos de 7 a 10 pesos/kg de cereza; compras masivas desde inicios de noviembre.",
+   "fecha": "2026-10-13",
+   "fuente": "El Demócrata",
+   "url": "https://www.eldemocrata.com/842306/cafetaleros-denuncian-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
+  },
+  "colombia": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "El año cafetero 25/26 cerró con 12,65 M sacos (−15%). USDA proyecta 13,4 M sacos para 26/27.",
+   "fecha": "2026-10-09",
+   "fuente": "El Universal · FNC",
+   "url": "https://www.eluniversal.com.co/colombia/2026/10/09/produccion-de-cafe-en-colombia-cayo-15-en-el-ano-cafetero-2025-2026/"
+  }
+ },
+ "reportes": [
+  {
+   "id": "a1",
+   "fecha": "2026-10-13",
+   "region": "mexico",
+   "tipo": "noticia",
+   "texto": "Veracruz: pagos de 7 a 10 pesos por kg de cereza convencional al arranque de la cosecha; la CNOC pide al menos 16 pesos.",
+   "fuente": "El Demócrata",
+   "url": "https://www.eldemocrata.com/842306/cafetaleros-denuncian-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
+  },
+  {
+   "id": "a2",
+   "fecha": "2026-10-13",
+   "region": "honduras",
+   "tipo": "noticia",
+   "texto": "Ihcafé prevé ~7 M quintales de exportación en 2026-27, menos que los 7,3 M del ciclo anterior.",
+   "fuente": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
+  },
+  {
+   "id": "a3",
+   "fecha": "2026-10-12",
+   "region": "mexico",
+   "tipo": "noticia",
+   "texto": "Chiapas: el indicador Otros Suaves cayó 8,8% en septiembre, a 329,44 ¢/lb.",
+   "fuente": "Alerta Chiapas",
+   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/"
+  },
+  {
+   "id": "a4",
+   "fecha": "2026-10-09",
+   "region": "brasil-arabica",
+   "tipo": "noticia",
+   "texto": "Brasil exportó 3,894 M sacos en septiembre (+3,1%); jul–sep acumula 11,21 M (+15,5%).",
+   "fuente": "Cecafé",
+   "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/"
+  },
+  {
+   "id": "a5",
+   "fecha": "2026-10-09",
+   "region": "colombia",
+   "tipo": "noticia",
+   "texto": "La producción del año cafetero 25/26 cayó 15%, a 12,65 M sacos.",
+   "fuente": "El Universal",
+   "url": "https://www.eluniversal.com.co/colombia/2026/10/09/produccion-de-cafe-en-colombia-cayo-15-en-el-ano-cafetero-2025-2026/"
+  },
+  {
+   "id": "a6",
+   "fecha": "2026-09-29",
+   "region": "el-salvador",
+   "tipo": "noticia",
+   "texto": "Se esperan 750–800 mil quintales en 26-27 tras 89 días secos por El Niño.",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/"
+  },
+  {
+   "id": "a7",
+   "fecha": "2026-09-16",
+   "region": "guatemala",
+   "tipo": "noticia",
+   "texto": "Anacafé: la falta de lluvias podría recortar entre 5% y 15% la cosecha 2026-27.",
+   "fuente": "Prensa Libre",
+   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/"
+  }
+ ]
+}

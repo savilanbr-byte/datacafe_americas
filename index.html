@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>DataCafé|Américas</title>
+<meta name="description" content="Herramientas para comprar café en América: calculadoras con moneda local, mercado, cosechas, catación, noticias y clima por país.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DataCafé|AM">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#EDEFE6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121510" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one-column mobile app, sticky header, fixed bottom tab bar; content max 720px */
+:root{
+  --bg:#EDEFE6; --surface:#FAFBF6; --sunk:#E3E6DA; --ink:#1C2217; --muted:#5B6453; --line:#D2D7C6;
+  --cherry:#A8261C; --cherry-soft:#F3DCD7; --leaf:#2E5E3A; --leaf-soft:#D6E5D3; --amber:#B9800F; --amber-soft:#F3E4C2;
+  --up:#2E7347; --down:#B1291F; --warn:#9A6A08;
+  --f-display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-num:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r:12px; --tabh:64px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121510; --surface:#1A1F16; --sunk:#232A1E; --ink:#E6E9DD; --muted:#9AA391; --line:#2F3828;
+  --cherry:#E4675B; --cherry-soft:#3A1E1A; --leaf:#7DB88A; --leaf-soft:#1F3324; --amber:#E2AA3C; --amber-soft:#3A2E14;
+  --up:#79C08F; --down:#EE7A6E; --warn:#E2AA3C; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#121510; --surface:#1A1F16; --sunk:#232A1E; --ink:#E6E9DD; --muted:#9AA391; --line:#2F3828;
+  --cherry:#E4675B; --cherry-soft:#3A1E1A; --leaf:#7DB88A; --leaf-soft:#1F3324; --amber:#E2AA3C; --amber-soft:#3A2E14;
+  --up:#79C08F; --down:#EE7A6E; --warn:#E2AA3C; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--cherry);outline-offset:2px}
+.num{font-family:var(--f-num);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.brand{display:flex;align-items:baseline;gap:10px;min-width:0}
+.brand h1{font-size:20px;white-space:nowrap}
+.brand .bean{width:12px;height:16px;border-radius:50%;background:var(--cherry);position:relative;align-self:center;flex:none}
+.brand .bean::after{content:"";position:absolute;left:50%;top:2px;bottom:2px;width:1.5px;margin-left:-.75px;background:var(--surface);border-radius:2px;transform:rotate(8deg)}
+.view-title{font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:4px 10px;border-radius:999px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--muted)}
+.pill.ok .dot{background:var(--up)} .pill.stale .dot{background:var(--warn)}
+
+main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
+.view{padding-block:18px;display:flex;flex-direction:column;gap:18px}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sec-h h2{font-size:22px}
+.sec-h h3{font-size:16px}
+.lede{color:var(--muted);margin:4px 0 0;font-size:14px;max-width:62ch}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.muted{color:var(--muted)}
+.small{font-size:12.5px}
+.empty{padding:22px 18px;text-align:left;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
+.empty strong{color:var(--ink);display:block;margin-bottom:4px}
+
+/* tab bar */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.tabbar .in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr)}
+.tab{background:none;border:0;height:var(--tabh);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:11px;color:var(--muted);position:relative}
+.tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.tab[aria-current="page"]{color:var(--ink);font-weight:600}
+.tab[aria-current="page"]::before{content:"";position:absolute;top:0;left:22%;right:22%;height:3px;border-radius:0 0 3px 3px;background:var(--cherry)}
+
+/* segmented */
+.seg{display:inline-flex;background:var(--sunk);border-radius:10px;padding:3px;gap:2px}
+.seg button{border:0;background:none;padding:7px 14px;border-radius:8px;font-size:14px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgb(0 0 0 / .08)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 14px;font-size:14px;font-weight:500;display:inline-flex;align-items:center;gap:6px}
+.btn.primary{background:var(--cherry);border-color:var(--cherry);color:#fff}
+.btn.ghost{background:none;border-color:transparent;color:var(--muted);padding-inline:8px}
+.btn.danger{color:var(--down)}
+.btn:disabled{opacity:.5;cursor:default}
+.linkbtn{background:none;border:0;padding:0;color:var(--cherry);font-size:12.5px;text-decoration:underline;text-underline-offset:2px}
+
+/* calculator */
+.calc{display:flex;flex-direction:column;gap:14px}
+.cgroup{padding:6px 0}
+.cgroup>.eyebrow{padding:10px 16px 4px}
+.crow{display:grid;grid-template-columns:minmax(0,1fr) minmax(120px,46%);align-items:center;gap:12px;padding:8px 16px;border-top:1px solid var(--line)}
+.cgroup .crow:first-of-type{border-top:0}
+.crow label{font-size:14px;line-height:1.25}
+.crow label .u{display:block;font-size:11.5px;color:var(--muted);margin-top:1px}
+.crow input{width:100%;min-width:0;text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:16px;padding:9px 10px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.crow.in input{background:var(--surface);border-color:color-mix(in srgb,var(--ink) 30%,var(--line))}
+.crow.key label{font-weight:600}
+.crow.key input{border-color:var(--cherry);font-weight:500}
+.crow input.flash{animation:flash .5s ease}
+@keyframes flash{from{background:var(--amber-soft)}}
+@media (prefers-reduced-motion:reduce){.crow input.flash{animation:none}}
+.calc-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.calc-legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:10px;border-radius:3px;border:1px solid var(--line);display:inline-block}
+.sw.in{background:var(--surface);border-color:color-mix(in srgb,var(--ink) 30%,var(--line))}
+.sw.out{background:var(--bg)}
+.reset-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+/* market */
+.mgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:600px){.mgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.mcard{padding:12px 13px 11px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.mcard .lbl{font-size:12.5px;color:var(--muted);line-height:1.25}
+.mcard .val{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:21px;font-weight:500;letter-spacing:-.02em;line-height:1.15;overflow-wrap:break-word}
+.mcard .val small{white-space:nowrap;font-size:11.5px;color:var(--muted);font-weight:400;letter-spacing:0;margin-left:3px}
+.mcard .chg{font-family:var(--f-num);font-size:12px}
+.chg.up{color:var(--up)} .chg.down{color:var(--down)} .chg.flat{color:var(--muted)}
+.mcard .meta{font-size:11.5px;color:var(--muted);margin-top:auto;padding-top:5px;display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap}
+.mcard .meta a{color:var(--muted)}
+.mcard .note{font-size:11.5px;color:var(--muted)}
+.mcard.derived{background:var(--sunk);border-style:dashed}
+.mcard.wide{grid-column:1/-1}
+.mcard input{font-family:var(--f-num);font-size:19px;width:100%;min-width:0;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.curve{width:100%;height:auto;display:block}
+.curve text{font-family:var(--f-num);font-size:10px;fill:var(--muted)}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted)}
+.tag.back{background:var(--amber-soft);color:var(--warn)}
+.tag.cont{background:var(--leaf-soft);color:var(--leaf)}
+.mcard .lbl a.live{text-decoration:none}
+.mcard .lbl a.live:hover{text-decoration:underline}
+.mcard .val a{text-decoration:none}
+.mcard .val a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.livelink{font-size:12px;color:var(--cherry);text-decoration:none;font-weight:500;align-self:flex-start}
+.livelink:hover{text-decoration:underline}
+.explain{align-self:flex-start;background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--ink);margin-top:4px;display:inline-flex;gap:5px;align-items:center}
+.explain:hover{border-color:var(--ink)}
+.sheet-bg{position:fixed;inset:0;z-index:30;background:rgb(0 0 0 / .42);display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);color:var(--ink);width:100%;max-width:720px;max-height:86vh;overflow:auto;border-radius:16px 16px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:12px}
+@media (min-width:760px){.sheet-bg{align-items:center}.sheet{border-radius:16px}}
+.sheet-h{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.sheet-h h3{font-size:19px}
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.steps li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;padding:9px 0;border-top:1px solid var(--line)}
+.steps li:first-child{border-top:0}
+.steps .n{font-family:var(--f-num);font-size:12px;color:var(--muted);padding-top:2px}
+.steps .t{font-size:14px}
+.steps .f{font-family:var(--f-num);font-size:13px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere}
+.steps .r{font-family:var(--f-num);font-size:14px;font-weight:500;margin-top:2px}
+.steps li.total .t{font-weight:600}
+.steps li.total .r{color:var(--cherry);font-size:16px}
+.inputs-t{width:100%;border-collapse:collapse;font-size:13px}
+.inputs-t td{padding:5px 0;border-top:1px solid var(--line);vertical-align:top}
+.inputs-t td:last-child{text-align:right;font-family:var(--f-num)}
+
+/* harvest */
+.now-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.now-col{padding:12px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.now-col h3{font-size:15px;display:flex;align-items:center;gap:8px}
+.key-dot{width:10px;height:10px;border-radius:3px;display:inline-block;flex:none}
+.k-p{background:var(--leaf)} .k-m{background:var(--amber)} .k-s{background:transparent;border:1.5px dashed var(--muted)}
+.rlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.rlist li{font-size:13.5px;line-height:1.3}
+.rlist li span{display:block;font-size:11.5px;color:var(--muted)}
+.rlist li span.flag{display:inline-block;margin:2px 4px 0 0;font-size:11px}
+.rlist li span.chips{display:flex}
+.rlist li span.chips .flag{margin:0}
+.months{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:3px}
+.months button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 0;font-size:12px}
+.months button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink);font-weight:600}
+.months button.today{box-shadow:inset 0 -3px 0 var(--cherry)}
+.gantt-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.gantt{border-collapse:separate;border-spacing:0;width:100%;table-layout:fixed;font-size:12.5px}
+.gantt col.c0{width:34%}
+.gantt th,.gantt td{padding:0}
+.gantt thead th{font-weight:500;color:var(--muted);font-size:11px;padding:6px 0;text-align:center}
+.gantt thead th.sel{color:var(--ink);font-weight:700}
+.gantt tbody th{background:var(--surface);text-align:left;font-weight:500;padding:6px 8px 6px 12px;z-index:1;border-top:1px solid var(--line);line-height:1.2}
+.gantt tbody th span{display:block;font-size:10.5px;color:var(--muted);font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gantt td{border-top:1px solid var(--line);height:38px;position:relative}
+.gantt td i{position:absolute;left:1px;right:1px;top:9px;bottom:9px;border-radius:4px}
+.gantt td i.p{background:var(--leaf)} .gantt td i.m{background:var(--amber)}
+.gantt td.sel{background:color-mix(in srgb,var(--cherry) 9%,transparent)}
+.gantt tr.zone th{background:var(--sunk);font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:5px 12px;font-weight:600}
+.gantt tr.zone td{background:var(--sunk);height:auto}
+.gantt tr.row{cursor:pointer}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.supply svg{width:100%;height:auto;display:block}
+.supply text{font-family:var(--f-num);font-size:10px;fill:var(--muted)}
+.supply text.sel{fill:var(--ink);font-weight:600}
+.detail{padding:12px 14px;font-size:13.5px}
+
+/* cupping */
+.sess-list{display:flex;flex-direction:column;gap:10px}
+.sess{padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.sess-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.sess h3{font-size:16px}
+.sess .acts{display:flex;gap:6px;flex-wrap:wrap}
+.status{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px}
+.status.draft{background:var(--amber-soft);color:var(--warn)}
+.status.final{background:var(--leaf-soft);color:var(--leaf)}
+.status.sample{background:var(--sunk);color:var(--muted)}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label{font-size:12px;color:var(--muted);font-weight:500}
+.field input,.field select,.field textarea{font:inherit;font-size:15px;padding:9px 10px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--ink);width:100%;min-width:0}
+.field textarea{min-height:64px;resize:vertical}
+.fgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.fgrid .full{grid-column:1/-1}
+.cafe{overflow:hidden}
+.cafe-h{display:flex;align-items:center;gap:10px;padding:12px 14px;background:none;border:0;width:100%;text-align:left}
+.cafe-h .mesa{font-family:var(--f-num);font-size:12px;color:var(--muted);flex:none;width:44px}
+.cafe-h .nm{flex:1;min-width:0;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.score{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-weight:500;font-size:15px;padding:3px 9px;border-radius:8px;background:var(--sunk);flex:none}
+.score.hi{background:var(--leaf-soft);color:var(--leaf)}
+.score.top{background:var(--cherry);color:#fff}
+.cafe-b{padding:4px 14px 16px;display:flex;flex-direction:column;gap:14px;border-top:1px solid var(--line)}
+.attr{display:grid;grid-template-columns:96px minmax(0,1fr) 46px;gap:10px;align-items:center}
+.attr label{font-size:13.5px}
+.attr output{font-family:var(--f-num);text-align:right;font-size:15px}
+.attr input[type=range]{width:100%;accent-color:var(--cherry);min-width:0}
+.cups{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;align-items:center}
+.cups .c{display:flex;gap:4px}
+.cups .c button{flex:1;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:6px 0;font-family:var(--f-num);font-size:13px}
+.cups .c button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.desc-chips .chip{font-size:12px;padding:4px 9px}
+.dchip{display:inline-flex;align-items:center;gap:6px}
+.dchip i{width:8px;height:8px;border-radius:50%;flex:none}
+.dchip span{color:var(--muted);font-size:11px}
+.desc-other{display:flex;gap:8px;margin-top:4px}
+.desc-other input{flex:1}
+.radar{width:100%;max-width:300px;height:auto;margin:0 auto;display:block}
+.radar text{font-size:9.5px;fill:var(--muted);font-family:var(--f-body)}
+.ed-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+.rank{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.rank li{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.rank li:first-child{border-top:0}
+.rank .nm{flex:1;min-width:0}
+.rank .nm span{display:block;font-size:11.5px;color:var(--muted)}
+
+/* news */
+.lead{padding:16px}
+.lead h3{font-size:21px;line-height:1.2;margin:6px 0 8px}
+.lead h3 a,.news h3 a{text-decoration:none}
+.lead h3 a:hover,.news h3 a:hover{text-decoration:underline}
+.news{list-style:none;margin:0;padding:0}
+.news li{padding:14px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:5px}
+.news h3{font-size:16px;line-height:1.25;font-family:var(--f-body);font-weight:600;letter-spacing:0}
+.news p,.lead p{margin:0;font-size:14px;color:var(--muted);max-width:65ch}
+.byline{font-size:11.5px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.scope{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:5px}
+.scope.co{background:var(--amber-soft);color:var(--warn)}
+.scope.mundo{background:var(--leaf-soft);color:var(--leaf)}
+
+/* climate */
+.enso{padding:16px;display:flex;flex-direction:column;gap:10px;border-color:var(--amber)}
+.enso .big{font-family:var(--f-display);font-size:26px;line-height:1.1}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.fact{background:var(--sunk);border-radius:9px;padding:8px 10px;min-width:0}
+.fact b{display:block;font-family:var(--f-num);font-size:17px;font-weight:500}
+.fact span{font-size:11.5px;color:var(--muted)}
+.bul{margin:0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:4px}
+.reg{list-style:none;margin:0;padding:0}
+.reg li{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1.4fr) 54px;gap:10px;align-items:center;padding:10px 14px;border-top:1px solid var(--line)}
+.reg li:first-child{border-top:0}
+.reg .nm{font-weight:600;font-size:14px;line-height:1.2}
+.reg .nm span{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
+.bar{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:4px;background:var(--leaf)}
+.bar i.wet{background:#3D6E9E}
+.bar i.dry{background:var(--amber)}
+.reg .mm{font-family:var(--f-num);font-size:13px;text-align:right}
+.reg .sub{grid-column:1/-1;display:flex;gap:6px;flex-wrap:wrap;margin-top:-2px}
+.flag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted)}
+.flag.alert{background:var(--cherry-soft);color:var(--cherry);font-weight:600}
+.flag.p{background:var(--leaf-soft);color:var(--leaf)} .flag.m{background:var(--amber-soft);color:var(--warn)}
+.sources{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 14px);background:var(--ink);color:var(--surface);padding:9px 14px;border-radius:10px;font-size:13.5px;z-index:50;max-width:calc(100% - 32px)}
+@media (max-width:380px){.tab{font-size:10px}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* menú lateral */
+.top-l{display:flex;align-items:center;gap:6px;min-width:0}
+.menu-btn{background:none;border:0;width:38px;height:38px;margin-left:-8px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.menu-btn:hover{background:var(--sunk)}
+.menu-btn svg,.drawer svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.drawer-bg{position:fixed;inset:0;z-index:40;background:rgb(0 0 0 / .42);opacity:0;transition:opacity .2s ease}
+.drawer{position:fixed;top:0;bottom:0;left:0;z-index:41;width:min(320px,86vw);background:var(--surface);border-right:1px solid var(--line);
+  padding:calc(env(safe-area-inset-top,0px) + 14px) 18px calc(env(safe-area-inset-bottom,0px) + 18px) max(18px,env(safe-area-inset-left,0px));
+  display:flex;flex-direction:column;gap:18px;overflow-y:auto;transform:translateX(-102%);transition:transform .22s ease;visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer-bg.open{opacity:1}
+@media (prefers-reduced-motion:reduce){.drawer,.drawer-bg{transition:none}}
+.drawer-h{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.drawer-h .brand h2{font-size:19px}
+.dnav{display:flex;flex-direction:column;gap:2px}
+.dnav button{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:none;border:0;border-radius:10px;padding:10px 10px;font-size:15px}
+.dnav button:hover{background:var(--sunk)}
+.dnav button[aria-current="page"]{background:var(--sunk);font-weight:600}
+.contact{padding:16px;display:flex;flex-direction:column;gap:12px}
+.contact .who{display:flex;gap:12px;align-items:center}
+.avatar{width:46px;height:46px;border-radius:50%;background:var(--cherry);color:#fff;font-family:var(--f-display);font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:center;flex:none}
+.contact .nm{font-family:var(--f-display);font-size:17px;font-weight:700;line-height:1.15}
+.contact .role{font-size:13px;color:var(--muted);line-height:1.3}
+.cline{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.35}
+.cline svg{width:18px;height:18px;flex:none;margin-top:1px;color:var(--muted)}
+.cline a{overflow-wrap:anywhere}
+.contact .btn{justify-content:center;text-decoration:none}
+.contact .acts{display:flex;flex-direction:column;gap:8px}
+.install{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 14px;font-size:13.5px}
+.install b{font-weight:600}
+/* Américas */
+[hidden]{display:none!important}
+@media (max-width:420px){.top .pill{padding:3px 7px;gap:4px;font-size:11px}.top .pill .pfx{display:none}.top .wrap{gap:6px}.brand{gap:7px}.brand h1{font-size:17px}}
+@media (max-width:340px){.brand h1{font-size:15px}}
+.brand-bar{color:var(--cherry);font-weight:400;margin:0 .12em}
+.brand-sub{color:var(--muted);font-weight:600}
+.cur-bar{display:flex;align-items:center;gap:8px 12px;padding:10px 14px;flex-wrap:wrap}
+.cur-sel{font:inherit;font-size:15px;padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-width:0;max-width:100%;flex:1 1 220px}
+.mcard .cur-sel{flex:none;width:100%;font-size:14px;padding:7px 8px;margin:2px 0 4px}
+.uchips{display:flex;gap:6px;flex-wrap:wrap;padding:0 16px 10px}
+.uchips .chip{font-size:12px;padding:4px 10px}
+.news-pais{display:flex;flex-direction:column;gap:8px;padding:12px 14px;margin-top:-6px}
+.pchips .chip{font-size:12.5px;padding:5px 10px;display:inline-flex;gap:5px;align-items:baseline}
+.pchips .chip .n{font-family:var(--f-num);font-size:11px;color:var(--muted)}
+.pchips .chip[aria-pressed="true"] .n{color:inherit;opacity:.75}
+.pchips .chip.zero{color:var(--muted);border-style:dashed}
+.obars{list-style:none;margin:6px 0 2px;padding:0;display:flex;flex-direction:column;gap:8px}
+.obars li{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr) 46px;gap:10px;align-items:center;font-size:13.5px}
+.obars .nm{line-height:1.2}
+.obars .nm span{display:block;font-size:11px;color:var(--muted)}
+.obars .num{text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:13px}
+.obars li.ref{color:var(--muted)}
+.obars li.ref .bar i{background:var(--muted)}
+</style>
+</head>
+<body>
+
+
+<header class="top">
+  <div class="wrap">
+    <div class="top-l">
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="drawer"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <div class="brand"><span class="bean" aria-hidden="true"></span><h1>DataCafé<span class="brand-bar" aria-hidden="true">|</span><span class="brand-sub">Américas</span></h1></div>
+    </div>
+    <span class="pill" id="feedPill"><span class="dot"></span><span id="feedPillTxt">Sin datos aún</span></span>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card install" id="installCard" hidden style="margin-top:14px"><span id="installTxt"></span><span style="display:flex;gap:6px"><button class="btn primary" id="installBtn" hidden>Instalar</button><button class="btn ghost" id="installX" aria-label="Cerrar">✕</button></span></div>
+  <!-- CALCULADORAS -->
+  <section class="view" id="v-calc">
+    <div class="sec-h">
+      <div><h2>Calculadoras</h2><p class="lede">Edita cualquier valor: el resto se recalcula. Elige la moneda y la unidad de compra; si escribes el FOB que necesitas, te dice cuánto puedes pagar.</p></div>
+      <div class="seg" role="group" aria-label="Calculadora">
+        <button id="segPerg" aria-pressed="true" data-calc="perg">Pergamino</button>
+        <button id="segCer" aria-pressed="false" data-calc="cer">Cereza</button>
+      </div>
+    </div>
+    <div class="card cur-bar"><label for="curSel" class="eyebrow">Moneda local</label><select id="curSel" class="cur-sel"></select><span class="small muted" id="curNote"></span></div>
+    <div class="calc-legend"><span><i class="sw in"></i>Dato de entrada</span><span><i class="sw out"></i>Calculado (también editable)</span></div>
+    <div id="calcBody" class="calc"></div>
+  </section>
+
+  <!-- MERCADO -->
+  <section class="view" id="v-mercado" hidden>
+    <div class="sec-h"><div><h2>Precios y mercado</h2><p class="lede" id="mktLede">Último dato disponible de cada fuente, con su fecha. Los futuros llegan con retraso; no es una pantalla de trading.</p></div></div>
+    <div id="mktBody"></div>
+  </section>
+
+  <!-- COSECHAS -->
+  <section class="view" id="v-cosechas" hidden>
+    <div class="sec-h"><div><h2>Calendario de cosechas</h2><p class="lede">Toca un mes para ver qué países están cosechando. Son rangos típicos por país: dentro de cada uno hay zonas que se adelantan o se atrasan, y el clima de cada año los corre varias semanas.</p></div></div>
+    <div class="months" id="monthBar" role="group" aria-label="Mes"></div>
+    <div id="nowBody"></div>
+    <div id="yearBody"></div>
+    <div class="card" style="padding:12px 0 6px">
+      <div class="sec-h" style="padding:0 14px 8px"><h3>Año completo por país</h3>
+        <div class="legend"><span><i class="key-dot k-p"></i>Principal</span><span><i class="key-dot k-m"></i>Secundaria (mitaca)</span></div></div>
+      <div class="gantt-wrap"><table class="gantt" id="gantt"></table></div>
+      <div id="rowDetail" class="detail" hidden></div>
+    </div>
+    <div class="card supply" style="padding:12px 14px">
+      <div class="sec-h" style="margin-bottom:6px"><h3>Orígenes cosechando por mes</h3><span class="small muted">Verde = principal · ámbar = secundaria</span></div>
+      <div id="supply"></div>
+    </div>
+  </section>
+
+  <!-- CATAR -->
+  <section class="view" id="v-catar" hidden>
+    <div id="catarBody"></div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section class="view" id="v-noticias" hidden>
+    <div class="sec-h"><div><h2>Noticias del café</h2><p class="lede" id="newsLede">Países productores de América primero, luego el mercado mundial.</p></div></div>
+    <div class="chips" id="newsFilter" role="group" aria-label="Filtro">
+      <button class="chip" data-f="all" aria-pressed="true">Todas</button>
+      <button class="chip" data-f="am" aria-pressed="false">América</button>
+      <button class="chip" data-f="mundo" aria-pressed="false">Mundo</button>
+    </div>
+    <div class="card news-pais"><div class="eyebrow">Filtrar por país</div><div class="chips pchips" id="newsPais" role="group" aria-label="País"></div></div>
+    <div id="newsBody"></div>
+  </section>
+
+  <!-- CLIMA -->
+  <section class="view" id="v-clima" hidden>
+    <div class="sec-h"><div><h2>Clima cafetero</h2><p class="lede">Fenómeno ENSO, qué implica para los orígenes de América y lluvia esperada en los próximos 7 días por país, cruzada con el calendario de cosecha.</p></div></div>
+    <div id="climaBody"></div>
+  </section>
+</main>
+
+<nav class="tabbar" aria-label="Secciones">
+  <div class="in">
+    <button class="tab" data-t="calc" aria-current="page"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8 7h8M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01M8.5 15h.01M12 15h.01M15.5 15v2.5M8.5 18h.01M12 18h.01"/></svg>Calcular</button>
+    <button class="tab" data-t="mercado" aria-current="false"><svg viewBox="0 0 24 24"><path d="M3 20h18"/><path d="M4 16l5-6 4 3 7-8"/><path d="M16 5h4v4"/></svg>Mercado</button>
+    <button class="tab" data-t="cosechas" aria-current="false"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/><circle cx="9" cy="15" r="1.6"/><circle cx="14.5" cy="15" r="1.6"/></svg>Cosechas</button>
+    <button class="tab" data-t="catar" aria-current="false"><svg viewBox="0 0 24 24"><path d="M4 9h13v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H16.5"/><path d="M9 3c-1 1.2 1 2.2 0 3.6M13 3c-1 1.2 1 2.2 0 3.6"/></svg>Catar</button>
+    <button class="tab" data-t="noticias" aria-current="false"><svg viewBox="0 0 24 24"><path d="M5 4h12v15a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1z"/><path d="M17 8h2a1 1 0 0 1 1 1v10a2 2 0 0 1-2 2"/><path d="M8 8h6M8 12h6M8 16h4"/></svg>Noticias</button>
+    <button class="tab" data-t="clima" aria-current="false"><svg viewBox="0 0 24 24"><path d="M7 18a4 4 0 0 1-.6-7.95A5.5 5.5 0 0 1 17 9.5a3.5 3.5 0 0 1 .5 7"/><path d="M8 21l1-2M12 21l1-2M16 21l1-2"/></svg>Clima</button>
+  </div>
+</nav>
+<div class="toast" id="toast" hidden role="status"></div>
+
+<div class="drawer-bg" id="drawerBg" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Menú" aria-hidden="true">
+  <div class="drawer-h">
+    <div class="brand"><span class="bean" aria-hidden="true"></span><h2>DataCafé<span class="brand-bar" aria-hidden="true">|</span><span class="brand-sub">Américas</span></h2></div>
+    <button class="btn ghost" id="drawerX" aria-label="Cerrar menú">✕</button>
+  </div>
+  <nav class="dnav" id="dnav" aria-label="Secciones"></nav>
+  <section class="card contact" aria-labelledby="contactT">
+    <div class="eyebrow" id="contactT">Contacto</div>
+    <div class="who">
+      <span class="avatar" aria-hidden="true">SA</span>
+      <div><div class="nm">Sergio Avilán Britto</div><div class="role">Profesional del Sector Cafetero</div></div>
+    </div>
+    <div class="cline"><svg viewBox="0 0 24 24"><rect x="3.5" y="7" width="17" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3.5 12.5h17"/></svg><span>Comprador de Café Verde Colombia<br><span class="muted">Ally Coffee</span></span></div>
+    <div class="cline"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg><span>Bogotá, Colombia</span></div>
+    <div class="cline"><svg viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg><a href="mailto:s.avilanbr@gmail.com" target="_blank" rel="noopener">s.avilanbr@gmail.com</a></div>
+    <div class="acts">
+      <a class="btn primary" href="mailto:s.avilanbr@gmail.com?subject=Contacto%20desde%20DataCaf%C3%A9%7CAm%C3%A9ricas" target="_blank" rel="noopener">Enviar correo</a>
+      <button class="btn" id="copyMail">Copiar correo</button>
+    </div>
+  </section>
+</aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+(function(){
+"use strict";
+/* ---------- utilidades ---------- */
+const $=(s,el=document)=>el.querySelector(s), $$=(s,el=document)=>Array.from(el.querySelectorAll(s));
+const MESES=["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+const MESES_L=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const NF={}; const nf=d=>NF[d]||(NF[d]=new Intl.NumberFormat("es-CO",{minimumFractionDigits:d,maximumFractionDigits:d}));
+const fmt=(v,d=0)=>(v==null||!isFinite(v))?"—":nf(d).format(v);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+/* prefijo propio: DataCafé Colombia vive en el mismo dominio github.io y comparte localStorage */
+const LSP="mca_";
+const LS={get(k,d){try{const v=localStorage.getItem(LSP+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(LSP+k,JSON.stringify(v))}catch(e){}}};
+function parseNum(s){
+  if(typeof s==="number") return s;
+  s=String(s||"").trim().replace(/[\s$¢%]/g,"");
+  if(!s) return NaN;
+  if(s.includes(",")) s=s.replace(/\./g,"").replace(",",".");
+  else if(/^-?\d{1,3}(\.\d{3})+$/.test(s)) s=s.replace(/\./g,"");
+  return Number(s);
+}
+function toDate(iso){ if(!iso) return null; return new Date(iso.length===10?iso+"T12:00:00":iso); }
+function fdate(iso,withYear){ const d=toDate(iso); if(!d||isNaN(d)) return ""; return d.toLocaleDateString("es-CO",withYear?{day:"numeric",month:"short",year:"numeric"}:{day:"numeric",month:"short"}).replace(".",""); }
+function ago(iso){ const d=toDate(iso); if(!d) return ""; const m=Math.round((Date.now()-d)/60000);
+  if(m<60) return "hace "+Math.max(1,m)+" min"; const h=Math.round(m/60); if(h<36) return "hace "+h+" h"; return "hace "+Math.round(h/24)+" días"; }
+let toastT; function toast(msg){ const t=$("#toast"); t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,2600); }
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+
+/* ---------- pestañas ---------- */
+const TABS=["calc","mercado","cosechas","catar","noticias","clima"];
+function show(t){
+  if(!TABS.includes(t)) t="calc";
+  $$(".view").forEach(v=>v.hidden=v.id!=="v-"+t);
+  $$(".tab").forEach(b=>b.setAttribute("aria-current",b.dataset.t===t?"page":"false"));
+  LS.set("mc_tab",t);
+}
+$$(".tab").forEach(b=>b.addEventListener("click",()=>{show(b.dataset.t);window.scrollTo(0,0);}));
+/* ---------- menú lateral ---------- */
+const drawer=$("#drawer"), drawerBg=$("#drawerBg"), menuBtn=$("#menuBtn");
+$("#dnav").innerHTML=$$(".tabbar .tab").map(b=>'<button data-t="'+b.dataset.t+'">'+b.innerHTML+'</button>').join("");
+function openDrawer(){ $$("#dnav button").forEach(b=>b.setAttribute("aria-current",LS.get("mc_tab","calc")===b.dataset.t?"page":"false"));
+  drawerBg.hidden=false; requestAnimationFrame(()=>{drawer.classList.add("open");drawerBg.classList.add("open");});
+  drawer.setAttribute("aria-hidden","false"); menuBtn.setAttribute("aria-expanded","true"); $("#drawerX").focus(); }
+function closeDrawer(){ if(!drawer.classList.contains("open")) return; drawer.classList.remove("open"); drawerBg.classList.remove("open");
+  drawer.setAttribute("aria-hidden","true"); menuBtn.setAttribute("aria-expanded","false"); setTimeout(()=>{ if(!drawer.classList.contains("open")) drawerBg.hidden=true; },230); menuBtn.focus(); }
+menuBtn.onclick=openDrawer; $("#drawerX").onclick=closeDrawer; drawerBg.onclick=closeDrawer;
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeDrawer(); });
+$$("#dnav button").forEach(b=>b.onclick=()=>{ show(b.dataset.t); window.scrollTo(0,0); closeDrawer(); });
+$("#copyMail").onclick=async()=>{ const m="s.avilanbr@gmail.com"; let ok=false;
+  try{ await navigator.clipboard.writeText(m); ok=true; }catch(e){
+    try{ const t=document.createElement("textarea"); t.value=m; t.style.position="fixed"; t.style.opacity="0"; document.body.appendChild(t); t.select(); ok=document.execCommand("copy"); t.remove(); }catch(_){} }
+  toast(ok?"Correo copiado":m); };
+const hashTab=(location.hash||"").replace("#","");
+show(TABS.includes(hashTab)?hashTab:LS.get("mc_tab","calc"));
+
+/* ---------- datos que llegan del feed ---------- */
+const FEED={mercado:null,noticias:null,clima:null,cosechas:null};
+
+/* =========================================================
+   MONEDA · un solo selector para mercado y calculadoras
+   ========================================================= */
+const CUR_LIST=[
+ ["BRL","Real brasileño","Brasil"],["USD","Dólar estadounidense","Ecuador, El Salvador, Panamá"],
+ ["MXN","Peso mexicano","México"],["GTQ","Quetzal","Guatemala"],["HNL","Lempira","Honduras"],["NIO","Córdoba","Nicaragua"],
+ ["CRC","Colón","Costa Rica"],
+ ["COP","Peso colombiano","Colombia"],["VES","Bolívar","Venezuela"],["PEN","Sol","Perú"],["BOB","Boliviano","Bolivia"]];
+const CUR_NAME=Object.fromEntries(CUR_LIST.map(c=>[c[0],c]));
+/* respaldo por si aún no llega el feed (16-oct-2026, ExchangeRate-API) */
+const FX_FALLBACK={asOf:"2026-10-16",rates:{BRL:5.0545,COP:3184.57,MXN:18.4572,GTQ:7.6408,HNL:26.8854,NIO:36.8163,CRC:455.44,VES:880.116,PEN:3.4353,BOB:11.7166}};
+/* unidad de compra y saco de exportación que se sugieren con cada moneda */
+const CUR_SUG={BRL:{u:60,s:60},COP:{u:125,s:70}};
+const sugOf=c=>CUR_SUG[c]||{u:46,s:69};
+const UNITS=[[125,"Carga 125 kg"],[60,"Saca 60 kg"],[46,"Quintal 46 kg"],[1,"Kilo"]];
+const SACOS=[[60,"60 kg"],[69,"69 kg"],[70,"70 kg"]];
+let cur=LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
+function fxData(){ const m=FEED.mercado; return (m&&m.fx&&m.fx.rates)?m.fx:null; }
+function rateOf(c){ if(c==="USD") return 1; const f=fxData(); const v=f&&+f.rates[c]; return (isFinite(v)&&v>0)?v:(FX_FALLBACK.rates[c]||NaN); }
+function rateAsOf(){ const f=fxData(); return f&&f.rates[cur]?f.asOf:FX_FALLBACK.asOf; }
+const rateDec=v=>v>=100?2:v>=10?3:4;
+function curOptions(){ return CUR_LIST.map(([c,n,p])=>'<option value="'+c+'"'+(c===cur?' selected':'')+'>'+c+' · '+esc(n)+' ('+esc(p)+')</option>').join(""); }
+
+/* =========================================================
+   CALCULADORAS
+   ========================================================= */
+const LB=2.2046;
+const USD_REF={pKgP:4.68,pC:0.94};   // precios de ejemplo en USD por kg, se pasan a la moneda elegida
+const CALC={
+  perg:{
+    inputs:["kgP","saco","kgU","carga","F","trm","tarifa","kc"],
+    sections:[
+      {t:"Cantidades",f:[["kgP","Kg totales pergamino","kg de pergamino seco",0,"key"],["saco","Tamaño de saco","kg de café verde por saco · base del factor",1],["kgE","Kg café verde","kg exportables · según el factor",1],["sacos","Sacos de café verde","sacos de {S} kg",1]]},
+      {t:"Precio en {M}",f:[["kgU","Unidad de compra","kg de pergamino seco por unidad",1],["carga","Precio por unidad","{M} por {U} kg de pergamino","L","key"],["pKgP","Precio pergamino","{M} por kg","L"],["F","Factor de rendimiento","kg pergamino por saco de {S} kg de café verde",1],["rend","Rendimiento","% de café verde sobre pergamino",1],["pExc","Precio café verde","{M} por kg","L"]]},
+      {t:"Exportación",f:[["trm","Tipo de cambio","{M} por USD","R"],["exw","Precio EXW","USD por libra",3],["tarifa","Tarifa exportación","USD por libra · costos, sin margen",3],["fob","Precio FOB","USD por libra",3,"key"],["kc","KC C1 bolsa NY","centavos por libra",2],["dif","Diferencial FOB vs KC","centavos por libra",1]]},
+      {t:"Totales del lote",f:[["totCOP","Valor total en {M}","{M}","L"],["totUSD","Valor total FOB","USD",0]]}
+    ],
+    compute(b){
+      const r={...b};
+      r.pKgP=b.carga/b.kgU; r.pExc=r.pKgP*b.F/b.saco; r.rend=100*b.saco/b.F; r.kgE=b.kgP*b.saco/b.F; r.sacos=r.kgE/b.saco;
+      r.exw=r.pExc/LB/b.trm; r.fob=r.exw+b.tarifa; r.dif=(r.fob-b.kc/100)*100;
+      r.totCOP=b.kgP*r.pKgP; r.totUSD=r.kgE*LB*r.fob; return r;
+    },
+    solve(k,v,b){
+      const cargaFromExc=x=>x*b.saco/b.F*b.kgU;
+      const cargaFromExw=x=>cargaFromExc(x*LB*b.trm);
+      switch(k){
+        case "kgE": b.kgP=v*b.F/b.saco; break;
+        case "sacos": b.kgP=v*b.F; break;
+        case "pKgP": b.carga=v*b.kgU; break;
+        case "pExc": b.carga=cargaFromExc(v); break;
+        case "rend": if(v>0) b.F=100*b.saco/v; break;
+        case "kgU": if(v>0){ const pk=b.carga/b.kgU; b.kgU=v; b.carga=pk*v; } break;
+        case "exw": b.carga=cargaFromExw(v); break;
+        case "fob": b.carga=cargaFromExw(v-b.tarifa); break;
+        case "dif": b.carga=cargaFromExw(b.kc/100+v/100-b.tarifa); break;
+        case "totCOP": if(b.kgP>0) b.carga=v/b.kgP*b.kgU; break;
+        case "totUSD": { const kgE=b.kgP*b.saco/b.F; if(kgE>0) b.carga=cargaFromExw(v/(kgE*LB)-b.tarifa); break; }
+        default: b[k]=v; if(k==="trm") b.trmManual=true; if(k==="kc") b.kcManual=true;
+      }
+    }
+  },
+  cer:{
+    inputs:["kgC","pC","conv","F"],
+    sections:[
+      {t:"Cantidades",f:[["kgC","Kg totales cereza","kg",0,"key"],["kgPS","Kg pergamino seco","kg",1],["kgE","Kg café verde (aprox.)","kg · con el factor de abajo",1]]},
+      {t:"Precios en {M}",f:[["pC","Precio cereza","{M} por kg","L","key"],["conv","Factor de conversión","kg pergamino seco por kg cereza",3],["pPS","Precio pergamino seco","{M} por kg","L"],["carga","Equivale a precio por unidad","{M} por {U} kg de pergamino","L"]]},
+      {t:"Calidad",f:[["F","Factor de rendimiento","kg pergamino por saco de {S} kg de café verde · el tamaño de saco se cambia en Pergamino",1]]},
+      {t:"Total del lote",f:[["totCOP","Valor total pagado","{M}","L"]]}
+    ],
+    compute(b){ const u=calcState.perg.kgU; const r={...b}; r.pPS=b.pC/b.conv; r.carga=r.pPS*u; r.kgPS=b.kgC*b.conv; r.kgE=r.kgPS*calcState.perg.saco/b.F; r.totCOP=b.kgC*b.pC; return r; },
+    solve(k,v,b){
+      switch(k){
+        case "pPS": b.pC=v*b.conv; break;
+        case "carga": b.pC=v/calcState.perg.kgU*b.conv; break;
+        case "kgPS": b.kgC=v/b.conv; break;
+        case "kgE": b.kgC=v*b.F/calcState.perg.saco/b.conv; break;
+        case "totCOP": if(b.kgC>0) b.pC=v/b.kgC; break;
+        default: b[k]=v;
+      }
+    }
+  }
+};
+const FIELD={}; Object.keys(CALC).forEach(id=>{ FIELD[id]={}; CALC[id].sections.forEach(s=>s.f.forEach(f=>FIELD[id][f[0]]=f[3])); });
+function niceRound(v){ if(!isFinite(v)||v<=0) return v; const p=Math.pow(10,Math.floor(Math.log10(v))-2); return Math.round(v/p)*p; }
+function defaultsFor(id){
+  const r=rateOf(cur)||1, s=sugOf(cur), m=FEED.mercado, kc=(m&&m.items&&m.items.kc1&&isFinite(m.items.kc1.value))?m.items.kc1.value:298.7;
+  const F0=92*s.s/70; /* 92 por saco de 70 kg = 76 % de rendimiento */
+  if(id==="perg") return {kgP:1000,saco:s.s,kgU:s.u,carga:niceRound(USD_REF.pKgP*s.u*r),F:F0,trm:r,tarifa:0.5,kc,trmManual:false,kcManual:false};
+  const sp=calcState.perg?calcState.perg.saco:s.s;
+  return {kgC:1000,pC:niceRound(USD_REF.pC*r),conv:0.2,F:92*sp/70};
+}
+const calcState={};
+calcState.perg={...defaultsFor("perg"),...LS.get("mc_calc_perg",{})};
+calcState.cer={...defaultsFor("cer"),...LS.get("mc_calc_cer",{})};
+let calcCur=LS.get("mc_calc_cur","perg");
+function decFor(id,k){ const d=FIELD[id][k]; const t=calcState.perg.trm; if(d==="L") return t>=100?0:2; if(d==="R") return rateDec(t); return d; }
+function tpl(s){ const b=calcState.perg; return String(s).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)); }
+function relabel(){ $$("#calcBody [data-tpl]").forEach(el=>el.textContent=tpl(el.dataset.tpl)); $$("#calcBody [data-unit]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.unit===calcState.perg.kgU)); $$("#calcBody [data-saco]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.saco===calcState.perg.saco)); }
+function calcValid(id,b){ if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
+function renderCurBar(){
+  const sel=$("#curSel"); if(sel&&document.activeElement!==sel) sel.innerHTML=curOptions();
+  const n=$("#curNote"); if(!n) return; const r=rateOf(cur);
+  n.textContent=cur==="USD"?"Precios en dólares: sin conversión.":"1 USD = "+fmt(r,rateDec(r))+" "+cur+" · al "+fdate(rateAsOf())+(fxData()&&fxData().rates[cur]?"":" (respaldo)");
+}
+function setCur(code){
+  if(!CUR_NAME[code]||code===cur) return;
+  const b=calcState.perg, c=calcState.cer, old=cur, newR=rateOf(code), oldR=b.trm;
+  if(!(newR>0)) return;
+  const k=oldR>0?newR/oldR:1, pk=b.carga/b.kgU*k, so=sugOf(old), sn=sugOf(code);
+  if(b.kgU===so.u&&b.saco===so.s&&sn.s!==so.s){ const kf=sn.s/so.s; b.kgU=sn.u; b.saco=sn.s; b.F=b.F*kf; c.F=c.F*kf; } else if(b.kgU===so.u&&b.saco===so.s){ b.kgU=sn.u; }
+  b.carga=pk*b.kgU; c.pC=c.pC*k; b.trm=newR; b.trmManual=false;
+  cur=code; LS.set("mc_cur",cur); LS.set("mc_calc_perg",b); LS.set("mc_calc_cer",c);
+  renderCalc(); renderMercado(); toast("Moneda: "+code+". Precios convertidos al nuevo cambio.");
+}
+$("#curSel").addEventListener("change",e=>setCur(e.target.value));
+function renderCalc(){
+  const def=CALC[calcCur], b=calcState[calcCur];
+  $("#segPerg").setAttribute("aria-pressed",calcCur==="perg"); $("#segCer").setAttribute("aria-pressed",calcCur==="cer");
+  renderCurBar();
+  let h="";
+  def.sections.forEach(s=>{
+    h+='<div class="card cgroup"><div class="eyebrow" data-tpl="'+esc(s.t)+'">'+esc(tpl(s.t))+'</div>';
+    s.f.forEach(([k,l,u,d,flag])=>{
+      const isIn=def.inputs.includes(k);
+      h+='<div class="crow'+(isIn?" in":"")+(flag==="key"?" key":"")+'"><label for="c-'+calcCur+'-'+k+'"><span data-tpl="'+esc(l)+'">'+esc(tpl(l))+'</span><span class="u" data-tpl="'+esc(u)+'">'+esc(tpl(u))+'</span></label>'+
+         '<input id="c-'+calcCur+'-'+k+'" data-k="'+k+'" inputmode="decimal" autocomplete="off" enterkeyhint="done"></div>';
+      if(calcCur==="perg"&&k==="kgU") h+='<div class="uchips" role="group" aria-label="Unidad de compra">'+UNITS.map(([v,t])=>'<button class="chip" data-unit="'+v+'" aria-pressed="'+(b.kgU===v)+'">'+t+'</button>').join("")+'</div>';
+      if(calcCur==="perg"&&k==="saco") h+='<div class="uchips" role="group" aria-label="Tamaño de saco">'+SACOS.map(([v,t])=>'<button class="chip" data-saco="'+v+'" aria-pressed="'+(b.saco===v)+'">'+t+'</button>').join("")+'</div>';
+    });
+    h+="</div>";
+  });
+  if(calcCur==="perg"){
+    h+='<div class="reset-row small muted" id="pergRef"></div>';
+  } else {
+    h+='<div class="reset-row"><button class="btn" id="toPerg">Llevar a la calculadora de pergamino</button><span class="small muted">Pasa los kg de pergamino seco, el precio por unidad y el factor.</span></div>';
+  }
+  h+='<div class="reset-row"><button class="btn ghost" id="calcReset">Restablecer valores iniciales</button></div>';
+  $("#calcBody").innerHTML=h;
+  fillCalc(null);
+  $$("#calcBody input").forEach(inp=>{
+    inp.addEventListener("focus",()=>{ const v=CALC[calcCur].compute(calcState[calcCur])[inp.dataset.k]; inp.value=isFinite(v)?String(+v.toFixed(Math.max(decFor(calcCur,inp.dataset.k),2))).replace(".",","):""; inp.select&&setTimeout(()=>inp.select(),0); });
+    inp.addEventListener("input",()=>{ const v=parseNum(inp.value); if(!isFinite(v)) return;
+      const nb={...calcState[calcCur]}; CALC[calcCur].solve(inp.dataset.k,v,nb);
+      if(!calcValid(calcCur,nb)) return;
+      calcState[calcCur]=nb; LS.set("mc_calc_"+calcCur,nb); fillCalc(inp); relabel(); refRow(); });
+    inp.addEventListener("blur",()=>fillCalc(null));
+  });
+  $$("#calcBody [data-unit]").forEach(bt=>bt.onclick=()=>{ const b=calcState.perg; CALC.perg.solve("kgU",+bt.dataset.unit,b); LS.set("mc_calc_perg",b); fillCalc(null); relabel(); });
+  $$("#calcBody [data-saco]").forEach(bt=>bt.onclick=()=>{ const b=calcState.perg; b.saco=+bt.dataset.saco; LS.set("mc_calc_perg",b); fillCalc(null); relabel(); refRow(); });
+  const tp=$("#toPerg"); if(tp) tp.onclick=()=>{ const r=CALC.cer.compute(calcState.cer);
+    Object.assign(calcState.perg,{kgP:r.kgPS,carga:r.carga,F:calcState.cer.F}); LS.set("mc_calc_perg",calcState.perg);
+    calcCur="perg"; LS.set("mc_calc_cur",calcCur); renderCalc(); toast("Datos pasados a pergamino"); };
+  $("#calcReset").onclick=()=>{ calcState[calcCur]=defaultsFor(calcCur); applyFeedToCalc(); LS.set("mc_calc_"+calcCur,calcState[calcCur]); renderCalc(); };
+  refRow();
+}
+function fillCalc(active){
+  const r=CALC[calcCur].compute(calcState[calcCur]);
+  $$("#calcBody input").forEach(inp=>{ if(inp===active) return; const k=inp.dataset.k; const nv=fmt(r[k],decFor(calcCur,k));
+    if(inp.value!==nv){ inp.value=nv; if(active){ inp.classList.remove("flash"); void inp.offsetWidth; inp.classList.add("flash"); } } });
+}
+function refRow(){
+  const el=$("#pergRef"); if(!el) return; const b=calcState.perg, m=FEED.mercado, parts=[];
+  const kc=m&&m.items&&m.items.kc1, r=rateOf(cur);
+  if(cur==="USD") parts.push("Precios en dólares: tipo de cambio 1");
+  else parts.push(b.trmManual?'Cambio manual · <button class="linkbtn" data-use="trm">usar '+cur+' del '+esc(fdate(rateAsOf()))+' ('+fmt(r,rateDec(r))+')</button>':'Cambio '+cur+'/USD del '+esc(fdate(rateAsOf())));
+  if(kc) parts.push(b.kcManual?'KC manual · <button class="linkbtn" data-use="kc">usar KC del '+esc(fdate(kc.asOf))+' ('+fmt(kc.value,2)+')</button>':'KC '+esc(kc.contract||"")+' al '+esc(fdate(kc.asOf)));
+  el.innerHTML=parts.join(" · ");
+  $$("[data-use]",el).forEach(bt=>bt.onclick=()=>{ if(bt.dataset.use==="trm"){b.trmManual=false;} else {b.kcManual=false;} applyFeedToCalc(); LS.set("mc_calc_perg",b); fillCalc(null); refRow(); });
+}
+function applyFeedToCalc(){
+  const b=calcState.perg;
+  if(!b.trmManual){ const r=rateOf(cur); if(r>0) b.trm=r; }
+  const m=FEED.mercado; if(!m||!m.items) return;
+  if(!b.kcManual&&m.items.kc1&&isFinite(m.items.kc1.value)) b.kc=m.items.kc1.value;
+}
+$$("#v-calc .seg button").forEach(bt=>bt.addEventListener("click",()=>{calcCur=bt.dataset.calc;LS.set("mc_calc_cur",calcCur);renderCalc();}));
+renderCalc();
+
+/* =========================================================
+   MERCADO
+   ========================================================= */
+let ajustes={retencionDias:60};
+function chgHTML(it){
+  if(it.change==null&&it.changePct==null) return "";
+  const v=it.change!=null?it.change:it.changePct; const cls=v>0?"up":v<0?"down":"flat"; const ar=v>0?"▲":v<0?"▼":"■";
+  let s=ar+" ";
+  if(it.change!=null) s+=(it.change>0?"+":"")+fmt(it.change,it.chgDec!=null?it.chgDec:(it.dec||0));
+  if(it.changePct!=null) s+=(it.change!=null?" (":"")+(it.changePct>0?"+":"")+fmt(it.changePct,2)+"%"+(it.change!=null?")":"");
+  return '<span class="chg '+cls+'">'+s+'</span>';
+}
+/* Páginas para consultar cada precio al día (no dependen del feed) */
+const KC_MES={Mar:"H",May:"K",Jul:"N",Sep:"U",Dic:"Z",Dec:"Z"};
+function kcContractURL(c){ const m=/^([A-Za-z]{3})-(\d{2})$/.exec(c||""); const code=m&&KC_MES[m[1]]; return code?"https://www.barchart.com/futures/quotes/KC"+code+m[2]+"/overview":null; }
+const LIVE={
+  kc1:{t:"Investing.com",u:"https://www.investing.com/commodities/us-coffee-c"},
+  kc2:{t:"Barchart",u:null}, kc3:{t:"Barchart",u:null}, kc4:{t:"Barchart",u:null},
+  robusta:{t:"Investing.com",u:"https://www.investing.com/commodities/london-coffee"},
+  cot:{t:"CFTC",u:"https://www.cftc.gov/dea/futures/ag_lf.htm"},
+  curve:{t:"Investing.com",u:"https://www.investing.com/commodities/us-coffee-c-contracts"}
+};
+function liveOf(key,it){ const L=LIVE[key]; if(!L) return null; let u=L.u;
+  if(!u&&/^kc[234]$/.test(key)) u=kcContractURL(it&&it.contract)||"https://www.investing.com/commodities/us-coffee-c-contracts";
+  return u?{t:L.t,u}:null; }
+function mcard(it,opt={}){
+  if(!it) return "";
+  const lv=opt.key?liveOf(opt.key,it):null;
+  const num=it.value==null?'<span style="font-size:15px">'+esc(it.text||"—")+'</span>':fmt(it.value,it.dec||0)+'<small>'+esc(it.unit||"")+'</small>';
+  const val=lv&&it.value!=null?'<a href="'+esc(lv.u)+'" target="_blank" rel="noopener" title="Ver precio al día en '+esc(lv.t)+'">'+num+'</a>':num;
+  return '<div class="card mcard'+(opt.cls?" "+opt.cls:"")+'"><div class="lbl">'+esc(it.label)+(it.contract?' · '+esc(it.contract):'')+'</div>'+
+    '<div class="val">'+val+'</div>'+chgHTML(it)+(it.note?'<div class="note">'+esc(it.note)+'</div>':'')+
+    (lv?'<a class="livelink" href="'+esc(lv.u)+'" target="_blank" rel="noopener" title="'+esc(lv.t)+'">Precio al día ↗</a>':'')+
+    '<div class="meta"><span>'+(it.asOf?"al "+esc(fdate(it.asOf)):"")+'</span>'+(it.url?'<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.source||"fuente")+'</a>':'<span>'+esc(it.source||"")+'</span>')+'</div></div>';
+}
+function curveSVG(pts){
+  if(!pts||pts.length<2) return "";
+  const W=320,H=120,pl=8,pr=8,pt=18,pb=22, vs=pts.map(p=>p.value), mn=Math.min(...vs), mx=Math.max(...vs), pad=(mx-mn)*0.25||1;
+  const lo=mn-pad, hi=mx+pad, x=i=>pl+(W-pl-pr)*i/(pts.length-1), y=v=>pt+(H-pt-pb)*(1-(v-lo)/(hi-lo));
+  let d=pts.map((p,i)=>(i?"L":"M")+x(i).toFixed(1)+" "+y(p.value).toFixed(1)).join(" ");
+  let s='<svg class="curve" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Curva de futuros KC">';
+  s+='<line x1="'+pl+'" x2="'+(W-pr)+'" y1="'+(H-pb)+'" y2="'+(H-pb)+'" stroke="var(--line)"/>';
+  s+='<path d="'+d+'" fill="none" stroke="var(--cherry)" stroke-width="2"/>';
+  pts.forEach((p,i)=>{ const anchor=i===0?"start":i===pts.length-1?"end":"middle";
+    s+='<circle cx="'+x(i)+'" cy="'+y(p.value)+'" r="3.2" fill="var(--surface)" stroke="var(--cherry)" stroke-width="2"/>';
+    s+='<text x="'+x(i)+'" y="'+(y(p.value)-7)+'" text-anchor="'+anchor+'" style="fill:var(--ink)">'+fmt(p.value,1)+'</text>';
+    s+='<text x="'+x(i)+'" y="'+(H-6)+'" text-anchor="'+anchor+'">'+esc(p.contract)+'</text>'; });
+  return s+"</svg>";
+}
+function fxCardHTML(){
+  const b=calcState.perg, f=fxData(), n=CUR_NAME[cur], r=rateOf(cur);
+  let h='<div class="card mcard fxcard"><label class="lbl" for="mktCur">Moneda local</label><select id="mktCur" class="cur-sel">'+curOptions()+'</select>';
+  if(cur==="USD"){ h+='<div class="val">1<small>USD/USD</small></div><div class="note">'+esc(n[2])+' usan dólar: no hay conversión.</div></div>'; }
+  else {
+    const has=f&&f.rates[cur];
+    h+='<div class="val">'+fmt(r,rateDec(r))+'<small>'+cur+'/USD</small></div><div class="note">'+esc(n[1])+' · '+esc(n[2])+'</div>'+
+      '<a class="livelink" href="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=USD&amp;To='+cur+'" target="_blank" rel="noopener" title="XE">Precio al día ↗</a>'+
+      '<div class="meta"><span>al '+esc(fdate(rateAsOf()))+'</span>'+(has&&f.url?'<a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.source||"fuente")+'</a>':'<span>respaldo de la app</span>')+'</div></div>';
+  }
+  h+='<div class="card mcard derived"><div class="lbl">Tasa en las calculadoras</div><div class="val">'+fmt(b.trm,rateDec(b.trm))+'<small>'+cur+'/USD</small></div>'+
+     '<div class="note">'+(b.trmManual?'Escribiste un cambio manual en la calculadora de pergamino.':'Al cambiar la moneda, las calculadoras toman esta tasa y convierten los precios.')+'</div>'+
+     '<button class="explain" data-go="calc">Ir a Calcular →</button></div>';
+  return h;
+}
+function ofertaHTML(of){
+  if(!of||!of.rows||!of.rows.length) return "";
+  const rows=[...of.rows].sort((a,b)=>b.value-a.value), all=rows.concat(of.ref?[of.ref]:[]), mx=Math.max(...all.map(r=>+r.value||0))||1;
+  return '<div class="card mcard wide"><div class="lbl">'+esc(of.title||"Producción por país")+'</div><ul class="obars">'+
+    all.map(r=>'<li'+(r===of.ref?' class="ref"':'')+'><span class="nm">'+esc(r.pais)+(r.note?'<span>'+esc(r.note)+'</span>':'')+'</span><span class="bar"><i style="width:'+(r.value/mx*100).toFixed(1)+'%"></i></span><span class="num">'+fmt(r.value,1)+'</span></li>').join("")+'</ul>'+
+    (of.nota?'<div class="note">'+esc(of.nota)+'</div>':'')+
+    '<div class="meta"><span>'+esc(of.unit||"")+(of.asOf?' · al '+esc(fdate(of.asOf,true)):'')+'</span>'+(of.url?'<a href="'+esc(of.url)+'" target="_blank" rel="noopener">'+esc(of.source||"fuente")+'</a>':'')+'</div></div>';
+}
+function renderMercado(){
+  const m=FEED.mercado, body=$("#mktBody");
+  let h='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+fxCardHTML()+'</div>';
+  if(!m||!m.items){ body.innerHTML=h+'<div class="empty"><strong>Todavía no hay datos de mercado.</strong>Aparecen aquí apenas corre la actualización de precios. Mientras tanto, las calculadoras usan un cambio de respaldo.</div>'; bindMkt(); return; }
+  const I=m.items;
+  $("#mktLede").textContent="Actualizado "+ago(m.updatedAt)+". Cada tarjeta muestra la fecha de su dato. Los futuros llegan con retraso; no es una pantalla de trading.";
+  h+='<div class="sec-h"><h3>Bolsa de Nueva York · arábica</h3></div><div class="mgrid">'+mcard(I.kc1,{key:'kc1'})+mcard(I.kc2,{key:'kc2'})+mcard(I.kc3,{key:'kc3'})+mcard(I.kc4,{key:'kc4'});
+  const cv=m.curve;
+  if(cv&&cv.points&&cv.points.length>1){
+    const p=cv.points, sp=[]; for(let i=0;i<Math.min(3,p.length-1);i++) sp.push({a:p[i].contract,b:p[i+1].contract,v:p[i].value-p[i+1].value});
+    const back=sp.length&&sp.every(s=>s.v>0), cont=sp.length&&sp.every(s=>s.v<0);
+    h+='<div class="card mcard wide"><div class="sec-h"><span class="lbl">Curva de futuros y spreads · al '+esc(fdate(cv.asOf))+'</span>'+
+      (back?'<span class="tag back">Backwardation</span>':cont?'<span class="tag cont">Contango</span>':'<span class="tag">Mixta</span>')+'</div>'+curveSVG(p)+
+      '<div class="mgrid" style="margin-top:6px">'+sp.map((s,i)=>'<div><div class="lbl">Spread C'+(i+1)+'–C'+(i+2)+' <span class="muted">('+esc(s.a)+'/'+esc(s.b)+')</span></div><div class="val" style="font-size:18px">'+(s.v>0?"+":"")+fmt(s.v,2)+'<small>¢/lb</small></div></div>').join("")+'</div>'+
+      '<button class="explain" data-explain="spreads" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+
+      '<div class="note" style="margin-top:6px">'+(back?"Los contratos cercanos valen más que los lejanos: el mercado paga por café disponible ya. Fijar a futuro sale más barato que comprar disponible.":cont?"Los lejanos valen más: hay holgura de oferta y el mercado paga por almacenar.":"Sin una pendiente clara.")+'</div>'+
+      '<a class="livelink" href="'+esc(LIVE.curve.u)+'" target="_blank" rel="noopener" title="'+esc(LIVE.curve.t)+'">Curva al día ↗</a>'+
+      '<div class="meta"><span></span>'+(cv.url?'<a href="'+esc(cv.url)+'" target="_blank" rel="noopener">'+esc(cv.source||"fuente")+'</a>':"")+'</div></div>';
+  }
+  h+='</div>';
+  // robusta
+  let arb=null; if(I.robusta&&I.kc1&&isFinite(I.robusta.value)&&isFinite(I.kc1.value)){ const rc=I.robusta.value/22.0462; arb={rc,v:I.kc1.value-rc}; }
+  h+='<div class="sec-h"><h3>Robusta</h3></div><div class="mgrid">'+mcard(I.robusta,{key:'robusta'});
+  if(arb) h+='<div class="card mcard derived"><div class="lbl">Arbitraje arábica − robusta</div><div class="val">'+fmt(arb.v,1)+'<small>¢/lb</small></div><div class="note">Robusta = '+fmt(arb.rc,1)+' ¢/lb. Si se abre mucho, los tostadores sustituyen arábica por robusta.</div>'+'<button class="explain" data-explain="arbitraje" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+'<div class="meta"><span>calculado</span></div></div>';
+  h+='</div>';
+  // OIC
+  if(I.icoComp||I.icoOM||I.icoBN){
+    h+='<div class="sec-h"><h3>Indicadores OIC por tipo de café</h3></div><div class="mgrid">'+mcard(I.icoComp)+mcard(I.icoOM)+mcard(I.icoBN)+mcard(I.icoCM)+mcard(I.icoRB)+'</div>';
+  }
+  h+='<div class="sec-h"><h3>Oferta y posicionamiento</h3></div><div class="mgrid">'+mcard(I.cot,{key:'cot'})+mcard(I.icestocks)+mcard(I.expoBR)+'</div>';
+  if(I.prodMundo||m.oferta){
+    h+='<div class="sec-h"><h3>Balance mundial</h3></div><div class="mgrid">'+mcard(I.prodMundo)+mcard(I.expoMundo)+mcard(I.stocksMundo)+ofertaHTML(m.oferta)+'</div>';
+  }
+  body.innerHTML=h;
+  bindMkt();
+}
+function bindMkt(){ const s=$("#mktCur"); if(s) s.onchange=e=>setCur(e.target.value); }
+
+/* ---------- panel "Cómo se calcula" ---------- */
+let sheetPrevFocus=null;
+function step(n,t,f,r,total){ return '<li'+(total?' class="total"':'')+'><span class="n">'+n+'</span><div><div class="t">'+t+'</div>'+(f?'<div class="f">'+f+'</div>':'')+(r?'<div class="r">'+r+'</div>':'')+'</div></li>'; }
+function explainHTML(key){
+  const m=FEED.mercado; if(!m||!m.items) return null; const I=m.items;
+  if(key==="arbitraje"){ const r=I.robusta,k=I.kc1; if(!r||!k||!isFinite(r.value)||!isFinite(k.value)) return null;
+    const rc=r.value/22.0462, v=k.value-rc;
+    let h='<p class="lede" style="margin:0">Distancia entre el arábica de Nueva York y el robusta de Londres, en la misma unidad. Cuando se abre mucho, los tostadores usan más robusta en sus mezclas y eso frena al arábica.</p>';
+    h+='<table class="inputs-t"><tr><td>KC C1 '+esc(k.contract||"")+'<br><span class="muted small">al '+esc(fdate(k.asOf))+'</span></td><td>'+fmt(k.value,2)+' ¢/lb</td></tr>'+
+      '<tr><td>Robusta '+esc(r.contract||"")+'<br><span class="muted small">al '+esc(fdate(r.asOf))+'</span></td><td>'+fmt(r.value,0)+' USD/t</td></tr></table>';
+    h+='<ol class="steps">'+
+      step(1,"Libras en una tonelada","1.000 kg × 2,20462",fmt(2204.62,2)+" lb")+
+      step(2,"Robusta en centavos por libra",fmt(r.value,0)+" USD/t × 100 ÷ 2.204,62 (equivale a ÷ 22,0462)",fmt(rc,2)+" ¢/lb")+
+      step(3,"Resta al arábica",fmt(k.value,2)+" − "+fmt(rc,2),fmt(v,1)+" ¢/lb",true)+'</ol>';
+    if(k.asOf!==r.asOf) h+='<p class="small muted" style="margin:0">Ojo: los dos precios no son de la misma fecha.</p>';
+    return {t:"Arbitraje arábica − robusta",h};
+  }
+  if(key==="spreads"){ const cv=m.curve; if(!cv||!cv.points||cv.points.length<2) return null; const p=cv.points;
+    let h='<p class="lede" style="margin:0">Cada spread es la resta entre un contrato y el siguiente de la curva de futuros KC, todos del '+esc(fdate(cv.asOf,true))+'.</p>';
+    h+='<table class="inputs-t">'+p.map((x,i)=>'<tr><td>C'+(i+1)+' · '+esc(x.contract)+'</td><td>'+fmt(x.value,2)+' ¢/lb</td></tr>').join("")+'</table>';
+    const sp=[]; for(let i=0;i<Math.min(3,p.length-1);i++) sp.push(p[i].value-p[i+1].value);
+    h+='<ol class="steps">'+sp.map((v,i)=>step(i+1,"Spread C"+(i+1)+"–C"+(i+2),p[i].contract+" − "+p[i+1].contract+" = "+fmt(p[i].value,2)+" − "+fmt(p[i+1].value,2),(v>0?"+":"")+fmt(v,2)+" ¢/lb",true)).join("")+'</ol>';
+    const back=sp.every(v=>v>0), cont=sp.every(v=>v<0);
+    h+='<p class="small muted" style="margin:0">'+(back?"Todos positivos: backwardation (el cercano vale más que el lejano).":cont?"Todos negativos: contango (el lejano vale más).":"Signos mezclados: curva sin pendiente clara.")+'</p>';
+    return {t:"Spreads de la curva KC",h};
+  }
+  return null;
+}
+function openExplain(key){
+  const x=explainHTML(key); if(!x) return;
+  closeExplain();
+  sheetPrevFocus=document.activeElement;
+  const bg=document.createElement("div"); bg.className="sheet-bg"; bg.id="sheetBg";
+  bg.innerHTML='<div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetT"><div class="sheet-h"><div><div class="eyebrow">Cómo se calcula</div><h3 id="sheetT">'+esc(x.t)+'</h3></div><button class="btn ghost" id="sheetX" aria-label="Cerrar">✕</button></div>'+x.h+'</div>';
+  document.body.appendChild(bg);
+  bg.addEventListener("click",e=>{ if(e.target===bg) closeExplain(); });
+  $("#sheetX").onclick=closeExplain; $("#sheetX").focus();
+}
+function closeExplain(){ const bg=$("#sheetBg"); if(!bg) return; bg.remove(); if(sheetPrevFocus&&sheetPrevFocus.focus&&document.contains(sheetPrevFocus)) sheetPrevFocus.focus(); }
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeExplain(); });
+$("#mktBody").addEventListener("click",e=>{ const b=e.target.closest&&e.target.closest("[data-explain]"); if(b) openExplain(b.dataset.explain); const g=e.target.closest&&e.target.closest("[data-go]"); if(g){ show(g.dataset.go); window.scrollTo(0,0); } });
+
+/* =========================================================
+   COSECHAS
+   ========================================================= */
+/* calendario típico de respaldo: un origen por país (Brasil en dos: arábica y conilon) */
+const REG_DEFAULT=[
+ ["mexico","México","Chiapas, Veracruz, Oaxaca, Puebla","México y Centroamérica",11,3,null,null,"alta","Zonas bajas desde octubre; las de altura pueden seguir hasta marzo-abril"],
+ ["guatemala","Guatemala","General","México y Centroamérica",11,3,null,null,"alta","Zonas bajas desde septiembre; Huehuetenango y altura hasta marzo-abril"],
+ ["honduras","Honduras","General","México y Centroamérica",11,3,null,null,"alta","El ciclo cafetero arranca el 1 de octubre; las zonas altas cosechan hasta abril"],
+ ["el-salvador","El Salvador","General","México y Centroamérica",11,3,null,null,"alta","Bajío primero; estricta altura de enero a marzo"],
+ ["nicaragua","Nicaragua","Jinotega, Matagalpa, Nueva Segovia","México y Centroamérica",11,3,null,null,"alta",""],
+ ["costa-rica","Costa Rica","General","México y Centroamérica",11,3,null,null,"media","Varía por región: Brunca empieza en agosto-septiembre; Tarrazú y Valle Occidental de noviembre a marzo"],
+ ["panama","Panamá","Chiriquí (Boquete, Volcán)","México y Centroamérica",12,3,null,null,"alta",""],
+ ["colombia","Colombia","General","Andes",9,12,4,6,"alta","Oferta casi todo el año: el sur (Nariño, Cauca, parte del Huila y Tolima) tiene la principal en el primer semestre"],
+ ["venezuela","Venezuela","Andes y Lara","Andes",10,1,null,null,"media",""],
+ ["ecuador","Ecuador","Loja, Zamora, El Oro","Andes",5,9,null,null,"media","Arábica de altura; el robusta de costa y Amazonía varía"],
+ ["peru","Perú","Cajamarca, Amazonas, San Martín, Junín, Cusco","Andes",4,9,null,null,"alta","El centro y el sur empiezan en marzo; el norte tiene el pico en junio-julio"],
+ ["bolivia","Bolivia","Yungas (Caranavi)","Andes",4,8,null,null,"media",""],
+ ["brasil-arabica","Brasil","Arábica (Sul de Minas, Cerrado, Mogiana)","Brasil",5,9,null,null,"alta","Pico de junio a agosto; un solo ciclo al año"],
+ ["brasil-conilon","Brasil","Conilon (Espírito Santo, Rondônia)","Brasil",4,7,null,null,"alta","Empieza antes que el arábica"]
+].map((r,i)=>({i,id:r[0],dep:r[1],sub:r[2],zona:r[3],pI:r[4],pF:r[5],mI:r[6],mF:r[7],conf:r[8],nota:r[9]}));
+let REG=REG_DEFAULT;
+function setREG(){ const c=FEED.cosechas; REG=(c&&Array.isArray(c.regiones)&&c.regiones.length)?c.regiones.map((r,i)=>({...r,i,pI:+r.pI,pF:+r.pF,mI:r.mI==null||r.mI===""?null:+r.mI,mF:r.mF==null||r.mF===""?null:+r.mF})):REG_DEFAULT; }
+const estadoOf=r=>{const c=FEED.cosechas; return c&&c.estado?c.estado[r.id]:null;};
+const shiftOf=r=>{const e=estadoOf(r); const w=e?(+e.ajusteSemanas||0):0; return Math.abs(w)>=3?(Math.round(w/4.3)||Math.sign(w)):0;};
+const reportesOf=r=>{const c=FEED.cosechas; return (c&&c.reportes||[]).filter(x=>x.region===r.id).sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha)));};
+function ajusteTxt(e){ if(!e) return ""; const w=+e.ajusteSemanas||0; return w>0?"Retrasada ~"+w+" sem":w<0?"Adelantada ~"+(-w)+" sem":""; }
+function estadoChips(r){ const e=estadoOf(r); if(!e) return ""; let h=""; const a=ajusteTxt(e); if(a) h+='<span class="flag m">'+esc(a)+'</span>'; if(e.volumen==="bajo") h+='<span class="flag alert">Volumen bajo</span>'; if(e.volumen==="alto") h+='<span class="flag p">Volumen alto</span>'; return h; }
+const inRange=(m,a,b)=>a==null?false:(a<=b?(m>=a&&m<=b):(m>=a||m<=b));
+const phase=(r,m)=>{ const s=shiftOf(r); const mm=((m-1-s)%12+12)%12+1; return inRange(mm,r.pI,r.pF)?"p":inRange(mm,r.mI,r.mF)?"m":null; };
+const subShort=r=>r.sub.split("(")[0].trim();
+const regName=r=>r.dep+(r.sub!=="General"&&REG.filter(x=>x.dep===r.dep).length>1?" · "+subShort(r):"");
+const TODAY_M=new Date().getMonth()+1;
+let selM=TODAY_M;
+function renderCosechas(){
+  $("#monthBar").innerHTML=MESES.map((n,i)=>'<button aria-pressed="'+(i+1===selM)+'" class="'+(i+1===TODAY_M?"today":"")+'" data-m="'+(i+1)+'">'+n+'</button>').join("");
+  $$("#monthBar button").forEach(b=>b.onclick=()=>{selM=+b.dataset.m;renderCosechas();});
+  const nx=selM%12+1;
+  const P=REG.filter(r=>phase(r,selM)==="p"), M=REG.filter(r=>phase(r,selM)==="m");
+  const start=REG.filter(r=>(phase(r,nx)&&phase(r,nx)!==phase(r,selM))).map(r=>({r,ph:phase(r,nx)}));
+  const ending=REG.filter(r=>{const ph=phase(r,selM);return ph&&phase(r,nx)!==ph;}).map(r=>({r,ph:phase(r,selM)}));
+  const li=(r,extra)=>{ const ch=estadoChips(r); return '<li>'+esc(regName(r))+'<span>'+esc(extra||(r.sub==="General"?r.zona:r.sub))+'</span>'+(ch?'<span class="chips" style="margin-top:3px">'+ch+'</span>':'')+'</li>'; };
+  const lbl=ph=>ph==="p"?"principal":"secundaria";
+  let h='<div class="sec-h"><h3>'+(selM===TODAY_M?"Ahora, en "+MESES_L[selM-1]:"En "+MESES_L[selM-1])+'</h3><span class="small muted">'+(P.length+M.length)+' de '+REG.length+' orígenes cosechando</span></div>';
+  h+='<div class="now-grid">';
+  h+='<div class="card now-col"><h3><i class="key-dot k-p"></i>Cosecha principal · '+P.length+'</h3>'+(P.length?'<ul class="rlist">'+P.map(r=>li(r)).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
+  h+='<div class="card now-col"><h3><i class="key-dot k-m"></i>Secundaria · '+M.length+'</h3>'+(M.length?'<ul class="rlist">'+M.map(r=>li(r)).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
+  h+='<div class="card now-col"><h3><i class="key-dot k-s"></i>Empiezan en '+MESES_L[nx-1]+' · '+start.length+'</h3>'+(start.length?'<ul class="rlist">'+start.map(o=>li(o.r,"Inicia "+lbl(o.ph))).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
+  h+='<div class="card now-col"><h3><i class="key-dot k-s"></i>Terminan en '+MESES_L[selM-1]+' · '+ending.length+'</h3>'+(ending.length?'<ul class="rlist">'+ending.map(o=>li(o.r,"Cierra "+lbl(o.ph))).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
+  h+='</div>';
+  $("#nowBody").innerHTML=h;
+  // este año: estado reportado y reportes
+  const C=FEED.cosechas; let y="";
+  if(C&&(C.estado||C.reportes)){
+    const est=REG.filter(r=>estadoOf(r)).sort((a,b)=>(phase(b,selM)?1:0)-(phase(a,selM)?1:0));
+    y+='<div class="card" style="padding:12px 14px;display:flex;flex-direction:column;gap:10px"><div class="sec-h"><h3>Así va la temporada'+(C.temporada?' '+esc(C.temporada):'')+'</h3><span class="small muted">'+(C.updatedAt?"Revisado "+esc(ago(C.updatedAt)):"")+'</span></div>';
+    if(est.length){ y+='<ul class="rlist" style="gap:12px">'+est.map(r=>{ const e=estadoOf(r), ph=phase(r,TODAY_M);
+      return '<li><b style="font-weight:600">'+esc(regName(r))+'</b>'+(ph?' <span class="flag '+ph+'">'+(ph==="p"?"Principal":"Secundaria")+' ahora</span>':'')+' '+estadoChips(r)+'<span style="color:var(--ink);font-size:13px;margin-top:2px">'+esc(e.resumen||"")+'</span><span>'+esc(fdate(e.fecha,true))+' · '+(e.url?'<a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.fuente||"fuente")+'</a>':esc(e.fuente||""))+'</span></li>'; }).join("")+'</ul>'; }
+    y+='</div>';
+    const reps=(C.reportes||[]).slice().sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha))).slice(0,8);
+    if(reps.length){ const rn=id=>{const r=REG.find(x=>x.id===id); return r?regName(r):id;};
+      y+='<div class="card" style="padding:12px 14px"><div class="sec-h" style="margin-bottom:4px"><h3>Reportes recientes</h3></div><ul class="news">'+reps.map(x=>'<li><div class="byline"><span class="scope '+(x.tipo==="campo"?"co":"mundo")+'">'+(x.tipo==="campo"?"Campo":"Noticia")+'</span><span>'+esc(rn(x.region))+'</span><span>'+esc(fdate(x.fecha))+'</span><span>'+(x.url?'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.fuente||"fuente")+'</a>':esc(x.fuente||""))+'</span></div><p style="color:var(--ink)">'+esc(x.texto)+'</p></li>').join("")+'</ul>'+
+        '<p class="small muted" style="margin:8px 0 0">¿Te llegó un dato de campo? Escríbeselo a Claude en el proyecto Coffee Buying y queda aquí para todo el equipo.</p></div>'; }
+  }
+  $("#yearBody").innerHTML=y;
+  // gantt
+  const zones=["México y Centroamérica","Andes","Brasil"];
+  let g='<colgroup><col class="c0">'+'<col>'.repeat(12)+'</colgroup><thead><tr><th></th>'+MESES.map((n,i)=>'<th class="'+(i+1===selM?"sel":"")+'" title="'+MESES_L[i]+'">'+n[0]+'</th>').join("")+'</tr></thead><tbody>';
+  const zoneNames={"México y Centroamérica":"México y Centroamérica","Andes":"Países andinos","Brasil":"Brasil · un solo ciclo"};
+  zones.forEach(z=>{ const rows=REG.filter(r=>r.zona===z); if(!rows.length) return;
+    g+='<tr class="zone"><th colspan="13">'+esc(zoneNames[z]||z)+'</th></tr>';
+    rows.forEach(r=>{ g+='<tr class="row" data-i="'+r.i+'" tabindex="0"><th>'+esc(r.dep)+(r.sub!=="General"?'<span>'+esc(r.sub.split("(")[0].trim())+'</span>':'')+'</th>';
+      for(let m=1;m<=12;m++){ const ph=phase(r,m); g+='<td class="'+(m===selM?"sel":"")+'">'+(ph?'<i class="'+ph+'"></i>':'')+'</td>'; }
+      g+='</tr>'; });
+  });
+  $("#gantt").innerHTML=g+"</tbody>";
+  $$("#gantt tr.row").forEach(tr=>{ const f=()=>{ const r=REG[+tr.dataset.i]; const d=$("#rowDetail"); d.hidden=false;
+    d.innerHTML='<b>'+esc(regName(r))+'</b> · '+esc(r.zona)+'<br>Principal: '+MESES[r.pI-1]+'–'+MESES[r.pF-1]+(r.mI?' · Secundaria (mitaca): '+MESES[r.mI-1]+'–'+MESES[r.mF-1]:' · Una sola cosecha')+' · Confianza '+esc(r.conf)+(r.nota?'<br><span class="muted">'+esc(r.nota)+'</span>':'')+(function(){ const e=estadoOf(r), rp=reportesOf(r).slice(0,3); let x=''; if(e) x+='<div style="margin-top:8px"><b>Este año:</b> '+esc(e.resumen||'')+' '+estadoChips(r)+'</div>'; if(rp.length) x+='<ul class="bul" style="margin-top:6px;font-size:13px">'+rp.map(p=>'<li>'+esc(fdate(p.fecha))+' · '+esc(p.texto)+' <span class="muted">('+esc(p.fuente||p.tipo)+')</span></li>').join('')+'</ul>'; return x; })(); };
+    tr.onclick=f; tr.onkeydown=e=>{if(e.key==="Enter")f();}; });
+  // supply bars
+  const W=340,H=120,pl=4,pr=4,pt=14,pb=18, cw=(W-pl-pr)/12, max=REG.length;
+  let s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Orígenes cosechando por mes">';
+  for(let m=1;m<=12;m++){ const p=REG.filter(r=>phase(r,m)==="p").length, mi=REG.filter(r=>phase(r,m)==="m").length;
+    const x=pl+(m-1)*cw+3, w=cw-6, hp=(H-pt-pb)*p/max, hm=(H-pt-pb)*mi/max;
+    if(m===selM) s+='<rect x="'+(x-2)+'" y="2" width="'+(w+4)+'" height="'+(H-pb+2)+'" rx="5" fill="var(--sunk)"/>';
+    s+='<rect x="'+x+'" y="'+(H-pb-hp)+'" width="'+w+'" height="'+hp+'" rx="2" fill="var(--leaf)"/>';
+    s+='<rect x="'+x+'" y="'+(H-pb-hp-hm)+'" width="'+w+'" height="'+hm+'" rx="2" fill="var(--amber)"/>';
+    s+='<text x="'+(x+w/2)+'" y="'+(H-pb-hp-hm-3)+'" text-anchor="middle" class="'+(m===selM?"sel":"")+'">'+(p+mi)+'</text>';
+    s+='<text x="'+(x+w/2)+'" y="'+(H-5)+'" text-anchor="middle" class="'+(m===selM?"sel":"")+'">'+MESES[m-1][0]+'</text>'; }
+  $("#supply").innerHTML=s+"</svg>";
+}
+renderCosechas();
+
+/* =========================================================
+   CLIMA
+   ========================================================= */
+function climaRows(cr){ return cr.region?REG.filter(r=>r.id===cr.region):REG.filter(r=>r.dep===cr.dept); }
+function climaName(cr){ const rows=climaRows(cr); return rows.length===1?regName(rows[0]):cr.dept; }
+function regStatus(cr){ const out=[];
+  climaRows(cr).forEach(r=>{ const ph=phase(r,TODAY_M); if(ph) out.push({ph,label:ph==="p"?"Cosecha principal":"Secundaria (mitaca)"}); });
+  return out; }
+function renderClima(){
+  const c=FEED.clima, body=$("#climaBody");
+  if(!c){ body.innerHTML='<div class="empty"><strong>Todavía no hay datos de clima.</strong>Aparecen aquí con la próxima actualización.</div>'; return; }
+  let h="";
+  const e=c.enso;
+  if(e){ h+='<div class="card enso"><div class="eyebrow">ENSO · '+esc(e.source||"")+(e.asOf?" · "+esc(fdate(e.asOf)):"")+'</div><div class="big">'+esc(e.status)+'</div><p class="lede" style="margin:0;color:var(--ink)">'+esc(e.headline||"")+'</p>';
+    if(e.facts&&e.facts.length) h+='<div class="facts">'+e.facts.map(f=>'<div class="fact"><b>'+esc(f.v)+'</b><span>'+esc(f.l)+'</span></div>').join("")+'</div>';
+    if(c.impactos&&c.impactos.length) h+='<div><div class="eyebrow" style="margin-bottom:4px">Qué significa para la compra en América</div><ul class="bul">'+c.impactos.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul></div>';
+    if(e.url) h+='<div class="small"><a href="'+esc(e.url)+'" target="_blank" rel="noopener">Ver discusión ENSO</a></div>';
+    h+='</div>'; }
+  if(c.avisos){ const d=c.avisos; h+='<div class="card" style="padding:14px 16px;display:flex;flex-direction:column;gap:8px"><div class="eyebrow">'+esc(d.source||"Avisos")+(d.asOf?" · "+esc(fdate(d.asOf)):"")+'</div><h3 style="font-size:17px">'+esc(d.headline)+'</h3>'+(d.items&&d.items.length?'<ul class="bul">'+d.items.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>':'')+
+    (d.links&&d.links.length?'<div class="small" style="display:flex;gap:12px;flex-wrap:wrap">'+d.links.map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.t)+'</a>').join("")+'</div>':'')+'</div>'; }
+  if(c.regions&&c.regions.length){
+    const fs=c.forecastSource||{}; const mx=Math.max(60,...c.regions.map(r=>r.p7||0));
+    const rs=[...c.regions].sort((a,b)=>(b.p7||0)-(a.p7||0));
+    h+='<div class="sec-h"><h3>Lluvia esperada · próximos 7 días</h3><span class="small muted">'+(fs.period?esc(fs.period):"")+'</span></div>';
+    h+='<div class="card"><ul class="reg">'+rs.map(r=>{
+      const cat=r.p7<25?["dry","Seco"]:r.p7>150?["wet","Muy lluvioso"]:r.p7>=75?["wet","Lluvioso"]:["","Moderado"];
+      const st=regStatus(r); const harvesting=st.length>0;
+      let flags=st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
+      if(harvesting&&r.p7>=100) flags+='<span class="flag alert">Lluvia en cosecha: vigilar secado y humedad</span>';
+      if(r.p7<25) flags+='<span class="flag">Semana seca</span>';
+      return '<li><div class="nm">'+esc(climaName(r))+'<span>'+esc(r.place)+' · '+fmt(r.tmin,0)+'–'+fmt(r.tmax,0)+' °C</span></div><div class="bar" title="'+esc(cat[1])+'"><i class="'+cat[0]+'" style="width:'+Math.min(100,(r.p7||0)/mx*100).toFixed(1)+'%"></i></div><div class="mm">'+fmt(r.p7,0)+' mm</div>'+(flags?'<div class="sub">'+flags+'</div>':'')+'</li>';
+    }).join("")+'</ul></div>';
+    h+='<div class="sources"><span>Pronóstico: '+(fs.url?'<a href="'+esc(fs.url)+'" target="_blank" rel="noopener">'+esc(fs.name||"modelo")+'</a>':esc(fs.name||""))+' en un punto cafetero representativo de cada país. Es un modelo global: úsalo como tendencia, no como dato de finca.</span></div>';
+  }
+  if(c.updatedAt) h+='<div class="sources"><span>Actualizado '+esc(ago(c.updatedAt))+'.</span></div>';
+  body.innerHTML=h;
+}
+
+/* =========================================================
+   NOTICIAS
+   ========================================================= */
+let newsF=LS.get("mc_newsF","all");
+function setNewsF(f){ newsF=f; LS.set("mc_newsF",f); renderNoticias(); }
+$$("#newsFilter .chip").forEach(b=>b.onclick=()=>setNewsF(b.dataset.f));
+/* países para el filtro: los del calendario y cualquier otro que traigan las noticias */
+function newsCountries(items){ const L=[...new Set(REG.map(r=>r.dep))]; items.forEach(x=>{ if(x.scope!=="mundo"&&x.pais&&!L.includes(x.pais)) L.push(x.pais); }); return L; }
+function renderNoticias(){
+  const n=FEED.noticias, body=$("#newsBody"), pr=$("#newsPais");
+  const all=(n&&n.items)||[], isAm=x=>x.scope!=="mundo";
+  const pais=newsF.startsWith("p:")?newsF.slice(2):null;
+  $$("#newsFilter .chip").forEach(x=>x.setAttribute("aria-pressed",x.dataset.f===newsF));
+  const cnt={}; all.forEach(x=>{ if(isAm(x)&&x.pais) cnt[x.pais]=(cnt[x.pais]||0)+1; });
+  pr.innerHTML=newsCountries(all).map(c=>{ const k=cnt[c]||0; return '<button class="chip'+(k?'':' zero')+'" data-p="'+esc(c)+'" aria-pressed="'+(pais===c)+'">'+esc(c)+'<span class="n">'+k+'</span></button>'; }).join("");
+  $$("[data-p]",pr).forEach(b=>b.onclick=()=>setNewsF(pais===b.dataset.p?"all":"p:"+b.dataset.p));
+  if(!all.length){ body.innerHTML='<div class="empty"><strong>Todavía no hay noticias.</strong>Se cargan con la próxima actualización.</div>'; return; }
+  $("#newsLede").textContent="Países productores de América primero, luego el mercado mundial. Actualizado "+ago(n.updatedAt)+".";
+  let items=[...all].sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+  if(pais) items=items.filter(x=>isAm(x)&&x.pais===pais);
+  else if(newsF==="am") items=items.filter(isAm); else if(newsF==="mundo") items=items.filter(x=>!isAm(x)); else items=items.filter(isAm).concat(items.filter(x=>!isAm(x)));
+  if(!items.length){ body.innerHTML='<div class="empty">'+(pais?'<strong>Sin noticias de '+esc(pais)+' en esta actualización.</strong>Revisa el filtro América o vuelve después de la próxima actualización.':'Sin noticias en este filtro.')+'</div>'; return; }
+  const by=x=>'<div class="byline"><span class="scope '+(isAm(x)?"co":"mundo")+'">'+esc(isAm(x)?(x.pais||"América"):"Mundo")+'</span>'+(x.tag?'<span>'+esc(x.tag)+'</span>':'')+'<span>'+esc(fdate(x.date))+'</span><span>'+esc(x.source||"")+'</span></div>';
+  const lead=items[0];
+  let h='<article class="card lead">'+by(lead)+'<h3><a href="'+esc(lead.url)+'" target="_blank" rel="noopener">'+esc(lead.title)+'</a></h3><p>'+esc(lead.summary||"")+'</p></article>';
+  h+='<ul class="news">'+items.slice(1).map(x=>'<li>'+by(x)+'<h3><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></h3>'+(x.summary?'<p>'+esc(x.summary)+'</p>':'')+'</li>').join("")+'</ul>';
+  body.innerHTML=h;
+}
+
+/* =========================================================
+   CATACIÓN
+   ========================================================= */
+const ATTRS=[["aroma","Fragancia / Aroma"],["sabor","Sabor"],["residual","Residual"],["acidez","Acidez"],["balance","Balance"],["cuerpo","Cuerpo"],["general","General"]];
+const CUPS=[["unif","Uniformidad"],["limpia","Taza limpia"],["dulzura","Dulzura"]];
+/* Descriptores organizados según las categorías de la rueda de sabores SCA/WCR, con algunos sabores frecuentes en cafés de América */
+const SCA=[
+ {c:"Floral",col:"#B5487F",g:[["",["Floral","Manzanilla","Rosa","Jazmín","Azahar","Lavanda","Hibisco"]],["Té",["Té negro","Té verde","Hierba limón"]]]},
+ {c:"Afrutado",col:"#C0392B",g:[["Frutos rojos",["Frutos rojos","Mora","Frambuesa","Arándano","Fresa","Grosella"]],["Fruta seca",["Fruta seca","Pasas","Ciruela pasa","Dátil","Higo"]],["Otras frutas",["Manzana","Manzana roja","Manzana verde","Pera","Durazno","Albaricoque","Ciruela","Cereza","Uva","Granada","Piña","Coco","Mango","Maracuyá","Papaya","Guayaba","Tamarindo","Frutos tropicales"]],["Cítricos",["Cítrico","Naranja","Mandarina","Toronja","Limón","Lima"]]]},
+ {c:"Ácido / fermentado",col:"#B58A00",g:[["Ácido",["Ácido","Ácido cítrico","Ácido málico","Ácido acético","Ácido butírico","Ácido isovalérico"]],["Alcohol / fermentado",["Vinoso","Licor","Ron","Whisky","Fermentado","Sobremaduro"]]]},
+ {c:"Verde / vegetal",col:"#4E8A3E",g:[["",["Herbáceo","Fresco","Vegetal","Verde oscuro","Vaina de arveja","Inmaduro","Heno","Crudo","Aceite de oliva","Leguminoso"]]]},
+ {c:"Tostado",col:"#8A5A3C",g:[["Cereal",["Cereal","Grano","Malta","Pan tostado"]],["Tabaco",["Tabaco","Tabaco de pipa"]],["Quemado",["Tostado oscuro","Ahumado","Ceniza","Acre"]]]},
+ {c:"Especias",col:"#A0522D",g:[["",["Especias","Canela","Clavo","Nuez moscada","Anís","Cardamomo","Jengibre","Pimienta","Picante"]]]},
+ {c:"Nuez / cacao",col:"#6B4A2E",g:[["Nuez",["Nuez","Almendra","Avellana","Maní","Nuez de nogal","Amaretto"]],["Cacao",["Cacao","Chocolate","Chocolate con leche","Chocolate amargo","Nibs de cacao"]]]},
+ {c:"Dulce",col:"#C77D1A",g:[["Azúcar morena",["Azúcar morena","Panela","Caramelo","Miel","Melaza","Jarabe de arce","Toffee"]],["",["Dulce","Vainilla","Vainillina","Aromas dulces"]]]},
+ {c:"Otros · papel y humedad",col:"#7A7A6A",g:[["",["Rancio","Cartón","Papel","Madera","Moho / humedad","Polvo húmedo","Tierra","Animal","Carne / caldo","Fenólico"]]]},
+ {c:"Otros · químico",col:"#5A6B7A",g:[["",["Amargo","Salado","Medicinal","Caucho","Petróleo","Mofeta"]]]}
+];
+const DESC_COL={}; SCA.forEach(cat=>cat.g.forEach(([,l])=>l.forEach(d=>DESC_COL[d.toLowerCase()]=cat.col)));
+const descList=c=>(c.descriptores||"").split(",").map(x=>x.trim()).filter(Boolean);
+function descOptions(ds){ const on=new Set(ds.map(x=>x.toLowerCase()));
+  return '<option value="">Elegir un sabor…</option>'+SCA.map(cat=>cat.g.map(([sub,l])=>'<optgroup label="'+esc(cat.c+(sub?" · "+sub:""))+'">'+l.map(d=>'<option value="'+esc(d)+'">'+(on.has(d.toLowerCase())?"✓ ":"")+esc(d)+'</option>').join("")+'</optgroup>').join("")).join(""); }
+function descChips(ds){ if(!ds.length) return '<span class="small muted">Aún no hay descriptores. Elige en la lista o escribe uno.</span>';
+  return ds.map(d=>'<button class="chip dchip" data-drm="'+esc(d)+'" aria-label="Quitar '+esc(d)+'"><i style="background:'+(DESC_COL[d.toLowerCase()]||"var(--muted)")+'"></i>'+esc(d)+'<span aria-hidden="true">✕</span></button>').join(""); }
+function score(c){ const a=ATTRS.reduce((s,[k])=>s+(+c.attrs[k]||0),0); const cups=CUPS.reduce((s,[k])=>s+2*(c[k]==null?5:+c[k]),0); return a+cups-(+c.defTazas||0)*(+c.defTipo||2); }
+function scoreCls(v){ return v>=86?"top":v>=84?"hi":""; }
+function scoreLabel(v){ return v>=90?"Excepcional":v>=85?"Excelente":v>=80?"Muy bueno · especialidad":"Por debajo de especialidad"; }
+function newCafe(n){ return {id:uid(),nombre:"",origen:"",variedad:"",proceso:"",mesa:n,attrs:Object.fromEntries(ATTRS.map(([k])=>[k,7.5])),unif:5,limpia:5,dulzura:5,defTazas:0,defTipo:2,descriptores:"",comentarios:""}; }
+function newSession(){ const d=new Date(); return {kind:"sesion",id:"s_"+uid(),name:"Catación "+d.toLocaleDateString("es-CO",{day:"numeric",month:"short"}).replace(".",""),date:d.toISOString().slice(0,10),catadores:"",status:"borrador",createdAt:d.toISOString(),updatedAt:d.toISOString(),cafes:[newCafe(1)]}; }
+const SAMPLE={kind:"sesion",id:"ejemplo",sample:true,name:"Sesión de ejemplo",date:new Date().toISOString().slice(0,10),catadores:"",status:"final",createdAt:new Date().toISOString(),
+  cafes:[{id:"ej1",nombre:"El Mirador · Borbón Rosado · Lavado",origen:"",variedad:"Borbón Rosado",proceso:"Lavado",mesa:1,attrs:{aroma:8.25,sabor:8.25,residual:8,acidez:7.75,balance:7.75,cuerpo:8,general:8.5},unif:5,limpia:5,dulzura:5,defTazas:0,defTipo:2,descriptores:"Manzana roja, Caramelo, Pasas, Amaretto",comentarios:"Buen café"}]};
+
+/* --- almacenamiento: db privado por usuario, o este navegador como respaldo --- */
+const Store={mode:"cargando",sessions:[],db:null,col:null,purged:false,chains:{},timers:{},
+  q(id,fn){ this.chains[id]=(this.chains[id]||Promise.resolve()).then(fn).catch(e=>{console.warn(e);toast(e&&e.code==="quota_exceeded"?"Memoria llena: elimina sesiones antiguas":"No se pudo guardar"+(e&&e.code?" ("+e.code+")":""));}); return this.chains[id]; },
+  saveSession(s,immediate){ s.updatedAt=new Date().toISOString(); const copy=JSON.parse(JSON.stringify(s));
+    if(this.mode==="db"){ clearTimeout(this.timers[s.id]); const go=()=>this.q(s.id,()=>this.col.doc(s.id).set(copy)); if(immediate) return go(); this.timers[s.id]=setTimeout(go,1100); }
+    else { const i=this.sessions.findIndex(x=>x.id===s.id); if(i>=0) this.sessions[i]=copy; else this.sessions.push(copy); LS.set("mc_sessions",this.sessions); }
+    return Promise.resolve(); },
+  deleteSession(id){ if(this.mode==="db"){ clearTimeout(this.timers[id]); return this.q(id,()=>this.col.doc(id).delete()); }
+    this.sessions=this.sessions.filter(x=>x.id!==id); LS.set("mc_sessions",this.sessions); renderCatar(); return Promise.resolve(); },
+  saveAjustes(){ const a={kind:"ajustes",...ajustes}; if(this.mode==="db") return this.q("ajustes",()=>this.col.doc("ajustes").set(a)); LS.set("mc_ajustes",ajustes); return Promise.resolve(); },
+  useLocal(){ this.mode="local"; this.sessions=LS.get("mc_sessions",[]); ajustes={...ajustes,...LS.get("mc_ajustes",{})}; this.purge(); renderCatar(); renderMercado(); },
+  purge(){ if(this.purged) return; this.purged=true; const lim=Date.now()-(ajustes.retencionDias||60)*864e5;
+    this.sessions.filter(s=>new Date(s.createdAt).getTime()<lim).forEach(s=>this.deleteSession(s.id)); }
+};
+let editing=null, openCafe=null, confirmDel=null;
+function expiresIn(s){ const t=new Date(s.createdAt).getTime()+(ajustes.retencionDias||60)*864e5; return Math.max(0,Math.ceil((t-Date.now())/864e5)); }
+function renderCatar(){
+  const body=$("#catarBody");
+  if(editing) return renderEditor();
+  const list=[...Store.sessions].sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)));
+  let h='<div class="sec-h"><div><h2>Catación</h2><p class="lede">Registra uno o varios cafés por sesión. Al terminar se guarda y puedes descargar el reporte en PDF.</p></div><button class="btn primary" id="newSess">Nueva sesión</button></div>';
+  h+='<div class="small muted" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">Las sesiones se borran solas después de <select id="retSel" class="chip" aria-label="Días de retención">'+[30,60,90].map(d=>'<option value="'+d+'"'+(d===(ajustes.retencionDias||60)?" selected":"")+'>'+d+' días</option>').join("")+'</select>'+
+     (Store.mode==="local"?'<span>· Guardadas solo en este navegador</span>':Store.mode==="db"?'<span>· Guardadas en tu cuenta, privadas</span>':'')+'</div>';
+  h+='<div class="sess-list">';
+  const all=list.length?list:[SAMPLE];
+  all.forEach(s=>{
+    const sc=s.cafes.map(c=>({c,v:score(c)})).sort((a,b)=>b.v-a.v); const best=sc[0];
+    h+='<div class="card sess"><div class="sess-top"><div><h3>'+esc(s.name)+'</h3><div class="small muted">'+esc(fdate(s.date,true))+' · '+s.cafes.length+' café'+(s.cafes.length===1?"":"s")+(s.catadores?' · '+esc(s.catadores):'')+'</div></div>'+
+      '<span class="status '+(s.sample?"sample":s.status==="final"?"final":"draft")+'">'+(s.sample?"Ejemplo":s.status==="final"?"Terminada":"Borrador")+'</span></div>';
+    if(best) h+='<div style="display:flex;align-items:center;gap:10px"><span class="score '+scoreCls(best.v)+'">'+fmt(best.v,2)+'</span><span class="small">'+esc(best.c.nombre||"Sin nombre")+'</span></div>';
+    h+='<div class="sess-top"><div class="acts"><button class="btn" data-open="'+esc(s.id)+'">'+(s.sample?"Usar como base":"Abrir")+'</button><button class="btn" data-pdf="'+esc(s.id)+'">PDF</button>'+
+      (s.sample?'':(confirmDel===s.id?'<button class="btn danger" data-del2="'+esc(s.id)+'">Confirmar eliminar</button><button class="btn ghost" data-cancel="1">Cancelar</button>':'<button class="btn ghost" data-del="'+esc(s.id)+'">Eliminar</button>'))+'</div>'+
+      (s.sample?'':'<span class="small muted">Se borra en '+expiresIn(s)+' días</span>')+'</div></div>';
+  });
+  h+='</div>';
+  if(!list.length) h+='<p class="small muted">Esta es una sesión de ejemplo. Tus sesiones aparecen aquí.</p>';
+  body.innerHTML=h;
+  $("#newSess").onclick=()=>{ editing=newSession(); openCafe=editing.cafes[0].id; Store.saveSession(editing,true); renderCatar(); window.scrollTo(0,0); };
+  $("#retSel").onchange=e=>{ ajustes.retencionDias=+e.target.value; Store.saveAjustes(); renderCatar(); };
+  $$("[data-open]",body).forEach(b=>b.onclick=()=>{ const s=b.dataset.open==="ejemplo"?SAMPLE:Store.sessions.find(x=>x.id===b.dataset.open);
+    if(s.sample){ editing=JSON.parse(JSON.stringify(s)); editing.id="s_"+uid(); delete editing.sample; editing.name="Catación "+new Date().toLocaleDateString("es-CO",{day:"numeric",month:"short"}).replace(".",""); editing.status="borrador"; editing.createdAt=new Date().toISOString(); }
+    else editing=JSON.parse(JSON.stringify(s));
+    openCafe=editing.cafes[0]&&editing.cafes[0].id; renderCatar(); window.scrollTo(0,0); });
+  $$("[data-pdf]",body).forEach(b=>b.onclick=()=>{ const s=b.dataset.pdf==="ejemplo"?SAMPLE:Store.sessions.find(x=>x.id===b.dataset.pdf); downloadPDF(s); });
+  $$("[data-del]",body).forEach(b=>b.onclick=()=>{confirmDel=b.dataset.del;renderCatar();});
+  $$("[data-cancel]",body).forEach(b=>b.onclick=()=>{confirmDel=null;renderCatar();});
+  $$("[data-del2]",body).forEach(b=>b.onclick=()=>{const id=b.dataset.del2;confirmDel=null;Store.deleteSession(id);toast("Sesión eliminada");});
+}
+function radarSVG(c,size){
+  const S=size||220, VW=S+80, cx=VW/2, cy=S/2+4, R=S/2-30, n=ATTRS.length, ang=i=>-Math.PI/2+i*2*Math.PI/n, rr=v=>R*Math.max(0,(v-6)/4);
+  let s='<svg class="radar" viewBox="0 0 '+VW+' '+(S+6)+'" role="img" aria-label="Perfil sensorial">';
+  [6,7,8,9,10].forEach(v=>{ const pts=ATTRS.map((_,i)=>(cx+Math.cos(ang(i))*R*(v-6)/4).toFixed(1)+","+(cy+Math.sin(ang(i))*R*(v-6)/4).toFixed(1)).join(" "); s+='<polygon points="'+pts+'" fill="none" stroke="var(--line)"/>'; });
+  ATTRS.forEach(([k,l],i)=>{ s+='<line x1="'+cx+'" y1="'+cy+'" x2="'+(cx+Math.cos(ang(i))*R)+'" y2="'+(cy+Math.sin(ang(i))*R)+'" stroke="var(--line)"/>';
+    const lx=cx+Math.cos(ang(i))*(R+14), ly=cy+Math.sin(ang(i))*(R+14)+3; const an=Math.abs(Math.cos(ang(i)))<.2?"middle":Math.cos(ang(i))>0?"start":"end";
+    s+='<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" text-anchor="'+an+'">'+esc(l.split(" ")[0])+'</text>'; });
+  const pts=ATTRS.map(([k],i)=>(cx+Math.cos(ang(i))*rr(+c.attrs[k])).toFixed(1)+","+(cy+Math.sin(ang(i))*rr(+c.attrs[k])).toFixed(1)).join(" ");
+  s+='<polygon points="'+pts+'" fill="color-mix(in srgb,var(--cherry) 22%,transparent)" stroke="var(--cherry)" stroke-width="2"/>';
+  return s+"</svg>";
+}
+function renderEditor(){
+  const s=editing, body=$("#catarBody");
+  const sc=s.cafes.map(c=>({c,v:score(c)})).sort((a,b)=>b.v-a.v);
+  let h='<div class="sec-h"><button class="btn ghost" id="backList">← Sesiones</button><span class="status '+(s.status==="final"?"final":"draft")+'">'+(s.status==="final"?"Terminada":"Borrador · se guarda solo")+'</span></div>';
+  h+='<div class="card" style="padding:14px"><div class="fgrid"><div class="field full"><label for="sName">Nombre de la sesión</label><input id="sName" value="'+esc(s.name)+'"></div>'+
+     '<div class="field"><label for="sDate">Fecha</label><input id="sDate" type="date" value="'+esc(s.date)+'"></div><div class="field"><label for="sCat">Catador(es)</label><input id="sCat" value="'+esc(s.catadores)+'" placeholder="Nombres"></div></div></div>';
+  if(s.cafes.length>1){ h+='<div class="card" style="padding:10px 14px"><div class="eyebrow" style="margin-bottom:2px">Ranking de la sesión</div><ol class="rank">'+sc.map(o=>'<li><span class="num muted" style="width:44px">M'+esc(o.c.mesa)+'</span><span class="nm">'+esc(o.c.nombre||"Sin nombre")+'<span>'+esc(o.c.descriptores||"")+'</span></span><span class="score '+scoreCls(o.v)+'">'+fmt(o.v,2)+'</span></li>').join("")+'</ol></div>'; }
+  s.cafes.forEach(c=>{ const v=score(c), open=openCafe===c.id;
+    h+='<div class="card cafe" data-cid="'+c.id+'"><button class="cafe-h" data-tog="'+c.id+'" aria-expanded="'+open+'"><span class="mesa">Mesa '+esc(c.mesa)+'</span><span class="nm">'+esc(c.nombre||"Café sin nombre")+'</span><span class="score '+scoreCls(v)+'" data-sc="'+c.id+'">'+fmt(v,2)+'</span></button>';
+    if(open){
+      h+='<div class="cafe-b"><div class="fgrid"><div class="field full"><label>Café · finca · lote</label><input data-f="nombre" value="'+esc(c.nombre)+'" placeholder="Ej. El Mirador lote 3"></div>'+
+         '<div class="field"><label>Origen</label><input data-f="origen" list="deptos" value="'+esc(c.origen)+'" placeholder="País · región"></div>'+
+         '<div class="field"><label>Mesa</label><input data-f="mesa" inputmode="numeric" value="'+esc(c.mesa)+'"></div>'+
+         '<div class="field"><label>Variedad</label><input data-f="variedad" value="'+esc(c.variedad)+'"></div>'+
+         '<div class="field"><label>Proceso</label><input data-f="proceso" list="procesos" value="'+esc(c.proceso)+'"></div></div>';
+      h+='<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Atributos · 6 a 10</div>'+ATTRS.map(([k,l])=>'<div class="attr"><label for="a-'+c.id+'-'+k+'">'+esc(l)+'</label><input type="range" id="a-'+c.id+'-'+k+'" min="6" max="10" step="0.25" data-a="'+k+'" value="'+c.attrs[k]+'"><output class="num" id="o-'+c.id+'-'+k+'">'+fmt(+c.attrs[k],2)+'</output></div>').join("")+'</div>';
+      h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Tazas que cumplen · de 5 (2 puntos c/u)</div>'+CUPS.map(([k,l])=>'<div class="cups"><span style="font-size:13.5px">'+esc(l)+'</span><div class="c" role="group" aria-label="'+esc(l)+'">'+[0,1,2,3,4,5].map(n=>'<button data-cup="'+k+'" data-n="'+n+'" aria-pressed="'+(+c[k]===n)+'">'+n+'</button>').join("")+'</div></div>').join("")+'</div>';
+      h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Defectos</div><div class="cups"><span style="font-size:13.5px">Tazas</span><div class="c">'+[0,1,2,3,4,5].map(n=>'<button data-def="'+n+'" aria-pressed="'+(+c.defTazas===n)+'">'+n+'</button>').join("")+'</div></div>'+
+         '<div class="cups"><span style="font-size:13.5px">Intensidad</span><div class="seg"><button data-dt="2" aria-pressed="'+(+c.defTipo===2)+'">Leve ×2</button><button data-dt="4" aria-pressed="'+(+c.defTipo===4)+'">Falla ×4</button></div></div></div>';
+      const ds=descList(c);
+      h+='<div class="field"><label for="ds-'+c.id+'">Descriptores · rueda de sabores SCA</label><select id="ds-'+c.id+'" data-dsel>'+descOptions(ds)+'</select>'+
+         '<div class="chips desc-chips" data-dchips style="margin-top:4px">'+descChips(ds)+'</div>'+
+         '<div class="desc-other"><input data-dother placeholder="Otro descriptor" aria-label="Otro descriptor" enterkeyhint="done"><button class="btn" data-dadd>Agregar</button></div></div>';
+      h+='<div class="field"><label>Comentarios</label><textarea data-f="comentarios">'+esc(c.comentarios)+'</textarea></div>';
+      h+=radarSVG(c);
+      h+='<div class="ed-actions"><span class="small muted" data-lbl="'+c.id+'">'+esc(scoreLabel(v))+'</span>'+(s.cafes.length>1?'<button class="btn ghost danger" data-rmcafe="'+c.id+'">Quitar café</button>':'')+'</div>';
+      h+='</div>';
+    }
+    h+='</div>';
+  });
+  h+='<datalist id="deptos">'+[...new Set(REG.map(r=>r.dep))].map(d=>'<option value="'+esc(d)+'">').join("")+'</datalist><datalist id="procesos"><option value="Lavado"><option value="Honey"><option value="Natural"><option value="Fermentación anaeróbica"><option value="Doble fermentación"></datalist>';
+  h+='<button class="btn" id="addCafe">+ Agregar café</button>';
+  h+='<div class="ed-actions"><button class="btn primary" id="finish">'+(s.status==="final"?"Guardar cambios":"Terminar y guardar")+'</button><button class="btn" id="edPdf">Descargar PDF</button></div>';
+  h+='<p class="small muted">Puntaje = suma de los 7 atributos + 2 × (uniformidad + taza limpia + dulzura) − tazas con defecto × intensidad.</p>';
+  body.innerHTML=h;
+  const save=()=>Store.saveSession(editing);
+  $("#backList").onclick=()=>{ Store.saveSession(editing,true); editing=null; renderCatar(); };
+  $("#sName").oninput=e=>{s.name=e.target.value;save();}; $("#sDate").onchange=e=>{s.date=e.target.value;save();}; $("#sCat").oninput=e=>{s.catadores=e.target.value;save();};
+  $$("[data-tog]",body).forEach(b=>b.onclick=()=>{ openCafe=openCafe===b.dataset.tog?null:b.dataset.tog; renderEditor(); });
+  $$(".cafe",body).forEach(card=>{ const c=s.cafes.find(x=>x.id===card.dataset.cid); if(!c) return;
+    const upd=()=>{ const v=score(c); const sb=$('[data-sc="'+c.id+'"]',card); sb.textContent=fmt(v,2); sb.className="score "+scoreCls(v); const l=$('[data-lbl="'+c.id+'"]',card); if(l) l.textContent=scoreLabel(v); const rd=$(".radar",card); if(rd) rd.outerHTML=radarSVG(c); save(); };
+    $$("[data-f]",card).forEach(inp=>inp.oninput=()=>{ const k=inp.dataset.f; c[k]=k==="mesa"?inp.value.replace(/\D/g,""):inp.value; if(k==="nombre") $(".nm",card).textContent=c.nombre||"Café sin nombre"; if(k==="mesa") $(".mesa",card).textContent="Mesa "+c.mesa;
+      save(); });
+    $$("[data-a]",card).forEach(r=>r.oninput=()=>{ c.attrs[r.dataset.a]=+r.value; $("#o-"+c.id+"-"+r.dataset.a).textContent=fmt(+r.value,2); upd(); });
+    $$("[data-cup]",card).forEach(b=>b.onclick=()=>{ c[b.dataset.cup]=+b.dataset.n; $$('[data-cup="'+b.dataset.cup+'"]',card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
+    $$("[data-def]",card).forEach(b=>b.onclick=()=>{ c.defTazas=+b.dataset.def; $$("[data-def]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
+    $$("[data-dt]",card).forEach(b=>b.onclick=()=>{ c.defTipo=+b.dataset.dt; $$("[data-dt]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
+    const dsel=$("[data-dsel]",card), dchips=$("[data-dchips]",card), dother=$("[data-dother]",card);
+    const setDesc=ds=>{ c.descriptores=ds.join(", "); dchips.innerHTML=descChips(ds); dsel.innerHTML=descOptions(ds); bindDchips(); save(); };
+    const addDesc=(d,toggle)=>{ d=d.trim(); if(!d) return; const ds=descList(c), i=ds.findIndex(x=>x.toLowerCase()===d.toLowerCase());
+      if(i>=0){ if(toggle) ds.splice(i,1); } else ds.push(d); setDesc(ds); };
+    const bindDchips=()=>$$("[data-drm]",dchips).forEach(b=>b.onclick=()=>setDesc(descList(c).filter(x=>x.toLowerCase()!==b.dataset.drm.toLowerCase())));
+    if(dsel){ bindDchips();
+      dsel.onchange=()=>{ const v=dsel.value; if(v) addDesc(v,true); dsel.value=""; };
+      const addOther=()=>{ dother.value.split(",").forEach(x=>addDesc(x,false)); dother.value=""; };
+      $("[data-dadd]",card).onclick=addOther; dother.onkeydown=e=>{ if(e.key==="Enter"){ e.preventDefault(); addOther(); } }; }
+    const rm=$("[data-rmcafe]",card); if(rm) rm.onclick=()=>{ s.cafes=s.cafes.filter(x=>x.id!==c.id); openCafe=s.cafes[0]&&s.cafes[0].id; save(); renderEditor(); };
+  });
+  $("#addCafe").onclick=()=>{ const n=Math.max(0,...s.cafes.map(c=>+c.mesa||0))+1; const c=newCafe(n); s.cafes.push(c); openCafe=c.id; save(); renderEditor(); setTimeout(()=>{const el=$('[data-cid="'+c.id+'"]'); el&&el.scrollIntoView({behavior:"smooth",block:"start"});},30); };
+  $("#finish").onclick=()=>{ s.status="final"; s.finishedAt=new Date().toISOString(); Store.saveSession(s,true); toast("Sesión guardada"); renderEditor(); };
+  $("#edPdf").onclick=()=>downloadPDF(s);
+}
+
+/* --- PDF --- */
+function buildPDF(s){
+  const J=window.jspdf&&window.jspdf.jsPDF; if(!J) throw new Error("jspdf");
+  const doc=new J({unit:"mm",format:"a4"}); const W=210, M=16; let y=18;
+  const ink=[28,34,23], mut=[91,100,83], cher=[168,38,28], leaf=[46,94,58], line=[210,215,198];
+  const T=(t,x,yy,o)=>doc.text(Array.isArray(t)?t:String(t).replace(/\u2212/g,"-"),x,yy,o);
+  doc.setFillColor(...cher); doc.ellipse(M+2,y-1.6,2,2.6,"F");
+  doc.setFont("helvetica","bold"); doc.setFontSize(18); doc.setTextColor(...ink); T("Reporte de catación",M+7,y);
+  doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(...mut);
+  y+=7; T(s.name+"  ·  "+fdate(s.date,true)+(s.catadores?"  ·  Catador(es): "+s.catadores:""),M,y);
+  y+=4; doc.setDrawColor(...line); doc.line(M,y,W-M,y); y+=8;
+  const ranked=s.cafes.map(c=>({c,v:score(c)})).sort((a,b)=>b.v-a.v);
+  doc.setFont("helvetica","bold"); doc.setFontSize(9); doc.setTextColor(...mut);
+  T("MESA",M,y); T("CAFÉ",M+16,y); T("DESCRIPTORES",M+86,y); T("PUNTAJE",W-M,y,{align:"right"}); y+=3; doc.line(M,y,W-M,y); y+=5;
+  doc.setFont("helvetica","normal"); doc.setFontSize(10);
+  ranked.forEach(({c,v})=>{ const nm=doc.splitTextToSize(c.nombre||"Sin nombre",66), ds=doc.splitTextToSize(c.descriptores||"—",62); const hh=Math.max(nm.length,ds.length)*4.6;
+    if(y+hh>280){doc.addPage();y=20;}
+    doc.setTextColor(...mut); T(String(c.mesa),M,y); doc.setTextColor(...ink); T(nm,M+16,y); doc.setTextColor(...mut); T(ds,M+86,y);
+    doc.setTextColor(...(v>=84?leaf:ink)); doc.setFont("helvetica","bold"); T(fmt(v,2),W-M,y,{align:"right"}); doc.setFont("helvetica","normal");
+    y+=hh+2; doc.setDrawColor(...line); doc.line(M,y-3,W-M,y-3); });
+  ranked.forEach(({c,v})=>{
+    if(y>190){doc.addPage();y=20;} else y+=6;
+    doc.setFont("helvetica","bold"); doc.setFontSize(13); doc.setTextColor(...ink); T("Mesa "+c.mesa+" · "+(c.nombre||"Sin nombre"),M,y,{maxWidth:150});
+    doc.setFontSize(13); doc.setTextColor(...cher); T(fmt(v,2),W-M,y,{align:"right"}); y+=5;
+    doc.setFont("helvetica","normal"); doc.setFontSize(9.5); doc.setTextColor(...mut);
+    T([c.origen,c.variedad,c.proceso].filter(Boolean).join(" · ")||scoreLabel(v),M,y); T(scoreLabel(v),W-M,y,{align:"right"}); y+=4;
+    const top=y; let yy=y+4;
+    doc.setFontSize(10);
+    ATTRS.forEach(([k,l])=>{ doc.setTextColor(...ink); T(l,M,yy); T(fmt(+c.attrs[k],2),M+62,yy,{align:"right"});
+      doc.setFillColor(...line); doc.rect(M+66,yy-2.6,40,2.4,"F"); doc.setFillColor(...cher); doc.rect(M+66,yy-2.6,40*Math.max(0,(+c.attrs[k]-6)/4),2.4,"F"); yy+=5.6; });
+    CUPS.forEach(([k,l])=>{ doc.setTextColor(...ink); T(l,M,yy); T((c[k]==null?5:c[k])+"/5  ("+fmt(2*(c[k]==null?5:+c[k]),0)+" pts)",M+62,yy,{align:"right"}); yy+=5.6; });
+    doc.setTextColor(...ink); T("Defectos",M,yy); T((+c.defTazas||0)+" × "+(+c.defTipo||2)+"  (−"+fmt((+c.defTazas||0)*(+c.defTipo||2),0)+")",M+62,yy,{align:"right"}); yy+=5.6;
+    // radar
+    const cx=W-M-34, cy=top+26, R=22, n=ATTRS.length, ang=i=>-Math.PI/2+i*2*Math.PI/n;
+    doc.setDrawColor(...line); doc.setLineWidth(.2);
+    [7,8,9,10].forEach(v=>{ const r=R*(v-6)/4; for(let i=0;i<n;i++){ const a=ang(i),b=ang((i+1)%n); doc.line(cx+Math.cos(a)*r,cy+Math.sin(a)*r,cx+Math.cos(b)*r,cy+Math.sin(b)*r);} });
+    doc.setFontSize(7); doc.setTextColor(...mut);
+    ATTRS.forEach(([k,l],i)=>{ doc.line(cx,cy,cx+Math.cos(ang(i))*R,cy+Math.sin(ang(i))*R); const ca=Math.cos(ang(i));
+      T(l.split(" ")[0],cx+ca*(R+3),cy+Math.sin(ang(i))*(R+3)+1,{align:Math.abs(ca)<.2?"center":ca>0?"left":"right"}); });
+    const P=ATTRS.map(([k],i)=>{const r=R*Math.max(0,(+c.attrs[k]-6)/4);return [cx+Math.cos(ang(i))*r,cy+Math.sin(ang(i))*r];});
+    doc.setDrawColor(...cher); doc.setLineWidth(.7); for(let i=0;i<n;i++){ const a=P[i],b=P[(i+1)%n]; doc.line(a[0],a[1],b[0],b[1]); }
+    doc.setLineWidth(.2);
+    y=Math.max(yy,cy+R+8);
+    doc.setFontSize(10);
+    if(c.descriptores){ doc.setFont("helvetica","bold"); doc.setTextColor(...ink); T("Descriptores",M,y); doc.setFont("helvetica","normal"); const t=doc.splitTextToSize(c.descriptores,W-2*M-30); T(t,M+30,y); y+=t.length*4.6+1.5; }
+    if(c.comentarios){ doc.setFont("helvetica","bold"); doc.setTextColor(...ink); T("Comentarios",M,y); doc.setFont("helvetica","normal"); const t=doc.splitTextToSize(c.comentarios,W-2*M-30); T(t,M+30,y); y+=t.length*4.6+1.5; }
+    doc.setDrawColor(...line); doc.line(M,y+1,W-M,y+1); y+=4;
+  });
+  const pages=doc.getNumberOfPages();
+  for(let p=1;p<=pages;p++){ doc.setPage(p); doc.setFontSize(8); doc.setTextColor(...mut);
+    T("DataCafé|Américas · Puntaje = 7 atributos + 2×(uniformidad + taza limpia + dulzura) − defectos",M,290); T(p+" / "+pages,W-M,290,{align:"right"}); }
+  return doc.output("arraybuffer");
+}
+async function downloadPDF(s){
+  let buf; try{ buf=buildPDF(s); }catch(e){ console.warn(e); toast(navigator.onLine?"No se pudo generar el PDF":"Conéctate a internet una vez para activar los PDF"); return; }
+  const fn=("Catacion "+s.name+" "+s.date).replace(/[^\wÁÉÍÓÚáéíóúÑñ\- ]+/g,"").replace(/\s+/g,"_")+".pdf";
+  const blob=new Blob([buf],{type:"application/pdf"});
+  try{
+    const file=new File([blob],fn,{type:"application/pdf"});
+    if(navigator.canShare&&navigator.canShare({files:[file]})){ await navigator.share({files:[file],title:s.name}); return; }
+  }catch(e){ if(e&&e.name==="AbortError") return; }
+  const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download=fn; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),60000); toast("PDF descargado");
+}
+
+/* =========================================================
+   CONEXIÓN CON LOS DATOS
+   ========================================================= */
+function renderPill(){
+  const m=FEED.mercado, pill=$("#feedPill"), t=$("#feedPillTxt");
+  if(!m||!m.updatedAt){ pill.className="pill"; t.textContent="Sin datos aún"; return; }
+  const hrs=(Date.now()-toDate(m.updatedAt))/36e5; pill.className="pill "+(hrs>36?"stale":"ok"); t.innerHTML='<span class="pfx">Datos </span>'+esc(ago(m.updatedAt));
+}
+function onFeed(){ applyFeedToCalc(); fillCalcSafe(); setREG(); renderCosechas(); renderMercado(); renderClima(); renderNoticias(); renderPill(); }
+function fillCalcSafe(){ if(!document.activeElement||!document.activeElement.closest||!document.activeElement.closest("#calcBody")) { fillCalc(null); refRow(); } renderCurBar(); }
+renderMercado(); renderClima(); renderNoticias(); renderCatar(); renderPill();
+setInterval(renderPill,60000);
+
+/* datos publicados junto a la app (los actualiza la tarea programada) */
+const FEEDS=["mercado","noticias","clima","cosechas"];
+async function loadFeeds(){
+  await Promise.all(FEEDS.map(async k=>{
+    try{ const r=await fetch("data/"+k+".json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; FEED[k]=await r.json(); LS.set("feed_"+k,FEED[k]); }
+    catch(e){ if(!FEED[k]) FEED[k]=LS.get("feed_"+k,null); }
+  }));
+  onFeed();
+}
+FEEDS.forEach(k=>FEED[k]=LS.get("feed_"+k,null));
+onFeed();
+Store.useLocal();
+loadFeeds();
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadFeeds(); });
+setInterval(()=>{ if(document.visibilityState==="visible") loadFeeds(); },15*60000);
+
+/* instalación */
+const standalone=window.matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+let deferred=null;
+function showInstall(txt,btn){ if(standalone||LS.get("install_x",false)) return; $("#installTxt").innerHTML=txt; $("#installBtn").hidden=!btn; $("#installCard").hidden=false; }
+window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); deferred=e; showInstall("<b>Instala DataCafé|Américas</b> en tu pantalla de inicio.",true); });
+$("#installBtn").onclick=async()=>{ if(!deferred) return; deferred.prompt(); await deferred.userChoice.catch(()=>{}); deferred=null; $("#installCard").hidden=true; };
+$("#installX").onclick=()=>{ LS.set("install_x",true); $("#installCard").hidden=true; };
+if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!standalone) showInstall("<b>Instala DataCafé|Américas:</b> toca Compartir y luego “Agregar a pantalla de inicio”.",false);
+if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+})();
+</script>
+</body>
+</html>
