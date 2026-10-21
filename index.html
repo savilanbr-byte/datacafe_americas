@@ -235,8 +235,20 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .dchip{display:inline-flex;align-items:center;gap:6px}
 .dchip i{width:8px;height:8px;border-radius:50%;flex:none}
 .dchip span{color:var(--muted);font-size:11px}
-.desc-other{display:flex;gap:8px;margin-top:4px}
-.desc-other input{flex:1}
+.desc-chips{margin-bottom:4px}
+.dlist{margin-top:4px;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-height:min(300px,45vh);overflow-y:auto;overscroll-behavior:contain}
+.dgrp{position:sticky;top:0;z-index:1;background:var(--sunk);font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;padding:5px 12px;display:flex;align-items:center;gap:6px}
+.dgrp i,.dopt i{width:8px;height:8px;border-radius:50%;flex:none}
+.dopt{display:flex;align-items:center;gap:8px;padding:9px 12px;font-size:14px;cursor:pointer;border-top:1px solid var(--line)}
+.dopt:first-child{border-top:0}
+.dopt b{font-weight:400}
+.dopt span{margin-left:auto;font-size:11.5px;color:var(--muted);text-align:right}
+.dopt em{font-style:normal;color:var(--leaf);font-weight:600;margin-left:auto}
+.dopt span+em{margin-left:6px}
+.dopt.on b{font-weight:600}
+.dopt[aria-selected="true"],.dopt:hover{background:var(--sunk)}
+.dopt.add{color:var(--cherry);font-weight:600}
+.dopt.empty{color:var(--muted);cursor:default}
 .radar{width:100%;max-width:300px;height:auto;margin:0 auto;display:block}
 .radar text{font-size:9.5px;fill:var(--muted);font-family:var(--f-body)}
 .ed-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:space-between;align-items:center}
@@ -1023,9 +1035,23 @@ const SCA=[
 ];
 const DESC_COL={}; SCA.forEach(cat=>cat.g.forEach(([,l])=>l.forEach(d=>DESC_COL[d.toLowerCase()]=cat.col)));
 const descList=c=>(c.descriptores||"").split(",").map(x=>x.trim()).filter(Boolean);
-function descOptions(ds){ const on=new Set(ds.map(x=>x.toLowerCase()));
-  return '<option value="">Elegir un sabor…</option>'+SCA.map(cat=>cat.g.map(([sub,l])=>'<optgroup label="'+esc(cat.c+(sub?" · "+sub:""))+'">'+l.map(d=>'<option value="'+esc(d)+'">'+(on.has(d.toLowerCase())?"✓ ":"")+esc(d)+'</option>').join("")+'</optgroup>').join("")).join(""); }
-function descChips(ds){ if(!ds.length) return '<span class="small muted">Aún no hay descriptores. Elige en la lista o escribe uno.</span>';
+function norm(x){ return String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim(); }
+const DFLAT=[]; SCA.forEach(cat=>cat.g.forEach(([sub,l])=>{ const grp=cat.c+(sub?" · "+sub:""); l.forEach(d=>DFLAT.push({d,grp,col:cat.col,n:norm(d),ng:norm(grp)})); }));
+/* lista que se filtra con lo que se escribe; si el sabor no existe, primera opción = agregarlo */
+function descItems(q,ds){ const nq=norm(q), on=new Set(ds.map(norm));
+  let m=nq?DFLAT.filter(x=>x.n.includes(nq)||x.ng.includes(nq)):DFLAT;
+  if(nq){ const rk=x=>x.n.startsWith(nq)?0:x.n.includes(nq)?1:2; m=m.map((x,i)=>({x,i})).sort((a,b)=>rk(a.x)-rk(b.x)||a.i-b.i).map(o=>o.x); }
+  const out=[]; if(nq&&!DFLAT.some(x=>x.n===nq)&&!on.has(nq)) out.push({add:true,d:q.trim()});
+  return out.concat(m.map(x=>({...x,on:on.has(x.n)}))); }
+function descListHTML(items,q,hi,cid){
+  if(!items.length) return '<div class="dopt empty">Sin coincidencias.</div>';
+  let h="", last=null;
+  items.forEach((it,i)=>{ const id='do-'+cid+'-'+i, sel=i===hi?' aria-selected="true"':' aria-selected="false"';
+    if(it.add){ h+='<div class="dopt add" role="option" id="'+id+'" data-i="'+i+'"'+sel+'>+ Agregar «'+esc(it.d)+'»<span>no está en la lista</span></div>'; return; }
+    if(!q&&it.grp!==last){ h+='<div class="dgrp" role="presentation"><i style="background:'+it.col+'"></i>'+esc(it.grp)+'</div>'; last=it.grp; }
+    h+='<div class="dopt'+(it.on?' on':'')+'" role="option" id="'+id+'" data-i="'+i+'"'+sel+'><i style="background:'+it.col+'"></i><b>'+esc(it.d)+'</b>'+(q?'<span>'+esc(it.grp)+'</span>':'')+(it.on?'<em aria-label="ya elegido">✓</em>':'')+'</div>'; });
+  return h; }
+function descChips(ds){ if(!ds.length) return '<span class="small muted">Aún no hay descriptores. Escribe abajo para buscar o agregar.</span>';
   return ds.map(d=>'<button class="chip dchip" data-drm="'+esc(d)+'" aria-label="Quitar '+esc(d)+'"><i style="background:'+(DESC_COL[d.toLowerCase()]||"var(--muted)")+'"></i>'+esc(d)+'<span aria-hidden="true">✕</span></button>').join(""); }
 function score(c){ const a=ATTRS.reduce((s,[k])=>s+(+c.attrs[k]||0),0); const cups=CUPS.reduce((s,[k])=>s+2*(c[k]==null?5:+c[k]),0); return a+cups-(+c.defTazas||0)*(+c.defTipo||2); }
 function scoreCls(v){ return v>=86?"top":v>=84?"hi":""; }
@@ -1114,9 +1140,10 @@ function renderEditor(){
       h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Defectos</div><div class="cups"><span style="font-size:13.5px">Tazas</span><div class="c">'+[0,1,2,3,4,5].map(n=>'<button data-def="'+n+'" aria-pressed="'+(+c.defTazas===n)+'">'+n+'</button>').join("")+'</div></div>'+
          '<div class="cups"><span style="font-size:13.5px">Intensidad</span><div class="seg"><button data-dt="2" aria-pressed="'+(+c.defTipo===2)+'">Leve ×2</button><button data-dt="4" aria-pressed="'+(+c.defTipo===4)+'">Falla ×4</button></div></div></div>';
       const ds=descList(c);
-      h+='<div class="field"><label for="ds-'+c.id+'">Descriptores · rueda de sabores SCA</label><select id="ds-'+c.id+'" data-dsel>'+descOptions(ds)+'</select>'+
-         '<div class="chips desc-chips" data-dchips style="margin-top:4px">'+descChips(ds)+'</div>'+
-         '<div class="desc-other"><input data-dother placeholder="Otro descriptor" aria-label="Otro descriptor" enterkeyhint="done"><button class="btn" data-dadd>Agregar</button></div></div>';
+      h+='<div class="field"><label for="ds-'+c.id+'">Descriptores · rueda de sabores SCA</label>'+
+         '<div class="chips desc-chips" data-dchips>'+descChips(ds)+'</div>'+
+         '<input id="ds-'+c.id+'" data-dinput role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="dl-'+c.id+'" autocomplete="off" autocapitalize="sentences" enterkeyhint="done" placeholder="Escribe un sabor: chocolate, panela, mandarina…">'+
+         '<div class="dlist" id="dl-'+c.id+'" role="listbox" aria-label="Sabores" data-dlist hidden></div></div>';
       h+='<div class="field"><label>Comentarios</label><textarea data-f="comentarios">'+esc(c.comentarios)+'</textarea></div>';
       h+=radarSVG(c);
       h+='<div class="ed-actions"><span class="small muted" data-lbl="'+c.id+'">'+esc(scoreLabel(v))+'</span>'+(s.cafes.length>1?'<button class="btn ghost danger" data-rmcafe="'+c.id+'">Quitar café</button>':'')+'</div>';
@@ -1141,15 +1168,30 @@ function renderEditor(){
     $$("[data-cup]",card).forEach(b=>b.onclick=()=>{ c[b.dataset.cup]=+b.dataset.n; $$('[data-cup="'+b.dataset.cup+'"]',card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
     $$("[data-def]",card).forEach(b=>b.onclick=()=>{ c.defTazas=+b.dataset.def; $$("[data-def]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
     $$("[data-dt]",card).forEach(b=>b.onclick=()=>{ c.defTipo=+b.dataset.dt; $$("[data-dt]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
-    const dsel=$("[data-dsel]",card), dchips=$("[data-dchips]",card), dother=$("[data-dother]",card);
-    const setDesc=ds=>{ c.descriptores=ds.join(", "); dchips.innerHTML=descChips(ds); dsel.innerHTML=descOptions(ds); bindDchips(); save(); };
-    const addDesc=(d,toggle)=>{ d=d.trim(); if(!d) return; const ds=descList(c), i=ds.findIndex(x=>x.toLowerCase()===d.toLowerCase());
-      if(i>=0){ if(toggle) ds.splice(i,1); } else ds.push(d); setDesc(ds); };
-    const bindDchips=()=>$$("[data-drm]",dchips).forEach(b=>b.onclick=()=>setDesc(descList(c).filter(x=>x.toLowerCase()!==b.dataset.drm.toLowerCase())));
-    if(dsel){ bindDchips();
-      dsel.onchange=()=>{ const v=dsel.value; if(v) addDesc(v,true); dsel.value=""; };
-      const addOther=()=>{ dother.value.split(",").forEach(x=>addDesc(x,false)); dother.value=""; };
-      $("[data-dadd]",card).onclick=addOther; dother.onkeydown=e=>{ if(e.key==="Enter"){ e.preventDefault(); addOther(); } }; }
+    const dinp=$("[data-dinput]",card), dlist=$("[data-dlist]",card), dchips=$("[data-dchips]",card);
+    if(dinp){
+      let items=[], hi=-1, closeT=null;
+      const setDesc=ds=>{ c.descriptores=ds.join(", "); dchips.innerHTML=descChips(ds); bindDchips(); save(); };
+      const addDesc=(d,toggle)=>{ d=d.trim(); if(!d) return; const hit=DFLAT.find(x=>x.n===norm(d)); if(hit) d=hit.d; const ds=descList(c), i=ds.findIndex(x=>norm(x)===norm(d));
+        if(i>=0){ if(toggle) ds.splice(i,1); } else ds.push(d); setDesc(ds); };
+      const bindDchips=()=>$$("[data-drm]",dchips).forEach(b=>b.onclick=()=>setDesc(descList(c).filter(x=>norm(x)!==norm(b.dataset.drm))));
+      const paint=()=>{ dlist.innerHTML=descListHTML(items,dinp.value.trim(),hi,c.id); dinp.setAttribute("aria-activedescendant",hi>=0?"do-"+c.id+"-"+hi:"");
+        const a=hi>=0&&$("#do-"+c.id+"-"+hi,dlist); if(a) a.scrollIntoView({block:"nearest"}); };
+      const open=()=>{ clearTimeout(closeT); const q=dinp.value; items=descItems(q,descList(c)); hi=!q.trim()?-1:(items.length>1&&items[0].add?1:0); /* Enter elige la mejor coincidencia; agrega solo si no hay */ dlist.hidden=false; dinp.setAttribute("aria-expanded","true"); paint(); if(!q.trim()) dlist.scrollTop=0; };
+      const close=()=>{ dlist.hidden=true; dinp.setAttribute("aria-expanded","false"); hi=-1; };
+      const choose=it=>{ if(!it) return; addDesc(it.d,false); dinp.value=""; close(); dinp.focus(); };
+      bindDchips();
+      dinp.onfocus=open; dinp.onclick=()=>{ if(dlist.hidden) open(); };
+      dinp.oninput=()=>{ const v=dinp.value; if(v.includes(",")){ const parts=v.split(","); dinp.value=parts.pop(); parts.forEach(x=>addDesc(x,false)); } open(); };
+      dinp.onblur=()=>{ closeT=setTimeout(close,150); };
+      dinp.onkeydown=e=>{
+        if(e.key==="ArrowDown"||e.key==="ArrowUp"){ e.preventDefault(); if(dlist.hidden) open(); if(!items.length) return; hi=e.key==="ArrowDown"?(hi+1)%items.length:(hi<=0?items.length-1:hi-1); paint(); }
+        else if(e.key==="Enter"){ e.preventDefault(); if(!dlist.hidden&&hi>=0) choose(items[hi]); else if(dinp.value.trim()){ addDesc(dinp.value,false); dinp.value=""; close(); } }
+        else if(e.key==="Escape"){ if(!dlist.hidden){ e.stopPropagation(); close(); } }
+        else if(e.key==="Backspace"&&!dinp.value){ const ds=descList(c); if(ds.length){ ds.pop(); setDesc(ds); if(!dlist.hidden) open(); } } };
+      dlist.onmousedown=e=>e.preventDefault();
+      dlist.onclick=e=>{ const o=e.target.closest("[data-i]"); if(o) choose(items[+o.dataset.i]); };
+    }
     const rm=$("[data-rmcafe]",card); if(rm) rm.onclick=()=>{ s.cafes=s.cafes.filter(x=>x.id!==c.id); openCafe=s.cafes[0]&&s.cafes[0].id; save(); renderEditor(); };
   });
   $("#addCafe").onclick=()=>{ const n=Math.max(0,...s.cafes.map(c=>+c.mesa||0))+1; const c=newCafe(n); s.cafes.push(c); openCafe=c.id; save(); renderEditor(); setTimeout(()=>{const el=$('[data-cid="'+c.id+'"]'); el&&el.scrollIntoView({behavior:"smooth",block:"start"});},30); };
