@@ -138,17 +138,17 @@
    "value": 167.49
   },
   "kc1": {
-   "asOf": "2026-10-21",
-   "change": 4.85,
+   "asOf": "2026-10-22",
+   "change": -4.75,
    "chgDec": 2,
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Liquidación del 21-oct.",
+   "note": "Cierre del 22-oct.",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-   "value": 316.15
+   "value": 311.4
   },
   "kc2": {
    "asOf": "2026-10-21",
@@ -199,16 +199,16 @@
   },
   "robusta": {
    "asOf": "2026-10-22",
-   "change": -100,
-   "changePct": -2.98,
+   "change": -76,
+   "changePct": -2.26,
    "contract": "Nov-26",
    "dec": 0,
    "label": "Robusta Londres (ICE)",
-   "note": "Intradía (Londres, 22-oct)",
+   "note": "Cierre de Londres, 22-oct",
    "source": "Investing.com",
    "unit": "USD/t",
    "url": "https://www.investing.com/commodities/london-coffee",
-   "value": 3256
+   "value": 3280
   },
   "stocksMundo": {
    "asOf": "2026-07-02",
@@ -260,5 +260,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-22T11:48:41Z"
+ "updatedAt": "2026-10-22T19:55:00Z"
 }

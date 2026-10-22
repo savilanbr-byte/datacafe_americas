@@ -1,60 +1,59 @@
 {
- "updatedAt": "2026-10-22T11:48:41Z",
  "items": [
   {
-   "scope": "am",
-   "pais": "Brasil",
-   "tag": "Mercado",
    "date": "2026-10-09",
+   "id": "a1",
+   "pais": "Brasil",
+   "scope": "am",
    "source": "Cecafé",
-   "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/",
-   "title": "Brasil exportó 3,9 millones de sacos en septiembre, 3,1% más que en 2025",
    "summary": "El año-cosecha 26/27 acumula 11,21 millones de sacos entre julio y septiembre (+15,5%). En lo corrido del año, el arábica cae 10,7% y el conilon y robusta suben 68,3%.",
-   "id": "a1"
+   "tag": "Mercado",
+   "title": "Brasil exportó 3,9 millones de sacos en septiembre, 3,1% más que en 2025",
+   "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/"
   },
   {
-   "scope": "am",
-   "pais": "México",
-   "tag": "Precios",
    "date": "2026-10-12",
-   "source": "Alerta Chiapas",
-   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
-   "title": "El precio de los Otros Suaves, grupo del café de Chiapas, cayó 8,8% en septiembre",
-   "summary": "Según la OIC, el indicador bajó a 329,44 ¢/lb y quedó 18,4% por debajo de octubre de 2025. La OIC atribuye la baja a la gran cosecha de Brasil.",
-   "id": "a3"
-  },
-  {
-   "scope": "am",
+   "id": "a3",
    "pais": "México",
+   "scope": "am",
+   "source": "Alerta Chiapas",
+   "summary": "Según la OIC, el indicador bajó a 329,44 ¢/lb y quedó 18,4% por debajo de octubre de 2025. La OIC atribuye la baja a la gran cosecha de Brasil.",
    "tag": "Precios",
-   "date": "2026-10-13",
-   "source": "El Demócrata",
-   "url": "https://www.eldemocrata.com/842306/cafetaleros-denuncian-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-   "title": "Arranca la cosecha en Veracruz con pagos de 7 a 10 pesos por kilo de cereza",
-   "summary": "Los productores de la región central reciben menos de lo previsto. La CNOC pide que los grandes compradores paguen al menos 16 pesos por kilo cuando empiecen las compras masivas a inicios de noviembre.",
-   "id": "a4"
+   "title": "El precio de los Otros Suaves, grupo del café de Chiapas, cayó 8,8% en septiembre",
+   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/"
   },
   {
-   "scope": "am",
-   "pais": "Honduras",
-   "tag": "Producción",
    "date": "2026-10-13",
+   "id": "a4",
+   "pais": "México",
+   "scope": "am",
+   "source": "El Demócrata",
+   "summary": "Los productores de la región central reciben menos de lo previsto. La CNOC pide que los grandes compradores paguen al menos 16 pesos por kilo cuando empiecen las compras masivas a inicios de noviembre.",
+   "tag": "Precios",
+   "title": "Arranca la cosecha en Veracruz con pagos de 7 a 10 pesos por kilo de cereza",
+   "url": "https://www.eldemocrata.com/842306/cafetaleros-denuncian-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
+  },
+  {
+   "date": "2026-10-13",
+   "id": "a5",
+   "pais": "Honduras",
+   "scope": "am",
    "source": "La Prensa",
-   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
-   "title": "Ihcafé prevé exportar cerca de 7 millones de quintales en 2026-27",
    "summary": "Son menos que los 7,3 millones del ciclo anterior, que dejó unos US$2.285 millones. El ciclo 2026-27 arrancó el 1 de octubre, con precios a la baja y riesgo de El Niño.",
-   "id": "a5"
+   "tag": "Producción",
+   "title": "Ihcafé prevé exportar cerca de 7 millones de quintales en 2026-27",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
   },
   {
    "date": "2026-10-16",
    "id": "a8",
+   "pais": "Colombia",
    "scope": "am",
    "source": "El Tiempo",
    "summary": "El gerente de la FNC atribuyó la caída a La Niña (ene–abr) y a El Niño, que reduce el peso del grano. El café cosechado en 12 meses valió $21,4 billones y la feria espera 40.000 visitantes.",
    "tag": "Producción",
    "title": "Bahamón: el clima recortó la producción; la Expo apuesta por el consumo interno",
-   "url": "https://www.eltiempo.com/economia/cafes-de-colombia-expo-2026-la-apuesta-por-el-consumo-interno-de-cafe-especial-en-un-ano-de-alertas-en-su-produccion-3593936",
-   "pais": "Colombia"
+   "url": "https://www.eltiempo.com/economia/cafes-de-colombia-expo-2026-la-apuesta-por-el-consumo-interno-de-cafe-especial-en-un-ano-de-alertas-en-su-produccion-3593936"
   },
   {
    "date": "2026-10-16",
@@ -77,135 +76,147 @@
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
   },
   {
-   "scope": "am",
-   "pais": "Nicaragua",
-   "tag": "Producción",
    "date": "2026-10-16",
+   "id": "a14",
+   "pais": "Nicaragua",
+   "scope": "am",
    "source": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/",
-   "title": "Nicaragua reporta 3,6 millones de quintales y exportaciones a 56 países",
    "summary": "El sector suma más de 54 mil fincas y 51 mil familias productoras. Más de 90 exportadoras generan más de US$400 millones en divisas.",
-   "id": "a14"
+   "tag": "Producción",
+   "title": "Nicaragua reporta 3,6 millones de quintales y exportaciones a 56 países",
+   "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/"
   },
   {
-   "scope": "am",
+   "date": "2026-10-15",
+   "id": "a15",
    "pais": "Nicaragua",
-   "tag": "Producción",
-   "date": "2026-10-15",
+   "scope": "am",
    "source": "Nueva Ya",
-   "url": "https://nuevaya.com.ni/nacionales/ejercito-lanzara-plan-para-proteger-cosecha-cafetalera-2026-2027-en-jinotega/",
-   "title": "El Ejército presentará el plan de protección de la cosecha 2026-27 en Jinotega",
    "summary": "Se lanza el 24 de octubre en Apanás. El Banco Central expondrá las proyecciones de producción y exportación del ciclo.",
-   "id": "a15"
-  },
-  {
-   "scope": "am",
-   "pais": "El Salvador",
    "tag": "Producción",
+   "title": "El Ejército presentará el plan de protección de la cosecha 2026-27 en Jinotega",
+   "url": "https://nuevaya.com.ni/nacionales/ejercito-lanzara-plan-para-proteger-cosecha-cafetalera-2026-2027-en-jinotega/"
+  },
+  {
    "date": "2026-10-09",
+   "id": "a16",
+   "pais": "El Salvador",
+   "scope": "am",
    "source": "El Mundo",
-   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
-   "title": "El ISC recorre las seis cordilleras cafetaleras antes del arranque de la cosecha 2026-27",
    "summary": "El ciclo 2025-26 cerró con 963.650 quintales (+12,2%). Acafesal advierte que la cosecha 2026-27 podría ser menor por El Niño.",
-   "id": "a16"
+   "tag": "Producción",
+   "title": "El ISC recorre las seis cordilleras cafetaleras antes del arranque de la cosecha 2026-27",
+   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027"
   },
   {
-   "scope": "am",
-   "pais": "Panamá",
-   "tag": "Industria",
    "date": "2026-10-13",
+   "id": "a17",
+   "pais": "Panamá",
+   "scope": "am",
    "source": "MIDA",
-   "url": "https://mida.gob.pa/2026/10/13/mida-impulsa-el-desarrollo-cafetalero-de-panama-oeste/",
-   "title": "El MIDA y la Autoridad del Canal impulsan proyectos cafetaleros en Panamá Oeste",
    "summary": "Técnicos se reunieron con productores de Claras Arriba para coordinar apoyo a futuros proyectos de café.",
-   "id": "a17"
-  },
-  {
-   "scope": "am",
-   "pais": "Guatemala",
-   "tag": "Cafés especiales",
-   "date": "2026-10-16",
-   "source": "La Hora",
-   "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/",
-   "title": "La Unión Europea protege el Café Antigua de Guatemala como indicación geográfica",
-   "summary": "El nombre queda protegido frente a usos indebidos en el mercado europeo. En 2024-25 Guatemala exportó 3,73 millones de quintales oro por US$1.285 millones; Europa compró el 26%.",
-   "id": "a19"
-  },
-  {
-   "scope": "am",
-   "pais": "Perú",
    "tag": "Industria",
+   "title": "El MIDA y la Autoridad del Canal impulsan proyectos cafetaleros en Panamá Oeste",
+   "url": "https://mida.gob.pa/2026/10/13/mida-impulsa-el-desarrollo-cafetalero-de-panama-oeste/"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "a19",
+   "pais": "Guatemala",
+   "scope": "am",
+   "source": "La Hora",
+   "summary": "El nombre queda protegido frente a usos indebidos en el mercado europeo. En 2024-25 Guatemala exportó 3,73 millones de quintales oro por US$1.285 millones; Europa compró el 26%.",
+   "tag": "Cafés especiales",
+   "title": "La Unión Europea protege el Café Antigua de Guatemala como indicación geográfica",
+   "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/"
+  },
+  {
    "date": "2026-10-15",
-   "source": "Diario Voces",
-   "url": "https://diariovoces.com.pe/cacao-y-cafe-de-san-martin-rumbo-a-exigencias-internacionales/",
-   "title": "San Martín avanza en trazabilidad de café y cacao para cumplir la norma europea EUDR",
-   "summary": "El Padrón de Productores Agrarios supera 2,1 millones de registros y AgroDigital tenía más de 181 mil parcelas geolocalizadas a marzo. Especialistas advierten que eso aún no basta para rastrear cada tonelada exportada.",
-   "id": "a23"
-  },
-  {
-   "id": "a26",
-   "scope": "am",
-   "pais": "Brasil",
-   "tag": "Clima",
-   "date": "2026-10-22",
-   "source": "Folha Agrícola · Cepea",
-   "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/",
-   "title": "Brasil: buena floración para la cosecha 2027/28, pero el calor preocupa",
-   "summary": "Según Cepea, la floración va dentro de lo esperado y el cuajado del fruto es bueno en la mayoría de las zonas, con lluvias generalizadas. El calor intenso y un posible El Niño mantienen el riesgo de aborto del fruto; en el Cerrado Mineiro el cuajado solo se confirma hacia diciembre."
-  },
-  {
-   "id": "a27",
-   "scope": "am",
-   "pais": "Costa Rica",
-   "tag": "Divisas",
-   "date": "2026-10-21",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
-   "title": "Costa Rica: cafetaleros reciben menos colones por fanega pese al récord de precio de exportación",
-   "summary": "La cosecha 2025-2026 logró el mayor precio de exportación desde 1973 (cerca de US$300 por quintal), pero el colón fuerte deja el pago estimado en ¢117.000 por fanega. Con costos que superan el ingreso, el productor tico llega con menos margen al nuevo ciclo."
-  },
-  {
-   "id": "a28",
-   "scope": "am",
-   "pais": "Colombia",
-   "tag": "Precios",
-   "date": "2026-10-21",
-   "source": "OIC · La República",
-   "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-   "title": "Colombia: precio interno del café sube a $2.235.000 por carga",
-   "summary": "El precio base de la carga de pergamino seco subió $43.000 (+1,96%) el 21 de octubre, mientras los indicadores OIC cayeron cerca de 1% el día 20. Para comprar, el diferencial y la tasa de cambio pesan tanto como la bolsa."
-  },
-  {
-   "id": "a29",
-   "scope": "am",
+   "id": "a23",
    "pais": "Perú",
-   "tag": "Exportaciones",
-   "date": "2026-10-14",
-   "source": "El Peruano",
-   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-del-2026",
-   "title": "Perú exportó café por US$705 millones entre enero y agosto",
-   "summary": "Mincetur ubica a Perú como octavo exportador mundial, con más de 300 empresas exportadoras (59% mipymes). El año pasado las ventas superaron US$1.800 millones."
-  },
-  {
-   "id": "a30",
    "scope": "am",
-   "pais": "Ecuador",
-   "tag": "Exportaciones",
-   "date": "2026-10-20",
-   "source": "Infobae · EFE",
-   "url": "https://www.infobae.com/america/agencias/2026/10/20/exportaciones-no-petroleras-de-ecuador-alcanzan-record-entre-enero-y-agosto-de-2026/",
-   "title": "Ecuador: el café industrializado sube 25,7% en valor exportado de enero a agosto",
-   "summary": "Entre los productos no petroleros con mayor alza figura el café industrializado, cuyas ventas crecieron 25,7% frente al mismo periodo de 2025. El reporte no detalla montos ni el café sin procesar."
+   "source": "Diario Voces",
+   "summary": "El Padrón de Productores Agrarios supera 2,1 millones de registros y AgroDigital tenía más de 181 mil parcelas geolocalizadas a marzo. Especialistas advierten que eso aún no basta para rastrear cada tonelada exportada.",
+   "tag": "Industria",
+   "title": "San Martín avanza en trazabilidad de café y cacao para cumplir la norma europea EUDR",
+   "url": "https://diariovoces.com.pe/cacao-y-cafe-de-san-martin-rumbo-a-exigencias-internacionales/"
   },
   {
+   "date": "2026-10-22",
+   "id": "a26",
+   "pais": "Brasil",
+   "scope": "am",
+   "source": "Folha Agrícola · Cepea",
+   "summary": "Según Cepea, la floración va dentro de lo esperado y el cuajado del fruto es bueno en la mayoría de las zonas, con lluvias generalizadas. El calor intenso y un posible El Niño mantienen el riesgo de aborto del fruto; en el Cerrado Mineiro el cuajado solo se confirma hacia diciembre.",
+   "tag": "Clima",
+   "title": "Brasil: buena floración para la cosecha 2027/28, pero el calor preocupa",
+   "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a27",
+   "pais": "Costa Rica",
+   "scope": "am",
+   "source": "Infobae",
+   "summary": "La cosecha 2025-2026 logró el mayor precio de exportación desde 1973 (cerca de US$300 por quintal), pero el colón fuerte deja el pago estimado en ¢117.000 por fanega. Con costos que superan el ingreso, el productor tico llega con menos margen al nuevo ciclo.",
+   "tag": "Divisas",
+   "title": "Costa Rica: cafetaleros reciben menos colones por fanega pese al récord de precio de exportación",
+   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a28",
+   "pais": "Colombia",
+   "scope": "am",
+   "source": "OIC · La República",
+   "summary": "El precio base de la carga de pergamino seco subió $43.000 (+1,96%) el 21 de octubre, mientras los indicadores OIC cayeron cerca de 1% el día 20. Para comprar, el diferencial y la tasa de cambio pesan tanto como la bolsa.",
+   "tag": "Precios",
+   "title": "Colombia: precio interno del café sube a $2.235.000 por carga",
+   "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
+  },
+  {
+   "date": "2026-10-14",
+   "id": "a29",
+   "pais": "Perú",
+   "scope": "am",
+   "source": "El Peruano",
+   "summary": "Mincetur ubica a Perú como octavo exportador mundial, con más de 300 empresas exportadoras (59% mipymes). El año pasado las ventas superaron US$1.800 millones.",
+   "tag": "Exportaciones",
+   "title": "Perú exportó café por US$705 millones entre enero y agosto",
+   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-del-2026"
+  },
+  {
+   "date": "2026-10-20",
+   "id": "a30",
+   "pais": "Ecuador",
+   "scope": "am",
+   "source": "Infobae · EFE",
+   "summary": "Entre los productos no petroleros con mayor alza figura el café industrializado, cuyas ventas crecieron 25,7% frente al mismo periodo de 2025. El reporte no detalla montos ni el café sin procesar.",
+   "tag": "Exportaciones",
+   "title": "Ecuador: el café industrializado sube 25,7% en valor exportado de enero a agosto",
+   "url": "https://www.infobae.com/america/agencias/2026/10/20/exportaciones-no-petroleras-de-ecuador-alcanzan-record-entre-enero-y-agosto-de-2026/"
+  },
+  {
+   "date": "2026-10-19",
    "id": "a31",
    "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-10-19",
    "source": "Rio Times",
-   "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
+   "summary": "El contrato de diciembre liquidó en 315,7 ¢/lb (+3,3%) el 19 de octubre, con el real firme en R$5,04 y temor de que el café brasileño no llegue a tiempo a los almacenes. La robusta de noviembre cerró en US$3.484 por tonelada.",
+   "tag": "Mercado",
    "title": "Arábica cierra en máximo de un mes con inventarios ICE en mínimos de 27 años",
-   "summary": "El contrato de diciembre liquidó en 315,7 ¢/lb (+3,3%) el 19 de octubre, con el real firme en R$5,04 y temor de que el café brasileño no llegue a tiempo a los almacenes. La robusta de noviembre cerró en US$3.484 por tonelada."
+   "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/"
+  },
+  {
+   "date": "2026-10-19",
+   "id": "a32",
+   "pais": "Colombia",
+   "scope": "am",
+   "source": "Infobae",
+   "summary": "Asoexport registra 8,45 millones de sacos de 60 kg frente a 9,80 millones un año antes; la producción del año cafetero 2025-26 cayó 15% a 12,65 millones de sacos. El dólar promedió $3.503 en 2026 frente a $4.053 en 2025, lo que reduce lo que recibe el exportador en pesos.",
+   "tag": "Exportaciones",
+   "title": "Colombia exportó 13,8% menos café entre enero y septiembre por el peso fuerte",
+   "url": "https://www.infobae.com/colombia/2026/10/19/colombia-vendio-menos-cafe-al-exterior-durante-2026-debido-a-la-revaluacion-del-peso-frente-al-dolar-asi-estan-las-preocupantes-cifras/"
   }
- ]
+ ],
+ "updatedAt": "2026-10-22T19:55:00Z"
 }

@@ -1,5 +1,4 @@
 {
- "updatedAt": "2026-10-22T11:48:41Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -17,6 +16,11 @@
   "status": "El Niño · fuerte a muy fuerte",
   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
  },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "23 al 29 de octubre",
+  "url": "https://www.yr.no/"
+ },
  "impactos": [
   "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Anacafé teme caídas de 5–15% en Guatemala y en El Salvador se esperan menos quintales en 2026-27.",
   "Colombia y Venezuela: el déficit fuerte de lluvias llega desde diciembre; pone en riesgo floraciones y el llenado de grano de las cosechas del primer semestre de 2027.",
@@ -24,123 +28,119 @@
   "Brasil: Cepea reporta buena floración y cuajado para la cosecha 2027/28, con lluvias en general; el calor y un posible El Niño son el riesgo de aborto del fruto, y el Cerrado no lo confirma hasta diciembre.",
   "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
  ],
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "url": "https://www.yr.no/",
-  "period": "23 al 29 de octubre"
- },
  "regions": [
   {
-   "region": "mexico",
    "dept": "México",
-   "place": "Tapachula, Chiapas",
    "p7": 27.4,
+   "place": "Tapachula, Chiapas",
+   "region": "mexico",
    "tmax": 30,
    "tmin": 23
   },
   {
-   "region": "guatemala",
    "dept": "Guatemala",
-   "place": "Antigua",
    "p7": 0.6,
+   "place": "Antigua",
+   "region": "guatemala",
    "tmax": 24,
    "tmin": 13
   },
   {
-   "region": "honduras",
    "dept": "Honduras",
-   "place": "Marcala, La Paz",
    "p7": 5.6,
+   "place": "Marcala, La Paz",
+   "region": "honduras",
    "tmax": 23,
    "tmin": 15
   },
   {
-   "region": "el-salvador",
    "dept": "El Salvador",
-   "place": "Santa Ana",
    "p7": 0.6,
+   "place": "Santa Ana",
+   "region": "el-salvador",
    "tmax": 29,
    "tmin": 20
   },
   {
-   "region": "nicaragua",
    "dept": "Nicaragua",
-   "place": "Matagalpa",
    "p7": 20.9,
+   "place": "Matagalpa",
+   "region": "nicaragua",
    "tmax": 28,
    "tmin": 19
   },
   {
-   "region": "costa-rica",
    "dept": "Costa Rica",
-   "place": "San Marcos de Tarrazú",
    "p7": 98.7,
+   "place": "San Marcos de Tarrazú",
+   "region": "costa-rica",
    "tmax": 23,
    "tmin": 16
   },
   {
-   "region": "panama",
    "dept": "Panamá",
-   "place": "Boquete, Chiriquí",
    "p7": 175.9,
+   "place": "Boquete, Chiriquí",
+   "region": "panama",
    "tmax": 22,
    "tmin": 18
   },
   {
-   "region": "colombia",
    "dept": "Colombia",
-   "place": "Chinchiná, Caldas",
    "p7": 87.6,
+   "place": "Chinchiná, Caldas",
+   "region": "colombia",
    "tmax": 25,
    "tmin": 18
   },
   {
-   "region": "venezuela",
    "dept": "Venezuela",
-   "place": "Boconó, Trujillo",
    "p7": 27.6,
+   "place": "Boconó, Trujillo",
+   "region": "venezuela",
    "tmax": 24,
    "tmin": 18
   },
   {
-   "region": "ecuador",
    "dept": "Ecuador",
-   "place": "Loja",
    "p7": 91.2,
+   "place": "Loja",
+   "region": "ecuador",
    "tmax": 20,
    "tmin": 15
   },
   {
-   "region": "peru",
    "dept": "Perú",
-   "place": "Jaén, Cajamarca",
    "p7": 46.2,
+   "place": "Jaén, Cajamarca",
+   "region": "peru",
    "tmax": 30,
    "tmin": 22
   },
   {
-   "region": "bolivia",
    "dept": "Bolivia",
-   "place": "Caranavi, La Paz",
    "p7": 154.9,
+   "place": "Caranavi, La Paz",
+   "region": "bolivia",
    "tmax": 27,
    "tmin": 20
   },
   {
-   "region": "brasil-arabica",
    "dept": "Brasil",
-   "place": "Varginha, Sul de Minas",
    "p7": 66.3,
+   "place": "Varginha, Sul de Minas",
+   "region": "brasil-arabica",
    "tmax": 24,
    "tmin": 18
   },
   {
-   "region": "brasil-conilon",
    "dept": "Brasil",
-   "place": "Linhares, Espírito Santo",
    "p7": 11.4,
+   "place": "Linhares, Espírito Santo",
+   "region": "brasil-conilon",
    "tmax": 29,
    "tmin": 23
   }
- ]
+ ],
+ "updatedAt": "2026-10-22T19:55:00Z"
 }
