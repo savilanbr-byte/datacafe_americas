@@ -1,26 +1,26 @@
 {
  "curve": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "points": [
    {
     "contract": "Dic-26",
-    "value": 312.45
+    "value": 307.45
    },
    {
     "contract": "Mar-27",
-    "value": 297.45
+    "value": 293.4
    },
    {
     "contract": "May-27",
-    "value": 292.45
-   },
-   {
-    "contract": "Jul-27",
     "value": 289.0
    },
    {
+    "contract": "Jul-27",
+    "value": 285.9
+   },
+   {
     "contract": "Sep-27",
-    "value": 285.65
+    "value": 282.9
    }
   ],
   "source": "Investing.com",
@@ -46,15 +46,15 @@
  },
  "items": {
   "cot": {
-   "asOf": "2026-10-13",
-   "change": -3766,
+   "asOf": "2026-10-20",
+   "change": 7067,
    "dec": 0,
    "label": "Fondos (managed money) neto",
-   "note": "Largos 35.096 · cortos 19.826. Neto comprado pero bajando.",
+   "note": "Largos 38.596 · cortos 16.259. Neto comprado y subiendo.",
    "source": "CFTC COT",
    "unit": "contratos",
    "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-   "value": 15270
+   "value": 22337
   },
   "expoBR": {
    "asOf": "2026-09-30",
@@ -108,14 +108,14 @@
    "value": 356.15
   },
   "icoComp": {
-   "asOf": "2026-10-21",
-   "changePct": 0.25,
+   "asOf": "2026-10-22",
+   "changePct": -1.49,
    "dec": 0,
    "label": "Indicador compuesto OIC",
    "source": "OIC · La República",
    "unit": "¢/lb",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-   "value": 270
+   "value": 266
   },
   "icoOM": {
    "asOf": "2026-09-30",
@@ -138,56 +138,56 @@
    "value": 167.49
   },
   "kc1": {
-   "asOf": "2026-10-22",
-   "change": -3.7,
+   "asOf": "2026-10-23",
+   "change": -5.0,
    "chgDec": 2,
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Cierre del 22-oct.",
+   "note": "Liquidación ICE del 23-oct (página de contratos); la página histórica muestra 306,00 al cierre",
    "source": "Investing.com",
    "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-   "value": 312.45
+   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+   "value": 307.45
   },
   "kc2": {
-   "asOf": "2026-10-22",
-   "change": -3.8,
+   "asOf": "2026-10-23",
+   "change": -4.05,
    "chgDec": 2,
    "contract": "Mar-27",
    "dec": 2,
    "label": "KC C2",
-   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
+   "note": "Liquidación ICE del 23-oct (página de contratos)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 297.45
+   "value": 293.4
   },
   "kc3": {
-   "asOf": "2026-10-22",
-   "change": -3.75,
+   "asOf": "2026-10-23",
+   "change": -3.45,
    "chgDec": 2,
    "contract": "May-27",
    "dec": 2,
    "label": "KC C3",
-   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
-   "source": "Investing.com",
-   "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 292.45
-  },
-  "kc4": {
-   "asOf": "2026-10-22",
-   "change": -3.85,
-   "chgDec": 2,
-   "contract": "Jul-27",
-   "dec": 2,
-   "label": "KC C4",
-   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
+   "note": "Liquidación ICE del 23-oct (página de contratos)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
    "value": 289.0
+  },
+  "kc4": {
+   "asOf": "2026-10-23",
+   "change": -3.1,
+   "chgDec": 2,
+   "contract": "Jul-27",
+   "dec": 2,
+   "label": "KC C4",
+   "note": "Liquidación ICE del 23-oct (página de contratos)",
+   "source": "Investing.com",
+   "unit": "¢/lb",
+   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+   "value": 285.9
   },
   "prodMundo": {
    "asOf": "2026-07-02",
@@ -201,17 +201,17 @@
    "value": 189.67
   },
   "robusta": {
-   "asOf": "2026-10-22",
-   "change": -76,
-   "changePct": -2.26,
+   "asOf": "2026-10-23",
+   "change": -56,
+   "changePct": -1.71,
    "contract": "Nov-26",
    "dec": 0,
    "label": "Robusta Londres (ICE)",
-   "note": "Cierre de Londres, 22-oct",
+   "note": "Cierre de Londres, 23-oct",
    "source": "Investing.com",
    "unit": "USD/t",
    "url": "https://www.investing.com/commodities/london-coffee",
-   "value": 3280
+   "value": 3224
   },
   "stocksMundo": {
    "asOf": "2026-07-02",
@@ -263,5 +263,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-23T11:50:00Z"
+ "updatedAt": "2026-10-23T19:47:56Z"
 }
