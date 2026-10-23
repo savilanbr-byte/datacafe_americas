@@ -1,28 +1,6 @@
 {
  "items": [
   {
-   "date": "2026-10-09",
-   "id": "a1",
-   "pais": "Brasil",
-   "scope": "am",
-   "source": "Cecafé",
-   "summary": "El año-cosecha 26/27 acumula 11,21 millones de sacos entre julio y septiembre (+15,5%). En lo corrido del año, el arábica cae 10,7% y el conilon y robusta suben 68,3%.",
-   "tag": "Mercado",
-   "title": "Brasil exportó 3,9 millones de sacos en septiembre, 3,1% más que en 2025",
-   "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/"
-  },
-  {
-   "date": "2026-10-12",
-   "id": "a3",
-   "pais": "México",
-   "scope": "am",
-   "source": "Alerta Chiapas",
-   "summary": "Según la OIC, el indicador bajó a 329,44 ¢/lb y quedó 18,4% por debajo de octubre de 2025. La OIC atribuye la baja a la gran cosecha de Brasil.",
-   "tag": "Precios",
-   "title": "El precio de los Otros Suaves, grupo del café de Chiapas, cayó 8,8% en septiembre",
-   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/"
-  },
-  {
    "date": "2026-10-13",
    "id": "a4",
    "pais": "México",
@@ -98,17 +76,6 @@
    "url": "https://nuevaya.com.ni/nacionales/ejercito-lanzara-plan-para-proteger-cosecha-cafetalera-2026-2027-en-jinotega/"
   },
   {
-   "date": "2026-10-09",
-   "id": "a16",
-   "pais": "El Salvador",
-   "scope": "am",
-   "source": "El Mundo",
-   "summary": "El ciclo 2025-26 cerró con 963.650 quintales (+12,2%). Acafesal advierte que la cosecha 2026-27 podría ser menor por El Niño.",
-   "tag": "Producción",
-   "title": "El ISC recorre las seis cordilleras cafetaleras antes del arranque de la cosecha 2026-27",
-   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027"
-  },
-  {
    "date": "2026-10-13",
    "id": "a17",
    "pais": "Panamá",
@@ -164,14 +131,14 @@
    "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
   },
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "id": "a28",
    "pais": "Colombia",
    "scope": "am",
-   "source": "OIC · La República",
-   "summary": "El precio base de la carga de pergamino seco subió $43.000 (+1,96%) el 21 de octubre, mientras los indicadores OIC cayeron cerca de 1% el día 20. Para comprar, el diferencial y la tasa de cambio pesan tanto como la bolsa.",
+   "source": "La República",
+   "summary": "El precio base de compra del pergamino seco bajó $35.000 (-1,57%) el 22 de octubre, hasta $2.200.000 por carga. Aun así el peso fuerte sigue comprimiendo el ingreso en pesos del caficultor.",
    "tag": "Precios",
-   "title": "Colombia: precio interno del café sube a $2.235.000 por carga",
+   "title": "Colombia: el precio interno del café baja a $2.200.000 por carga",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
   },
   {
@@ -216,7 +183,61 @@
    "tag": "Exportaciones",
    "title": "Colombia exportó 13,8% menos café entre enero y septiembre por el peso fuerte",
    "url": "https://www.infobae.com/colombia/2026/10/19/colombia-vendio-menos-cafe-al-exterior-durante-2026-debido-a-la-revaluacion-del-peso-frente-al-dolar-asi-estan-las-preocupantes-cifras/"
+  },
+  {
+   "date": "2026-10-15",
+   "id": "a33",
+   "pais": "Costa Rica",
+   "scope": "am",
+   "source": "Trivisión",
+   "summary": "El Ministerio de Trabajo autorizó inicialmente 16.000 trabajadores panameños, con posible ampliación a 30.000, y Migración cuenta unos 6.000 ya ingresados. La mano de obra puede condicionar el ritmo de entrega de los lotes.",
+   "tag": "Producción",
+   "title": "Costa Rica: ICAFE pide agilizar el ingreso de recolectores para la cosecha 2026-27",
+   "url": "https://trivisioncr.com/noticias-nacionales/icafe-urge-regularizar-ingreso-de-recolectores-para-cosecha-2026-2027/"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a34",
+   "pais": "México",
+   "scope": "am",
+   "source": "Másnoticias",
+   "summary": "Según recorridos de campo en Teocelo, la estimación visual es de 4,2 a 4,5 millones de sacos, similar a lo reciente. En Coatepec los lotes especiales de más de 86 puntos pagan hasta 4–5 veces el precio convencional.",
+   "tag": "Producción",
+   "title": "Veracruz: el INIFAP anticipa una cosecha con buena carga de fruto",
+   "url": "https://www.masnoticias.mx/en-veracruz-se-espera-una-cosecha-de-cafe-por-arriba-del-promedio/"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a35",
+   "scope": "mundo",
+   "source": "Barchart · Yahoo Finance",
+   "summary": "Las existencias certificadas de arábica bajaron a 234.901 sacos, cerca del mínimo de 217.646 de septiembre, mientras las de robusta subieron a 6.380 lotes. Minas Gerais recibió 148% de su lluvia media semanal, factor bajista para Brasil.",
+   "tag": "Mercado",
+   "title": "Inventarios ICE divergen: arábica cerca del mínimo de 27 años, robusta en máximo de un año",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a36",
+   "pais": "México",
+   "scope": "am",
+   "source": "El Financiero",
+   "summary": "Fue la moneda que más se depreció, por el desarme de operaciones de carry trade y el menor diferencial de tasas con EE. UU. Un peso más débil mejora el ingreso en pesos de los exportadores, pero las cotizaciones en dólares no cambian.",
+   "tag": "Divisas",
+   "title": "El peso mexicano cierra en 18,67 por dólar tras caer 1,32% en el día",
+   "url": "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "a37",
+   "pais": "Colombia",
+   "scope": "am",
+   "source": "La República",
+   "summary": "El dólar cerró en $3.174,72 y el peso acumula una apreciación de más de 22%; el real brasileño suma cerca de 7%. La inflación de EE. UU. de 3,7% eleva la probabilidad de alzas de la Fed, con reunión el 27 de octubre.",
+   "tag": "Divisas",
+   "title": "Peso colombiano, la moneda emergente más revaluada, con el dólar en $3.174",
+   "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-16-de-octubre-4504276"
   }
  ],
- "updatedAt": "2026-10-22T19:55:00Z"
+ "updatedAt": "2026-10-23T11:50:00Z"
 }

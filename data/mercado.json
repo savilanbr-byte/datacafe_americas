@@ -1,45 +1,45 @@
 {
  "curve": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "points": [
    {
     "contract": "Dic-26",
-    "value": 316.15
+    "value": 312.45
    },
    {
     "contract": "Mar-27",
-    "value": 301.25
+    "value": 297.45
    },
    {
     "contract": "May-27",
-    "value": 296.2
+    "value": 292.45
    },
    {
     "contract": "Jul-27",
-    "value": 292.85
+    "value": 289.0
    },
    {
     "contract": "Sep-27",
-    "value": 289.65
+    "value": 285.65
    }
   ],
   "source": "Investing.com",
   "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
  },
  "fx": {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "base": "USD",
   "rates": {
-   "BOB": 11.729244,
-   "BRL": 5.024604,
-   "COP": 3173.544697,
-   "CRC": 455.578926,
-   "GTQ": 7.646309,
-   "HNL": 26.856452,
-   "MXN": 18.631602,
-   "NIO": 36.820734,
-   "PEN": 3.432996,
-   "VES": 884.7496
+   "BOB": 11.738878,
+   "BRL": 5.042763,
+   "COP": 3183.986533,
+   "CRC": 456.140766,
+   "GTQ": 7.645376,
+   "HNL": 26.858866,
+   "MXN": 18.733975,
+   "NIO": 36.819406,
+   "PEN": 3.440943,
+   "VES": 886.2271
   },
   "source": "ExchangeRate-API",
   "url": "https://open.er-api.com/v6/latest/USD"
@@ -78,14 +78,14 @@
    "value": 131.41
   },
   "icestocks": {
-   "asOf": "2026-10-16",
+   "asOf": "2026-10-20",
    "dec": 0,
    "label": "Inventarios certificados ICE",
-   "note": "Publicado 16-oct; mínimo en 27 años: 217.646 (sep)",
-   "source": "ICE · Finimize",
+   "note": "Mínimo en 27 años: 217.646 (15-sep); robusta en máximo de 1 año",
+   "source": "ICE · Barchart",
    "unit": "sacos",
-   "url": "https://finimize.com/content/coffee-prices-jump-as-ice-stockpiles-stay-uncomfortably-low",
-   "value": 238976
+   "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html",
+   "value": 234901
   },
   "icoBN": {
    "asOf": "2026-09-30",
@@ -108,8 +108,8 @@
    "value": 356.15
   },
   "icoComp": {
-   "asOf": "2026-10-20",
-   "changePct": -1.0,
+   "asOf": "2026-10-21",
+   "changePct": 0.25,
    "dec": 0,
    "label": "Indicador compuesto OIC",
    "source": "OIC · La República",
@@ -139,7 +139,7 @@
   },
   "kc1": {
    "asOf": "2026-10-22",
-   "change": -4.75,
+   "change": -3.7,
    "chgDec": 2,
    "contract": "Dic-26",
    "dec": 2,
@@ -148,43 +148,46 @@
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-   "value": 311.4
+   "value": 312.45
   },
   "kc2": {
-   "asOf": "2026-10-21",
-   "change": 2.25,
+   "asOf": "2026-10-22",
+   "change": -3.8,
    "chgDec": 2,
    "contract": "Mar-27",
    "dec": 2,
    "label": "KC C2",
+   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 301.25
+   "value": 297.45
   },
   "kc3": {
-   "asOf": "2026-10-21",
-   "change": 1.9,
+   "asOf": "2026-10-22",
+   "change": -3.75,
    "chgDec": 2,
    "contract": "May-27",
    "dec": 2,
    "label": "KC C3",
+   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 296.2
+   "value": 292.45
   },
   "kc4": {
-   "asOf": "2026-10-21",
-   "change": 1.8,
+   "asOf": "2026-10-22",
+   "change": -3.85,
    "chgDec": 2,
    "contract": "Jul-27",
    "dec": 2,
    "label": "KC C4",
+   "note": "Cierre del 22-oct (precio menos variación de la página de contratos)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 292.85
+   "value": 289.0
   },
   "prodMundo": {
    "asOf": "2026-07-02",
@@ -260,5 +263,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-22T19:55:00Z"
+ "updatedAt": "2026-10-23T11:50:00Z"
 }
