@@ -14,7 +14,7 @@ Publicada en `https://savilanbr-byte.github.io/datacafe_americas/` (GitHub Pages
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v5`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v6`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
 
 ## Calculadora

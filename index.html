@@ -318,6 +318,14 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .dnav button:hover{background:var(--sunk)}
 .dnav button[aria-current="page"]{background:var(--sunk);font-weight:600}
 .contact{padding:16px;display:flex;flex-direction:column;gap:12px}
+.shareqr{padding:16px;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center}
+.shareqr .eyebrow{align-self:flex-start}
+.shareqr .qr{width:min(196px,100%);height:auto;display:block;border-radius:10px;border:1px solid var(--line);stroke:none}
+.shareqr .qr path{stroke:none}
+.shareqr .url span{white-space:nowrap}
+.shareqr p{margin:0;font-size:13px;color:var(--muted);line-height:1.35}
+.shareqr .url{font-family:var(--f-num);font-size:11.5px;color:var(--muted);overflow-wrap:anywhere}
+.shareqr .btn{width:100%;justify-content:center}
 .contact .who{display:flex;gap:12px;align-items:center}
 .avatar{width:46px;height:46px;border-radius:50%;background:var(--cherry);color:#fff;font-family:var(--f-display);font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:center;flex:none}
 .contact .nm{font-family:var(--f-display);font-size:17px;font-weight:700;line-height:1.15}
@@ -450,6 +458,13 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
     <button class="btn ghost" id="drawerX" aria-label="Cerrar menú">✕</button>
   </div>
   <nav class="dnav" id="dnav" aria-label="Secciones"></nav>
+  <section class="card shareqr" aria-labelledby="shareT">
+    <div class="eyebrow" id="shareT">Comparte la app</div>
+    <svg class="qr" viewBox="0 0 41 41" role="img" aria-label="Código QR con el enlace de DataCafé|Américas" shape-rendering="crispEdges"><rect width="41" height="41" fill="#fff"/><path fill="#1C2217" d="M4 4h7v1h-7zM13 4h1v1h-1zM22 4h4v1h-4zM27 4h1v1h-1zM30 4h7v1h-7zM4 5h1v1h-1zM10 5h1v1h-1zM16 5h1v1h-1zM19 5h1v1h-1zM22 5h1v1h-1zM25 5h2v1h-2zM28 5h1v1h-1zM30 5h1v1h-1zM36 5h1v1h-1zM4 6h1v1h-1zM6 6h3v1h-3zM10 6h1v1h-1zM12 6h2v1h-2zM15 6h2v1h-2zM18 6h1v1h-1zM24 6h3v1h-3zM30 6h1v1h-1zM32 6h3v1h-3zM36 6h1v1h-1zM4 7h1v1h-1zM6 7h3v1h-3zM10 7h1v1h-1zM12 7h5v1h-5zM19 7h1v1h-1zM22 7h1v1h-1zM26 7h3v1h-3zM30 7h1v1h-1zM32 7h3v1h-3zM36 7h1v1h-1zM4 8h1v1h-1zM6 8h3v1h-3zM10 8h1v1h-1zM12 8h4v1h-4zM17 8h4v1h-4zM24 8h4v1h-4zM30 8h1v1h-1zM32 8h3v1h-3zM36 8h1v1h-1zM4 9h1v1h-1zM10 9h1v1h-1zM12 9h2v1h-2zM17 9h2v1h-2zM23 9h1v1h-1zM25 9h1v1h-1zM30 9h1v1h-1zM36 9h1v1h-1zM4 10h7v1h-7zM12 10h1v1h-1zM14 10h1v1h-1zM16 10h1v1h-1zM18 10h1v1h-1zM20 10h1v1h-1zM22 10h1v1h-1zM24 10h1v1h-1zM26 10h1v1h-1zM28 10h1v1h-1zM30 10h7v1h-7zM12 11h1v1h-1zM20 11h1v1h-1zM23 11h4v1h-4zM4 12h1v1h-1zM6 12h5v1h-5zM16 12h3v1h-3zM21 12h4v1h-4zM26 12h3v1h-3zM30 12h5v1h-5zM4 13h3v1h-3zM9 13h1v1h-1zM11 13h1v1h-1zM15 13h3v1h-3zM20 13h6v1h-6zM27 13h1v1h-1zM30 13h2v1h-2zM33 13h2v1h-2zM36 13h1v1h-1zM4 14h1v1h-1zM6 14h1v1h-1zM8 14h3v1h-3zM12 14h10v1h-10zM24 14h1v1h-1zM32 14h1v1h-1zM34 14h2v1h-2zM5 15h2v1h-2zM9 15h1v1h-1zM11 15h1v1h-1zM13 15h1v1h-1zM15 15h1v1h-1zM17 15h1v1h-1zM19 15h4v1h-4zM25 15h1v1h-1zM28 15h2v1h-2zM32 15h5v1h-5zM6 16h2v1h-2zM10 16h1v1h-1zM14 16h1v1h-1zM18 16h3v1h-3zM23 16h1v1h-1zM26 16h4v1h-4zM31 16h3v1h-3zM35 16h2v1h-2zM4 17h5v1h-5zM11 17h1v1h-1zM15 17h2v1h-2zM19 17h1v1h-1zM21 17h2v1h-2zM27 17h1v1h-1zM30 17h1v1h-1zM33 17h4v1h-4zM4 18h4v1h-4zM9 18h5v1h-5zM16 18h6v1h-6zM24 18h1v1h-1zM26 18h1v1h-1zM29 18h2v1h-2zM32 18h1v1h-1zM34 18h2v1h-2zM5 19h2v1h-2zM9 19h1v1h-1zM12 19h1v1h-1zM16 19h2v1h-2zM19 19h1v1h-1zM22 19h4v1h-4zM28 19h4v1h-4zM33 19h2v1h-2zM4 20h2v1h-2zM7 20h2v1h-2zM10 20h5v1h-5zM16 20h6v1h-6zM23 20h2v1h-2zM26 20h1v1h-1zM28 20h2v1h-2zM31 20h2v1h-2zM36 20h1v1h-1zM4 21h2v1h-2zM8 21h2v1h-2zM12 21h2v1h-2zM15 21h1v1h-1zM20 21h1v1h-1zM22 21h3v1h-3zM27 21h1v1h-1zM29 21h3v1h-3zM33 21h2v1h-2zM36 21h1v1h-1zM5 22h3v1h-3zM10 22h1v1h-1zM12 22h1v1h-1zM14 22h4v1h-4zM19 22h1v1h-1zM22 22h1v1h-1zM25 22h1v1h-1zM28 22h2v1h-2zM31 22h2v1h-2zM34 22h1v1h-1zM5 23h1v1h-1zM7 23h3v1h-3zM12 23h1v1h-1zM14 23h1v1h-1zM17 23h1v1h-1zM19 23h1v1h-1zM23 23h1v1h-1zM25 23h3v1h-3zM30 23h7v1h-7zM4 24h1v1h-1zM6 24h1v1h-1zM8 24h1v1h-1zM10 24h2v1h-2zM16 24h3v1h-3zM22 24h1v1h-1zM26 24h1v1h-1zM28 24h2v1h-2zM31 24h3v1h-3zM35 24h2v1h-2zM4 25h3v1h-3zM8 25h1v1h-1zM11 25h2v1h-2zM15 25h1v1h-1zM17 25h4v1h-4zM23 25h1v1h-1zM25 25h1v1h-1zM27 25h1v1h-1zM30 25h1v1h-1zM34 25h1v1h-1zM36 25h1v1h-1zM4 26h1v1h-1zM7 26h1v1h-1zM10 26h5v1h-5zM16 26h2v1h-2zM21 26h1v1h-1zM24 26h1v1h-1zM33 26h3v1h-3zM4 27h1v1h-1zM6 27h3v1h-3zM11 27h1v1h-1zM14 27h4v1h-4zM20 27h1v1h-1zM23 27h1v1h-1zM25 27h1v1h-1zM27 27h1v1h-1zM29 27h3v1h-3zM33 27h4v1h-4zM4 28h1v1h-1zM6 28h5v1h-5zM14 28h3v1h-3zM21 28h1v1h-1zM26 28h8v1h-8zM12 29h3v1h-3zM17 29h2v1h-2zM20 29h9v1h-9zM32 29h1v1h-1zM34 29h1v1h-1zM36 29h1v1h-1zM4 30h7v1h-7zM14 30h1v1h-1zM17 30h3v1h-3zM21 30h1v1h-1zM24 30h1v1h-1zM27 30h2v1h-2zM30 30h1v1h-1zM32 30h1v1h-1zM34 30h2v1h-2zM4 31h1v1h-1zM10 31h1v1h-1zM12 31h1v1h-1zM19 31h4v1h-4zM24 31h5v1h-5zM32 31h4v1h-4zM4 32h1v1h-1zM6 32h3v1h-3zM10 32h1v1h-1zM12 32h4v1h-4zM17 32h1v1h-1zM19 32h2v1h-2zM23 32h2v1h-2zM26 32h1v1h-1zM28 32h6v1h-6zM36 32h1v1h-1zM4 33h1v1h-1zM6 33h3v1h-3zM10 33h1v1h-1zM12 33h2v1h-2zM16 33h2v1h-2zM19 33h1v1h-1zM21 33h5v1h-5zM27 33h3v1h-3zM32 33h5v1h-5zM4 34h1v1h-1zM6 34h3v1h-3zM10 34h1v1h-1zM12 34h6v1h-6zM19 34h2v1h-2zM22 34h1v1h-1zM24 34h1v1h-1zM28 34h1v1h-1zM30 34h2v1h-2zM34 34h1v1h-1zM4 35h1v1h-1zM10 35h1v1h-1zM18 35h2v1h-2zM25 35h1v1h-1zM27 35h3v1h-3zM32 35h3v1h-3zM4 36h7v1h-7zM12 36h10v1h-10zM27 36h3v1h-3zM31 36h1v1h-1zM35 36h1v1h-1z"/></svg>
+    <p>Escanéalo con la cámara del celular para abrir DataCafé|Américas.</p>
+    <div class="url"><span>savilanbr-byte.github.io/</span><wbr><span>datacafe_americas</span></div>
+    <button class="btn primary" id="shareApp">Compartir enlace</button>
+  </section>
   <section class="card contact" aria-labelledby="contactT">
     <div class="eyebrow" id="contactT">Contacto</div>
     <div class="who">
@@ -515,6 +530,14 @@ function closeDrawer(){ if(!drawer.classList.contains("open")) return; drawer.cl
 menuBtn.onclick=openDrawer; $("#drawerX").onclick=closeDrawer; drawerBg.onclick=closeDrawer;
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeDrawer(); });
 $$("#dnav button").forEach(b=>b.onclick=()=>{ show(b.dataset.t); window.scrollTo(0,0); closeDrawer(); });
+const APP_URL="https://savilanbr-byte.github.io/datacafe_americas/";
+async function copyText(m){ let ok=false;
+  try{ await navigator.clipboard.writeText(m); ok=true; }catch(e){
+    try{ const t=document.createElement("textarea"); t.value=m; t.style.position="fixed"; t.style.opacity="0"; document.body.appendChild(t); t.select(); ok=document.execCommand("copy"); t.remove(); }catch(_){} }
+  return ok; }
+$("#shareApp").onclick=async()=>{
+  if(navigator.share){ try{ await navigator.share({title:"DataCafé|Américas",text:"Herramientas para comprar café en América",url:APP_URL}); return; }catch(e){ if(e&&e.name==="AbortError") return; } }
+  toast(await copyText(APP_URL)?"Enlace copiado":APP_URL); };
 $("#copyMail").onclick=async()=>{ const m="s.avilanbr@gmail.com"; let ok=false;
   try{ await navigator.clipboard.writeText(m); ok=true; }catch(e){
     try{ const t=document.createElement("textarea"); t.value=m; t.style.position="fixed"; t.style.opacity="0"; document.body.appendChild(t); t.select(); ok=document.execCommand("copy"); t.remove(); }catch(_){} }
