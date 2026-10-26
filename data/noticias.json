@@ -1,28 +1,6 @@
 {
  "items": [
   {
-   "date": "2026-10-13",
-   "id": "a4",
-   "pais": "México",
-   "scope": "am",
-   "source": "El Demócrata",
-   "summary": "Los productores de la región central reciben menos de lo previsto. La CNOC pide que los grandes compradores paguen al menos 16 pesos por kilo cuando empiecen las compras masivas a inicios de noviembre.",
-   "tag": "Precios",
-   "title": "Arranca la cosecha en Veracruz con pagos de 7 a 10 pesos por kilo de cereza",
-   "url": "https://www.eldemocrata.com/842306/cafetaleros-denuncian-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
-  },
-  {
-   "date": "2026-10-13",
-   "id": "a5",
-   "pais": "Honduras",
-   "scope": "am",
-   "source": "La Prensa",
-   "summary": "Son menos que los 7,3 millones del ciclo anterior, que dejó unos US$2.285 millones. El ciclo 2026-27 arrancó el 1 de octubre, con precios a la baja y riesgo de El Niño.",
-   "tag": "Producción",
-   "title": "Ihcafé prevé exportar cerca de 7 millones de quintales en 2026-27",
-   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
-  },
-  {
    "date": "2026-10-16",
    "id": "a8",
    "pais": "Colombia",
@@ -65,28 +43,6 @@
    "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/"
   },
   {
-   "date": "2026-10-15",
-   "id": "a15",
-   "pais": "Nicaragua",
-   "scope": "am",
-   "source": "Nueva Ya",
-   "summary": "Se lanza el 24 de octubre en Apanás. El Banco Central expondrá las proyecciones de producción y exportación del ciclo.",
-   "tag": "Producción",
-   "title": "El Ejército presentará el plan de protección de la cosecha 2026-27 en Jinotega",
-   "url": "https://nuevaya.com.ni/nacionales/ejercito-lanzara-plan-para-proteger-cosecha-cafetalera-2026-2027-en-jinotega/"
-  },
-  {
-   "date": "2026-10-13",
-   "id": "a17",
-   "pais": "Panamá",
-   "scope": "am",
-   "source": "MIDA",
-   "summary": "Técnicos se reunieron con productores de Claras Arriba para coordinar apoyo a futuros proyectos de café.",
-   "tag": "Industria",
-   "title": "El MIDA y la Autoridad del Canal impulsan proyectos cafetaleros en Panamá Oeste",
-   "url": "https://mida.gob.pa/2026/10/13/mida-impulsa-el-desarrollo-cafetalero-de-panama-oeste/"
-  },
-  {
    "date": "2026-10-16",
    "id": "a19",
    "pais": "Guatemala",
@@ -96,17 +52,6 @@
    "tag": "Cafés especiales",
    "title": "La Unión Europea protege el Café Antigua de Guatemala como indicación geográfica",
    "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/"
-  },
-  {
-   "date": "2026-10-15",
-   "id": "a23",
-   "pais": "Perú",
-   "scope": "am",
-   "source": "Diario Voces",
-   "summary": "El Padrón de Productores Agrarios supera 2,1 millones de registros y AgroDigital tenía más de 181 mil parcelas geolocalizadas a marzo. Especialistas advierten que eso aún no basta para rastrear cada tonelada exportada.",
-   "tag": "Industria",
-   "title": "San Martín avanza en trazabilidad de café y cacao para cumplir la norma europea EUDR",
-   "url": "https://diariovoces.com.pe/cacao-y-cafe-de-san-martin-rumbo-a-exigencias-internacionales/"
   },
   {
    "date": "2026-10-22",
@@ -131,26 +76,15 @@
    "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "id": "a28",
    "pais": "Colombia",
    "scope": "am",
    "source": "La República",
-   "summary": "El precio base de compra del pergamino seco bajó $35.000 (-1,57%) el 22 de octubre, hasta $2.200.000 por carga. Aun así el peso fuerte sigue comprimiendo el ingreso en pesos del caficultor.",
+   "summary": "El precio base del pergamino seco cayó $52.000 (-2,36%) el 23 de octubre, hasta $2.148.000 por carga, tras bajar $35.000 un día antes. El peso fuerte sigue comprimiendo el ingreso en pesos del caficultor.",
    "tag": "Precios",
-   "title": "Colombia: el precio interno del café baja a $2.200.000 por carga",
+   "title": "Colombia: el precio interno del café baja a $2.148.000 por carga",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
-  },
-  {
-   "date": "2026-10-14",
-   "id": "a29",
-   "pais": "Perú",
-   "scope": "am",
-   "source": "El Peruano",
-   "summary": "Mincetur ubica a Perú como octavo exportador mundial, con más de 300 empresas exportadoras (59% mipymes). El año pasado las ventas superaron US$1.800 millones.",
-   "tag": "Exportaciones",
-   "title": "Perú exportó café por US$705 millones entre enero y agosto",
-   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-del-2026"
   },
   {
    "date": "2026-10-20",
@@ -183,17 +117,6 @@
    "tag": "Exportaciones",
    "title": "Colombia exportó 13,8% menos café entre enero y septiembre por el peso fuerte",
    "url": "https://www.infobae.com/colombia/2026/10/19/colombia-vendio-menos-cafe-al-exterior-durante-2026-debido-a-la-revaluacion-del-peso-frente-al-dolar-asi-estan-las-preocupantes-cifras/"
-  },
-  {
-   "date": "2026-10-15",
-   "id": "a33",
-   "pais": "Costa Rica",
-   "scope": "am",
-   "source": "Trivisión",
-   "summary": "El Ministerio de Trabajo autorizó inicialmente 16.000 trabajadores panameños, con posible ampliación a 30.000, y Migración cuenta unos 6.000 ya ingresados. La mano de obra puede condicionar el ritmo de entrega de los lotes.",
-   "tag": "Producción",
-   "title": "Costa Rica: ICAFE pide agilizar el ingreso de recolectores para la cosecha 2026-27",
-   "url": "https://trivisioncr.com/noticias-nacionales/icafe-urge-regularizar-ingreso-de-recolectores-para-cosecha-2026-2027/"
   },
   {
    "date": "2026-10-21",
@@ -248,7 +171,51 @@
    "tag": "Exportaciones",
    "title": "El Salvador: ingresos por café suben 13,8% con un volumen casi igual",
    "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/"
+  },
+  {
+   "date": "2026-10-25",
+   "id": "a39",
+   "pais": "Costa Rica",
+   "scope": "am",
+   "source": "Monumental",
+   "summary": "Son cerca del 1% de los unos 6.000 recolectores que requiere la cosecha, según ICAFE. La recolección está en su punto máximo en Coto Brus y se intensifica en Pérez Zeledón y Los Santos; la falta de mano de obra puede retrasar entregas.",
+   "tag": "Producción",
+   "title": "Costa Rica: solo 60 nacionales se han anotado para recoger café",
+   "url": "https://www.monumental.co.cr/2026/10/25/icafe-contabiliza-apenas-60-costarricenses-interesados-en-recolectar-cafe-este-ano/"
+  },
+  {
+   "date": "2026-10-24",
+   "id": "a40",
+   "pais": "Brasil",
+   "scope": "am",
+   "source": "Três Pontas Studio live · Cepea",
+   "summary": "Bajó 1,11% el 23 de octubre frente a los R$ 1.619,85 del día anterior. El conilón aparece en R$ 936,73 por saca de 60 kg.",
+   "tag": "Precios",
+   "title": "Brasil: el indicador Cepea del arábica cierra la semana en R$ 1.601,95 por saca",
+   "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-semana-em-queda-e-fica-em-r-1-60195/"
+  },
+  {
+   "date": "2026-10-24",
+   "id": "a41",
+   "pais": "Nicaragua",
+   "scope": "am",
+   "source": "Prensa Latina · BCN",
+   "summary": "Equivale a unos 3 millones de quintales oro, según cifras oficiales. Las exportaciones suman US$691 millones a septiembre y el récord de 2025 fue de US$918,4 millones.",
+   "tag": "Producción",
+   "title": "Nicaragua proyecta más de 66 millones de latas de café uva y US$294 por quintal en 2026-27",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/"
+  },
+  {
+   "date": "2026-10-23",
+   "id": "a42",
+   "pais": "Venezuela",
+   "scope": "am",
+   "source": "AVN",
+   "summary": "La cifra es oficial y no precisa la base de cálculo. En Lara hay unas 50.000 hectáreas y se prevé cerca de un millón de quintales.",
+   "tag": "Producción",
+   "title": "Venezuela: el ministro de Agricultura estima +15% en la cosecha 2026-27",
+   "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
   }
  ],
- "updatedAt": "2026-10-23T19:47:56Z"
+ "updatedAt": "2026-10-26T11:50:00Z"
 }

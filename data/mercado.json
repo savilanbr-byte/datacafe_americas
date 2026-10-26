@@ -27,19 +27,19 @@
   "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
  },
  "fx": {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-26",
   "base": "USD",
   "rates": {
-   "BOB": 11.738878,
-   "BRL": 5.042763,
-   "COP": 3183.986533,
-   "CRC": 456.140766,
-   "GTQ": 7.645376,
-   "HNL": 26.858866,
-   "MXN": 18.733975,
-   "NIO": 36.819406,
-   "PEN": 3.440943,
-   "VES": 886.2271
+   "BOB": 11.786415,
+   "BRL": 4.995042,
+   "COP": 3170.487231,
+   "CRC": 455.887681,
+   "GTQ": 7.645146,
+   "HNL": 26.85546,
+   "MXN": 18.723111,
+   "NIO": 36.80406,
+   "PEN": 3.441627,
+   "VES": 887.302
   },
   "source": "ExchangeRate-API",
   "url": "https://open.er-api.com/v6/latest/USD"
@@ -144,7 +144,7 @@
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Liquidación ICE del 23-oct (página de contratos); la página histórica muestra 306,00 al cierre",
+   "note": "Cierre ICE del 23-oct; el 26-oct operaba intradía a la baja",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
@@ -263,5 +263,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-23T19:47:56Z"
+ "updatedAt": "2026-10-26T11:50:00Z"
 }

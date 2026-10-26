@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T00:30:00Z",
+ "updatedAt": "2026-10-26T11:50:00Z",
  "temporada": "2026-27",
  "regiones": [
   {
@@ -227,6 +227,30 @@
    "fecha": "2026-10-09",
    "fuente": "El Universal · FNC",
    "url": "https://www.eluniversal.com.co/colombia/2026/10/09/produccion-de-cafe-en-colombia-cayo-15-en-el-ano-cafetero-2025-2026/"
+  },
+  "costa-rica": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Cosecha en su punto máximo en Coto Brus; ICAFE solo tiene 60 nacionales inscritos para recolectar (1% de lo necesario).",
+   "fecha": "2026-10-25",
+   "fuente": "Monumental",
+   "url": "https://www.monumental.co.cr/2026/10/25/icafe-contabiliza-apenas-60-costarricenses-interesados-en-recolectar-cafe-este-ano/"
+  },
+  "nicaragua": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "El BCN proyecta más de 66 M de latas de café uva (~3 M quintales oro) para 2026-27, con El Niño como riesgo.",
+   "fecha": "2026-10-24",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/"
+  },
+  "venezuela": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "El ministro de Agricultura estima +15% en la cosecha 2026-27 (cifra oficial, sin base precisada).",
+   "fecha": "2026-10-23",
+   "fuente": "AVN",
+   "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
   }
  },
  "reportes": [
@@ -292,6 +316,42 @@
    "texto": "Anacafé: la falta de lluvias podría recortar entre 5% y 15% la cosecha 2026-27.",
    "fuente": "Prensa Libre",
    "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/"
+  },
+  {
+   "id": "a8",
+   "fecha": "2026-10-25",
+   "region": "costa-rica",
+   "tipo": "noticia",
+   "texto": "ICAFE: solo 60 costarricenses inscritos para recolectar (1% de los ~6.000 necesarios); la cosecha está en su punto máximo en Coto Brus.",
+   "fuente": "Monumental",
+   "url": "https://www.monumental.co.cr/2026/10/25/icafe-contabiliza-apenas-60-costarricenses-interesados-en-recolectar-cafe-este-ano/"
+  },
+  {
+   "id": "a9",
+   "fecha": "2026-10-24",
+   "region": "nicaragua",
+   "tipo": "noticia",
+   "texto": "El BCN proyecta más de 66 millones de latas de café uva (~3 M quintales oro) para 2026-27.",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/"
+  },
+  {
+   "id": "a10",
+   "fecha": "2026-10-23",
+   "region": "venezuela",
+   "tipo": "noticia",
+   "texto": "El ministro de Agricultura estima un aumento de 15% en la cosecha 2026-27; en Lara se espera cerca de un millón de quintales.",
+   "fuente": "AVN",
+   "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
+  },
+  {
+   "id": "a11",
+   "fecha": "2026-10-22",
+   "region": "brasil-arabica",
+   "tipo": "noticia",
+   "texto": "Cepea: floración dentro de lo esperado y buen cuajado para la cosecha 2027/28; el calor y un posible El Niño siguen como riesgo.",
+   "fuente": "Folha Agrícola · Cepea",
+   "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/"
   }
  ]
 }
