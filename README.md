@@ -14,8 +14,15 @@ Publicada en `https://savilanbr-byte.github.io/datacafe_americas/` (GitHub Pages
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v6`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v7`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
+
+## Diseño adaptable
+
+Un solo `index.html` para celular y computador:
+
+- Menos de 1024 px de ancho (celular, tableta): formato de app, con menú inferior y menú lateral que se abre con ☰.
+- Desde 1024 px (computador): formato web, con barra superior, menú lateral fijo (secciones, QR para compartir y contacto) y contenido en columnas. Los estilos están en el bloque `@media (min-width:1024px)` al final del CSS.
 
 ## Calculadora
 

@@ -360,6 +360,49 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .obars .num{text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:13px}
 .obars li.ref{color:var(--muted)}
 .obars li.ref .bar i{background:var(--muted)}
+/* ===== Vista de computador (≥1024 px): barra superior, menú lateral fijo y contenido en columnas.
+   En el celular y la tableta todo sigue igual (menú inferior). ===== */
+.cafe-cols,.cafe-col{display:flex;flex-direction:column;gap:14px}
+@media (min-width:1024px){
+  :root{--side:272px;--toph:60px}
+  body{padding-left:var(--side);padding-top:var(--toph)}
+  body::before{display:none}
+  .top{position:fixed;top:0;left:0;right:0;height:var(--toph);z-index:8}
+  .top .wrap{max-width:none;height:100%;padding-inline:24px}
+  .menu-btn{display:none}
+  .brand h1{font-size:21px}
+  .tabbar{display:none}
+  .drawer{top:var(--toph);width:var(--side);transform:none;visibility:visible;transition:none;z-index:4;padding:18px 16px 28px}
+  .drawer-h{display:none}
+  .drawer-bg{display:none!important}
+  .dnav button{padding:9px 10px;font-size:14.5px}
+  main{padding-bottom:56px}
+  main.wrap{max-width:1160px;padding-inline:32px}
+  .view{padding-block:28px;gap:22px}
+  .sec-h h2{font-size:28px}
+  .lede{font-size:15px}
+  .toast{bottom:24px;left:calc(50% + var(--side) / 2)}
+  /* Calculadoras: tarjetas en dos columnas */
+  .calc{display:block;columns:2;column-gap:18px}
+  .calc>*{break-inside:avoid;margin-bottom:14px}
+  .calc>.reset-row{column-span:all}
+  /* Mercado y cosechas */
+  .mgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .now-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .gantt col.c0{width:22%}
+  #mktBody>.sec-h{margin:26px 0 10px}
+  #mktBody>.sec-h:first-child{margin-top:0}
+  .curve{max-width:640px;margin:4px auto 0}
+  .supply svg{max-width:760px;margin:0 auto}
+  .radar{max-width:320px}
+  /* Catación */
+  .sess-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .cafe-cols{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px;align-items:start}
+  /* Noticias y clima en dos columnas */
+  .news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px}
+  .reg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+  .reg li:nth-child(2){border-top:0}
+}
 </style>
 </head>
 <body>
@@ -516,6 +559,7 @@ function show(t){
   if(!TABS.includes(t)) t="calc";
   $$(".view").forEach(v=>v.hidden=v.id!=="v-"+t);
   $$(".tab").forEach(b=>b.setAttribute("aria-current",b.dataset.t===t?"page":"false"));
+  $$("#dnav button").forEach(b=>b.setAttribute("aria-current",b.dataset.t===t?"page":"false"));
   LS.set("mc_tab",t);
 }
 $$(".tab").forEach(b=>b.addEventListener("click",()=>{show(b.dataset.t);window.scrollTo(0,0);}));
@@ -527,6 +571,10 @@ function openDrawer(){ $$("#dnav button").forEach(b=>b.setAttribute("aria-curren
   drawer.setAttribute("aria-hidden","false"); menuBtn.setAttribute("aria-expanded","true"); $("#drawerX").focus(); }
 function closeDrawer(){ if(!drawer.classList.contains("open")) return; drawer.classList.remove("open"); drawerBg.classList.remove("open");
   drawer.setAttribute("aria-hidden","true"); menuBtn.setAttribute("aria-expanded","false"); setTimeout(()=>{ if(!drawer.classList.contains("open")) drawerBg.hidden=true; },230); menuBtn.focus(); }
+const DESK=window.matchMedia("(min-width:1024px)");
+function syncDesk(){ if(DESK.matches){ drawer.classList.remove("open"); drawerBg.classList.remove("open"); drawerBg.hidden=true; drawer.setAttribute("aria-hidden","false"); menuBtn.setAttribute("aria-expanded","false"); }
+  else if(!drawer.classList.contains("open")) drawer.setAttribute("aria-hidden","true"); }
+DESK.addEventListener?DESK.addEventListener("change",syncDesk):DESK.addListener(syncDesk);
 menuBtn.onclick=openDrawer; $("#drawerX").onclick=closeDrawer; drawerBg.onclick=closeDrawer;
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeDrawer(); });
 $$("#dnav button").forEach(b=>b.onclick=()=>{ show(b.dataset.t); window.scrollTo(0,0); closeDrawer(); });
@@ -544,6 +592,7 @@ $("#copyMail").onclick=async()=>{ const m="s.avilanbr@gmail.com"; let ok=false;
   toast(ok?"Correo copiado":m); };
 const hashTab=(location.hash||"").replace("#","");
 show(TABS.includes(hashTab)?hashTab:LS.get("mc_tab","calc"));
+syncDesk();
 
 /* ---------- datos que llegan del feed ---------- */
 const FEED={mercado:null,noticias:null,clima:null,cosechas:null};
@@ -1158,10 +1207,12 @@ function renderEditor(){
          '<div class="field"><label>Mesa</label><input data-f="mesa" inputmode="numeric" value="'+esc(c.mesa)+'"></div>'+
          '<div class="field"><label>Variedad</label><input data-f="variedad" value="'+esc(c.variedad)+'"></div>'+
          '<div class="field"><label>Proceso</label><input data-f="proceso" list="procesos" value="'+esc(c.proceso)+'"></div></div>';
+      h+='<div class="cafe-cols"><div class="cafe-col">';
       h+='<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Atributos · 6 a 10</div>'+ATTRS.map(([k,l])=>'<div class="attr"><label for="a-'+c.id+'-'+k+'">'+esc(l)+'</label><input type="range" id="a-'+c.id+'-'+k+'" min="6" max="10" step="0.25" data-a="'+k+'" value="'+c.attrs[k]+'"><output class="num" id="o-'+c.id+'-'+k+'">'+fmt(+c.attrs[k],2)+'</output></div>').join("")+'</div>';
       h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Tazas que cumplen · de 5 (2 puntos c/u)</div>'+CUPS.map(([k,l])=>'<div class="cups"><span style="font-size:13.5px">'+esc(l)+'</span><div class="c" role="group" aria-label="'+esc(l)+'">'+[0,1,2,3,4,5].map(n=>'<button data-cup="'+k+'" data-n="'+n+'" aria-pressed="'+(+c[k]===n)+'">'+n+'</button>').join("")+'</div></div>').join("")+'</div>';
       h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Defectos</div><div class="cups"><span style="font-size:13.5px">Tazas</span><div class="c">'+[0,1,2,3,4,5].map(n=>'<button data-def="'+n+'" aria-pressed="'+(+c.defTazas===n)+'">'+n+'</button>').join("")+'</div></div>'+
          '<div class="cups"><span style="font-size:13.5px">Intensidad</span><div class="seg"><button data-dt="2" aria-pressed="'+(+c.defTipo===2)+'">Leve ×2</button><button data-dt="4" aria-pressed="'+(+c.defTipo===4)+'">Falla ×4</button></div></div></div>';
+      h+='</div><div class="cafe-col">';
       const ds=descList(c);
       h+='<div class="field"><label for="ds-'+c.id+'">Descriptores · rueda de sabores SCA</label>'+
          '<div class="chips desc-chips" data-dchips>'+descChips(ds)+'</div>'+
@@ -1169,6 +1220,7 @@ function renderEditor(){
          '<div class="dlist" id="dl-'+c.id+'" role="listbox" aria-label="Sabores" data-dlist hidden></div></div>';
       h+='<div class="field"><label>Comentarios</label><textarea data-f="comentarios">'+esc(c.comentarios)+'</textarea></div>';
       h+=radarSVG(c);
+      h+='</div></div>';
       h+='<div class="ed-actions"><span class="small muted" data-lbl="'+c.id+'">'+esc(scoreLabel(v))+'</span>'+(s.cafes.length>1?'<button class="btn ghost danger" data-rmcafe="'+c.id+'">Quitar café</button>':'')+'</div>';
       h+='</div>';
     }
