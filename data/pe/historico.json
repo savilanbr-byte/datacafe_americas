@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:10:00Z",
  "series": {
   "tc": {
    "label": "Tipo de cambio interbancario BCRP",
@@ -37,6 +37,18 @@
     [
      "2026-10-21",
      3.434
+    ],
+    [
+     "2026-10-22",
+     3.447
+    ],
+    [
+     "2026-10-23",
+     3.449
+    ],
+    [
+     "2026-10-26",
+     3.442
     ]
    ],
    "note": "Venta interbancaria del BCRP. La serie arranca el 12-oct-2026 y suma un dato por actualización.",
@@ -165,6 +177,10 @@
     [
      "2026-10-15",
      298.7
+    ],
+    [
+     "2026-10-27",
+     294.25
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -301,6 +317,10 @@
     [
      "2026-10-16",
      3483
+    ],
+    [
+     "2026-10-27",
+     3237.5
     ]
    ],
    "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",

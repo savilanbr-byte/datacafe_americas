@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:10:00Z",
  "items": [
   {
    "id": "p1",
@@ -12,68 +12,46 @@
    "summary": "Perú es el octavo exportador mundial; más de 300 empresas exportan cada año y el 59 % son mipymes. Expocafé Perú será del 26 al 29 de noviembre."
   },
   {
-   "id": "p2",
+   "id": "p7",
    "scope": "pe",
    "regiones": [
-    "amazonas",
-    "cajamarca",
-    "puno",
+    "cajamarca"
+   ],
+   "tag": "Cafés especiales",
+   "date": "2026-10-27",
+   "source": "El Búho",
+   "url": "https://elbuho.pe/2026/10/el-mejor-cafe-de-cajamarca-es-del-distrito-de-chirinos-provincia-de-san-ignacio/",
+   "title": "Un geisha de Chirinos (San Ignacio) gana ExpoCafé Cajamarca 2026",
+   "summary": "El lote de 120 kg, cultivado a 1.850 m s. n. m., sacó 89,25 puntos de taza y una cafetería lo compró a S/168 el kilo. Muestra el valor que alcanzan los lotes especiales del norte frente al café convencional."
+  },
+  {
+   "id": "p8",
+   "scope": "pe",
+   "regiones": [
+    "ayacucho",
     "junin",
-    "piura",
     "huanuco",
-    "cusco"
+    "puno",
+    "amazonas",
+    "cajamarca"
    ],
-   "tag": "Producción",
-   "date": "2026-09-29",
-   "source": "Agraria",
-   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187",
-   "title": "La producción de café creció 8 % en julio",
-   "summary": "66.280 t según el INEI. Amazonas (+63 %) y Cajamarca (+5 %) subieron; Piura (−24 %), Huánuco (−22 %) y Cusco (−14 %) bajaron."
+   "tag": "Eventos",
+   "date": "2026-10-14",
+   "source": "Agro Perú Informa",
+   "url": "https://www.agroperu.pe/expocafe-2026-sera-una-vitrina-comercial-para-familias-cafetaleras-asistidas-por-devida/",
+   "title": "Devida llevará 18 organizaciones cafetaleras a Expocafé Perú 2026",
+   "summary": "La feria será del 26 al 29 de noviembre en Casa Prado (Miraflores) y reunirá a productores del VRAEM, Tingo María, La Merced, San Juan del Oro y Jaén. Devida asiste a 15.222 familias en 15.942 hectáreas: buena vitrina para contactar orígenes de cafés especiales."
   },
   {
-   "id": "p3",
+   "id": "p9",
    "scope": "pe",
-   "regiones": [
-    "cajamarca",
-    "junin",
-    "amazonas"
-   ],
-   "tag": "Exportaciones",
-   "date": "2026-09-07",
-   "source": "Agraria",
-   "url": "https://agraria.pe/noticias/norte-y-centro-sostienen-el-crecimiento-de-las-exportaciones-43025",
-   "title": "Norte y centro sostienen el crecimiento de las exportaciones",
-   "summary": "48,1 millones de kg de enero a junio (+10 %): Cajamarca 51 %, Junín 12 %, Amazonas 11 % y Lambayeque 8 %."
-  },
-  {
-   "id": "p4",
-   "scope": "pe",
-   "tag": "Exportaciones",
-   "date": "2026-08-31",
-   "source": "Agraria",
-   "url": "https://www.agraria.pe/noticias/exportaciones-de-cafe-alcanzaron-los-us-325-millones-en-la-p-42977",
-   "title": "Exportaciones de café llegan a US$325 millones en el primer semestre",
-   "summary": "El valor creció 7,7 % y el volumen 10,3 %: el precio promedio bajó cerca de 2 %."
-  },
-  {
-   "id": "p5",
-   "scope": "pe",
+   "regiones": [],
    "tag": "Clima",
-   "date": "2026-08-05",
-   "source": "Gestión",
-   "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/",
-   "title": "El Niño amenaza al café: la producción 2026 caería entre 15 % y 20 %",
-   "summary": "ADEX estima 230–240 mil t frente a 285 mil en 2025; la falta de lluvias retrasó la campaña y afectó la floración en la selva norte."
-  },
-  {
-   "id": "p6",
-   "scope": "pe",
-   "tag": "Exportaciones",
-   "date": "2026-06-02",
-   "source": "Infomercado",
-   "url": "https://infomercado.pe/cafe-en-grano-exportado-crecio-50-y-alcanzo-us149-millones-que-empresas-lideran-la-exportacion/",
-   "title": "Café en grano exportado crece 50 % en valor en el primer trimestre",
-   "summary": "US$149 M y 20.391 t (US$7,29 por kg); Olam, Romex y Compañía Internacional del Café encabezan."
+   "date": "2026-10-23",
+   "source": "Agro Perú Informa",
+   "url": "https://www.agroperu.pe/el-nino-devida-prepara-acciones-para-proteger-cultivos-de-cafe-cacao-y-platano/",
+   "title": "Devida prepara medidas contra El Niño 2026-2027 en cafetales",
+   "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
   },
   {
    "id": "n8",

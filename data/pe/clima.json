@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:10:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,12 +19,13 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "impactos": [
-  "La cosecha 2026 ya terminó en casi todo el país: lo que queda es café en bodega y embarques hasta diciembre. Revisa humedad y almacenamiento de los lotes comprados.",
-  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX): vigila la floración de octubre-noviembre para la cosecha 2027.",
+  "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
+  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); vigila la floración de octubre–noviembre.",
+  "El SENAMHI espera que las lluvias lleguen desde noviembre, con El Niño costero fuerte; si llueve mucho, Devida advierte más riesgo de roya y otros hongos en cafetales.",
   "Con El Niño suelen llover más en la costa norte y menos en la sierra sur: vigila la floración de Cusco y Puno y el secado en las zonas más húmedas del norte.",
   "Con menos producción y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
  ],
@@ -55,9 +56,9 @@
    "place": "Jaén",
    "lat": -5.71,
    "lon": -78.81,
-   "p7": 121.4,
-   "tmax": 29,
-   "tmin": 22
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "amazonas",
