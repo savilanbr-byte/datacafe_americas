@@ -1,0 +1,163 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "Las floradas de la cosecha 2027-28 salieron bien en casi todas las regiones; noviembre y diciembre deciden el cuajado. Un El Niño con calor fuerte puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
+  "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
+  "El salto del dólar del 26 de octubre (+8 %) encarece el café en reales y suele animar al productor a vender: vigila el ritmo de ventas y los diferenciales FOB.",
+  "El Niño suele traer lluvias irregulares al Sudeste y más calor; en el conilon del Espírito Santo, la falta de agua en la florada pesa sobre 2027."
+ ],
+ "avisos": {
+  "source": "CEPEA · Itatiaia",
+  "asOf": "2026-10-22",
+  "headline": "Floradas buenas; el calor y El Niño mantienen la alerta",
+  "items": [
+   "Floradas como se esperaba y cuajado inicial bueno en la mayoría de regiones productoras.",
+   "Cerrado Mineiro: lluvias que se alternan con sol fuerte y calor extremo; el cuajado real se confirma hacia diciembre.",
+   "Mogiana: riesgo de caída prematura de flores y frutos si sigue el calor."
+  ],
+  "links": [
+   {
+    "t": "INMET",
+    "url": "https://portal.inmet.gov.br/"
+   },
+   {
+    "t": "Itatiaia",
+    "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "region": "sul-de-minas",
+   "dept": "Sul de Minas",
+   "place": "Varginha",
+   "lat": -21.55,
+   "lon": -45.43,
+   "p7": 74.4,
+   "tmax": 24,
+   "tmin": 18
+  },
+  {
+   "region": "cerrado-mineiro",
+   "dept": "Cerrado Mineiro",
+   "place": "Patrocínio",
+   "lat": -18.94,
+   "lon": -46.99,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "matas-de-minas",
+   "dept": "Matas de Minas",
+   "place": "Manhuaçu",
+   "lat": -20.26,
+   "lon": -42.03,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "mogiana",
+   "dept": "Mogiana",
+   "place": "Franca",
+   "lat": -20.54,
+   "lon": -47.4,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "norte-pioneiro",
+   "dept": "Norte Pioneiro",
+   "place": "Carlópolis",
+   "lat": -23.42,
+   "lon": -49.72,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "montanhas-es",
+   "dept": "Montanhas do ES",
+   "place": "Venda Nova do Imigrante",
+   "lat": -20.34,
+   "lon": -41.13,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "planalto-bahia",
+   "dept": "Planalto da Bahia",
+   "place": "Barra do Choça",
+   "lat": -14.87,
+   "lon": -40.58,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "oeste-bahia",
+   "dept": "Cerrado da Bahia",
+   "place": "Luís Eduardo Magalhães",
+   "lat": -12.09,
+   "lon": -45.8,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "conilon-es",
+   "dept": "Conilon ES",
+   "place": "Linhares",
+   "lat": -19.39,
+   "lon": -40.07,
+   "p7": 46.8,
+   "tmax": 29,
+   "tmin": 23
+  },
+  {
+   "region": "bahia-atlantico",
+   "dept": "Bahia Atlântico",
+   "place": "Itabela",
+   "lat": -16.57,
+   "lon": -39.56,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "rondonia",
+   "dept": "Rondônia",
+   "place": "Cacoal",
+   "lat": -11.44,
+   "lon": -61.45,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

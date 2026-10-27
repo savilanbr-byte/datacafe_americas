@@ -692,18 +692,22 @@ syncDesk();
 /* ---------- vista (zoom): Américas o un país ---------- */
 const ZOOMS={
   am:{id:"am",cc:"AM",short:"Vista general · 13 países",name:"Américas",desc:"13 países · vista general"},
-  colombia:{id:"colombia",cc:"CO",short:"Pesos · FNC y TRM",grp:"Andes",name:"Colombia",pais:"Colombia",desc:"Por departamento · precio FNC y TRM"},
+  colombia:{id:"colombia",cc:"CO",short:"Pesos · FNC y TRM",grp:"Suramérica",name:"Colombia",pais:"Colombia",desc:"Por departamento · precio FNC y TRM"},
   costarica:{id:"costarica",cc:"CR",short:"Colones · ICAFE",grp:"Centroamérica",name:"CostaRica",pais:"Costa Rica",desc:"7 regiones ICAFE · liquidación en colones"},
   honduras:{id:"honduras",cc:"HN",short:"Lempiras · IHCAFE",grp:"Centroamérica",name:"Honduras",pais:"Honduras",desc:"6 regiones IHCAFE · uva, mojado, seco y oro en lempiras"},
   guatemala:{id:"guatemala",cc:"GT",short:"Quetzales · Anacafé",grp:"Centroamérica",name:"Guatemala",pais:"Guatemala",desc:"8 regiones Anacafé · cereza, pergamino y oro en quetzales"},
-  elsalvador:{id:"elsalvador",cc:"SV",short:"Dólares · ISC",grp:"Centroamérica",name:"ElSalvador",pais:"El Salvador",desc:"6 cordilleras ISC · uva, pergamino y oro en dólares"}
+  elsalvador:{id:"elsalvador",cc:"SV",short:"Dólares · ISC",grp:"Centroamérica",name:"ElSalvador",pais:"El Salvador",desc:"6 cordilleras ISC · uva, pergamino y oro en dólares"},
+  brasil:{id:"brasil",cc:"BR",grp:"Suramérica",short:"Reales · CEPEA",name:"Brasil",pais:"Brasil",desc:"11 regiones · arábica y conilon por saca en reales"},
+  peru:{id:"peru",cc:"PE",grp:"Suramérica",short:"Soles · pergamino",name:"Perú",pais:"Perú",desc:"10 regiones · pergamino en soles con rendimiento"}
 };
 /* países con calculadora propia de la cereza al oro (Colombia va aparte) */
 const PAIS={
   costarica:{code:"cr",cur:"CRC",curName:"Colón costarricense",tcRef:"Tipo de cambio BCCR (compra)",tcShort:"el BCCR",inst:"ICAFE",origenPh:"Región / cantón",difKey:"difCR",difLbl:"Tu diferencial (cotización SHB)"},
   honduras:{code:"hn",cur:"HNL",curName:"Lempira",tcRef:"Tipo de cambio de referencia BCH",tcShort:"el BCH",inst:"IHCAFE",origenPh:"Región / municipio",difKey:"difHN",difLbl:"Tu diferencial (cotización SHG)"},
   guatemala:{code:"gt",cur:"GTQ",curName:"Quetzal",tcRef:"Tipo de cambio de referencia Banguat",tcShort:"el Banguat",inst:"Anacafé",origenPh:"Región / municipio",difKey:"difGT",difLbl:"Tu diferencial (cotización SHB)"},
-  elsalvador:{code:"sv",cur:"USD",curName:"Dólar estadounidense",usd:true,tcRef:"El Salvador usa el dólar",tcShort:"",inst:"ISC",origenPh:"Cordillera / municipio",difKey:"difSV",difLbl:"Tu diferencial (cotización SHG)"}
+  elsalvador:{code:"sv",cur:"USD",curName:"Dólar estadounidense",usd:true,tcRef:"El Salvador usa el dólar",tcShort:"",inst:"ISC",origenPh:"Cordillera / municipio",difKey:"difSV",difLbl:"Tu diferencial (cotización SHG)"},
+  brasil:{code:"br",cur:"BRL",curName:"Real brasileño",tcRef:"Dólar comercial (cierre)",tcShort:"el dólar comercial",inst:"CEPEA",origenPh:"Región / municipio",difKey:"difBR",difLbl:"Tu diferencial (arábica, FOB Santos)",seg:["Arábica","Conilon"]},
+  peru:{code:"pe",cur:"PEN",curName:"Sol",tcRef:"Tipo de cambio interbancario BCRP",tcShort:"el BCRP",inst:"Mincetur",impLbl:"Diferencial implícito de exportación",origenPh:"Región / provincia",difKey:"difPE",difLbl:"Tu diferencial (cotización FOB)"}
 };
 const ZC={
   am:{reg:"orígenes",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria (mitaca)",mNone:"Una sola cosecha",
@@ -741,6 +745,20 @@ const ZC={
     gantt:"Año completo por cordillera",supT:"Cordilleras cosechando por mes",supN:"Verde = cosecha (una al año)",
     climaLede:"Fenómeno ENSO, avisos del MARN y lluvia esperada en los próximos 7 días en un punto central de cada cordillera, cruzada con el calendario de cosecha.",
     impT:"Qué significa para la compra en El Salvador",climaSrc:"en un punto central de cada cordillera"},
+  brasil:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
+    zones:["Arábica · Minas Gerais","Arábica · otros estados","Conilon"],zoneNames:{"Arábica · Minas Gerais":"Arábica · Minas Gerais","Arábica · otros estados":"Arábica · São Paulo, Paraná, Espírito Santo y Bahia","Conilon":"Conilon (canéfora) · Espírito Santo, Bahia y Rondônia"},
+    calcLede:"Por saca de 60 kg de café beneficiado (bica corrida), en reales. Cambia entre arábica (contra Nueva York) y conilon (contra Londres); edita cualquier valor y el resto se recalcula.",
+    cosLede:"Toca un mes para ver qué regiones están cosechando. Brasil tiene una cosecha al año: el conilon de abril a julio y el arábica de mayo a septiembre. De septiembre a noviembre llegan las floradas (floraciones) de la cosecha siguiente.",
+    gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
+    climaLede:"Fenómeno ENSO, avisos y lluvia esperada en los próximos 7 días en un punto central de cada región. De septiembre a diciembre la lluvia decide las floradas y el cuajado (pegamento) de la próxima cosecha.",
+    impT:"Qué significa para la compra en Brasil",climaSrc:"en un punto central de cada región"},
+  peru:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
+    zones:["Norte","Centro","Sur"],zoneNames:{"Norte":"Norte y selva norte · Cajamarca, Amazonas, San Martín y Piura","Centro":"Selva central · Junín, Pasco y Huánuco","Sur":"Sur · Cusco, Puno y Ayacucho"},
+    calcLede:"Por quintal de 46 kg de pergamino, en soles: con la humedad y el rendimiento exportable llega al costo del café verde y a su equivalente FOB. Edita cualquier valor: el resto se recalcula.",
+    cosLede:"Toca un mes para ver qué regiones están cosechando. La cosecha empieza en febrero en zonas bajas y cerca del 80 % se recoge de abril a julio; los embarques siguen hasta diciembre.",
+    gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
+    climaLede:"Fenómeno ENSO y lluvia esperada en los próximos 7 días en un punto central de cada región, cruzada con el calendario de cosecha.",
+    impT:"Qué significa para la compra en Perú",climaSrc:"en un punto central de cada región"},
   colombia:{reg:"regiones",verb:"recogiendo",mName:"Mitaca",mLong:"Mitaca",mNone:"Sin mitaca",
     zones:["Norte","Centro","Centro (Eje Cafetero)","Centro-oriente","Sur"],zoneNames:{"Norte":"Norte · una cosecha","Centro":"Centro","Centro (Eje Cafetero)":"Eje Cafetero","Centro-oriente":"Centro-oriente","Sur":"Sur · principal en el 1.er semestre"},
     calcLede:"Edita cualquier valor: el resto se recalcula. En pesos, por carga de 125 kg y con la TRM oficial. Si escribes el FOB que necesitas, te dice cuánto puedes pagar por carga.",
@@ -958,7 +976,89 @@ PAIS.elsalvador.calc=makeChain({key:0,usd:true,qqNote:"100 libras = 45,36 kg",
   stages:[{n:"uva"},{n:"pergamino"},{n:"oro"}],
   yNote:["beneficio húmedo y secado; ≈ 21 %","trilla; ≈ 80 %"],
   def:{q0:100,y0:21,y1:80,qqKg:45.36,saco:69,tarifa:0.62}});
-const calcDef=id=>PZ()&&id==="perg"?PZ().calc:CALC[id];
+/* Brasil: saca de 60 kg de café beneficiado (bica corrida). Arábica contra NY (¢/lb); conilon contra Londres (USD/t). */
+function makeSaca(o){
+  const S=60, cn=!!o.conilon, ref=cn?{key:"ldn",item:"robusta",lbl:"Londres"}:{key:"kc",item:"kc1",lbl:"KC"};
+  const def={ref,o,
+    inputs:["n","aprov","p","trm","tarifa",ref.key],
+    sections:[
+      {t:"Cantidades",f:[["n","Sacas de café beneficiado","sacas de 60 kg · bica corrida",1,"key"],["kg","Kg de café","kg",0],["aprov","Aprovechamiento en la preparación","% que queda tras cribas y defectos (preparo)",1],["nx","Sacas preparadas para exportar","sacas de 60 kg",1]]},
+      {t:"Precio en {M}",f:[["p","Precio por saca","{M} por saca · bica corrida","L","key"],["pKg","Precio por kg","{M} por kg","L"],["pX","Costo por saca preparada","{M} por saca lista para exportar","L"],["pUSD","Precio por saca en dólares","USD por saca · bica corrida",2]]},
+      {t:"Exportación",f:[["trm","Tipo de cambio","{M} por USD","R"],["exw","Costo del café preparado","USD por libra",3],["tarifa","Preparación, flete, puerto y margen","USD por libra · hasta FOB "+(cn?"Vitória":"Santos"),3],["fob","Precio FOB","USD por libra",3,"key"],
+        ...(cn?[["fobT","Precio FOB por tonelada","USD por tonelada",0],["ldn","Robusta Londres","USD por tonelada · ICE Europa",0],["difT","Diferencial FOB vs Londres","USD por tonelada",0]]:[["kc","KC C1 bolsa NY","centavos por libra",2],["dif","Diferencial FOB vs KC","centavos por libra",1]])]},
+      {t:"Totales del lote",f:[["totCOP","Valor total pagado","{M}","L"],["totUSD","Valor total FOB","USD",0]]}
+    ],
+    compute(b){ const r={...b}, a=b.aprov/100; r.kg=b.n*S; r.nx=b.n*a; r.pKg=b.p/S; r.pX=b.p/a; r.pUSD=b.p/b.trm;
+      r.exw=r.pX/b.trm/(S*LB); r.fob=r.exw+b.tarifa; if(cn){ r.fobT=r.fob*LB*1000; r.difT=r.fobT-b.ldn; } else r.dif=(r.fob-b.kc/100)*100;
+      r.totCOP=b.n*b.p; r.totUSD=r.nx*S*LB*r.fob; return r; },
+    solve(k,v,b){ const a=b.aprov/100, fromExw=x=>x*b.trm*S*LB*a;
+      switch(k){
+        case "kg": b.n=v/S; break;
+        case "nx": if(a>0) b.n=v/a; break;
+        case "aprov": if(v>0&&v<=100){ b.aprov=v; } break;
+        case "pKg": b.p=v*S; break;
+        case "pX": b.p=v*a; break;
+        case "pUSD": b.p=v*b.trm; break;
+        case "exw": b.p=fromExw(v); break;
+        case "fob": b.p=fromExw(v-b.tarifa); break;
+        case "dif": b.p=fromExw(b.kc/100+v/100-b.tarifa); break;
+        case "fobT": b.p=fromExw(v/(LB*1000)-b.tarifa); break;
+        case "difT": b.p=fromExw((b.ldn+v)/(LB*1000)-b.tarifa); break;
+        case "totCOP": if(b.n>0) b.p=v/b.n; break;
+        case "totUSD": { const kg=b.n*a*S; if(kg>0) b.p=fromExw(v/(kg*LB)-b.tarifa); break; }
+        default: b[k]=v; if(k==="trm") b.trmManual=true; if(k===ref.key) b[ref.key+"Manual"]=true;
+      } },
+    valid(b){ return b.aprov>0&&b.aprov<=100&&b.trm>0; },
+    defaults(){ const m=FEED.mercado, I=(m&&m.items)||{}, W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{}, t=trmRef().v||rateOf("BRL");
+      const ind=I[cn?"cepeaR":"cepeaA"], rv=W[ref.item], b={n:100,aprov:100,p:ind&&ind.value>0?Math.round(+ind.value):(cn?940:1600),trm:t,tarifa:cn?0.06:0.10,trmManual:false};
+      b[ref.key]=rv&&isFinite(rv.value)?+rv.value:(cn?3200:298.7); b[ref.key+"Manual"]=false; return b; }
+  };
+  return def;
+}
+/* Perú: quintal de 46 kg de pergamino, con descuento de humedad sobre 12 % y rendimiento exportable */
+function makePeru(o){
+  const hfOf=b=>b.h>12?(100-b.h)/88:1;
+  const def={o,
+    inputs:["q","h","rend","qqKg","saco","p","trm","tarifa","kc"],
+    sections:[
+      {t:"Cantidades",f:[["q","Quintales de pergamino","quintales de {QQ} kg · como llegan",2,"key"],["kgP","Kg de pergamino","kg",1],["h","Humedad del pergamino","% · se descuenta lo que pase de 12 %",1],["kg12","Kg de pergamino al 12 %","kg · peso corregido por humedad",1],
+        ["kgX","Kg de café exportable","kg de café verde",1],["qqX","Quintales exportables","quintales de {QQ} kg",2],["sacos","Sacos de exportación","sacos de {S} kg",1]]},
+      {t:"Rendimiento",f:[["rend","Rendimiento exportable","% de café verde exportable sobre pergamino al 12 %",1],["fac","Factor pergamino por exportable","quintales de pergamino por quintal exportable",3],["qqKg","Peso del quintal","kg",2],["saco","Tamaño de saco de exportación","kg de café verde por saco",1]]},
+      {t:"Precio en {M}",f:[["p","Precio por quintal de pergamino","{M} por quintal · como llega","L","key"],["pKgP","Precio por kg de pergamino","{M} por kg","L"],["pKgX","Costo por kg exportable","{M} por kg de café verde","L"],["pQqX","Costo por quintal exportable","{M} por quintal de café verde","L"]]},
+      {t:"Exportación",f:[["trm","Tipo de cambio","{M} por USD","R"],["exw","Costo del café exportable","USD por libra",3],["tarifa","Trilla, exportación y margen","USD por libra · costos hasta FOB",3],["fob","Precio FOB","USD por libra",3,"key"],["kc","KC C1 bolsa NY","centavos por libra",2],["dif","Diferencial FOB vs KC","centavos por libra",1]]},
+      {t:"Totales del lote",f:[["totCOP","Valor total pagado","{M}","L"],["totUSD","Valor total FOB","USD",0]]}
+    ],
+    compute(b){ const r={...b}, hf=hfOf(b), y=b.rend/100; r.kgP=b.q*b.qqKg; r.kg12=r.kgP*hf; r.kgX=r.kg12*y; r.qqX=r.kgX/b.qqKg; r.sacos=r.kgX/b.saco; r.fac=1/(hf*y);
+      r.pKgP=b.p/b.qqKg; r.pKgX=r.pKgP/(hf*y); r.pQqX=r.pKgX*b.qqKg; r.exw=r.pKgX/LB/b.trm; r.fob=r.exw+b.tarifa; r.dif=(r.fob-b.kc/100)*100;
+      r.totCOP=b.q*b.p; r.totUSD=r.kgX*LB*r.fob; return r; },
+    solve(k,v,b){ const hf=hfOf(b), y=b.rend/100, fromKgX=x=>x*hf*y*b.qqKg, fromExw=x=>fromKgX(x*LB*b.trm);
+      switch(k){
+        case "kgP": b.q=v/b.qqKg; break;
+        case "kg12": b.q=v/hf/b.qqKg; break;
+        case "kgX": if(y>0) b.q=v/(hf*y)/b.qqKg; break;
+        case "qqX": if(y>0) b.q=v/(hf*y); break;
+        case "sacos": if(y>0) b.q=v*b.saco/(hf*y)/b.qqKg; break;
+        case "fac": if(v>0) b.rend=100/(v*hf); break;
+        case "qqKg": if(v>0){ b.p=b.p*v/b.qqKg; b.qqKg=v; } break;
+        case "pKgP": b.p=v*b.qqKg; break;
+        case "pKgX": b.p=fromKgX(v); break;
+        case "pQqX": b.p=fromKgX(v/b.qqKg); break;
+        case "exw": b.p=fromExw(v); break;
+        case "fob": b.p=fromExw(v-b.tarifa); break;
+        case "dif": b.p=fromExw(b.kc/100+v/100-b.tarifa); break;
+        case "totCOP": if(b.q>0) b.p=v/b.q; break;
+        case "totUSD": { const kgX=b.q*b.qqKg*hf*y; if(kgX>0) b.p=fromExw(v/(kgX*LB)-b.tarifa); break; }
+        default: b[k]=v; if(k==="trm") b.trmManual=true; if(k==="kc") b.kcManual=true;
+      } },
+    valid(b){ return b.rend>0&&b.rend<=100&&b.h>=0&&b.h<60&&b.qqKg>0&&b.saco>0&&b.trm>0; },
+    priceForFob(b,fob){ return (fob-b.tarifa)*LB*b.trm*b.qqKg*hfOf(b)*b.rend/100; }
+  };
+  def.o.priceKey="p"; return def;
+}
+PAIS.brasil.calc=makeSaca({}); PAIS.brasil.calcCer=makeSaca({conilon:true});
+PAIS.peru.calc=makePeru({def:{q:100,h:12,rend:78,qqKg:46,saco:69,tarifa:0.30}});
+const calcDef=id=>PZ()&&id==="perg"?PZ().calc:(PZ()&&id==="cer"&&PZ().calcCer)?PZ().calcCer:CALC[id];
+const refOf=id=>calcDef(id).ref||{key:"kc",item:"kc1",lbl:"KC"};
 function fieldsOf(def){ if(!def._F){ def._F={}; def.sections.forEach(s=>s.f.forEach(f=>def._F[f[0]]=f[3])); } return def._F; }
 function niceRound(v){ if(!isFinite(v)||v<=0) return v; const p=Math.pow(10,Math.floor(Math.log10(v))-2); return Math.round(v/p)*p; }
 function defaultsFor(id){
@@ -967,9 +1067,10 @@ function defaultsFor(id){
     /* costos hasta FOB: diferencia entre el precio de exportación y lo que llega al productor (datos ICAFE de la cosecha) */
     const x=impliedCR(m), tar=x&&x.gap>0?Math.round(x.gap*100)/100:0.84;
     return {caj:200,cpf:20,kgF:253,kgOF:46,trilla:80,saco:69,pFan:liq,trm:t,tarifa:tar,kc:kc0,trmManual:false,kcManual:false}; }
-  if(PZ()){ const P=PZ(), C=P.calc, W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{}, kc0=W.kc1&&isFinite(W.kc1.value)?+W.kc1.value:298.7;
+  if(PZ()){ const P=PZ(), C=id==="cer"&&P.calcCer?P.calcCer:P.calc; if(C.defaults) return C.defaults();
+    const W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{}, kc0=W.kc1&&isFinite(W.kc1.value)?+W.kc1.value:298.7;
     const t=P.usd?1:(trmRef().v||rateOf(P.cur)), x=impliedPais(FEED.mercado), dif=x&&x.dif!=null?x.dif:0;
-    const b={...C.o.def,trm:t,kc:kc0,trmManual:false,kcManual:false}; b.pK=niceRound(C.priceForFob(b,kc0/100+dif/100)); return b; }
+    const b={...C.o.def,trm:t,kc:kc0,trmManual:false,kcManual:false}; b[C.o.priceKey||"pK"]=niceRound(C.priceForFob(b,kc0/100+dif/100)); return b; }
   if(isCO()){ const I=(FEED.mercado&&FEED.mercado.items)||{}, t=trmRef().v||rateOf("COP"), kc0=I.kc1&&isFinite(I.kc1.value)?+I.kc1.value:298.7, fnc=I.fnc&&isFinite(I.fnc.value)?+I.fnc.value:2200000;
     if(id==="perg") return {kgP:1000,saco:70,kgU:125,carga:niceRound(fnc),F:92,trm:t,tarifa:0.5,kc:kc0,trmManual:false,kcManual:false};
     return {kgC:1000,pC:niceRound(fnc/125*0.2),conv:0.2,F:92}; }
@@ -993,11 +1094,13 @@ function buildCalcState(){ const st={}; calcState=st;
   st.cer={...defaultsFor("cer"),...LS.get(calcPre()+"cer",isCO()?comprasCalc("cer"):{})};
   return st; }
 calcState=CALC_ST[ZOOM]=buildCalcState();
-let calcCur=LS.get("mc_calc_cur","perg");
+/* la pestaña elegida (pergamino/cereza o arábica/conilon) se recuerda aparte en Brasil */
+const calcCurKey=()=>PZ()&&PZ().calcCer?PZ().code+"_calc_cur":"mc_calc_cur";
+let calcCur=LS.get(calcCurKey(),"perg");
 function decFor(id,k){ const d=fieldsOf(calcDef(id))[k]; const t=calcState.perg.trm; if(d==="L") return t>=100?0:2; if(d==="R") return rateDec(t); return d; }
 function tpl(s){ const b=calcState.perg; return String(s).replace(/\{QQ\}/g,fmt(b.qqKg,b.qqKg%1?2:0)).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)).replace(/\{CPF\}/g,fmt(b.cpf,b.cpf%1?1:0)); }
 function relabel(){ $$("#calcBody [data-tpl]").forEach(el=>el.textContent=tpl(el.dataset.tpl)); $$("#calcBody [data-unit]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.unit===calcState.perg.kgU)); $$("#calcBody [data-saco]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.saco===calcState.perg.saco)); }
-function calcValid(id,b){ if(PZ()&&id==="perg"&&PZ().calc.valid) return PZ().calc.valid(b); if(isCR()&&id==="perg") return b.cpf>0&&b.kgF>0&&b.kgOF>0&&b.trilla>0&&b.saco>0&&b.trm>0; if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
+function calcValid(id,b){ if(PZ()&&calcDef(id).valid) return calcDef(id).valid(b); if(isCR()&&id==="perg") return b.cpf>0&&b.kgF>0&&b.kgOF>0&&b.trilla>0&&b.saco>0&&b.trm>0; if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
 function renderCurBar(){
   const sel=$("#curSel"), n=$("#curNote"), lb=$("#curLbl"); if(!n) return;
   if(PZ()&&PZ().usd){ sel.hidden=true; lb.textContent="Moneda"; n.innerHTML='<b style="color:var(--ink);font-weight:600">USD · Dólar estadounidense</b> · '+esc(ZOOMS[ZOOM].pais)+' usa el dólar: sin tipo de cambio.'; return; }
@@ -1020,8 +1123,9 @@ function setCur(code){
 }
 $("#curSel").addEventListener("change",e=>setCur(e.target.value));
 function renderCalc(){
-  if(PZ()) calcCur="perg";
-  const sg=$("#v-calc .seg"); if(sg) sg.hidden=!!PZ();
+  const two=!PZ()||!!PZ().calcCer; if(!two) calcCur="perg";
+  const sg=$("#v-calc .seg"); if(sg) sg.hidden=!two;
+  const sl=PZ()&&PZ().seg||["Pergamino","Cereza"]; $("#segPerg").textContent=sl[0]; $("#segCer").textContent=sl[1];
   const def=calcDef(calcCur), b=calcState[calcCur];
   $("#segPerg").setAttribute("aria-pressed",calcCur==="perg"); $("#segCer").setAttribute("aria-pressed",calcCur==="cer");
   renderCurBar();
@@ -1032,12 +1136,12 @@ function renderCalc(){
       const isIn=def.inputs.includes(k);
       h+='<div class="crow'+(isIn?" in":"")+(flag==="key"?" key":"")+'"><label for="c-'+calcCur+'-'+k+'"><span data-tpl="'+esc(l)+'">'+esc(tpl(l))+'</span><span class="u" data-tpl="'+esc(u)+'">'+esc(tpl(u))+'</span></label>'+
          '<input id="c-'+calcCur+'-'+k+'" data-k="'+k+'" inputmode="decimal" autocomplete="off" enterkeyhint="done"></div>';
-      if(calcCur==="perg"&&k==="kgU") h+='<div class="uchips" role="group" aria-label="Unidad de compra">'+UNITS.map(([v,t])=>'<button class="chip" data-unit="'+v+'" aria-pressed="'+(b.kgU===v)+'">'+t+'</button>').join("")+'</div>';
+      if(calcCur==="perg"&&k==="kgU"&&!PZ()) h+='<div class="uchips" role="group" aria-label="Unidad de compra">'+UNITS.map(([v,t])=>'<button class="chip" data-unit="'+v+'" aria-pressed="'+(b.kgU===v)+'">'+t+'</button>').join("")+'</div>';
       if(calcCur==="perg"&&k==="saco") h+='<div class="uchips" role="group" aria-label="Tamaño de saco">'+SACOS.map(([v,t])=>'<button class="chip" data-saco="'+v+'" aria-pressed="'+(b.saco===v)+'">'+t+'</button>').join("")+'</div>';
     });
     h+="</div>";
   });
-  if(calcCur==="perg"){
+  if(calcCur==="perg"||PZ()){
     h+='<div class="reset-row small muted" id="pergRef"></div>';
   } else {
     h+='<div class="reset-row"><button class="btn" id="toPerg">Llevar a la calculadora de pergamino</button><span class="small muted">Pasa los kg de pergamino seco, el precio por unidad y el factor.</span></div>';
@@ -1054,10 +1158,10 @@ function renderCalc(){
     inp.addEventListener("blur",()=>fillCalc(null));
   });
   $$("#calcBody [data-unit]").forEach(bt=>bt.onclick=()=>{ const b=calcState.perg; CALC.perg.solve("kgU",+bt.dataset.unit,b); saveCalc("perg"); fillCalc(null); relabel(); });
-  $$("#calcBody [data-saco]").forEach(bt=>bt.onclick=()=>{ const b=calcState.perg; b.saco=+bt.dataset.saco; saveCalc("perg"); fillCalc(null); relabel(); refRow(); });
+  $$("#calcBody [data-saco]").forEach(bt=>bt.onclick=()=>{ const b=calcState[calcCur]; b.saco=+bt.dataset.saco; saveCalc(calcCur); fillCalc(null); relabel(); refRow(); });
   const tp=$("#toPerg"); if(tp) tp.onclick=()=>{ const r=CALC.cer.compute(calcState.cer);
     Object.assign(calcState.perg,{kgP:r.kgPS,carga:r.carga,F:calcState.cer.F}); saveCalc("perg");
-    calcCur="perg"; LS.set("mc_calc_cur",calcCur); renderCalc(); toast("Datos pasados a pergamino"); };
+    calcCur="perg"; LS.set(calcCurKey(),calcCur); renderCalc(); toast("Datos pasados a pergamino"); };
   $("#calcReset").onclick=()=>{ calcState[calcCur]=defaultsFor(calcCur); applyFeedToCalc(); saveCalc(calcCur); renderCalc(); };
   refRow();
 }
@@ -1067,22 +1171,21 @@ function fillCalc(active){
     if(inp.value!==nv){ inp.value=nv; if(active){ inp.classList.remove("flash"); void inp.offsetWidth; inp.classList.add("flash"); } } });
 }
 function refRow(){
-  const el=$("#pergRef"); if(!el) return; const b=calcState.perg, m=FEED.mercado, parts=[];
-  const kc=PZ()?(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items&&FEEDS_ALL.am.mercado.items.kc1):(m&&m.items&&m.items.kc1), t=trmRef(), r=t.v;
+  const el=$("#pergRef"); if(!el) return; const id=PZ()?calcCur:"perg", b=calcState[id], m=FEED.mercado, parts=[], rf=refOf(id);
+  const src=PZ()?FEEDS_ALL.am.mercado:m, kc=src&&src.items&&src.items[rf.item], t=trmRef(), r=t.v;
   if(cur==="USD") parts.push("Precios en dólares: tipo de cambio 1");
   else parts.push(b.trmManual?(t.oficial?(isCO()?'TRM manual':'Tipo de cambio manual'):'Cambio manual')+' · <button class="linkbtn" data-use="trm">usar '+(t.oficial?(isCO()?'TRM':PZ().tcShort):cur)+' del '+esc(fdate(t.asOf))+' ('+fmt(r,rateDec(r))+')</button>':(t.oficial?(isCO()?'TRM oficial del ':PZ().tcRef+' del '):'Cambio '+cur+'/USD del ')+esc(fdate(t.asOf)));
-  if(kc) parts.push(b.kcManual?'KC manual · <button class="linkbtn" data-use="kc">usar KC del '+esc(fdate(kc.asOf))+' ('+fmt(kc.value,2)+')</button>':'KC '+esc(kc.contract||"")+' al '+esc(fdate(kc.asOf)));
+  if(kc) parts.push(b[rf.key+"Manual"]?rf.lbl+' manual · <button class="linkbtn" data-use="ref">usar '+rf.lbl+' del '+esc(fdate(kc.asOf))+' ('+fmt(kc.value,rf.key==="kc"?2:0)+')</button>':rf.lbl+' '+esc(kc.contract||"")+' al '+esc(fdate(kc.asOf)));
   el.innerHTML=parts.join(" · ");
-  $$("[data-use]",el).forEach(bt=>bt.onclick=()=>{ if(bt.dataset.use==="trm"){b.trmManual=false;} else {b.kcManual=false;} applyFeedToCalc(); saveCalc("perg"); fillCalc(null); refRow(); });
+  $$("[data-use]",el).forEach(bt=>bt.onclick=()=>{ if(bt.dataset.use==="trm"){b.trmManual=false;} else {b[rf.key+"Manual"]=false;} applyFeedToCalc(); saveCalc(id); fillCalc(null); refRow(); });
 }
 function applyFeedToCalc(){
-  const b=calcState.perg;
-  if(!b.trmManual){ const r=trmRef().v; if(r>0) b.trm=r; }
-  const m=FEED.mercado; if(!m||!m.items) return;
-  const kcI=PZ()?(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items&&FEEDS_ALL.am.mercado.items.kc1):m.items.kc1;
-  if(!b.kcManual&&kcI&&isFinite(kcI.value)) b.kc=kcI.value;
+  (PZ()&&PZ().calcCer?["perg","cer"]:["perg"]).forEach(id=>{ const b=calcState[id], rf=refOf(id);
+    if(!b.trmManual){ const r=trmRef().v; if(r>0) b.trm=r; }
+    const m=PZ()?FEEDS_ALL.am.mercado:FEED.mercado; if(!m||!m.items) return;
+    const it=m.items[rf.item]; if(!b[rf.key+"Manual"]&&it&&isFinite(it.value)) b[rf.key]=+it.value; });
 }
-$$("#v-calc .seg button").forEach(bt=>bt.addEventListener("click",()=>{calcCur=bt.dataset.calc;LS.set("mc_calc_cur",calcCur);renderCalc();}));
+$$("#v-calc .seg button").forEach(bt=>bt.addEventListener("click",()=>{calcCur=bt.dataset.calc;LS.set(calcCurKey(),calcCur);if(PZ()) applyFeedToCalc();renderCalc();}));
 renderCalc();
 
 /* =========================================================
@@ -1164,7 +1267,7 @@ function ofertaHTML(of){
     (of.nota?'<div class="note">'+esc(of.nota)+'</div>':'')+
     '<div class="meta"><span>'+esc(of.unit||"")+(of.asOf?' · al '+esc(fdate(of.asOf,true)):'')+'</span>'+(of.url?'<a href="'+esc(of.url)+'" target="_blank" rel="noopener">'+esc(of.source||"fuente")+'</a>':'')+'</div></div>';
 }
-function renderMercado(){ const lb=$("#liveBox"); if(lb) lb.hidden=!hasLive(); if(isCO()) return renderMercadoCO(); if(PZ()) return isCR()?renderMercadoCR():renderMercadoPais(); renderMercadoAM(); }
+function renderMercado(){ const lb=$("#liveBox"); if(lb) lb.hidden=!hasLive(); if(isCO()) return renderMercadoCO(); if(PZ()) return isCR()?renderMercadoCR():ZOOM==="brasil"?renderMercadoBR():renderMercadoPais(); renderMercadoAM(); }
 function renderMercadoAM(){
   const m=FEED.mercado, body=$("#mktBody");
   let h='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+fxCardHTML()+'</div>';
@@ -1210,7 +1313,9 @@ const TV_LIVE={
   costarica:[{proName:"FX_IDC:USDCRC", title:"USD/CRC"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}],
   honduras:[{proName:"FX_IDC:USDHNL", title:"USD/HNL"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}],
   guatemala:[{proName:"FX_IDC:USDGTQ", title:"USD/GTQ"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}],
-  elsalvador:[{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"TVC:DXY", title:"Índice dólar"}]
+  elsalvador:[{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"TVC:DXY", title:"Índice dólar"}],
+  brasil:[{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"TVC:DXY", title:"Índice dólar"}],
+  peru:[{proName:"FX_IDC:USDPEN", title:"USD/PEN"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}]
 };
 function hasLive(){ return !!TV_LIVE[ZOOM]; }
 var liveDone=false, liveZone=null; /* var: show() puede pedirlo antes de esta línea */
@@ -1519,7 +1624,7 @@ function renderMercadoPais(){
   if(!P.usd&&I.tc) h+='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+mcard(I.tc,{key:'tc'})+mcard(I.tcAnual)+'</div>';
   h+='<div class="sec-h"><h3>Referencia '+esc(pais)+' · '+esc(P.inst)+'</h3></div><div class="mgrid">'+mcard(I.expo)+mcard(I.expoPrev)+difInputHTML("difPais",P.difLbl,dc);
   if(imp&&imp.dif!=null){
-    h+='<div class="card mcard derived"><div class="lbl">Diferencial implícito '+esc(P.inst)+' · '+esc(imp.cosecha||"")+'</div><div class="val">'+(imp.dif>0?"+":"")+fmt(imp.dif,1)+'<small>¢/lb</small></div>'+
+    h+='<div class="card mcard derived"><div class="lbl">'+esc(P.impLbl||("Diferencial implícito "+P.inst))+' · '+esc(imp.cosecha||"")+'</div><div class="val">'+(imp.dif>0?"+":"")+fmt(imp.dif,1)+'<small>¢/lb</small></div>'+
       '<div class="note">Precio promedio de exportación ('+esc(imp.periodo||"")+'), US$'+fmt(imp.expLb,3)+'/lb, frente al promedio de la bolsa de NY en los mismos meses ('+fmt(imp.ny,1)+' ¢/lb). Es FOB: ya trae beneficio y exportación.</div>'+
       (dc&&isFinite(dc.value)?'<div class="note"><b>Tu diferencial − implícito: '+((dc.value-imp.dif)>0?"+":"")+fmt(dc.value-imp.dif,1)+' ¢/lb</b></div>':"")+
       '<button class="explain" data-explain="implicitoPais" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+
@@ -1528,7 +1633,47 @@ function renderMercadoPais(){
   h+='</div>';
   if(m.alturas) h+='<div class="sec-h"><h3>Calidad por altura</h3></div><div class="mgrid">'+alturasHTML(m.alturas)+'</div>';
   h+='<div class="sec-h"><h3>Bolsa de Nueva York · arábica</h3></div><div class="mgrid">'+mcard(W.kc1,{key:'kc1'})+mcard(W.kc2,{key:'kc2'})+mcard(W.kc3,{key:'kc3'})+mcard(W.kc4,{key:'kc4'})+curveCardHTML(A&&A.curve)+'</div>';
-  h+='<div class="sec-h"><h3>Producción y exportaciones</h3></div><div class="mgrid">'+mcard(I.prod)+mcard(I.est)+mcard(I.expoVol)+mcard(I.expoValor)+'</div>';
+  if(m.clasif) h+='<div class="sec-h"><h3>Clasificación</h3></div><div class="mgrid">'+clasifHTML(m.clasif)+'</div>';
+  h+='<div class="sec-h"><h3>Producción y exportaciones</h3></div><div class="mgrid">'+mcard(I.prod)+mcard(I.est)+mcard(I.expoVol)+mcard(I.expoValor)+ofertaHTML(m.oferta)+'</div>';
+  h+=otrosHTML(W);
+  body.innerHTML=h;
+  bindDif("difPais",P.difKey);
+}
+
+/* ===== Brasil: indicadores CEPEA/ESALQ ===== */
+function clasifHTML(c){
+  if(!c||!c.groups) return "";
+  return '<div class="card mcard wide alturas"><div class="lbl">'+esc(c.title||"Clasificación")+'</div>'+
+    c.groups.map(g=>'<div class="eyebrow" style="margin-top:8px">'+esc(g.t)+'</div><div class="agrid">'+g.items.map(x=>'<div class="agrade"><b>'+esc(x.g)+'</b><span>'+esc(x.n||"")+'</span>'+(x.r?'<em>'+esc(x.r)+'</em>':'')+'</div>').join("")+'</div>').join("")+
+    (c.nota?'<div class="note">'+esc(c.nota)+'</div>':'')+
+    '<div class="meta"><span>'+esc(c.sub||"")+'</span>'+(c.url?'<a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+esc(c.source||"fuente")+'</a>':'')+'</div></div>';
+}
+/* diferencial implícito: indicador CEPEA (en reales, puesto en São Paulo) pasado a dólares y comparado con la bolsa */
+function impliedBR(m){
+  const I=m&&m.items, W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{}; if(!I) return null;
+  const out={}, A=I.cepeaA, Rb=I.cepeaR, lbS=60*LB;
+  if(A&&A.value>0&&A.fx>0&&W.kc1&&isFinite(W.kc1.value)){ const usd=A.value/A.fx, lb=usd/lbS; out.a={it:A,usd,lbS,lb,kc:+W.kc1.value,kcIt:W.kc1,dif:lb*100-W.kc1.value}; }
+  if(Rb&&Rb.value>0&&Rb.fx>0&&W.robusta&&isFinite(W.robusta.value)){ const usd=Rb.value/Rb.fx, t=usd/60*1000; out.r={it:Rb,usd,t,ldn:+W.robusta.value,ldnIt:W.robusta,dif:t-W.robusta.value}; }
+  return (out.a||out.r)?out:null;
+}
+function renderMercadoBR(){
+  const P=PZ(), m=FEED.mercado, A=FEEDS_ALL.am.mercado, body=$("#mktBody");
+  if(!m||!m.items){ body.innerHTML='<div class="empty"><strong>Todavía no hay datos de Brasil.</strong>Aparecen aquí apenas cargan. Mientras tanto, la calculadora usa valores de referencia.</div>'; return; }
+  const I=m.items, W=(A&&A.items)||{}, x=impliedBR(m), dc=ajustes[P.difKey];
+  $("#mktLede").textContent="Actualizado "+ago(m.updatedAt)+". Cada tarjeta muestra la fecha de su dato. Bolsas y otros mercados vienen de la vista Américas; los futuros llegan con retraso.";
+  let h='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+mcard(I.tc,{key:'tc'})+mcard(I.ptax)+'</div>';
+  h+='<div class="sec-h"><h3>Referencia Brasil · CEPEA/ESALQ</h3></div><div class="mgrid">'+mcard(I.cepeaA,{key:'cepeaA'})+mcard(I.cepeaR,{key:'cepeaR'})+difInputHTML("difPais",P.difLbl,dc);
+  if(x&&x.a) h+='<div class="card mcard derived"><div class="lbl">Diferencial implícito CEPEA · arábica</div><div class="val">'+(x.a.dif>0?"+":"")+fmt(x.a.dif,1)+'<small>¢/lb</small></div>'+
+    '<div class="note">Indicador CEPEA en dólares (US$'+fmt(x.a.usd,2)+'/saca = '+fmt(x.a.lb*100,1)+' ¢/lb) menos KC '+fmt(x.a.kc,2)+'. Tipo 6 bebida dura bica corrida puesto en São Paulo: sin preparación ni costos de exportación.</div>'+
+    (dc&&isFinite(dc.value)?'<div class="note"><b>Tu diferencial − implícito: '+((dc.value-x.a.dif)>0?"+":"")+fmt(dc.value-x.a.dif,1)+' ¢/lb</b> · incluye preparación y FOB</div>':"")+
+    '<button class="explain" data-explain="implicitoBR" aria-haspopup="dialog">ⓘ Cómo se calcula</button><div class="meta"><span>calculado · CEPEA al '+esc(fdate(x.a.it.asOf))+'</span></div></div>';
+  if(x&&x.r) h+='<div class="card mcard derived"><div class="lbl">Diferencial implícito CEPEA · conilon</div><div class="val">'+(x.r.dif>0?"+":"")+fmt(x.r.dif,0)+'<small>USD/t</small></div>'+
+    '<div class="note">Indicador del robusta en dólares por tonelada (US$'+fmt(x.r.t,0)+'/t) menos Londres '+fmt(x.r.ldn,0)+'. Equivale a '+(x.r.dif>0?"+":"")+fmt(x.r.dif/22.0462,1)+' ¢/lb. Puesto en Espírito Santo, sin costos de exportación.</div>'+
+    '<button class="explain" data-explain="implicitoBRr" aria-haspopup="dialog">ⓘ Cómo se calcula</button><div class="meta"><span>calculado · CEPEA al '+esc(fdate(x.r.it.asOf))+'</span></div></div>';
+  h+='</div>';
+  if(m.clasif) h+='<div class="sec-h"><h3>Clasificación brasileña</h3></div><div class="mgrid">'+clasifHTML(m.clasif)+'</div>';
+  h+='<div class="sec-h"><h3>Bolsa de Nueva York · arábica</h3></div><div class="mgrid">'+mcard(W.kc1,{key:'kc1'})+mcard(W.kc2,{key:'kc2'})+mcard(W.kc3,{key:'kc3'})+mcard(W.kc4,{key:'kc4'})+curveCardHTML(A&&A.curve)+'</div>';
+  h+='<div class="sec-h"><h3>Producción y exportaciones</h3></div><div class="mgrid">'+mcard(I.prod)+mcard(I.prodA)+mcard(I.prodR)+mcard(I.expoMes)+mcard(I.expoSafra)+ofertaHTML(m.oferta)+'</div>';
   h+=otrosHTML(W);
   body.innerHTML=h;
   bindDif("difPais",P.difKey);
@@ -1558,6 +1703,19 @@ function explainHTML(key){
     if(ls.length) h+='<div class="small muted" style="display:flex;gap:10px;flex-wrap:wrap">Fuentes: '+ls.map(l=>'<a href="'+esc(l[0])+'" target="_blank" rel="noopener">'+esc(l[1])+'</a>').join("")+'</div>';
     return {t:"Diferencial implícito ICAFE",h};
   }
+  if(key==="implicitoBR"||key==="implicitoBRr"){ const X=impliedBR(FEED.mercado); if(!X) return null; const ar=key==="implicitoBR", x=ar?X.a:X.r; if(!x) return null; const it=x.it;
+    let h='<p class="lede" style="margin:0">'+(ar?'Pasa el indicador CEPEA/ESALQ del arábica (tipo 6 bebida dura, bica corrida, puesto en São Paulo) a dólares por libra y le resta la bolsa de Nueva York. Es lo que el mercado brasileño paga por encima o por debajo de KC, antes de preparar y exportar el café.':'Pasa el indicador CEPEA/ESALQ del robusta (tipo 6, criba 13 arriba, puesto en Espírito Santo) a dólares por tonelada y le resta la bolsa de Londres.')+'</p>';
+    h+='<table class="inputs-t"><tr><td>Indicador CEPEA '+(ar?'arábica':'robusta')+'<br><span class="muted small">al '+esc(fdate(it.asOf))+'</span></td><td>R$'+fmt(it.value,2)+' por saca de 60 kg</td></tr>'+
+      '<tr><td>Dólar<br><span class="muted small">'+esc(it.fxSrc||"")+'</span></td><td>R$'+fmt(it.fx,4)+'</td></tr>'+
+      (ar?'<tr><td>KC '+esc(x.kcIt.contract||"")+'<br><span class="muted small">al '+esc(fdate(x.kcIt.asOf))+'</span></td><td>'+fmt(x.kc,2)+' ¢/lb</td></tr>':'<tr><td>Robusta Londres '+esc(x.ldnIt.contract||"")+'<br><span class="muted small">al '+esc(fdate(x.ldnIt.asOf))+'</span></td><td>'+fmt(x.ldn,0)+' USD/t</td></tr>')+'</table>';
+    h+='<ol class="steps">'+step(1,"Indicador en dólares","R$"+fmt(it.value,2)+" ÷ "+fmt(it.fx,4),"US$"+fmt(x.usd,2)+" por saca")+
+      (ar?step(2,"Por libra","60 kg × 2,2046 = "+fmt(x.lbS,2)+" lb · US$"+fmt(x.usd,2)+" ÷ "+fmt(x.lbS,2),fmt(x.lb*100,2)+" ¢/lb")+step(3,"Resta la bolsa de NY",fmt(x.lb*100,2)+" − "+fmt(x.kc,2),(x.dif>0?"+":"")+fmt(x.dif,1)+" ¢/lb",true)
+         :step(2,"Por tonelada","US$"+fmt(x.usd,2)+" ÷ 60 kg × 1.000","US$"+fmt(x.t,0)+"/t")+step(3,"Resta Londres",fmt(x.t,0)+" − "+fmt(x.ldn,0),(x.dif>0?"+":"")+fmt(x.dif,0)+" USD/t = "+(x.dif>0?"+":"")+fmt(x.dif/22.0462,1)+" ¢/lb",true))+'</ol>';
+    const d2=ar?x.kcIt.asOf:x.ldnIt.asOf; if(d2&&d2!==it.asOf) h+='<p class="small muted" style="margin:0">Ojo: el indicador es del '+esc(fdate(it.asOf))+' y la bolsa del '+esc(fdate(d2))+'.</p>';
+    h+='<p class="small muted" style="margin:0">'+(ar?'Para compararlo con un diferencial FOB Santos, súmale la preparación (cribas y escogida), el flete al puerto y los costos de exportación.':'Para compararlo con un diferencial FOB Vitória, súmale la preparación, el flete y los costos de exportación.')+'</p>';
+    if(it.url) h+='<div class="small muted">Fuente: <a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.source||"CEPEA")+'</a></div>';
+    return {t:"Diferencial implícito CEPEA · "+(ar?"arábica":"conilon"),h};
+  }
   if(key==="implicitoPais"){ const x=impliedPais(FEED.mercado), P=PZ(); if(!x||x.dif==null||!P) return null; const dc=ajustes[P.difKey];
     let h='<p class="lede" style="margin:0">Toma el precio promedio de exportación que reporta '+esc(x.fuente||P.inst)+', lo pasa a dólares por libra de café oro y lo compara con el promedio de la bolsa de NY en los mismos meses. Es un diferencial FOB promedio del periodo '+esc(x.periodo||"")+', no el del día.</p>';
     h+='<table class="inputs-t"><tr><td>Precio promedio de exportación<br><span class="muted small">'+esc(x.fuente||P.inst)+' · '+esc(x.periodo||"")+'</span></td><td>US$'+fmt(x.expo,2)+' por quintal de '+fmt(x.qqKg,x.qqKg%1?2:0)+' kg</td></tr>'+
@@ -1572,7 +1730,7 @@ function explainHTML(key){
     h+='<p class="small muted" style="margin:0">'+esc(x.nota||"Promedio simple de los meses: como los embarques se concentran en los meses pico, tómalo como el nivel del periodo.")+'</p>';
     const ls=[[x.expoUrl,"Exportación"],[x.nyUrl,"Bolsa de NY"],[x.nyUrl2,"Bolsa de NY (2)"]].filter(l=>l[0]);
     if(ls.length) h+='<div class="small muted" style="display:flex;gap:10px;flex-wrap:wrap">Fuentes: '+ls.map(l=>'<a href="'+esc(l[0])+'" target="_blank" rel="noopener">'+esc(l[1])+'</a>').join("")+'</div>';
-    return {t:"Diferencial implícito "+P.inst,h};
+    return {t:P.impLbl||("Diferencial implícito "+P.inst),h};
   }
   const m=PZ()?FEEDS_ALL.am.mercado:FEED.mercado; if(!m||!m.items) return null; const I=m.items;
   if(key==="implicito"){ const x=implied(m); if(!x) return null;
@@ -1717,6 +1875,34 @@ const REG_DEFAULT_SV=regRows([
  ["tecapa-chinameca","Tecapa-Chinameca","Usulután y San Miguel","Oriente",10,2,"baja",""],
  ["cacahuatique","Cacahuatique","Morazán y San Miguel (Ciudad Barrios)","Oriente",10,2,"baja",""]
 ]);
+/* respaldo de Brasil: 8 regiones de arábica y 3 de conilon (meses según el avance de cosecha de la Conab) */
+const REG_DEFAULT_BR=regRows([
+ ["sul-de-minas","Sul de Minas","Sur y Centro-Oeste de Minas Gerais","Arábica · Minas Gerais",5,9,"alta","La mayor región: 15,9 M de sacas en 2026 (Conab)."],
+ ["cerrado-mineiro","Cerrado Mineiro","Triângulo, Alto Paranaíba y Noroeste de MG","Arábica · Minas Gerais",5,8,"alta","Cosecha mecanizada y pareja; récord en 2026 (8,9 M de sacas)."],
+ ["matas-de-minas","Matas de Minas","Zona da Mata, Rio Doce y Central de MG","Arábica · Minas Gerais",5,9,"media","Montaña: cosecha manual y más lenta."],
+ ["mogiana","Mogiana","Alta y Média Mogiana (São Paulo)","Arábica · otros estados",5,9,"media","Franca y alrededores."],
+ ["norte-pioneiro","Norte Pioneiro","Norte del Paraná","Arábica · otros estados",5,8,"media",""],
+ ["montanhas-es","Montanhas do Espírito Santo","Arábica de altura del ES","Arábica · otros estados",5,9,"media","Arábica del Espírito Santo: 4,4 M de sacas en 2026."],
+ ["planalto-bahia","Chapada Diamantina y Planalto","Planalto de Vitória da Conquista y Chapada (BA)","Arábica · otros estados",5,9,"media",""],
+ ["oeste-bahia","Cerrado da Bahia","Oeste de Bahia, irrigado","Arábica · otros estados",4,8,"media","Riego: cosecha temprana."],
+ ["conilon-es","Conilon del Espírito Santo","Norte del ES (Linhares, Jaguaré, São Gabriel da Palha)","Conilon",4,7,"alta","El mayor polo de conilon del país."],
+ ["bahia-atlantico","Bahia · Atlântico","Sur y extremo sur de Bahia","Conilon",4,7,"media",""],
+ ["rondonia","Rondônia","Matas de Rondônia (Cacoal, Alta Floresta)","Conilon",4,7,"media","Robustas amazónicos; 98 % cosechado a fines de agosto de 2026."]
+]);
+/* respaldo de Perú: 10 regiones */
+const REG_DEFAULT_PE=regRows([
+ ["cajamarca","Cajamarca","Jaén y San Ignacio","Norte",4,8,"alta","La mayor región exportadora (51 % del volumen en el primer semestre de 2026)."],
+ ["amazonas","Amazonas","Rodríguez de Mendoza, Utcubamba y Bagua","Norte",4,8,"media",""],
+ ["san-martin","San Martín","Moyobamba, Lamas y Rioja","Norte",3,7,"media","Selva norte: empieza antes."],
+ ["piura","Piura","Huancabamba, Montero y Canchaque","Norte",5,9,"baja",""],
+ ["junin","Junín","Chanchamayo y Satipo","Centro",3,7,"alta","Selva central: los primeros granos llegan desde febrero-marzo."],
+ ["pasco","Pasco","Villa Rica y Oxapampa","Centro",4,8,"media",""],
+ ["huanuco","Huánuco","Leoncio Prado y Puerto Inca","Centro",4,7,"baja",""],
+ ["cusco","Cusco","La Convención (Quillabamba)","Sur",4,8,"media",""],
+ ["puno","Puno","Sandia (San Juan del Oro)","Sur",5,9,"media","Altura: cosecha tardía."],
+ ["ayacucho","Ayacucho","VRAEM (Pichari, Kimbiri)","Sur",4,8,"baja",""]
+]);
+PAIS.brasil.reg=REG_DEFAULT_BR; PAIS.peru.reg=REG_DEFAULT_PE;
 PAIS.costarica.reg=REG_DEFAULT_CR; PAIS.honduras.reg=REG_DEFAULT_HN; PAIS.guatemala.reg=REG_DEFAULT_GT; PAIS.elsalvador.reg=REG_DEFAULT_SV;
 const regDefault=()=>isCO()?REG_DEFAULT_CO:PZ()?PZ().reg:REG_DEFAULT;
 let REG=regDefault();
@@ -1908,6 +2094,27 @@ const NEWS_REG_SV=[
   ["tecapa-chinameca","Tecapa-Chinameca",["tecapa","chinameca","usulutan","santiago de maria","berlin"]],
   ["cacahuatique","Cacahuatique",["cacahuatique","ciudad barrios","morazan"]]
 ];
+const NEWS_REG_BR=[
+  ["sul-de-minas","Sul de Minas",["sul de minas","varginha","guaxupe","tres pontas","machado","pocos de caldas","campos gerais"]],
+  ["cerrado-mineiro","Cerrado Mineiro",["cerrado mineiro","patrocinio","araguari","monte carmelo","triangulo"]],
+  ["matas-de-minas","Matas de Minas",["matas de minas","zona da mata","manhuacu"]],
+  ["mogiana","Mogiana",["mogiana","franca","alta mogiana"]],
+  ["norte-pioneiro","Norte Pioneiro",["norte pioneiro","parana"]],
+  ["montanhas-es","Montanhas do ES",["montanhas do espirito santo","venda nova"]],
+  ["planalto-bahia","Planalto da Bahia",["chapada diamantina","planalto da bahia","vitoria da conquista"]],
+  ["oeste-bahia","Cerrado da Bahia",["oeste da bahia","oeste baiano","aiba"]],
+  ["conilon-es","Conilon ES",["conilon","espirito santo","linhares","jaguare"]],
+  ["bahia-atlantico","Bahia Atlântico",["sul da bahia","extremo sul"]],
+  ["rondonia","Rondônia",["rondonia","cacoal","robustas amazonicos"]]
+];
+const NEWS_REG_PE=[
+  ["cajamarca","Cajamarca",["cajamarca","jaen","san ignacio"]],["amazonas","Amazonas",["amazonas","rodriguez de mendoza","utcubamba","bagua"]],
+  ["san-martin","San Martín",["san martin","moyobamba","lamas","rioja"]],["piura","Piura",["piura","huancabamba","montero","canchaque"]],
+  ["junin","Junín",["junin","chanchamayo","satipo","selva central"]],["pasco","Pasco",["pasco","villa rica","oxapampa"]],
+  ["huanuco","Huánuco",["huanuco","tingo maria","leoncio prado"]],["cusco","Cusco",["cusco","la convencion","quillabamba"]],
+  ["puno","Puno",["puno","sandia","san juan del oro"]],["ayacucho","Ayacucho",["ayacucho","vraem","pichari","kimbiri"]]
+];
+PAIS.brasil.newsReg=NEWS_REG_BR; PAIS.peru.newsReg=NEWS_REG_PE;
 PAIS.costarica.newsReg=NEWS_REG_CR; PAIS.honduras.newsReg=NEWS_REG_HN; PAIS.guatemala.newsReg=NEWS_REG_GT; PAIS.elsalvador.newsReg=NEWS_REG_SV;
 const newsRegList=()=>PZ()?PZ().newsReg:NEWS_REG;
 const newsRegName=id=>{ const r=newsRegList().find(x=>x[0]===id); return r?r[1]:id; };
@@ -2250,7 +2457,7 @@ async function loadFeeds(){ await Promise.all((isPais()?["am",ZOOM]:["am"]).map(
 /* ---------- selector de vista ---------- */
 /* nombre para listas: el del país con espacios (Costa Rica); la marca va sin espacio (DataCafé|CostaRica) */
 const zLabel=o=>o.pais||o.name;
-const ZGRUPOS=["Centroamérica","Andes","Brasil","Norteamérica","Caribe"];
+const ZGRUPOS=["Centroamérica","Suramérica","Norteamérica","Caribe"];
 function zoomGroups(){ const vs=Object.values(ZOOMS), out=[[null,vs.filter(o=>!o.grp)]];
   ZGRUPOS.concat([...new Set(vs.map(o=>o.grp).filter(g=>g&&!ZGRUPOS.includes(g)))]).forEach(g=>{ const os=vs.filter(o=>o.grp===g).sort((a,b)=>zLabel(a).localeCompare(zLabel(b),"es")); if(os.length) out.push([g,os]); });
   return out; }
@@ -2281,7 +2488,7 @@ function setZoom(z){
   if(!ZOOMS[z]||z===ZOOM) return;
   ZOOM=z; LS.set("zoom",z); FEED=FEEDS_ALL[z];
   cur=zoneCur()||LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
-  calcState=CALC_ST[z]||(CALC_ST[z]=buildCalcState());
+  calcState=CALC_ST[z]||(CALC_ST[z]=buildCalcState()); calcCur=LS.get(calcCurKey(),"perg");
   try{ const u=new URL(location.href); if(z==="am") u.searchParams.delete("pais"); else u.searchParams.set("pais",z); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(e){}
   applyZoomUI(); renderCalc(); onFeed(); renderCatar();
   if(hasLive()&&!$("#v-mercado").hidden) loadLive();

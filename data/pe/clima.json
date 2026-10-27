@@ -1,0 +1,153 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "La cosecha 2026 ya terminó en casi todo el país: lo que queda es café en bodega y embarques hasta diciembre. Revisa humedad y almacenamiento de los lotes comprados.",
+  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX): vigila la floración de octubre-noviembre para la cosecha 2027.",
+  "Con El Niño suelen llover más en la costa norte y menos en la sierra sur: vigila la floración de Cusco y Puno y el secado en las zonas más húmedas del norte.",
+  "Con menos producción y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
+ ],
+ "avisos": {
+  "source": "ADEX · Gestión",
+  "asOf": "2026-08-05",
+  "headline": "La falta de lluvias retrasó la campaña 2026",
+  "items": [
+   "La campaña empezó en mayo y no en abril por la escasez de lluvias.",
+   "En la selva norte, la poca lluvia impidió una floración adecuada y bajó la productividad por hectárea.",
+   "Los cambios de temperatura pueden subir la incidencia de plagas."
+  ],
+  "links": [
+   {
+    "t": "SENAMHI",
+    "url": "https://www.senamhi.gob.pe/"
+   },
+   {
+    "t": "Gestión",
+    "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "region": "cajamarca",
+   "dept": "Cajamarca",
+   "place": "Jaén",
+   "lat": -5.71,
+   "lon": -78.81,
+   "p7": 121.4,
+   "tmax": 29,
+   "tmin": 22
+  },
+  {
+   "region": "amazonas",
+   "dept": "Amazonas",
+   "place": "Rodríguez de Mendoza",
+   "lat": -6.4,
+   "lon": -77.48,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "san-martin",
+   "dept": "San Martín",
+   "place": "Moyobamba",
+   "lat": -6.03,
+   "lon": -76.97,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "piura",
+   "dept": "Piura",
+   "place": "Huancabamba",
+   "lat": -5.24,
+   "lon": -79.45,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "junin",
+   "dept": "Junín",
+   "place": "Pichanaqui",
+   "lat": -10.93,
+   "lon": -74.87,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "pasco",
+   "dept": "Pasco",
+   "place": "Villa Rica",
+   "lat": -10.74,
+   "lon": -75.27,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "huanuco",
+   "dept": "Huánuco",
+   "place": "Tingo María",
+   "lat": -9.3,
+   "lon": -76.0,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "cusco",
+   "dept": "Cusco",
+   "place": "Quillabamba",
+   "lat": -12.86,
+   "lon": -72.69,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "puno",
+   "dept": "Puno",
+   "place": "San Juan del Oro",
+   "lat": -14.22,
+   "lon": -69.15,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "ayacucho",
+   "dept": "Ayacucho",
+   "place": "Pichari",
+   "lat": -12.52,
+   "lon": -73.83,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "temporada": "2027-28 (floradas)",
+ "fuente": "Conab",
+ "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+ "regiones": [
+  {
+   "id": "sul-de-minas",
+   "dep": "Sul de Minas",
+   "sub": "Sur y Centro-Oeste de Minas Gerais",
+   "zona": "Arábica · Minas Gerais",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "La mayor región: 15,9 M de sacas en 2026 (Conab)."
+  },
+  {
+   "id": "cerrado-mineiro",
+   "dep": "Cerrado Mineiro",
+   "sub": "Triângulo, Alto Paranaíba y Noroeste de MG",
+   "zona": "Arábica · Minas Gerais",
+   "pI": 5,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Cosecha mecanizada y pareja; récord en 2026 (8,9 M de sacas)."
+  },
+  {
+   "id": "matas-de-minas",
+   "dep": "Matas de Minas",
+   "sub": "Zona da Mata, Rio Doce y Central de MG",
+   "zona": "Arábica · Minas Gerais",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Montaña: cosecha manual y más lenta."
+  },
+  {
+   "id": "mogiana",
+   "dep": "Mogiana",
+   "sub": "Alta y Média Mogiana (São Paulo)",
+   "zona": "Arábica · otros estados",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Franca y alrededores."
+  },
+  {
+   "id": "norte-pioneiro",
+   "dep": "Norte Pioneiro",
+   "sub": "Norte del Paraná",
+   "zona": "Arábica · otros estados",
+   "pI": 5,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "montanhas-es",
+   "dep": "Montanhas do Espírito Santo",
+   "sub": "Arábica de altura del ES",
+   "zona": "Arábica · otros estados",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Arábica del Espírito Santo: 4,4 M de sacas en 2026."
+  },
+  {
+   "id": "planalto-bahia",
+   "dep": "Chapada Diamantina y Planalto",
+   "sub": "Planalto de Vitória da Conquista y Chapada (BA)",
+   "zona": "Arábica · otros estados",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "oeste-bahia",
+   "dep": "Cerrado da Bahia",
+   "sub": "Oeste de Bahia, irrigado",
+   "zona": "Arábica · otros estados",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Riego: cosecha temprana."
+  },
+  {
+   "id": "conilon-es",
+   "dep": "Conilon del Espírito Santo",
+   "sub": "Norte del ES (Linhares, Jaguaré, São Gabriel da Palha)",
+   "zona": "Conilon",
+   "pI": 4,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "El mayor polo de conilon del país."
+  },
+  {
+   "id": "bahia-atlantico",
+   "dep": "Bahia · Atlântico",
+   "sub": "Sur y extremo sur de Bahia",
+   "zona": "Conilon",
+   "pI": 4,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "rondonia",
+   "dep": "Rondônia",
+   "sub": "Matas de Rondônia (Cacoal, Alta Floresta)",
+   "zona": "Conilon",
+   "pI": 4,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Robustas amazónicos; 98 % cosechado a fines de agosto de 2026."
+  }
+ ],
+ "estado": {
+  "sul-de-minas": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Lluvias tempranas adelantaron una florada abundante para la cosecha 2027; falta confirmar el cuajado (pegamento).",
+   "fecha": "2026-10-02",
+   "fuente": "O Tempo",
+   "url": "https://www.otempo.com.br/agro/2026/10/2/chuvas-antecipam-florada-do-cafe-e-elevam-expectativa-para-safra-2027"
+  },
+  "cerrado-mineiro": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Lluvia alternada con sol fuerte y calor extremo; el cuajado real se sabrá hacia diciembre (CEPEA).",
+   "fecha": "2026-10-22",
+   "fuente": "Itatiaia",
+   "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+  },
+  "mogiana": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Preocupa que el calor persistente y El Niño tumben flores y frutos recién formados (chumbinhos).",
+   "fecha": "2026-10-22",
+   "fuente": "Itatiaia",
+   "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+  },
+  "rondonia": {
+   "ajusteSemanas": 0,
+   "volumen": "alto",
+   "resumen": "Cosecha 2026 de 2,88 M de sacas (+24 %); 98 % cosechado a fines de agosto.",
+   "fecha": "2026-09-24",
+   "fuente": "Conab",
+   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf"
+  },
+  "conilon-es": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Conilon del ES: unos 12,1 M de sacas en 2026 (−14 %).",
+   "fecha": "2026-09-24",
+   "fuente": "Conab",
+   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf"
+  }
+ },
+ "reportes": [
+  {
+   "id": "b1",
+   "fecha": "2026-10-22",
+   "region": "Brasil",
+   "tipo": "noticia",
+   "texto": "CEPEA: las floradas de la cosecha 2027-28 salieron como se esperaba y el cuajado inicial es bueno, pero el calor intenso y El Niño mantienen el riesgo de aborto de frutos.",
+   "fuente": "Itatiaia",
+   "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+  },
+  {
+   "id": "b2",
+   "fecha": "2026-09-24",
+   "region": "Brasil",
+   "tipo": "noticia",
+   "texto": "Conab: cosecha 2026 récord de 67,6 M de sacas (arábica 48,2 M, +34,8 %; conilon 19,4 M, −6,6 %).",
+   "fuente": "Conab",
+   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf"
+  }
+ ]
+}

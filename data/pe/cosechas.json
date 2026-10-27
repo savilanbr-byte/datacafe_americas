@@ -1,0 +1,230 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "temporada": "2026",
+ "fuente": "Gestión · Agraria",
+ "url": "https://gestion.pe/economia/cafe-se-tomaria-frio-exportaciones-peruanas-se-alejarian-de-un-record-en-2026-noticia/",
+ "regiones": [
+  {
+   "id": "cajamarca",
+   "dep": "Cajamarca",
+   "sub": "Jaén y San Ignacio",
+   "zona": "Norte",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "La mayor región exportadora (51 % del volumen en el primer semestre de 2026)."
+  },
+  {
+   "id": "amazonas",
+   "dep": "Amazonas",
+   "sub": "Rodríguez de Mendoza, Utcubamba y Bagua",
+   "zona": "Norte",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "san-martin",
+   "dep": "San Martín",
+   "sub": "Moyobamba, Lamas y Rioja",
+   "zona": "Norte",
+   "pI": 3,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Selva norte: empieza antes."
+  },
+  {
+   "id": "piura",
+   "dep": "Piura",
+   "sub": "Huancabamba, Montero y Canchaque",
+   "zona": "Norte",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "junin",
+   "dep": "Junín",
+   "sub": "Chanchamayo y Satipo",
+   "zona": "Centro",
+   "pI": 3,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Selva central: los primeros granos llegan desde febrero-marzo."
+  },
+  {
+   "id": "pasco",
+   "dep": "Pasco",
+   "sub": "Villa Rica y Oxapampa",
+   "zona": "Centro",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "huanuco",
+   "dep": "Huánuco",
+   "sub": "Leoncio Prado y Puerto Inca",
+   "zona": "Centro",
+   "pI": 4,
+   "pF": 7,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "cusco",
+   "dep": "Cusco",
+   "sub": "La Convención (Quillabamba)",
+   "zona": "Sur",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "puno",
+   "dep": "Puno",
+   "sub": "Sandia (San Juan del Oro)",
+   "zona": "Sur",
+   "pI": 5,
+   "pF": 9,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Altura: cosecha tardía."
+  },
+  {
+   "id": "ayacucho",
+   "dep": "Ayacucho",
+   "sub": "VRAEM (Pichari, Kimbiri)",
+   "zona": "Sur",
+   "pI": 4,
+   "pF": 8,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  }
+ ],
+ "estado": {
+  "amazonas": {
+   "ajusteSemanas": 0,
+   "volumen": "alto",
+   "resumen": "Producción de julio +63,4 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "cajamarca": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +5,0 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "puno": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +3,8 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "junin": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +0,5 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "san-martin": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +0,2 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "pasco": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +1,4 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "ayacucho": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Producción de julio +2,0 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "piura": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Producción de julio −24,2 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "huanuco": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Producción de julio −21,5 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  "cusco": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Producción de julio −14,4 % frente a julio de 2025 (INEI).",
+   "fecha": "2026-09-29",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  }
+ },
+ "reportes": [
+  {
+   "id": "p1",
+   "fecha": "2026-09-29",
+   "region": "Perú",
+   "tipo": "noticia",
+   "texto": "INEI: la producción de julio llegó a 66.280 t (+8 %) por más área cosechada y temperaturas favorables.",
+   "fuente": "Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187"
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-08-05",
+   "region": "Perú",
+   "tipo": "noticia",
+   "texto": "ADEX: la falta de lluvias retrasó la campaña a mayo y podría bajar la producción 2026 entre 15 % y 20 %; en la selva norte la floración fue pobre.",
+   "fuente": "Gestión",
+   "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/"
+  }
+ ]
+}

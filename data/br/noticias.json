@@ -1,0 +1,135 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "items": [
+  {
+   "id": "b1",
+   "scope": "br",
+   "tag": "Divisas",
+   "date": "2026-10-27",
+   "source": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+   "title": "El dólar sube 8 % tras la segunda vuelta y retrocede el martes",
+   "summary": "Cerró el lunes en R$5,41, su mayor alza diaria en 23 años, y abrió el martes cerca de R$5,33. El café en reales se encarece: los precios físicos del arábica subieron hasta 6 % el lunes."
+  },
+  {
+   "id": "b2",
+   "scope": "br",
+   "regiones": [
+    "cerrado-mineiro",
+    "mogiana"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-22",
+   "source": "Itatiaia",
+   "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/",
+   "title": "CEPEA: la florada empieza bien, pero el calor y El Niño encienden la alerta",
+   "summary": "El cuajado inicial es bueno en la mayoría de regiones; en el Cerrado y la Mogiana preocupa la caída de flores y frutos con el calor."
+  },
+  {
+   "id": "b3",
+   "scope": "br",
+   "tag": "Clima",
+   "date": "2026-10-21",
+   "source": "Folha Agrícola",
+   "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/",
+   "title": "Buen inicio de la cosecha 2027-28, pero el clima preocupa",
+   "summary": "La floración fue buena para la próxima cosecha; el calor es el principal riesgo de las próximas semanas."
+  },
+  {
+   "id": "b4",
+   "scope": "br",
+   "tag": "Exportaciones",
+   "date": "2026-10-09",
+   "source": "Canal Rural",
+   "url": "https://www.canalrural.com.br/economia/exportacao-de-cafe-cresce-31-em-volume-em-setembro-mas-receita-cai-71/",
+   "title": "Exportación de septiembre sube 3,1 % en volumen, pero los ingresos caen 7,1 %",
+   "summary": "3,894 M de sacas por US$1.282 M (Cecafé). De enero a septiembre, el conilon exportado crece 68 % y el arábica cae 10,7 %."
+  },
+  {
+   "id": "b5",
+   "scope": "br",
+   "regiones": [
+    "sul-de-minas",
+    "cerrado-mineiro",
+    "mogiana",
+    "matas-de-minas"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-02",
+   "source": "O Tempo",
+   "url": "https://www.otempo.com.br/agro/2026/10/2/chuvas-antecipam-florada-do-cafe-e-elevam-expectativa-para-safra-2027",
+   "title": "Lluvias adelantan la florada del café y elevan las expectativas para 2027",
+   "summary": "Florada abundante en el Sur de Minas, el Cerrado Mineiro, la Alta Mogiana, las Matas de Minas y el Espírito Santo; el reto es el cuajado."
+  },
+  {
+   "id": "b6",
+   "scope": "br",
+   "tag": "Producción",
+   "date": "2026-09-24",
+   "source": "Conab",
+   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+   "title": "Conab: cosecha récord de 67,6 millones de sacas en 2026",
+   "summary": "Arábica 48,2 M (+34,8 %) y conilon 19,4 M (−6,6 %); el Cerrado Mineiro crece 86 % y Rondônia 24 %."
+  },
+  {
+   "id": "b7",
+   "scope": "br",
+   "tag": "Exportaciones",
+   "date": "2026-07-15",
+   "source": "DGABC",
+   "url": "https://www.dgabc.com.br/Noticia/4335503/cecafe-exportacoes-de-cafe-do-brasil-caem-15-7-na-safra-2025-26-para-38-5-milhoes-de-sacas",
+   "title": "Cecafé: exportaciones de la safra 2025-26 caen 15,7 % a 38,5 millones de sacas",
+   "summary": "Ingresos de US$14.595 M con precio medio récord de US$379,48 por saca; Alemania pasó a ser el primer destino."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}

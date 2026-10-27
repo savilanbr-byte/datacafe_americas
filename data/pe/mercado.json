@@ -1,0 +1,139 @@
+{
+ "updatedAt": "2026-10-27T18:00:00Z",
+ "items": {
+  "tc": {
+   "label": "Tipo de cambio interbancario BCRP (venta)",
+   "value": 3.434,
+   "dec": 3,
+   "unit": "PEN/USD",
+   "change": 0.003,
+   "chgDec": 3,
+   "asOf": "2026-10-21",
+   "source": "BCRP",
+   "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-10-12/2026-10-21/",
+   "liveUrl": "https://estadisticas.bcrp.gob.pe/",
+   "liveT": "BCRP",
+   "note": "Estable: entre S/3,43 y S/3,44 en octubre."
+  },
+  "expo": {
+   "label": "Precio promedio de exportación ene–jun 2026",
+   "value": 310.82,
+   "dec": 2,
+   "unit": "USD/quintal",
+   "asOf": "2026-09-07",
+   "source": "Mincetur · Agraria",
+   "url": "https://www.agraria.pe/noticias/exportaciones-de-cafe-alcanzaron-los-us-325-millones-en-la-p-42977",
+   "note": "Quintal de 46 kg (US$6,757 por kg): US$325 M ÷ 48,1 millones de kg. Valor +7,7 % y volumen +10,3 % frente a 2025."
+  },
+  "expoValor": {
+   "label": "Exportaciones ene–ago 2026",
+   "value": 705,
+   "dec": 0,
+   "unit": "M USD",
+   "asOf": "2026-10-14",
+   "source": "Mincetur · El Peruano",
+   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-de-2026",
+   "note": "2025 completo: récord de US$1.796 M. Expocafé Perú será del 26 al 29 de noviembre en Lima."
+  },
+  "expoVol": {
+   "label": "Volumen exportado ene–jun 2026",
+   "value": 48.1,
+   "dec": 1,
+   "unit": "mil t",
+   "changePct": 10,
+   "asOf": "2026-09-07",
+   "source": "Agraria",
+   "url": "https://agraria.pe/noticias/norte-y-centro-sostienen-el-crecimiento-de-las-exportaciones-43025",
+   "note": "Norteamérica 45 % y Europa 41 % de las ventas."
+  },
+  "prod": {
+   "label": "Producción de julio 2026 (INEI)",
+   "value": 66.28,
+   "dec": 1,
+   "unit": "mil t",
+   "changePct": 8,
+   "asOf": "2026-09-29",
+   "source": "INEI · Agraria",
+   "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187",
+   "note": "Amazonas, Cajamarca, Puno y Junín hicieron el 71,9 % del total."
+  },
+  "est": {
+   "label": "Estimado de producción 2026 (ADEX)",
+   "value": null,
+   "text": "230–240 mil t",
+   "asOf": "2026-08-05",
+   "source": "ADEX · Gestión",
+   "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/",
+   "note": "Entre 15 % y 20 % menos que las 285 mil t de 2025 por la falta de lluvias; la campaña empezó en mayo y no en abril."
+  }
+ },
+ "ref": {
+  "asOf": "2026-09-07",
+  "cosecha": "ene–jun 2026",
+  "periodo": "enero a junio de 2026",
+  "expo": 310.82,
+  "qqKg": 46,
+  "fuente": "Mincetur y Agraria (valor y volumen)",
+  "nyMeses": [
+   [
+    "2026-01",
+    334.99
+   ],
+   [
+    "2026-02",
+    288.76
+   ],
+   [
+    "2026-03",
+    290.41,
+    "estimado con 4 cierres"
+   ],
+   [
+    "2026-04",
+    284.63
+   ],
+   [
+    "2026-05",
+    268.18
+   ],
+   [
+    "2026-06",
+    256.75
+   ]
+  ],
+  "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
+  "expoUrl": "https://www.agraria.pe/noticias/exportaciones-de-cafe-alcanzaron-los-us-325-millones-en-la-p-42977",
+  "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
+  "nota": "Precio calculado con el valor (US$325 M) y el volumen (48,1 millones de kg) del primer semestre. Buena parte de lo embarcado en el semestre se fijó meses antes, cuando la bolsa estaba más alta: el diferencial del día puede ser menor."
+ },
+ "oferta": {
+  "title": "Exportación por región · ene–jun 2026",
+  "unit": "% del volumen exportado",
+  "asOf": "2026-09-07",
+  "source": "Agraria",
+  "url": "https://agraria.pe/noticias/norte-y-centro-sostienen-el-crecimiento-de-las-exportaciones-43025",
+  "rows": [
+   {
+    "pais": "Cajamarca",
+    "value": 51
+   },
+   {
+    "pais": "Junín",
+    "value": 12
+   },
+   {
+    "pais": "Amazonas",
+    "value": 11
+   },
+   {
+    "pais": "Lambayeque",
+    "value": 8,
+    "note": "sede de exportadoras"
+   },
+   {
+    "pais": "Otras",
+    "value": 18
+   }
+  ]
+ }
+}
