@@ -327,6 +327,7 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .zoom-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
 .zoom-menu{position:absolute;top:calc(100% + 8px);left:0;z-index:30;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 32px rgb(0 0 0 / .16);padding:6px;width:min(280px,calc(100vw - 32px));display:flex;flex-direction:column;gap:2px}
 .zoom-menu .eyebrow{padding:6px 10px 4px}
+.zoom-menu{max-height:calc(100vh - var(--tabh) - 96px);max-height:calc(100dvh - var(--tabh) - 96px);overflow-y:auto;overscroll-behavior:contain}
 .zoom-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:none;border:0;border-radius:9px;padding:7px 10px}
 .zoom-menu button:hover{background:var(--sunk)}
 .zoom-menu button b{font-family:var(--f-display);font-size:16px;font-weight:700}
