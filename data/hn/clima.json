@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:35:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,8 +19,8 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
@@ -75,9 +75,9 @@
    "place": "Marcala, La Paz",
    "lat": 14.15,
    "lon": -88.03,
-   "p7": 3.0,
-   "tmax": 25,
-   "tmin": 15
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "comayagua",
