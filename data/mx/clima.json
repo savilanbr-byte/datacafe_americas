@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:00:00Z",
+ "updatedAt": "2026-10-27T23:17:56Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,13 +19,14 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
+  "period": "",
   "url": "https://www.yr.no/"
  },
  "impactos": [
   "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
-  "En el centro de Veracruz los productores esperan hasta la mitad de la cosecha y una recolección más rápida: los lotes buenos se venden pronto.",
-  "La época seca favorece el secado del pergamino en Chiapas, Oaxaca y Veracruz de noviembre a marzo.",
+  "Las lluvias de 50 a 75 mm del 22-oct y los chubascos de esta semana dificultan el secado del pergamino y el transporte desde fincas de Veracruz, Oaxaca y Chiapas; conviene verificar humedad al comprar.",
+  "En las Altas Montañas de Veracruz la cereza se paga entre 7 y 12 pesos y los productores temen perder hasta 40 % por sequía, calor y lluvias; los lotes buenos se venden pronto.",
+  "Las mañanas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en la cosecha que arranca en Chiapas y Oaxaca.",
   "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
  ],
  "regions": [
@@ -35,9 +36,9 @@
    "place": "Tapachula, Chiapas",
    "lat": 14.9,
    "lon": -92.26,
-   "p7": 15.3,
-   "tmax": 31,
-   "tmin": 24
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "chiapas-frailesca",
@@ -129,5 +130,29 @@
    "tmax": null,
    "tmin": null
   }
- ]
+ ],
+ "avisos": {
+  "source": "SMN · CONAGUA",
+  "asOf": "2026-10-27",
+  "headline": "Chubascos en el sur y sureste, mañanas de 0 a 5 °C en zonas altas y viento del norte en el Istmo de Tehuantepec.",
+  "items": [
+   "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla: chubascos de 5 a 25 mm, con la tormenta tropical Vance en el Pacífico.",
+   "Rachas de 30 a 50 km/h en Chiapas y Puebla; viento del norte en el Istmo y Golfo de Tehuantepec, con oleaje de 1 a 2 m.",
+   "Zonas altas de Puebla, Veracruz, Oaxaca y Chiapas: temperaturas mínimas de 0 a 5 °C."
+  ],
+  "links": [
+   {
+    "t": "El Imparcial · pronóstico del 27-oct",
+    "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c"
+   },
+   {
+    "t": "El Imparcial · lluvias del 22-oct",
+    "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/"
+   },
+   {
+    "t": "SMN · Pronóstico a 96 h",
+    "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
+   }
+  ]
+ }
 }

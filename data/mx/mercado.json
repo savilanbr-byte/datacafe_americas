@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-10-27T19:00:00Z",
+ "updatedAt": "2026-10-27T23:17:56Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio FIX de Banxico",
-   "value": 18.5798,
+   "value": 18.6525,
    "dec": 4,
    "unit": "MXN/USD",
-   "change": -0.0872,
+   "change": 0.0727,
    "chgDec": 4,
-   "asOf": "2026-10-26",
+   "asOf": "2026-10-27",
    "source": "Banxico",
    "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
    "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
@@ -26,13 +26,13 @@
    "note": "Unos US$35 por 100 libras sobre una bolsa promedio de US$285, con el peso en ≈18,30 (Fernando Celis, CNOC)."
   },
   "precioProd": {
-   "label": "Cereza convencional · centro de Veracruz",
+   "label": "Cereza convencional · Altas Montañas, Veracruz",
    "value": null,
-   "text": "7–10 MXN/kg",
-   "asOf": "2026-10-13",
-   "source": "CNOC · Hora Cero",
-   "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-   "note": "La CNOC sugiere un mínimo de 16 pesos por kilo. En Huatusco se pagaba cerca de 8 (5-oct) y los cortadores piden hasta 7 por kilo recolectado."
+   "text": "8–12 MXN/kg",
+   "asOf": "2026-10-21",
+   "source": "Córdoba a Diario",
+   "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
+   "note": "El 21-oct se pagaba 12 en Totutla, 11,60 en Manuel González, 11 en Tenampa y 8 en Monte Blanco y Chocamán; La Jornada Veracruz (22-oct) reporta 7–10 en Zongolica, Ixtaczoquitlán, Río Blanco y Córdoba. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
   },
   "expo": {
    "label": "Otros Suaves (OIC) · septiembre",
