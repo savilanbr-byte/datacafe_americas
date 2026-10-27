@@ -1,0 +1,102 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "items": [
+  {
+   "id": "ni1",
+   "scope": "ni",
+   "regiones": [
+    "jinotega"
+   ],
+   "tag": "Cosecha",
+   "date": "2026-10-24",
+   "source": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
+   "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
+   "summary": "El BCN reporta US$691 M a septiembre y proyecta US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro)."
+  },
+  {
+   "id": "ni2",
+   "scope": "ni",
+   "tag": "Producción",
+   "date": "2026-06-15",
+   "source": "Daily Coffee News",
+   "url": "https://dailycoffeenews.com/2026/06/15/nicaragua-coffee-report-weather-and-costs-hurting-production/",
+   "title": "USDA: el clima y los costos golpean la producción de Nicaragua",
+   "summary": "2,44 M de sacos en 2026-27 (−4,7 %) y exportaciones de 2,25 M (−7 %); el arábica es 94 % y más del 85 % está en Jinotega, Matagalpa y Nueva Segovia."
+  },
+  {
+   "id": "ni3",
+   "scope": "ni",
+   "tag": "Exportaciones",
+   "date": "2026-04-02",
+   "source": "Confidencial",
+   "url": "https://confidencial.digital/economia/exportaciones-de-cafe-rozan-los-millones-de-dolares-en-2025/",
+   "title": "Exportaciones de café rozan los US$920 millones en 2025",
+   "summary": "US$918,4 M con 3,37 M de quintales a un promedio de US$272,5, el más alto de la década (BCN)."
+  },
+  {
+   "id": "ni4",
+   "scope": "ni",
+   "regiones": [
+    "matagalpa",
+    "jinotega"
+   ],
+   "tag": "Mano de obra",
+   "date": "2025-12-30",
+   "source": "Agrolatam",
+   "url": "https://www.agrolatam.com/agricultura-latam/nicaragua-cosecha-cafe-amenazas-escasez-mano-obra-cisa/",
+   "title": "La cosecha enfrenta riesgos por falta de mano de obra y el vacío que dejó Cisa",
+   "summary": "Se ofrecen hasta 120 córdobas por lata cortada; Atlantic y Olam ampliaron capacidad tras la salida de Cisa, que exportaba cerca de la mitad de la cosecha."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}

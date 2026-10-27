@@ -1,0 +1,133 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
+  "En el centro de Veracruz los productores esperan hasta la mitad de la cosecha y una recolección más rápida: los lotes buenos se venden pronto.",
+  "La época seca favorece el secado del pergamino en Chiapas, Oaxaca y Veracruz de noviembre a marzo.",
+  "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
+ ],
+ "regions": [
+  {
+   "region": "chiapas-soconusco",
+   "dept": "Soconusco",
+   "place": "Tapachula, Chiapas",
+   "lat": 14.9,
+   "lon": -92.26,
+   "p7": 15.3,
+   "tmax": 31,
+   "tmin": 24
+  },
+  {
+   "region": "chiapas-frailesca",
+   "dept": "Frailesca",
+   "place": "Jaltenango (Ángel Albino Corzo)",
+   "lat": 15.87,
+   "lon": -92.72,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "chiapas-altos",
+   "dept": "Altos de Chiapas",
+   "place": "Pantelhó",
+   "lat": 17.0,
+   "lon": -92.47,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "veracruz",
+   "dept": "Veracruz centro",
+   "place": "Huatusco",
+   "lat": 19.15,
+   "lon": -96.97,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "puebla",
+   "dept": "Sierra Norte de Puebla",
+   "place": "Cuetzalan",
+   "lat": 20.02,
+   "lon": -97.52,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "huasteca",
+   "dept": "Huasteca",
+   "place": "Tlanchinol, Hidalgo",
+   "lat": 20.99,
+   "lon": -98.66,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "oaxaca",
+   "dept": "Oaxaca",
+   "place": "Pluma Hidalgo",
+   "lat": 15.92,
+   "lon": -96.42,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "guerrero",
+   "dept": "Guerrero",
+   "place": "Atoyac de Álvarez",
+   "lat": 17.21,
+   "lon": -100.43,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "robusta-chiapas",
+   "dept": "Robusta Chiapas",
+   "place": "Cacahoatán",
+   "lat": 14.99,
+   "lon": -92.17,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "robusta-golfo",
+   "dept": "Robusta Golfo",
+   "place": "Tezonapa, Veracruz",
+   "lat": 18.61,
+   "lon": -96.69,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

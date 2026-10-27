@@ -1,0 +1,125 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "items": {
+  "tc": {
+   "label": "Tipo de cambio oficial del BCN",
+   "value": 36.6243,
+   "dec": 4,
+   "unit": "NIO/USD",
+   "asOf": "2026-10-27",
+   "source": "BCN",
+   "url": "https://www.bcn.gob.ni/sites/default/files/estadisticas/monetario_diario/2026/Julio/31/Cuadro_2.pdf",
+   "liveUrl": "https://www.bcn.gob.ni/",
+   "liveT": "BCN",
+   "note": "Deslizamiento de 0 % en 2026: el mismo valor todo el año."
+  },
+  "expo": {
+   "label": "Precio promedio de exportación 2024-25",
+   "value": 274.6,
+   "dec": 2,
+   "unit": "USD/quintal",
+   "changePct": 42.1,
+   "asOf": "2025-12-30",
+   "source": "BCN · Agrolatam",
+   "url": "https://www.agrolatam.com/agricultura-latam/nicaragua-cosecha-cafe-amenazas-escasez-mano-obra-cisa/",
+   "note": "2023-24: US$193,30. En el año 2025 fue US$272,5; el BCN proyecta US$294 para el ciclo actual y hoy ronda los US$300."
+  },
+  "expoValor": {
+   "label": "Exportaciones de 2026 a septiembre",
+   "value": 691,
+   "dec": 0,
+   "unit": "M USD",
+   "asOf": "2026-10-24",
+   "source": "BCN · Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
+   "note": "2025 completo: récord de US$918,4 M con 3,37 M de quintales."
+  },
+  "est": {
+   "label": "Proyección cosecha 2026-27 (BCN)",
+   "value": null,
+   "text": "66 M latas ≈ 3 M qq oro",
+   "asOf": "2026-10-24",
+   "source": "BCN · Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
+   "note": "Más de 66 millones de latas de café uva, unos 3 millones de quintales oro (≈ 22 latas por quintal)."
+  },
+  "prod": {
+   "label": "Producción 2026-27 (USDA)",
+   "value": 2.44,
+   "dec": 2,
+   "unit": "M sacos de 60 kg",
+   "changePct": -4.7,
+   "asOf": "2026-06-15",
+   "source": "USDA · Daily Coffee News",
+   "url": "https://dailycoffeenews.com/2026/06/15/nicaragua-coffee-report-weather-and-costs-hurting-production/",
+   "note": "Por El Niño, fertilizantes 25 % más caros y falta de mano de obra. El arábica es 94 %; el robusta está en el Caribe Sur."
+  }
+ },
+ "calcRef": {
+  "difA": 0
+ },
+ "ref": {
+  "asOf": "2025-12-30",
+  "cosecha": "2024-25",
+  "periodo": "oct-2024 a sep-2025",
+  "expo": 274.6,
+  "qqKg": 46,
+  "brecha": true,
+  "fuente": "BCN (Agrolatam)",
+  "nyMeses": [
+   [
+    "2024-10",
+    250.62
+   ],
+   [
+    "2024-11",
+    277.04
+   ],
+   [
+    "2024-12",
+    317.0
+   ],
+   [
+    "2025-01",
+    328.94
+   ],
+   [
+    "2025-02",
+    388.18
+   ],
+   [
+    "2025-03",
+    382.75
+   ],
+   [
+    "2025-04",
+    370.37
+   ],
+   [
+    "2025-05",
+    368.21
+   ],
+   [
+    "2025-06",
+    329.56
+   ],
+   [
+    "2025-07",
+    289.17
+   ],
+   [
+    "2025-08",
+    328.57
+   ],
+   [
+    "2025-09",
+    366.31
+   ]
+  ],
+  "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
+  "expoUrl": "https://www.agrolatam.com/agricultura-latam/nicaragua-cosecha-cafe-amenazas-escasez-mano-obra-cisa/",
+  "nyUrl": "https://ico.org/documents/cy2024-25/cmr-0225-e.pdf",
+  "nyUrl2": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
+  "nota": "En 2024-25 la bolsa subió con fuerza y buena parte del café se había vendido a precio fijo meses antes del embarque, así que el precio promedio de exportación quedó muy por debajo del promedio de NY. Úsalo como contexto, no como diferencial."
+ }
+}

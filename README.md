@@ -18,8 +18,10 @@ La app tiene una vista general, **Américas**, y vistas por país. El nombre de 
   - Diferencial implícito: precio promedio de exportación registrado (IHCAFE, Anacafé, ISC) menos el promedio de la bolsa de NY (OIC, 2.ª y 3.ª posición) en los mismos meses.
 - **Brasil** (27 oct. 2026): 11 regiones (8 de arábica y 3 de conilon, cosecha por región según la Conab); calculadora por saca de 60 kg de café beneficiado (bica corrida) en reales, con pestañas Arábica (contra KC) y Conilon (contra Londres), aprovechamiento en la preparación y costos hasta FOB; indicadores CEPEA/ESALQ de arábica y robusta con diferencial implícito diario; Clasificación Oficial Brasileña (bebida, tipo y criba); producción por región (Conab) y exportaciones (Cecafé).
 - **Perú** (27 oct. 2026): 10 regiones; calculadora por quintal de 46 kg de pergamino en soles, con descuento de humedad sobre 12 % y rendimiento exportable; tipo de cambio interbancario del BCRP; diferencial implícito con el precio promedio de exportación del semestre frente a NY; exportación por región.
-- Enlace directo a una vista: `?pais=colombia`, `?pais=costarica`, `?pais=honduras`, `?pais=guatemala`, `?pais=elsalvador`, `?pais=brasil` o `?pais=peru`. La app recuerda la última vista usada.
-- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia, `mca_cr_calc_*`, `mca_hn_calc_*`, `mca_gt_calc_*`, `mca_sv_calc_*`, `mca_br_calc_*` y `mca_pe_calc_*` en los demás). La catación es una sola para todas las vistas.
+- **México** (27 oct. 2026): 10 regiones (8 de arábica y 2 de robusta); calculadora con pestañas Arábica (kg de cereza → quintal de pergamino de 57,5 kg → quintal oro de 46 kg, contra KC) y Robusta (kg de cereza → bola seca → oro, contra Londres), en pesos con el FIX de Banxico; diferencial de referencia de la CNOC y precio de la cereza en Veracruz.
+- **Nicaragua** (27 oct. 2026): 8 regiones; calculadora de latas de café uva → quintal de pergamino → quintal oro, en córdobas con el tipo de cambio oficial del BCN y equivalentes en dólares; peso de la lata editable. El precio promedio de exportación frente a NY se muestra como «brecha» y no como diferencial, porque el café se fija meses antes del embarque.
+- Enlace directo a una vista: `?pais=` más `colombia`, `costarica`, `honduras`, `guatemala`, `elsalvador`, `nicaragua`, `mexico`, `brasil` o `peru`. La app recuerda la última vista usada.
+- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia, `mca_cr_calc_*`, `mca_hn_calc_*`, `mca_gt_calc_*`, `mca_sv_calc_*`, `mca_br_calc_*`, `mca_pe_calc_*`, `mca_mx_calc_*` y `mca_ni_calc_*` en los demás). La catación es una sola para todas las vistas.
 
 ### Datos de la vista Colombia
 
@@ -36,12 +38,12 @@ Las dos apps comparten el almacenamiento del navegador (mismo dominio). En cada 
 - `manifest.webmanifest` e `icons/`: instalación en el teléfono.
 - `data/mercado.json`, `data/noticias.json`, `data/clima.json`, `data/cosechas.json`: los datos de la vista Américas. Los actualiza una tarea programada; la app guarda la última copia para cuando no hay señal.
 - `data/co/`: copia de respaldo de los datos de Colombia (ver arriba).
-- `data/cr/`, `data/hn/`, `data/gt/`, `data/sv/`, `data/br/`, `data/pe/`: datos de Costa Rica, Honduras, Guatemala, El Salvador, Brasil y Perú (`mercado`, `noticias`, `clima`, `cosechas`, `historico`). Cada tarea programada debe tocar solo la carpeta de su país. En `mercado.json`, el bloque `ref` lleva el precio de exportación, el peso del quintal y los meses de NY con que se calcula el diferencial implícito; en `clima.json`, cada punto lleva sus coordenadas.
+- `data/cr/`, `data/hn/`, `data/gt/`, `data/sv/`, `data/br/`, `data/pe/`, `data/mx/`, `data/ni/`: datos de Costa Rica, Honduras, Guatemala, El Salvador, Brasil, Perú, México y Nicaragua (`mercado`, `noticias`, `clima`, `cosechas`, `historico`). Cada tarea programada debe tocar solo la carpeta de su país. En `mercado.json`, el bloque `ref` lleva el precio de exportación, el peso del quintal y los meses de NY con que se calcula el diferencial implícito; en `clima.json`, cada punto lleva sus coordenadas.
 
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio. Las únicas lecturas sin prefijo son las de DataCafé|Colombia (`mc_sessions`, `mc_calc_*`, `mc_ajustes`, `mc_desc_propios`), y solo se leen.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v13`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v14`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
 
 ## Diseño adaptable
@@ -76,3 +78,5 @@ En Honduras, Guatemala y El Salvador la calculadora es una cadena de etapas medi
 En Brasil, con N sacas de 60 kg, aprovechamiento A (%), precio P por saca y tipo de cambio T: costo USD/lb = P / (A/100) / T / (60 × 2,2046); FOB = costo + costos hasta FOB. Diferencial implícito CEPEA del arábica = indicador / dólar / 132,28 lb × 100 − KC (¢/lb); del conilon = indicador / dólar / 60 × 1.000 − Londres (USD/t).
 
 En Perú, con humedad H (%) se corrige el peso: si H > 12, kg al 12 % = kg × (100 − H) / 88. Kg exportables = kg al 12 % × rendimiento exportable; costo por kg exportable = precio por kg de pergamino / (factor de humedad × rendimiento).
+
+En México y Nicaragua cada etapa tiene su unidad (kg, lata, quintal de 57,5 kg, quintal de 46 kg o de 100 libras). Con u la unidad en kg, f el rendimiento acumulado y P el precio por unidad en la etapa de compra k: kg en la etapa i = cantidad inicial × u₀ × fᵢ; precio por unidad en la etapa i = P / uₖ × fₖ / fᵢ × uᵢ.

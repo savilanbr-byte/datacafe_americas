@@ -1,0 +1,156 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "temporada": "2026-27",
+ "regiones": [
+  {
+   "id": "chiapas-soconusco",
+   "dep": "Chiapas · Soconusco y Sierra",
+   "sub": "Tapachula, Huixtla, Motozintla y Sierra Madre",
+   "zona": "Chiapas",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "La zona de más volumen de Chiapas; la altura termina en marzo."
+  },
+  {
+   "id": "chiapas-frailesca",
+   "dep": "Chiapas · Frailesca",
+   "sub": "Ángel Albino Corzo y La Concordia",
+   "zona": "Chiapas",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "chiapas-altos",
+   "dep": "Chiapas · Altos, Norte y Selva",
+   "sub": "Altos de Chiapas, Norte y Selva",
+   "zona": "Chiapas",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "veracruz",
+   "dep": "Veracruz · centro",
+   "sub": "Coatepec, Huatusco y Córdoba",
+   "zona": "Golfo y centro",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Las zonas bajas empiezan en octubre; los compradores grandes arrancan en noviembre."
+  },
+  {
+   "id": "puebla",
+   "dep": "Puebla · Sierra Norte",
+   "sub": "Cuetzalan, Xicotepec y Zihuateutla",
+   "zona": "Golfo y centro",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "huasteca",
+   "dep": "Huasteca",
+   "sub": "Hidalgo y San Luis Potosí",
+   "zona": "Golfo y centro",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "oaxaca",
+   "dep": "Oaxaca",
+   "sub": "Pluma Hidalgo, Sierra Sur y Mazateca",
+   "zona": "Pacífico sur",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "guerrero",
+   "dep": "Guerrero",
+   "sub": "Atoyac y Costa Grande",
+   "zona": "Pacífico sur",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "robusta-chiapas",
+   "dep": "Robusta · Chiapas",
+   "sub": "Soconusco bajo (Tapachula, Cacahoatán)",
+   "zona": "Robusta",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "El robusta de tierras bajas cosecha antes que el arábica."
+  },
+  {
+   "id": "robusta-golfo",
+   "dep": "Robusta · Veracruz y Oaxaca",
+   "sub": "Tezonapa, Tierra Blanca y Tuxtepec",
+   "zona": "Robusta",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  }
+ ],
+ "estado": {
+  "veracruz": {
+   "ajusteSemanas": 0,
+   "volumen": "bajo",
+   "resumen": "Productores de Huatusco esperan hasta la mitad de la cosecha (de unos 20 a 9 quintales por hectárea); en Zentla solo 10–15 % del fruto estaba maduro a inicios de octubre.",
+   "fecha": "2026-10-05",
+   "fuente": "Golpe Político",
+   "url": "https://golpepolitico.com/2026/10/05/cafeticultores-veracruzanos-preven-menor-cosecha-y-precios-que-apenas-cubren-el-costo-de-recoleccion/"
+  }
+ },
+ "reportes": [
+  {
+   "id": "m1",
+   "fecha": "2026-10-13",
+   "region": "veracruz",
+   "tipo": "noticia",
+   "texto": "Cereza convencional a 7–10 pesos por kilo en el centro de Veracruz; la CNOC pide un mínimo de 16 y los compradores grandes empiezan en noviembre.",
+   "fuente": "Hora Cero",
+   "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
+  },
+  {
+   "id": "m2",
+   "fecha": "2026-10-12",
+   "region": "México",
+   "tipo": "noticia",
+   "texto": "El indicador Otros Suaves de la OIC bajó 8,8 % en septiembre, a 329,44 ¢/lb.",
+   "fuente": "Alerta Chiapas",
+   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/"
+  }
+ ]
+}

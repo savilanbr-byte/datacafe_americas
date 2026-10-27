@@ -1,0 +1,115 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "items": [
+  {
+   "id": "m1",
+   "scope": "mx",
+   "regiones": [
+    "veracruz"
+   ],
+   "tag": "Precios",
+   "date": "2026-10-13",
+   "source": "Hora Cero",
+   "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
+   "title": "Cafetaleros de Veracruz se quejan por la caída de precios al inicio de la cosecha",
+   "summary": "La cereza se paga a 7–10 pesos por kilo; la CNOC calcula un mínimo de 16 con NY en US$285, un diferencial de +35 y el peso en 18,30."
+  },
+  {
+   "id": "m2",
+   "scope": "mx",
+   "tag": "Precios",
+   "date": "2026-10-12",
+   "source": "Alerta Chiapas",
+   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
+   "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
+   "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
+  },
+  {
+   "id": "m3",
+   "scope": "mx",
+   "regiones": [
+    "veracruz"
+   ],
+   "tag": "Cosecha",
+   "date": "2026-10-05",
+   "source": "Golpe Político",
+   "url": "https://golpepolitico.com/2026/10/05/cafeticultores-veracruzanos-preven-menor-cosecha-y-precios-que-apenas-cubren-el-costo-de-recoleccion/",
+   "title": "Cafeticultores veracruzanos prevén menor cosecha y precios que apenas cubren la recolección",
+   "summary": "En Huatusco la cereza se paga a cerca de 8 pesos y la recolección cuesta hasta 7 por kilo; algunos esperan la mitad de la cosecha."
+  },
+  {
+   "id": "m4",
+   "scope": "mx",
+   "tag": "Exportaciones",
+   "date": "2026-09-08",
+   "source": "La Crónica",
+   "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
+   "title": "México exporta a Estados Unidos el 68 % de su café",
+   "summary": "En 2024-25 se exportaron unos 2,9 M de sacos; la producción de cereza fue de 1,08 M de t, con Chiapas, Veracruz y Puebla al frente."
+  },
+  {
+   "id": "m5",
+   "scope": "mx",
+   "regiones": [
+    "robusta-chiapas",
+    "chiapas-soconusco"
+   ],
+   "tag": "Precios",
+   "date": "2026-04-10",
+   "source": "Alerta Chiapas",
+   "url": "https://alertachiapas.com/2026/04/10/el-cafe-chiapaneco-en-crisis/",
+   "title": "El café chiapaneco en crisis: se paga a 45 pesos el kilo y producirlo cuesta 70",
+   "summary": "México importó 3,8 M de sacos de robusta en 2024-25 a unos US$190 por saco, lo que presiona el precio local."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}

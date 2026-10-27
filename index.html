@@ -698,7 +698,9 @@ const ZOOMS={
   guatemala:{id:"guatemala",cc:"GT",short:"Quetzales · Anacafé",grp:"Centroamérica",name:"Guatemala",pais:"Guatemala",desc:"8 regiones Anacafé · cereza, pergamino y oro en quetzales"},
   elsalvador:{id:"elsalvador",cc:"SV",short:"Dólares · ISC",grp:"Centroamérica",name:"ElSalvador",pais:"El Salvador",desc:"6 cordilleras ISC · uva, pergamino y oro en dólares"},
   brasil:{id:"brasil",cc:"BR",grp:"Suramérica",short:"Reales · CEPEA",name:"Brasil",pais:"Brasil",desc:"11 regiones · arábica y conilon por saca en reales"},
-  peru:{id:"peru",cc:"PE",grp:"Suramérica",short:"Soles · pergamino",name:"Perú",pais:"Perú",desc:"10 regiones · pergamino en soles con rendimiento"}
+  peru:{id:"peru",cc:"PE",grp:"Suramérica",short:"Soles · pergamino",name:"Perú",pais:"Perú",desc:"10 regiones · pergamino en soles con rendimiento"},
+  mexico:{id:"mexico",cc:"MX",grp:"Norteamérica",short:"Pesos · cereza y pergamino",name:"México",pais:"México",desc:"10 regiones · arábica y robusta en pesos"},
+  nicaragua:{id:"nicaragua",cc:"NI",grp:"Centroamérica",short:"Córdobas · lata y quintal",name:"Nicaragua",pais:"Nicaragua",desc:"8 regiones · lata de uva, pergamino y oro en córdobas"}
 };
 /* países con calculadora propia de la cereza al oro (Colombia va aparte) */
 const PAIS={
@@ -707,6 +709,8 @@ const PAIS={
   guatemala:{code:"gt",cur:"GTQ",curName:"Quetzal",tcRef:"Tipo de cambio de referencia Banguat",tcShort:"el Banguat",inst:"Anacafé",origenPh:"Región / municipio",difKey:"difGT",difLbl:"Tu diferencial (cotización SHB)"},
   elsalvador:{code:"sv",cur:"USD",curName:"Dólar estadounidense",usd:true,tcRef:"El Salvador usa el dólar",tcShort:"",inst:"ISC",origenPh:"Cordillera / municipio",difKey:"difSV",difLbl:"Tu diferencial (cotización SHG)"},
   brasil:{code:"br",cur:"BRL",curName:"Real brasileño",tcRef:"Dólar comercial (cierre)",tcShort:"el dólar comercial",inst:"CEPEA",origenPh:"Región / municipio",difKey:"difBR",difLbl:"Tu diferencial (arábica, FOB Santos)",seg:["Arábica","Conilon"]},
+  mexico:{code:"mx",cur:"MXN",curName:"Peso mexicano",tcRef:"Tipo de cambio FIX de Banxico",tcShort:"el FIX de Banxico",inst:"CNOC",origenPh:"Estado / municipio",difKey:"difMX",difLbl:"Tu diferencial (arábica)",seg:["Arábica","Robusta"]},
+  nicaragua:{code:"ni",cur:"NIO",curName:"Córdoba",tcRef:"Tipo de cambio oficial del BCN",tcShort:"el BCN",inst:"BCN",impLbl:"Precio de exportación − NY",origenPh:"Departamento / municipio",difKey:"difNI",difLbl:"Tu diferencial (cotización SHG)"},
   peru:{code:"pe",cur:"PEN",curName:"Sol",tcRef:"Tipo de cambio interbancario BCRP",tcShort:"el BCRP",inst:"Mincetur",impLbl:"Diferencial implícito de exportación",origenPh:"Región / provincia",difKey:"difPE",difLbl:"Tu diferencial (cotización FOB)"}
 };
 const ZC={
@@ -752,6 +756,20 @@ const ZC={
     gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
     climaLede:"Fenómeno ENSO, avisos y lluvia esperada en los próximos 7 días en un punto central de cada región. De septiembre a diciembre la lluvia decide las floradas y el cuajado (pegamento) de la próxima cosecha.",
     impT:"Qué significa para la compra en Brasil",climaSrc:"en un punto central de cada región"},
+  mexico:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
+    zones:["Chiapas","Golfo y centro","Pacífico sur","Robusta"],zoneNames:{"Chiapas":"Arábica · Chiapas","Golfo y centro":"Arábica · Veracruz, Puebla y la Huasteca","Pacífico sur":"Arábica · Oaxaca y Guerrero","Robusta":"Robusta · tierras bajas de Chiapas, Veracruz y Oaxaca"},
+    calcLede:"Del kilo de cereza al quintal de pergamino (57,5 kg) y al quintal oro (46 kg), en pesos y con su equivalente FOB. Cambia entre arábica (contra Nueva York) y robusta (contra Londres); edita cualquier valor y el resto se recalcula.",
+    cosLede:"Toca un mes para ver qué regiones están cosechando. Rangos típicos: las zonas bajas y el robusta empiezan en octubre y la altura termina en marzo-abril.",
+    gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
+    climaLede:"Fenómeno ENSO y lluvia esperada en los próximos 7 días en un punto central de cada región, cruzada con el calendario de cosecha.",
+    impT:"Qué significa para la compra en México",climaSrc:"en un punto central de cada región"},
+  nicaragua:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
+    zones:["Norte","Centro y Pacífico","Caribe"],zoneNames:{"Norte":"Norte · Jinotega, Matagalpa y Las Segovias","Centro y Pacífico":"Centro y Pacífico · Boaco y la Meseta","Caribe":"Caribe Sur · robusta"},
+    calcLede:"De la lata de café uva al quintal de pergamino y al quintal oro, en córdobas con su equivalente en dólares y FOB. Edita cualquier valor: el resto se recalcula.",
+    cosLede:"Toca un mes para ver qué regiones están cosechando. El Pacífico y las zonas bajas empiezan en octubre-noviembre; Jinotega y Matagalpa tienen el pico de diciembre a enero.",
+    gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
+    climaLede:"Fenómeno ENSO y lluvia esperada en los próximos 7 días en un punto central de cada región, cruzada con el calendario de cosecha.",
+    impT:"Qué significa para la compra en Nicaragua",climaSrc:"en un punto central de cada región"},
   peru:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
     zones:["Norte","Centro","Sur"],zoneNames:{"Norte":"Norte y selva norte · Cajamarca, Amazonas, San Martín y Piura","Centro":"Selva central · Junín, Pasco y Huánuco","Sur":"Sur · Cusco, Puno y Ayacucho"},
     calcLede:"Por quintal de 46 kg de pergamino, en soles: con la humedad y el rendimiento exportable llega al costo del café verde y a su equivalente FOB. Edita cualquier valor: el resto se recalcula.",
@@ -1055,6 +1073,75 @@ function makePeru(o){
   };
   def.o.priceKey="p"; return def;
 }
+/* México y Nicaragua: cadena de etapas con su propia unidad (kg, lata, quintal de 57,5 kg, quintal oro).
+   Base: unidades de la primera etapa (q0), rendimientos (y0, y1…), peso de la primera unidad (u0, editable si es lata),
+   precio por unidad en la etapa de compra (pK), tipo de cambio, costos hasta FOB y la bolsa (KC o Londres). */
+function makeChainU(o){
+  const st=o.stages, N=st.length, L=N-1, K=o.key, ys=st.slice(0,L).map((_,i)=>"y"+i), cn=!!o.londres;
+  const ref=cn?{key:"ldn",item:"robusta",lbl:"Londres"}:{key:"kc",item:"kc1",lbl:"KC"};
+  const U=(b,i)=>i===0?b.u0:st[i].u;
+  const fr=b=>{ const f=[1]; for(let i=0;i<L;i++) f.push(f[i]*b["y"+i]/100); return f; };
+  const usdEq=o.usdEq||[];
+  const def={ref,o,
+    inputs:["q0",...ys,"u0","saco","pK","trm","tarifa",ref.key],
+    sections:[
+      {t:"Cantidades",f:[...st.map((s,i)=>["q"+i,s.ql,s.qu,s.dec!=null?s.dec:1,i===0?"key":null]),["kgO","Kg de café oro","kg",1],["sacos","Sacos de exportación","sacos de {S} kg",1]]},
+      {t:"Rendimientos",f:[...st.slice(0,L).map((s,i)=>["y"+i,cap(s.n)+" → "+st[i+1].n,"% del peso · "+(o.yNote[i]||""),2]),
+        ...(o.cpq?[["cpq",o.cpq[0],o.cpq[1],1]]:[]),["fac",o.fac[0],o.fac[1],1],["rT","Rendimiento oro / "+st[0].n,"% del peso",2],
+        ...(o.u0edit?[["u0",o.u0edit[0],o.u0edit[1],1]]:[]),["saco","Tamaño de saco de exportación","kg de café oro por saco",1]]},
+      {t:"Precio en {M}",f:[...st.map((s,i)=>["p"+i,"Precio por "+s.un+" de "+s.n,"{M} por "+s.un,"L",i===K?"key":null]),["pKgO","Precio por kg de oro","{M} por kg","L"],
+        ...usdEq.map(i=>["pu"+i,"Precio por "+st[i].un+" de "+st[i].n+" en dólares","USD por "+st[i].un,2])]},
+      {t:"Exportación",f:[["trm","Tipo de cambio","{M} por USD","R"],["exw","Costo del café oro","USD por libra · lo pagado llevado a oro",3],["tarifa",o.tarLbl||"Beneficio, exportación y margen","USD por libra · costos desde la compra hasta FOB",3],["fob","Precio FOB","USD por libra",3,"key"],
+        ...(cn?[["fobT","Precio FOB por tonelada","USD por tonelada",0],["ldn","Robusta Londres","USD por tonelada · ICE Europa",0],["difT","Diferencial FOB vs Londres","USD por tonelada",0]]:[["kc","KC C1 bolsa NY","centavos por libra",2],["dif","Diferencial FOB vs KC","centavos por libra",1]])]},
+      {t:"Totales del lote",f:[["totCOP","Valor total pagado","{M} · por el café en "+st[K].n,"L"],["totUSD","Valor total FOB","USD",0]]}
+    ],
+    compute(b){ const r={...b}, f=fr(b), kg0=b.q0*b.u0;
+      st.forEach((s,i)=>{ r["q"+i]=kg0*f[i]/U(b,i); r["p"+i]=b.pK/U(b,K)*f[K]/f[i]*U(b,i); });
+      usdEq.forEach(i=>r["pu"+i]=r["p"+i]/b.trm);
+      r.kgO=kg0*f[L]; r.sacos=r.kgO/b.saco; r.rT=f[L]*100; r.fac=U(b,L)/(b.u0*f[L]); if(o.cpq) r.cpq=U(b,1)/(b.u0*f[1]); r.pKgO=r["p"+L]/U(b,L);
+      r.exw=r.pKgO/LB/b.trm; r.fob=r.exw+b.tarifa; if(cn){ r.fobT=r.fob*LB*1000; r.difT=r.fobT-b.ldn; } else r.dif=(r.fob-b.kc/100)*100;
+      r.totCOP=r["q"+K]*b.pK; r.totUSD=r.kgO*LB*r.fob; return r; },
+    solve(k,v,b){ const f=fr(b), fromKgO=x=>x*f[L]/f[K]*U(b,K), fromExw=x=>fromKgO(x*LB*b.trm), m=/^(q|p|pu|y)(\d+)$/.exec(k);
+      if(m&&m[1]==="q"){ const i=+m[2]; if(f[i]>0) b.q0=v*U(b,i)/(b.u0*f[i]); return; }
+      if(m&&m[1]==="p"){ const i=+m[2]; if(f[K]>0) b.pK=v/U(b,i)*f[i]/f[K]*U(b,K); return; }
+      if(m&&m[1]==="pu"){ const i=+m[2]; if(f[K]>0) b.pK=v*b.trm/U(b,i)*f[i]/f[K]*U(b,K); return; }
+      switch(k){
+        case "kgO": if(f[L]>0) b.q0=v/(b.u0*f[L]); break;
+        case "sacos": if(f[L]>0) b.q0=v*b.saco/(b.u0*f[L]); break;
+        case "rT": if(v>0&&f[L]>0) b.y0=b.y0*(v/100)/f[L]; break;
+        case "fac": if(v>0&&f[L]>0) b.y0=b.y0*(U(b,L)/(v*b.u0))/f[L]; break;
+        case "cpq": if(v>0) b.y0=100*U(b,1)/(v*b.u0); break;
+        case "pKgO": b.pK=fromKgO(v); break;
+        case "exw": b.pK=fromExw(v); break;
+        case "fob": b.pK=fromExw(v-b.tarifa); break;
+        case "dif": b.pK=fromExw(b.kc/100+v/100-b.tarifa); break;
+        case "fobT": b.pK=fromExw(v/(LB*1000)-b.tarifa); break;
+        case "difT": b.pK=fromExw((b.ldn+v)/(LB*1000)-b.tarifa); break;
+        case "totCOP": { const qk=b.q0*b.u0*f[K]/U(b,K); if(qk>0) b.pK=v/qk; break; }
+        case "totUSD": { const kgO=b.q0*b.u0*f[L]; if(kgO>0) b.pK=fromExw(v/(kgO*LB)-b.tarifa); break; }
+        default: b[k]=v; if(k==="trm") b.trmManual=true; if(k===ref.key) b[ref.key+"Manual"]=true;
+      } },
+    valid(b){ return ys.every(y=>b[y]>0&&b[y]<=100)&&b.u0>0&&b.saco>0&&b.trm>0; },
+    defaults(){ const m=FEED.mercado, R=(m&&m.calcRef)||{}, W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{}, P=PZ();
+      const t=trmRef().v||rateOf(P.cur), rv=W[ref.item], b={...o.def,trm:t,trmManual:false};
+      b[ref.key]=rv&&isFinite(rv.value)?+rv.value:(cn?3200:298.7); b[ref.key+"Manual"]=false;
+      const fob=cn?(b.ldn+(+R.difR||0))/(LB*1000):b.kc/100+(+R.difA||0)/100, f=fr(b);
+      b.pK=niceRound((fob-b.tarifa)*LB*t*f[L]/f[K]*U(b,K)); return b; }
+  };
+  return def;
+}
+PAIS.mexico.calc=makeChainU({key:1,usdEq:[],tarLbl:"Beneficio seco, exportación y margen",
+  stages:[{n:"cereza",u:1,un:"kg",ql:"Kg de cereza",qu:"kg de fruta",dec:0},{n:"pergamino",u:57.5,un:"quintal",ql:"Quintales de pergamino",qu:"quintales de 57,5 kg",dec:2},{n:"oro",u:46,un:"quintal",ql:"Quintales oro",qu:"quintales de 46 kg",dec:2}],
+  yNote:["beneficio húmedo; ≈ 23 %","57,5 kg de pergamino dan un quintal oro de 46 kg: 80 %"],cpq:["Kg de cereza por quintal de pergamino","kg de fruta · referencia ≈ 250"],fac:["Kg de cereza por quintal oro","kg de fruta por 46 kg de oro"],
+  def:{q0:5000,y0:23,y1:80,u0:1,saco:69,tarifa:0.30}});
+PAIS.mexico.calcCer=makeChainU({key:0,londres:true,usdEq:[],tarLbl:"Beneficio seco, exportación y margen",
+  stages:[{n:"cereza",u:1,un:"kg",ql:"Kg de cereza robusta",qu:"kg de fruta",dec:0},{n:"bola seca",u:1,un:"kg",ql:"Kg de bola seca (capulín)",qu:"kg de cereza seca al sol",dec:0},{n:"oro",u:46,un:"quintal",ql:"Quintales oro",qu:"quintales de 46 kg",dec:2}],
+  yNote:["secado natural; ≈ 45 %","morteado: ≈ 50 % de la bola"],fac:["Kg de cereza por quintal oro","kg de fruta por 46 kg de oro"],
+  def:{q0:5000,y0:45,y1:50,u0:1,saco:60,tarifa:0.10}});
+PAIS.nicaragua.calc=makeChainU({key:1,usdEq:[1,2],
+  stages:[{n:"uva",u:null,un:"lata",ql:"Latas de café uva",qu:"latas",dec:0},{n:"pergamino",u:45.36,un:"quintal",ql:"Quintales de pergamino",qu:"quintales de 100 libras",dec:2},{n:"oro",u:45.36,un:"quintal",ql:"Quintales oro",qu:"quintales de 100 libras",dec:2}],
+  yNote:["beneficio húmedo y secado; ≈ 22,5 %","trilla; ≈ 80 %"],cpq:["Latas de uva por quintal de pergamino","latas"],fac:["Latas de uva por quintal oro","latas · el BCN cuenta ≈ 22"],u0edit:["Peso de la lata","kg de café uva · ≈ 24 libras"],
+  def:{q0:500,y0:22.5,y1:80,u0:10.9,saco:69,tarifa:0.30}});
 PAIS.brasil.calc=makeSaca({}); PAIS.brasil.calcCer=makeSaca({conilon:true});
 PAIS.peru.calc=makePeru({def:{q:100,h:12,rend:78,qqKg:46,saco:69,tarifa:0.30}});
 const calcDef=id=>PZ()&&id==="perg"?PZ().calc:(PZ()&&id==="cer"&&PZ().calcCer)?PZ().calcCer:CALC[id];
@@ -1098,7 +1185,7 @@ calcState=CALC_ST[ZOOM]=buildCalcState();
 const calcCurKey=()=>PZ()&&PZ().calcCer?PZ().code+"_calc_cur":"mc_calc_cur";
 let calcCur=LS.get(calcCurKey(),"perg");
 function decFor(id,k){ const d=fieldsOf(calcDef(id))[k]; const t=calcState.perg.trm; if(d==="L") return t>=100?0:2; if(d==="R") return rateDec(t); return d; }
-function tpl(s){ const b=calcState.perg; return String(s).replace(/\{QQ\}/g,fmt(b.qqKg,b.qqKg%1?2:0)).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)).replace(/\{CPF\}/g,fmt(b.cpf,b.cpf%1?1:0)); }
+function tpl(s){ const b=(PZ()&&calcState[calcCur])||calcState.perg; return String(s).replace(/\{QQ\}/g,fmt(b.qqKg,b.qqKg%1?2:0)).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)).replace(/\{CPF\}/g,fmt(b.cpf,b.cpf%1?1:0)); }
 function relabel(){ $$("#calcBody [data-tpl]").forEach(el=>el.textContent=tpl(el.dataset.tpl)); $$("#calcBody [data-unit]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.unit===calcState.perg.kgU)); $$("#calcBody [data-saco]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.saco===calcState.perg.saco)); }
 function calcValid(id,b){ if(PZ()&&calcDef(id).valid) return calcDef(id).valid(b); if(isCR()&&id==="perg") return b.cpf>0&&b.kgF>0&&b.kgOF>0&&b.trilla>0&&b.saco>0&&b.trm>0; if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
 function renderCurBar(){
@@ -1315,6 +1402,8 @@ const TV_LIVE={
   guatemala:[{proName:"FX_IDC:USDGTQ", title:"USD/GTQ"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}],
   elsalvador:[{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"TVC:DXY", title:"Índice dólar"}],
   brasil:[{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"TVC:DXY", title:"Índice dólar"}],
+  mexico:[{proName:"FX_IDC:USDMXN", title:"USD/MXN"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"}],
+  nicaragua:[{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"TVC:DXY", title:"Índice dólar"}],
   peru:[{proName:"FX_IDC:USDPEN", title:"USD/PEN"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}]
 };
 function hasLive(){ return !!TV_LIVE[ZOOM]; }
@@ -1622,10 +1711,11 @@ function renderMercadoPais(){
   $("#mktLede").textContent="Actualizado "+ago(m.updatedAt)+". Cada tarjeta muestra la fecha de su dato. Bolsa y otros mercados vienen de la vista Américas; los futuros llegan con retraso.";
   let h='';
   if(!P.usd&&I.tc) h+='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+mcard(I.tc,{key:'tc'})+mcard(I.tcAnual)+'</div>';
-  h+='<div class="sec-h"><h3>Referencia '+esc(pais)+' · '+esc(P.inst)+'</h3></div><div class="mgrid">'+mcard(I.expo)+mcard(I.expoPrev)+difInputHTML("difPais",P.difLbl,dc);
+  h+='<div class="sec-h"><h3>Referencia '+esc(pais)+' · '+esc(P.inst)+'</h3></div><div class="mgrid">'+mcard(I.difRef)+mcard(I.precioProd)+mcard(I.expo)+mcard(I.expoPrev)+difInputHTML("difPais",P.difLbl,dc);
+  if(I.difRef&&isFinite(I.difRef.value)&&dc&&isFinite(dc.value)) h+='<div class="card mcard derived"><div class="lbl">Tu diferencial − referencia</div><div class="val">'+((dc.value-I.difRef.value)>0?"+":"")+fmt(dc.value-I.difRef.value,1)+'<small>¢/lb</small></div><div class="note">Frente al diferencial de referencia de '+esc(I.difRef.source||"")+'.</div><div class="meta"><span>calculado</span></div></div>';
   if(imp&&imp.dif!=null){
     h+='<div class="card mcard derived"><div class="lbl">'+esc(P.impLbl||("Diferencial implícito "+P.inst))+' · '+esc(imp.cosecha||"")+'</div><div class="val">'+(imp.dif>0?"+":"")+fmt(imp.dif,1)+'<small>¢/lb</small></div>'+
-      '<div class="note">Precio promedio de exportación ('+esc(imp.periodo||"")+'), US$'+fmt(imp.expLb,3)+'/lb, frente al promedio de la bolsa de NY en los mismos meses ('+fmt(imp.ny,1)+' ¢/lb). Es FOB: ya trae beneficio y exportación.</div>'+
+      '<div class="note">Precio promedio de exportación ('+esc(imp.periodo||"")+'), US$'+fmt(imp.expLb,3)+'/lb, frente al promedio de la bolsa de NY en los mismos meses ('+fmt(imp.ny,1)+' ¢/lb). '+(imp.brecha?'<b>No es un diferencial:</b> buena parte del café se fijó meses antes del embarque, cuando la bolsa estaba más baja.':'Es FOB: ya trae beneficio y exportación.')+'</div>'+
       (dc&&isFinite(dc.value)?'<div class="note"><b>Tu diferencial − implícito: '+((dc.value-imp.dif)>0?"+":"")+fmt(dc.value-imp.dif,1)+' ¢/lb</b></div>':"")+
       '<button class="explain" data-explain="implicitoPais" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+
       '<div class="meta"><span>calculado · exportaciones al '+esc(fdate(imp.asOf))+'</span></div></div>';
@@ -1724,7 +1814,7 @@ function explainHTML(key){
       step(1,"Libras en un quintal",fmt(x.qqKg,2)+" kg × 2,2046",fmt(x.lbQQ,2)+" lb")+
       step(2,"Precio de exportación por libra","US$"+fmt(x.expo,2)+" ÷ "+fmt(x.lbQQ,2)+" lb","US$"+fmt(x.expLb,4)+"/lb = "+fmt(x.expLb*100,2)+" ¢/lb")+
       step(3,"Promedio de la bolsa de NY",x.ms.length?"Suma de "+x.ms.length+" promedios mensuales ÷ "+x.ms.length:"Promedio del periodo",fmt(x.ny,2)+" ¢/lb")+
-      step(4,"Diferencial implícito de exportación",fmt(x.expLb*100,2)+" − "+fmt(x.ny,2),(x.dif>0?"+":"")+fmt(x.dif,1)+" ¢/lb",true)+
+      step(4,x.brecha?"Brecha precio de exportación − NY":"Diferencial implícito de exportación",fmt(x.expLb*100,2)+" − "+fmt(x.ny,2),(x.dif>0?"+":"")+fmt(x.dif,1)+" ¢/lb",true)+
       (dc&&isFinite(dc.value)?step(5,"Compara con tu cotización","Tu diferencial "+fmt(dc.value,1)+" − implícito "+fmt(x.dif,1),((dc.value-x.dif)>0?"+":"")+fmt(dc.value-x.dif,1)+" ¢/lb"):"")+'</ol>';
     if(x.ms.length) h+='<details><summary class="small" style="cursor:pointer">Ver los '+x.ms.length+' meses de NY</summary><div class="htable-wrap"><table class="htable">'+x.ms.map(p=>'<tr><td>'+esc(MESES_L[+String(p[0]).slice(5,7)-1]+" "+String(p[0]).slice(0,4))+(p[2]?' <span class="muted small">('+esc(p[2])+')</span>':'')+'</td><td>'+fmt(+p[1],2)+' ¢/lb</td></tr>').join("")+'</table></div></details>';
     h+='<p class="small muted" style="margin:0">'+esc(x.nota||"Promedio simple de los meses: como los embarques se concentran en los meses pico, tómalo como el nivel del periodo.")+'</p>';
@@ -1902,6 +1992,29 @@ const REG_DEFAULT_PE=regRows([
  ["puno","Puno","Sandia (San Juan del Oro)","Sur",5,9,"media","Altura: cosecha tardía."],
  ["ayacucho","Ayacucho","VRAEM (Pichari, Kimbiri)","Sur",4,8,"baja",""]
 ]);
+const REG_DEFAULT_MX=regRows([
+ ["chiapas-soconusco","Chiapas · Soconusco y Sierra","Tapachula, Huixtla, Motozintla y Sierra Madre","Chiapas",11,3,"media","La zona de más volumen de Chiapas; la altura termina en marzo."],
+ ["chiapas-frailesca","Chiapas · Frailesca","Ángel Albino Corzo y La Concordia","Chiapas",11,3,"media",""],
+ ["chiapas-altos","Chiapas · Altos, Norte y Selva","Altos de Chiapas, Norte y Selva","Chiapas",11,3,"baja",""],
+ ["veracruz","Veracruz · centro","Coatepec, Huatusco y Córdoba","Golfo y centro",11,3,"media","Las zonas bajas empiezan en octubre; los compradores grandes arrancan en noviembre."],
+ ["puebla","Puebla · Sierra Norte","Cuetzalan, Xicotepec y Zihuateutla","Golfo y centro",11,3,"media",""],
+ ["huasteca","Huasteca","Hidalgo y San Luis Potosí","Golfo y centro",11,2,"baja",""],
+ ["oaxaca","Oaxaca","Pluma Hidalgo, Sierra Sur y Mazateca","Pacífico sur",11,3,"media",""],
+ ["guerrero","Guerrero","Atoyac y Costa Grande","Pacífico sur",11,2,"baja",""],
+ ["robusta-chiapas","Robusta · Chiapas","Soconusco bajo (Tapachula, Cacahoatán)","Robusta",10,1,"baja","El robusta de tierras bajas cosecha antes que el arábica."],
+ ["robusta-golfo","Robusta · Veracruz y Oaxaca","Tezonapa, Tierra Blanca y Tuxtepec","Robusta",10,1,"baja",""]
+]);
+const REG_DEFAULT_NI=regRows([
+ ["jinotega","Jinotega","El Cuá, San Rafael del Norte y Yalí","Norte",11,2,"media","Con Matagalpa hace cerca del 80 % del arábica."],
+ ["matagalpa","Matagalpa","El Tuma-La Dalia, Rancho Grande y San Ramón","Norte",11,2,"media","Más del 35 % del arábica del país."],
+ ["nueva-segovia","Nueva Segovia","Dipilto, Mozonte y Jalapa","Norte",12,3,"media","Altura: cosecha más tardía."],
+ ["madriz","Madriz","San Juan de Río Coco y Telpaneca","Norte",12,3,"baja",""],
+ ["esteli","Estelí","Miraflor y San Nicolás","Norte",12,3,"baja",""],
+ ["boaco","Boaco","Santa Lucía y Teustepe","Centro y Pacífico",11,2,"baja",""],
+ ["meseta","Pacífico · la Meseta","Carazo, Masaya y Managua (El Crucero)","Centro y Pacífico",10,1,"baja","Zonas bajas: de las primeras en cosechar."],
+ ["caribe-sur","Caribe Sur · robusta","Nueva Guinea","Caribe",10,1,"baja","Casi todo el robusta del país."]
+]);
+PAIS.mexico.reg=REG_DEFAULT_MX; PAIS.nicaragua.reg=REG_DEFAULT_NI;
 PAIS.brasil.reg=REG_DEFAULT_BR; PAIS.peru.reg=REG_DEFAULT_PE;
 PAIS.costarica.reg=REG_DEFAULT_CR; PAIS.honduras.reg=REG_DEFAULT_HN; PAIS.guatemala.reg=REG_DEFAULT_GT; PAIS.elsalvador.reg=REG_DEFAULT_SV;
 const regDefault=()=>isCO()?REG_DEFAULT_CO:PZ()?PZ().reg:REG_DEFAULT;
@@ -2114,6 +2227,18 @@ const NEWS_REG_PE=[
   ["huanuco","Huánuco",["huanuco","tingo maria","leoncio prado"]],["cusco","Cusco",["cusco","la convencion","quillabamba"]],
   ["puno","Puno",["puno","sandia","san juan del oro"]],["ayacucho","Ayacucho",["ayacucho","vraem","pichari","kimbiri"]]
 ];
+const NEWS_REG_MX=[
+  ["chiapas-soconusco","Soconusco",["soconusco","tapachula","huixtla","motozintla","sierra madre"]],["chiapas-frailesca","Frailesca",["frailesca","angel albino corzo","la concordia"]],
+  ["chiapas-altos","Altos de Chiapas",["altos de chiapas","san cristobal","selva lacandona"]],["veracruz","Veracruz",["veracruz","coatepec","huatusco","cordoba","xalapa","zentla","tlacotepec"]],
+  ["puebla","Puebla",["puebla","cuetzalan","xicotepec"]],["huasteca","Huasteca",["huasteca","hidalgo","san luis potosi"]],["oaxaca","Oaxaca",["oaxaca","pluma hidalgo","mazateca"]],
+  ["guerrero","Guerrero",["guerrero","atoyac"]],["robusta-chiapas","Robusta Chiapas",["robusta"]],["robusta-golfo","Robusta Golfo",["tezonapa","tuxtepec","tierra blanca"]]
+];
+const NEWS_REG_NI=[
+  ["jinotega","Jinotega",["jinotega","el cua","yali","apanas"]],["matagalpa","Matagalpa",["matagalpa","la dalia","el tuma","rancho grande","san ramon"]],
+  ["nueva-segovia","Nueva Segovia",["nueva segovia","dipilto","mozonte","las segovias","ocotal"]],["madriz","Madriz",["madriz","rio coco","telpaneca"]],
+  ["esteli","Estelí",["esteli","miraflor"]],["boaco","Boaco",["boaco"]],["meseta","La Meseta",["carazo","masaya","el crucero","meseta"]],["caribe-sur","Caribe Sur",["nueva guinea","caribe sur","robusta"]]
+];
+PAIS.mexico.newsReg=NEWS_REG_MX; PAIS.nicaragua.newsReg=NEWS_REG_NI;
 PAIS.brasil.newsReg=NEWS_REG_BR; PAIS.peru.newsReg=NEWS_REG_PE;
 PAIS.costarica.newsReg=NEWS_REG_CR; PAIS.honduras.newsReg=NEWS_REG_HN; PAIS.guatemala.newsReg=NEWS_REG_GT; PAIS.elsalvador.newsReg=NEWS_REG_SV;
 const newsRegList=()=>PZ()?PZ().newsReg:NEWS_REG;
@@ -2457,7 +2582,7 @@ async function loadFeeds(){ await Promise.all((isPais()?["am",ZOOM]:["am"]).map(
 /* ---------- selector de vista ---------- */
 /* nombre para listas: el del país con espacios (Costa Rica); la marca va sin espacio (DataCafé|CostaRica) */
 const zLabel=o=>o.pais||o.name;
-const ZGRUPOS=["Centroamérica","Suramérica","Norteamérica","Caribe"];
+const ZGRUPOS=["Norteamérica","Centroamérica","Suramérica","Caribe"];
 function zoomGroups(){ const vs=Object.values(ZOOMS), out=[[null,vs.filter(o=>!o.grp)]];
   ZGRUPOS.concat([...new Set(vs.map(o=>o.grp).filter(g=>g&&!ZGRUPOS.includes(g)))]).forEach(g=>{ const os=vs.filter(o=>o.grp===g).sort((a,b)=>zLabel(a).localeCompare(zLabel(b),"es")); if(os.length) out.push([g,os]); });
   return out; }

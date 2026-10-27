@@ -1,0 +1,123 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "temporada": "2026-27",
+ "regiones": [
+  {
+   "id": "jinotega",
+   "dep": "Jinotega",
+   "sub": "El Cuá, San Rafael del Norte y Yalí",
+   "zona": "Norte",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Con Matagalpa hace cerca del 80 % del arábica."
+  },
+  {
+   "id": "matagalpa",
+   "dep": "Matagalpa",
+   "sub": "El Tuma-La Dalia, Rancho Grande y San Ramón",
+   "zona": "Norte",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Más del 35 % del arábica del país."
+  },
+  {
+   "id": "nueva-segovia",
+   "dep": "Nueva Segovia",
+   "sub": "Dipilto, Mozonte y Jalapa",
+   "zona": "Norte",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Altura: cosecha más tardía."
+  },
+  {
+   "id": "madriz",
+   "dep": "Madriz",
+   "sub": "San Juan de Río Coco y Telpaneca",
+   "zona": "Norte",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "esteli",
+   "dep": "Estelí",
+   "sub": "Miraflor y San Nicolás",
+   "zona": "Norte",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "boaco",
+   "dep": "Boaco",
+   "sub": "Santa Lucía y Teustepe",
+   "zona": "Centro y Pacífico",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "meseta",
+   "dep": "Pacífico · la Meseta",
+   "sub": "Carazo, Masaya y Managua (El Crucero)",
+   "zona": "Centro y Pacífico",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Zonas bajas: de las primeras en cosechar."
+  },
+  {
+   "id": "caribe-sur",
+   "dep": "Caribe Sur · robusta",
+   "sub": "Nueva Guinea",
+   "zona": "Caribe",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Casi todo el robusta del país."
+  }
+ ],
+ "estado": {},
+ "reportes": [
+  {
+   "id": "n1",
+   "fecha": "2026-10-24",
+   "region": "jinotega",
+   "tipo": "noticia",
+   "texto": "Desde Apanás, Jinotega, arrancó el plan de protección de la cosecha 2026-27: el BCN espera más de 66 M de latas (≈ 3 M de quintales oro).",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/"
+  },
+  {
+   "id": "n2",
+   "fecha": "2026-06-15",
+   "region": "Nicaragua",
+   "tipo": "noticia",
+   "texto": "USDA: la producción 2026-27 bajaría 4,7 % a 2,44 M de sacos por El Niño, costos y falta de mano de obra.",
+   "fuente": "Daily Coffee News",
+   "url": "https://dailycoffeenews.com/2026/06/15/nicaragua-coffee-report-weather-and-costs-hurting-production/"
+  }
+ ]
+}

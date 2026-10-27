@@ -1,0 +1,113 @@
+{
+ "updatedAt": "2026-10-27T19:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "El Niño suele recortar lluvias en el Pacífico y el centro-norte: maduración más rápida y pareja, con riesgo de grano pequeño en zonas bajas.",
+  "Con poca mano de obra, una maduración concentrada aumenta el café sobremaduro o caído: revisa la calidad de los primeros lotes de Matagalpa y Jinotega.",
+  "La época seca de noviembre a abril favorece el secado del pergamino en Las Segovias, que cosechan hasta marzo.",
+  "Fertilizantes más caros en 2026 pueden pesar en la floración y el rendimiento de 2027-28."
+ ],
+ "regions": [
+  {
+   "region": "jinotega",
+   "dept": "Jinotega",
+   "place": "Jinotega",
+   "lat": 13.09,
+   "lon": -86.0,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "matagalpa",
+   "dept": "Matagalpa",
+   "place": "Matagalpa",
+   "lat": 12.93,
+   "lon": -85.92,
+   "p7": 14.8,
+   "tmax": 28,
+   "tmin": 20
+  },
+  {
+   "region": "nueva-segovia",
+   "dept": "Nueva Segovia",
+   "place": "Dipilto",
+   "lat": 13.72,
+   "lon": -86.51,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "madriz",
+   "dept": "Madriz",
+   "place": "San Juan de Río Coco",
+   "lat": 13.54,
+   "lon": -86.17,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "esteli",
+   "dept": "Estelí",
+   "place": "Miraflor",
+   "lat": 13.25,
+   "lon": -86.25,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "boaco",
+   "dept": "Boaco",
+   "place": "Santa Lucía",
+   "lat": 12.53,
+   "lon": -85.71,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "meseta",
+   "dept": "La Meseta",
+   "place": "San Marcos, Carazo",
+   "lat": 11.91,
+   "lon": -86.2,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "caribe-sur",
+   "dept": "Caribe Sur",
+   "place": "Nueva Guinea",
+   "lat": 11.69,
+   "lon": -84.46,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}
