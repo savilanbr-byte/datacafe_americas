@@ -1,59 +1,6 @@
 {
  "items": [
   {
-   "date": "2026-10-16",
-   "id": "a8",
-   "pais": "Colombia",
-   "scope": "am",
-   "source": "El Tiempo",
-   "summary": "El gerente de la FNC atribuyó la caída a La Niña (ene–abr) y a El Niño, que reduce el peso del grano. El café cosechado en 12 meses valió $21,4 billones y la feria espera 40.000 visitantes.",
-   "tag": "Producción",
-   "title": "Bahamón: el clima recortó la producción; la Expo apuesta por el consumo interno",
-   "url": "https://www.eltiempo.com/economia/cafes-de-colombia-expo-2026-la-apuesta-por-el-consumo-interno-de-cafe-especial-en-un-ano-de-alertas-en-su-produccion-3593936"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "a11",
-   "scope": "mundo",
-   "source": "Finimize",
-   "summary": "Los futuros subieron 4,7% a cerca de US$3,0855/lb; los inventarios certificados están en 238.976 sacos y operadores dudan que el café brasileño llegue a bodegas antes del vencimiento de diciembre.",
-   "tag": "Mercado",
-   "title": "El arábica salta a máximo de un mes por inventarios ICE bajos",
-   "url": "https://finimize.com/content/coffee-prices-jump-as-ice-stockpiles-stay-uncomfortably-low"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "a12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "a14",
-   "pais": "Nicaragua",
-   "scope": "am",
-   "source": "Prensa Latina",
-   "summary": "El sector suma más de 54 mil fincas y 51 mil familias productoras. Más de 90 exportadoras generan más de US$400 millones en divisas.",
-   "tag": "Producción",
-   "title": "Nicaragua reporta 3,6 millones de quintales y exportaciones a 56 países",
-   "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "a19",
-   "pais": "Guatemala",
-   "scope": "am",
-   "source": "La Hora",
-   "summary": "El nombre queda protegido frente a usos indebidos en el mercado europeo. En 2024-25 Guatemala exportó 3,73 millones de quintales oro por US$1.285 millones; Europa compró el 26%.",
-   "tag": "Cafés especiales",
-   "title": "La Unión Europea protege el Café Antigua de Guatemala como indicación geográfica",
-   "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/"
-  },
-  {
    "date": "2026-10-22",
    "id": "a26",
    "pais": "Brasil",
@@ -151,17 +98,6 @@
    "url": "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/"
   },
   {
-   "date": "2026-10-16",
-   "id": "a37",
-   "pais": "Colombia",
-   "scope": "am",
-   "source": "La República",
-   "summary": "El dólar cerró en $3.174,72 y el peso acumula una apreciación de más de 22%; el real brasileño suma cerca de 7%. La inflación de EE. UU. de 3,7% eleva la probabilidad de alzas de la Fed, con reunión el 27 de octubre.",
-   "tag": "Divisas",
-   "title": "Peso colombiano, la moneda emergente más revaluada, con el dólar en $3.174",
-   "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-16-de-octubre-4504276"
-  },
-  {
    "date": "2026-10-20",
    "id": "a38",
    "pais": "El Salvador",
@@ -215,7 +151,29 @@
    "tag": "Producción",
    "title": "Venezuela: el ministro de Agricultura estima +15% en la cosecha 2026-27",
    "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "a43",
+   "pais": "Colombia",
+   "scope": "am",
+   "source": "Bloomberg Línea",
+   "summary": "Asoexport reporta 8,45 millones de sacos exportados de enero a septiembre (-13,8%) y pide revisar el piso de fletes terrestres (SICE-TAC), frenar los bloqueos casi semanales en la vía a Buenaventura y agilizar trámites portuarios. Estima una producción de 12 a 12,5 millones de sacos en 2026 por El Niño.",
+   "tag": "Logística",
+   "title": "Exportadores colombianos piden revisar fletes y mejorar seguridad en la vía a Buenaventura",
+   "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exportadores-de-cafe-colombiano-piden-al-gobierno-actuar-sobre-fletes-seguridad-y-tramites-portuarios/"
+  },
+  {
+   "date": "2026-10-13",
+   "id": "a44",
+   "pais": "Honduras",
+   "scope": "am",
+   "source": "La Prensa (Honduras)",
+   "summary": "El Ihcafé espera menos volumen que los 7,3 millones de quintales del ciclo anterior (US$2.285 millones, precio medio de US$312,58), y advierte que la sequía por El Niño podría restar más de 1 millón de quintales. Con el mismo precio, las ventas serían unos US$97 millones menores.",
+   "tag": "Exportaciones",
+   "title": "Honduras prevé exportar unos 7 millones de quintales en la cosecha 2026-27",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
   }
  ],
- "updatedAt": "2026-10-26T11:50:00Z"
+ "updatedAt": "2026-10-27T11:48:33Z"
 }
