@@ -2120,6 +2120,7 @@ function regStatus(cr){ const out=[], rows=climaRows(cr);
   return out; }
 /* Puntos de clima de cada país: [id, región, lugar, lat, lon]. Son los mismos de cada vista; Colombia y Costa Rica no traen coordenadas en sus datos */
 const CLIMA_PTS={
+  am:[["panama","Panamá","Boquete, Chiriquí",8.78,-82.44],["venezuela","Venezuela","Boconó, Trujillo",9.25,-70.27],["ecuador","Ecuador","Loja",-3.99,-79.2],["bolivia","Bolivia","Caranavi, La Paz",-15.84,-67.57]],
   colombia:[["huila","Huila","Pitalito",1.85,-76.05],["antioquia","Antioquia","Andes",5.66,-75.88],["tolima","Tolima","Planadas",3.2,-75.65],["cauca","Cauca","Popayán",2.44,-76.61],["narino","Nariño","La Unión",1.6,-77.13],["caldas","Caldas","Chinchiná",4.98,-75.6],["quindio","Quindío","Armenia",4.53,-75.68],["risaralda","Risaralda","Santa Rosa de Cabal",4.87,-75.62],["valle","Valle del Cauca","Sevilla",4.27,-75.93],["cundinamarca","Cundinamarca","Viotá",4.44,-74.52],["boyaca","Boyacá","Moniquirá",5.88,-73.57],["santander","Santander","San Gil",6.55,-73.13],["norte-santander","Norte de Santander","Salazar",7.77,-72.81],["cesar","Cesar","Pueblo Bello",10.42,-73.59],["magdalena","Magdalena","Minca",11.14,-74.12]],
   costarica:[["valle-central","Valle Central","Barva, Heredia",10.02,-84.12],["valle-occidental","Valle Occidental","Naranjo, Alajuela",10.1,-84.38],["los-santos","Los Santos","San Marcos de Tarrazú",9.66,-84.02],["turrialba","Turrialba","Turrialba, Cartago",9.9,-83.68],["perez-zeledon","Pérez Zeledón","San Isidro de El General",9.37,-83.7],["coto-brus","Coto Brus","San Vito, Coto Brus",8.82,-82.97],["zona-norte","Zona Norte","Tilarán, Guanacaste",10.47,-84.97]],
   honduras:[["copan","Copán","Santa Rosa de Copán",14.77,-88.78],["opalaca","Opalaca","La Esperanza, Intibucá",14.31,-88.18],["montecillos","Montecillos","Marcala, La Paz",14.15,-88.03],["comayagua","Comayagua","Siguatepeque",14.6,-87.83],["el-paraiso","El Paraíso","Danlí",14.03,-86.58],["agalta","Agalta","Gualaco, Olancho",15.1,-86.11]],
@@ -2135,7 +2136,7 @@ const CONILON_BR=["conilon-es","bahia-atlantico","rondonia"];
 const CLIMA_AM={mexico:["mexico","chiapas-soconusco"],guatemala:["guatemala","antigua"],honduras:["honduras","montecillos"],"el-salvador":["elsalvador","apaneca-ilamatepec"],
   nicaragua:["nicaragua","matagalpa"],"costa-rica":["costarica","los-santos"],colombia:["colombia","caldas"],peru:["peru","cajamarca"],
   "brasil-arabica":["brasil","sul-de-minas",id=>!CONILON_BR.includes(id)],"brasil-conilon":["brasil","conilon-es",id=>CONILON_BR.includes(id)]};
-const climaPt=(z,id)=>{ const p=(CLIMA_PTS[z]||[]).find(x=>x[0]===id); return p&&{id:p[0],name:p[1],place:p[2],lat:p[3],lon:p[4]}; };
+const climaPt=(z,id,nm)=>{ const L=CLIMA_PTS[z]||[], p=L.find(x=>x[0]===id)||(nm?L.find(x=>norm(x[1])===norm(nm)):null); return p&&{id:p[0],name:p[1],place:p[2],lat:p[3],lon:p[4]}; };
 
 /* Pronóstico en vivo (MET Norway): lo pide este equipo para la región elegida o pendiente y lo guarda 3 horas */
 const WX={mem:{},ttl:3*3600e3,q:[],run:0,t:null};
@@ -2192,21 +2193,27 @@ function renderClima(){
   if(c.regions&&c.regions.length){
     const fs=c.forecastSource||{}, sel=LS.get("clima_sel",{});
     const has=r=>r.p7!=null&&isFinite(r.p7);
+    /* Un pronóstico de los datos con más de 24 h ya no sirve: se consulta en vivo y, si no se puede, se muestra el último con su fecha */
+    const feedOld=!c.updatedAt||Date.now()-toDate(c.updatedAt)>24*3600e3, fresh=r=>has(r)&&!feedOld;
     /* Cada fila: en Américas se puede elegir la región del país; lo que no venga en los datos se consulta en vivo */
     const view=c.regions.map((r,i)=>{ const v={...r,i,live:null,opts:null};
       const am=ZOOM==="am"&&CLIMA_AM[r.region];
       if(am){ const [z,def,f]=am; v.opts=(CLIMA_PTS[z]||[]).filter(p=>!f||f(p[0])).map(p=>[p[0],p[1]]); v.selKey=r.region;
         v.sel=v.opts.some(o=>o[0]===sel[r.region])?sel[r.region]:def;
-        if(v.sel!==def||!has(r)){ const pt=climaPt(z,v.sel); v.place=pt.place; v.pt=pt; } }
-      else if(!has(r)){ const pt=r.lat!=null&&r.lon!=null?{lat:r.lat,lon:r.lon}:climaPt(ZOOM,r.region); if(pt) v.pt=pt; }
-      if(v.pt){ const w=wxGet(v.pt.lat,v.pt.lon); v.live=w; v.p7=w.ok?w.p7:null; v.tmax=w.ok?w.tmax:null; v.tmin=w.ok?w.tmin:null; }
+        if(v.sel!==def||!fresh(r)){ const pt=climaPt(z,v.sel); v.place=pt.place; v.pt=pt; v.own=v.sel===def; } }
+      else if(!fresh(r)){ const pt=r.lat!=null&&r.lon!=null?{lat:r.lat,lon:r.lon}:climaPt(ZOOM,r.region,r.dept); if(pt){ v.pt=pt; v.own=true; } }
+      if(v.pt){ const w=wxGet(v.pt.lat,v.pt.lon); v.live=w;
+        if(w.ok){ v.p7=w.p7; v.tmax=w.tmax; v.tmin=w.tmin; }
+        else if(v.own&&has(r)){ v.old=true; } /* sin conexión: queda el último dato de la tarea, avisado */
+        else { v.p7=v.tmax=v.tmin=null; } }
       return v; });
     const mx=Math.max(60,...view.map(r=>r.p7||0));
     /* En Américas el orden no cambia al elegir otra región (se ordena por el punto de la tarea) */
     const key=ZOOM==="am"?(r=>c.regions[r.i].p7):(r=>r.p7);
     const rs=view.slice().sort((a,b)=>((key(b)!=null)-(key(a)!=null))||((key(b)||0)-(key(a)||0)));
-    const anyLive=view.some(r=>r.live&&r.live.ok), liveW=view.find(r=>r.live&&r.live.ok);
-    h+='<div class="sec-h"><h3>Lluvia esperada · próximos 7 días</h3><span class="small muted">'+(fs.period?esc(fs.period):"")+'</span></div>';
+    const anyLive=view.some(r=>r.live&&r.live.ok), liveW=view.find(r=>r.live&&r.live.ok), anyFeed=view.some(r=>!r.pt&&has(r));
+    const period=anyFeed&&fs.period?fs.period:(liveW?wxPeriod(liveW.live):"");
+    h+='<div class="sec-h"><h3>Lluvia esperada · próximos 7 días</h3><span class="small muted">'+esc(period)+'</span></div>';
     if(ZOOM==="am") h+='<p class="small muted" style="margin:-4px 0 0">Toca el nombre de la región debajo de cada país para ver otra zona.</p>';
     h+='<div class="card"><ul class="reg">'+rs.map(r=>{
       const sw=r.opts?'<span class="rsel-w"><select class="rsel" data-rsel="'+esc(r.selKey)+'" aria-label="Región de '+esc(climaName(r))+'">'+r.opts.map(o=>'<option value="'+esc(o[0])+'"'+(o[0]===r.sel?" selected":"")+'>'+esc(o[1])+'</option>').join("")+'</select></span>':"";
@@ -2218,7 +2225,7 @@ function renderClima(){
       }
       const cat=r.p7<25?["dry","Seco"]:r.p7>150?["wet","Muy lluvioso"]:r.p7>=75?["wet","Lluvioso"]:["","Moderado"];
       const st=regStatus(r); const harvesting=st.length>0;
-      let flags=liveFlag+st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
+      let flags=liveFlag+(r.old?'<span class="flag">Último dato guardado ('+esc(ago(c.updatedAt))+'): sin conexión para actualizarlo</span>':'')+st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
       if(harvesting&&r.p7>=100) flags+='<span class="flag alert">Lluvia en cosecha: vigilar secado y humedad</span>';
       if(r.p7<25) flags+='<span class="flag">Semana seca</span>';
       return '<li'+(sw?' class="has-sel"':'')+'>'+nm+'<span>'+esc(r.place)+' · '+fmt(r.tmin,0)+'–'+fmt(r.tmax,0)+' °C</span></div><div class="bar" title="'+esc(cat[1])+'"><i class="'+cat[0]+'" style="width:'+Math.min(100,(r.p7||0)/mx*100).toFixed(1)+'%"></i></div><div class="mm">'+fmt(r.p7,0)+' mm</div>'+(flags?'<div class="sub">'+flags+'</div>':'')+'</li>';
