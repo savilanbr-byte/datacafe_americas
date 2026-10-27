@@ -41,7 +41,7 @@ Las dos apps comparten el almacenamiento del navegador (mismo dominio). En cada 
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio. Las únicas lecturas sin prefijo son las de DataCafé|Colombia (`mc_sessions`, `mc_calc_*`, `mc_ajustes`, `mc_desc_propios`), y solo se leen.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v12`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v13`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
 
 ## Diseño adaptable
