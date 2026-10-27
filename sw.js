@@ -1,5 +1,5 @@
 // DataCafé|Américas service worker: app disponible sin conexión, datos siempre frescos cuando hay red.
-const VERSION = "datacafe-americas-v15";
+const VERSION = "datacafe-americas-v16";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 
 self.addEventListener("install", e => {
@@ -14,6 +14,8 @@ self.addEventListener("fetch", e => {
   const url = new URL(req.url);
   // Datos: la app ya guarda la última copia; no los cacheamos aquí.
   if (url.origin === location.origin && url.pathname.includes("/data/")) return;
+  // Pronóstico en vivo (MET Norway): siempre de la red; la app guarda su propia copia por 3 horas.
+  if (url.hostname === "api.met.no") return;
   // Página: red primero, para recibir versiones nuevas; si no hay red, la copia guardada.
   if (req.mode === "navigate") {
     e.respondWith(fetch(req).then(r => { const cp = r.clone(); caches.open(VERSION).then(c => c.put("index.html", cp)); return r; })

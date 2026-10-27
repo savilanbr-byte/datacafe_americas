@@ -303,6 +303,15 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .flag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted)}
 .flag.alert{background:var(--cherry-soft);color:var(--cherry);font-weight:600}
 .flag.p{background:var(--leaf-soft);color:var(--leaf)} .flag.m{background:var(--amber-soft);color:var(--warn)}
+.flag.wxl::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--leaf);margin-right:5px;vertical-align:1px}
+@media (max-width:599px){.reg li.has-sel{grid-template-columns:minmax(0,1fr) 54px;row-gap:6px}.reg li.has-sel .nm{grid-column:1/-1}.reg li.has-sel .rsel{max-width:none}.reg li.has-sel .rsel-w{max-width:280px}}
+.reg .rsel-w{display:block;position:relative;margin:4px 0 2px;max-width:100%}
+.reg .rsel-w::after{content:"";position:absolute;right:10px;top:50%;width:6px;height:6px;border-right:1.6px solid var(--muted);border-bottom:1.6px solid var(--muted);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.reg .rsel{appearance:none;-webkit-appearance:none;width:100%;max-width:220px;min-height:34px;padding:6px 28px 6px 10px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--leaf);font:inherit;font-size:13px;font-weight:600;text-overflow:ellipsis;cursor:pointer}
+.reg .rsel:focus-visible{outline:2px solid var(--leaf);outline-offset:1px}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--leaf);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
 .sources{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
 
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 14px);background:var(--ink);color:var(--surface);padding:9px 14px;border-radius:10px;font-size:13.5px;z-index:50;max-width:calc(100% - 32px)}
@@ -730,7 +739,7 @@ const ZC={
     cosLede:"Toca un mes para ver qué países están cosechando. Son rangos típicos por país: dentro de cada uno hay zonas que se adelantan o se atrasan, y el clima de cada año los corre varias semanas.",
     gantt:"Año completo por país",supT:"Orígenes cosechando por mes",supN:"Verde = principal · ámbar = secundaria",
     climaLede:"Fenómeno ENSO, qué implica para los orígenes de América y lluvia esperada en los próximos 7 días por país, cruzada con el calendario de cosecha.",
-    impT:"Qué significa para la compra en América",climaSrc:"en un punto cafetero representativo de cada país"},
+    impT:"Qué significa para la compra en América",climaSrc:"en un punto cafetero de cada país (o en la región que elijas)"},
   costarica:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
     zones:["Valles","Los Santos","Caribe","Sur","Norte"],zoneNames:{"Valles":"Valle Central y Valle Occidental","Los Santos":"Los Santos · antes Tarrazú","Caribe":"Turrialba · incluye Orosi","Sur":"Sur · antigua región Brunca","Norte":"Zona Norte · incluye Guanacaste"},
     calcLede:"De la cereza al oro: cajuelas, fanegas, kilos, quintales y sacos, con precios en colones y su equivalente FOB. Edita cualquier valor: el resto se recalcula.",
@@ -2109,6 +2118,64 @@ function regStatus(cr){ const out=[], rows=climaRows(cr);
   rows.forEach(r=>{ const ph=phase(r,TODAY_M); if(!ph) return;
     out.push({ph,label:isCO()?(ph==="p"?"Principal":"Mitaca")+(rows.length>1?" "+subShort(r).toLowerCase():""):(ph==="p"?"Cosecha principal":"Secundaria (mitaca)")}); });
   return out; }
+/* Puntos de clima de cada país: [id, región, lugar, lat, lon]. Son los mismos de cada vista; Colombia y Costa Rica no traen coordenadas en sus datos */
+const CLIMA_PTS={
+  colombia:[["huila","Huila","Pitalito",1.85,-76.05],["antioquia","Antioquia","Andes",5.66,-75.88],["tolima","Tolima","Planadas",3.2,-75.65],["cauca","Cauca","Popayán",2.44,-76.61],["narino","Nariño","La Unión",1.6,-77.13],["caldas","Caldas","Chinchiná",4.98,-75.6],["quindio","Quindío","Armenia",4.53,-75.68],["risaralda","Risaralda","Santa Rosa de Cabal",4.87,-75.62],["valle","Valle del Cauca","Sevilla",4.27,-75.93],["cundinamarca","Cundinamarca","Viotá",4.44,-74.52],["boyaca","Boyacá","Moniquirá",5.88,-73.57],["santander","Santander","San Gil",6.55,-73.13],["norte-santander","Norte de Santander","Salazar",7.77,-72.81],["cesar","Cesar","Pueblo Bello",10.42,-73.59],["magdalena","Magdalena","Minca",11.14,-74.12]],
+  costarica:[["valle-central","Valle Central","Barva, Heredia",10.02,-84.12],["valle-occidental","Valle Occidental","Naranjo, Alajuela",10.1,-84.38],["los-santos","Los Santos","San Marcos de Tarrazú",9.66,-84.02],["turrialba","Turrialba","Turrialba, Cartago",9.9,-83.68],["perez-zeledon","Pérez Zeledón","San Isidro de El General",9.37,-83.7],["coto-brus","Coto Brus","San Vito, Coto Brus",8.82,-82.97],["zona-norte","Zona Norte","Tilarán, Guanacaste",10.47,-84.97]],
+  honduras:[["copan","Copán","Santa Rosa de Copán",14.77,-88.78],["opalaca","Opalaca","La Esperanza, Intibucá",14.31,-88.18],["montecillos","Montecillos","Marcala, La Paz",14.15,-88.03],["comayagua","Comayagua","Siguatepeque",14.6,-87.83],["el-paraiso","El Paraíso","Danlí",14.03,-86.58],["agalta","Agalta","Gualaco, Olancho",15.1,-86.11]],
+  guatemala:[["huehuetenango","Huehuetenango","La Libertad, Huehuetenango",15.51,-91.87],["san-marcos","San Marcos","San Rafael Pie de la Cuesta",14.93,-91.92],["atitlan","Atitlán","San Lucas Tolimán",14.63,-91.14],["antigua","Antigua","Antigua Guatemala",14.56,-90.73],["acatenango","Acatenango","Acatenango, Chimaltenango",14.55,-90.94],["fraijanes","Fraijanes","Fraijanes",14.46,-90.44],["coban","Cobán","Cobán",15.47,-90.37],["nuevo-oriente","Nuevo Oriente","Esquipulas",14.56,-89.35]],
+  elsalvador:[["apaneca-ilamatepec","Apaneca-Ilamatepec","Santa Ana",13.99,-89.56],["alotepec-metapan","Alotepec-Metapán","Metapán",14.33,-89.45],["el-balsamo-quezaltepec","El Bálsamo-Quezaltepec","Santa Tecla",13.67,-89.29],["chichontepec","Chichontepec","San Vicente",13.64,-88.78],["tecapa-chinameca","Tecapa-Chinameca","Santiago de María",13.49,-88.47],["cacahuatique","Cacahuatique","Ciudad Barrios",13.77,-88.27]],
+  nicaragua:[["jinotega","Jinotega","Jinotega",13.09,-86],["matagalpa","Matagalpa","Matagalpa",12.93,-85.92],["nueva-segovia","Nueva Segovia","Dipilto",13.72,-86.51],["madriz","Madriz","San Juan de Río Coco",13.54,-86.17],["esteli","Estelí","Miraflor",13.25,-86.25],["boaco","Boaco","Santa Lucía",12.53,-85.71],["meseta","La Meseta","San Marcos, Carazo",11.91,-86.2],["caribe-sur","Caribe Sur","Nueva Guinea",11.69,-84.46]],
+  mexico:[["chiapas-soconusco","Soconusco","Tapachula, Chiapas",14.9,-92.26],["chiapas-frailesca","Frailesca","Jaltenango (Ángel Albino Corzo)",15.87,-92.72],["chiapas-altos","Altos de Chiapas","Pantelhó",17,-92.47],["veracruz","Veracruz centro","Huatusco",19.15,-96.97],["puebla","Sierra Norte de Puebla","Cuetzalan",20.02,-97.52],["huasteca","Huasteca","Tlanchinol, Hidalgo",20.99,-98.66],["oaxaca","Oaxaca","Pluma Hidalgo",15.92,-96.42],["guerrero","Guerrero","Atoyac de Álvarez",17.21,-100.43],["robusta-chiapas","Robusta Chiapas","Cacahoatán",14.99,-92.17],["robusta-golfo","Robusta Golfo","Tezonapa, Veracruz",18.61,-96.69]],
+  brasil:[["sul-de-minas","Sul de Minas","Varginha",-21.55,-45.43],["cerrado-mineiro","Cerrado Mineiro","Patrocínio",-18.94,-46.99],["matas-de-minas","Matas de Minas","Manhuaçu",-20.26,-42.03],["mogiana","Mogiana","Franca",-20.54,-47.4],["norte-pioneiro","Norte Pioneiro","Carlópolis",-23.42,-49.72],["montanhas-es","Montanhas do ES","Venda Nova do Imigrante",-20.34,-41.13],["planalto-bahia","Planalto da Bahia","Barra do Choça",-14.87,-40.58],["oeste-bahia","Cerrado da Bahia","Luís Eduardo Magalhães",-12.09,-45.8],["conilon-es","Conilon ES","Linhares",-19.39,-40.07],["bahia-atlantico","Bahia Atlântico","Itabela",-16.57,-39.56],["rondonia","Rondônia","Cacoal",-11.44,-61.45]],
+  peru:[["cajamarca","Cajamarca","Jaén",-5.71,-78.81],["amazonas","Amazonas","Rodríguez de Mendoza",-6.4,-77.48],["san-martin","San Martín","Moyobamba",-6.03,-76.97],["piura","Piura","Huancabamba",-5.24,-79.45],["junin","Junín","Pichanaqui",-10.93,-74.87],["pasco","Pasco","Villa Rica",-10.74,-75.27],["huanuco","Huánuco","Tingo María",-9.3,-76],["cusco","Cusco","Quillabamba",-12.86,-72.69],["puno","Puno","San Juan del Oro",-14.22,-69.15],["ayacucho","Ayacucho","Pichari",-12.52,-73.83]]
+};
+const CONILON_BR=["conilon-es","bahia-atlantico","rondonia"];
+/* Fila de la vista Américas → [vista del país, región que usa la tarea de datos, regiones que se ofrecen] */
+const CLIMA_AM={mexico:["mexico","chiapas-soconusco"],guatemala:["guatemala","antigua"],honduras:["honduras","montecillos"],"el-salvador":["elsalvador","apaneca-ilamatepec"],
+  nicaragua:["nicaragua","matagalpa"],"costa-rica":["costarica","los-santos"],colombia:["colombia","caldas"],peru:["peru","cajamarca"],
+  "brasil-arabica":["brasil","sul-de-minas",id=>!CONILON_BR.includes(id)],"brasil-conilon":["brasil","conilon-es",id=>CONILON_BR.includes(id)]};
+const climaPt=(z,id)=>{ const p=(CLIMA_PTS[z]||[]).find(x=>x[0]===id); return p&&{id:p[0],name:p[1],place:p[2],lat:p[3],lon:p[4]}; };
+
+/* Pronóstico en vivo (MET Norway): lo pide este equipo para la región elegida o pendiente y lo guarda 3 horas */
+const WX={mem:{},ttl:3*3600e3,q:[],run:0,t:null};
+const ymdLocal=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+function wxDays(){ const t=new Date(), out=[]; for(let i=1;i<=7;i++) out.push(ymdLocal(new Date(t.getFullYear(),t.getMonth(),t.getDate()+i))); return out; }
+function wxSummary(j,days){ /* lluvia total, días con más de 1 mm y temperaturas medias de mañana a 7 días (hora local) */
+  const ts=((j&&j.properties&&j.properties.timeseries)||[]).slice().sort((a,b)=>Date.parse(a.time)-Date.parse(b.time));
+  const D=Object.fromEntries(days.map(d=>[d,{p:0,n:0,mx:-Infinity,mn:Infinity}])); let cov=-Infinity;
+  ts.forEach(e=>{ const t=Date.parse(e.time), d=D[ymdLocal(new Date(t))], dt=e.data||{};
+    const temp=dt.instant&&dt.instant.details?dt.instant.details.air_temperature:null;
+    if(d&&temp!=null){ d.mx=Math.max(d.mx,temp); d.mn=Math.min(d.mn,temp); }
+    if(t<cov) return; /* cada hora se cuenta una sola vez: tramos de 1 h primero, luego de 6 h */
+    const n1=dt.next_1_hours&&dt.next_1_hours.details, n6=dt.next_6_hours&&dt.next_6_hours.details;
+    if(n1&&n1.precipitation_amount!=null){ if(d){ d.p+=n1.precipitation_amount; d.n++; } cov=t+3600e3; }
+    else if(n6&&n6.precipitation_amount!=null){ if(d){ d.p+=n6.precipitation_amount; d.n++;
+      if(n6.air_temperature_max!=null) d.mx=Math.max(d.mx,n6.air_temperature_max); if(n6.air_temperature_min!=null) d.mn=Math.min(d.mn,n6.air_temperature_min); } cov=t+6*3600e3; } });
+  const ok=days.map(k=>D[k]).filter(d=>d.n>0&&isFinite(d.mx));
+  if(!ok.length) throw new Error("sin datos para esos días");
+  const avg=a=>a.reduce((s,x)=>s+x,0)/a.length;
+  return {p7:Math.round(ok.reduce((s,d)=>s+d.p,0)*10)/10, dias:ok.filter(d=>d.p>1).length, tmax:Math.round(avg(ok.map(d=>d.mx))), tmin:Math.round(avg(ok.map(d=>d.mn))), nd:ok.length, d0:days[0], d6:days[6]};
+}
+async function wxFetch(lat,lon){
+  const u="https://api.met.no/weatherapi/locationforecast/2.0/compact?lat="+(+lat).toFixed(4)+"&lon="+(+lon).toFixed(4);
+  const res=await fetch(u,{cache:"no-store"}); if(!res.ok) throw new Error("HTTP "+res.status);
+  return wxSummary(await res.json(),wxDays());
+}
+function wxPump(){ while(WX.run<3&&WX.q.length){ const [lat,lon,k]=WX.q.shift(); WX.run++;
+  wxFetch(lat,lon).then(r=>{ WX.mem[k]={...r,ok:true,at:Date.now()}; LS.set(k,WX.mem[k]); })
+    .catch(e=>{ const prev=WX.mem[k]; WX.mem[k]={...(prev&&prev.ok?prev:{}),ok:!!(prev&&prev.ok),stale:!!(prev&&prev.ok),err:true,at:prev&&prev.ok?prev.at:Date.now(),errAt:Date.now()}; })
+    .finally(()=>{ WX.run--; wxPump(); clearTimeout(WX.t); WX.t=setTimeout(renderClima,60); }); } }
+function wxGet(lat,lon){ /* devuelve lo que haya (listo, consultando o con error) y pide en segundo plano si hace falta */
+  const k="wx_"+(+lat).toFixed(2)+"_"+(+lon).toFixed(2); let m=WX.mem[k];
+  if(!m){ const c=LS.get(k,null); if(c&&c.ok) m=WX.mem[k]=c; }
+  if(m&&m.loading) return m;
+  if(m&&m.ok&&!m.err&&Date.now()-m.at<WX.ttl&&m.d0===wxDays()[0]) return m;
+  if(m&&m.err&&Date.now()-m.errAt<120e3) return m; /* falló hace poco: no insistir */
+  WX.mem[k]={...(m&&m.ok?m:{}),ok:!!(m&&m.ok),stale:!!(m&&m.ok),loading:true}; WX.q.push([lat,lon,k]); wxPump(); return WX.mem[k];
+}
+const wxPeriod=w=>{ const f=s=>{ const [y,m,d]=s.split("-"); return +d+" "+MESES[+m-1].toLowerCase(); }; return w&&w.d0?f(w.d0)+" al "+f(w.d6):""; };
+
 function renderClima(){
   const c=FEED.clima, body=$("#climaBody");
   if(!c){ body.innerHTML='<div class="empty"><strong>Todavía no hay datos de clima.</strong>Aparecen aquí con la próxima actualización.</div>'; return; }
@@ -2123,22 +2190,46 @@ function renderClima(){
   if(av){ const d=av; h+='<div class="card" style="padding:14px 16px;display:flex;flex-direction:column;gap:8px"><div class="eyebrow">'+esc(d.source||"Avisos")+(d.asOf?" · "+esc(fdate(d.asOf)):"")+'</div><h3 style="font-size:17px">'+esc(d.headline)+'</h3>'+(d.items&&d.items.length?'<ul class="bul">'+d.items.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>':'')+
     (d.links&&d.links.length?'<div class="small" style="display:flex;gap:12px;flex-wrap:wrap">'+d.links.map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.t)+'</a>').join("")+'</div>':'')+'</div>'; }
   if(c.regions&&c.regions.length){
-    const fs=c.forecastSource||{}; const mx=Math.max(60,...c.regions.map(r=>r.p7||0));
-    const has=r=>r.p7!=null&&isFinite(r.p7), rs=[...c.regions].sort((a,b)=>(has(b)-has(a))||((b.p7||0)-(a.p7||0)));
+    const fs=c.forecastSource||{}, sel=LS.get("clima_sel",{});
+    const has=r=>r.p7!=null&&isFinite(r.p7);
+    /* Cada fila: en Américas se puede elegir la región del país; lo que no venga en los datos se consulta en vivo */
+    const view=c.regions.map((r,i)=>{ const v={...r,i,live:null,opts:null};
+      const am=ZOOM==="am"&&CLIMA_AM[r.region];
+      if(am){ const [z,def,f]=am; v.opts=(CLIMA_PTS[z]||[]).filter(p=>!f||f(p[0])).map(p=>[p[0],p[1]]); v.selKey=r.region;
+        v.sel=v.opts.some(o=>o[0]===sel[r.region])?sel[r.region]:def;
+        if(v.sel!==def||!has(r)){ const pt=climaPt(z,v.sel); v.place=pt.place; v.pt=pt; } }
+      else if(!has(r)){ const pt=r.lat!=null&&r.lon!=null?{lat:r.lat,lon:r.lon}:climaPt(ZOOM,r.region); if(pt) v.pt=pt; }
+      if(v.pt){ const w=wxGet(v.pt.lat,v.pt.lon); v.live=w; v.p7=w.ok?w.p7:null; v.tmax=w.ok?w.tmax:null; v.tmin=w.ok?w.tmin:null; }
+      return v; });
+    const mx=Math.max(60,...view.map(r=>r.p7||0));
+    /* En Américas el orden no cambia al elegir otra región (se ordena por el punto de la tarea) */
+    const key=ZOOM==="am"?(r=>c.regions[r.i].p7):(r=>r.p7);
+    const rs=view.slice().sort((a,b)=>((key(b)!=null)-(key(a)!=null))||((key(b)||0)-(key(a)||0)));
+    const anyLive=view.some(r=>r.live&&r.live.ok), liveW=view.find(r=>r.live&&r.live.ok);
     h+='<div class="sec-h"><h3>Lluvia esperada · próximos 7 días</h3><span class="small muted">'+(fs.period?esc(fs.period):"")+'</span></div>';
+    if(ZOOM==="am") h+='<p class="small muted" style="margin:-4px 0 0">Toca el nombre de la región debajo de cada país para ver otra zona.</p>';
     h+='<div class="card"><ul class="reg">'+rs.map(r=>{
-      if(!has(r)) return '<li><div class="nm">'+esc(climaName(r))+'<span>'+esc(r.place)+'</span></div><div class="bar" title="Sin pronóstico"><i style="width:0"></i></div><div class="mm">—</div><div class="sub"><span class="flag">Pronóstico pendiente: llega con la próxima actualización</span></div></li>';
+      const sw=r.opts?'<span class="rsel-w"><select class="rsel" data-rsel="'+esc(r.selKey)+'" aria-label="Región de '+esc(climaName(r))+'">'+r.opts.map(o=>'<option value="'+esc(o[0])+'"'+(o[0]===r.sel?" selected":"")+'>'+esc(o[1])+'</option>').join("")+'</select></span>':"";
+      const w=r.live, liveFlag=w&&w.ok?'<span class="flag wxl">En vivo'+(w.loading?" · actualizando":"")+'</span>':"";
+      const nm='<div class="nm">'+esc(climaName(r))+sw;
+      if(!has(r)){
+        const msg=w&&w.loading?"Consultando el pronóstico…":w&&w.err?"No se pudo consultar ahora. Revisa la conexión y vuelve a abrir Clima.":"Pronóstico pendiente: llega con la próxima actualización";
+        return '<li'+(sw?' class="has-sel"':'')+'>'+nm+'<span>'+esc(r.place)+'</span></div><div class="bar" title="Sin pronóstico"><i style="width:0"></i></div><div class="mm">'+(w&&w.loading?'<span class="spin" aria-hidden="true"></span>':'—')+'</div><div class="sub"><span class="flag">'+esc(msg)+'</span></div></li>';
+      }
       const cat=r.p7<25?["dry","Seco"]:r.p7>150?["wet","Muy lluvioso"]:r.p7>=75?["wet","Lluvioso"]:["","Moderado"];
       const st=regStatus(r); const harvesting=st.length>0;
-      let flags=st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
+      let flags=liveFlag+st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
       if(harvesting&&r.p7>=100) flags+='<span class="flag alert">Lluvia en cosecha: vigilar secado y humedad</span>';
       if(r.p7<25) flags+='<span class="flag">Semana seca</span>';
-      return '<li><div class="nm">'+esc(climaName(r))+'<span>'+esc(r.place)+' · '+fmt(r.tmin,0)+'–'+fmt(r.tmax,0)+' °C</span></div><div class="bar" title="'+esc(cat[1])+'"><i class="'+cat[0]+'" style="width:'+Math.min(100,(r.p7||0)/mx*100).toFixed(1)+'%"></i></div><div class="mm">'+fmt(r.p7,0)+' mm</div>'+(flags?'<div class="sub">'+flags+'</div>':'')+'</li>';
+      return '<li'+(sw?' class="has-sel"':'')+'>'+nm+'<span>'+esc(r.place)+' · '+fmt(r.tmin,0)+'–'+fmt(r.tmax,0)+' °C</span></div><div class="bar" title="'+esc(cat[1])+'"><i class="'+cat[0]+'" style="width:'+Math.min(100,(r.p7||0)/mx*100).toFixed(1)+'%"></i></div><div class="mm">'+fmt(r.p7,0)+' mm</div>'+(flags?'<div class="sub">'+flags+'</div>':'')+'</li>';
     }).join("")+'</ul></div>';
-    h+='<div class="sources"><span>Pronóstico: '+(fs.url?'<a href="'+esc(fs.url)+'" target="_blank" rel="noopener">'+esc(fs.name||"modelo")+'</a>':esc(fs.name||""))+' '+esc(Z().climaSrc)+'. Es un modelo global: úsalo como tendencia, no como dato de finca.</span></div>';
+    h+='<div class="sources"><span>Pronóstico: '+(fs.url?'<a href="'+esc(fs.url)+'" target="_blank" rel="noopener">'+esc(fs.name||"modelo")+'</a>':esc(fs.name||""))+' '+esc(Z().climaSrc)+'. Es un modelo global: úsalo como tendencia, no como dato de finca.</span>'+
+      (anyLive?'<span>Las filas «En vivo» las consulta este equipo a <a href="https://api.met.no/" target="_blank" rel="noopener">MET Norway</a> ('+esc(wxPeriod(liveW.live))+') y se guardan 3 horas.</span>':'')+'</div>';
   }
   if(c.updatedAt) h+='<div class="sources"><span>Actualizado '+esc(ago(c.updatedAt))+'.</span></div>';
   body.innerHTML=h;
+  $$("[data-rsel]",body).forEach(s=>s.onchange=()=>{ const m=LS.get("clima_sel",{}); m[s.dataset.rsel]=s.value; LS.set("clima_sel",m); renderClima();
+    const n=$('[data-rsel="'+s.dataset.rsel+'"]',body); if(n) n.focus({preventScroll:true}); });
 }
 
 /* =========================================================
