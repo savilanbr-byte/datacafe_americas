@@ -1,0 +1,159 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "temporada": "2026-27",
+ "fuente": "1Zpresso (Anacafé)",
+ "url": "https://1zpresso.coffee/guatemalan-coffee-guide/",
+ "regiones": [
+  {
+   "id": "huehuetenango",
+   "dep": "Huehuetenango",
+   "sub": "Huehuetenango (La Libertad, Cuilco, Todos Santos)",
+   "zona": "Occidente",
+   "pI": 1,
+   "pF": 4,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Región no volcánica, la más alta y seca: cosecha tardía."
+  },
+  {
+   "id": "san-marcos",
+   "dep": "San Marcos",
+   "sub": "San Marcos y Quetzaltenango",
+   "zona": "Occidente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "La más lluviosa: la floración se adelanta."
+  },
+  {
+   "id": "atitlan",
+   "dep": "Atitlán",
+   "sub": "Sololá y alrededores del lago",
+   "zona": "Occidente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "antigua",
+   "dep": "Antigua",
+   "sub": "Sacatepéquez (valle de Panchoy)",
+   "zona": "Centro",
+   "pI": 1,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "acatenango",
+   "dep": "Acatenango",
+   "sub": "Chimaltenango (valle de Acatenango)",
+   "zona": "Centro",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "fraijanes",
+   "dep": "Fraijanes",
+   "sub": "Guatemala y Santa Rosa (meseta de Fraijanes)",
+   "zona": "Centro",
+   "pI": 12,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": ""
+  },
+  {
+   "id": "coban",
+   "dep": "Cobán",
+   "sub": "Alta Verapaz",
+   "zona": "Norte y oriente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Lluvia y neblina casi todo el año: el secado es el reto."
+  },
+  {
+   "id": "nuevo-oriente",
+   "dep": "Nuevo Oriente",
+   "sub": "Chiquimula, Zacapa y Jalapa",
+   "zona": "Norte y oriente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Casi toda de pequeños productores."
+  }
+ ],
+ "estado": {
+  "huehuetenango": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "MAGA reportó humedad del suelo bajo 25 % en partes de Huehuetenango entre agosto y septiembre.",
+   "fecha": "2026-09-16",
+   "fuente": "IberoNews",
+   "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+  },
+  "acatenango": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "MAGA reportó humedad del suelo bajo 25 % en partes de Chimaltenango entre agosto y septiembre.",
+   "fecha": "2026-09-16",
+   "fuente": "IberoNews",
+   "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+  },
+  "nuevo-oriente": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "MAGA reportó humedad del suelo bajo 25 % en partes de Chiquimula y Jalapa entre agosto y septiembre.",
+   "fecha": "2026-09-16",
+   "fuente": "IberoNews",
+   "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+  }
+ },
+ "reportes": [
+  {
+   "id": "g1",
+   "fecha": "2026-09-16",
+   "region": "Guatemala",
+   "tipo": "noticia",
+   "texto": "Anacafé: si persiste el déficit de lluvia, la cosecha 2026-27 podría bajar entre 5 % y 15 %; en agosto los cafetales estaban en llenado de grano.",
+   "fuente": "Prensa Libre",
+   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/"
+  },
+  {
+   "id": "g2",
+   "fecha": "2026-09-16",
+   "region": "huehuetenango",
+   "tipo": "noticia",
+   "texto": "MAGA: humedad del suelo bajo 25 % en partes de Huehuetenango, Chimaltenango, Jalapa y Chiquimula.",
+   "fuente": "IberoNews",
+   "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+  },
+  {
+   "id": "g3",
+   "fecha": "2026-05-12",
+   "region": "san-marcos",
+   "tipo": "noticia",
+   "texto": "El barrenador Xylosandrus compactus se detectó en septiembre de 2025 en San Marcos, Quetzaltenango, Retalhuleu y Zacapa.",
+   "fuente": "Daily Coffee News",
+   "url": "https://dailycoffeenews.com/2026/05/12/guatemala-coffee-report-production-up-as-arabica-plantings-mature/"
+  }
+ ]
+}

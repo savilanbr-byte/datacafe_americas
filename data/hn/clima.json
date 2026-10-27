@@ -1,0 +1,113 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
+  "COPECO reporta condiciones secas en la mayor parte del país a fines de octubre: buen escenario para secar el pergamino de las fincas bajas que ya cosechan.",
+  "Con la fruta madurando pareja y falta de recolectores, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes de El Paraíso y Copán.",
+  "Las regiones altas (Montecillos y Agalta) cosechan de diciembre a abril: una época seca larga favorece el secado, pero puede estresar la floración de 2027-28."
+ ],
+ "avisos": {
+  "source": "COPECO",
+  "asOf": "2026-10-22",
+  "headline": "Condiciones secas en la mayor parte del país",
+  "items": [
+   "Cuña de alta presión con viento del norte y más nubosidad.",
+   "Lluvias débiles a moderadas en el noroccidente, norte y centro; actividad eléctrica en las sierras de Nombre de Dios y Omoa.",
+   "Resto del país: lluvias débiles y aisladas."
+  ],
+  "links": [
+   {
+    "t": "COPECO",
+    "url": "https://copeco.gob.hn/"
+   },
+   {
+    "t": "La Tribuna",
+    "url": "https://www.latribuna.hn/2026/10/22/cuna-de-alta-presion-provocara-lluvias-este-jueves/"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "region": "copan",
+   "dept": "Copán",
+   "place": "Santa Rosa de Copán",
+   "lat": 14.77,
+   "lon": -88.78,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "opalaca",
+   "dept": "Opalaca",
+   "place": "La Esperanza, Intibucá",
+   "lat": 14.31,
+   "lon": -88.18,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "montecillos",
+   "dept": "Montecillos",
+   "place": "Marcala, La Paz",
+   "lat": 14.15,
+   "lon": -88.03,
+   "p7": 3.0,
+   "tmax": 25,
+   "tmin": 15
+  },
+  {
+   "region": "comayagua",
+   "dept": "Comayagua",
+   "place": "Siguatepeque",
+   "lat": 14.6,
+   "lon": -87.83,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "el-paraiso",
+   "dept": "El Paraíso",
+   "place": "Danlí",
+   "lat": 14.03,
+   "lon": -86.58,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "agalta",
+   "dept": "Agalta",
+   "place": "Gualaco, Olancho",
+   "lat": 15.1,
+   "lon": -86.11,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

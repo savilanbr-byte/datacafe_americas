@@ -1,0 +1,113 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales, entre 17 % y 22 % menos que en 2025-26.",
+  "Con la época seca instalada desde fines de octubre, el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tiene buen clima para secar.",
+  "Poca lluvia en la maduración puede bajar densidad y tamaño de grano en el SHG de Apaneca-Ilamatepec y Alotepec-Metapán, que cosechan de diciembre a marzo.",
+  "El MARN preveía dos a cuatro nortes en noviembre: viento fuerte que puede tumbar fruta madura en zonas altas expuestas."
+ ],
+ "avisos": {
+  "source": "MARN",
+  "asOf": "2026-08-16",
+  "headline": "Época seca adelantada por El Niño",
+  "items": [
+   "Transición a la época seca desde la segunda quincena de octubre; instalada a fines de octubre o inicios de noviembre.",
+   "Noviembre con unos 48,7 mm a escala nacional, por encima del promedio (32,3 mm), por ingresos puntuales de humedad.",
+   "Entre dos y cinco nortes en octubre y noviembre, dentro de lo normal."
+  ],
+  "links": [
+   {
+    "t": "MARN",
+    "url": "https://www.snet.gob.sv/"
+   },
+   {
+    "t": "Diario El Mundo",
+    "url": "https://diario.elmundo.sv/nacionales/la-epoca-seca-se-instalara-por-completo-a-finales-de-octubre-dice-el-marn"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "region": "apaneca-ilamatepec",
+   "dept": "Apaneca-Ilamatepec",
+   "place": "Santa Ana",
+   "lat": 13.99,
+   "lon": -89.56,
+   "p7": 3.5,
+   "tmax": 30,
+   "tmin": 21
+  },
+  {
+   "region": "alotepec-metapan",
+   "dept": "Alotepec-Metapán",
+   "place": "Metapán",
+   "lat": 14.33,
+   "lon": -89.45,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "el-balsamo-quezaltepec",
+   "dept": "El Bálsamo-Quezaltepec",
+   "place": "Santa Tecla",
+   "lat": 13.67,
+   "lon": -89.29,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "chichontepec",
+   "dept": "Chichontepec",
+   "place": "San Vicente",
+   "lat": 13.64,
+   "lon": -88.78,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "tecapa-chinameca",
+   "dept": "Tecapa-Chinameca",
+   "place": "Santiago de María",
+   "lat": 13.49,
+   "lon": -88.47,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "cacahuatique",
+   "dept": "Cacahuatique",
+   "place": "Ciudad Barrios",
+   "lat": 13.77,
+   "lon": -88.27,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

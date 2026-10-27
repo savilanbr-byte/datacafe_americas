@@ -1,0 +1,137 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "impactos": [
+  "Anacafé advierte un recorte de 5–15 % en 2026-27 si sigue el déficit de lluvia; el MAGA vio suelos con menos de 25 % de humedad en Huehuetenango, Chimaltenango, Jalapa y Chiquimula.",
+  "Las regiones tardías (Huehuetenango y Antigua, de enero a abril) dependen de que la sequía no se alargue durante la maduración: vigila el tamaño de grano.",
+  "La época seca que llega en noviembre favorece el secado al sol en las regiones volcánicas; Cobán y San Marcos siguen siendo las más húmedas y las de más riesgo en el secado.",
+  "El Niño fuerte suele adelantar la época seca y alargar la canícula: puede estresar las floraciones de la cosecha 2027-28."
+ ],
+ "avisos": {
+  "source": "INSIVUMEH · MAGA",
+  "asOf": "2026-09-21",
+  "headline": "Lluvias de septiembre alivian en parte la sequía",
+  "items": [
+   "INSIVUMEH: lluvias intensas a fines de septiembre e inicios de octubre podrían aliviar la situación hídrica.",
+   "MAGA: 116 municipios expuestos a más de 35 °C y humedad del suelo bajo 25 % en partes de Huehuetenango, Chimaltenango, Jalapa y Chiquimula.",
+   "Las zonas más lluviosas del año: Franja Transversal del Norte, Caribe y Petén."
+  ],
+  "links": [
+   {
+    "t": "INSIVUMEH",
+    "url": "https://insivumeh.gob.gt/"
+   },
+   {
+    "t": "Emisoras Unidas",
+    "url": "https://emisorasunidas.com/nacional/2026/09/21/insivumeh-lluvias-guatemala-sequia/"
+   },
+   {
+    "t": "IberoNews",
+    "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+   }
+  ]
+ },
+ "regions": [
+  {
+   "region": "huehuetenango",
+   "dept": "Huehuetenango",
+   "place": "La Libertad, Huehuetenango",
+   "lat": 15.51,
+   "lon": -91.87,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "san-marcos",
+   "dept": "San Marcos",
+   "place": "San Rafael Pie de la Cuesta",
+   "lat": 14.93,
+   "lon": -91.92,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "atitlan",
+   "dept": "Atitlán",
+   "place": "San Lucas Tolimán",
+   "lat": 14.63,
+   "lon": -91.14,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "antigua",
+   "dept": "Antigua",
+   "place": "Antigua Guatemala",
+   "lat": 14.56,
+   "lon": -90.73,
+   "p7": 5.7,
+   "tmax": 25,
+   "tmin": 14
+  },
+  {
+   "region": "acatenango",
+   "dept": "Acatenango",
+   "place": "Acatenango, Chimaltenango",
+   "lat": 14.55,
+   "lon": -90.94,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "fraijanes",
+   "dept": "Fraijanes",
+   "place": "Fraijanes",
+   "lat": 14.46,
+   "lon": -90.44,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "coban",
+   "dept": "Cobán",
+   "place": "Cobán",
+   "lat": 15.47,
+   "lon": -90.37,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "nuevo-oriente",
+   "dept": "Nuevo Oriente",
+   "place": "Esquipulas",
+   "lat": 14.56,
+   "lon": -89.35,
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

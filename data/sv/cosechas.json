@@ -1,0 +1,110 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "temporada": "2026-27",
+ "fuente": "OIC · CSC",
+ "url": "https://www.ico.org/documents/cy2015-16/Presentations/7.2 EL SALVADOR.pdf",
+ "regiones": [
+  {
+   "id": "apaneca-ilamatepec",
+   "dep": "Apaneca-Ilamatepec",
+   "sub": "Ahuachapán, Santa Ana y Sonsonate",
+   "zona": "Occidente",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "La mitad del área cafetera del país (500–2.365 m)."
+  },
+  {
+   "id": "alotepec-metapan",
+   "dep": "Alotepec-Metapán",
+   "sub": "Chalatenango y norte de Santa Ana",
+   "zona": "Occidente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Toda en altura (1.000–2.000 m): cosecha tardía."
+  },
+  {
+   "id": "el-balsamo-quezaltepec",
+   "dep": "El Bálsamo-Quezaltepec",
+   "sub": "La Libertad y San Salvador",
+   "zona": "Centro",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Segunda en área (28 %)."
+  },
+  {
+   "id": "chichontepec",
+   "dep": "Chichontepec",
+   "sub": "San Vicente y La Paz",
+   "zona": "Centro",
+   "pI": 10,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Zona baja (500–1.000 m): de las primeras en cosechar."
+  },
+  {
+   "id": "tecapa-chinameca",
+   "dep": "Tecapa-Chinameca",
+   "sub": "Usulután y San Miguel",
+   "zona": "Oriente",
+   "pI": 10,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  },
+  {
+   "id": "cacahuatique",
+   "dep": "Cacahuatique",
+   "sub": "Morazán y San Miguel (Ciudad Barrios)",
+   "zona": "Oriente",
+   "pI": 10,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": ""
+  }
+ ],
+ "estado": {},
+ "reportes": [
+  {
+   "id": "s1",
+   "fecha": "2026-10-09",
+   "region": "cacahuatique",
+   "tipo": "noticia",
+   "texto": "El ISC arrancó en Cacahuatique una gira de capacitación por las seis cordilleras al inicio de la cosecha 2026-27 (siembra, cambio climático, fertilización).",
+   "fuente": "Diario El Mundo",
+   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027"
+  },
+  {
+   "id": "s2",
+   "fecha": "2026-09-29",
+   "region": "El Salvador",
+   "tipo": "noticia",
+   "texto": "La Asociación Cafetalera espera 750–800 mil quintales en 2026-27 tras 89 días secos en cuatro periodos por El Niño; las lluvias recientes mitigaron parte del daño.",
+   "fuente": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/"
+  },
+  {
+   "id": "s3",
+   "fecha": "2026-10-02",
+   "region": "El Salvador",
+   "tipo": "noticia",
+   "texto": "La cosecha 2025-26 cerró en 963.650 quintales oro uva (+12,2 %), la mayor desde 2012-13.",
+   "fuente": "Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/02/la-produccion-de-cafe-de-el-salvador-creceria-122-hasta-963650-quintales-en-2025-2026/"
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "items": {
+  "expo": {
+   "label": "Precio promedio de exportación 2025-26",
+   "value": 311.78,
+   "dec": 2,
+   "unit": "USD/quintal oro",
+   "changePct": 7.9,
+   "asOf": "2026-10-20",
+   "source": "ISC · Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+   "note": "Calculado con datos del ISC de octubre a agosto: US$184,29 M de café oro ÷ 591.086 quintales. 2024-25: US$288,91."
+  },
+  "expoVol": {
+   "label": "Exportación 2025-26 (a agosto)",
+   "value": 591.086,
+   "dec": 1,
+   "unit": "mil quintales oro",
+   "changePct": 1.03,
+   "asOf": "2026-10-20",
+   "source": "ISC · Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+   "note": "Norteamérica compró el 64,6 %; Europa, el 17,1 %."
+  },
+  "expoValor": {
+   "label": "Divisas 2025-26 (a agosto)",
+   "value": 190.15,
+   "dec": 1,
+   "unit": "M USD",
+   "changePct": 13.76,
+   "asOf": "2026-10-20",
+   "source": "ISC · Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+   "note": "Incluye soluble (US$3,65 M) y tostado (US$2,2 M). 2024-25 completo: US$175,04 M."
+  },
+  "prod": {
+   "label": "Cosecha 2025-26",
+   "value": 963.65,
+   "dec": 1,
+   "unit": "mil quintales oro uva",
+   "changePct": 12.2,
+   "asOf": "2026-10-02",
+   "source": "ISC · Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/02/la-produccion-de-cafe-de-el-salvador-creceria-122-hasta-963650-quintales-en-2025-2026/",
+   "note": "La mayor desde 2012-13. Antes de la roya (2012-13) fueron 1,73 M."
+  },
+  "est": {
+   "label": "Estimación cosecha 2026-27",
+   "value": null,
+   "text": "750–800 mil quintales",
+   "asOf": "2026-09-29",
+   "source": "Acafesal · Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/",
+   "note": "Entre 17 % y 22 % menos, por 89 días secos asociados a El Niño (Sergio Ticas, Asociación Cafetalera)."
+  }
+ },
+ "ref": {
+  "asOf": "2026-10-20",
+  "cosecha": "2025-26",
+  "periodo": "oct-2025 a ago-2026",
+  "expo": 311.78,
+  "qqKg": 45.36,
+  "fuente": "ISC (Infobae)",
+  "nyMeses": [
+   [
+    "2025-10",
+    366.0
+   ],
+   [
+    "2025-11",
+    373.57
+   ],
+   [
+    "2025-12",
+    347.71
+   ],
+   [
+    "2026-01",
+    334.99
+   ],
+   [
+    "2026-02",
+    288.76
+   ],
+   [
+    "2026-03",
+    290.41,
+    "estimado con 4 cierres"
+   ],
+   [
+    "2026-04",
+    284.63
+   ],
+   [
+    "2026-05",
+    268.18
+   ],
+   [
+    "2026-06",
+    256.75
+   ],
+   [
+    "2026-07",
+    310.34
+   ],
+   [
+    "2026-08",
+    313.2
+   ]
+  ],
+  "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
+  "expoUrl": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+  "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
+  "nota": "Precio calculado con el valor y el volumen de café oro que reporta el ISC (falta septiembre). Promedio simple de los 11 meses: tómalo como el nivel del periodo."
+ },
+ "alturas": {
+  "title": "Clasificación por altura",
+  "source": "OIC · CSC",
+  "url": "https://www.ico.org/documents/cy2015-16/Presentations/7.2 EL SALVADOR.pdf",
+  "grados": [
+   {
+    "g": "SHG",
+    "n": "Strictly High Grown",
+    "min": 1200,
+    "max": null,
+    "rango": "más de 1.200 m"
+   },
+   {
+    "g": "HG",
+    "n": "High Grown",
+    "min": 800,
+    "max": 1200,
+    "rango": "800–1.200 m"
+   },
+   {
+    "g": "CS",
+    "n": "Central Standard",
+    "min": 600,
+    "max": 800,
+    "rango": "600–800 m"
+   }
+  ],
+  "regiones": [
+   {
+    "region": "apaneca-ilamatepec",
+    "min": 500,
+    "max": 2365
+   },
+   {
+    "region": "el-balsamo-quezaltepec",
+    "min": 500,
+    "max": 1960
+   },
+   {
+    "region": "tecapa-chinameca",
+    "min": 500,
+    "max": 2139
+   },
+   {
+    "region": "chichontepec",
+    "min": 500,
+    "max": 1000
+   },
+   {
+    "region": "cacahuatique",
+    "min": 500,
+    "max": 1663
+   },
+   {
+    "region": "alotepec-metapan",
+    "min": 1000,
+    "max": 2000
+   }
+  ],
+  "nota": "Rangos de altura de cada cordillera (Consejo Salvadoreño del Café ante la OIC). Apaneca-Ilamatepec tiene la mitad del área cafetera; El Bálsamo-Quezaltepec, el 28 %."
+ }
+}

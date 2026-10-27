@@ -1,0 +1,119 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "temporada": "2026-27",
+ "fuente": "Mercanta",
+ "url": "https://coffeehunter.com/our-origins/honduras/",
+ "regiones": [
+  {
+   "id": "copan",
+   "dep": "Copán",
+   "sub": "Copán, Ocotepeque y parte de Santa Bárbara",
+   "zona": "Occidente",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Entre 1.000 y 1.500 m. El ciclo cafetero arranca el 1 de octubre."
+  },
+  {
+   "id": "opalaca",
+   "dep": "Opalaca",
+   "sub": "Santa Bárbara, Intibucá y Lempira",
+   "zona": "Occidente",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Entre 1.100 y 1.500 m."
+  },
+  {
+   "id": "montecillos",
+   "dep": "Montecillos",
+   "sub": "La Paz y sur de Intibucá (Marcala)",
+   "zona": "Centro",
+   "pI": 12,
+   "pF": 4,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Región alta (1.200–1.600 m): la cosecha se alarga hasta abril."
+  },
+  {
+   "id": "comayagua",
+   "dep": "Comayagua",
+   "sub": "Comayagua y Francisco Morazán",
+   "zona": "Centro",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Entre 1.000 y 1.500 m."
+  },
+  {
+   "id": "el-paraiso",
+   "dep": "El Paraíso",
+   "sub": "El Paraíso y parte de Francisco Morazán",
+   "zona": "Oriente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "La de mayor producción. Las fincas bajas empiezan desde octubre-noviembre."
+  },
+  {
+   "id": "agalta",
+   "dep": "Agalta",
+   "sub": "Olancho, Yoro y Colón",
+   "zona": "Oriente",
+   "pI": 12,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Entre 1.300 y 1.950 m."
+  }
+ ],
+ "estado": {},
+ "reportes": [
+  {
+   "id": "h1",
+   "fecha": "2026-10-13",
+   "region": "Honduras",
+   "tipo": "noticia",
+   "texto": "El IHCAFE proyecta exportar unos 7 M de quintales en 2026-27, frente a 7,3 M en 2025-26; el precio promedio del ciclo pasado fue US$312,58.",
+   "fuente": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
+  },
+  {
+   "id": "h2",
+   "fecha": "2026-09-30",
+   "region": "Honduras",
+   "tipo": "noticia",
+   "texto": "IHCAFE: falta mano de obra para la recolección; sin la sequía, la cosecha 2026-27 pasaría de 8 M de quintales.",
+   "fuente": "Hondudiario",
+   "url": "https://www.hondudiario.com/2026/09/30/honduras-espera-superar-los-7-3-millones-en-cosecha-de-cafe-2025-2026/"
+  },
+  {
+   "id": "h3",
+   "fecha": "2026-09-10",
+   "region": "Honduras",
+   "tipo": "noticia",
+   "texto": "Adecafeh: la sequía golpeó sobre todo los cafetales de zonas bajas; los de partes altas, con sombra, están mejor protegidos.",
+   "fuente": "ICN Digital",
+   "url": "https://icndigital.com/exportadores-de-cafe-preven-superar-7-5-millones-de-sacos-en-2026-27/"
+  },
+  {
+   "id": "h4",
+   "fecha": "2026-05-19",
+   "region": "Honduras",
+   "tipo": "noticia",
+   "texto": "USDA: la incidencia promedio de roya subió de 7,57 % a 8,44 % hasta marzo de 2026.",
+   "fuente": "Centroamérica360",
+   "url": "https://www.centroamerica360.com/economia/la-produccion-de-cafe-en-honduras-creceria-9-en-2026-proyecta-eeuu/"
+  }
+ ]
+}

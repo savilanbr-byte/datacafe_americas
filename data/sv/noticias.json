@@ -1,0 +1,108 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "items": [
+  {
+   "id": "s1",
+   "scope": "sv",
+   "tag": "Exportaciones",
+   "date": "2026-10-20",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+   "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
+   "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %."
+  },
+  {
+   "id": "s2",
+   "scope": "sv",
+   "regiones": [
+    "cacahuatique"
+   ],
+   "tag": "Capacitación",
+   "date": "2026-10-09",
+   "source": "Diario El Mundo",
+   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
+   "title": "El ISC inicia en Cacahuatique una gira de capacitación por las seis cordilleras",
+   "summary": "Arranca con la cosecha 2026-27 (desde el 1 de octubre): siembra, cambio climático, fertilización, certificación y registro para subvenciones."
+  },
+  {
+   "id": "s3",
+   "scope": "sv",
+   "tag": "Producción",
+   "date": "2026-10-02",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/02/la-produccion-de-cafe-de-el-salvador-creceria-122-hasta-963650-quintales-en-2025-2026/",
+   "title": "La cosecha 2025-26 creció 12,2 % hasta 963.650 quintales",
+   "summary": "Es la mayor desde 2012-13, antes de la crisis de la roya; el ciclo anterior cerró en 858.542 quintales."
+  },
+  {
+   "id": "s4",
+   "scope": "sv",
+   "tag": "Cosecha",
+   "date": "2026-09-29",
+   "source": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/",
+   "title": "La próxima cosecha caería a 750–800 mil quintales por El Niño",
+   "summary": "La Asociación Cafetalera cuenta 89 días secos en cuatro periodos de 2026; las lluvias recientes mitigaron parte del daño."
+  },
+  {
+   "id": "s5",
+   "scope": "sv",
+   "tag": "Exportaciones",
+   "date": "2026-10-27",
+   "source": "Diario El Salvador",
+   "url": "https://diarioelsalvador.com/dedinero/exportaciones-de-cafe-superan-los-190-mills/869172",
+   "title": "De 963.650 quintales cosechados se exportaron 591.086",
+   "summary": "El ISC reporta ingresos por US$190,1 M a agosto, 14 % más que el periodo anterior, con un volumen apenas 1 % mayor."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "items": {
+  "tc": {
+   "label": "Tipo de cambio de referencia BCH",
+   "value": 26.8936,
+   "dec": 4,
+   "unit": "HNL/USD",
+   "change": 0.0016,
+   "chgDec": 4,
+   "asOf": "2026-10-20",
+   "source": "BCH · La Tribuna",
+   "url": "https://www.latribuna.hn/2026/10/23/depreciacion-interanual-del-lempira-es-de-2-65/",
+   "liveUrl": "https://www.bch.hn/",
+   "liveT": "BCH",
+   "note": "En 2026 el lempira se ha depreciado 1,97 % (cerró 2025 en L26,3737). Venta del 6-oct: L27,0265."
+  },
+  "expo": {
+   "label": "Precio promedio de exportación 2025-26",
+   "value": 312.58,
+   "dec": 2,
+   "unit": "USD/quintal",
+   "asOf": "2026-10-13",
+   "source": "IHCAFE · La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
+   "note": "Quintal de 100 libras (45,4 kg) de café oro. Con ese precio, la cosecha 2026-27 dejaría unos US$2.188 millones."
+  },
+  "expoVol": {
+   "label": "Exportación cosecha 2025-26",
+   "value": 7.3,
+   "dec": 1,
+   "unit": "M quintales",
+   "changePct": 19.67,
+   "asOf": "2026-09-30",
+   "source": "IHCAFE · El Heraldo",
+   "url": "https://www.elheraldo.hn/economia/ventas-cafe-honduras-sumaron-2-285-millones-dolares-ano-cosecha-2025-2026-FD32206425",
+   "note": "De 7,5 M producidos. 2024-25: 6,1 M exportados."
+  },
+  "expoValor": {
+   "label": "Divisas cosecha 2025-26",
+   "value": 2285,
+   "dec": 0,
+   "unit": "M USD",
+   "asOf": "2026-09-30",
+   "source": "IHCAFE · El Heraldo",
+   "url": "https://www.elheraldo.hn/economia/ventas-cafe-honduras-sumaron-2-285-millones-dolares-ano-cosecha-2025-2026-FD32206425",
+   "note": "Récord. 96.903 productores registrados; 53 destinos, EE. UU. el primero (32,9 %)."
+  },
+  "est": {
+   "label": "Proyección de exportación 2026-27",
+   "value": 7.0,
+   "dec": 1,
+   "unit": "M quintales",
+   "changePct": -4.11,
+   "asOf": "2026-10-13",
+   "source": "IHCAFE · La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
+   "note": "Sin la sequía serían más de 8 M, según el IHCAFE. Los exportadores (Adecafeh) esperan más de 7,5 M de sacos."
+  },
+  "prod": {
+   "label": "Producción 2026-27 (USDA)",
+   "value": 6.03,
+   "dec": 2,
+   "unit": "M sacos de 60 kg",
+   "changePct": 9,
+   "asOf": "2026-05-19",
+   "source": "USDA · Centroamérica360",
+   "url": "https://www.centroamerica360.com/economia/la-produccion-de-cafe-en-honduras-creceria-9-en-2026-proyecta-eeuu/",
+   "note": "2025-26: 5,53 M. La roya subió de 7,57 % a 8,44 % de incidencia promedio a marzo."
+  }
+ },
+ "ref": {
+  "asOf": "2026-10-13",
+  "cosecha": "2025-26",
+  "periodo": "oct-2025 a sep-2026",
+  "expo": 312.58,
+  "qqKg": 45.36,
+  "fuente": "IHCAFE (La Prensa)",
+  "nyMeses": [
+   [
+    "2025-10",
+    366.0
+   ],
+   [
+    "2025-11",
+    373.57
+   ],
+   [
+    "2025-12",
+    347.71
+   ],
+   [
+    "2026-01",
+    334.99
+   ],
+   [
+    "2026-02",
+    288.76
+   ],
+   [
+    "2026-03",
+    290.41,
+    "estimado con 4 cierres"
+   ],
+   [
+    "2026-04",
+    284.63
+   ],
+   [
+    "2026-05",
+    268.18
+   ],
+   [
+    "2026-06",
+    256.75
+   ],
+   [
+    "2026-07",
+    310.34
+   ],
+   [
+    "2026-08",
+    313.2
+   ],
+   [
+    "2026-09",
+    280.8,
+    "cierres diarios del contrato frente"
+   ]
+  ],
+  "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
+  "expoUrl": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
+  "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
+  "nota": "Promedio simple de los 12 meses del año cafetero. Honduras embarca más entre febrero y junio, cuando la bolsa estuvo más baja: el diferencial real del periodo pudo ser algo mayor."
+ },
+ "alturas": {
+  "title": "Clasificación por altura",
+  "source": "Algrano · Mercanta",
+  "url": "https://www.algrano.com/es/origins/honduras",
+  "url2": "https://coffeehunter.com/our-origins/honduras/",
+  "grados": [
+   {
+    "g": "SHG",
+    "n": "Strictly High Grown",
+    "min": 1200,
+    "max": null,
+    "rango": "más de 1.200 m"
+   },
+   {
+    "g": "HG",
+    "n": "High Grown",
+    "min": 700,
+    "max": 1200,
+    "rango": "700–1.200 m"
+   },
+   {
+    "g": "CS",
+    "n": "Central Standard",
+    "min": null,
+    "max": 700,
+    "rango": "menos de 700 m"
+   }
+  ],
+  "regiones": [
+   {
+    "region": "copan",
+    "min": 1000,
+    "max": 1500
+   },
+   {
+    "region": "opalaca",
+    "min": 1100,
+    "max": 1500
+   },
+   {
+    "region": "montecillos",
+    "min": 1200,
+    "max": 1600
+   },
+   {
+    "region": "comayagua",
+    "min": 1000,
+    "max": 1500
+   },
+   {
+    "region": "agalta",
+    "min": 1300,
+    "max": 1950
+   },
+   {
+    "region": "el-paraiso",
+    "min": 950,
+    "max": 1950
+   }
+  ],
+  "nota": "Rangos de Mercanta para las fincas de cada región. Algrano define SHG y HG; CS es el café por debajo de HG."
+ }
+}

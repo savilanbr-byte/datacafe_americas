@@ -11,8 +11,13 @@ La app tiene una vista general, **Américas**, y vistas por país. El nombre de 
 - **Américas**: los 13 países a nivel de país (lo de `data/*.json`).
 - **Colombia** (fase 1, 26 oct. 2026): lo mismo que DataCafé|Colombia, por departamento: calculadora en pesos por carga con TRM oficial, precio FNC, diferencial implícito, históricos de 6 meses, "En vivo" (TradingView), 18 regiones con mitaca, clima por departamento con IDEAM y noticias filtradas por departamento.
 - **CostaRica** (27 oct. 2026): las 7 regiones oficiales del ICAFE (reforma de 2025: Valle Central, Valle Occidental, Los Santos, Turrialba, Pérez Zeledón, Coto Brus y Zona Norte); calculadora de la cereza al oro (cajuelas → fanegas → kg de cereza → kg de oro → quintales → sacos, con precios en colones y FOB); tipo de cambio de compra del BCCR; liquidación del ICAFE y "diferencial implícito ICAFE"; clasificación por altura (SHB, GHB, MHB); clima con avisos del IMN y noticias por región. Bolsa, robusta y fondos se toman de la vista Américas.
-- Enlace directo a una vista: `?pais=colombia` o `?pais=costarica`. La app recuerda la última vista usada.
-- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia, `mca_cr_calc_*` en Costa Rica). La catación es una sola para todas las vistas.
+- **Honduras, Guatemala y ElSalvador** (27 oct. 2026): misma estructura que Costa Rica, con las unidades de compra de cada país.
+  - Honduras: 6 regiones del IHCAFE; calculadora de quintales de uva → pergamino mojado → pergamino seco (precio clave) → oro, en lempiras con el tipo de cambio de referencia del BCH; grados SHG, HG y CS.
+  - Guatemala: 8 regiones de Anacafé; quintales de cereza → pergamino (precio clave) → oro, en quetzales con el tipo de cambio del Banguat; grados SHB, HB, SH, EP y P.
+  - El Salvador: 6 cordilleras; quintales de uva (precio clave) → pergamino → oro, en dólares; grados SHG, HG y CS.
+  - Diferencial implícito: precio promedio de exportación registrado (IHCAFE, Anacafé, ISC) menos el promedio de la bolsa de NY (OIC, 2.ª y 3.ª posición) en los mismos meses.
+- Enlace directo a una vista: `?pais=colombia`, `?pais=costarica`, `?pais=honduras`, `?pais=guatemala` o `?pais=elsalvador`. La app recuerda la última vista usada.
+- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia, `mca_cr_calc_*`, `mca_hn_calc_*`, `mca_gt_calc_*` y `mca_sv_calc_*` en los demás). La catación es una sola para todas las vistas.
 
 ### Datos de la vista Colombia
 
@@ -29,12 +34,12 @@ Las dos apps comparten el almacenamiento del navegador (mismo dominio). En cada 
 - `manifest.webmanifest` e `icons/`: instalación en el teléfono.
 - `data/mercado.json`, `data/noticias.json`, `data/clima.json`, `data/cosechas.json`: los datos de la vista Américas. Los actualiza una tarea programada; la app guarda la última copia para cuando no hay señal.
 - `data/co/`: copia de respaldo de los datos de Colombia (ver arriba).
-- `data/cr/`: datos de la vista Costa Rica (`mercado`, `noticias`, `clima`, `cosechas`, `historico`). Los actualiza su propia tarea programada; solo debe tocar `data/cr/`.
+- `data/cr/`, `data/hn/`, `data/gt/`, `data/sv/`: datos de Costa Rica, Honduras, Guatemala y El Salvador (`mercado`, `noticias`, `clima`, `cosechas`, `historico`). Cada tarea programada debe tocar solo la carpeta de su país. En `mercado.json`, el bloque `ref` lleva el precio de exportación, el peso del quintal y los meses de NY con que se calcula el diferencial implícito; en `clima.json`, cada punto lleva sus coordenadas.
 
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio. Las únicas lecturas sin prefijo son las de DataCafé|Colombia (`mc_sessions`, `mc_calc_*`, `mc_ajustes`, `mc_desc_propios`), y solo se leen.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v9`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v10`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
 
 ## Diseño adaptable
@@ -59,3 +64,9 @@ En la vista Costa Rica la calculadora encadena la cereza y el oro. Con C cajuela
 - Fanegas = C / c; kg de cereza = fanegas × K; kg de oro = fanegas × O; quintales = kg de oro / 46
 - Precio por cajuela = P / c; por kg de cereza = P / K; por kg de oro = P / O; por quintal oro = P / O × 46
 - Costo del café oro (USD/lb) = (P / O) / 2,2046 / tipo de cambio; FOB = costo + beneficio, exportación y margen
+
+En Honduras, Guatemala y El Salvador la calculadora es una cadena de etapas medidas en quintales (Q, peso del quintal en kg). Con r₁, r₂… el rendimiento de cada paso (%), f = producto de los rendimientos hasta cada etapa y P el precio por quintal en la etapa de compra k:
+
+- Quintales en la etapa i = quintales de uva o cereza × fᵢ; kg de oro = quintales de oro × Q
+- Precio por quintal en la etapa i = P × fₖ / fᵢ; precio por kg de oro = precio por quintal de oro / Q
+- Factor uva/oro = 1 / f(oro); costo USD/lb = precio por kg de oro / 2,2046 / tipo de cambio; FOB = costo + beneficio, exportación y margen

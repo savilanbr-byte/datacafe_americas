@@ -1,0 +1,125 @@
+{
+ "updatedAt": "2026-10-27T17:00:00Z",
+ "items": [
+  {
+   "id": "h1",
+   "scope": "hn",
+   "tag": "Exportaciones",
+   "date": "2026-10-13",
+   "source": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
+   "title": "Ihcafé prevé exportar unos 7 millones de quintales en 2026-27",
+   "summary": "Menos que los 7,3 M del ciclo anterior. Con el precio promedio de US$312,58 se generarían unos US$2.188 millones, pero la bolsa ha perdido impulso; Honduras exportó a 53 mercados."
+  },
+  {
+   "id": "h2",
+   "scope": "hn",
+   "tag": "Cosecha",
+   "date": "2026-09-30",
+   "source": "Hondudiario",
+   "url": "https://www.hondudiario.com/2026/09/30/honduras-espera-superar-los-7-3-millones-en-cosecha-de-cafe-2025-2026/",
+   "title": "Honduras cierra la cosecha 2025-26 con más de 7,3 millones de quintales pese a la sequía",
+   "summary": "El IHCAFE advierte falta de mano de obra para recolectar a tiempo; sin la sequía, el ciclo 2026-27 superaría los 8 M de quintales."
+  },
+  {
+   "id": "h3",
+   "scope": "hn",
+   "tag": "Exportaciones",
+   "date": "2026-09-30",
+   "source": "El Heraldo",
+   "url": "https://www.elheraldo.hn/economia/ventas-cafe-honduras-sumaron-2-285-millones-dolares-ano-cosecha-2025-2026-FD32206425",
+   "title": "Ventas de café sumaron US$2.285 millones en la cosecha 2025-26",
+   "summary": "7,3 M de quintales exportados a un promedio de US$312 por quintal; EE. UU., Alemania y Bélgica son los principales compradores."
+  },
+  {
+   "id": "h4",
+   "scope": "hn",
+   "tag": "Cosecha",
+   "date": "2026-09-10",
+   "source": "ICN Digital",
+   "url": "https://icndigital.com/exportadores-de-cafe-preven-superar-7-5-millones-de-sacos-en-2026-27/",
+   "title": "Exportadores prevén superar 7,5 millones de sacos en 2026-27",
+   "summary": "Adecafeh dice que la sequía afectó más a las zonas bajas; los cafetales altos con sombra y reforestación resistieron mejor."
+  },
+  {
+   "id": "h5",
+   "scope": "hn",
+   "tag": "Clima",
+   "date": "2026-10-22",
+   "source": "La Tribuna",
+   "url": "https://www.latribuna.hn/2026/10/22/cuna-de-alta-presion-provocara-lluvias-este-jueves/",
+   "title": "COPECO: continúan las condiciones secas en la mayor parte del país",
+   "summary": "Una cuña de alta presión deja lluvias débiles en el norte, noroccidente y centro; el resto del país sigue seco."
+  },
+  {
+   "id": "h6",
+   "scope": "hn",
+   "tag": "Divisas",
+   "date": "2026-10-23",
+   "source": "La Tribuna",
+   "url": "https://www.latribuna.hn/2026/10/23/depreciacion-interanual-del-lempira-es-de-2-65/",
+   "title": "El lempira se deprecia 2,65 % en un año",
+   "summary": "El tipo de cambio de referencia llegó a L26,8936 el 20 de octubre; en 2026 la depreciación acumulada es de 1,97 %."
+  },
+  {
+   "id": "h7",
+   "scope": "hn",
+   "tag": "Producción",
+   "date": "2026-05-19",
+   "source": "Centroamérica360",
+   "url": "https://www.centroamerica360.com/economia/la-produccion-de-cafe-en-honduras-creceria-9-en-2026-proyecta-eeuu/",
+   "title": "USDA proyecta que la producción de café de Honduras crezca 9 % en 2026-27",
+   "summary": "Serían 6,03 M de sacos de 60 kg y exportaciones de 5,5 M; la roya subió a 8,44 % de incidencia promedio."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}
