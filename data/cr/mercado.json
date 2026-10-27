@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-10-27T16:00:00Z",
+ "updatedAt": "2026-10-27T22:10:00Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio BCCR (compra)",
-   "value": 450.04,
+   "value": 451.24,
    "dec": 2,
    "unit": "CRC/USD",
-   "change": -2.4,
+   "change": 1.2,
    "chgDec": 2,
-   "asOf": "2026-10-26",
+   "asOf": "2026-10-27",
    "source": "BCCR · Banco General",
    "url": "https://www.bgeneral.fi.cr/historico/",
-   "note": "Referencia del Banco Central. Venta: ₡456,32."
+   "note": "Referencia del Banco Central. Venta: ₡455,53."
   },
   "tcCosecha": {
    "label": "Tipo de cambio promedio cosecha 2025-26",

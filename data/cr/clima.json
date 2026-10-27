@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T16:00:00Z",
+ "updatedAt": "2026-10-27T22:10:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -45,7 +45,7 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
+  "period": "",
   "url": "https://www.yr.no/"
  },
  "regions": [
@@ -55,7 +55,9 @@
    "place": "Barva, Heredia",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 10.02,
+   "lon": -84.12
   },
   {
    "region": "valle-occidental",
@@ -63,15 +65,19 @@
    "place": "Naranjo, Alajuela",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 10.1,
+   "lon": -84.38
   },
   {
    "region": "los-santos",
    "dept": "Los Santos",
    "place": "San Marcos de Tarrazú",
-   "p7": 36.9,
-   "tmax": 24,
-   "tmin": 16
+   "p7": null,
+   "tmax": null,
+   "tmin": null,
+   "lat": 9.66,
+   "lon": -84.02
   },
   {
    "region": "turrialba",
@@ -79,7 +85,9 @@
    "place": "Turrialba, Cartago",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 9.9,
+   "lon": -83.68
   },
   {
    "region": "perez-zeledon",
@@ -87,7 +95,9 @@
    "place": "San Isidro de El General",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 9.37,
+   "lon": -83.7
   },
   {
    "region": "coto-brus",
@@ -95,7 +105,9 @@
    "place": "San Vito, Coto Brus",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 8.82,
+   "lon": -82.97
   },
   {
    "region": "zona-norte",
@@ -103,7 +115,9 @@
    "place": "Tilarán, Guanacaste",
    "p7": null,
    "tmax": null,
-   "tmin": null
+   "tmin": null,
+   "lat": 10.47,
+   "lon": -84.97
   }
  ]
 }

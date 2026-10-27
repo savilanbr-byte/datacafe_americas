@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T16:00:00Z",
+ "updatedAt": "2026-10-27T22:10:00Z",
  "items": [
   {
    "id": "n1",
@@ -51,47 +51,6 @@
    "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
    "title": "Liquidación estimada de ₡117.000 por fanega pese al mejor precio de exportación desde 1973",
    "summary": "El ICAFE estima ese pago para la cosecha 2025-26, frente a ₡132.000 cinco cosechas atrás, aunque el café se exportó por encima de US$300 por quintal. Para comprar, significa productores con menos margen al arrancar 2026-27."
-  },
-  {
-   "id": "n5",
-   "scope": "cr",
-   "regiones": [
-    "turrialba",
-    "perez-zeledon",
-    "coto-brus",
-    "zona-norte"
-   ],
-   "tag": "Producción",
-   "date": "2026-10-12",
-   "source": "Planting Costa Rica",
-   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions",
-   "title": "Empieza la cosecha en las regiones tempranas",
-   "summary": "Turrialba, Orosi, la zona sur y Guanacaste ya recogen las primeras cerezas maduras; el Valle Central arranca hacia octubre y Los Santos y el Valle Occidental en noviembre."
-  },
-  {
-   "id": "n6",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-10-10",
-   "source": "La Nación",
-   "url": "https://www.nacion.com/economia/tipo-de-cambio-en-costa-rica-da-un-giro-dolar/J42FFGHC2VAP3J37JOEMCATULA/story/",
-   "title": "El dólar vuelve a caer y roza los ₡450",
-   "summary": "Monex cerró el 9 de octubre en ₡452,92, ₡5,70 menos que una semana antes, y el Banco Central compró US$71 millones para frenar la volatilidad."
-  },
-  {
-   "id": "n7",
-   "scope": "cr",
-   "regiones": [
-    "los-santos",
-    "valle-occidental"
-   ],
-   "tag": "Precios",
-   "date": "2026-10-07",
-   "source": "El Observador",
-   "url": "https://observador.cr/mas-catastrofico-que-el-covid-productor-de-cafe-describe-el-impacto-del-dolar-bajo/",
-   "title": "“Más catastrófico que el covid”: el dólar bajo golpea a los cafetaleros",
-   "summary": "El presidente del ICAFE, con fincas en Los Santos, calcula que el productor recibe unos ¢30.000 menos por fanega; UPA Nacional reporta pérdidas cercanas a ¢3.000 millones en Palmares y Atenas frente a 2022."
   },
   {
    "id": "n8",
