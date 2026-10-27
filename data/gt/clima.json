@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:58:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,23 +19,24 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": "28 de octubre al 3 de noviembre"
  },
  "impactos": [
-  "Anacafé advierte un recorte de 5–15 % en 2026-27 si sigue el déficit de lluvia; el MAGA vio suelos con menos de 25 % de humedad en Huehuetenango, Chimaltenango, Jalapa y Chiquimula.",
-  "Las regiones tardías (Huehuetenango y Antigua, de enero a abril) dependen de que la sequía no se alargue durante la maduración: vigila el tamaño de grano.",
-  "La época seca que llega en noviembre favorece el secado al sol en las regiones volcánicas; Cobán y San Marcos siguen siendo las más húmedas y las de más riesgo en el secado.",
-  "El Niño fuerte suele adelantar la época seca y alargar la canícula: puede estresar las floraciones de la cosecha 2027-28."
+  "Con El Niño establecido y menos lluvia en Occidente, Altiplano Central y oriente, Anacafé avisa de un posible recorte de 5–15 % en 2026-27 (estimación preliminar: 4,1 M de quintales oro): confirma volúmenes antes de comprometer ventas a futuro.",
+  "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen tardes secas y calor en valles de 33–35 °C: buen secado al sol, pero vigila la sobremadurez y la fruta caída.",
+  "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración: riesgo para el tamaño de grano y el rendimiento.",
+  "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
+  "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
  ],
  "avisos": {
-  "source": "INSIVUMEH · MAGA",
-  "asOf": "2026-09-21",
-  "headline": "Lluvias de septiembre alivian en parte la sequía",
+  "source": "INSIVUMEH",
+  "asOf": "2026-10-26",
+  "headline": "Octubre cierra con menos lluvia y El Niño ya establecido",
   "items": [
-   "INSIVUMEH: lluvias intensas a fines de septiembre e inicios de octubre podrían aliviar la situación hídrica.",
-   "MAGA: 116 municipios expuestos a más de 35 °C y humedad del suelo bajo 25 % en partes de Huehuetenango, Chimaltenango, Jalapa y Chiquimula.",
-   "Las zonas más lluviosas del año: Franja Transversal del Norte, Caribe y Petén."
+   "INSIVUMEH confirmó el 5-oct el establecimiento de El Niño; prevé menos lluvia en general, temperaturas sobre el promedio y mayor intensidad entre septiembre y noviembre, con efectos hasta mediados de 2027.",
+   "Pronóstico del 26 al 30-oct: las lluvias bajan de sur a centro del país, con aguaceros aislados; máximas de 33–35 °C en el Pacífico y los valles de oriente, y de 23–28 °C en el altiplano, con frío de noche.",
+   "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados."
   ],
   "links": [
    {
@@ -43,12 +44,16 @@
     "url": "https://insivumeh.gob.gt/"
    },
    {
-    "t": "Emisoras Unidas",
-    "url": "https://emisorasunidas.com/nacional/2026/09/21/insivumeh-lluvias-guatemala-sequia/"
+    "t": "Pronóstico 26–30 oct",
+    "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026"
    },
    {
-    "t": "IberoNews",
-    "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/"
+    "t": "El Niño establecido",
+    "url": "https://www.guatemala.com/noticias/comunidad/fenomeno-el-nino-guatemala-insivumeh-confirma-su-establecimiento.html"
+   },
+   {
+    "t": "Perspectiva de octubre (Infobae)",
+    "url": "https://www.infobae.com/guatemala/2026/10/02/octubre-tendra-menos-lluvias-y-anticipa-la-llegada-de-la-epoca-fria-en-guatemala/"
    }
   ]
  },
@@ -89,9 +94,9 @@
    "place": "Antigua Guatemala",
    "lat": 14.56,
    "lon": -90.73,
-   "p7": 5.7,
-   "tmax": 25,
-   "tmin": 14
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "acatenango",

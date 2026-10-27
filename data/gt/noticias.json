@@ -1,73 +1,27 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:58:00Z",
  "items": [
   {
-   "id": "g1",
+   "id": "g7",
    "scope": "gt",
-   "tag": "Cosecha",
-   "date": "2026-09-16",
-   "source": "Prensa Libre",
-   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
-   "title": "Exportaciones de café crecen, pero preocupa el déficit de lluvia para 2026-27",
-   "summary": "A julio se exportaron 3,85 M de quintales oro (+14,1 %), con el precio promedio 6 % más bajo. Anacafé estima 4,1 M para 2026-27, con riesgo de perder 5–15 % si sigue la sequía."
+   "regiones": [],
+   "tag": "Exportaciones",
+   "date": "2026-10-18",
+   "source": "PYME Noticias · Anacafé",
+   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+   "title": "Guatemala cierra 2025-26 con 4,28 M de quintales exportados y US$1.440 M",
+   "summary": "Según el informe de Anacafé del 13-oct, el volumen subió 15 % y las divisas 12 % frente a 2024-25. Casi la mitad de las ventas va a EE. UU. (46 %); la inflación de 4,69 % en septiembre encarece mano de obra e insumos."
   },
   {
-   "id": "g2",
+   "id": "g8",
    "scope": "gt",
-   "regiones": [
-    "huehuetenango",
-    "acatenango",
-    "nuevo-oriente"
-   ],
+   "regiones": [],
    "tag": "Clima",
-   "date": "2026-09-16",
-   "source": "IberoNews",
-   "url": "https://iberonewsla.com/guatemala-exportaciones-cafe-cosecha-2026-2027/",
-   "title": "Guatemala exportará más café mientras el clima pone en riesgo la próxima cosecha",
-   "summary": "El MAGA reporta suelos con menos de 25 % de humedad en Huehuetenango, Chimaltenango, Jalapa y Chiquimula, y 116 municipios con más de 35 °C."
-  },
-  {
-   "id": "g3",
-   "scope": "gt",
-   "tag": "Calidad",
-   "date": "2026-10-04",
-   "source": "Anacafé",
-   "url": "https://www.anacafe.org/campeones-competencia-nacional-2026/",
-   "title": "Anacafé corona a los campeones nacionales de baristas, brewers y catadores 2026",
-   "summary": "65 participantes del 30 de septiembre al 4 de octubre; los ganadores irán a los mundiales de 2027 en Tokio y Bogotá."
-  },
-  {
-   "id": "g4",
-   "scope": "gt",
-   "tag": "Política",
-   "date": "2026-08-08",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/guatemala/2026/08/08/el-maga-presento-en-guatemala-un-plan-para-fortalecer-la-caficultura-en-el-congreso-nacional-del-cafe/",
-   "title": "El MAGA presenta en el Congreso Nacional del Café un plan de suelos y agua",
-   "summary": "El programa Suelos y Agua para el Futuro trae manejo hídrico, conservación del terreno e información agroclimática para productores."
-  },
-  {
-   "id": "g5",
-   "scope": "gt",
-   "regiones": [
-    "san-marcos"
-   ],
-   "tag": "Producción",
-   "date": "2026-05-12",
-   "source": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/2026/05/12/guatemala-coffee-report-production-up-as-arabica-plantings-mature/",
-   "title": "USDA: la producción de Guatemala subiría 3,3 % en 2026-27",
-   "summary": "Serían 3,26 M de sacos de 60 kg y exportaciones de 3,2 M. El barrenador Xylosandrus compactus apareció en San Marcos, Quetzaltenango, Retalhuleu y Zacapa."
-  },
-  {
-   "id": "g6",
-   "scope": "gt",
-   "tag": "Precios",
-   "date": "2026-01-14",
-   "source": "República",
-   "url": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
-   "title": "El café de Guatemala cerró 2024-25 con un precio histórico de US$344 por quintal oro",
-   "summary": "Las exportaciones fueron 3,73 M de quintales y US$1.285 M; Anacafé veía un rango de US$339–438 para 2026."
+   "date": "2026-10-26",
+   "source": "Guatemala.com · INSIVUMEH",
+   "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026",
+   "title": "INSIVUMEH: menos lluvia y calor de 33–35 °C del 26 al 30 de octubre",
+   "summary": "Las lluvias bajan de sur a centro del país, con aguaceros aislados en el Pacífico y Alta Verapaz. Favorece el secado, pero el calor y el déficit de lluvia pesan sobre la cosecha 2026-27."
   },
   {
    "id": "n8",
@@ -77,24 +31,24 @@
    "source": "Trading Economics · Cecafé",
    "url": "https://tradingeconomics.com/commodity/coffee",
    "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los lavados centroamericanos."
   },
   {
-   "date": "2026-10-21",
-   "id": "n9",
+   "id": "n13",
    "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
    "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
+   "date": "2026-10-27",
+   "source": "ADM Investor Services",
+   "url": "https://www.admis.com/coffee-futures-extend-selloff/",
+   "title": "Inventarios certificados de arábica en ICE bajan a 225.610 sacos",
+   "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
   },
   {
    "date": "2026-10-18",
    "id": "n10",
    "scope": "mundo",
    "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "summary": "La Comisión Europea descarta un tercer aplazamiento para medianas y grandes empresas. Europa recibe 24 % del café guatemalteco: los exportadores necesitan la geolocalización de las fincas lista antes de fin de año.",
    "tag": "Regulación",
    "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
    "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
@@ -104,7 +58,7 @@
    "id": "n11",
    "scope": "mundo",
    "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "summary": "Tras la victoria de Lula el 25-oct, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil estimula las ventas de Brasil y presiona al arábica, lo que pesa sobre el precio del café guatemalteco.",
    "tag": "Divisas",
    "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
@@ -114,7 +68,7 @@
    "id": "n12",
    "scope": "mundo",
    "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20 %) y Vietnam 124.000 t (+53 %); la OIC proyecta un superávit mundial de 3 millones de sacos, el primero en cinco años: menos tensión de oferta para los compradores.",
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"

@@ -1,17 +1,18 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:58:00Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio de referencia Banguat",
-   "value": 7.6362,
+   "value": 7.6398,
    "dec": 4,
    "unit": "GTQ/USD",
-   "asOf": "2026-10-26",
+   "asOf": "2026-10-27",
    "source": "Banguat · Living in Guatemala",
-   "url": "https://livinginguatemala.com/es/herramientas/convertidor/",
+   "url": "https://livinginguatemala.com/es/tipo-de-cambio/",
    "liveUrl": "https://www.banguat.gob.gt/",
    "liveT": "Banguat",
-   "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar."
+   "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
+   "change": 0.0036
   },
   "expo": {
    "label": "Precio promedio de registro 2024-25",
@@ -25,25 +26,26 @@
    "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el de 2025-26: de enero a julio de 2026 el promedio bajó cerca de 6 %."
   },
   "expoVol": {
-   "label": "Exportación 2025-26 (preliminar)",
-   "value": 3.85,
+   "label": "Exportación 2025-26 (cierre del año cafetero)",
+   "value": 4.28,
    "dec": 2,
    "unit": "M quintales oro",
-   "asOf": "2026-09-16",
-   "source": "Anacafé · Prensa Libre",
-   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
-   "note": "A julio. Anacafé proyecta cerrar en 4,1 M, la cifra más alta en tres años. 2024-25: 3,73 M."
+   "asOf": "2026-10-13",
+   "source": "Anacafé · PYME Noticias",
+   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+   "note": "Octubre 2025 a septiembre 2026, frente a 2024-25. Superó la proyección de 4,1 M de agosto. Destinos: Norteamérica 56 %, Europa 24 %, Japón 9 %.",
+   "changePct": 15.0
   },
   "expoValor": {
-   "label": "Divisas enero–julio 2026",
-   "value": 1193.77,
+   "label": "Divisas 2025-26 (cierre del año cafetero)",
+   "value": 1440.6,
    "dec": 0,
    "unit": "M USD",
-   "changePct": 7.3,
-   "asOf": "2026-09-16",
-   "source": "Anacafé · Prensa Libre",
-   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
-   "note": "El volumen subió 14,1 % y el precio promedio bajó 6 %. 2024-25 completo: US$1.285 M."
+   "changePct": 12.0,
+   "asOf": "2026-10-13",
+   "source": "Anacafé · PYME Noticias",
+   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+   "note": "Octubre 2025 a septiembre 2026. El volumen subió 15 % y el valor 12 %: el precio medio fue menor que en 2024-25. Anacafé aún no publica el promedio de registro oficial de 2025-26."
   },
   "est": {
    "label": "Estimación cosecha 2026-27",
