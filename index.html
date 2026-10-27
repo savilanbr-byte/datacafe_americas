@@ -223,10 +223,19 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .score.hi{background:var(--leaf-soft);color:var(--leaf)}
 .score.top{background:var(--cherry);color:#fff}
 .cafe-b{padding:4px 14px 16px;display:flex;flex-direction:column;gap:14px;border-top:1px solid var(--line)}
-.attr{display:grid;grid-template-columns:96px minmax(0,1fr) 46px;gap:10px;align-items:center}
-.attr label{font-size:13.5px}
-.attr output{font-family:var(--f-num);text-align:right;font-size:15px}
-.attr input[type=range]{width:100%;accent-color:var(--cherry);min-width:0}
+.cafe-col{container-type:inline-size}
+.attr{display:grid;grid-template-columns:96px 38px minmax(0,1fr) 38px 46px;grid-template-areas:"l m r p o";gap:8px;align-items:center}
+.attr label{font-size:13.5px;grid-area:l}
+.attr output{font-family:var(--f-num);text-align:right;font-size:15px;grid-area:o}
+.attr input[type=range]{width:100%;accent-color:var(--cherry);min-width:0;grid-area:r}
+.attr .stp{grid-area:m;width:38px;height:38px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;font-family:var(--f-num);font-size:20px;font-weight:500;line-height:1;display:inline-flex;align-items:center;justify-content:center;padding:0;touch-action:manipulation;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
+.attr .stp[data-d="1"]{grid-area:p}
+.attr .stp:active:not(:disabled){background:var(--sunk);border-color:var(--cherry)}
+.attr .stp:disabled{opacity:.35}
+@container (max-width:420px){
+  .attr{grid-template-columns:44px minmax(0,1fr) 44px;grid-template-areas:"l l o" "m r p";row-gap:4px;column-gap:10px}
+  .attr .stp{width:44px;height:44px;font-size:22px}
+}
 .cups{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;align-items:center}
 .cups .c{display:flex;gap:4px}
 .cups .c button{flex:1;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:6px 0;font-family:var(--f-num);font-size:13px}
@@ -2413,7 +2422,11 @@ function renderEditor(){
          '<div class="field"><label>Variedad</label><input data-f="variedad" value="'+esc(c.variedad)+'"></div>'+
          '<div class="field"><label>Proceso</label><input data-f="proceso" list="procesos" value="'+esc(c.proceso)+'"></div></div>';
       h+='<div class="cafe-cols"><div class="cafe-col">';
-      h+='<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Atributos · 6 a 10</div>'+ATTRS.map(([k,l])=>'<div class="attr"><label for="a-'+c.id+'-'+k+'">'+esc(l)+'</label><input type="range" id="a-'+c.id+'-'+k+'" min="6" max="10" step="0.25" data-a="'+k+'" value="'+c.attrs[k]+'"><output class="num" id="o-'+c.id+'-'+k+'">'+fmt(+c.attrs[k],2)+'</output></div>').join("")+'</div>';
+      h+='<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Atributos · 6 a 10</div>'+ATTRS.map(([k,l])=>'<div class="attr"><label for="a-'+c.id+'-'+k+'">'+esc(l)+'</label>'+
+        '<button type="button" class="stp" data-stp="'+k+'" data-d="-1" aria-label="Bajar '+esc(l)+' 0,25"'+(+c.attrs[k]<=6?' disabled':'')+'>−</button>'+
+        '<input type="range" id="a-'+c.id+'-'+k+'" min="6" max="10" step="0.25" data-a="'+k+'" value="'+c.attrs[k]+'">'+
+        '<button type="button" class="stp" data-stp="'+k+'" data-d="1" aria-label="Subir '+esc(l)+' 0,25"'+(+c.attrs[k]>=10?' disabled':'')+'>+</button>'+
+        '<output class="num" id="o-'+c.id+'-'+k+'">'+fmt(+c.attrs[k],2)+'</output></div>').join("")+'</div>';
       h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Tazas que cumplen · de 5 (2 puntos c/u)</div>'+CUPS.map(([k,l])=>'<div class="cups"><span style="font-size:13.5px">'+esc(l)+'</span><div class="c" role="group" aria-label="'+esc(l)+'">'+[0,1,2,3,4,5].map(n=>'<button data-cup="'+k+'" data-n="'+n+'" aria-pressed="'+(+c[k]===n)+'">'+n+'</button>').join("")+'</div></div>').join("")+'</div>';
       h+='<div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Defectos</div><div class="cups"><span style="font-size:13.5px">Tazas</span><div class="c">'+[0,1,2,3,4,5].map(n=>'<button data-def="'+n+'" aria-pressed="'+(+c.defTazas===n)+'">'+n+'</button>').join("")+'</div></div>'+
          '<div class="cups"><span style="font-size:13.5px">Intensidad</span><div class="seg"><button data-dt="2" aria-pressed="'+(+c.defTipo===2)+'">Leve ×2</button><button data-dt="4" aria-pressed="'+(+c.defTipo===4)+'">Falla ×4</button></div></div></div>';
@@ -2444,7 +2457,20 @@ function renderEditor(){
     const upd=()=>{ const v=score(c); const sb=$('[data-sc="'+c.id+'"]',card); sb.textContent=fmt(v,2); sb.className="score "+scoreCls(v); const l=$('[data-lbl="'+c.id+'"]',card); if(l) l.textContent=scoreLabel(v); const rd=$(".radar",card); if(rd) rd.outerHTML=radarSVG(c); save(); };
     $$("[data-f]",card).forEach(inp=>inp.oninput=()=>{ const k=inp.dataset.f; c[k]=k==="mesa"?inp.value.replace(/\D/g,""):inp.value; if(k==="nombre") $(".nm",card).textContent=c.nombre||"Café sin nombre"; if(k==="mesa") $(".mesa",card).textContent="Mesa "+c.mesa;
       save(); });
-    $$("[data-a]",card).forEach(r=>r.oninput=()=>{ c.attrs[r.dataset.a]=+r.value; $("#o-"+c.id+"-"+r.dataset.a).textContent=fmt(+r.value,2); upd(); });
+    /* Atributo de 6 a 10 en pasos de 0,25: la barra y los botones − / + cambian el mismo valor */
+    const setAttr=(k,v)=>{ v=Math.min(10,Math.max(6,Math.round(v*4)/4)); if(v===+c.attrs[k]) return false; c.attrs[k]=v;
+      const r=$("#a-"+c.id+"-"+k); if(+r.value!==v) r.value=v; $("#o-"+c.id+"-"+k).textContent=fmt(v,2);
+      $$('[data-stp="'+k+'"]',card).forEach(b=>b.disabled=+b.dataset.d<0?v<=6:v>=10); upd(); return true; };
+    $$("[data-a]",card).forEach(r=>r.oninput=()=>setAttr(r.dataset.a,+r.value));
+    $$("[data-stp]",card).forEach(b=>{ const k=b.dataset.stp, d=+b.dataset.d; let t=null, iv=null;
+      const step=()=>{ if(!setAttr(k,+c.attrs[k]+d*0.25)) stop(); };
+      const stop=()=>{ clearTimeout(t); clearInterval(iv); t=iv=null; };
+      /* Tocar = un paso; mantener presionado = sigue subiendo o bajando */
+      b.onpointerdown=e=>{ if(b.disabled||(e.pointerType==="mouse"&&e.button!==0)) return; e.preventDefault(); stop(); step();
+        t=setTimeout(()=>{ iv=setInterval(step,110); },450); window.addEventListener("pointerup",stop,{once:true}); window.addEventListener("pointercancel",stop,{once:true}); };
+      b.onpointerleave=stop; b.oncontextmenu=e=>e.preventDefault();
+      b.onclick=e=>{ if(e.detail===0) step(); }; /* teclado (Enter o espacio) */
+    });
     $$("[data-cup]",card).forEach(b=>b.onclick=()=>{ c[b.dataset.cup]=+b.dataset.n; $$('[data-cup="'+b.dataset.cup+'"]',card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
     $$("[data-def]",card).forEach(b=>b.onclick=()=>{ c.defTazas=+b.dataset.def; $$("[data-def]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
     $$("[data-dt]",card).forEach(b=>b.onclick=()=>{ c.defTipo=+b.dataset.dt; $$("[data-dt]",card).forEach(x=>x.setAttribute("aria-pressed",x===b)); upd(); });
