@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:50:00Z",
  "items": [
   {
    "id": "s1",
@@ -9,7 +9,8 @@
    "source": "Infobae",
    "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
    "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
-   "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %."
+   "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %.",
+   "regiones": []
   },
   {
    "id": "s2",
@@ -17,42 +18,12 @@
    "regiones": [
     "cacahuatique"
    ],
-   "tag": "Capacitación",
+   "tag": "Agricultura",
    "date": "2026-10-09",
    "source": "Diario El Mundo",
    "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
    "title": "El ISC inicia en Cacahuatique una gira de capacitación por las seis cordilleras",
    "summary": "Arranca con la cosecha 2026-27 (desde el 1 de octubre): siembra, cambio climático, fertilización, certificación y registro para subvenciones."
-  },
-  {
-   "id": "s3",
-   "scope": "sv",
-   "tag": "Producción",
-   "date": "2026-10-02",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/el-salvador/2026/10/02/la-produccion-de-cafe-de-el-salvador-creceria-122-hasta-963650-quintales-en-2025-2026/",
-   "title": "La cosecha 2025-26 creció 12,2 % hasta 963.650 quintales",
-   "summary": "Es la mayor desde 2012-13, antes de la crisis de la roya; el ciclo anterior cerró en 858.542 quintales."
-  },
-  {
-   "id": "s4",
-   "scope": "sv",
-   "tag": "Cosecha",
-   "date": "2026-09-29",
-   "source": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/09/29/cosecha-de-cafe-en-el-salvador-se-acerca-a-maximos-de-una-decada/",
-   "title": "La próxima cosecha caería a 750–800 mil quintales por El Niño",
-   "summary": "La Asociación Cafetalera cuenta 89 días secos en cuatro periodos de 2026; las lluvias recientes mitigaron parte del daño."
-  },
-  {
-   "id": "s5",
-   "scope": "sv",
-   "tag": "Exportaciones",
-   "date": "2026-10-27",
-   "source": "Diario El Salvador",
-   "url": "https://diarioelsalvador.com/dedinero/exportaciones-de-cafe-superan-los-190-mills/869172",
-   "title": "De 963.650 quintales cosechados se exportaron 591.086",
-   "summary": "El ISC reporta ingresos por US$190,1 M a agosto, 14 % más que el periodo anterior, con un volumen apenas 1 % mayor."
   },
   {
    "id": "n8",
@@ -79,7 +50,7 @@
    "id": "n10",
    "scope": "mundo",
    "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores salvadoreños que venden a Europa (17,1 % de las exportaciones) deben tener lista la geolocalización de las fincas antes de fin de año.",
    "tag": "Regulación",
    "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
    "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
@@ -89,7 +60,7 @@
    "id": "n11",
    "scope": "mundo",
    "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la referencia del café salvadoreño.",
    "tag": "Divisas",
    "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
@@ -103,6 +74,44 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "s6",
+   "scope": "sv",
+   "regiones": [],
+   "tag": "Clima",
+   "date": "2026-10-23",
+   "source": "El Diario de Hoy",
+   "url": "https://www.elsalvador.com/noticias/nacional/epoca-seca-el-salvador/1300213/2026/",
+   "title": "El MARN prevé que la época seca empiece el 5 de noviembre",
+   "summary": "La transición arrancó el 15 de octubre y las lluvias bajarán de forma gradual, con precipitaciones aún posibles. Favorece el secado de la nueva cosecha, aunque con riesgo de lluvias aisladas."
+  },
+  {
+   "id": "s7",
+   "scope": "sv",
+   "regiones": [
+    "el-balsamo-quezaltepec",
+    "cacahuatique",
+    "apaneca-ilamatepec",
+    "chichontepec"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-20",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
+   "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
+   "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
+  },
+  {
+   "id": "s8",
+   "scope": "sv",
+   "regiones": [],
+   "tag": "Cafés especiales",
+   "date": "2026-10-14",
+   "source": "El Salvador in English",
+   "url": "https://elsalvadorinenglish.com/2026/10/14/el-salvador-expands-middle-east-trade-presence-with-specialty-coffee-and-agro-exports-at-gfw-2026/",
+   "title": "El Salvador lleva café de especialidad a Global Food Week en Abu Dabi",
+   "summary": "El pabellón salvadoreño presentó café de origen único en la feria del 6 al 8 de octubre; un distribuidor con sede en Emiratos ya comercializa café salvadoreño en la región. Sin cifras de volumen o precio."
   }
  ]
 }

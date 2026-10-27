@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T17:00:00Z",
+ "updatedAt": "2026-10-27T22:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,23 +19,23 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "impactos": [
-  "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales, entre 17 % y 22 % menos que en 2025-26.",
-  "Con la época seca instalada desde fines de octubre, el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tiene buen clima para secar.",
-  "Poca lluvia en la maduración puede bajar densidad y tamaño de grano en el SHG de Apaneca-Ilamatepec y Alotepec-Metapán, que cosechan de diciembre a marzo.",
-  "El MARN preveía dos a cuatro nortes en noviembre: viento fuerte que puede tumbar fruta madura en zonas altas expuestas."
+  "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26.",
+  "Con la época seca por instalarse (5 de noviembre según el MARN), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá buen clima para el secado en patio, pero con lluvias aisladas hasta mediados de noviembre.",
+  "Si noviembre–enero queda 40–50 % bajo lo normal en lluvia, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (cosecha de diciembre a marzo) puede dar grano más pequeño y menos denso.",
+  "Las lluvias de la vaguada del 20 de octubre trajeron riesgo de deslizamientos en Morazán (Cacahuatique) y crecidas en La Libertad: conviene confirmar el estado de caminos y beneficios antes de cerrar embarques."
  ],
  "avisos": {
   "source": "MARN",
-  "asOf": "2026-08-16",
-  "headline": "Época seca adelantada por El Niño",
+  "asOf": "2026-10-23",
+  "headline": "Transición a la época seca; el MARN prevé su inicio el 5 de noviembre",
   "items": [
-   "Transición a la época seca desde la segunda quincena de octubre; instalada a fines de octubre o inicios de noviembre.",
-   "Noviembre con unos 48,7 mm a escala nacional, por encima del promedio (32,3 mm), por ingresos puntuales de humedad.",
-   "Entre dos y cinco nortes en octubre y noviembre, dentro de lo normal."
+   "La transición comenzó el 15 de octubre y la época seca está prevista para el 5 de noviembre; las lluvias disminuirán gradualmente, aunque aún pueden registrarse precipitaciones.",
+   "La temporada de huracanes sigue hasta el 30 de noviembre y El Niño se mantiene desde el 23 de junio.",
+   "Perspectiva de la UES: entre noviembre y enero las lluvias podrían quedar 40–50 % bajo lo normal y las temperaturas 50–70 % sobre lo habitual."
   ],
   "links": [
    {
@@ -43,8 +43,12 @@
     "url": "https://www.snet.gob.sv/"
    },
    {
-    "t": "Diario El Mundo",
-    "url": "https://diario.elmundo.sv/nacionales/la-epoca-seca-se-instalara-por-completo-a-finales-de-octubre-dice-el-marn"
+    "t": "El Diario de Hoy",
+    "url": "https://www.elsalvador.com/noticias/nacional/epoca-seca-el-salvador/1300213/2026/"
+   },
+   {
+    "t": "Infobae",
+    "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/"
    }
   ]
  },
@@ -55,9 +59,9 @@
    "place": "Santa Ana",
    "lat": 13.99,
    "lon": -89.56,
-   "p7": 3.5,
-   "tmax": 30,
-   "tmin": 21
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "alotepec-metapan",
