@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:00:00Z",
+ "updatedAt": "2026-10-27T22:55:00Z",
  "items": [
   {
    "id": "ni1",
@@ -7,46 +7,12 @@
    "regiones": [
     "jinotega"
    ],
-   "tag": "Cosecha",
+   "tag": "Producción",
    "date": "2026-10-24",
    "source": "Prensa Latina",
    "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
    "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
-   "summary": "El BCN reporta US$691 M a septiembre y proyecta US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro)."
-  },
-  {
-   "id": "ni2",
-   "scope": "ni",
-   "tag": "Producción",
-   "date": "2026-06-15",
-   "source": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/2026/06/15/nicaragua-coffee-report-weather-and-costs-hurting-production/",
-   "title": "USDA: el clima y los costos golpean la producción de Nicaragua",
-   "summary": "2,44 M de sacos en 2026-27 (−4,7 %) y exportaciones de 2,25 M (−7 %); el arábica es 94 % y más del 85 % está en Jinotega, Matagalpa y Nueva Segovia."
-  },
-  {
-   "id": "ni3",
-   "scope": "ni",
-   "tag": "Exportaciones",
-   "date": "2026-04-02",
-   "source": "Confidencial",
-   "url": "https://confidencial.digital/economia/exportaciones-de-cafe-rozan-los-millones-de-dolares-en-2025/",
-   "title": "Exportaciones de café rozan los US$920 millones en 2025",
-   "summary": "US$918,4 M con 3,37 M de quintales a un promedio de US$272,5, el más alto de la década (BCN)."
-  },
-  {
-   "id": "ni4",
-   "scope": "ni",
-   "regiones": [
-    "matagalpa",
-    "jinotega"
-   ],
-   "tag": "Mano de obra",
-   "date": "2025-12-30",
-   "source": "Agrolatam",
-   "url": "https://www.agrolatam.com/agricultura-latam/nicaragua-cosecha-cafe-amenazas-escasez-mano-obra-cisa/",
-   "title": "La cosecha enfrenta riesgos por falta de mano de obra y el vacío que dejó Cisa",
-   "summary": "Se ofrecen hasta 120 córdobas por lata cortada; Atlantic y Olam ampliaron capacidad tras la salida de Cisa, que exportaba cerca de la mitad de la cosecha."
+   "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
   },
   {
    "id": "n8",
@@ -56,7 +22,7 @@
    "source": "Trading Economics · Cecafé",
    "url": "https://tradingeconomics.com/commodity/coffee",
    "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los orígenes centroamericanos."
   },
   {
    "date": "2026-10-21",
@@ -73,7 +39,7 @@
    "id": "n10",
    "scope": "mundo",
    "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores de Nicaragua que venden a Europa necesitan la geolocalización de las fincas lista antes de fin de año.",
    "tag": "Regulación",
    "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
    "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
@@ -83,7 +49,7 @@
    "id": "n11",
    "scope": "mundo",
    "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre los precios del café de Nicaragua.",
    "tag": "Divisas",
    "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
@@ -97,6 +63,57 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "ni5",
+   "scope": "ni",
+   "regiones": [
+    "jinotega",
+    "matagalpa",
+    "nueva-segovia",
+    "madriz",
+    "esteli",
+    "boaco",
+    "meseta",
+    "caribe-sur"
+   ],
+   "tag": "Producción",
+   "date": "2026-10-24",
+   "source": "Canal 4",
+   "url": "https://www.canal4.com.ni/nicaragua-inicia-plan-de-proteccion-y-seguridad-de-la-cosecha-cafetalera-2026-2027/",
+   "title": "Arranca el plan de seguridad de la cosecha 2026-27 con más de 3.000 militares",
+   "summary": "El Ejército y la Policía cubrirán Matagalpa, Jinotega, Estelí, Madriz, Nueva Segovia, Managua, Boaco, Carazo, Nueva Guinea y Ticuantepe; el acto central en Jinotega reunió a más de 4.000 personas. Es la señal oficial de que la recolección 2026-27 (proyectada en más de 3 M de quintales) está por empezar."
+  },
+  {
+   "id": "ni6",
+   "scope": "ni",
+   "regiones": [],
+   "tag": "Industria",
+   "date": "2026-10-16",
+   "source": "Prensa Latina",
+   "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/",
+   "title": "Conatradec: más de 54.000 fincas y 90 exportadoras venden café a 56 países",
+   "summary": "Según Conatradec, hay más de 235.000 manzanas de café (98 % arábica, 2 % robusta), más de 55 beneficios secos, sobre todo en Matagalpa, Nueva Segovia, Madriz y Jinotega, y hasta 600.000 empleos en cosecha. Son cifras del gremio vinculado al Gobierno."
+  },
+  {
+   "id": "ni7",
+   "scope": "ni",
+   "regiones": [
+    "jinotega",
+    "matagalpa",
+    "nueva-segovia",
+    "madriz",
+    "esteli",
+    "boaco",
+    "meseta",
+    "caribe-sur"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-26",
+   "source": "Nuevaya (INETER)",
+   "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/",
+   "title": "INETER anuncia el final gradual de las lluvias y calor de hasta 36 °C",
+   "summary": "Para la semana del 26 de octubre el INETER prevé máximas de 34–36 °C en el Pacífico, 31–34 °C en el resto del país y 28–31 °C en las zonas altas de Jinotega y Matagalpa, con lluvias débiles sobre todo en el Caribe. El tiempo seco favorece el inicio del corte y el secado del pergamino."
   }
  ]
 }

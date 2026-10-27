@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:00:00Z",
+ "updatedAt": "2026-10-27T22:55:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,14 +19,15 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "impactos": [
-  "El Niño suele recortar lluvias en el Pacífico y el centro-norte: maduración más rápida y pareja, con riesgo de grano pequeño en zonas bajas.",
-  "Con poca mano de obra, una maduración concentrada aumenta el café sobremaduro o caído: revisa la calidad de los primeros lotes de Matagalpa y Jinotega.",
-  "La época seca de noviembre a abril favorece el secado del pergamino en Las Segovias, que cosechan hasta marzo.",
-  "Fertilizantes más caros en 2026 pueden pesar en la floración y el rendimiento de 2027-28."
+  "El INETER anuncia el cierre de las lluvias y días secos y calurosos: buen clima para el inicio del corte y el secado al sol del pergamino en Jinotega y Matagalpa.",
+  "Con El Niño en nivel fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores, crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
+  "Las Segovias, Madriz y Estelí cosechan más tarde; el calor de 31–34 °C favorece el secado, pero conviene vigilar la humedad del grano en bodega.",
+  "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
+  "El Caribe Sur (robusta) mantiene lluvias débiles pero presentes: más riesgo de humedad en el secado."
  ],
  "regions": [
   {
@@ -45,9 +46,9 @@
    "place": "Matagalpa",
    "lat": 12.93,
    "lon": -85.92,
-   "p7": 14.8,
-   "tmax": 28,
-   "tmin": 20
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "nueva-segovia",
@@ -109,5 +110,25 @@
    "tmax": null,
    "tmin": null
   }
- ]
+ ],
+ "avisos": {
+  "source": "INETER",
+  "asOf": "2026-10-26",
+  "headline": "INETER prevé calor y lluvias débiles: transición gradual hacia el final del periodo lluvioso.",
+  "items": [
+   "Máximas de 34 a 36 °C en el Pacífico y de 31 a 34 °C en el resto del país; 28 a 31 °C en las zonas altas de Jinotega y Matagalpa.",
+   "Lluvias ligeras e intermitentes, sobre todo en el Caribe; vientos débiles a moderados de 10 a 25 km/h.",
+   "Según el INETER, es lo típico de finales de octubre e inicios de noviembre; llegarían vientos del norte de fin de año."
+  ],
+  "links": [
+   {
+    "t": "Nuevaya · INETER",
+    "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/"
+   },
+   {
+    "t": "INETER",
+    "url": "https://www.ineter.gob.ni/"
+   }
+  ]
+ }
 }
