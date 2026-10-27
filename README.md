@@ -10,8 +10,9 @@ La app tiene una vista general, **Américas**, y vistas por país. El nombre de 
 
 - **Américas**: los 13 países a nivel de país (lo de `data/*.json`).
 - **Colombia** (fase 1, 26 oct. 2026): lo mismo que DataCafé|Colombia, por departamento: calculadora en pesos por carga con TRM oficial, precio FNC, diferencial implícito, históricos de 6 meses, "En vivo" (TradingView), 18 regiones con mitaca, clima por departamento con IDEAM y noticias filtradas por departamento.
-- Enlace directo a una vista: `?pais=colombia`. La app recuerda la última vista usada.
-- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia). La catación es una sola para todas las vistas.
+- **CostaRica** (27 oct. 2026): las 7 regiones oficiales del ICAFE (reforma de 2025: Valle Central, Valle Occidental, Los Santos, Turrialba, Pérez Zeledón, Coto Brus y Zona Norte); calculadora de la cereza al oro (cajuelas → fanegas → kg de cereza → kg de oro → quintales → sacos, con precios en colones y FOB); tipo de cambio de compra del BCCR; liquidación del ICAFE y "diferencial implícito ICAFE"; clasificación por altura (SHB, GHB, MHB); clima con avisos del IMN y noticias por región. Bolsa, robusta y fondos se toman de la vista Américas.
+- Enlace directo a una vista: `?pais=colombia` o `?pais=costarica`. La app recuerda la última vista usada.
+- Cada vista guarda su propia calculadora (`mca_mc_calc_*` en Américas, `mca_co_calc_*` en Colombia, `mca_cr_calc_*` en Costa Rica). La catación es una sola para todas las vistas.
 
 ### Datos de la vista Colombia
 
@@ -28,11 +29,12 @@ Las dos apps comparten el almacenamiento del navegador (mismo dominio). En cada 
 - `manifest.webmanifest` e `icons/`: instalación en el teléfono.
 - `data/mercado.json`, `data/noticias.json`, `data/clima.json`, `data/cosechas.json`: los datos de la vista Américas. Los actualiza una tarea programada; la app guarda la última copia para cuando no hay señal.
 - `data/co/`: copia de respaldo de los datos de Colombia (ver arriba).
+- `data/cr/`: datos de la vista Costa Rica (`mercado`, `noticias`, `clima`, `cosechas`, `historico`). Los actualiza su propia tarea programada; solo debe tocar `data/cr/`.
 
 ## Reglas
 
 - Todo lo que la app guarda en el teléfono usa el prefijo `mca_`, porque comparte el dominio `savilanbr-byte.github.io` con DataCafé|Compras y DataCafé|Laboratorio. Las únicas lecturas sin prefijo son las de DataCafé|Colombia (`mc_sessions`, `mc_calc_*`, `mc_ajustes`, `mc_desc_propios`), y solo se leen.
-- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v8`) para que los teléfonos reciban la versión nueva.
+- Si cambias `index.html` o `sw.js`, sube `VERSION` en `sw.js` (por ejemplo, `datacafe-americas-v9`) para que los teléfonos reciban la versión nueva.
 - La tarea de datos solo debe sobrescribir `data/*.json`, nunca el código.
 
 ## Diseño adaptable
@@ -51,3 +53,9 @@ El factor de rendimiento se expresa en kg de pergamino seco por saco de café ve
 - Precio café verde por kg = precio pergamino por kg × F / S
 
 En la vista Colombia la calculadora queda en pesos, por carga de 125 kg, saco de 70 kg y TRM oficial.
+
+En la vista Costa Rica la calculadora encadena la cereza y el oro. Con C cajuelas, c cajuelas por fanega (20), K kg de cereza por fanega (≈ 253), O kg de oro por fanega (≈ 46) y P precio por fanega:
+
+- Fanegas = C / c; kg de cereza = fanegas × K; kg de oro = fanegas × O; quintales = kg de oro / 46
+- Precio por cajuela = P / c; por kg de cereza = P / K; por kg de oro = P / O; por quintal oro = P / O × 46
+- Costo del café oro (USD/lb) = (P / O) / 2,2046 / tipo de cambio; FOB = costo + beneficio, exportación y margen

@@ -1,0 +1,147 @@
+{
+ "updatedAt": "2026-10-27T16:00:00Z",
+ "items": [
+  {
+   "id": "n1",
+   "scope": "cr",
+   "regiones": [
+    "coto-brus"
+   ],
+   "tag": "Agricultura",
+   "date": "2026-10-26",
+   "source": "Teletica",
+   "url": "https://www.teletica.com/nacional/solo-60-costarricenses-quieren-trabajar-en-la-cosecha-de-cafe-este-ano-advierte-icafe_419947",
+   "title": "Solo 60 costarricenses se anotaron para recoger café esta cosecha",
+   "summary": "Es cerca del 1 % de la mano de obra que pide el sector, según el ICAFE. Trabajo autorizó 16.000 de los 30.000 recolectores panameños solicitados y unos 6.000 ya ingresaron; la cosecha está en su pico en Coto Brus."
+  },
+  {
+   "id": "n2",
+   "scope": "cr",
+   "regiones": [
+    "perez-zeledon",
+    "coto-brus",
+    "valle-central",
+    "zona-norte"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-26",
+   "source": "El Observador",
+   "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/",
+   "title": "IMN: suelos saturados en el Pacífico Sur mientras el país pasa a la época seca",
+   "summary": "La saturación llega a 80–95 % cerca del Golfo Dulce. La época seca empezaría del 3 al 15 de noviembre en el Pacífico Norte, del 8 al 23 en el Valle Central y a fines de mes en el Pacífico Sur, cuando se acelera la recolección."
+  },
+  {
+   "id": "n3",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-10-23",
+   "source": "Teletica",
+   "url": "https://www.teletica.com/nacional/icafe-alerta-sobre-perdidas-millonarias-por-tipo-de-cambio-del-dolar_419844",
+   "title": "ICAFE alerta que los ingresos cafetaleros cayeron cerca de 30 % por el dólar bajo",
+   "summary": "El instituto advierte que la apreciación del colón amenaza la sostenibilidad del sector: el café se vende en dólares pero se liquida en colones."
+  },
+  {
+   "id": "n4",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Precios",
+   "date": "2026-10-21",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
+   "title": "Liquidación estimada de ₡117.000 por fanega pese al mejor precio de exportación desde 1973",
+   "summary": "El ICAFE estima ese pago para la cosecha 2025-26, frente a ₡132.000 cinco cosechas atrás, aunque el café se exportó por encima de US$300 por quintal. Para comprar, significa productores con menos margen al arrancar 2026-27."
+  },
+  {
+   "id": "n5",
+   "scope": "cr",
+   "regiones": [
+    "turrialba",
+    "perez-zeledon",
+    "coto-brus",
+    "zona-norte"
+   ],
+   "tag": "Producción",
+   "date": "2026-10-12",
+   "source": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions",
+   "title": "Empieza la cosecha en las regiones tempranas",
+   "summary": "Turrialba, Orosi, la zona sur y Guanacaste ya recogen las primeras cerezas maduras; el Valle Central arranca hacia octubre y Los Santos y el Valle Occidental en noviembre."
+  },
+  {
+   "id": "n6",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-10-10",
+   "source": "La Nación",
+   "url": "https://www.nacion.com/economia/tipo-de-cambio-en-costa-rica-da-un-giro-dolar/J42FFGHC2VAP3J37JOEMCATULA/story/",
+   "title": "El dólar vuelve a caer y roza los ₡450",
+   "summary": "Monex cerró el 9 de octubre en ₡452,92, ₡5,70 menos que una semana antes, y el Banco Central compró US$71 millones para frenar la volatilidad."
+  },
+  {
+   "id": "n7",
+   "scope": "cr",
+   "regiones": [
+    "los-santos",
+    "valle-occidental"
+   ],
+   "tag": "Precios",
+   "date": "2026-10-07",
+   "source": "El Observador",
+   "url": "https://observador.cr/mas-catastrofico-que-el-covid-productor-de-cafe-describe-el-impacto-del-dolar-bajo/",
+   "title": "“Más catastrófico que el covid”: el dólar bajo golpea a los cafetaleros",
+   "summary": "El presidente del ICAFE, con fincas en Los Santos, calcula que el productor recibe unos ¢30.000 menos por fanega; UPA Nacional reporta pérdidas cercanas a ¢3.000 millones en Palmares y Atenas frente a 2022."
+  },
+  {
+   "id": "n8",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-10-26",
+   "source": "Trading Economics · Cecafé",
+   "url": "https://tradingeconomics.com/commodity/coffee",
+   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+  },
+  {
+   "date": "2026-10-21",
+   "id": "n9",
+   "scope": "mundo",
+   "source": "ADM Investor Services",
+   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "tag": "Mercado",
+   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+   "url": "https://admis.com/cotton-faces-new-rain-risk"
+  },
+  {
+   "date": "2026-10-18",
+   "id": "n10",
+   "scope": "mundo",
+   "source": "Moncloa",
+   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "tag": "Regulación",
+   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+  },
+  {
+   "date": "2026-10-26",
+   "id": "n11",
+   "scope": "mundo",
+   "source": "Istoé Dinheiro",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "tag": "Divisas",
+   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+  },
+  {
+   "date": "2026-10-16",
+   "id": "n12",
+   "scope": "mundo",
+   "source": "TradingKey",
+   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+   "tag": "Producción",
+   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  }
+ ]
+}

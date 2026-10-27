@@ -1,0 +1,200 @@
+{
+ "updatedAt": "2026-10-27T16:00:00Z",
+ "items": {
+  "tc": {
+   "label": "Tipo de cambio BCCR (compra)",
+   "value": 450.04,
+   "dec": 2,
+   "unit": "CRC/USD",
+   "change": -2.4,
+   "chgDec": 2,
+   "asOf": "2026-10-26",
+   "source": "BCCR · Banco General",
+   "url": "https://www.bgeneral.fi.cr/historico/",
+   "note": "Referencia del Banco Central. Venta: ₡456,32."
+  },
+  "tcCosecha": {
+   "label": "Tipo de cambio promedio cosecha 2025-26",
+   "value": 459.65,
+   "dec": 2,
+   "unit": "CRC/USD",
+   "asOf": "2026-04-22",
+   "source": "ICAFE · CRHoy",
+   "url": "https://crhoy.com/economia/tipo-de-cambio-y-precios-internacionales-deterioran-ingresos-de-los-cafetaleros/",
+   "note": "Estimado del ICAFE. En 2021-22 fue ₡649,59."
+  },
+  "liq": {
+   "label": "Liquidación al productor 2025-26 (estimada)",
+   "value": 117000,
+   "dec": 0,
+   "unit": "CRC/fanega",
+   "changePct": -1.18,
+   "asOf": "2026-10-21",
+   "source": "ICAFE · Infobae",
+   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
+   "note": "Estimación del ICAFE (Marco Araya). 2024-25: ₡118.398 (estimado a sep. 2025). La liquidación final la publica el ICAFE por beneficio."
+  },
+  "expo": {
+   "label": "Precio promedio de exportación 2025-26",
+   "value": 339.63,
+   "dec": 2,
+   "unit": "USD/46 kg",
+   "changePct": 12.17,
+   "asOf": "2026-04-22",
+   "source": "ICAFE · CRHoy",
+   "url": "https://crhoy.com/economia/tipo-de-cambio-y-precios-internacionales-deterioran-ingresos-de-los-cafetaleros/",
+   "note": "Ventas al 22-abr-2026. 2024-25: US$302,78. El ICAFE lo ubica como el mayor desde 1973."
+  },
+  "prod": {
+   "label": "Cosecha 2025-26",
+   "value": 1.592,
+   "dec": 2,
+   "unit": "M fanegas",
+   "changePct": -12.17,
+   "asOf": "2026-06-24",
+   "source": "ICAFE · GBM (Reuters)",
+   "url": "https://gbm.com/media/noticia/costa-rica-reporta-su-menor-cosecha-de-cafe-en-55-anos",
+   "note": "La menor desde 1970-71. 2024-25: 1,81 M. Reuters la reporta como sacos de 46 kg; una fanega rinde cerca de 46 kg de oro."
+  },
+  "est": {
+   "label": "Estimación cosecha 2026-27",
+   "value": null,
+   "text": "+16,7 % vs 2025-26",
+   "asOf": "2026-08-16",
+   "source": "ICAFE · Monumental",
+   "url": "https://www.monumental.co.cr/2026/08/16/icafe-estima-aumento-de-1667-en-recoleccion-de-cafe-para-este-ano-en-comparacion-con-2025/",
+   "note": "Primera estimación del ICAFE para la recolección de este año."
+  },
+  "expoValor": {
+   "label": "Exportaciones de café 2025",
+   "value": 470,
+   "dec": 0,
+   "unit": "M USD",
+   "asOf": "2025-12-31",
+   "source": "Procomer · La Nación",
+   "url": "https://www.nacion.com/economia/cafetaleros-alertan-sobre-una-tormenta-perfecta/OQPC6FLAOVFLRLX7JUGHSIYHSQ/story/",
+   "note": "Quinto producto de exportación del país."
+  }
+ },
+ "crRef": {
+  "asOf": "2026-10-21",
+  "cosecha": "2025-26",
+  "liq": 117000,
+  "tc": 459.65,
+  "expo": 339.63,
+  "kgOroFanega": 46,
+  "nyBase": 331,
+  "liqUrl": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
+  "tcUrl": "https://crhoy.com/economia/tipo-de-cambio-y-precios-internacionales-deterioran-ingresos-de-los-cafetaleros/",
+  "expoUrl": "https://crhoy.com/economia/tipo-de-cambio-y-precios-internacionales-deterioran-ingresos-de-los-cafetaleros/",
+  "nyUrl": "https://www.nacion.com/economia/cafetaleros-alertan-sobre-una-tormenta-perfecta/OQPC6FLAOVFLRLX7JUGHSIYHSQ/story/",
+  "nota": "Precio base de NY de la cosecha 2025-26 según el ICAFE, en US$ por quintal de 46 kg (La Nación, 13-mar-2026)."
+ },
+ "liqHist": {
+  "title": "Liquidación al productor por cosecha",
+  "unit": "₡ por fanega · promedio nacional",
+  "asOf": "2026-10-21",
+  "rows": [
+   {
+    "cosecha": "2018-19",
+    "value": 82496,
+    "source": "El Observador",
+    "url": "https://observador.cr/ingresos-de-los-cafetaleros-se-reducen-en-41-533-millones-debido-a-la-baja-del-dolar-y-piden-acciones-al-banco-central/"
+   },
+   {
+    "cosecha": "2021-22",
+    "value": 132445,
+    "source": "ICAFE · CRHoy",
+    "url": "https://crhoy.com/economia/en-plena-bonanza-mundial-productores-nacionales-de-cafe-reciben-perdidas-por-tipo-de-cambio-bajo/"
+   },
+   {
+    "cosecha": "2023-24",
+    "value": 86058,
+    "source": "ICAFE · CRHoy",
+    "url": "https://crhoy.com/economia/en-plena-bonanza-mundial-productores-nacionales-de-cafe-reciben-perdidas-por-tipo-de-cambio-bajo/"
+   },
+   {
+    "cosecha": "2024-25",
+    "value": 118398,
+    "est": true,
+    "source": "ICAFE · CRHoy",
+    "url": "https://crhoy.com/economia/en-plena-bonanza-mundial-productores-nacionales-de-cafe-reciben-perdidas-por-tipo-de-cambio-bajo/"
+   },
+   {
+    "cosecha": "2025-26",
+    "value": 117000,
+    "est": true,
+    "source": "ICAFE · Infobae",
+    "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
+   }
+  ],
+  "nota": "Las cosechas sin cifra pública quedan fuera. «Est.» = estimado antes de la liquidación final."
+ },
+ "alturas": {
+  "title": "Clasificación por altura",
+  "source": "1Zpresso · Mercanta",
+  "url": "https://1zpresso.coffee/costa-rican-coffee/",
+  "url2": "https://coffeehunter.com/our-origins/costa-rica/",
+  "grados": [
+   {
+    "g": "SHB",
+    "n": "Strictly Hard Bean",
+    "min": 1200,
+    "max": null,
+    "rango": "1.200 m o más"
+   },
+   {
+    "g": "GHB",
+    "n": "Good Hard Bean",
+    "min": 1000,
+    "max": 1200,
+    "rango": "1.000–1.200 m"
+   },
+   {
+    "g": "MHB",
+    "n": "Medium Hard Bean",
+    "min": null,
+    "max": 1000,
+    "rango": "menos de 1.000 m"
+   }
+  ],
+  "regiones": [
+   {
+    "region": "los-santos",
+    "min": 600,
+    "max": 2200
+   },
+   {
+    "region": "valle-occidental",
+    "min": 700,
+    "max": 1700
+   },
+   {
+    "region": "valle-central",
+    "min": 600,
+    "max": 1600
+   },
+   {
+    "region": "perez-zeledon",
+    "min": 600,
+    "max": 1900
+   },
+   {
+    "region": "coto-brus",
+    "min": 700,
+    "max": 1500
+   },
+   {
+    "region": "turrialba",
+    "min": 600,
+    "max": 1400
+   },
+   {
+    "region": "zona-norte",
+    "min": 600,
+    "max": 1300
+   }
+  ],
+  "nota": "Rangos de altura de cada región según Mercanta. EP (European Preparation) indica selección a mano; no es un grado de altura."
+ }
+}

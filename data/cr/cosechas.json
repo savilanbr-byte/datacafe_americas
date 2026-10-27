@@ -1,0 +1,187 @@
+{
+ "updatedAt": "2026-10-27T16:00:00Z",
+ "temporada": "2026-27",
+ "regiones": [
+  {
+   "id": "valle-central",
+   "dep": "Valle Central",
+   "sub": "Heredia, San José y Alajuela (incluye Tres Ríos)",
+   "zona": "Valles",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Desde 2025 incluye Tres Ríos, que suele empezar en octubre."
+  },
+  {
+   "id": "valle-occidental",
+   "dep": "Valle Occidental",
+   "sub": "Naranjo, Palmares, Grecia, Sarchí y Atenas",
+   "zona": "Valles",
+   "pI": 11,
+   "pF": 2,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Suele empezar en noviembre."
+  },
+  {
+   "id": "los-santos",
+   "dep": "Los Santos",
+   "sub": "Tarrazú, Dota y León Cortés",
+   "zona": "Los Santos",
+   "pI": 11,
+   "pF": 3,
+   "mI": null,
+   "mF": null,
+   "conf": "alta",
+   "nota": "Antes llamada Tarrazú. Es la región de mayor producción."
+  },
+  {
+   "id": "turrialba",
+   "dep": "Turrialba",
+   "sub": "Turrialba, Jiménez, Orosi y Cachí",
+   "zona": "Caribe",
+   "pI": 8,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Desde 2025 incluye Orosi. Primeras recolecciones desde julio-agosto; algunas fincas siguen hasta marzo."
+  },
+  {
+   "id": "perez-zeledon",
+   "dep": "Pérez Zeledón",
+   "sub": "San Isidro de El General y alrededores",
+   "zona": "Sur",
+   "pI": 8,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Antes parte de Brunca. Región temprana."
+  },
+  {
+   "id": "coto-brus",
+   "dep": "Coto Brus",
+   "sub": "San Vito y Sabalito",
+   "zona": "Sur",
+   "pI": 8,
+   "pF": 12,
+   "mI": null,
+   "mF": null,
+   "conf": "media",
+   "nota": "Antes parte de Brunca. Región temprana: el pico suele llegar en octubre."
+  },
+  {
+   "id": "zona-norte",
+   "dep": "Zona Norte",
+   "sub": "San Carlos, Sarapiquí y Guanacaste",
+   "zona": "Norte",
+   "pI": 8,
+   "pF": 1,
+   "mI": null,
+   "mF": null,
+   "conf": "baja",
+   "nota": "Desde 2025 incluye la antigua región Guanacaste, que cosecha de julio a febrero."
+  }
+ ],
+ "estado": {
+  "coto-brus": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "La recolección está en su pico. El ICAFE solo tiene 60 costarricenses inscritos y depende de recolectores panameños: hay 16.000 autorizados y unos 6.000 ya ingresaron.",
+   "fecha": "2026-10-26",
+   "fuente": "Teletica",
+   "url": "https://www.teletica.com/nacional/solo-60-costarricenses-quieren-trabajar-en-la-cosecha-de-cafe-este-ano-advierte-icafe_419947"
+  },
+  "perez-zeledon": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Región temprana: las primeras recolecciones selectivas empezaron antes del pico de la cosecha.",
+   "fecha": "2026-10-12",
+   "fuente": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions"
+  },
+  "turrialba": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Entre las primeras zonas en cosechar: algunas fincas recogen sus primeras cerezas maduras desde julio-agosto.",
+   "fecha": "2026-10-12",
+   "fuente": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions"
+  },
+  "zona-norte": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Guanacaste, ahora parte de Zona Norte, está entre las primeras zonas en cosechar (desde julio-agosto).",
+   "fecha": "2026-10-12",
+   "fuente": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions"
+  },
+  "valle-central": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "La cosecha suele arrancar hacia octubre, empezando por la zona de Tres Ríos.",
+   "fecha": "2026-10-12",
+   "fuente": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions"
+  },
+  "los-santos": {
+   "ajusteSemanas": 0,
+   "volumen": null,
+   "resumen": "Suele empezar en noviembre. El presidente del ICAFE, con fincas en la zona, dice que el productor recibe unos ¢30.000 menos por fanega por el tipo de cambio.",
+   "fecha": "2026-10-07",
+   "fuente": "El Observador",
+   "url": "https://observador.cr/mas-catastrofico-que-el-covid-productor-de-cafe-describe-el-impacto-del-dolar-bajo/"
+  }
+ },
+ "reportes": [
+  {
+   "id": "r1",
+   "fecha": "2026-10-26",
+   "region": "coto-brus",
+   "tipo": "noticia",
+   "texto": "Cosecha en su pico; solo 60 costarricenses inscritos para recolectar y 16.000 recolectores panameños autorizados (unos 6.000 ya ingresaron).",
+   "fuente": "Teletica",
+   "url": "https://www.teletica.com/nacional/solo-60-costarricenses-quieren-trabajar-en-la-cosecha-de-cafe-este-ano-advierte-icafe_419947"
+  },
+  {
+   "id": "r2",
+   "fecha": "2026-10-26",
+   "region": "perez-zeledon",
+   "tipo": "noticia",
+   "texto": "IMN: suelos del Pacífico Sur saturados entre 80 % y 95 %; la época seca llegaría en la última semana de noviembre.",
+   "fuente": "El Observador",
+   "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/"
+  },
+  {
+   "id": "r3",
+   "fecha": "2026-10-26",
+   "region": "valle-central",
+   "tipo": "noticia",
+   "texto": "IMN: la época seca empezaría en el Valle Central entre el 8 y el 23 de noviembre.",
+   "fuente": "El Observador",
+   "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/"
+  },
+  {
+   "id": "r4",
+   "fecha": "2026-10-12",
+   "region": "turrialba",
+   "tipo": "noticia",
+   "texto": "Turrialba, Orosi, Brunca y Guanacaste ya recogen las primeras cerezas maduras; Tarrazú y el Valle Occidental suelen empezar en noviembre.",
+   "fuente": "Planting Costa Rica",
+   "url": "https://www.plantingcostarica.com/single-post/harvest-begins-in-some-coffee-regions"
+  },
+  {
+   "id": "r5",
+   "fecha": "2026-10-07",
+   "region": "los-santos",
+   "tipo": "noticia",
+   "texto": "Productores reciben unos ¢30.000 menos por fanega por el tipo de cambio, según el presidente del ICAFE.",
+   "fuente": "El Observador",
+   "url": "https://observador.cr/mas-catastrofico-que-el-covid-productor-de-cafe-describe-el-impacto-del-dolar-bajo/"
+  }
+ ]
+}

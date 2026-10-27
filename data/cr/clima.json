@@ -1,0 +1,109 @@
+{
+ "updatedAt": "2026-10-27T16:00:00Z",
+ "enso": {
+  "asOf": "2026-10-08",
+  "facts": [
+   {
+    "l": "Anomalía Niño 3.4",
+    "v": "+2,1 °C"
+   },
+   {
+    "l": "Fuerte o más hasta ene–mar 2027",
+    "v": "83%"
+   }
+  ],
+  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+  "source": "NOAA CPC",
+  "status": "El Niño · fuerte a muy fuerte",
+  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+ },
+ "impactos": [
+  "Coto Brus está en su pico y Pérez Zeledón y Turrialba avanzan con suelos saturados en el Pacífico Sur: vigila el secado, la fruta caída y la humedad de los lotes tempranos.",
+  "La época seca llegaría al Valle Central entre el 8 y el 23 de noviembre y al Pacífico Sur a fines de mes: buen escenario para la maduración pareja y el secado al sol en el pico de diciembre a enero de Los Santos y los valles.",
+  "El Niño fuerte suele alargar la canícula y recortar lluvias en Centroamérica: puede adelantar la época seca y estresar las floraciones de la cosecha 2027-28.",
+  "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
+ ],
+ "avisos": {
+  "source": "IMN",
+  "asOf": "2026-10-26",
+  "headline": "Transición a la época seca, con suelos saturados en el Pacífico Sur",
+  "items": [
+   "Saturación de suelos entre 80 % y 95 % en el Pacífico Sur, sobre todo cerca del Golfo Dulce: más riesgo de crecidas con aguaceros fuertes.",
+   "Ráfagas de hasta 80 km/h en tormentas aisladas.",
+   "Inicio estimado de la época seca: Pacífico Norte del 3 al 15 de noviembre, Valle Central del 8 al 23, Pacífico Central del 13 al 30 y Pacífico Sur en la última semana de noviembre."
+  ],
+  "links": [
+   {
+    "t": "IMN · tendencia semanal",
+    "url": "https://www.imn.ac.cr/tendencia-semanal"
+   },
+   {
+    "t": "El Observador",
+    "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/"
+   }
+  ]
+ },
+ "forecastSource": {
+  "name": "MET Norway · Yr",
+  "period": "28 de octubre al 3 de noviembre",
+  "url": "https://www.yr.no/"
+ },
+ "regions": [
+  {
+   "region": "valle-central",
+   "dept": "Valle Central",
+   "place": "Barva, Heredia",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "valle-occidental",
+   "dept": "Valle Occidental",
+   "place": "Naranjo, Alajuela",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "los-santos",
+   "dept": "Los Santos",
+   "place": "San Marcos de Tarrazú",
+   "p7": 36.9,
+   "tmax": 24,
+   "tmin": 16
+  },
+  {
+   "region": "turrialba",
+   "dept": "Turrialba",
+   "place": "Turrialba, Cartago",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "perez-zeledon",
+   "dept": "Pérez Zeledón",
+   "place": "San Isidro de El General",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "coto-brus",
+   "dept": "Coto Brus",
+   "place": "San Vito, Coto Brus",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  },
+  {
+   "region": "zona-norte",
+   "dept": "Zona Norte",
+   "place": "Tilarán, Guanacaste",
+   "p7": null,
+   "tmax": null,
+   "tmin": null
+  }
+ ]
+}

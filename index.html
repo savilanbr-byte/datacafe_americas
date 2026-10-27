@@ -334,6 +334,20 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .zoom-menu button[aria-checked="true"]{background:var(--sunk)}
 .zoom-menu button[aria-checked="true"] b::after{content:" ✓";color:var(--leaf)}
 .zsel{display:flex;flex-direction:column;gap:6px}
+.zseg button{padding:7px 6px;font-size:13.5px}
+.alturas .agrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:6px 0 4px}
+.agrade{background:var(--sunk);border-radius:9px;padding:8px 10px;display:flex;flex-direction:column;gap:1px;min-width:0}
+.agrade b{font-family:var(--f-num);font-size:17px;font-weight:500}
+.agrade span{font-size:11.5px;color:var(--muted);line-height:1.25}
+.agrade em{font-style:normal;font-size:12.5px;font-weight:600}
+.aregs{list-style:none;margin:8px 0 2px;padding:0;display:flex;flex-direction:column;gap:9px}
+.aregs li{display:grid;grid-template-columns:minmax(96px,1fr) minmax(0,2.4fr);gap:10px;align-items:center;font-size:13.5px}
+.aregs .nm{line-height:1.2}
+.aregs .nm span{display:block;font-size:11px;color:var(--muted)}
+.abar{position:relative;height:10px;border-radius:5px;background:var(--sunk)}
+.abar i{position:absolute;top:0;bottom:0}
+.ag{font-family:var(--f-num);font-size:11.5px;color:var(--muted);white-space:nowrap}
+.obars.liq li{grid-template-columns:minmax(0,.9fr) minmax(0,2fr) 78px}
 .zseg{display:flex;width:100%}
 .zseg button{flex:1}
 /* ===== Vista Colombia: históricos, En vivo y regiones (traído de DataCafé|Colombia) ===== */
@@ -625,7 +639,7 @@ function show(t){
   $$(".tab").forEach(b=>b.setAttribute("aria-current",b.dataset.t===t?"page":"false"));
   $$("#dnav button").forEach(b=>b.setAttribute("aria-current",b.dataset.t===t?"page":"false"));
   LS.set("mc_tab",t);
-  if(t==="mercado") setTimeout(()=>{ if(isCO()) loadLive(); },0);
+  if(t==="mercado") setTimeout(()=>{ if(hasLive()) loadLive(); },0);
 }
 $$(".tab").forEach(b=>b.addEventListener("click",()=>{show(b.dataset.t);window.scrollTo(0,0);}));
 /* ---------- menú lateral ---------- */
@@ -662,7 +676,8 @@ syncDesk();
 /* ---------- vista (zoom): Américas o un país ---------- */
 const ZOOMS={
   am:{id:"am",name:"Américas",desc:"13 países · vista general"},
-  colombia:{id:"colombia",name:"Colombia",desc:"Por departamento · precio FNC y TRM"}
+  colombia:{id:"colombia",name:"Colombia",pais:"Colombia",desc:"Por departamento · precio FNC y TRM"},
+  costarica:{id:"costarica",name:"CostaRica",pais:"Costa Rica",desc:"7 regiones ICAFE · liquidación en colones"}
 };
 const ZC={
   am:{reg:"orígenes",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria (mitaca)",mNone:"Una sola cosecha",
@@ -672,6 +687,13 @@ const ZC={
     gantt:"Año completo por país",supT:"Orígenes cosechando por mes",supN:"Verde = principal · ámbar = secundaria",
     climaLede:"Fenómeno ENSO, qué implica para los orígenes de América y lluvia esperada en los próximos 7 días por país, cruzada con el calendario de cosecha.",
     impT:"Qué significa para la compra en América",climaSrc:"en un punto cafetero representativo de cada país"},
+  costarica:{reg:"regiones",verb:"cosechando",mName:"Secundaria",mLong:"Secundaria",mNone:"Una sola cosecha",noM:true,
+    zones:["Valles","Los Santos","Caribe","Sur","Norte"],zoneNames:{"Valles":"Valle Central y Valle Occidental","Los Santos":"Los Santos · antes Tarrazú","Caribe":"Turrialba · incluye Orosi","Sur":"Sur · antigua región Brunca","Norte":"Zona Norte · incluye Guanacaste"},
+    calcLede:"De la cereza al oro: cajuelas, fanegas, kilos, quintales y sacos, con precios en colones y su equivalente FOB. Edita cualquier valor: el resto se recalcula.",
+    cosLede:"Toca un mes para ver qué regiones están cosechando. Son las 7 regiones del ICAFE desde 2025; rangos típicos que el clima de cada año corre varias semanas.",
+    gantt:"Año completo por región",supT:"Regiones cosechando por mes",supN:"Verde = cosecha (una al año)",
+    climaLede:"Fenómeno ENSO, avisos del IMN y lluvia esperada en los próximos 7 días en un punto central de cada región, cruzada con el calendario de cosecha.",
+    impT:"Qué significa para la compra en Costa Rica",climaSrc:"en un punto central de cada región"},
   colombia:{reg:"regiones",verb:"recogiendo",mName:"Mitaca",mLong:"Mitaca",mNone:"Sin mitaca",
     zones:["Norte","Centro","Centro (Eje Cafetero)","Centro-oriente","Sur"],zoneNames:{"Norte":"Norte · una cosecha","Centro":"Centro","Centro (Eje Cafetero)":"Eje Cafetero","Centro-oriente":"Centro-oriente","Sur":"Sur · principal en el 1.er semestre"},
     calcLede:"Edita cualquier valor: el resto se recalcula. En pesos, por carga de 125 kg y con la TRM oficial. Si escribes el FOB que necesitas, te dice cuánto puedes pagar por carga.",
@@ -684,12 +706,15 @@ const qpZoom=new URLSearchParams(location.search).get("pais");
 let ZOOM=ZOOMS[qpZoom]?qpZoom:LS.get("zoom","am"); if(!ZOOMS[ZOOM]) ZOOM="am";
 LS.set("zoom",ZOOM);
 const isCO=()=>ZOOM==="colombia";
+const isCR=()=>ZOOM==="costarica";
+const isPais=()=>ZOOM!=="am";
+const zoneCur=()=>isCO()?"COP":isCR()?"CRC":null;
 const Z=()=>ZC[ZOOM];
 /* lee lo que guardó DataCafé|Colombia en este mismo navegador (sus claves no llevan prefijo) */
 function rawGet(k){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):null; }catch(e){ return null; } }
 
 /* ---------- datos que llegan del feed: un juego por vista ---------- */
-const FEEDS_ALL={am:{mercado:null,noticias:null,clima:null,cosechas:null},colombia:{mercado:null,noticias:null,clima:null,cosechas:null,historico:null}};
+const FEEDS_ALL={am:{mercado:null,noticias:null,clima:null,cosechas:null},colombia:{mercado:null,noticias:null,clima:null,cosechas:null,historico:null},costarica:{mercado:null,noticias:null,clima:null,cosechas:null,historico:null}};
 let FEED=FEEDS_ALL[ZOOM];
 
 /* =========================================================
@@ -708,13 +733,13 @@ const CUR_SUG={BRL:{u:60,s:60},COP:{u:125,s:70}};
 const sugOf=c=>CUR_SUG[c]||{u:46,s:69};
 const UNITS=[[125,"Carga 125 kg"],[60,"Saca 60 kg"],[46,"Quintal 46 kg"],[1,"Kilo"]];
 const SACOS=[[60,"60 kg"],[69,"69 kg"],[70,"70 kg"]];
-let cur=isCO()?"COP":LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
+let cur=zoneCur()||LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
 function fxData(){ const m=FEEDS_ALL.am.mercado; return (m&&m.fx&&m.fx.rates)?m.fx:null; }
 function rateOf(c){ if(c==="USD") return 1; const f=fxData(); const v=f&&+f.rates[c]; return (isFinite(v)&&v>0)?v:(FX_FALLBACK.rates[c]||NaN); }
 function rateAsOf(){ const f=fxData(); return f&&f.rates[cur]?f.asOf:FX_FALLBACK.asOf; }
 const rateDec=v=>v>=100?2:v>=10?3:4;
 /* tasa que usan las calculadoras: en Colombia, la TRM oficial; en Américas, la del feed de monedas */
-function trmRef(){ if(isCO()){ const t=FEED.mercado&&FEED.mercado.items&&FEED.mercado.items.trm; if(t&&isFinite(t.value)&&t.value>0) return {v:+t.value,asOf:t.asOf,oficial:true}; }
+function trmRef(){ if(isPais()){ const t=FEED.mercado&&FEED.mercado.items&&FEED.mercado.items[isCO()?"trm":"tc"]; if(t&&isFinite(t.value)&&t.value>0) return {v:+t.value,asOf:t.asOf,oficial:true}; }
   return {v:rateOf(cur),asOf:rateAsOf(),oficial:false}; }
 function curOptions(){ return CUR_LIST.map(([c,n,p])=>'<option value="'+c+'"'+(c===cur?' selected':'')+'>'+c+' · '+esc(n)+' ('+esc(p)+')</option>').join(""); }
 
@@ -779,8 +804,57 @@ const CALC={
   }
 };
 const FIELD={}; Object.keys(CALC).forEach(id=>{ FIELD[id]={}; CALC[id].sections.forEach(s=>s.f.forEach(f=>FIELD[id][f[0]]=f[3])); });
+/* Costa Rica: una sola calculadora que encadena cajuelas → fanegas → kg de cereza → kg oro → quintales → sacos, con precios en colones y FOB.
+   Base: cajuelas, cajuelas por fanega, kg de cereza y kg de oro por fanega, trilla, saco, precio por fanega, tipo de cambio, costos y KC. */
+const QQ=46;
+const CALC_CR={
+  inputs:["caj","cpf","kgF","kgOF","trilla","saco","pFan","trm","tarifa","kc"],
+  sections:[
+    {t:"Cereza",f:[["caj","Cajuelas de cereza","cajuelas de fruta",1,"key"],["fan","Fanegas","fanegas de {CPF} cajuelas",2],["kgC","Kg de cereza","kg de fruta · según el peso por fanega",0]]},
+    {t:"Café oro y pergamino",f:[["kgO","Kg de café oro","kg · según el rendimiento por fanega",1],["qqO","Quintales oro","quintales de 46 kg",2],["sacos","Sacos de exportación","sacos de {S} kg",1],["kgPS","Kg pergamino seco (aprox.)","kg · según la trilla",0]]},
+    {t:"Rendimientos",f:[["cpf","Cajuelas por fanega","cajuelas",1],["kgF","Kg de cereza por fanega","kg de fruta · referencia ICAFE ≈ 253",1],["kgOF","Kg de oro por fanega","kg de café oro · ≈ 1 quintal",2],["rend","Rendimiento oro / cereza","% del peso de la fruta",2],["trilla","Rendimiento de trilla","% de oro sobre pergamino seco",1],["saco","Tamaño de saco de exportación","kg de café oro por saco",1]]},
+    {t:"Precio en {M}",f:[["pFan","Precio por fanega","{M} por fanega de cereza","L","key"],["pCaj","Precio por cajuela","{M} por cajuela","L"],["pKgC","Precio por kg de cereza","{M} por kg de fruta","L"],["pQq","Equivale por quintal oro","{M} por 46 kg de oro","L"],["pKgO","Precio por kg de oro","{M} por kg","L"]]},
+    {t:"Exportación",f:[["trm","Tipo de cambio","{M} por USD","R"],["exw","Costo del café oro","USD por libra · la fanega llevada a oro",3],["tarifa","Beneficio, exportación y margen","USD por libra · costos hasta FOB",3],["fob","Precio FOB","USD por libra",3,"key"],["kc","KC C1 bolsa NY","centavos por libra",2],["dif","Diferencial FOB vs KC","centavos por libra",1]]},
+    {t:"Totales del lote",f:[["totCOP","Valor total de la cereza","{M}","L"],["totUSD","Valor total FOB","USD",0]]}
+  ],
+  compute(b){
+    const r={...b}; r.fan=b.caj/b.cpf; r.kgC=r.fan*b.kgF; r.kgO=r.fan*b.kgOF; r.qqO=r.kgO/QQ; r.sacos=r.kgO/b.saco; r.kgPS=r.kgO/(b.trilla/100); r.rend=100*b.kgOF/b.kgF;
+    r.pCaj=b.pFan/b.cpf; r.pKgC=b.pFan/b.kgF; r.pKgO=b.pFan/b.kgOF; r.pQq=r.pKgO*QQ;
+    r.exw=r.pKgO/LB/b.trm; r.fob=r.exw+b.tarifa; r.dif=(r.fob-b.kc/100)*100;
+    r.totCOP=r.fan*b.pFan; r.totUSD=r.kgO*LB*r.fob; return r;
+  },
+  solve(k,v,b){
+    const fromKgO=x=>x*b.kgOF, fromExw=x=>fromKgO(x*LB*b.trm);
+    switch(k){
+      case "fan": b.caj=v*b.cpf; break;
+      case "kgC": if(b.kgF>0) b.caj=v/b.kgF*b.cpf; break;
+      case "kgO": if(b.kgOF>0) b.caj=v/b.kgOF*b.cpf; break;
+      case "qqO": if(b.kgOF>0) b.caj=v*QQ/b.kgOF*b.cpf; break;
+      case "sacos": if(b.kgOF>0) b.caj=v*b.saco/b.kgOF*b.cpf; break;
+      case "kgPS": if(b.kgOF>0) b.caj=v*(b.trilla/100)/b.kgOF*b.cpf; break;
+      case "rend": if(v>0) b.kgOF=v/100*b.kgF; break;
+      case "pCaj": b.pFan=v*b.cpf; break;
+      case "pKgC": b.pFan=v*b.kgF; break;
+      case "pKgO": b.pFan=fromKgO(v); break;
+      case "pQq": b.pFan=fromKgO(v/QQ); break;
+      case "exw": b.pFan=fromExw(v); break;
+      case "fob": b.pFan=fromExw(v-b.tarifa); break;
+      case "dif": b.pFan=fromExw(b.kc/100+v/100-b.tarifa); break;
+      case "totCOP": { const fan=b.caj/b.cpf; if(fan>0) b.pFan=v/fan; break; }
+      case "totUSD": { const kgO=b.caj/b.cpf*b.kgOF; if(kgO>0) b.pFan=fromExw(v/(kgO*LB)-b.tarifa); break; }
+      default: b[k]=v; if(k==="trm") b.trmManual=true; if(k==="kc") b.kcManual=true;
+    }
+  }
+};
+const FIELD_CR={}; CALC_CR.sections.forEach(s=>s.f.forEach(f=>FIELD_CR[f[0]]=f[3]));
+const calcDef=id=>isCR()&&id==="perg"?CALC_CR:CALC[id];
 function niceRound(v){ if(!isFinite(v)||v<=0) return v; const p=Math.pow(10,Math.floor(Math.log10(v))-2); return Math.round(v/p)*p; }
 function defaultsFor(id){
+  if(isCR()){ const m=FEED.mercado, I=(m&&m.items)||{}, R=(m&&m.crRef)||{}, W=(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items)||{};
+    const t=trmRef().v||rateOf("CRC"), kc0=W.kc1&&isFinite(W.kc1.value)?+W.kc1.value:298.7, liq=R.liq>0?R.liq:(I.liq&&I.liq.value>0?+I.liq.value:117000);
+    /* costos hasta FOB: diferencia entre el precio de exportación y lo que llega al productor (datos ICAFE de la cosecha) */
+    const x=impliedCR(m), tar=x&&x.gap>0?Math.round(x.gap*100)/100:0.84;
+    return {caj:200,cpf:20,kgF:253,kgOF:46,trilla:80,saco:69,pFan:liq,trm:t,tarifa:tar,kc:kc0,trmManual:false,kcManual:false}; }
   if(isCO()){ const I=(FEED.mercado&&FEED.mercado.items)||{}, t=trmRef().v||rateOf("COP"), kc0=I.kc1&&isFinite(I.kc1.value)?+I.kc1.value:298.7, fnc=I.fnc&&isFinite(I.fnc.value)?+I.fnc.value:2200000;
     if(id==="perg") return {kgP:1000,saco:70,kgU:125,carga:niceRound(fnc),F:92,trm:t,tarifa:0.5,kc:kc0,trmManual:false,kcManual:false};
     return {kgC:1000,pC:niceRound(fnc/125*0.2),conv:0.2,F:92}; }
@@ -791,7 +865,7 @@ function defaultsFor(id){
   return {kgC:1000,pC:niceRound(USD_REF.pC*r),conv:0.2,F:92*sp/70};
 }
 /* cada vista guarda su propia calculadora: Américas en mc_calc_*, Colombia en co_calc_* */
-const calcPre=()=>isCO()?"co_calc_":"mc_calc_";
+const calcPre=()=>isCO()?"co_calc_":isCR()?"cr_calc_":"mc_calc_";
 function saveCalc(id){ LS.set(calcPre()+id,calcState[id]); }
 function comprasCalc(id){ /* la primera vez en Colombia, parte de lo que había en DataCafé|Colombia */
   const o=rawGet("mc_calc_"+id); if(!o||typeof o!=="object") return {};
@@ -805,21 +879,21 @@ function buildCalcState(){ const st={}; calcState=st;
   return st; }
 calcState=CALC_ST[ZOOM]=buildCalcState();
 let calcCur=LS.get("mc_calc_cur","perg");
-function decFor(id,k){ const d=FIELD[id][k]; const t=calcState.perg.trm; if(d==="L") return t>=100?0:2; if(d==="R") return rateDec(t); return d; }
-function tpl(s){ const b=calcState.perg; return String(s).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)); }
+function decFor(id,k){ const d=(isCR()&&id==="perg"?FIELD_CR:FIELD[id])[k]; const t=calcState.perg.trm; if(d==="L") return t>=100?0:2; if(d==="R") return rateDec(t); return d; }
+function tpl(s){ const b=calcState.perg; return String(s).replace(/\{M\}/g,cur).replace(/\{U\}/g,fmt(b.kgU,b.kgU%1?1:0)).replace(/\{S\}/g,fmt(b.saco,b.saco%1?1:0)).replace(/\{CPF\}/g,fmt(b.cpf,b.cpf%1?1:0)); }
 function relabel(){ $$("#calcBody [data-tpl]").forEach(el=>el.textContent=tpl(el.dataset.tpl)); $$("#calcBody [data-unit]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.unit===calcState.perg.kgU)); $$("#calcBody [data-saco]").forEach(bt=>bt.setAttribute("aria-pressed",+bt.dataset.saco===calcState.perg.saco)); }
-function calcValid(id,b){ if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
+function calcValid(id,b){ if(isCR()&&id==="perg") return b.cpf>0&&b.kgF>0&&b.kgOF>0&&b.trilla>0&&b.saco>0&&b.trm>0; if(id==="perg") return b.F>0&&b.trm>0&&b.kgU>0&&b.saco>0; return b.conv>0&&b.F>0; }
 function renderCurBar(){
   const sel=$("#curSel"), n=$("#curNote"), lb=$("#curLbl"); if(!n) return;
-  if(isCO()){ sel.hidden=true; lb.textContent="Moneda"; const t=trmRef();
-    n.innerHTML='<b style="color:var(--ink);font-weight:600">COP · Peso colombiano</b> · '+(t.oficial?'TRM oficial':'Cambio de respaldo')+': 1 USD = '+fmt(t.v,2)+' COP'+(t.asOf?' · al '+esc(fdate(t.asOf)):''); return; }
+  if(isPais()){ sel.hidden=true; lb.textContent="Moneda"; const t=trmRef(), nm=isCO()?"Peso colombiano":"Colón costarricense", ref=isCO()?"TRM oficial":"Tipo de cambio BCCR (compra)";
+    n.innerHTML='<b style="color:var(--ink);font-weight:600">'+cur+' · '+nm+'</b> · '+(t.oficial?ref:'Cambio de respaldo')+': 1 USD = '+fmt(t.v,2)+' '+cur+(t.asOf?' · al '+esc(fdate(t.asOf)):''); return; }
   sel.hidden=false; lb.textContent="Moneda local";
   if(sel&&document.activeElement!==sel) sel.innerHTML=curOptions();
   const r=rateOf(cur);
   n.textContent=cur==="USD"?"Precios en dólares: sin conversión.":"1 USD = "+fmt(r,rateDec(r))+" "+cur+" · al "+fdate(rateAsOf())+(fxData()&&fxData().rates[cur]?"":" (respaldo)");
 }
 function setCur(code){
-  if(isCO()||!CUR_NAME[code]||code===cur) return;
+  if(isPais()||!CUR_NAME[code]||code===cur) return;
   const b=calcState.perg, c=calcState.cer, old=cur, newR=rateOf(code), oldR=b.trm;
   if(!(newR>0)) return;
   const k=oldR>0?newR/oldR:1, pk=b.carga/b.kgU*k, so=sugOf(old), sn=sugOf(code);
@@ -830,7 +904,9 @@ function setCur(code){
 }
 $("#curSel").addEventListener("change",e=>setCur(e.target.value));
 function renderCalc(){
-  const def=CALC[calcCur], b=calcState[calcCur];
+  if(isCR()) calcCur="perg";
+  const sg=$("#v-calc .seg"); if(sg) sg.hidden=isCR();
+  const def=calcDef(calcCur), b=calcState[calcCur];
   $("#segPerg").setAttribute("aria-pressed",calcCur==="perg"); $("#segCer").setAttribute("aria-pressed",calcCur==="cer");
   renderCurBar();
   let h="";
@@ -854,9 +930,9 @@ function renderCalc(){
   $("#calcBody").innerHTML=h;
   fillCalc(null);
   $$("#calcBody input").forEach(inp=>{
-    inp.addEventListener("focus",()=>{ const v=CALC[calcCur].compute(calcState[calcCur])[inp.dataset.k]; inp.value=isFinite(v)?String(+v.toFixed(Math.max(decFor(calcCur,inp.dataset.k),2))).replace(".",","):""; inp.select&&setTimeout(()=>inp.select(),0); });
+    inp.addEventListener("focus",()=>{ const v=calcDef(calcCur).compute(calcState[calcCur])[inp.dataset.k]; inp.value=isFinite(v)?String(+v.toFixed(Math.max(decFor(calcCur,inp.dataset.k),2))).replace(".",","):""; inp.select&&setTimeout(()=>inp.select(),0); });
     inp.addEventListener("input",()=>{ const v=parseNum(inp.value); if(!isFinite(v)) return;
-      const nb={...calcState[calcCur]}; CALC[calcCur].solve(inp.dataset.k,v,nb);
+      const nb={...calcState[calcCur]}; calcDef(calcCur).solve(inp.dataset.k,v,nb);
       if(!calcValid(calcCur,nb)) return;
       calcState[calcCur]=nb; saveCalc(calcCur); fillCalc(inp); relabel(); refRow(); });
     inp.addEventListener("blur",()=>fillCalc(null));
@@ -870,15 +946,15 @@ function renderCalc(){
   refRow();
 }
 function fillCalc(active){
-  const r=CALC[calcCur].compute(calcState[calcCur]);
+  const r=calcDef(calcCur).compute(calcState[calcCur]);
   $$("#calcBody input").forEach(inp=>{ if(inp===active) return; const k=inp.dataset.k; const nv=fmt(r[k],decFor(calcCur,k));
     if(inp.value!==nv){ inp.value=nv; if(active){ inp.classList.remove("flash"); void inp.offsetWidth; inp.classList.add("flash"); } } });
 }
 function refRow(){
   const el=$("#pergRef"); if(!el) return; const b=calcState.perg, m=FEED.mercado, parts=[];
-  const kc=m&&m.items&&m.items.kc1, t=trmRef(), r=t.v;
+  const kc=isCR()?(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items&&FEEDS_ALL.am.mercado.items.kc1):(m&&m.items&&m.items.kc1), t=trmRef(), r=t.v;
   if(cur==="USD") parts.push("Precios en dólares: tipo de cambio 1");
-  else parts.push(b.trmManual?(t.oficial?'TRM manual':'Cambio manual')+' · <button class="linkbtn" data-use="trm">usar '+(t.oficial?'TRM':cur)+' del '+esc(fdate(t.asOf))+' ('+fmt(r,rateDec(r))+')</button>':(t.oficial?'TRM oficial del ':'Cambio '+cur+'/USD del ')+esc(fdate(t.asOf)));
+  else parts.push(b.trmManual?(t.oficial?(isCO()?'TRM manual':'Tipo de cambio manual'):'Cambio manual')+' · <button class="linkbtn" data-use="trm">usar '+(t.oficial?(isCO()?'TRM':'el BCCR'):cur)+' del '+esc(fdate(t.asOf))+' ('+fmt(r,rateDec(r))+')</button>':(t.oficial?(isCO()?'TRM oficial del ':'Tipo de cambio BCCR (compra) del '):'Cambio '+cur+'/USD del ')+esc(fdate(t.asOf)));
   if(kc) parts.push(b.kcManual?'KC manual · <button class="linkbtn" data-use="kc">usar KC del '+esc(fdate(kc.asOf))+' ('+fmt(kc.value,2)+')</button>':'KC '+esc(kc.contract||"")+' al '+esc(fdate(kc.asOf)));
   el.innerHTML=parts.join(" · ");
   $$("[data-use]",el).forEach(bt=>bt.onclick=()=>{ if(bt.dataset.use==="trm"){b.trmManual=false;} else {b.kcManual=false;} applyFeedToCalc(); saveCalc("perg"); fillCalc(null); refRow(); });
@@ -887,7 +963,8 @@ function applyFeedToCalc(){
   const b=calcState.perg;
   if(!b.trmManual){ const r=trmRef().v; if(r>0) b.trm=r; }
   const m=FEED.mercado; if(!m||!m.items) return;
-  if(!b.kcManual&&m.items.kc1&&isFinite(m.items.kc1.value)) b.kc=m.items.kc1.value;
+  const kcI=isCR()?(FEEDS_ALL.am.mercado&&FEEDS_ALL.am.mercado.items&&FEEDS_ALL.am.mercado.items.kc1):m.items.kc1;
+  if(!b.kcManual&&kcI&&isFinite(kcI.value)) b.kc=kcI.value;
 }
 $$("#v-calc .seg button").forEach(bt=>bt.addEventListener("click",()=>{calcCur=bt.dataset.calc;LS.set("mc_calc_cur",calcCur);renderCalc();}));
 renderCalc();
@@ -895,7 +972,7 @@ renderCalc();
 /* =========================================================
    MERCADO
    ========================================================= */
-let ajustes={retencionDias:60,difColombia:null};
+let ajustes={retencionDias:60,difColombia:null,difCR:null};
 function chgHTML(it){
   if(it.change==null&&it.changePct==null) return "";
   const v=it.change!=null?it.change:it.changePct; const cls=v>0?"up":v<0?"down":"flat"; const ar=v>0?"▲":v<0?"▼":"■";
@@ -913,6 +990,7 @@ const LIVE={
   fnc:{t:"FNC",u:"https://federaciondecafeteros.org/estadisticas-cafeteras/"},
   milds:{t:"La República",u:"https://www.larepublica.co/indicadores-economicos/commodities/cafe"},
   icoComp:{t:"La República",u:"https://www.larepublica.co/indicadores-economicos/commodities/cafe"},
+  tc:{t:"BCCR",u:"https://www.bccr.fi.cr/"},
   kc1:{t:"Investing.com",u:"https://www.investing.com/commodities/us-coffee-c"},
   kc2:{t:"Barchart",u:null}, kc3:{t:"Barchart",u:null}, kc4:{t:"Barchart",u:null},
   robusta:{t:"Investing.com",u:"https://www.investing.com/commodities/london-coffee"},
@@ -970,7 +1048,7 @@ function ofertaHTML(of){
     (of.nota?'<div class="note">'+esc(of.nota)+'</div>':'')+
     '<div class="meta"><span>'+esc(of.unit||"")+(of.asOf?' · al '+esc(fdate(of.asOf,true)):'')+'</span>'+(of.url?'<a href="'+esc(of.url)+'" target="_blank" rel="noopener">'+esc(of.source||"fuente")+'</a>':'')+'</div></div>';
 }
-function renderMercado(){ const lb=$("#liveBox"); if(lb) lb.hidden=!isCO(); if(isCO()) return renderMercadoCO(); renderMercadoAM(); }
+function renderMercado(){ const lb=$("#liveBox"); if(lb) lb.hidden=!hasLive(); if(isCO()) return renderMercadoCO(); if(isCR()) return renderMercadoCR(); renderMercadoAM(); }
 function renderMercadoAM(){
   const m=FEED.mercado, body=$("#mktBody");
   let h='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+fxCardHTML()+'</div>';
@@ -1011,12 +1089,12 @@ function bindMkt(){ const s=$("#mktCur"); if(s) s.onchange=e=>setCur(e.target.va
 
 /* ===== Vista Colombia: lo mismo que DataCafé|Colombia ===== */
 /* ---------- en vivo (TradingView) ---------- */
-const TV_LIVE=[
-  {proName:"FX_IDC:USDCOP", title:"USD/COP"},
-  {proName:"FX_IDC:USDBRL", title:"USD/BRL"},
-  {proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}
-];
-var liveDone=false; /* var: show() puede pedirlo antes de esta línea */
+const TV_LIVE={
+  colombia:[{proName:"FX_IDC:USDCOP", title:"USD/COP"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}],
+  costarica:[{proName:"FX_IDC:USDCRC", title:"USD/CRC"},{proName:"FX_IDC:USDBRL", title:"USD/BRL"},{proName:"PEPPERSTONE:COFFEE", title:"Café KC (CFD)"}]
+};
+function hasLive(){ return !!TV_LIVE[ZOOM]; }
+var liveDone=false, liveZone=null; /* var: show() puede pedirlo antes de esta línea */
 function liveTheme(){ const t=document.documentElement.getAttribute("data-theme");
   if(t==="dark"||t==="light") return t;
   return window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"; }
@@ -1028,25 +1106,27 @@ function tvMount(el,kind,cfg){
   sc.textContent=JSON.stringify(cfg); el.appendChild(sc);
 }
 function loadLive(){
-  const box=$("#liveBox"); if(liveDone||!box||!box.open) return;
+  const box=$("#liveBox"); if(!hasLive()) return; if(liveDone&&liveZone!==ZOOM) liveDone=false; if(liveDone||!box||!box.open) return;
   const grid=$("#liveGrid");
   if(navigator.onLine===false){ grid.innerHTML='<p class="lwait">Sin conexión: los precios en vivo aparecen cuando vuelva la red.</p>'; return; }
-  liveDone=true; grid.innerHTML="";
+  liveDone=true; liveZone=ZOOM; grid.innerHTML="";
   const theme=liveTheme();
   const strip=document.createElement("div"); strip.className="lstrip";
   const sep=document.createElement("div"); sep.className="lsep";
   const chart=document.createElement("div"); chart.className="lchart";
   grid.append(strip,sep,chart);
-  tvMount(strip,"tickers",{symbols:TV_LIVE,isTransparent:true,showSymbolLogo:true,colorTheme:theme,locale:"es"});
+  tvMount(strip,"tickers",{symbols:TV_LIVE[ZOOM],isTransparent:true,showSymbolLogo:true,colorTheme:theme,locale:"es"});
   tvMount(chart,"mini-symbol-overview",{symbol:"PEPPERSTONE:COFFEE",width:"100%",height:170,locale:"es",dateRange:"1D",
     colorTheme:theme,isTransparent:true,autosize:false,chartOnly:true,largeChartUrl:""});
 }
 (function(){ const box=$("#liveBox"); if(!box) return;
   if(LS.get("mc_live_open",true)===false) box.open=false;
-  box.addEventListener("toggle",()=>{ LS.set("mc_live_open",box.open); if(box.open&&isCO()&&!$("#v-mercado").hidden) loadLive(); });
-  window.addEventListener("online",()=>{ if(!liveDone&&isCO()&&!$("#v-mercado").hidden) loadLive(); });
+  box.addEventListener("toggle",()=>{ LS.set("mc_live_open",box.open); if(box.open&&hasLive()&&!$("#v-mercado").hidden) loadLive(); });
+  window.addEventListener("online",()=>{ if(!liveDone&&hasLive()&&!$("#v-mercado").hidden) loadLive(); });
 })();
 /* ---------- histórico de 6 meses (toca una tarjeta) ---------- */
+/* nombre del periodo que de verdad cubre la serie (algunas apenas empiezan) */
+function spanLbl(pts){ const d=pts.length>1?(pts[pts.length-1].t-pts[0].t)/864e5:0; return d>=150?"6 meses":d>=55?Math.round(d/30)+" meses":d>=25?"1 mes":Math.max(1,Math.round(d))+" días"; }
 const HIST_KEY={prod:"prodMes",expo:"expoMes"};
 const DAY=864e5;
 function histSeries(key){
@@ -1073,7 +1153,7 @@ function sparkRow(key){
   const h=histSeries(key); if(!h||!h.pts.length) return "";
   if(h.pts.length<3) return '<div class="spark"><span class="hl">Ver histórico</span></div>';
   const a=h.pts[0], b=h.pts[h.pts.length-1], pct=a.v?(b.v-a.v)/a.v*100:0;
-  return '<div class="spark">'+sparkSVG(h.pts)+'<span><span class="hl">6 meses</span> '+(pct>0?"+":"")+fmt(pct,1)+'%</span></div>';
+  return '<div class="spark">'+sparkSVG(h.pts)+'<span><span class="hl">'+spanLbl(h.pts)+'</span> '+(pct>0?"+":"")+fmt(pct,1)+'%</span></div>';
 }
 function niceTicks(lo,hi,n){ const span=hi-lo||1, raw=span/n, mag=Math.pow(10,Math.floor(Math.log10(raw))), f=raw/mag;
   const step=(f<1.5?1:f<3?2:f<7?5:10)*mag; const out=[]; for(let v=Math.ceil(lo/step)*step;v<=hi+1e-9;v+=step) out.push(+v.toFixed(10)); return {ticks:out,step}; }
@@ -1130,7 +1210,7 @@ function openHist(key){
   const pts=h.pts, a=pts[0], L=pts[pts.length-1];
   let hi=pts[0], lo=pts[0]; pts.forEach(p=>{ if(p.v>hi.v) hi=p; if(p.v<lo.v) lo=p; });
   const ch=L.v-a.v, pct=a.v?ch/a.v*100:0, cls=ch>0?"up":ch<0?"down":"flat";
-  let x='<div class="sheet-h"><div><div class="eyebrow">Histórico · últimos 6 meses</div><h3 id="sheetT">'+esc(h.label)+(h.contract?' · '+esc(h.contract):'')+'</h3></div><button class="btn ghost" id="sheetX" aria-label="Cerrar">✕</button></div>';
+  let x='<div class="sheet-h"><div><div class="eyebrow">Histórico · '+(spanLbl(h.pts)==="6 meses"?"últimos 6 meses":"desde "+esc(fdate(h.pts[0].d,true)))+'</div><h3 id="sheetT">'+esc(h.label)+(h.contract?' · '+esc(h.contract):'')+'</h3></div><button class="btn ghost" id="sheetX" aria-label="Cerrar">✕</button></div>';
   x+='<div class="hist-top"><div class="big">'+fmt(L.v,h.dec)+'<small>'+esc(h.unit)+'</small></div><span class="small muted">'+esc(histDateLbl(L))+'</span></div>';
   if(pts.length>1){
     x+='<div class="hist-stats"><div><b class="chg '+cls+'">'+(ch>0?"+":"")+fmt(ch,h.dec)+'</b><span>'+(pct>0?"+":"")+fmt(pct,1)+'% desde '+esc(p2(a))+'</span></div>'+
@@ -1211,11 +1291,108 @@ function renderMercadoCO(){
 }
 
 
+
+/* ===== Vista Costa Rica ===== */
+/* diferencial implícito a partir de la liquidación del ICAFE */
+function impliedCR(m){
+  const r=m&&m.crRef; if(!r||!(r.liq>0)||!(r.tc>0)||!(r.kgOroFanega>0)) return null;
+  const lbs=r.kgOroFanega*LB, usdFan=r.liq/r.tc, prod=usdFan/lbs, lbQQ=QQ*LB;
+  const expLb=r.expo>0?r.expo/lbQQ:null, ny=r.nyBase>0?r.nyBase/lbQQ:null;
+  return {...r,lbs,lbQQ,usdFan,prod,expLb,ny,gap:expLb!=null?expLb-prod:null,share:expLb?prod/expLb*100:null,
+    dif:(expLb!=null&&ny!=null)?(expLb-ny)*100:null,difProd:ny!=null?(prod-ny)*100:null};
+}
+function curveCardHTML(cv){
+  if(!cv||!cv.points||cv.points.length<2) return "";
+  const p=cv.points, sp=[]; for(let i=0;i<Math.min(3,p.length-1);i++) sp.push({a:p[i].contract,b:p[i+1].contract,v:p[i].value-p[i+1].value});
+  const back=sp.length&&sp.every(s=>s.v>0), cont=sp.length&&sp.every(s=>s.v<0);
+  return '<div class="card mcard wide"><div class="sec-h"><span class="lbl">Curva de futuros y spreads · al '+esc(fdate(cv.asOf))+'</span>'+
+    (back?'<span class="tag back">Backwardation</span>':cont?'<span class="tag cont">Contango</span>':'<span class="tag">Mixta</span>')+'</div>'+curveSVG(p)+
+    '<div class="mgrid" style="margin-top:6px">'+sp.map((s,i)=>'<div><div class="lbl">Spread C'+(i+1)+'–C'+(i+2)+' <span class="muted">('+esc(s.a)+'/'+esc(s.b)+')</span></div><div class="val" style="font-size:18px">'+(s.v>0?"+":"")+fmt(s.v,2)+'<small>¢/lb</small></div></div>').join("")+'</div>'+
+    '<button class="explain" data-explain="spreads" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+
+    '<a class="livelink" href="'+esc(LIVE.curve.u)+'" target="_blank" rel="noopener" title="'+esc(LIVE.curve.t)+'">Curva al día ↗</a>'+
+    '<div class="meta"><span></span>'+(cv.url?'<a href="'+esc(cv.url)+'" target="_blank" rel="noopener">'+esc(cv.source||"fuente")+'</a>':"")+'</div></div>';
+}
+function liqBarsHTML(lh){
+  if(!lh||!lh.rows||!lh.rows.length) return "";
+  const mx=Math.max(...lh.rows.map(r=>+r.value||0))||1;
+  return '<div class="card mcard wide"><div class="lbl">'+esc(lh.title||"Liquidación por cosecha")+'</div><ul class="obars liq">'+
+    lh.rows.map(r=>'<li><span class="nm">'+esc(r.cosecha)+(r.est?'<span>estimada</span>':'')+'</span><span class="bar"><i style="width:'+(r.value/mx*100).toFixed(1)+'%"></i></span><span class="num" style="width:auto">₡'+fmt(r.value,0)+'</span></li>').join("")+'</ul>'+
+    (lh.nota?'<div class="note">'+esc(lh.nota)+'</div>':'')+
+    '<div class="meta"><span>'+esc(lh.unit||"")+'</span><span>'+lh.rows.filter(r=>r.url).map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.cosecha)+'</a>').join(" · ")+'</span></div></div>';
+}
+function alturasHTML(a){
+  if(!a||!a.grados) return "";
+  const inG=(g,r)=>(g.min==null||r.max>=g.min)&&(g.max==null||r.min<g.max);
+  const rn=id=>{ const r=REG.find(x=>x.id===id); return r?r.dep:id; };
+  let h='<div class="card mcard wide alturas"><div class="lbl">'+esc(a.title||"Clasificación por altura")+'</div>';
+  h+='<div class="agrid">'+a.grados.map(g=>'<div class="agrade"><b>'+esc(g.g)+'</b><span>'+esc(g.n)+'</span><em>'+esc(g.rango)+'</em></div>').join("")+'</div>';
+  if(a.regiones&&a.regiones.length){ const top=2300, pc=v=>(v/top*100).toFixed(1);
+    const GC={SHB:"var(--leaf)",GHB:"var(--amber)",MHB:"color-mix(in srgb,var(--muted) 55%,var(--sunk))"};
+    const seg=(r,g)=>{ const lo=Math.max(r.min,g.min==null?0:g.min), hi=Math.min(r.max,g.max==null?top:g.max); return hi>lo?'<i style="left:'+pc(lo)+'%;width:'+pc(hi-lo)+'%;background:'+(GC[g.g]||"var(--leaf)")+'"></i>':''; };
+    h+='<div class="legend" style="margin-top:8px">'+a.grados.map(g=>'<span><i class="key-dot" style="background:'+(GC[g.g]||"var(--leaf)")+'"></i>'+esc(g.g)+'</span>').join("")+'</div>';
+    h+='<ul class="aregs">'+[...a.regiones].sort((x,y)=>y.max-x.max).map(r=>'<li><span class="nm">'+esc(rn(r.region))+'<span>'+fmt(r.min,0)+'–'+fmt(r.max,0)+' m</span></span>'+
+      '<span class="abar">'+a.grados.map(g=>seg(r,g)).join("")+'</span></li>').join("")+'</ul>'+
+      '<div class="note">Cada barra va de 0 a 2.300 m y muestra el rango de altura de la región, pintado según el grado que corresponde a cada tramo. Una región da varios grados según la altura de cada finca.</div>'; }
+  if(a.nota) h+='<div class="note">'+esc(a.nota)+'</div>';
+  h+='<div class="meta"><span>Grados de exportación</span><span>'+(a.url?'<a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc((a.source||"fuente").split(" · ")[0])+'</a>':'')+(a.url2?' · <a href="'+esc(a.url2)+'" target="_blank" rel="noopener">'+esc((a.source||"").split(" · ")[1]||"fuente")+'</a>':'')+'</span></div></div>';
+  return h;
+}
+function renderMercadoCR(){
+  const m=FEED.mercado, A=FEEDS_ALL.am.mercado, body=$("#mktBody");
+  if(!m||!m.items){ body.innerHTML='<div class="empty"><strong>Todavía no hay datos de Costa Rica.</strong>Aparecen aquí apenas cargan. Mientras tanto, la calculadora usa valores de referencia.</div>'; return; }
+  const I=m.items, W=(A&&A.items)||{}, imp=impliedCR(m), dc=ajustes.difCR;
+  $("#mktLede").textContent="Actualizado "+ago(m.updatedAt)+". Cada tarjeta muestra la fecha de su dato. Bolsa y otros mercados vienen de la vista Américas; los futuros llegan con retraso.";
+  let h='<div class="sec-h"><h3>Tipo de cambio</h3></div><div class="mgrid">'+mcard(I.tc,{key:'tc'})+mcard(I.tcCosecha)+'</div>';
+  h+='<div class="sec-h"><h3>Referencia Costa Rica · ICAFE</h3></div><div class="mgrid">'+mcard(I.liq)+mcard(I.expo);
+  h+='<div class="card mcard"><div class="lbl">Tu diferencial (cotización SHB)</div>'+
+     '<input id="difCR" inputmode="decimal" placeholder="¢/lb" value="'+(dc&&isFinite(dc.value)?esc(String(dc.value).replace(".",",")):"")+'" aria-label="Tu diferencial para Costa Rica en centavos por libra">'+
+     '<div class="note">'+(dc&&dc.date?"Guardado el "+esc(fdate(dc.date)):"Escribe el diferencial que te cotizan (¢/lb sobre KC).")+'</div></div>';
+  if(imp&&imp.dif!=null){
+    h+='<div class="card mcard derived"><div class="lbl">Diferencial implícito ICAFE · '+esc(imp.cosecha||"")+'</div><div class="val">'+(imp.dif>0?"+":"")+fmt(imp.dif,1)+'<small>¢/lb</small></div>'+
+      '<div class="note">Precio de exportación frente a la base de NY de la cosecha. Al productor llega el '+fmt(imp.share,0)+' % (US$'+fmt(imp.prod,2)+'/lb oro); beneficio, exportación y margen: US$'+fmt(imp.gap,2)+'/lb.</div>'+
+      (dc&&isFinite(dc.value)?'<div class="note"><b>Tu diferencial − implícito: '+((dc.value-imp.dif)>0?"+":"")+fmt(dc.value-imp.dif,1)+' ¢/lb</b></div>':"")+
+      '<button class="explain" data-explain="implicitoCR" aria-haspopup="dialog">ⓘ Cómo se calcula</button>'+
+      '<div class="meta"><span>calculado · liquidación al '+esc(fdate(imp.asOf))+'</span></div></div>';
+  }
+  h+=liqBarsHTML(m.liqHist)+'</div>';
+  if(m.alturas) h+='<div class="sec-h"><h3>Calidad por altura</h3></div><div class="mgrid">'+alturasHTML(m.alturas)+'</div>';
+  h+='<div class="sec-h"><h3>Bolsa de Nueva York · arábica</h3></div><div class="mgrid">'+mcard(W.kc1,{key:'kc1'})+mcard(W.kc2,{key:'kc2'})+mcard(W.kc3,{key:'kc3'})+mcard(W.kc4,{key:'kc4'})+curveCardHTML(A&&A.curve)+'</div>';
+  h+='<div class="sec-h"><h3>Producción y exportaciones</h3></div><div class="mgrid">'+mcard(I.prod)+mcard(I.est)+mcard(I.expoValor)+'</div>';
+  let arb=null; if(W.robusta&&W.kc1&&isFinite(W.robusta.value)&&isFinite(W.kc1.value)){ const rc=W.robusta.value/22.0462; arb={rc,v:W.kc1.value-rc}; }
+  h+='<div class="sec-h"><h3>Otros mercados</h3></div><div class="mgrid">'+mcard(W.robusta,{key:'robusta'})+
+    (arb?'<div class="card mcard derived"><div class="lbl">Arbitraje arábica − robusta</div><div class="val">'+fmt(arb.v,1)+'<small>¢/lb</small></div><div class="note">Robusta = '+fmt(arb.rc,1)+' ¢/lb. Si se abre mucho, los tostadores sustituyen arábica por robusta.</div><button class="explain" data-explain="arbitraje" aria-haspopup="dialog">ⓘ Cómo se calcula</button><div class="meta"><span>calculado</span></div></div>':'')+
+    mcard(W.cot,{key:'cot'})+mcard(W.icestocks)+'</div>';
+  body.innerHTML=h;
+  const dcIn=$("#difCR"); if(dcIn){ let t; const val=()=>{ const v=parseNum(dcIn.value); return isFinite(v)?{value:v,date:new Date().toISOString().slice(0,10)}:null; };
+    dcIn.addEventListener("input",()=>{ clearTimeout(t); t=setTimeout(()=>{ ajustes.difCR=val(); Store.saveAjustes(); },900); });
+    dcIn.addEventListener("blur",()=>{ clearTimeout(t); const nv=val(); if(JSON.stringify(nv&&nv.value)!==JSON.stringify(ajustes.difCR&&ajustes.difCR.value)){ ajustes.difCR=nv; Store.saveAjustes(); } renderMercado(); }); }
+}
+
 /* ---------- panel "Cómo se calcula" ---------- */
 let sheetPrevFocus=null;
 function step(n,t,f,r,total){ return '<li'+(total?' class="total"':'')+'><span class="n">'+n+'</span><div><div class="t">'+t+'</div>'+(f?'<div class="f">'+f+'</div>':'')+(r?'<div class="r">'+r+'</div>':'')+'</div></li>'; }
 function explainHTML(key){
-  const m=FEED.mercado; if(!m||!m.items) return null; const I=m.items;
+  if(key==="implicitoCR"){ const x=impliedCR(FEED.mercado); if(!x||x.dif==null) return null; const dc=ajustes.difCR;
+    let h='<p class="lede" style="margin:0">Parte de la liquidación que el ICAFE estima para el productor, la lleva a dólares por libra de café oro y la compara con el precio promedio de exportación y con la base de la bolsa de NY de la misma cosecha. Todas las cifras son de la cosecha '+esc(x.cosecha||"")+', no del día.</p>';
+    h+='<table class="inputs-t"><tr><td>Liquidación estimada al productor<br><span class="muted small">ICAFE · al '+esc(fdate(x.asOf))+'</span></td><td>₡'+fmt(x.liq,0)+' por fanega</td></tr>'+
+      '<tr><td>Tipo de cambio promedio de la cosecha</td><td>₡'+fmt(x.tc,2)+'</td></tr>'+
+      '<tr><td>Rendimiento</td><td>'+fmt(x.kgOroFanega,0)+' kg oro por fanega</td></tr>'+
+      '<tr><td>Precio promedio de exportación</td><td>US$'+fmt(x.expo,2)+' por 46 kg</td></tr>'+
+      '<tr><td>Base de NY de la cosecha<br><span class="muted small">según el ICAFE</span></td><td>US$'+fmt(x.nyBase,0)+' por 46 kg</td></tr></table>';
+    h+='<ol class="steps">'+
+      step(1,"Liquidación en dólares","₡"+fmt(x.liq,0)+" ÷ ₡"+fmt(x.tc,2),"US$"+fmt(x.usdFan,2)+" por fanega")+
+      step(2,"Por libra de oro al productor",fmt(x.kgOroFanega,0)+" kg × 2,2046 = "+fmt(x.lbs,2)+" lb · US$"+fmt(x.usdFan,2)+" ÷ "+fmt(x.lbs,2),"US$"+fmt(x.prod,3)+"/lb")+
+      step(3,"Precio de exportación por libra","US$"+fmt(x.expo,2)+" ÷ "+fmt(x.lbQQ,2)+" lb","US$"+fmt(x.expLb,3)+"/lb")+
+      step(4,"Beneficio, exportación y margen","US$"+fmt(x.expLb,3)+" − US$"+fmt(x.prod,3)+" (al productor llega el "+fmt(x.share,1)+" %)","US$"+fmt(x.gap,3)+"/lb")+
+      step(5,"Base de NY en centavos por libra","US$"+fmt(x.nyBase,0)+" ÷ "+fmt(x.lbQQ,2)+" lb × 100",fmt(x.ny*100,1)+" ¢/lb")+
+      step(6,"Diferencial implícito de exportación","("+fmt(x.expLb,4)+" − "+fmt(x.ny,4)+") × 100",(x.dif>0?"+":"")+fmt(x.dif,1)+" ¢/lb",true)+
+      (dc&&isFinite(dc.value)?step(7,"Compara con tu cotización","Tu diferencial "+fmt(dc.value,1)+" − implícito "+fmt(x.dif,1),((dc.value-x.dif)>0?"+":"")+fmt(dc.value-x.dif,1)+" ¢/lb"):"")+'</ol>';
+    h+='<p class="small muted" style="margin:0">El paso 4 es lo que la calculadora usa por defecto como «Beneficio, exportación y margen». '+esc(x.nota||"")+'</p>';
+    const ls=[[x.liqUrl,"Liquidación"],[x.expoUrl,"Exportación y tipo de cambio"],[x.nyUrl,"Base de NY"]].filter(l=>l[0]);
+    if(ls.length) h+='<div class="small muted" style="display:flex;gap:10px;flex-wrap:wrap">Fuentes: '+ls.map(l=>'<a href="'+esc(l[0])+'" target="_blank" rel="noopener">'+esc(l[1])+'</a>').join("")+'</div>';
+    return {t:"Diferencial implícito ICAFE",h};
+  }
+  const m=isCR()?FEEDS_ALL.am.mercado:FEED.mercado; if(!m||!m.items) return null; const I=m.items;
   if(key==="implicito"){ const x=implied(m); if(!x) return null;
     const exc=125*70/94, neto=x.carga-x.pas, copLb=neto/x.lbs, dc=ajustes.difColombia;
     let h='<p class="lede" style="margin:0">Convierte el precio interno de la FNC (pesos por carga de pergamino) a dólares por libra de café excelso y lo compara con la bolsa de Nueva York. Es lo que el mercado colombiano paga por encima o por debajo de KC, puesto en Colombia y sin costos de exportación.</p>';
@@ -1318,7 +1495,17 @@ const REG_DEFAULT_CO=[
  ["Magdalena","Sierra Nevada de Santa Marta","Norte",9,12,null,null,"alta","Una sola cosecha al año; puede extenderse a enero"],
  ["La Guajira","Sierra Nevada / Perijá","Norte",9,12,null,null,"media","Una sola cosecha al año"]
 ].map((r,i)=>({i,id:REG_IDS_CO[i],dep:r[0],sub:r[1],zona:r[2],pI:r[3],pF:r[4],mI:r[5],mF:r[6],conf:r[7],nota:r[8]}));
-const regDefault=()=>isCO()?REG_DEFAULT_CO:REG_DEFAULT;
+/* respaldo de Costa Rica: las 7 regiones del ICAFE (reforma de 2025) */
+const REG_DEFAULT_CR=[
+ ["valle-central","Valle Central","Heredia, San José y Alajuela (incluye Tres Ríos)","Valles",11,2,"media","Desde 2025 incluye Tres Ríos, que suele empezar en octubre."],
+ ["valle-occidental","Valle Occidental","Naranjo, Palmares, Grecia, Sarchí y Atenas","Valles",11,2,"media","Suele empezar en noviembre."],
+ ["los-santos","Los Santos","Tarrazú, Dota y León Cortés","Los Santos",11,3,"alta","Antes llamada Tarrazú. Es la región de mayor producción."],
+ ["turrialba","Turrialba","Turrialba, Jiménez, Orosi y Cachí","Caribe",8,1,"media","Desde 2025 incluye Orosi. Primeras recolecciones desde julio-agosto; algunas fincas siguen hasta marzo."],
+ ["perez-zeledon","Pérez Zeledón","San Isidro de El General y alrededores","Sur",8,1,"media","Antes parte de Brunca. Región temprana."],
+ ["coto-brus","Coto Brus","San Vito y Sabalito","Sur",8,12,"media","Antes parte de Brunca. Región temprana: el pico suele llegar en octubre."],
+ ["zona-norte","Zona Norte","San Carlos, Sarapiquí y Guanacaste","Norte",8,1,"baja","Desde 2025 incluye la antigua región Guanacaste, que cosecha de julio a febrero."]
+].map((r,i)=>({i,id:r[0],dep:r[1],sub:r[2],zona:r[3],pI:r[4],pF:r[5],mI:null,mF:null,conf:r[6],nota:r[7]}));
+const regDefault=()=>isCO()?REG_DEFAULT_CO:isCR()?REG_DEFAULT_CR:REG_DEFAULT;
 let REG=regDefault();
 function setREG(){ const c=FEED.cosechas; REG=(c&&Array.isArray(c.regiones)&&c.regiones.length)?c.regiones.map((r,i)=>({...r,i,pI:+r.pI,pF:+r.pF,mI:r.mI==null||r.mI===""?null:+r.mI,mF:r.mF==null||r.mF===""?null:+r.mF})):regDefault(); }
 const estadoOf=r=>{const c=FEED.cosechas; return c&&c.estado?c.estado[r.id]:null;};
@@ -1344,7 +1531,7 @@ function renderCosechas(){
   let h='<div class="sec-h"><h3>'+(selM===TODAY_M?"Ahora, en "+MESES_L[selM-1]:"En "+MESES_L[selM-1])+'</h3><span class="small muted">'+(P.length+M.length)+' de '+REG.length+' '+Z().reg+' '+Z().verb+'</span></div>';
   h+='<div class="now-grid">';
   h+='<div class="card now-col"><h3><i class="key-dot k-p"></i>Cosecha principal · '+P.length+'</h3>'+(P.length?'<ul class="rlist">'+P.map(r=>li(r)).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
-  h+='<div class="card now-col"><h3><i class="key-dot k-m"></i>'+Z().mName+' · '+M.length+'</h3>'+(M.length?'<ul class="rlist">'+M.map(r=>li(r)).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
+  if(!Z().noM) h+='<div class="card now-col"><h3><i class="key-dot k-m"></i>'+Z().mName+' · '+M.length+'</h3>'+(M.length?'<ul class="rlist">'+M.map(r=>li(r)).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
   h+='<div class="card now-col"><h3><i class="key-dot k-s"></i>Empiezan en '+MESES_L[nx-1]+' · '+start.length+'</h3>'+(start.length?'<ul class="rlist">'+start.map(o=>li(o.r,"Inicia "+lbl(o.ph))).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
   h+='<div class="card now-col"><h3><i class="key-dot k-s"></i>Terminan en '+MESES_L[selM-1]+' · '+ending.length+'</h3>'+(ending.length?'<ul class="rlist">'+ending.map(o=>li(o.r,"Cierra "+lbl(o.ph))).join("")+'</ul>':'<span class="small muted">Ninguna</span>')+'</div>';
   h+='</div>';
@@ -1415,9 +1602,10 @@ function renderClima(){
     (d.links&&d.links.length?'<div class="small" style="display:flex;gap:12px;flex-wrap:wrap">'+d.links.map(l=>'<a href="'+esc(l.url)+'" target="_blank" rel="noopener">'+esc(l.t)+'</a>').join("")+'</div>':'')+'</div>'; }
   if(c.regions&&c.regions.length){
     const fs=c.forecastSource||{}; const mx=Math.max(60,...c.regions.map(r=>r.p7||0));
-    const rs=[...c.regions].sort((a,b)=>(b.p7||0)-(a.p7||0));
+    const has=r=>r.p7!=null&&isFinite(r.p7), rs=[...c.regions].sort((a,b)=>(has(b)-has(a))||((b.p7||0)-(a.p7||0)));
     h+='<div class="sec-h"><h3>Lluvia esperada · próximos 7 días</h3><span class="small muted">'+(fs.period?esc(fs.period):"")+'</span></div>';
     h+='<div class="card"><ul class="reg">'+rs.map(r=>{
+      if(!has(r)) return '<li><div class="nm">'+esc(climaName(r))+'<span>'+esc(r.place)+'</span></div><div class="bar" title="Sin pronóstico"><i style="width:0"></i></div><div class="mm">—</div><div class="sub"><span class="flag">Pronóstico pendiente: llega con la próxima actualización</span></div></li>';
       const cat=r.p7<25?["dry","Seco"]:r.p7>150?["wet","Muy lluvioso"]:r.p7>=75?["wet","Lluvioso"]:["","Moderado"];
       const st=regStatus(r); const harvesting=st.length>0;
       let flags=st.map(s=>'<span class="flag '+s.ph+'">'+esc(s.label)+'</span>').join("");
@@ -1456,46 +1644,61 @@ const NEWS_REG=[
 const NEWS_REG_NAME=Object.fromEntries(NEWS_REG.map(r=>[r[0],r[1]]));
 const newsNorm=t=>" "+String(t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9ñ]+/g," ")+" ";
 function newsRegs(x){
-  if(Array.isArray(x.regiones)) return x.regiones.filter(r=>NEWS_REG_NAME[r]);
-  if(x.scope!=="co") return [];
+  const L=newsRegList(), ids=L.map(r=>r[0]);
+  if(Array.isArray(x.regiones)) return x.regiones.filter(r=>ids.includes(r));
+  if(x.scope!==(isCR()?"cr":"co")) return [];
   const raw=String(x.title||"")+" "+String(x.summary||"");
   let t=newsNorm(raw);
   const out=new Set();
+  if(isCO()){
   if(t.includes(" eje cafetero ")) ["caldas","risaralda","quindio"].forEach(r=>out.add(r));
   if(t.includes(" valle del cauca ")){ out.add("valle"); t=t.split(" valle del cauca ").join(" "); }
   if(t.includes(" norte de santander ")){ out.add("norte-santander"); t=t.split(" norte de santander ").join(" "); }
   if(/\bCesar\b/.test(raw)) out.add("cesar");
-  t=t.split(" banco santander ").join(" ");
-  NEWS_REG.forEach(([id,,kw])=>{ if(kw.some(k=>t.includes(" "+k+" "))) out.add(id); });
-  return NEWS_REG.map(r=>r[0]).filter(id=>out.has(id));
+  t=t.split(" banco santander ").join(" "); }
+  L.forEach(([id,,kw])=>{ if(kw.some(k=>t.includes(" "+k+" "))) out.add(id); });
+  return ids.filter(id=>out.has(id));
 }
-const newsFz={am:LS.get("mc_newsF","all"),colombia:LS.get("co_newsF","all")};
-function setNewsF(f){ newsFz[ZOOM]=f; LS.set(isCO()?"co_newsF":"mc_newsF",f); renderNoticias(); }
+/* regiones de Costa Rica (las 7 del ICAFE, con los nombres antiguos para detectar noticias) */
+const NEWS_REG_CR=[
+  ["valle-central","Valle Central",["valle central","heredia","barva","tres rios","la union","curridabat","santo domingo","san rafael de heredia"]],
+  ["valle-occidental","Valle Occidental",["valle occidental","naranjo","palmares","grecia","sarchi","atenas","san ramon","poas"]],
+  ["los-santos","Los Santos",["los santos","tarrazu","dota","leon cortes","san marcos de tarrazu"]],
+  ["turrialba","Turrialba",["turrialba","orosi","cachi","jimenez","paraiso"]],
+  ["perez-zeledon","Pérez Zeledón",["perez zeledon","san isidro de el general","brunca"]],
+  ["coto-brus","Coto Brus",["coto brus","san vito","sabalito","brunca"]],
+  ["zona-norte","Zona Norte",["zona norte","san carlos","sarapiqui","guanacaste","tilaran","hojancha","nandayure","nicoya"]]
+];
+const newsRegList=()=>isCR()?NEWS_REG_CR:NEWS_REG;
+const newsRegName=id=>{ const r=newsRegList().find(x=>x[0]===id); return r?r[1]:id; };
+const NEWSF_LS={am:"mc_newsF",colombia:"co_newsF",costarica:"cr_newsF"};
+const newsFz={am:LS.get("mc_newsF","all"),colombia:LS.get("co_newsF","all"),costarica:LS.get("cr_newsF","all")};
+function setNewsF(f){ newsFz[ZOOM]=f; LS.set(NEWSF_LS[ZOOM],f); renderNoticias(); }
 /* países para el filtro: los del calendario y cualquier otro que traigan las noticias */
 function newsCountries(items){ const L=[...new Set(REG_DEFAULT.map(r=>r.dep))]; items.forEach(x=>{ if(x.scope!=="mundo"&&x.pais&&!L.includes(x.pais)) L.push(x.pais); }); return L; }
 function renderNoticias(){
-  const n=FEED.noticias, body=$("#newsBody"), pr=$("#newsPais"), co=isCO();
-  let nf=newsFz[ZOOM]||"all"; const local=co?"co":"am";
+  const n=FEED.noticias, body=$("#newsBody"), pr=$("#newsPais"), co=isPais(), pais=co?ZOOMS[ZOOM].pais:"América";
+  let nf=newsFz[ZOOM]||"all"; const local=isCO()?"co":isCR()?"cr":"am";
   if(!["all",local,"mundo"].includes(nf)&&!nf.startsWith("p:")) nf="all";
-  const isLoc=x=>co?x.scope==="co":x.scope!=="mundo";
-  $("#newsFilter").innerHTML=[["all","Todas"],[local,co?"Colombia":"América"],["mundo","Mundo"]].map(([f,t])=>'<button class="chip" data-f="'+f+'" aria-pressed="'+(nf===f)+'">'+t+'</button>').join("");
+  const isLoc=x=>co?x.scope===local:x.scope!=="mundo";
+  $("#newsFilter").innerHTML=[["all","Todas"],[local,pais],["mundo","Mundo"]].map(([f,t])=>'<button class="chip" data-f="'+f+'" aria-pressed="'+(nf===f)+'">'+t+'</button>').join("");
   $$("#newsFilter .chip").forEach(b=>b.onclick=()=>setNewsF(b.dataset.f));
-  $("#newsPaisT").textContent=co?"Filtrar por departamento":"Filtrar por país";
+  $("#newsPaisT").textContent=isCO()?"Filtrar por departamento":isCR()?"Filtrar por región":"Filtrar por país";
   const raw=(n&&n.items)||[];
   const all=raw.map(x=>({...x,_r:co?newsRegs(x):(isLoc(x)&&x.pais?[x.pais]:[])}));
-  const keys=co?NEWS_REG.map(r=>r[0]):newsCountries(raw), nameOf=k=>co?(NEWS_REG_NAME[k]||k):k;
+  const keys=co?newsRegList().map(r=>r[0]):newsCountries(raw), nameOf=k=>co?newsRegName(k):k;
   const sel=nf.startsWith("p:")&&keys.includes(nf.slice(2))?nf.slice(2):null;
   const cnt={}; all.forEach(x=>x._r.forEach(r=>cnt[r]=(cnt[r]||0)+1));
   pr.innerHTML=keys.map(k=>{ const c=cnt[k]||0; return '<button class="chip'+(c?'':' zero')+'" data-p="'+esc(k)+'" aria-pressed="'+(sel===k)+'">'+esc(nameOf(k))+'<span class="n">'+c+'</span></button>'; }).join("");
   $$("[data-p]",pr).forEach(b=>b.onclick=()=>setNewsF(sel===b.dataset.p?"all":"p:"+b.dataset.p));
   if(!raw.length){ body.innerHTML='<div class="empty"><strong>Todavía no hay noticias.</strong>Se cargan con la próxima actualización.</div>'; return; }
-  $("#newsLede").textContent=(co?"Colombia primero, luego el mercado mundial. Filtra por departamento para ver solo lo de una zona.":"Países productores de América primero, luego el mercado mundial.")+" Actualizado "+ago(n.updatedAt)+".";
+  $("#newsLede").textContent=(co?pais+" primero, luego el mercado mundial. Filtra por "+(isCO()?"departamento":"región")+" para ver solo lo de una zona.":"Países productores de América primero, luego el mercado mundial.")+" Actualizado "+ago(n.updatedAt)+".";
   let items=[...all].sort((a,b)=>String(b.date).localeCompare(String(a.date)));
   if(sel) items=items.filter(x=>x._r.includes(sel));
   else if(nf===local) items=items.filter(isLoc); else if(nf==="mundo") items=items.filter(x=>!isLoc(x)); else items=items.filter(isLoc).concat(items.filter(x=>!isLoc(x)));
   if(!items.length){ body.innerHTML='<div class="empty">'+(sel?'<strong>Sin noticias de '+esc(nameOf(sel))+' en esta actualización.</strong>Prueba con otro filtro o vuelve después de la próxima actualización.':'Sin noticias en este filtro.')+'</div>'; return; }
-  const tags=x=>{ if(!co) return ""; const r=x._r; if(!r.length) return ""; return r.slice(0,3).map(id=>'<span class="rtag">'+esc(NEWS_REG_NAME[id])+'</span>').join("")+(r.length>3?'<span class="rtag">+'+(r.length-3)+'</span>':""); };
-  const by=x=>'<div class="byline"><span class="scope '+(isLoc(x)?"co":"mundo")+'">'+esc(isLoc(x)?(co?"Colombia":(x.pais||"América")):"Mundo")+'</span>'+tags(x)+(x.tag?'<span>'+esc(x.tag)+'</span>':'')+'<span>'+esc(fdate(x.date))+'</span><span>'+esc(x.source||"")+'</span></div>';
+  const tags=x=>{ if(!co) return ""; const r=x._r; if(!r.length) return ""; return r.slice(0,3).map(id=>'<span class="rtag">'+esc(newsRegName(id))+'</span>').join("")+(r.length>3?'<span class="rtag">+'+(r.length-3)+'</span>':""); };
+  const by=x=>'<div class="byline"><span class="scope '+(isLoc(x)?"co":"mundo")+'">'+esc(isLoc(x)?(co?pais:(x.pais||"América")):"Mundo")+'</span>'+tags(x)+(x.tag?'<span>'+esc(x.tag)+'</span>':'')+'<span>'+esc(fdate(x.date))+'</span><span>'+esc(x.source||"")+'</span></div>';
   const lead=items[0];
   let h=sel&&co?'<p class="rhint">'+items.length+(items.length===1?' noticia menciona ':' noticias mencionan ')+esc(nameOf(sel))+'.</p>':'';
   h+='<article class="card lead">'+by(lead)+'<h3><a href="'+esc(lead.url)+'" target="_blank" rel="noopener">'+esc(lead.title)+'</a></h3><p>'+esc(lead.summary||"")+'</p></article>';
@@ -1632,7 +1835,7 @@ function renderEditor(){
     h+='<div class="card cafe" data-cid="'+c.id+'"><button class="cafe-h" data-tog="'+c.id+'" aria-expanded="'+open+'"><span class="mesa">Mesa '+esc(c.mesa)+'</span><span class="nm">'+esc(c.nombre||"Café sin nombre")+'</span><span class="score '+scoreCls(v)+'" data-sc="'+c.id+'">'+fmt(v,2)+'</span></button>';
     if(open){
       h+='<div class="cafe-b"><div class="fgrid"><div class="field full"><label>Café · finca · lote</label><input data-f="nombre" value="'+esc(c.nombre)+'" placeholder="Ej. El Mirador lote 3"></div>'+
-         '<div class="field"><label>Origen</label><input data-f="origen" list="deptos" value="'+esc(c.origen)+'" placeholder="'+(isCO()?"Departamento / municipio":"País · región")+'"></div>'+
+         '<div class="field"><label>Origen</label><input data-f="origen" list="deptos" value="'+esc(c.origen)+'" placeholder="'+(isCO()?"Departamento / municipio":isCR()?"Región / cantón":"País · región")+'"></div>'+
          '<div class="field"><label>Mesa</label><input data-f="mesa" inputmode="numeric" value="'+esc(c.mesa)+'"></div>'+
          '<div class="field"><label>Variedad</label><input data-f="variedad" value="'+esc(c.variedad)+'"></div>'+
          '<div class="field"><label>Proceso</label><input data-f="proceso" list="procesos" value="'+esc(c.proceso)+'"></div></div>';
@@ -1782,9 +1985,9 @@ function fillCalcSafe(){ if(!document.activeElement||!document.activeElement.clo
 
 /* datos publicados junto a la app (los actualizan las tareas programadas).
    Colombia: por ahora se leen los que publica DataCafé|Colombia en este mismo dominio; data/co/ es una copia de respaldo. */
-const FEED_KEYS={am:["mercado","noticias","clima","cosechas"],colombia:["mercado","noticias","clima","cosechas","historico"]};
-const FEED_URLS={am:k=>["data/"+k+".json"],colombia:k=>["/datacafe_compras/data/"+k+".json","data/co/"+k+".json"]};
-const FEED_LS={am:"feed_",colombia:"co_feed_"};
+const FEED_KEYS={am:["mercado","noticias","clima","cosechas"],colombia:["mercado","noticias","clima","cosechas","historico"],costarica:["mercado","noticias","clima","cosechas","historico"]};
+const FEED_URLS={am:k=>["data/"+k+".json"],colombia:k=>["/datacafe_compras/data/"+k+".json","data/co/"+k+".json"],costarica:k=>["data/cr/"+k+".json"]};
+const FEED_LS={am:"feed_",colombia:"co_feed_",costarica:"cr_feed_"};
 Object.keys(FEEDS_ALL).forEach(z=>FEED_KEYS[z].forEach(k=>FEEDS_ALL[z][k]=LS.get(FEED_LS[z]+k,null)));
 async function loadZone(z){
   await Promise.all(FEED_KEYS[z].map(async k=>{
@@ -1795,7 +1998,9 @@ async function loadZone(z){
     }
   }));
 }
-async function loadFeeds(){ await Promise.all((isCO()?["am","colombia"]:["am"]).map(loadZone));
+async function loadFeeds(){ await Promise.all((isPais()?["am",ZOOM]:["am"]).map(loadZone));
+  /* primera vez en Costa Rica sin calculadora guardada: arranca con la liquidación y el tipo de cambio del día */
+  if(isCR()&&LS.get("cr_calc_perg",null)==null&&!(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#calcBody"))){ calcState=CALC_ST.costarica=buildCalcState(); renderCalc(); }
   /* primera vez en Colombia sin calculadora guardada: arranca con el precio FNC del día */
   if(isCO()&&LS.get("co_calc_perg",null)==null&&!rawGet("mc_calc_perg")&&!(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#calcBody"))){ calcState=CALC_ST.colombia=buildCalcState(); renderCalc(); }
   onFeed(); }
@@ -1809,7 +2014,8 @@ function applyZoomUI(){
   $("#zseg").innerHTML=Object.values(ZOOMS).map(o=>'<button data-z="'+o.id+'" aria-pressed="'+(o.id===ZOOM)+'">'+esc(o.name)+'</button>').join("");
   $("#calcLede").textContent=c.calcLede; $("#cosLede").textContent=c.cosLede; $("#ganttT").textContent=c.gantt;
   $("#legM").textContent=c.mLong; $("#supT").textContent=c.supT; $("#supN").textContent=c.supN; $("#climaLede").textContent=c.climaLede;
-  $("#liveBox").hidden=!isCO(); $("#rowDetail").hidden=true;
+  $("#liveBox").hidden=!hasLive(); $("#rowDetail").hidden=true;
+  const lm=$("#legM"); if(lm&&lm.parentElement) lm.parentElement.hidden=!!c.noM;
 }
 function closeZoomMenu(){ const m=$("#zoomMenu"); if(m.hidden) return; m.hidden=true; $("#zoomBtn").setAttribute("aria-expanded","false"); }
 $("#zoomBtn").addEventListener("click",e=>{ e.stopPropagation(); const m=$("#zoomMenu"); if(!m.hidden){ closeZoomMenu(); return; }
@@ -1822,11 +2028,11 @@ $("#zseg").addEventListener("click",e=>{ const b=e.target.closest("[data-z]"); i
 function setZoom(z){
   if(!ZOOMS[z]||z===ZOOM) return;
   ZOOM=z; LS.set("zoom",z); FEED=FEEDS_ALL[z];
-  cur=isCO()?"COP":LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
+  cur=zoneCur()||LS.get("mc_cur","BRL"); if(!CUR_NAME[cur]) cur="BRL";
   calcState=CALC_ST[z]||(CALC_ST[z]=buildCalcState());
   try{ const u=new URL(location.href); if(z==="am") u.searchParams.delete("pais"); else u.searchParams.set("pais",z); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(e){}
   applyZoomUI(); renderCalc(); onFeed(); renderCatar();
-  if(isCO()&&!$("#v-mercado").hidden) loadLive();
+  if(hasLive()&&!$("#v-mercado").hidden) loadLive();
   toast("Vista: "+ZOOMS[z].name);
   loadFeeds();
 }
