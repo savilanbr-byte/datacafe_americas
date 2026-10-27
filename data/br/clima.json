@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:11:41Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -19,13 +19,13 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "28 de octubre al 3 de noviembre",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "impactos": [
   "Las floradas de la cosecha 2027-28 salieron bien en casi todas las regiones; noviembre y diciembre deciden el cuajado. Un El Niño con calor fuerte puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
   "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-  "El salto del dólar del 26 de octubre (+8 %) encarece el café en reales y suele animar al productor a vender: vigila el ritmo de ventas y los diferenciales FOB.",
+  "El dólar subió 8 % el 26 de octubre y retrocedió 1,1 % el 27 (R$5,35): sigue encareciendo el café en reales y puede animar al productor a vender; vigila el ritmo de ventas y los diferenciales FOB.",
   "El Niño suele traer lluvias irregulares al Sudeste y más calor; en el conilon del Espírito Santo, la falta de agua en la florada pesa sobre 2027."
  ],
  "avisos": {
@@ -55,9 +55,9 @@
    "place": "Varginha",
    "lat": -21.55,
    "lon": -45.43,
-   "p7": 74.4,
-   "tmax": 24,
-   "tmin": 18
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "cerrado-mineiro",
@@ -135,9 +135,9 @@
    "place": "Linhares",
    "lat": -19.39,
    "lon": -40.07,
-   "p7": 46.8,
-   "tmax": 29,
-   "tmin": 23
+   "p7": null,
+   "tmax": null,
+   "tmin": null
   },
   {
    "region": "bahia-atlantico",

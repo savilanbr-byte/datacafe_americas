@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:11:41Z",
  "items": [
   {
    "id": "b1",
@@ -8,8 +8,8 @@
    "date": "2026-10-27",
    "source": "CNN Brasil",
    "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
-   "title": "El dólar sube 8 % tras la segunda vuelta y retrocede el martes",
-   "summary": "Cerró el lunes en R$5,41, su mayor alza diaria en 23 años, y abrió el martes cerca de R$5,33. El café en reales se encarece: los precios físicos del arábica subieron hasta 6 % el lunes."
+   "title": "El dólar retrocede 1,07 % a R$5,35 tras el salto de 8 % del lunes",
+   "summary": "Cerró el martes en R$5,3488 después de dispararse el lunes por la reelección de Lula; el mercado espera el nombre del próximo ministro de Hacienda. Un real débil anima a exportadores y productores a vender."
   },
   {
    "id": "b2",
@@ -36,52 +36,6 @@
    "summary": "La floración fue buena para la próxima cosecha; el calor es el principal riesgo de las próximas semanas."
   },
   {
-   "id": "b4",
-   "scope": "br",
-   "tag": "Exportaciones",
-   "date": "2026-10-09",
-   "source": "Canal Rural",
-   "url": "https://www.canalrural.com.br/economia/exportacao-de-cafe-cresce-31-em-volume-em-setembro-mas-receita-cai-71/",
-   "title": "Exportación de septiembre sube 3,1 % en volumen, pero los ingresos caen 7,1 %",
-   "summary": "3,894 M de sacas por US$1.282 M (Cecafé). De enero a septiembre, el conilon exportado crece 68 % y el arábica cae 10,7 %."
-  },
-  {
-   "id": "b5",
-   "scope": "br",
-   "regiones": [
-    "sul-de-minas",
-    "cerrado-mineiro",
-    "mogiana",
-    "matas-de-minas"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-02",
-   "source": "O Tempo",
-   "url": "https://www.otempo.com.br/agro/2026/10/2/chuvas-antecipam-florada-do-cafe-e-elevam-expectativa-para-safra-2027",
-   "title": "Lluvias adelantan la florada del café y elevan las expectativas para 2027",
-   "summary": "Florada abundante en el Sur de Minas, el Cerrado Mineiro, la Alta Mogiana, las Matas de Minas y el Espírito Santo; el reto es el cuajado."
-  },
-  {
-   "id": "b6",
-   "scope": "br",
-   "tag": "Producción",
-   "date": "2026-09-24",
-   "source": "Conab",
-   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
-   "title": "Conab: cosecha récord de 67,6 millones de sacas en 2026",
-   "summary": "Arábica 48,2 M (+34,8 %) y conilon 19,4 M (−6,6 %); el Cerrado Mineiro crece 86 % y Rondônia 24 %."
-  },
-  {
-   "id": "b7",
-   "scope": "br",
-   "tag": "Exportaciones",
-   "date": "2026-07-15",
-   "source": "DGABC",
-   "url": "https://www.dgabc.com.br/Noticia/4335503/cecafe-exportacoes-de-cafe-do-brasil-caem-15-7-na-safra-2025-26-para-38-5-milhoes-de-sacas",
-   "title": "Cecafé: exportaciones de la safra 2025-26 caen 15,7 % a 38,5 millones de sacas",
-   "summary": "Ingresos de US$14.595 M con precio medio récord de US$379,48 por saca; Alemania pasó a ser el primer destino."
-  },
-  {
    "id": "n8",
    "scope": "mundo",
    "tag": "Exportaciones",
@@ -92,14 +46,14 @@
    "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
   },
   {
-   "date": "2026-10-21",
+   "date": "2026-10-27",
    "id": "n9",
    "scope": "mundo",
    "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+   "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15 de septiembre (el mínimo de 27 años fue 217.646). La debilidad del real presiona a exportadores y productores brasileños a vender futuros como cobertura.",
    "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
+   "title": "Inventarios certificados de arábica bajan a 225.610 sacos",
+   "url": "https://www.admis.com/coffee-futures-extend-selloff/"
   },
   {
    "date": "2026-10-18",
@@ -130,6 +84,17 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "b8",
+   "scope": "br",
+   "regiones": [],
+   "tag": "Exportaciones",
+   "date": "2026-10-13",
+   "source": "Reconecta News · Cecafé",
+   "url": "https://reconectanews.com.br/porto-de-santos-concentra-707-das-exportacoes-brasileiras-de-cafe-em-2026/",
+   "title": "Santos concentra 70,7 % de las exportaciones de café de Brasil en 2026",
+   "summary": "De enero a septiembre salieron 29,1 M de sacas (−0,2 %) y Santos movió 20,6 M; en el primer trimestre de la safra 2026-27 (julio–septiembre) se exportaron 11,21 M de sacas (+15,5 %). EE. UU. es el primer destino del año con 3,8 M de sacas."
   }
  ]
 }

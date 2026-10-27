@@ -1,60 +1,60 @@
 {
- "updatedAt": "2026-10-27T18:00:00Z",
+ "updatedAt": "2026-10-27T23:11:41Z",
  "items": {
   "tc": {
    "label": "Dólar comercial (cierre)",
-   "value": 5.4066,
+   "value": 5.3488,
    "dec": 4,
    "unit": "BRL/USD",
-   "change": 0.4166,
-   "changePct": 8.14,
+   "change": -0.0578,
+   "changePct": -1.07,
    "chgDec": 4,
-   "asOf": "2026-10-26",
+   "asOf": "2026-10-27",
    "source": "CNN Brasil",
    "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
    "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
    "liveT": "Banco Central",
-   "note": "El lunes 26 el dólar subió más de 8 %, su mayor alza diaria en 23 años, tras la segunda vuelta electoral. El martes 27 abrió a la baja (R$5,33 a las 11:30)."
+   "note": "El martes 27 el dólar devolvió parte del salto del lunes (+8 %, tras la segunda vuelta) y cerró en R$5,35, con cautela por el próximo ministro de Hacienda."
   },
   "ptax": {
    "label": "Dólar PTAX (venta)",
-   "value": 5.0377,
+   "value": 5.3346,
    "dec": 4,
    "unit": "BRL/USD",
-   "asOf": "2026-10-23",
+   "asOf": "2026-10-27",
    "source": "BCB · Renova Invest",
    "url": "https://renovainvest.com.br/dolar-hoje/",
-   "note": "Referencia oficial del Banco Central, antes del salto del lunes 26."
+   "note": "Referencia oficial del Banco Central del 27-oct, tras el salto del lunes."
   },
   "cepeaA": {
    "label": "Indicador CEPEA/ESALQ · arábica",
-   "value": 1627.46,
+   "value": 1610.19,
    "dec": 2,
    "unit": "BRL/saca",
-   "changePct": 1.59,
-   "asOf": "2026-10-26",
-   "fx": 5.4066,
-   "fxSrc": "dólar comercial del 26-oct (cierre)",
+   "changePct": -1.06,
+   "asOf": "2026-10-27",
+   "fx": 5.3488,
+   "fxSrc": "dólar comercial del 27-oct (cierre)",
    "source": "CEPEA · Notícias Agrícolas",
    "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
    "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
    "liveT": "CEPEA",
-   "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. El indicador del 26 subió menos que el dólar (+8 %), así que en dólares quedó más bajo; los precios físicos de ese día subieron hasta 6 % (Cooxupé R$1.800, Expocaccer R$1.815)."
+   "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 1,06 % el 27 tras subir 1,59 % el 26, cuando el dólar se disparó."
   },
   "cepeaR": {
    "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-   "value": 936.73,
+   "value": 967.97,
    "dec": 2,
    "unit": "BRL/saca",
-   "changePct": -0.58,
-   "asOf": "2026-10-23",
-   "fx": 5.0377,
-   "fxSrc": "PTAX venta del 23-oct",
+   "changePct": 1.4,
+   "asOf": "2026-10-27",
+   "fx": 5.3488,
+   "fxSrc": "dólar comercial del 27-oct (cierre)",
    "source": "CEPEA · Notícias Agrícolas",
    "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
    "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
    "liveT": "CEPEA",
-   "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Cayó 3,6 % en la semana."
+   "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 1,9 % el 26 y 1,4 % el 27, tras caer 3,6 % en la semana previa."
   },
   "prod": {
    "label": "Cosecha 2026 (Conab)",
