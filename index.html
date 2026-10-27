@@ -327,14 +327,12 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .zoom-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
 .zoom-menu{position:absolute;top:calc(100% + 8px);left:0;z-index:30;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 32px rgb(0 0 0 / .16);padding:6px;width:min(280px,calc(100vw - 32px));display:flex;flex-direction:column;gap:2px}
 .zoom-menu .eyebrow{padding:6px 10px 4px}
-.zoom-menu button{display:flex;flex-direction:column;align-items:flex-start;gap:1px;width:100%;text-align:left;background:none;border:0;border-radius:9px;padding:9px 12px}
+.zoom-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:none;border:0;border-radius:9px;padding:7px 10px}
 .zoom-menu button:hover{background:var(--sunk)}
 .zoom-menu button b{font-family:var(--f-display);font-size:16px;font-weight:700}
-.zoom-menu button span{font-size:12px;color:var(--muted)}
+.zoom-menu button .tx span{font-size:12px;color:var(--muted)}
 .zoom-menu button[aria-checked="true"]{background:var(--sunk)}
-.zoom-menu button[aria-checked="true"] b::after{content:" ✓";color:var(--leaf)}
 .zsel{display:flex;flex-direction:column;gap:6px}
-.zseg button{padding:7px 6px;font-size:13.5px}
 .alturas .agrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin:6px 0 4px}
 .agrade{background:var(--sunk);border-radius:9px;padding:8px 10px;display:flex;flex-direction:column;gap:1px;min-width:0}
 .agrade b{font-family:var(--f-num);font-size:17px;font-weight:500}
@@ -348,8 +346,25 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
 .abar i{position:absolute;top:0;bottom:0}
 .ag{font-family:var(--f-num);font-size:11.5px;color:var(--muted);white-space:nowrap}
 .obars.liq li{grid-template-columns:minmax(0,.9fr) minmax(0,2fr) 78px}
-.zseg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}
-.zseg button{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* selector de vista: la vista actual y, al tocarla, la lista agrupada */
+.cc{font-family:var(--f-num);font-size:10.5px;font-weight:500;letter-spacing:.02em;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--sunk);color:var(--muted);flex:none}
+.zcur{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;border-radius:12px;background:var(--sunk);color:var(--ink);font:inherit}
+.zcur:hover{background:color-mix(in srgb,var(--sunk) 80%,var(--line))}
+.zcur .cc{width:32px;height:32px;font-size:11.5px;background:var(--leaf);color:#fff}
+.zcur .t{min-width:0;flex:1}
+.zcur b{display:block;font-family:var(--f-display);font-size:16px;font-weight:700;line-height:1.2}
+.zcur .t span{display:block;font-size:11.5px;color:var(--muted);line-height:1.3}
+.zcur i{font-style:normal;font-size:12.5px;color:var(--muted);white-space:nowrap;display:flex;align-items:center;gap:2px}
+.zcur i svg{width:14px;height:14px;transition:transform .15s}
+.zcur[aria-expanded="true"] i svg{transform:rotate(90deg)}
+.zlist{display:flex;flex-direction:column;gap:1px;border:1px solid var(--line);border-radius:12px;padding:6px;background:var(--surface)}
+.zlist .eyebrow,.zoom-menu .zg{padding:8px 8px 3px}
+.zlist button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;padding:7px 8px;border:0;border-radius:9px;background:none;color:var(--ink);font:inherit;font-size:14.5px}
+.zlist button:hover{background:var(--sunk)}
+.zlist button[aria-pressed="true"]{background:var(--sunk);font-weight:600}
+.zlist button[aria-pressed="true"]::after,.zoom-menu button[aria-checked="true"]::after{content:"✓";margin-left:auto;color:var(--leaf);font-weight:600}
+.zoom-menu button .tx{display:flex;flex-direction:column;gap:1px;min-width:0;flex:1}
+.zoom-menu button .tx b,.zoom-menu button .tx span{display:block}
 /* ===== Vista Colombia: históricos, En vivo y regiones (traído de DataCafé|Colombia) ===== */
 .mcard[data-hist]{cursor:pointer;transition:border-color .15s}
 .mcard[data-hist]:hover{border-color:color-mix(in srgb,var(--ink) 35%,var(--line))}
@@ -450,6 +465,7 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
   .tabbar{display:none}
   .drawer{top:var(--toph);width:var(--side);transform:none;visibility:visible;transition:none;z-index:4;padding:18px 16px 28px}
   .drawer-h{display:none}
+  .zcur i .w{display:none}
   .drawer-bg{display:none!important}
   .dnav button{padding:9px 10px;font-size:14.5px}
   main{padding-bottom:56px}
@@ -577,7 +593,7 @@ main{padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 28px)}
     <div class="brand"><span class="bean" aria-hidden="true"></span><h2>DataCafé<span class="brand-bar" aria-hidden="true">|</span><span class="brand-sub" data-zl>Américas</span></h2></div>
     <button class="btn ghost" id="drawerX" aria-label="Cerrar menú">✕</button>
   </div>
-  <div class="zsel"><div class="eyebrow">Vista</div><div class="seg zseg" id="zseg" role="group" aria-label="Vista"></div></div>
+  <div class="zsel"><div class="eyebrow" id="zselT">Vista</div><button class="zcur" id="zcur" aria-expanded="false" aria-controls="zlist"></button><div class="zlist" id="zlist" role="group" aria-labelledby="zselT" hidden></div></div>
   <nav class="dnav" id="dnav" aria-label="Secciones"></nav>
   <section class="card shareqr" aria-labelledby="shareT">
     <div class="eyebrow" id="shareT">Comparte la app</div>
@@ -675,12 +691,12 @@ syncDesk();
 
 /* ---------- vista (zoom): Américas o un país ---------- */
 const ZOOMS={
-  am:{id:"am",name:"Américas",desc:"13 países · vista general"},
-  colombia:{id:"colombia",name:"Colombia",pais:"Colombia",desc:"Por departamento · precio FNC y TRM"},
-  costarica:{id:"costarica",name:"CostaRica",pais:"Costa Rica",desc:"7 regiones ICAFE · liquidación en colones"},
-  honduras:{id:"honduras",name:"Honduras",pais:"Honduras",desc:"6 regiones IHCAFE · uva, mojado, seco y oro en lempiras"},
-  guatemala:{id:"guatemala",name:"Guatemala",pais:"Guatemala",desc:"8 regiones Anacafé · cereza, pergamino y oro en quetzales"},
-  elsalvador:{id:"elsalvador",name:"ElSalvador",pais:"El Salvador",desc:"6 cordilleras ISC · uva, pergamino y oro en dólares"}
+  am:{id:"am",cc:"AM",short:"Vista general · 13 países",name:"Américas",desc:"13 países · vista general"},
+  colombia:{id:"colombia",cc:"CO",short:"Pesos · FNC y TRM",grp:"Andes",name:"Colombia",pais:"Colombia",desc:"Por departamento · precio FNC y TRM"},
+  costarica:{id:"costarica",cc:"CR",short:"Colones · ICAFE",grp:"Centroamérica",name:"CostaRica",pais:"Costa Rica",desc:"7 regiones ICAFE · liquidación en colones"},
+  honduras:{id:"honduras",cc:"HN",short:"Lempiras · IHCAFE",grp:"Centroamérica",name:"Honduras",pais:"Honduras",desc:"6 regiones IHCAFE · uva, mojado, seco y oro en lempiras"},
+  guatemala:{id:"guatemala",cc:"GT",short:"Quetzales · Anacafé",grp:"Centroamérica",name:"Guatemala",pais:"Guatemala",desc:"8 regiones Anacafé · cereza, pergamino y oro en quetzales"},
+  elsalvador:{id:"elsalvador",cc:"SV",short:"Dólares · ISC",grp:"Centroamérica",name:"ElSalvador",pais:"El Salvador",desc:"6 cordilleras ISC · uva, pergamino y oro en dólares"}
 };
 /* países con calculadora propia de la cereza al oro (Colombia va aparte) */
 const PAIS={
@@ -2232,12 +2248,20 @@ async function loadFeeds(){ await Promise.all((isPais()?["am",ZOOM]:["am"]).map(
   onFeed(); }
 
 /* ---------- selector de vista ---------- */
+/* nombre para listas: el del país con espacios (Costa Rica); la marca va sin espacio (DataCafé|CostaRica) */
+const zLabel=o=>o.pais||o.name;
+const ZGRUPOS=["Centroamérica","Andes","Brasil","Norteamérica","Caribe"];
+function zoomGroups(){ const vs=Object.values(ZOOMS), out=[[null,vs.filter(o=>!o.grp)]];
+  ZGRUPOS.concat([...new Set(vs.map(o=>o.grp).filter(g=>g&&!ZGRUPOS.includes(g)))]).forEach(g=>{ const os=vs.filter(o=>o.grp===g).sort((a,b)=>zLabel(a).localeCompare(zLabel(b),"es")); if(os.length) out.push([g,os]); });
+  return out; }
 function applyZoomUI(){
   const zz=ZOOMS[ZOOM], c=Z();
   $$("[data-zl]").forEach(e=>e.textContent=zz.name);
   document.title="DataCafé|"+zz.name;
-  $("#zoomMenu").innerHTML='<div class="eyebrow">Ver</div>'+Object.values(ZOOMS).map(o=>'<button role="menuitemradio" aria-checked="'+(o.id===ZOOM)+'" data-z="'+o.id+'"><b>'+esc(o.name)+'</b><span>'+esc(o.desc)+'</span></button>').join("");
-  $("#zseg").innerHTML=Object.values(ZOOMS).map(o=>'<button data-z="'+o.id+'" aria-pressed="'+(o.id===ZOOM)+'">'+esc(o.name)+'</button>').join("");
+  $("#zoomMenu").innerHTML='<div class="eyebrow">Ver</div>'+zoomGroups().map(([g,os])=>(g?'<div class="eyebrow zg">'+esc(g)+'</div>':'')+os.map(o=>'<button role="menuitemradio" aria-checked="'+(o.id===ZOOM)+'" data-z="'+o.id+'"><span class="cc">'+esc(o.cc)+'</span><span class="tx"><b>'+esc(zLabel(o))+'</b><span>'+esc(o.desc)+'</span></span></button>').join("")).join("");
+  $("#zcur").innerHTML='<span class="cc">'+esc(zz.cc)+'</span><span class="t"><b>'+esc(zLabel(zz))+'</b><span>'+esc(zz.short||zz.desc)+'</span></span><i><span class="w">Cambiar</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></i>';
+  $("#zcur").setAttribute("aria-label","Vista: "+zLabel(zz)+". Cambiar de vista");
+  $("#zlist").innerHTML=zoomGroups().map(([g,os])=>(g?'<div class="eyebrow">'+esc(g)+'</div>':'')+os.map(o=>'<button data-z="'+o.id+'" aria-pressed="'+(o.id===ZOOM)+'"><span class="cc">'+esc(o.cc)+'</span>'+esc(zLabel(o))+'</button>').join("")).join("");
   $("#calcLede").textContent=c.calcLede; $("#cosLede").textContent=c.cosLede; $("#ganttT").textContent=c.gantt;
   $("#legM").textContent=c.mLong; $("#supT").textContent=c.supT; $("#supN").textContent=c.supN; $("#climaLede").textContent=c.climaLede;
   $("#liveBox").hidden=!hasLive(); $("#rowDetail").hidden=true;
@@ -2250,7 +2274,9 @@ $("#zoomMenu").addEventListener("click",e=>{ const b=e.target.closest("[data-z]"
 $("#zoomMenu").addEventListener("keydown",e=>{ if(e.key!=="ArrowDown"&&e.key!=="ArrowUp") return; e.preventDefault(); const bs=$$("button",$("#zoomMenu")), i=bs.indexOf(document.activeElement); bs[(i+(e.key==="ArrowDown"?1:bs.length-1))%bs.length].focus(); });
 document.addEventListener("click",e=>{ if(!e.target.closest||!e.target.closest("#zoomMenu,#zoomBtn")) closeZoomMenu(); });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeZoomMenu(); });
-$("#zseg").addEventListener("click",e=>{ const b=e.target.closest("[data-z]"); if(b) setZoom(b.dataset.z); });
+function setZList(open){ $("#zlist").hidden=!open; $("#zcur").setAttribute("aria-expanded",String(open)); }
+$("#zcur").addEventListener("click",()=>setZList($("#zlist").hidden));
+$("#zlist").addEventListener("click",e=>{ const b=e.target.closest("[data-z]"); if(!b) return; setZList(false); setZoom(b.dataset.z); });
 function setZoom(z){
   if(!ZOOMS[z]||z===ZOOM) return;
   ZOOM=z; LS.set("zoom",z); FEED=FEEDS_ALL[z];
@@ -2259,7 +2285,7 @@ function setZoom(z){
   try{ const u=new URL(location.href); if(z==="am") u.searchParams.delete("pais"); else u.searchParams.set("pais",z); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(e){}
   applyZoomUI(); renderCalc(); onFeed(); renderCatar();
   if(hasLive()&&!$("#v-mercado").hidden) loadLive();
-  toast("Vista: "+ZOOMS[z].name);
+  toast("Vista: "+zLabel(ZOOMS[z]));
   loadFeeds();
 }
 
