@@ -1,100 +1,100 @@
 {
- "updatedAt": "2026-10-27T23:17:56Z",
- "items": {
-  "tc": {
-   "label": "Tipo de cambio FIX de Banxico",
-   "value": 18.6525,
-   "dec": 4,
-   "unit": "MXN/USD",
-   "change": 0.0727,
-   "chgDec": 4,
-   "asOf": "2026-10-27",
-   "source": "Banxico",
-   "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
-   "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
-   "liveT": "Banxico",
-   "note": "Un peso más fuerte baja lo que recibe el productor por el mismo precio en dólares."
+  "updatedAt": "2026-10-28T11:50:00Z",
+  "items": {
+    "tc": {
+      "label": "Tipo de cambio FIX de Banxico",
+      "value": 18.6525,
+      "dec": 4,
+      "unit": "MXN/USD",
+      "change": 0.0727,
+      "chgDec": 4,
+      "asOf": "2026-10-27",
+      "source": "Banxico",
+      "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
+      "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
+      "liveT": "Banxico",
+      "note": "Un peso más fuerte baja lo que recibe el productor por el mismo precio en dólares."
+    },
+    "difRef": {
+      "label": "Diferencial de referencia · Veracruz",
+      "value": 35,
+      "dec": 0,
+      "unit": "¢/lb",
+      "asOf": "2026-10-13",
+      "source": "CNOC · Hora Cero",
+      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
+      "note": "Unos US$35 por 100 libras sobre una bolsa promedio de US$285, con el peso en ≈18,30 (Fernando Celis, CNOC)."
+    },
+    "precioProd": {
+      "label": "Cereza convencional · Altas Montañas, Veracruz",
+      "value": null,
+      "text": "8–12 MXN/kg",
+      "asOf": "2026-10-21",
+      "source": "Córdoba a Diario",
+      "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
+      "note": "El 21-oct se pagaba 12 en Totutla, 11,60 en Manuel González, 11 en Tenampa y 8 en Monte Blanco y Chocamán; La Jornada Veracruz (22-oct) reporta 7–10 en Zongolica, Ixtaczoquitlán, Río Blanco y Córdoba. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
+    },
+    "expo": {
+      "label": "Otros Suaves (OIC) · septiembre",
+      "value": 329.44,
+      "dec": 2,
+      "unit": "¢/lb",
+      "changePct": -8.8,
+      "asOf": "2026-10-09",
+      "source": "OIC · Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
+      "note": "Referencia del café de México y Centroamérica. Promedio de 12 meses: 351,56; máximo del ciclo: 410,31 (nov-2025)."
+    },
+    "prod": {
+      "label": "Producción 2024-25 (SIAP)",
+      "value": 1.08,
+      "dec": 2,
+      "unit": "M t de cereza",
+      "changePct": 1.9,
+      "asOf": "2026-09-08",
+      "source": "SIAP · La Crónica",
+      "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
+      "note": "Chiapas 36,5 %, Veracruz 24,8 % y Puebla 21,1 %."
+    },
+    "expoVol": {
+      "label": "Exportación 2024-25",
+      "value": 2.9,
+      "dec": 1,
+      "unit": "M sacos de 60 kg",
+      "asOf": "2026-09-08",
+      "source": "FIRA · La Crónica",
+      "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
+      "note": "Estados Unidos compra el 68 %; Bélgica 13,6 % y Alemania 7,8 %."
+    }
   },
-  "difRef": {
-   "label": "Diferencial de referencia · Veracruz",
-   "value": 35,
-   "dec": 0,
-   "unit": "¢/lb",
-   "asOf": "2026-10-13",
-   "source": "CNOC · Hora Cero",
-   "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-   "note": "Unos US$35 por 100 libras sobre una bolsa promedio de US$285, con el peso en ≈18,30 (Fernando Celis, CNOC)."
+  "calcRef": {
+    "difA": 35,
+    "difR": 0
   },
-  "precioProd": {
-   "label": "Cereza convencional · Altas Montañas, Veracruz",
-   "value": null,
-   "text": "8–12 MXN/kg",
-   "asOf": "2026-10-21",
-   "source": "Córdoba a Diario",
-   "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
-   "note": "El 21-oct se pagaba 12 en Totutla, 11,60 en Manuel González, 11 en Tenampa y 8 en Monte Blanco y Chocamán; La Jornada Veracruz (22-oct) reporta 7–10 en Zongolica, Ixtaczoquitlán, Río Blanco y Córdoba. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
-  },
-  "expo": {
-   "label": "Otros Suaves (OIC) · septiembre",
-   "value": 329.44,
-   "dec": 2,
-   "unit": "¢/lb",
-   "changePct": -8.8,
-   "asOf": "2026-10-09",
-   "source": "OIC · Alerta Chiapas",
-   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
-   "note": "Referencia del café de México y Centroamérica. Promedio de 12 meses: 351,56; máximo del ciclo: 410,31 (nov-2025)."
-  },
-  "prod": {
-   "label": "Producción 2024-25 (SIAP)",
-   "value": 1.08,
-   "dec": 2,
-   "unit": "M t de cereza",
-   "changePct": 1.9,
-   "asOf": "2026-09-08",
-   "source": "SIAP · La Crónica",
-   "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
-   "note": "Chiapas 36,5 %, Veracruz 24,8 % y Puebla 21,1 %."
-  },
-  "expoVol": {
-   "label": "Exportación 2024-25",
-   "value": 2.9,
-   "dec": 1,
-   "unit": "M sacos de 60 kg",
-   "asOf": "2026-09-08",
-   "source": "FIRA · La Crónica",
-   "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
-   "note": "Estados Unidos compra el 68 %; Bélgica 13,6 % y Alemania 7,8 %."
+  "oferta": {
+    "title": "Producción por estado · 2024-25",
+    "unit": "% del café cereza (SIAP)",
+    "asOf": "2026-09-08",
+    "source": "La Crónica",
+    "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
+    "rows": [
+      {
+        "pais": "Chiapas",
+        "value": 36.5
+      },
+      {
+        "pais": "Veracruz",
+        "value": 24.8
+      },
+      {
+        "pais": "Puebla",
+        "value": 21.1
+      },
+      {
+        "pais": "Otros",
+        "value": 17.6,
+        "note": "Oaxaca, Guerrero, Huasteca…"
+      }
+    ]
   }
- },
- "calcRef": {
-  "difA": 35,
-  "difR": 0
- },
- "oferta": {
-  "title": "Producción por estado · 2024-25",
-  "unit": "% del café cereza (SIAP)",
-  "asOf": "2026-09-08",
-  "source": "La Crónica",
-  "url": "https://www.cronica.com.mx/negocios/2026/09/08/mexico-exporta-el-68-de-cafe-que-produce-a-estados-unidos/",
-  "rows": [
-   {
-    "pais": "Chiapas",
-    "value": 36.5
-   },
-   {
-    "pais": "Veracruz",
-    "value": 24.8
-   },
-   {
-    "pais": "Puebla",
-    "value": 21.1
-   },
-   {
-    "pais": "Otros",
-    "value": 17.6,
-    "note": "Oaxaca, Guerrero, Huasteca…"
-   }
-  ]
- }
 }

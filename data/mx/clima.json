@@ -1,158 +1,158 @@
 {
- "updatedAt": "2026-10-27T23:17:56Z",
- "enso": {
-  "asOf": "2026-10-08",
-  "facts": [
-   {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
-   },
-   {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
-   }
+  "updatedAt": "2026-10-28T11:50:00Z",
+  "enso": {
+    "asOf": "2026-10-08",
+    "facts": [
+      {
+        "l": "Anomalía Niño 3.4",
+        "v": "+2,1 °C"
+      },
+      {
+        "l": "Fuerte o más hasta ene–mar 2027",
+        "v": "83%"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "period": "",
+    "url": "https://www.yr.no/"
+  },
+  "impactos": [
+    "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
+    "Las lluvias de 50 a 75 mm del 22-oct y los chubascos de esta semana dificultan el secado del pergamino y el transporte desde fincas de Veracruz, Oaxaca y Chiapas; conviene verificar humedad al comprar.",
+    "En las Altas Montañas de Veracruz la cereza se paga entre 7 y 12 pesos y los productores temen perder hasta 40 % por sequía, calor y lluvias; los lotes buenos se venden pronto.",
+    "Las mañanas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en la cosecha que arranca en Chiapas y Oaxaca.",
+    "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "period": "",
-  "url": "https://www.yr.no/"
- },
- "impactos": [
-  "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
-  "Las lluvias de 50 a 75 mm del 22-oct y los chubascos de esta semana dificultan el secado del pergamino y el transporte desde fincas de Veracruz, Oaxaca y Chiapas; conviene verificar humedad al comprar.",
-  "En las Altas Montañas de Veracruz la cereza se paga entre 7 y 12 pesos y los productores temen perder hasta 40 % por sequía, calor y lluvias; los lotes buenos se venden pronto.",
-  "Las mañanas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en la cosecha que arranca en Chiapas y Oaxaca.",
-  "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
- ],
- "regions": [
-  {
-   "region": "chiapas-soconusco",
-   "dept": "Soconusco",
-   "place": "Tapachula, Chiapas",
-   "lat": 14.9,
-   "lon": -92.26,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "chiapas-frailesca",
-   "dept": "Frailesca",
-   "place": "Jaltenango (Ángel Albino Corzo)",
-   "lat": 15.87,
-   "lon": -92.72,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "chiapas-altos",
-   "dept": "Altos de Chiapas",
-   "place": "Pantelhó",
-   "lat": 17.0,
-   "lon": -92.47,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "veracruz",
-   "dept": "Veracruz centro",
-   "place": "Huatusco",
-   "lat": 19.15,
-   "lon": -96.97,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "puebla",
-   "dept": "Sierra Norte de Puebla",
-   "place": "Cuetzalan",
-   "lat": 20.02,
-   "lon": -97.52,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "huasteca",
-   "dept": "Huasteca",
-   "place": "Tlanchinol, Hidalgo",
-   "lat": 20.99,
-   "lon": -98.66,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "oaxaca",
-   "dept": "Oaxaca",
-   "place": "Pluma Hidalgo",
-   "lat": 15.92,
-   "lon": -96.42,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "guerrero",
-   "dept": "Guerrero",
-   "place": "Atoyac de Álvarez",
-   "lat": 17.21,
-   "lon": -100.43,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "robusta-chiapas",
-   "dept": "Robusta Chiapas",
-   "place": "Cacahoatán",
-   "lat": 14.99,
-   "lon": -92.17,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "robusta-golfo",
-   "dept": "Robusta Golfo",
-   "place": "Tezonapa, Veracruz",
-   "lat": 18.61,
-   "lon": -96.69,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
+  "regions": [
+    {
+      "region": "chiapas-soconusco",
+      "dept": "Soconusco",
+      "place": "Tapachula, Chiapas",
+      "lat": 14.9,
+      "lon": -92.26,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "chiapas-frailesca",
+      "dept": "Frailesca",
+      "place": "Jaltenango (Ángel Albino Corzo)",
+      "lat": 15.87,
+      "lon": -92.72,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "chiapas-altos",
+      "dept": "Altos de Chiapas",
+      "place": "Pantelhó",
+      "lat": 17.0,
+      "lon": -92.47,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "veracruz",
+      "dept": "Veracruz centro",
+      "place": "Huatusco",
+      "lat": 19.15,
+      "lon": -96.97,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "puebla",
+      "dept": "Sierra Norte de Puebla",
+      "place": "Cuetzalan",
+      "lat": 20.02,
+      "lon": -97.52,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "huasteca",
+      "dept": "Huasteca",
+      "place": "Tlanchinol, Hidalgo",
+      "lat": 20.99,
+      "lon": -98.66,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "oaxaca",
+      "dept": "Oaxaca",
+      "place": "Pluma Hidalgo",
+      "lat": 15.92,
+      "lon": -96.42,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "guerrero",
+      "dept": "Guerrero",
+      "place": "Atoyac de Álvarez",
+      "lat": 17.21,
+      "lon": -100.43,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "robusta-chiapas",
+      "dept": "Robusta Chiapas",
+      "place": "Cacahoatán",
+      "lat": 14.99,
+      "lon": -92.17,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "robusta-golfo",
+      "dept": "Robusta Golfo",
+      "place": "Tezonapa, Veracruz",
+      "lat": 18.61,
+      "lon": -96.69,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    }
+  ],
+  "avisos": {
+    "source": "SMN · CONAGUA",
+    "asOf": "2026-10-27",
+    "headline": "Chubascos en el sur y sureste, mañanas de 0 a 5 °C en zonas altas y viento del norte en el Istmo de Tehuantepec.",
+    "items": [
+      "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla: chubascos de 5 a 25 mm, con la tormenta tropical Vance en el Pacífico.",
+      "Rachas de 30 a 50 km/h en Chiapas y Puebla; viento del norte en el Istmo y Golfo de Tehuantepec, con oleaje de 1 a 2 m.",
+      "Zonas altas de Puebla, Veracruz, Oaxaca y Chiapas: temperaturas mínimas de 0 a 5 °C."
+    ],
+    "links": [
+      {
+        "t": "El Imparcial · pronóstico del 27-oct",
+        "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c"
+      },
+      {
+        "t": "El Imparcial · lluvias del 22-oct",
+        "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/"
+      },
+      {
+        "t": "SMN · Pronóstico a 96 h",
+        "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
+      }
+    ]
   }
- ],
- "avisos": {
-  "source": "SMN · CONAGUA",
-  "asOf": "2026-10-27",
-  "headline": "Chubascos en el sur y sureste, mañanas de 0 a 5 °C en zonas altas y viento del norte en el Istmo de Tehuantepec.",
-  "items": [
-   "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla: chubascos de 5 a 25 mm, con la tormenta tropical Vance en el Pacífico.",
-   "Rachas de 30 a 50 km/h en Chiapas y Puebla; viento del norte en el Istmo y Golfo de Tehuantepec, con oleaje de 1 a 2 m.",
-   "Zonas altas de Puebla, Veracruz, Oaxaca y Chiapas: temperaturas mínimas de 0 a 5 °C."
-  ],
-  "links": [
-   {
-    "t": "El Imparcial · pronóstico del 27-oct",
-    "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c"
-   },
-   {
-    "t": "El Imparcial · lluvias del 22-oct",
-    "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/"
-   },
-   {
-    "t": "SMN · Pronóstico a 96 h",
-    "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
-   }
-  ]
- }
 }

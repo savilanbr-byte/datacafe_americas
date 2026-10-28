@@ -1,166 +1,166 @@
 {
- "updatedAt": "2026-10-27T23:17:56Z",
- "items": [
-  {
-   "id": "m1",
-   "scope": "mx",
-   "regiones": [
-    "veracruz"
-   ],
-   "tag": "Precios",
-   "date": "2026-10-13",
-   "source": "Hora Cero",
-   "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-   "title": "Cafetaleros de Veracruz se quejan por la caída de precios al inicio de la cosecha",
-   "summary": "La cereza se paga a 7–10 pesos por kilo; la CNOC calcula un mínimo de 16 con NY en US$285, un diferencial de +35 y el peso en 18,30."
-  },
-  {
-   "id": "m2",
-   "scope": "mx",
-   "tag": "Precios",
-   "date": "2026-10-12",
-   "source": "Alerta Chiapas",
-   "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
-   "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
-   "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
-  },
-  {
-   "id": "m6",
-   "scope": "mx",
-   "regiones": [
-    "veracruz"
-   ],
-   "tag": "Precios",
-   "date": "2026-10-21",
-   "source": "Córdoba a Diario",
-   "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
-   "title": "La cereza llega a 12 pesos por kilo en las Altas Montañas de Veracruz",
-   "summary": "Totutla paga 12 pesos, Manuel González 11,60, Tenampa 11, y Monte Blanco y Chocamán 8. Los productores citan el contrato de referencia en US$316,65 por quintal; el precio varía según el centro de acopio."
-  },
-  {
-   "id": "m7",
-   "scope": "mx",
-   "regiones": [
-    "veracruz"
-   ],
-   "tag": "Precios",
-   "date": "2026-10-22",
-   "source": "La Jornada Veracruz",
-   "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
-   "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
-   "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
-  },
-  {
-   "id": "m8",
-   "scope": "mx",
-   "regiones": [
-    "chiapas-soconusco",
-    "chiapas-frailesca",
-    "chiapas-altos"
-   ],
-   "tag": "Insumos",
-   "date": "2026-10-12",
-   "source": "El Sol del Soconusco",
-   "url": "https://www.elsoldelsoconusco.com/2026/10/12/sin-creditos-viables-ni-apoyos-suficientes-cafeticultores-de-chiapas-operan-al-limite/",
-   "title": "Amecafé: cafeticultores de Chiapas operan sin crédito viable ni apoyos suficientes",
-   "summary": "La banca comercial cobra hasta 19 % de interés y el padrón de Producción para el Bienestar deja fuera a miles de productores. La Ley del Café, aprobada en diciembre de 2025, sigue sin lineamientos."
-  },
-  {
-   "id": "m9",
-   "scope": "mx",
-   "regiones": [
-    "veracruz"
-   ],
-   "tag": "Industria",
-   "date": "2026-10-16",
-   "source": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/2026/10/16/weekly-coffee-news-new-look-for-iwca-nestle-in-mexico/",
-   "title": "Nestlé suma US$1.000 millones a su inversión cafetalera en México",
-   "summary": "El plan 2025–2030 llega a US$2.000 millones; el programa ha repartido más de 72 millones de plantas y asesora a más de 2.000 productores. Señala compras sostenidas de la industria soluble."
-  },
-  {
-   "id": "m10",
-   "scope": "mx",
-   "regiones": [
-    "chiapas-soconusco",
-    "chiapas-altos",
-    "veracruz",
-    "oaxaca",
-    "puebla"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-27",
-   "source": "El Imparcial",
-   "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c",
-   "title": "SMN prevé chubascos y mañanas frías de 0 a 5 °C en zonas altas del sur",
-   "summary": "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm; rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec. Influye la tormenta tropical Vance en el Pacífico."
-  },
-  {
-   "id": "m11",
-   "scope": "mx",
-   "regiones": [
-    "veracruz",
-    "oaxaca",
-    "chiapas-soconusco",
-    "puebla",
-    "guerrero"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-22",
-   "source": "El Imparcial",
-   "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/",
-   "title": "SMN alerta por lluvias de 50 a 75 mm en Veracruz, Oaxaca y Chiapas",
-   "summary": "El frente frío 3 dejó lluvias puntuales muy fuertes en el norte y sur de Veracruz, el norte de Oaxaca y el sur de Chiapas, y de 25 a 50 mm en Puebla y la costa de Guerrero. Puede afectar el secado y el transporte del café recién cosechado."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-21",
-   "id": "n9",
-   "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
-   "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
-  },
-  {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Bélgica y Alemania compran cerca del 21 % del café mexicano exportado, así que los lotes para Europa necesitan geolocalización de las fincas antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la base del precio del café mexicano.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  }
- ]
+  "updatedAt": "2026-10-28T11:50:00Z",
+  "items": [
+    {
+      "id": "m1",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-13",
+      "source": "Hora Cero",
+      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
+      "title": "Cafetaleros de Veracruz se quejan por la caída de precios al inicio de la cosecha",
+      "summary": "La cereza se paga a 7–10 pesos por kilo; la CNOC calcula un mínimo de 16 con NY en US$285, un diferencial de +35 y el peso en 18,30."
+    },
+    {
+      "id": "m2",
+      "scope": "mx",
+      "tag": "Precios",
+      "date": "2026-10-12",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
+      "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
+      "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
+    },
+    {
+      "id": "m6",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-21",
+      "source": "Córdoba a Diario",
+      "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
+      "title": "La cereza llega a 12 pesos por kilo en las Altas Montañas de Veracruz",
+      "summary": "Totutla paga 12 pesos, Manuel González 11,60, Tenampa 11, y Monte Blanco y Chocamán 8. Los productores citan el contrato de referencia en US$316,65 por quintal; el precio varía según el centro de acopio."
+    },
+    {
+      "id": "m7",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-22",
+      "source": "La Jornada Veracruz",
+      "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
+      "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
+      "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
+    },
+    {
+      "id": "m8",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos"
+      ],
+      "tag": "Insumos",
+      "date": "2026-10-12",
+      "source": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/10/12/sin-creditos-viables-ni-apoyos-suficientes-cafeticultores-de-chiapas-operan-al-limite/",
+      "title": "Amecafé: cafeticultores de Chiapas operan sin crédito viable ni apoyos suficientes",
+      "summary": "La banca comercial cobra hasta 19 % de interés y el padrón de Producción para el Bienestar deja fuera a miles de productores. La Ley del Café, aprobada en diciembre de 2025, sigue sin lineamientos."
+    },
+    {
+      "id": "m9",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Industria",
+      "date": "2026-10-16",
+      "source": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/10/16/weekly-coffee-news-new-look-for-iwca-nestle-in-mexico/",
+      "title": "Nestlé suma US$1.000 millones a su inversión cafetalera en México",
+      "summary": "El plan 2025–2030 llega a US$2.000 millones; el programa ha repartido más de 72 millones de plantas y asesora a más de 2.000 productores. Señala compras sostenidas de la industria soluble."
+    },
+    {
+      "id": "m10",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-altos",
+        "veracruz",
+        "oaxaca",
+        "puebla"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-27",
+      "source": "El Imparcial",
+      "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c",
+      "title": "SMN prevé chubascos y mañanas frías de 0 a 5 °C en zonas altas del sur",
+      "summary": "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm; rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec. Influye la tormenta tropical Vance en el Pacífico."
+    },
+    {
+      "id": "m11",
+      "scope": "mx",
+      "regiones": [
+        "veracruz",
+        "oaxaca",
+        "chiapas-soconusco",
+        "puebla",
+        "guerrero"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-22",
+      "source": "El Imparcial",
+      "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/",
+      "title": "SMN alerta por lluvias de 50 a 75 mm en Veracruz, Oaxaca y Chiapas",
+      "summary": "El frente frío 3 dejó lluvias puntuales muy fuertes en el norte y sur de Veracruz, el norte de Oaxaca y el sur de Chiapas, y de 25 a 50 mm en Puebla y la costa de Guerrero. Puede afectar el secado y el transporte del café recién cosechado."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+    },
+    {
+      "date": "2026-10-21",
+      "id": "n9",
+      "scope": "mundo",
+      "source": "ADM Investor Services",
+      "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+      "tag": "Mercado",
+      "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+      "url": "https://admis.com/cotton-faces-new-rain-risk"
+    },
+    {
+      "date": "2026-10-18",
+      "id": "n10",
+      "scope": "mundo",
+      "source": "Moncloa",
+      "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Bélgica y Alemania compran cerca del 21 % del café mexicano exportado, así que los lotes para Europa necesitan geolocalización de las fincas antes de fin de año.",
+      "tag": "Regulación",
+      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la base del precio del café mexicano.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "date": "2026-10-16",
+      "id": "n12",
+      "scope": "mundo",
+      "source": "TradingKey",
+      "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+      "tag": "Producción",
+      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+    }
+  ]
 }
