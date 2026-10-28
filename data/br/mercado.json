@@ -1,258 +1,258 @@
 {
- "updatedAt": "2026-10-27T23:11:41Z",
- "items": {
-  "tc": {
-   "label": "Dólar comercial (cierre)",
-   "value": 5.3488,
-   "dec": 4,
-   "unit": "BRL/USD",
-   "change": -0.0578,
-   "changePct": -1.07,
-   "chgDec": 4,
-   "asOf": "2026-10-27",
-   "source": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
-   "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
-   "liveT": "Banco Central",
-   "note": "El martes 27 el dólar devolvió parte del salto del lunes (+8 %, tras la segunda vuelta) y cerró en R$5,35, con cautela por el próximo ministro de Hacienda."
+  "updatedAt": "2026-10-28T11:48:56Z",
+  "items": {
+    "tc": {
+      "label": "Dólar comercial (cierre)",
+      "value": 5.3488,
+      "dec": 4,
+      "unit": "BRL/USD",
+      "change": -0.0578,
+      "changePct": -1.07,
+      "chgDec": 4,
+      "asOf": "2026-10-27",
+      "source": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+      "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
+      "liveT": "Banco Central",
+      "note": "El martes 27 el dólar devolvió parte del salto del lunes (+8 %, tras la segunda vuelta) y cerró en R$5,35, con cautela por el próximo ministro de Hacienda."
+    },
+    "ptax": {
+      "label": "Dólar PTAX (venta)",
+      "value": 5.3346,
+      "dec": 4,
+      "unit": "BRL/USD",
+      "asOf": "2026-10-27",
+      "source": "BCB · Renova Invest",
+      "url": "https://renovainvest.com.br/dolar-hoje/",
+      "note": "Referencia oficial del Banco Central del 27-oct, tras el salto del lunes."
+    },
+    "cepeaA": {
+      "label": "Indicador CEPEA/ESALQ · arábica",
+      "value": 1610.19,
+      "dec": 2,
+      "unit": "BRL/saca",
+      "changePct": -1.06,
+      "asOf": "2026-10-27",
+      "fx": 5.3488,
+      "fxSrc": "dólar comercial del 27-oct (cierre)",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
+      "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
+      "liveT": "CEPEA",
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 1,06 % el 27 tras subir 1,59 % el 26, cuando el dólar se disparó."
+    },
+    "cepeaR": {
+      "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
+      "value": 967.97,
+      "dec": 2,
+      "unit": "BRL/saca",
+      "changePct": 1.4,
+      "asOf": "2026-10-27",
+      "fx": 5.3488,
+      "fxSrc": "dólar comercial del 27-oct (cierre)",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
+      "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
+      "liveT": "CEPEA",
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 1,9 % el 26 y 1,4 % el 27, tras caer 3,6 % en la semana previa."
+    },
+    "prod": {
+      "label": "Cosecha 2026 (Conab)",
+      "value": 67.6,
+      "dec": 1,
+      "unit": "M sacas",
+      "changePct": 19.6,
+      "asOf": "2026-09-24",
+      "source": "Conab",
+      "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+      "note": "Récord. Tercer levantamiento; 99 % del área ya cosechada."
+    },
+    "prodA": {
+      "label": "Arábica 2026",
+      "value": 48.2,
+      "dec": 1,
+      "unit": "M sacas",
+      "changePct": 34.8,
+      "asOf": "2026-09-24",
+      "source": "Conab",
+      "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+      "note": "Año de alta del ciclo bienal; productividad +28 %."
+    },
+    "prodR": {
+      "label": "Conilon 2026",
+      "value": 19.4,
+      "dec": 1,
+      "unit": "M sacas",
+      "changePct": -6.6,
+      "asOf": "2026-09-24",
+      "source": "Conab",
+      "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+      "note": "El Espírito Santo bajó 14 %; Rondônia subió 24 %."
+    },
+    "expoMes": {
+      "label": "Exportación de septiembre",
+      "value": 3.894,
+      "dec": 2,
+      "unit": "M sacas",
+      "changePct": 3.1,
+      "asOf": "2026-10-09",
+      "source": "Cecafé · Canal Rural",
+      "url": "https://www.canalrural.com.br/economia/exportacao-de-cafe-cresce-31-em-volume-em-setembro-mas-receita-cai-71/",
+      "note": "Ingresos US$1.282 M (−7,1 %). Enero–septiembre: 29,1 M de sacas; el conilon exportado sube 68 %."
+    },
+    "expoSafra": {
+      "label": "Exportación safra 2025-26",
+      "value": 38.462,
+      "dec": 1,
+      "unit": "M sacas",
+      "changePct": -15.7,
+      "asOf": "2026-07-15",
+      "source": "Cecafé · DGABC",
+      "url": "https://www.dgabc.com.br/Noticia/4335503/cecafe-exportacoes-de-cafe-do-brasil-caem-15-7-na-safra-2025-26-para-38-5-milhoes-de-sacas",
+      "note": "Precio medio récord: US$379,48 por saca. EE. UU. dejó de ser el primer comprador por el arancel de 2025."
+    }
   },
-  "ptax": {
-   "label": "Dólar PTAX (venta)",
-   "value": 5.3346,
-   "dec": 4,
-   "unit": "BRL/USD",
-   "asOf": "2026-10-27",
-   "source": "BCB · Renova Invest",
-   "url": "https://renovainvest.com.br/dolar-hoje/",
-   "note": "Referencia oficial del Banco Central del 27-oct, tras el salto del lunes."
+  "clasif": {
+    "title": "Clasificación Oficial Brasileña (COB)",
+    "source": "CEPEA · metodología",
+    "url": "https://cepea.org.br/br/metodologia/metodologia-cafe-arabica-cepea-esalq.aspx",
+    "sub": "Bebida, tipo y criba",
+    "groups": [
+      {
+        "t": "Bebida (prueba de taza)",
+        "items": [
+          {
+            "g": "Estritamente mole",
+            "n": "la más suave"
+          },
+          {
+            "g": "Mole"
+          },
+          {
+            "g": "Apenas mole"
+          },
+          {
+            "g": "Dura",
+            "n": "la base del indicador"
+          },
+          {
+            "g": "Riada"
+          },
+          {
+            "g": "Rio"
+          },
+          {
+            "g": "Rio zona",
+            "n": "la más fuerte"
+          }
+        ]
+      },
+      {
+        "t": "Tipo (defectos en 300 g)",
+        "items": [
+          {
+            "g": "Tipo 2",
+            "r": "4"
+          },
+          {
+            "g": "Tipo 3",
+            "r": "12"
+          },
+          {
+            "g": "Tipo 4",
+            "r": "26"
+          },
+          {
+            "g": "Tipo 5",
+            "r": "46"
+          },
+          {
+            "g": "Tipo 6",
+            "r": "86"
+          },
+          {
+            "g": "Tipo 7",
+            "r": "160"
+          },
+          {
+            "g": "Tipo 8",
+            "r": "360"
+          }
+        ]
+      },
+      {
+        "t": "Criba (peneira)",
+        "items": [
+          {
+            "g": "17/18",
+            "n": "grano grande"
+          },
+          {
+            "g": "15/16",
+            "n": "mediano"
+          },
+          {
+            "g": "13/14",
+            "n": "pequeño"
+          },
+          {
+            "g": "Moca",
+            "n": "grano redondo"
+          }
+        ]
+      }
+    ],
+    "nota": "El indicador CEPEA del arábica es tipo 6 bebida dura bica corrida (sin separar por criba); el del robusta, tipo 6 criba 13 arriba. Bica corrida es el café beneficiado tal como sale, antes de prepararlo para exportar."
   },
-  "cepeaA": {
-   "label": "Indicador CEPEA/ESALQ · arábica",
-   "value": 1610.19,
-   "dec": 2,
-   "unit": "BRL/saca",
-   "changePct": -1.06,
-   "asOf": "2026-10-27",
-   "fx": 5.3488,
-   "fxSrc": "dólar comercial del 27-oct (cierre)",
-   "source": "CEPEA · Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
-   "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
-   "liveT": "CEPEA",
-   "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 1,06 % el 27 tras subir 1,59 % el 26, cuando el dólar se disparó."
-  },
-  "cepeaR": {
-   "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-   "value": 967.97,
-   "dec": 2,
-   "unit": "BRL/saca",
-   "changePct": 1.4,
-   "asOf": "2026-10-27",
-   "fx": 5.3488,
-   "fxSrc": "dólar comercial del 27-oct (cierre)",
-   "source": "CEPEA · Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
-   "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
-   "liveT": "CEPEA",
-   "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 1,9 % el 26 y 1,4 % el 27, tras caer 3,6 % en la semana previa."
-  },
-  "prod": {
-   "label": "Cosecha 2026 (Conab)",
-   "value": 67.6,
-   "dec": 1,
-   "unit": "M sacas",
-   "changePct": 19.6,
-   "asOf": "2026-09-24",
-   "source": "Conab",
-   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
-   "note": "Récord. Tercer levantamiento; 99 % del área ya cosechada."
-  },
-  "prodA": {
-   "label": "Arábica 2026",
-   "value": 48.2,
-   "dec": 1,
-   "unit": "M sacas",
-   "changePct": 34.8,
-   "asOf": "2026-09-24",
-   "source": "Conab",
-   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
-   "note": "Año de alta del ciclo bienal; productividad +28 %."
-  },
-  "prodR": {
-   "label": "Conilon 2026",
-   "value": 19.4,
-   "dec": 1,
-   "unit": "M sacas",
-   "changePct": -6.6,
-   "asOf": "2026-09-24",
-   "source": "Conab",
-   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
-   "note": "El Espírito Santo bajó 14 %; Rondônia subió 24 %."
-  },
-  "expoMes": {
-   "label": "Exportación de septiembre",
-   "value": 3.894,
-   "dec": 2,
-   "unit": "M sacas",
-   "changePct": 3.1,
-   "asOf": "2026-10-09",
-   "source": "Cecafé · Canal Rural",
-   "url": "https://www.canalrural.com.br/economia/exportacao-de-cafe-cresce-31-em-volume-em-setembro-mas-receita-cai-71/",
-   "note": "Ingresos US$1.282 M (−7,1 %). Enero–septiembre: 29,1 M de sacas; el conilon exportado sube 68 %."
-  },
-  "expoSafra": {
-   "label": "Exportación safra 2025-26",
-   "value": 38.462,
-   "dec": 1,
-   "unit": "M sacas",
-   "changePct": -15.7,
-   "asOf": "2026-07-15",
-   "source": "Cecafé · DGABC",
-   "url": "https://www.dgabc.com.br/Noticia/4335503/cecafe-exportacoes-de-cafe-do-brasil-caem-15-7-na-safra-2025-26-para-38-5-milhoes-de-sacas",
-   "note": "Precio medio récord: US$379,48 por saca. EE. UU. dejó de ser el primer comprador por el arancel de 2025."
+  "oferta": {
+    "title": "Producción 2026 por región",
+    "unit": "M sacas · Conab",
+    "asOf": "2026-09-24",
+    "source": "Conab",
+    "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
+    "rows": [
+      {
+        "pais": "Sul de Minas",
+        "value": 15.93
+      },
+      {
+        "pais": "Conilon ES",
+        "value": 12.1
+      },
+      {
+        "pais": "Matas de Minas",
+        "value": 9.67
+      },
+      {
+        "pais": "Cerrado Mineiro",
+        "value": 8.9
+      },
+      {
+        "pais": "São Paulo",
+        "value": 6.19
+      },
+      {
+        "pais": "Arábica ES",
+        "value": 4.38
+      },
+      {
+        "pais": "Bahia Atlântico",
+        "value": 3.3,
+        "note": "conilon"
+      },
+      {
+        "pais": "Rondônia",
+        "value": 2.88,
+        "note": "conilon"
+      },
+      {
+        "pais": "Planalto BA",
+        "value": 0.94
+      },
+      {
+        "pais": "Paraná",
+        "value": 0.72
+      }
+    ]
   }
- },
- "clasif": {
-  "title": "Clasificación Oficial Brasileña (COB)",
-  "source": "CEPEA · metodología",
-  "url": "https://cepea.org.br/br/metodologia/metodologia-cafe-arabica-cepea-esalq.aspx",
-  "sub": "Bebida, tipo y criba",
-  "groups": [
-   {
-    "t": "Bebida (prueba de taza)",
-    "items": [
-     {
-      "g": "Estritamente mole",
-      "n": "la más suave"
-     },
-     {
-      "g": "Mole"
-     },
-     {
-      "g": "Apenas mole"
-     },
-     {
-      "g": "Dura",
-      "n": "la base del indicador"
-     },
-     {
-      "g": "Riada"
-     },
-     {
-      "g": "Rio"
-     },
-     {
-      "g": "Rio zona",
-      "n": "la más fuerte"
-     }
-    ]
-   },
-   {
-    "t": "Tipo (defectos en 300 g)",
-    "items": [
-     {
-      "g": "Tipo 2",
-      "r": "4"
-     },
-     {
-      "g": "Tipo 3",
-      "r": "12"
-     },
-     {
-      "g": "Tipo 4",
-      "r": "26"
-     },
-     {
-      "g": "Tipo 5",
-      "r": "46"
-     },
-     {
-      "g": "Tipo 6",
-      "r": "86"
-     },
-     {
-      "g": "Tipo 7",
-      "r": "160"
-     },
-     {
-      "g": "Tipo 8",
-      "r": "360"
-     }
-    ]
-   },
-   {
-    "t": "Criba (peneira)",
-    "items": [
-     {
-      "g": "17/18",
-      "n": "grano grande"
-     },
-     {
-      "g": "15/16",
-      "n": "mediano"
-     },
-     {
-      "g": "13/14",
-      "n": "pequeño"
-     },
-     {
-      "g": "Moca",
-      "n": "grano redondo"
-     }
-    ]
-   }
-  ],
-  "nota": "El indicador CEPEA del arábica es tipo 6 bebida dura bica corrida (sin separar por criba); el del robusta, tipo 6 criba 13 arriba. Bica corrida es el café beneficiado tal como sale, antes de prepararlo para exportar."
- },
- "oferta": {
-  "title": "Producción 2026 por región",
-  "unit": "M sacas · Conab",
-  "asOf": "2026-09-24",
-  "source": "Conab",
-  "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
-  "rows": [
-   {
-    "pais": "Sul de Minas",
-    "value": 15.93
-   },
-   {
-    "pais": "Conilon ES",
-    "value": 12.1
-   },
-   {
-    "pais": "Matas de Minas",
-    "value": 9.67
-   },
-   {
-    "pais": "Cerrado Mineiro",
-    "value": 8.9
-   },
-   {
-    "pais": "São Paulo",
-    "value": 6.19
-   },
-   {
-    "pais": "Arábica ES",
-    "value": 4.38
-   },
-   {
-    "pais": "Bahia Atlântico",
-    "value": 3.3,
-    "note": "conilon"
-   },
-   {
-    "pais": "Rondônia",
-    "value": 2.88,
-    "note": "conilon"
-   },
-   {
-    "pais": "Planalto BA",
-    "value": 0.94
-   },
-   {
-    "pais": "Paraná",
-    "value": 0.72
-   }
-  ]
- }
 }

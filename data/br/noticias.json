@@ -1,100 +1,114 @@
 {
- "updatedAt": "2026-10-27T23:11:41Z",
- "items": [
-  {
-   "id": "b1",
-   "scope": "br",
-   "tag": "Divisas",
-   "date": "2026-10-27",
-   "source": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
-   "title": "El dólar retrocede 1,07 % a R$5,35 tras el salto de 8 % del lunes",
-   "summary": "Cerró el martes en R$5,3488 después de dispararse el lunes por la reelección de Lula; el mercado espera el nombre del próximo ministro de Hacienda. Un real débil anima a exportadores y productores a vender."
-  },
-  {
-   "id": "b2",
-   "scope": "br",
-   "regiones": [
-    "cerrado-mineiro",
-    "mogiana"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-22",
-   "source": "Itatiaia",
-   "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/",
-   "title": "CEPEA: la florada empieza bien, pero el calor y El Niño encienden la alerta",
-   "summary": "El cuajado inicial es bueno en la mayoría de regiones; en el Cerrado y la Mogiana preocupa la caída de flores y frutos con el calor."
-  },
-  {
-   "id": "b3",
-   "scope": "br",
-   "tag": "Clima",
-   "date": "2026-10-21",
-   "source": "Folha Agrícola",
-   "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/",
-   "title": "Buen inicio de la cosecha 2027-28, pero el clima preocupa",
-   "summary": "La floración fue buena para la próxima cosecha; el calor es el principal riesgo de las próximas semanas."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-27",
-   "id": "n9",
-   "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15 de septiembre (el mínimo de 27 años fue 217.646). La debilidad del real presiona a exportadores y productores brasileños a vender futuros como cobertura.",
-   "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 225.610 sacos",
-   "url": "https://www.admis.com/coffee-futures-extend-selloff/"
-  },
-  {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
-   "id": "b8",
-   "scope": "br",
-   "regiones": [],
-   "tag": "Exportaciones",
-   "date": "2026-10-13",
-   "source": "Reconecta News · Cecafé",
-   "url": "https://reconectanews.com.br/porto-de-santos-concentra-707-das-exportacoes-brasileiras-de-cafe-em-2026/",
-   "title": "Santos concentra 70,7 % de las exportaciones de café de Brasil en 2026",
-   "summary": "De enero a septiembre salieron 29,1 M de sacas (−0,2 %) y Santos movió 20,6 M; en el primer trimestre de la safra 2026-27 (julio–septiembre) se exportaron 11,21 M de sacas (+15,5 %). EE. UU. es el primer destino del año con 3,8 M de sacas."
-  }
- ]
+  "updatedAt": "2026-10-28T11:48:56Z",
+  "items": [
+    {
+      "id": "b1",
+      "scope": "br",
+      "tag": "Divisas",
+      "date": "2026-10-27",
+      "source": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+      "title": "El dólar retrocede 1,07 % a R$5,35 tras el salto de 8 % del lunes",
+      "summary": "Cerró el martes en R$5,3488 después de dispararse el lunes por la reelección de Lula; el mercado espera el nombre del próximo ministro de Hacienda. Un real débil anima a exportadores y productores a vender."
+    },
+    {
+      "id": "b2",
+      "scope": "br",
+      "regiones": [
+        "cerrado-mineiro",
+        "mogiana"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-22",
+      "source": "Itatiaia",
+      "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/",
+      "title": "CEPEA: la florada empieza bien, pero el calor y El Niño encienden la alerta",
+      "summary": "El cuajado inicial es bueno en la mayoría de regiones; en el Cerrado y la Mogiana preocupa la caída de flores y frutos con el calor."
+    },
+    {
+      "id": "b3",
+      "scope": "br",
+      "tag": "Clima",
+      "date": "2026-10-21",
+      "source": "Folha Agrícola",
+      "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/",
+      "title": "Buen inicio de la cosecha 2027-28, pero el clima preocupa",
+      "summary": "La floración fue buena para la próxima cosecha; el calor es el principal riesgo de las próximas semanas."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+    },
+    {
+      "date": "2026-10-27",
+      "id": "n9",
+      "scope": "mundo",
+      "source": "ADM Investor Services",
+      "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15 de septiembre (el mínimo de 27 años fue 217.646). La debilidad del real presiona a exportadores y productores brasileños a vender futuros como cobertura.",
+      "tag": "Mercado",
+      "title": "Inventarios certificados de arábica bajan a 225.610 sacos",
+      "url": "https://www.admis.com/coffee-futures-extend-selloff/"
+    },
+    {
+      "date": "2026-10-18",
+      "id": "n10",
+      "scope": "mundo",
+      "source": "Moncloa",
+      "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+      "tag": "Regulación",
+      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "id": "b4",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-10-19",
+      "source": "Portal do Agronegócio · Itaú BBA",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/preco-do-cafe-arabica-cai-6-no-brasil-com-oferta-maior-e-real-valorizado-aponta-itau-bba",
+      "title": "El arábica cae 6 % en Brasil por mayor oferta y real más fuerte",
+      "summary": "El indicador CEPEA del arábica cerró en R$1.531 por saca el 9-oct, 6 % menos en 30 días; el dólar bajó de más de R$5,20 a menos de R$5,00. Las exportaciones de septiembre sumaron 3,9 M de sacas (+20 %) y el USDA ve 71,9 M de sacas en Brasil en 2026/27."
+    },
+    {
+      "id": "b5",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "mogiana"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-13",
+      "source": "Meteored Brasil",
+      "url": "https://www.meteored.com.br/noticias/previsao/cafe-em-mg-e-sp-chuva-irregular-exige-atencao-a-flores-e-chumbinhos.html",
+      "title": "Lluvia irregular en Minas y São Paulo exige vigilar flores y cuajado (chumbinhos)",
+      "summary": "Para el 14–16 de octubre se previeron entre 4,8 y 54,6 mm según la ciudad (Varginha, Franca, São Sebastião do Paraíso), tras máximas de hasta 35 °C. La lluvia desigual obliga a revisar cada lote antes de ajustar riego o aplicaciones."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-19",
+      "source": "The Rio Times",
+      "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
+      "title": "Arábica sube a máximo de un mes: 315,7 c/lb con inventarios ICE cerca de mínimos de 27 años",
+      "summary": "El contrato de diciembre ganó 3,3 % el 19-oct y cerca de 11 % en la semana; el real se fortaleció a R$5,04 por dólar. Los robusta de Londres (nov) cerraron en US$3.484/t."
+    }
+  ]
 }
