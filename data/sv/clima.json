@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:47:16Z",
+ "updatedAt": "2026-10-28T19:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,23 +24,27 @@
  },
  "impactos": [
   "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26.",
-  "Con la época seca por instalarse (5 de noviembre según el MARN), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá buen clima para el secado en patio, pero con lluvias aisladas hasta mediados de noviembre.",
+  "Con vientos del norte y la época seca por instalarse (5 de noviembre según el MARN), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá buen clima para el secado en patio, con lluvias vespertinas aisladas todavía.",
   "Si noviembre–enero queda 40–50 % bajo lo normal en lluvia, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (cosecha de diciembre a marzo) puede dar grano más pequeño y menos denso.",
   "Las lluvias de la vaguada del 20 de octubre trajeron riesgo de deslizamientos en Morazán (Cacahuatique) y crecidas en La Libertad: conviene confirmar el estado de caminos y beneficios antes de cerrar embarques."
  ],
  "avisos": {
   "source": "MARN",
-  "asOf": "2026-10-23",
-  "headline": "Transición a la época seca; el MARN prevé su inicio el 5 de noviembre",
+  "asOf": "2026-10-26",
+  "headline": "Vientos del norte enfrían las madrugadas; el MARN prevé la época seca desde el 5 de noviembre",
   "items": [
-   "La transición comenzó el 15 de octubre y la época seca está prevista para el 5 de noviembre; las lluvias disminuirán gradualmente, aunque aún pueden registrarse precipitaciones.",
-   "La temporada de huracanes sigue hasta el 30 de noviembre y El Niño se mantiene desde el 23 de junio.",
+   "Vientos del norte de 15–25 km/h con ráfagas de hasta 45 km/h; mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana).",
+   "La transición a la época seca empezó el 15 de octubre y se prevé que esta inicie el 5 de noviembre; aún pueden darse lluvias puntuales por la tarde.",
    "Perspectiva de la UES: entre noviembre y enero las lluvias podrían quedar 40–50 % bajo lo normal y las temperaturas 50–70 % sobre lo habitual."
   ],
   "links": [
    {
     "t": "MARN",
     "url": "https://www.snet.gob.sv/"
+   },
+   {
+    "t": "Infobae",
+    "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/"
    },
    {
     "t": "El Diario de Hoy",

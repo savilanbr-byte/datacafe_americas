@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:47:16Z",
+ "updatedAt": "2026-10-28T19:50:00Z",
  "items": [
   {
    "id": "s1",
@@ -66,16 +66,6 @@
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
   },
   {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
    "id": "s6",
    "scope": "sv",
    "regiones": [],
@@ -112,6 +102,41 @@
    "url": "https://elsalvadorinenglish.com/2026/10/14/el-salvador-expands-middle-east-trade-presence-with-specialty-coffee-and-agro-exports-at-gfw-2026/",
    "title": "El Salvador lleva café de especialidad a Global Food Week en Abu Dabi",
    "summary": "El pabellón salvadoreño presentó café de origen único en la feria del 6 al 8 de octubre; un distribuidor con sede en Emiratos ya comercializa café salvadoreño en la región. Sin cifras de volumen o precio."
+  },
+  {
+   "id": "s9",
+   "scope": "sv",
+   "regiones": [],
+   "tag": "Cafés especiales",
+   "date": "2026-10-19",
+   "source": "El Salvador Times",
+   "url": "https://www.elsalvadortimes.com/negocios/cafe-salvador-conquista-paladares-foro-inversion-iniciativa-mano-mano-roma/20261019110902105115.html",
+   "title": "El ISC y el MAG presentan café salvadoreño en Roma y buscan inversión para restaurar cafetales",
+   "summary": "Del 14 al 15 de octubre hubo degustaciones de Pacamara y Bourbon en la FAO, con la Taza de Excelencia 2026 a un precio promedio de US$44,81 en subasta. Las áreas de inversión propuestas son la restauración de cafetales, sistemas agroforestales, adaptación climática y procesamiento en cooperativas."
+  },
+  {
+   "id": "s10",
+   "scope": "sv",
+   "regiones": [
+    "alotepec-metapan",
+    "apaneca-ilamatepec"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-26",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
+   "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
+   "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
+  },
+  {
+   "id": "n13",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-24",
+   "source": "Inheritance Coffee",
+   "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
+   "title": "La robusta cae 5,45 % en la semana por inventarios certificados en máximos de 13 meses",
+   "summary": "El contrato de noviembre en Londres cerró en US$3.228 por tonelada el 23 de octubre; el arábica de diciembre en Nueva York, en 307,45 ¢/lb. Las lluvias de septiembre en Brasil y el buen clima en Vietnam pesan sobre los precios, lo que puede dar margen para negociar diferenciales."
   }
  ]
 }
