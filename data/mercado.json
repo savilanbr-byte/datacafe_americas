@@ -144,7 +144,7 @@
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Cierre del 27-oct (histórico de Investing); el 28-oct opera cerca de 287 (intradía)",
+   "note": "Cierre del 27-oct (histórico de Investing); el 28-oct opera cerca de 286,75 (intradía)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
@@ -263,5 +263,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-28T11:55:00Z"
+ "updatedAt": "2026-10-28T19:46:53Z"
 }
