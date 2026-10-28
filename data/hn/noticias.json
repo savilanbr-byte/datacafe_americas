@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T22:35:00Z",
+ "updatedAt": "2026-10-28T11:48:46Z",
  "items": [
   {
    "id": "h1",
@@ -22,6 +22,20 @@
    "title": "COPECO: continúan las condiciones secas en la mayor parte del país",
    "summary": "Una cuña de alta presión deja lluvias débiles en el norte, noroccidente y centro; el resto del país sigue seco.",
    "regiones": []
+  },
+  {
+   "id": "h7",
+   "scope": "hn",
+   "tag": "Clima",
+   "date": "2026-10-23",
+   "source": "TuNota",
+   "url": "https://www.tunota.com/honduras-hoy/mientras-otros-paises-se-inundan-honduras-teme-quedarse-sin-agua-2026-10-23",
+   "title": "Corredor Seco acumula déficit de lluvia cercano al 50 % y se esperan lluvias bajo lo normal hasta diciembre",
+   "summary": "Según el Cenaos, el déficit llega a 60 % en algunos sectores y GEOGLAM ve más de 70 % de probabilidad de lluvias inferiores a lo normal entre octubre y diciembre. Para el comprador: más riesgo de estrés hídrico en cafetales bajos y buen clima de secado en las primeras cosechas.",
+   "regiones": [
+    "copan",
+    "el-paraiso"
+   ]
   },
   {
    "id": "h6",
