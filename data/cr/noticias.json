@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T22:10:00Z",
+ "updatedAt": "2026-10-28T11:55:00Z",
  "items": [
   {
    "id": "n1",
@@ -40,6 +40,17 @@
    "url": "https://www.teletica.com/nacional/icafe-alerta-sobre-perdidas-millonarias-por-tipo-de-cambio-del-dolar_419844",
    "title": "ICAFE alerta que los ingresos cafetaleros cayeron cerca de 30 % por el dólar bajo",
    "summary": "El instituto advierte que la apreciación del colón amenaza la sostenibilidad del sector: el café se vende en dólares pero se liquida en colones."
+  },
+  {
+   "id": "n13",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-10-27",
+   "source": "El Observador",
+   "url": "https://observador.cr/monex-registra-negociacion-historica-de-1534-millones-la-mayor-en-20-anos/",
+   "title": "Monex marca récord de US$153,4 millones en un día y el dólar baja a ₡452,61",
+   "summary": "El Banco Central compró US$114,7 millones, el 75 % del volumen, para frenar la caída del dólar. Un colón fuerte sigue recortando lo que recibe el productor por cada quintal exportado."
   },
   {
    "id": "n4",
