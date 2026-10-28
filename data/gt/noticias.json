@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:50:32Z",
+  "updatedAt": "2026-10-28T19:46:41Z",
   "items": [
     {
       "id": "g7",
@@ -54,16 +54,6 @@
       "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
     },
     {
-      "date": "2026-10-26",
-      "id": "n11",
-      "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25-oct, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil estimula las ventas de Brasil y presiona al arábica, lo que pesa sobre el precio del café guatemalteco.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
       "date": "2026-10-16",
       "id": "n12",
       "scope": "mundo",
@@ -85,6 +75,16 @@
       "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/",
       "title": "La UE registra \"Café Antigua\" como indicación geográfica protegida",
       "summary": "La Comisión Europea lo aprobó el 15-oct: siembra, cosecha, beneficio húmedo y secado deben ocurrir en la zona de Sacatepéquez; el tueste y la molienda pueden hacerse fuera. Europa recibió 26 % de las exportaciones de 2024-25 (3,73 M de quintales oro): el sello no garantiza mejor precio, pero exige trazabilidad a quien venda como Antigua."
+    },
+    {
+      "id": "n14",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-27",
+      "source": "Business Recorder",
+      "url": "https://brecorder.com/news/40446024/sugar-coffee-slip-as-brazils-real-slumps-on-lula-win",
+      "title": "Arábica cae 3,4 % y robusta toca mínimos desde marzo de 2024",
+      "summary": "El 27-oct el arábica ICE bajó a unos US$2,97 por libra (máximo de seis semanas: US$3,18) y la robusta cayó 1,9 % a US$3.181 por tonelada, por el real débil tras la reelección de Lula y la cosecha de Vietnam. Más presión sobre las referencias de compra de café lavado."
     }
   ]
 }
