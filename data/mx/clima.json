@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:50:00Z",
+  "updatedAt": "2026-10-28T19:47:08Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -134,24 +134,20 @@
   "avisos": {
     "source": "SMN · CONAGUA",
     "asOf": "2026-10-27",
-    "headline": "Chubascos en el sur y sureste, mañanas de 0 a 5 °C en zonas altas y viento del norte en el Istmo de Tehuantepec.",
+    "headline": "El SMN prevé chubascos y mañanas frías en el sur y sureste, con influencia de la tormenta tropical Vance en el Pacífico.",
     "items": [
-      "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla: chubascos de 5 a 25 mm, con la tormenta tropical Vance en el Pacífico.",
-      "Rachas de 30 a 50 km/h en Chiapas y Puebla; viento del norte en el Istmo y Golfo de Tehuantepec, con oleaje de 1 a 2 m.",
-      "Zonas altas de Puebla, Veracruz, Oaxaca y Chiapas: temperaturas mínimas de 0 a 5 °C."
+      "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm.",
+      "Rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec.",
+      "Mañanas de 0 a 5 °C en zonas altas del sur."
     ],
     "links": [
       {
-        "t": "El Imparcial · pronóstico del 27-oct",
+        "t": "El Imparcial · pronóstico SMN 27-oct",
         "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c"
       },
       {
-        "t": "El Imparcial · lluvias del 22-oct",
-        "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/"
-      },
-      {
-        "t": "SMN · Pronóstico a 96 h",
-        "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
+        "t": "SMN · CONAGUA",
+        "url": "https://smn.conagua.gob.mx/"
       }
     ]
   }

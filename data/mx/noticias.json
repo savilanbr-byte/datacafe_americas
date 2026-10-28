@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:50:00Z",
+  "updatedAt": "2026-10-28T19:47:08Z",
   "items": [
     {
       "id": "m1",
@@ -23,6 +23,17 @@
       "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
       "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
       "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
+    },
+    {
+      "id": "m12",
+      "scope": "mx",
+      "regiones": [],
+      "tag": "Mercado",
+      "date": "2026-10-07",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/10/07/precio-cafe-cae-16-por-ciento-chiapas/",
+      "title": "El indicador compuesto de la OIC cae 16,5 % anual; los otros suaves pierden 14 %",
+      "summary": "El compuesto cerró en 269,61 ¢/lb el 6-oct, frente a 322,97 un año antes; los otros suaves, referencia del café mexicano, bajaron de 398,46 a 342,25 ¢/lb. El repunte de 3,1 % desde el 30-sep no revierte la presión sobre los precios al productor."
     },
     {
       "id": "m6",
