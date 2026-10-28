@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T22:55:00Z",
+ "updatedAt": "2026-10-28T11:47:49Z",
  "items": [
   {
    "id": "ni1",
@@ -13,6 +13,17 @@
    "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
    "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
    "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
+  },
+  {
+   "id": "ni8",
+   "scope": "ni",
+   "regiones": [],
+   "tag": "Precios",
+   "date": "2026-10-28",
+   "source": "Prensa Latina (Conatradec)",
+   "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/",
+   "title": "Conatradec: el precio promedio de venta sube a US$294 por quintal",
+   "summary": "Según Conatradec, el precio promedio pasó de US$272 a US$294 por quintal en 2026, con Nueva York entre US$260 y algo más de US$300; la cosecha 2026-27 se proyecta en 3 M de quintales, menos de 7 % bajo los máximos recientes. Es cifra del gremio vinculado al Gobierno; el BCN da la misma proyección de US$294."
   },
   {
    "id": "n8",
