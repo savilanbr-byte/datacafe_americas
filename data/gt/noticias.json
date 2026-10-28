@@ -1,77 +1,90 @@
 {
- "updatedAt": "2026-10-27T22:58:00Z",
- "items": [
-  {
-   "id": "g7",
-   "scope": "gt",
-   "regiones": [],
-   "tag": "Exportaciones",
-   "date": "2026-10-18",
-   "source": "PYME Noticias · Anacafé",
-   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
-   "title": "Guatemala cierra 2025-26 con 4,28 M de quintales exportados y US$1.440 M",
-   "summary": "Según el informe de Anacafé del 13-oct, el volumen subió 15 % y las divisas 12 % frente a 2024-25. Casi la mitad de las ventas va a EE. UU. (46 %); la inflación de 4,69 % en septiembre encarece mano de obra e insumos."
-  },
-  {
-   "id": "g8",
-   "scope": "gt",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-10-26",
-   "source": "Guatemala.com · INSIVUMEH",
-   "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026",
-   "title": "INSIVUMEH: menos lluvia y calor de 33–35 °C del 26 al 30 de octubre",
-   "summary": "Las lluvias bajan de sur a centro del país, con aguaceros aislados en el Pacífico y Alta Verapaz. Favorece el secado, pero el calor y el déficit de lluvia pesan sobre la cosecha 2026-27."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los lavados centroamericanos."
-  },
-  {
-   "id": "n13",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-10-27",
-   "source": "ADM Investor Services",
-   "url": "https://www.admis.com/coffee-futures-extend-selloff/",
-   "title": "Inventarios certificados de arábica en ICE bajan a 225.610 sacos",
-   "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
-  },
-  {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea descarta un tercer aplazamiento para medianas y grandes empresas. Europa recibe 24 % del café guatemalteco: los exportadores necesitan la geolocalización de las fincas lista antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25-oct, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil estimula las ventas de Brasil y presiona al arábica, lo que pesa sobre el precio del café guatemalteco.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20 %) y Vietnam 124.000 t (+53 %); la OIC proyecta un superávit mundial de 3 millones de sacos, el primero en cinco años: menos tensión de oferta para los compradores.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  }
- ]
+  "updatedAt": "2026-10-28T11:50:32Z",
+  "items": [
+    {
+      "id": "g7",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-10-18",
+      "source": "PYME Noticias · Anacafé",
+      "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+      "title": "Guatemala cierra 2025-26 con 4,28 M de quintales exportados y US$1.440 M",
+      "summary": "Según el informe de Anacafé del 13-oct, el volumen subió 15 % y las divisas 12 % frente a 2024-25. Casi la mitad de las ventas va a EE. UU. (46 %); la inflación de 4,69 % en septiembre encarece mano de obra e insumos."
+    },
+    {
+      "id": "g8",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-10-26",
+      "source": "Guatemala.com · INSIVUMEH",
+      "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026",
+      "title": "INSIVUMEH: menos lluvia y calor de 33–35 °C del 26 al 30 de octubre",
+      "summary": "Las lluvias bajan de sur a centro del país, con aguaceros aislados en el Pacífico y Alta Verapaz. Favorece el secado, pero el calor y el déficit de lluvia pesan sobre la cosecha 2026-27."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los lavados centroamericanos."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-27",
+      "source": "ADM Investor Services",
+      "url": "https://www.admis.com/coffee-futures-extend-selloff/",
+      "title": "Inventarios certificados de arábica en ICE bajan a 225.610 sacos",
+      "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
+    },
+    {
+      "date": "2026-10-18",
+      "id": "n10",
+      "scope": "mundo",
+      "source": "Moncloa",
+      "summary": "La Comisión Europea descarta un tercer aplazamiento para medianas y grandes empresas. Europa recibe 24 % del café guatemalteco: los exportadores necesitan la geolocalización de las fincas lista antes de fin de año.",
+      "tag": "Regulación",
+      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25-oct, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil estimula las ventas de Brasil y presiona al arábica, lo que pesa sobre el precio del café guatemalteco.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "date": "2026-10-16",
+      "id": "n12",
+      "scope": "mundo",
+      "source": "TradingKey",
+      "summary": "Brasil exportó 236.000 t en septiembre (+20 %) y Vietnam 124.000 t (+53 %); la OIC proyecta un superávit mundial de 3 millones de sacos, el primero en cinco años: menos tensión de oferta para los compradores.",
+      "tag": "Producción",
+      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+    },
+    {
+      "id": "g9",
+      "scope": "gt",
+      "regiones": [
+        "antigua"
+      ],
+      "tag": "Regulación",
+      "date": "2026-10-16",
+      "source": "La Hora",
+      "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/",
+      "title": "La UE registra \"Café Antigua\" como indicación geográfica protegida",
+      "summary": "La Comisión Europea lo aprobó el 15-oct: siembra, cosecha, beneficio húmedo y secado deben ocurrir en la zona de Sacatepéquez; el tueste y la molienda pueden hacerse fuera. Europa recibió 26 % de las exportaciones de 2024-25 (3,73 M de quintales oro): el sello no garantiza mejor precio, pero exige trazabilidad a quien venda como Antigua."
+    }
+  ]
 }

@@ -1,220 +1,220 @@
 {
- "updatedAt": "2026-10-27T22:58:00Z",
- "items": {
-  "tc": {
-   "label": "Tipo de cambio de referencia Banguat",
-   "value": 7.6398,
-   "dec": 4,
-   "unit": "GTQ/USD",
-   "asOf": "2026-10-27",
-   "source": "Banguat · Living in Guatemala",
-   "url": "https://livinginguatemala.com/es/tipo-de-cambio/",
-   "liveUrl": "https://www.banguat.gob.gt/",
-   "liveT": "Banguat",
-   "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
-   "change": 0.0036
+  "updatedAt": "2026-10-28T11:50:32Z",
+  "items": {
+    "tc": {
+      "label": "Tipo de cambio de referencia Banguat",
+      "value": 7.6398,
+      "dec": 4,
+      "unit": "GTQ/USD",
+      "asOf": "2026-10-27",
+      "source": "Banguat · Living in Guatemala",
+      "url": "https://livinginguatemala.com/es/tipo-de-cambio/",
+      "liveUrl": "https://www.banguat.gob.gt/",
+      "liveT": "Banguat",
+      "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
+      "change": 0.0036
+    },
+    "expo": {
+      "label": "Precio promedio de registro 2024-25",
+      "value": 344.81,
+      "dec": 2,
+      "unit": "USD/quintal oro",
+      "changePct": 46.5,
+      "asOf": "2026-01-14",
+      "source": "Anacafé · República",
+      "url": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
+      "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el de 2025-26: de enero a julio de 2026 el promedio bajó cerca de 6 %."
+    },
+    "expoVol": {
+      "label": "Exportación 2025-26 (cierre del año cafetero)",
+      "value": 4.28,
+      "dec": 2,
+      "unit": "M quintales oro",
+      "asOf": "2026-10-13",
+      "source": "Anacafé · PYME Noticias",
+      "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+      "note": "Octubre 2025 a septiembre 2026, frente a 2024-25. Superó la proyección de 4,1 M de agosto. Destinos: Norteamérica 56 %, Europa 24 %, Japón 9 %.",
+      "changePct": 15.0
+    },
+    "expoValor": {
+      "label": "Divisas 2025-26 (cierre del año cafetero)",
+      "value": 1440.6,
+      "dec": 0,
+      "unit": "M USD",
+      "changePct": 12.0,
+      "asOf": "2026-10-13",
+      "source": "Anacafé · PYME Noticias",
+      "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
+      "note": "Octubre 2025 a septiembre 2026. El volumen subió 15 % y el valor 12 %: el precio medio fue menor que en 2024-25. Anacafé aún no publica el promedio de registro oficial de 2025-26."
+    },
+    "est": {
+      "label": "Estimación cosecha 2026-27",
+      "value": 4.1,
+      "dec": 1,
+      "unit": "M quintales oro",
+      "asOf": "2026-09-16",
+      "source": "Anacafé · Prensa Libre",
+      "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
+      "note": "Preliminar de agosto. Si sigue el déficit de lluvia, podría bajar entre 5 % y 15 %."
+    },
+    "prod": {
+      "label": "Producción 2026-27 (USDA)",
+      "value": 3.26,
+      "dec": 2,
+      "unit": "M sacos de 60 kg",
+      "changePct": 3.3,
+      "asOf": "2026-05-12",
+      "source": "USDA · Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/05/12/guatemala-coffee-report-production-up-as-arabica-plantings-mature/",
+      "note": "2025-26: 3,155 M. Exportaciones proyectadas: 3,2 M (+7,4 %)."
+    }
   },
-  "expo": {
-   "label": "Precio promedio de registro 2024-25",
-   "value": 344.81,
-   "dec": 2,
-   "unit": "USD/quintal oro",
-   "changePct": 46.5,
-   "asOf": "2026-01-14",
-   "source": "Anacafé · República",
-   "url": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
-   "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el de 2025-26: de enero a julio de 2026 el promedio bajó cerca de 6 %."
+  "ref": {
+    "asOf": "2026-01-14",
+    "cosecha": "2024-25",
+    "periodo": "oct-2024 a sep-2025",
+    "expo": 344.81,
+    "qqKg": 46,
+    "fuente": "Anacafé (República)",
+    "nyMeses": [
+      [
+        "2024-10",
+        250.62
+      ],
+      [
+        "2024-11",
+        277.04
+      ],
+      [
+        "2024-12",
+        317.0
+      ],
+      [
+        "2025-01",
+        328.94
+      ],
+      [
+        "2025-02",
+        388.18
+      ],
+      [
+        "2025-03",
+        382.75
+      ],
+      [
+        "2025-04",
+        370.37
+      ],
+      [
+        "2025-05",
+        368.21
+      ],
+      [
+        "2025-06",
+        329.56
+      ],
+      [
+        "2025-07",
+        289.17
+      ],
+      [
+        "2025-08",
+        328.57
+      ],
+      [
+        "2025-09",
+        366.31
+      ]
+    ],
+    "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
+    "expoUrl": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
+    "nyUrl": "https://ico.org/documents/cy2024-25/cmr-0225-e.pdf",
+    "nyUrl2": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
+    "nota": "Es el último promedio de registro anual que publicó Anacafé (2024-25). Promedio simple de los 12 meses: como los embarques se concentran de enero a mayo, tómalo como el nivel del periodo."
   },
-  "expoVol": {
-   "label": "Exportación 2025-26 (cierre del año cafetero)",
-   "value": 4.28,
-   "dec": 2,
-   "unit": "M quintales oro",
-   "asOf": "2026-10-13",
-   "source": "Anacafé · PYME Noticias",
-   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
-   "note": "Octubre 2025 a septiembre 2026, frente a 2024-25. Superó la proyección de 4,1 M de agosto. Destinos: Norteamérica 56 %, Europa 24 %, Japón 9 %.",
-   "changePct": 15.0
-  },
-  "expoValor": {
-   "label": "Divisas 2025-26 (cierre del año cafetero)",
-   "value": 1440.6,
-   "dec": 0,
-   "unit": "M USD",
-   "changePct": 12.0,
-   "asOf": "2026-10-13",
-   "source": "Anacafé · PYME Noticias",
-   "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
-   "note": "Octubre 2025 a septiembre 2026. El volumen subió 15 % y el valor 12 %: el precio medio fue menor que en 2024-25. Anacafé aún no publica el promedio de registro oficial de 2025-26."
-  },
-  "est": {
-   "label": "Estimación cosecha 2026-27",
-   "value": 4.1,
-   "dec": 1,
-   "unit": "M quintales oro",
-   "asOf": "2026-09-16",
-   "source": "Anacafé · Prensa Libre",
-   "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
-   "note": "Preliminar de agosto. Si sigue el déficit de lluvia, podría bajar entre 5 % y 15 %."
-  },
-  "prod": {
-   "label": "Producción 2026-27 (USDA)",
-   "value": 3.26,
-   "dec": 2,
-   "unit": "M sacos de 60 kg",
-   "changePct": 3.3,
-   "asOf": "2026-05-12",
-   "source": "USDA · Daily Coffee News",
-   "url": "https://dailycoffeenews.com/2026/05/12/guatemala-coffee-report-production-up-as-arabica-plantings-mature/",
-   "note": "2025-26: 3,155 M. Exportaciones proyectadas: 3,2 M (+7,4 %)."
+  "alturas": {
+    "title": "Clasificación por altura",
+    "source": "1Zpresso",
+    "url": "https://1zpresso.coffee/guatemalan-coffee-guide/",
+    "grados": [
+      {
+        "g": "SHB",
+        "n": "Strictly Hard Bean",
+        "min": 1350,
+        "max": null,
+        "rango": "más de 1.350 m"
+      },
+      {
+        "g": "HB",
+        "n": "Hard Bean",
+        "min": 1200,
+        "max": 1350,
+        "rango": "1.200–1.350 m"
+      },
+      {
+        "g": "SH",
+        "n": "Semi Hard Bean",
+        "min": 1100,
+        "max": 1200,
+        "rango": "1.100–1.200 m"
+      },
+      {
+        "g": "EP",
+        "n": "Extra Prime",
+        "min": 900,
+        "max": 1100,
+        "rango": "900–1.100 m"
+      },
+      {
+        "g": "P",
+        "n": "Prime",
+        "min": 750,
+        "max": 900,
+        "rango": "750–900 m"
+      }
+    ],
+    "regiones": [
+      {
+        "region": "huehuetenango",
+        "min": 1524,
+        "max": 1981
+      },
+      {
+        "region": "san-marcos",
+        "min": 1311,
+        "max": 1829
+      },
+      {
+        "region": "atitlan",
+        "min": 1524,
+        "max": 1707
+      },
+      {
+        "region": "antigua",
+        "min": 1524,
+        "max": 1707
+      },
+      {
+        "region": "acatenango",
+        "min": 1311,
+        "max": 1981
+      },
+      {
+        "region": "fraijanes",
+        "min": 1372,
+        "max": 1829
+      },
+      {
+        "region": "coban",
+        "min": 1311,
+        "max": 1707
+      },
+      {
+        "region": "nuevo-oriente",
+        "min": 1311,
+        "max": 1707
+      }
+    ],
+    "nota": "Rangos de las fincas de especialidad de cada región según Anacafé; todas las regiones tienen también zonas más bajas. En 2024-25, el 81 % de lo exportado fue SHB."
   }
- },
- "ref": {
-  "asOf": "2026-01-14",
-  "cosecha": "2024-25",
-  "periodo": "oct-2024 a sep-2025",
-  "expo": 344.81,
-  "qqKg": 46,
-  "fuente": "Anacafé (República)",
-  "nyMeses": [
-   [
-    "2024-10",
-    250.62
-   ],
-   [
-    "2024-11",
-    277.04
-   ],
-   [
-    "2024-12",
-    317.0
-   ],
-   [
-    "2025-01",
-    328.94
-   ],
-   [
-    "2025-02",
-    388.18
-   ],
-   [
-    "2025-03",
-    382.75
-   ],
-   [
-    "2025-04",
-    370.37
-   ],
-   [
-    "2025-05",
-    368.21
-   ],
-   [
-    "2025-06",
-    329.56
-   ],
-   [
-    "2025-07",
-    289.17
-   ],
-   [
-    "2025-08",
-    328.57
-   ],
-   [
-    "2025-09",
-    366.31
-   ]
-  ],
-  "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
-  "expoUrl": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
-  "nyUrl": "https://ico.org/documents/cy2024-25/cmr-0225-e.pdf",
-  "nyUrl2": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
-  "nota": "Es el último promedio de registro anual que publicó Anacafé (2024-25). Promedio simple de los 12 meses: como los embarques se concentran de enero a mayo, tómalo como el nivel del periodo."
- },
- "alturas": {
-  "title": "Clasificación por altura",
-  "source": "1Zpresso",
-  "url": "https://1zpresso.coffee/guatemalan-coffee-guide/",
-  "grados": [
-   {
-    "g": "SHB",
-    "n": "Strictly Hard Bean",
-    "min": 1350,
-    "max": null,
-    "rango": "más de 1.350 m"
-   },
-   {
-    "g": "HB",
-    "n": "Hard Bean",
-    "min": 1200,
-    "max": 1350,
-    "rango": "1.200–1.350 m"
-   },
-   {
-    "g": "SH",
-    "n": "Semi Hard Bean",
-    "min": 1100,
-    "max": 1200,
-    "rango": "1.100–1.200 m"
-   },
-   {
-    "g": "EP",
-    "n": "Extra Prime",
-    "min": 900,
-    "max": 1100,
-    "rango": "900–1.100 m"
-   },
-   {
-    "g": "P",
-    "n": "Prime",
-    "min": 750,
-    "max": 900,
-    "rango": "750–900 m"
-   }
-  ],
-  "regiones": [
-   {
-    "region": "huehuetenango",
-    "min": 1524,
-    "max": 1981
-   },
-   {
-    "region": "san-marcos",
-    "min": 1311,
-    "max": 1829
-   },
-   {
-    "region": "atitlan",
-    "min": 1524,
-    "max": 1707
-   },
-   {
-    "region": "antigua",
-    "min": 1524,
-    "max": 1707
-   },
-   {
-    "region": "acatenango",
-    "min": 1311,
-    "max": 1981
-   },
-   {
-    "region": "fraijanes",
-    "min": 1372,
-    "max": 1829
-   },
-   {
-    "region": "coban",
-    "min": 1311,
-    "max": 1707
-   },
-   {
-    "region": "nuevo-oriente",
-    "min": 1311,
-    "max": 1707
-   }
-  ],
-  "nota": "Rangos de las fincas de especialidad de cada región según Anacafé; todas las regiones tienen también zonas más bajas. En 2024-25, el 81 % de lo exportado fue SHB."
- }
 }

@@ -1,142 +1,142 @@
 {
- "updatedAt": "2026-10-27T22:58:00Z",
- "enso": {
-  "asOf": "2026-10-08",
-  "facts": [
-   {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
-   },
-   {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
-   }
+  "updatedAt": "2026-10-28T11:50:32Z",
+  "enso": {
+    "asOf": "2026-10-08",
+    "facts": [
+      {
+        "l": "Anomalía Niño 3.4",
+        "v": "+2,1 °C"
+      },
+      {
+        "l": "Fuerte o más hasta ene–mar 2027",
+        "v": "83%"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "url": "https://www.yr.no/",
+    "period": ""
+  },
+  "impactos": [
+    "Con El Niño establecido y menos lluvia en Occidente, Altiplano Central y oriente, Anacafé avisa de un posible recorte de 5–15 % en 2026-27 (estimación preliminar: 4,1 M de quintales oro): confirma volúmenes antes de comprometer ventas a futuro.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen tardes secas y calor en valles de 33–35 °C: buen secado al sol, pero vigila la sobremadurez y la fruta caída.",
+    "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración: riesgo para el tamaño de grano y el rendimiento.",
+    "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
+    "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "url": "https://www.yr.no/",
-  "period": "28 de octubre al 3 de noviembre"
- },
- "impactos": [
-  "Con El Niño establecido y menos lluvia en Occidente, Altiplano Central y oriente, Anacafé avisa de un posible recorte de 5–15 % en 2026-27 (estimación preliminar: 4,1 M de quintales oro): confirma volúmenes antes de comprometer ventas a futuro.",
-  "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen tardes secas y calor en valles de 33–35 °C: buen secado al sol, pero vigila la sobremadurez y la fruta caída.",
-  "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración: riesgo para el tamaño de grano y el rendimiento.",
-  "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
-  "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
- ],
- "avisos": {
-  "source": "INSIVUMEH",
-  "asOf": "2026-10-26",
-  "headline": "Octubre cierra con menos lluvia y El Niño ya establecido",
-  "items": [
-   "INSIVUMEH confirmó el 5-oct el establecimiento de El Niño; prevé menos lluvia en general, temperaturas sobre el promedio y mayor intensidad entre septiembre y noviembre, con efectos hasta mediados de 2027.",
-   "Pronóstico del 26 al 30-oct: las lluvias bajan de sur a centro del país, con aguaceros aislados; máximas de 33–35 °C en el Pacífico y los valles de oriente, y de 23–28 °C en el altiplano, con frío de noche.",
-   "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados."
-  ],
-  "links": [
-   {
-    "t": "INSIVUMEH",
-    "url": "https://insivumeh.gob.gt/"
-   },
-   {
-    "t": "Pronóstico 26–30 oct",
-    "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026"
-   },
-   {
-    "t": "El Niño establecido",
-    "url": "https://www.guatemala.com/noticias/comunidad/fenomeno-el-nino-guatemala-insivumeh-confirma-su-establecimiento.html"
-   },
-   {
-    "t": "Perspectiva de octubre (Infobae)",
-    "url": "https://www.infobae.com/guatemala/2026/10/02/octubre-tendra-menos-lluvias-y-anticipa-la-llegada-de-la-epoca-fria-en-guatemala/"
-   }
+  "avisos": {
+    "source": "INSIVUMEH",
+    "asOf": "2026-10-26",
+    "headline": "Octubre cierra con menos lluvia y El Niño ya establecido",
+    "items": [
+      "INSIVUMEH confirmó el 5-oct el establecimiento de El Niño; prevé menos lluvia en general, temperaturas sobre el promedio y mayor intensidad entre septiembre y noviembre, con efectos hasta mediados de 2027.",
+      "Pronóstico del 26 al 30-oct: las lluvias bajan de sur a centro del país, con aguaceros aislados; máximas de 33–35 °C en el Pacífico y los valles de oriente, y de 23–28 °C en el altiplano, con frío de noche.",
+      "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados."
+    ],
+    "links": [
+      {
+        "t": "INSIVUMEH",
+        "url": "https://insivumeh.gob.gt/"
+      },
+      {
+        "t": "Pronóstico 26–30 oct",
+        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026"
+      },
+      {
+        "t": "El Niño establecido",
+        "url": "https://www.guatemala.com/noticias/comunidad/fenomeno-el-nino-guatemala-insivumeh-confirma-su-establecimiento.html"
+      },
+      {
+        "t": "Perspectiva de octubre (Infobae)",
+        "url": "https://www.infobae.com/guatemala/2026/10/02/octubre-tendra-menos-lluvias-y-anticipa-la-llegada-de-la-epoca-fria-en-guatemala/"
+      }
+    ]
+  },
+  "regions": [
+    {
+      "region": "huehuetenango",
+      "dept": "Huehuetenango",
+      "place": "La Libertad, Huehuetenango",
+      "lat": 15.51,
+      "lon": -91.87,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "san-marcos",
+      "dept": "San Marcos",
+      "place": "San Rafael Pie de la Cuesta",
+      "lat": 14.93,
+      "lon": -91.92,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "atitlan",
+      "dept": "Atitlán",
+      "place": "San Lucas Tolimán",
+      "lat": 14.63,
+      "lon": -91.14,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "antigua",
+      "dept": "Antigua",
+      "place": "Antigua Guatemala",
+      "lat": 14.56,
+      "lon": -90.73,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "acatenango",
+      "dept": "Acatenango",
+      "place": "Acatenango, Chimaltenango",
+      "lat": 14.55,
+      "lon": -90.94,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "fraijanes",
+      "dept": "Fraijanes",
+      "place": "Fraijanes",
+      "lat": 14.46,
+      "lon": -90.44,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "coban",
+      "dept": "Cobán",
+      "place": "Cobán",
+      "lat": 15.47,
+      "lon": -90.37,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "nuevo-oriente",
+      "dept": "Nuevo Oriente",
+      "place": "Esquipulas",
+      "lat": 14.56,
+      "lon": -89.35,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    }
   ]
- },
- "regions": [
-  {
-   "region": "huehuetenango",
-   "dept": "Huehuetenango",
-   "place": "La Libertad, Huehuetenango",
-   "lat": 15.51,
-   "lon": -91.87,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "san-marcos",
-   "dept": "San Marcos",
-   "place": "San Rafael Pie de la Cuesta",
-   "lat": 14.93,
-   "lon": -91.92,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "atitlan",
-   "dept": "Atitlán",
-   "place": "San Lucas Tolimán",
-   "lat": 14.63,
-   "lon": -91.14,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "antigua",
-   "dept": "Antigua",
-   "place": "Antigua Guatemala",
-   "lat": 14.56,
-   "lon": -90.73,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "acatenango",
-   "dept": "Acatenango",
-   "place": "Acatenango, Chimaltenango",
-   "lat": 14.55,
-   "lon": -90.94,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "fraijanes",
-   "dept": "Fraijanes",
-   "place": "Fraijanes",
-   "lat": 14.46,
-   "lon": -90.44,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "coban",
-   "dept": "Cobán",
-   "place": "Cobán",
-   "lat": 15.47,
-   "lon": -90.37,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "nuevo-oriente",
-   "dept": "Nuevo Oriente",
-   "place": "Esquipulas",
-   "lat": 14.56,
-   "lon": -89.35,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  }
- ]
 }
