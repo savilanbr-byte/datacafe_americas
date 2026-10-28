@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:55:00Z",
+ "updatedAt": "2026-10-28T19:55:00Z",
  "items": [
   {
    "id": "n1",
@@ -112,6 +112,27 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "n14",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-28",
+   "source": "Reuters · ESM",
+   "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
+   "title": "El arábica cae 2,4 % a US$2,9375 por libra mientras el real sigue débil y Brasil apunta a cosecha récord",
+   "summary": "El contrato ICE cerró a US$2,9375 tras bajar 2,1 % el lunes; el real, cerca de 5,35 por dólar, anima a los productores brasileños a vender. Con un clima favorable en Brasil, el precio de referencia para los cafés centroamericanos sigue bajo presión."
+  },
+  {
+   "id": "n15",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Eventos",
+   "date": "2026-10-24",
+   "source": "Teletica",
+   "url": "https://www.teletica.com/nacional/cafetaleros-costarricenses-salen-a-conquista-de-nuevos-mercados-en-importante-feria-mundial_419866",
+   "title": "Productores y exportadores costarricenses buscan nuevos mercados en World of Coffee, en Panamá",
+   "summary": "Una delegación de productores y exportadores, con fincas como El Nido y Monte Copey, presenta la calidad del grano costarricense en la feria. Es una vitrina para contactar tostadores y compradores de lotes de especialidad."
   }
  ]
 }
