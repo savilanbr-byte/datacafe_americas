@@ -27,19 +27,19 @@
   "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
  },
  "fx": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "base": "USD",
   "rates": {
-   "BOB": 11.837136,
-   "BRL": 5.431867,
-   "COP": 3155.202026,
-   "CRC": 455.627131,
-   "GTQ": 7.648807,
-   "HNL": 26.855266,
-   "MXN": 18.591266,
-   "NIO": 36.812135,
-   "PEN": 3.439943,
-   "VES": 887.302
+   "BOB": 11.855191,
+   "BRL": 5.348375,
+   "COP": 3143.42897,
+   "CRC": 454.800757,
+   "GTQ": 7.64053,
+   "HNL": 26.851722,
+   "MXN": 18.673405,
+   "NIO": 36.803104,
+   "PEN": 3.448578,
+   "VES": 888.1183
   },
   "source": "ExchangeRate-API",
   "url": "https://open.er-api.com/v6/latest/USD"
@@ -108,14 +108,14 @@
    "value": 356.15
   },
   "icoComp": {
-   "asOf": "2026-10-23",
-   "changePct": -0.84,
+   "asOf": "2026-10-26",
+   "changePct": -2.82,
    "dec": 0,
    "label": "Indicador compuesto OIC",
    "source": "OIC · La República",
    "unit": "¢/lb",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-   "value": 264
+   "value": 257
   },
   "icoOM": {
    "asOf": "2026-09-30",
@@ -139,16 +139,16 @@
   },
   "kc1": {
    "asOf": "2026-10-27",
-   "change": -6.7,
+   "change": -7.2,
    "chgDec": 2,
    "contract": "Dic-26",
    "dec": 2,
    "label": "KC C1",
-   "note": "Cierre del 27-oct (histórico de Investing)",
+   "note": "Cierre del 27-oct (histórico de Investing); el 28-oct opera cerca de 287 (intradía)",
    "source": "Investing.com",
    "unit": "¢/lb",
    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 294.25
+   "value": 293.75
   },
   "kc2": {
    "asOf": "2026-10-27",
@@ -263,5 +263,5 @@
   "unit": "M sacos",
   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
  },
- "updatedAt": "2026-10-27T19:46:59Z"
+ "updatedAt": "2026-10-28T11:55:00Z"
 }

@@ -23,14 +23,14 @@
    "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-27",
    "id": "a28",
    "pais": "Colombia",
    "scope": "am",
    "source": "La República",
-   "summary": "El precio base del pergamino seco cayó $52.000 (-2,36%) el 23 de octubre, hasta $2.148.000 por carga, tras bajar $35.000 un día antes. El peso fuerte sigue comprimiendo el ingreso en pesos del caficultor.",
+   "summary": "El precio base del pergamino seco cayó $35.000 (-1,67%) el 27 de octubre, hasta $2.065.000 por carga, tras $2.148.000 el 23 de octubre. La caída del arábica en Nueva York y el peso fuerte siguen comprimiendo el ingreso en pesos del caficultor.",
    "tag": "Precios",
-   "title": "Colombia: el precio interno del café baja a $2.148.000 por carga",
+   "title": "Colombia: el precio interno del café baja a $2.065.000 por carga",
    "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
   },
   {
@@ -43,16 +43,6 @@
    "tag": "Exportaciones",
    "title": "Ecuador: el café industrializado sube 25,7% en valor exportado de enero a agosto",
    "url": "https://www.infobae.com/america/agencias/2026/10/20/exportaciones-no-petroleras-de-ecuador-alcanzan-record-entre-enero-y-agosto-de-2026/"
-  },
-  {
-   "date": "2026-10-19",
-   "id": "a31",
-   "scope": "mundo",
-   "source": "Rio Times",
-   "summary": "El contrato de diciembre liquidó en 315,7 ¢/lb (+3,3%) el 19 de octubre, con el real firme en R$5,04 y temor de que el café brasileño no llegue a tiempo a los almacenes. La robusta de noviembre cerró en US$3.484 por tonelada.",
-   "tag": "Mercado",
-   "title": "Arábica cierra en máximo de un mes con inventarios ICE en mínimos de 27 años",
-   "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/"
   },
   {
    "date": "2026-10-19",
@@ -164,27 +154,47 @@
    "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exportadores-de-cafe-colombiano-piden-al-gobierno-actuar-sobre-fletes-seguridad-y-tramites-portuarios/"
   },
   {
-   "date": "2026-10-13",
-   "id": "a44",
-   "pais": "Honduras",
+   "date": "2026-10-22",
+   "id": "a45",
+   "pais": "México",
    "scope": "am",
-   "source": "La Prensa (Honduras)",
-   "summary": "El Ihcafé espera menos volumen que los 7,3 millones de quintales del ciclo anterior (US$2.285 millones, precio medio de US$312,58), y advierte que la sequía por El Niño podría restar más de 1 millón de quintales. Con el mismo precio, las ventas serían unos US$97 millones menores.",
-   "tag": "Exportaciones",
-   "title": "Honduras prevé exportar unos 7 millones de quintales en la cosecha 2026-27",
-   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688"
+   "source": "Entorno Noticias",
+   "summary": "En la región Córdoba-Huatusco la roya, la antracnosis y la poca floración por falta de calor recortarían la cosecha entre 30% y 40%, y las compras iniciales van de 8 a 11,50 pesos/kg. Ojo: contrasta con el pronóstico de buena carga del INIFAP; confirma volúmenes con tu proveedor.",
+   "tag": "Producción",
+   "title": "Veracruz: arranca la cosecha con compras de 8 a 11,50 pesos por kilo y producción 30–40% menor",
+   "url": "https://entornonoticias.com/arranca-cosecha-en-la-region-cordoba-huatusco-con-precios-de-8-a-11-50-pesos/"
   },
   {
-   "id": "a45",
-   "scope": "am",
-   "pais": "México",
+   "date": "2026-10-28",
+   "id": "a46",
+   "scope": "mundo",
+   "source": "Reuters · ESM Magazine",
+   "summary": "El arábica liquidó el 27 de octubre en 293,75 ¢/lb (-7,2 ¢), tras bajar 2,1% el lunes, mientras el real se ubicó cerca de 5,35 por dólar, unos 7% más débil que antes de la elección; un real débil incentiva las ventas brasileñas. La robusta subió 0,6% a US$3.220/t, pero con la cosecha de Vietnam arrancando y los inventarios de bolsa al alza.",
+   "tag": "Mercado",
+   "title": "El arábica cae 2,4% tras la victoria de Lula y el real se debilita",
+   "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
+  },
+  {
+   "date": "2026-10-20",
+   "id": "a47",
+   "scope": "mundo",
+   "source": "Reuters · ESM Magazine",
+   "summary": "Productores de Buon Ma Thuot esperan una producción en línea con la campaña previa, frente al pronóstico del USDA de +2,5% a 32,5 millones de sacos. El Niño, posiblemente el más fuerte registrado, golpearía la cosecha 2027/28, aunque aún es pronto para cuantificarlo.",
    "tag": "Producción",
-   "date": "2026-10-22",
-   "source": "Entorno Noticias",
-   "url": "https://entornonoticias.com/arranca-cosecha-en-la-region-cordoba-huatusco-con-precios-de-8-a-11-50-pesos/",
-   "title": "Veracruz: arranca la cosecha con compras de 8 a 11,50 pesos por kilo y producción 30–40% menor",
-   "summary": "En la región Córdoba-Huatusco la roya, la antracnosis y la poca floración por falta de calor recortarían la cosecha entre 30% y 40%, y las compras iniciales van de 8 a 11,50 pesos/kg. Ojo: contrasta con el pronóstico de buena carga del INIFAP; confirma volúmenes con tu proveedor."
+   "title": "Vietnam: la cosecha 2026/27 de robusta sería similar a la anterior y El Niño amenaza la 2027/28",
+   "url": "https://www.esmmagazine.com/supply-chain/vietnam-coffee-output-forecast-flat-el-nino-threatens-next-crop-324044"
+  },
+  {
+   "date": "2026-10-21",
+   "id": "a48",
+   "pais": "Panamá",
+   "scope": "am",
+   "source": "Forbes Centroamérica",
+   "summary": "Es la primera vez que un país productor es sede del evento. La SCAP estima la producción panameña en unos 200.000 quintales al año, la mitad de especialidad, con Chiriquí como zona de referencia; es una oportunidad para contactar compradores de cafés especiales.",
+   "tag": "Eventos",
+   "title": "Panamá recibe World of Coffee Latinoamérica del 23 al 25 de octubre",
+   "url": "https://forbescentroamerica.com/2026/10/21/world-of-coffee-panama-apunta-a-los-productores-de-cafe-de-centroamerica/"
   }
  ],
- "updatedAt": "2026-10-27T19:46:59Z"
+ "updatedAt": "2026-10-28T11:55:00Z"
 }
