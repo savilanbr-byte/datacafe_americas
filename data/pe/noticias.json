@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T23:10:00Z",
+ "updatedAt": "2026-10-28T11:50:00Z",
  "items": [
   {
    "id": "p1",
@@ -102,6 +102,19 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "p10",
+   "scope": "pe",
+   "regiones": [
+    "cusco"
+   ],
+   "tag": "Eventos",
+   "date": "2026-10-20",
+   "source": "Diario UNO",
+   "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
+   "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
+   "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
   }
  ]
 }
