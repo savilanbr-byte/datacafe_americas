@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:50:00Z",
+ "updatedAt": "2026-10-28T19:50:00Z",
  "series": {
   "tc": {
    "label": "Tipo de cambio interbancario BCRP",
@@ -49,6 +49,10 @@
     [
      "2026-10-26",
      3.442
+    ],
+    [
+     "2026-10-27",
+     3.45
     ]
    ],
    "note": "Venta interbancaria del BCRP. La serie arranca el 12-oct-2026 y suma un dato por actualización.",

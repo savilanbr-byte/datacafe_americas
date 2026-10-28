@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:50:00Z",
+ "updatedAt": "2026-10-28T19:50:00Z",
  "items": [
   {
    "id": "p1",
@@ -10,6 +10,45 @@
    "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-de-2026",
    "title": "Mincetur: exportaciones de café suman US$705 millones de enero a agosto",
    "summary": "Perú es el octavo exportador mundial; más de 300 empresas exportan cada año y el 59 % son mipymes. Expocafé Perú será del 26 al 29 de noviembre."
+  },
+  {
+   "id": "p11",
+   "scope": "pe",
+   "regiones": [
+    "amazonas",
+    "cajamarca"
+   ],
+   "tag": "Producción",
+   "date": "2026-10-27",
+   "source": "Mundo Agropecuario",
+   "url": "https://mundoagropecuario.com/peru-recuperacion-produccion-agropecuaria-agosto-2026/",
+   "title": "La producción de café pergamino sube 2,6 % en agosto de 2026",
+   "summary": "Con datos de INEI y Midagri, el aumento se atribuye a mejores condiciones climáticas en Amazonas y Cajamarca; de enero a agosto el agro sigue 0,2 % por debajo del año pasado. Tras el +8 % de julio, la oferta de la campaña se recupera pero sigue limitada."
+  },
+  {
+   "id": "p12",
+   "scope": "pe",
+   "regiones": [],
+   "tag": "Clima",
+   "date": "2026-10-17",
+   "source": "Infobae · ENFEN",
+   "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/",
+   "title": "ENFEN: El Niño costero sería extraordinario hasta enero de 2027",
+   "summary": "Bajaría a fuerte hasta inicios del otoño de 2027; la costa norte tendría más lluvia de lo normal y la Amazonía central y sur lluvias normales o menores, con ríos Huallaga y Apurímac bajos. Afecta el transporte hacia Paita y la floración de la campaña 2027."
+  },
+  {
+   "id": "p13",
+   "scope": "pe",
+   "regiones": [
+    "piura",
+    "cajamarca"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-27",
+   "source": "RCR Perú",
+   "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/",
+   "title": "SENAMHI emite alerta roja por lluvias en Tumbes y Piura hasta el 29 de octubre",
+   "summary": "En la sierra de Piura se esperan más de 20–30 mm y en sectores de la sierra de Cajamarca unos 20 mm; SENAMHI advierte que las lluvias podrían ser más frecuentes desde noviembre. Posibles demoras de transporte en el norte cafetero."
   },
   {
    "id": "p7",
@@ -54,6 +93,19 @@
    "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
   },
   {
+   "id": "p10",
+   "scope": "pe",
+   "regiones": [
+    "cusco"
+   ],
+   "tag": "Eventos",
+   "date": "2026-10-20",
+   "source": "Diario UNO",
+   "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
+   "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
+   "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
+  },
+  {
    "id": "n8",
    "scope": "mundo",
    "tag": "Exportaciones",
@@ -61,7 +113,7 @@
    "source": "Trading Economics · Cecafé",
    "url": "https://tradingeconomics.com/commodity/coffee",
    "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los orígenes de lavado."
   },
   {
    "date": "2026-10-21",
@@ -78,7 +130,7 @@
    "id": "n10",
    "scope": "mundo",
    "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores costarricenses que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
+   "summary": "La Comisión Europea descarta un tercer aplazamiento del EUDR para empresas medianas y grandes. Los exportadores peruanos que venden a Europa necesitan tener lista la geolocalización de las fincas antes de fin de año.",
    "tag": "Regulación",
    "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
    "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
@@ -88,7 +140,7 @@
    "id": "n11",
    "scope": "mundo",
    "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
+   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, de referencia para el café peruano.",
    "tag": "Divisas",
    "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
@@ -102,19 +154,6 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
-   "id": "p10",
-   "scope": "pe",
-   "regiones": [
-    "cusco"
-   ],
-   "tag": "Eventos",
-   "date": "2026-10-20",
-   "source": "Diario UNO",
-   "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
-   "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
-   "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
   }
  ]
 }

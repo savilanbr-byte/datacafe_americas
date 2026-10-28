@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:50:00Z",
+ "updatedAt": "2026-10-28T19:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,28 +24,36 @@
  },
  "impactos": [
   "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
-  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); vigila la floración de octubre–noviembre.",
-  "El SENAMHI espera que las lluvias lleguen desde noviembre, con El Niño costero fuerte; si llueve mucho, Devida advierte más riesgo de roya y otros hongos en cafetales.",
-  "Con El Niño suelen llover más en la costa norte y menos en la sierra sur: vigila la floración de Cusco y Puno y el secado en las zonas más húmedas del norte.",
-  "Con menos producción y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
+  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); el ENFEN espera lluvias normales o menores en la Amazonía central y sur, así que conviene vigilar la floración de octubre–noviembre en Junín, Pasco, Cusco y Puno.",
+  "Las lluvias extraordinarias de El Niño costero en Tumbes y Piura, con ramalazos en la sierra de Piura y Cajamarca, pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
+  "Devida advierte que más humedad aumenta el riesgo de roya y otros hongos en los cafetales; la sanidad de este ciclo definirá la campaña 2027.",
+  "Con menos producción este año y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
  ],
  "avisos": {
-  "source": "ADEX · Gestión",
-  "asOf": "2026-08-05",
-  "headline": "La falta de lluvias retrasó la campaña 2026",
+  "source": "SENAMHI · ENFEN",
+  "asOf": "2026-10-27",
+  "headline": "Alerta roja por lluvias en Tumbes y Piura hasta el 29-oct; el ENFEN prevé El Niño costero extraordinario hasta enero de 2027",
   "items": [
-   "La campaña empezó en mayo y no en abril por la escasez de lluvias.",
-   "En la selva norte, la poca lluvia impidió una floración adecuada y bajó la productividad por hectárea.",
-   "Los cambios de temperatura pueden subir la incidencia de plagas."
+   "SENAMHI mantiene aviso rojo por lluvias intensas en Tumbes y en la sierra de Piura (Ayabaca, más de 20–30 mm); en la sierra de Cajamarca limítrofe se esperan unos 20 mm.",
+   "SENAMHI advirtió (22-oct) que las lluvias podrían intensificarse y ser más frecuentes desde noviembre en la costa norte; en la selva sur (Cusco, Puno) se anunció un friaje con lluvias.",
+   "ENFEN (17-oct): El Niño costero con magnitud extraordinaria hasta enero de 2027 y fuerte hasta inicios del otoño; en la Amazonía central y sur las lluvias estarían normales o por debajo y los ríos Huallaga, Apurímac y Vilcanota con caudales menores. Próximo comunicado: 30-oct."
   ],
   "links": [
    {
-    "t": "SENAMHI",
-    "url": "https://www.senamhi.gob.pe/"
+    "t": "ENFEN · Infobae",
+    "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/"
    },
    {
-    "t": "Gestión",
-    "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/"
+    "t": "SENAMHI · RCR Perú",
+    "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/"
+   },
+   {
+    "t": "SENAMHI · RPP",
+    "url": "https://rpp.pe/peru/actualidad/senamhi-advierte-lluvias-de-mayor-intensidad-en-la-costa-norte-entre-el-24-y-el-26-de-octubre-noticia-1714015"
+   },
+   {
+    "t": "SENAMHI",
+    "url": "https://www.senamhi.gob.pe/"
    }
   ]
  },
