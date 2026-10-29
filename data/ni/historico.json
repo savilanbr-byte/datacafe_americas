@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T11:48:37Z",
+ "updatedAt": "2026-10-29T19:46:25Z",
  "series": {
   "tc": {
    "label": "Tipo de cambio oficial del BCN",
@@ -149,6 +149,10 @@
     [
      "2026-10-27",
      294.25
+    ],
+    [
+     "2026-10-28",
+     286.75
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",

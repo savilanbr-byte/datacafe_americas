@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T11:48:37Z",
+ "updatedAt": "2026-10-29T19:46:25Z",
  "items": [
   {
    "id": "ni1",
@@ -66,16 +66,6 @@
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
   },
   {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
    "id": "ni5",
    "scope": "ni",
    "regiones": [
@@ -125,6 +115,16 @@
    "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/",
    "title": "INETER anuncia el final gradual de las lluvias y calor de hasta 36 °C",
    "summary": "Para la semana del 26 de octubre el INETER prevé máximas de 34–36 °C en el Pacífico, 31–34 °C en el resto del país y 28–31 °C en las zonas altas de Jinotega y Matagalpa, con lluvias débiles sobre todo en el Caribe. El tiempo seco favorece el inicio del corte y el secado del pergamino."
+  },
+  {
+   "id": "n13",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-27",
+   "source": "ESM Magazine",
+   "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
+   "title": "El arábica cae 2,4 % a US$2,9375 por libra con el clima favorable en Brasil",
+   "summary": "El 27 de octubre el arábica de ICE cerró en US$2,9375/lb tras bajar 2,1 % el lunes; el clima brasileño es húmedo pero favorable y se habla de una cosecha récord. El robusta subió 0,6 % a US$3.220/t, aún presionado por la cosecha de Vietnam. Una baja del KC encarece menos el café de Nicaragua en la cobertura de precios fijos."
   }
  ]
 }
