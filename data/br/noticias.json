@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:55:00Z",
+  "updatedAt": "2026-10-29T19:47:02Z",
   "items": [
     {
       "id": "b2",
@@ -109,6 +109,22 @@
       "url": "https://esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
       "title": "El arábica cae 2,4 % a US$2,9375/lb por el real débil y el clima favorable en Brasil",
       "summary": "Los futuros de ICE acumulan dos caídas seguidas mientras el tiempo húmedo en Brasil alimenta la expectativa de una cosecha récord; el robusta subió 0,6 % a US$3.220/t con el inicio de la cosecha en Vietnam y mayores inventarios."
+    },
+    {
+      "id": "b8",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-27",
+      "source": "SAFRAS & Mercado",
+      "url": "https://safras.com.br/brasil-deve-ter-dia-de-precos-mais-baixos-para-o-cafe-2",
+      "title": "Precios físicos del café suben el lunes por el dólar, pero se esperan bajas por la caída en Nueva York",
+      "summary": "El 26-oct el arábica de Sul de Minas (bebida boa) subió a R$1.730–1.735 por saca y el del Cerrado Mineiro a R$1.740–1.745; el conilon tipo 7 en Vitória pasó a R$960–965. Safras espera precios menores el 28 y productores retraídos; las exportaciones de octubre suman 3,83 M de sacas en 16 días hábiles (+35,5 % en promedio diario), a US$334 por saca."
     }
   ]
 }
