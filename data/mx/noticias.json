@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-28T19:47:08Z",
+  "updatedAt": "2026-10-29T11:50:05Z",
   "items": [
+    {
+      "id": "m13",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-28",
+      "source": "El Demócrata",
+      "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/",
+      "title": "Compradores ofrecerán 16–17 pesos por kilo de cereza, pero la CNOC advierte presión por importaciones de robusta",
+      "summary": "Antes del corte fuerte de noviembre en Veracruz, los compradores estiman 16–17 MXN/kg de cereza; la CNOC dice que es poco ante los insumos, que el peso fuerte resta unos 1.300 MXN por quintal de pergamino y que las importaciones de robusta brasileño subieron casi 80 % en septiembre. Para comprar: el pergamino mexicano se paga sobre bolsa, con descuentos de intermediarios de unos US$100 por quintal."
+    },
     {
       "id": "m1",
       "scope": "mx",
@@ -23,17 +36,6 @@
       "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
       "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
       "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
-    },
-    {
-      "id": "m12",
-      "scope": "mx",
-      "regiones": [],
-      "tag": "Mercado",
-      "date": "2026-10-07",
-      "source": "Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/10/07/precio-cafe-cae-16-por-ciento-chiapas/",
-      "title": "El indicador compuesto de la OIC cae 16,5 % anual; los otros suaves pierden 14 %",
-      "summary": "El compuesto cerró en 269,61 ¢/lb el 6-oct, frente a 322,97 un año antes; los otros suaves, referencia del café mexicano, bajaron de 398,46 a 342,25 ¢/lb. El repunte de 3,1 % desde el 30-sep no revierte la presión sobre los precios al productor."
     },
     {
       "id": "m6",

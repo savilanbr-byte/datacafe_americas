@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T19:47:08Z",
+  "updatedAt": "2026-10-29T11:50:05Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
@@ -29,10 +29,10 @@
       "label": "Cereza convencional · Altas Montañas, Veracruz",
       "value": null,
       "text": "8–12 MXN/kg",
-      "asOf": "2026-10-21",
-      "source": "Córdoba a Diario",
-      "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
-      "note": "El 21-oct se pagaba 12 en Totutla, 11,60 en Manuel González, 11 en Tenampa y 8 en Monte Blanco y Chocamán; La Jornada Veracruz (22-oct) reporta 7–10 en Zongolica, Ixtaczoquitlán, Río Blanco y Córdoba. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
+      "asOf": "2026-10-28",
+      "source": "El Demócrata · CNOC",
+      "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/",
+      "note": "Los compradores estiman 16–17 MXN/kg al arrancar el corte fuerte (primera semana de noviembre), según la CNOC; hoy se pagan 7–12 en las Altas Montañas (Córdoba a Diario 21-oct, La Jornada Veracruz 22-oct). La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
     },
     "expo": {
       "label": "Otros Suaves (OIC) · septiembre",
