@@ -1,142 +1,142 @@
 {
- "updatedAt": "2026-10-29T11:50:00Z",
- "items": [
-  {
-   "id": "s1",
-   "scope": "sv",
-   "tag": "Exportaciones",
-   "date": "2026-10-20",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-   "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
-   "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %.",
-   "regiones": []
-  },
-  {
-   "id": "s2",
-   "scope": "sv",
-   "regiones": [
-    "cacahuatique"
-   ],
-   "tag": "Agricultura",
-   "date": "2026-10-09",
-   "source": "Diario El Mundo",
-   "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
-   "title": "El ISC inicia en Cacahuatique una gira de capacitación por las seis cordilleras",
-   "summary": "Arranca con la cosecha 2026-27 (desde el 1 de octubre): siembra, cambio climático, fertilización, certificación y registro para subvenciones."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-21",
-   "id": "n9",
-   "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
-   "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
-  },
-  {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores salvadoreños que venden a Europa (17,1 % de las exportaciones) deben tener lista la geolocalización de las fincas antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la referencia del café salvadoreño.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "id": "s6",
-   "scope": "sv",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-10-23",
-   "source": "El Diario de Hoy",
-   "url": "https://www.elsalvador.com/noticias/nacional/epoca-seca-el-salvador/1300213/2026/",
-   "title": "El MARN prevé que la época seca empiece el 5 de noviembre",
-   "summary": "La transición arrancó el 15 de octubre y las lluvias bajarán de forma gradual, con precipitaciones aún posibles. Favorece el secado de la nueva cosecha, aunque con riesgo de lluvias aisladas."
-  },
-  {
-   "id": "s7",
-   "scope": "sv",
-   "regiones": [
-    "el-balsamo-quezaltepec",
-    "cacahuatique",
-    "apaneca-ilamatepec",
-    "chichontepec"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-20",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
-   "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
-   "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
-  },
-  {
-   "id": "s8",
-   "scope": "sv",
-   "regiones": [],
-   "tag": "Cafés especiales",
-   "date": "2026-10-14",
-   "source": "El Salvador in English",
-   "url": "https://elsalvadorinenglish.com/2026/10/14/el-salvador-expands-middle-east-trade-presence-with-specialty-coffee-and-agro-exports-at-gfw-2026/",
-   "title": "El Salvador lleva café de especialidad a Global Food Week en Abu Dabi",
-   "summary": "El pabellón salvadoreño presentó café de origen único en la feria del 6 al 8 de octubre; un distribuidor con sede en Emiratos ya comercializa café salvadoreño en la región. Sin cifras de volumen o precio."
-  },
-  {
-   "id": "s9",
-   "scope": "sv",
-   "regiones": [],
-   "tag": "Cafés especiales",
-   "date": "2026-10-19",
-   "source": "El Salvador Times",
-   "url": "https://www.elsalvadortimes.com/negocios/cafe-salvador-conquista-paladares-foro-inversion-iniciativa-mano-mano-roma/20261019110902105115.html",
-   "title": "El ISC y el MAG presentan café salvadoreño en Roma y buscan inversión para restaurar cafetales",
-   "summary": "Del 14 al 15 de octubre hubo degustaciones de Pacamara y Bourbon en la FAO, con la Taza de Excelencia 2026 a un precio promedio de US$44,81 en subasta. Las áreas de inversión propuestas son la restauración de cafetales, sistemas agroforestales, adaptación climática y procesamiento en cooperativas."
-  },
-  {
-   "id": "s10",
-   "scope": "sv",
-   "regiones": [
-    "alotepec-metapan",
-    "apaneca-ilamatepec"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-26",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
-   "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
-   "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
-  },
-  {
-   "id": "n13",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-10-24",
-   "source": "Inheritance Coffee",
-   "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
-   "title": "La robusta cae 5,45 % en la semana por inventarios certificados en máximos de 13 meses",
-   "summary": "El contrato de noviembre en Londres cerró en US$3.228 por tonelada el 23 de octubre; el arábica de diciembre en Nueva York, en 307,45 ¢/lb. Las lluvias de septiembre en Brasil y el buen clima en Vietnam pesan sobre los precios, lo que puede dar margen para negociar diferenciales."
-  }
- ]
+  "updatedAt": "2026-10-29T19:46:18Z",
+  "items": [
+    {
+      "id": "s1",
+      "scope": "sv",
+      "tag": "Exportaciones",
+      "date": "2026-10-20",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
+      "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
+      "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %.",
+      "regiones": []
+    },
+    {
+      "id": "s2",
+      "scope": "sv",
+      "regiones": [
+        "cacahuatique"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-10-09",
+      "source": "Diario El Mundo",
+      "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
+      "title": "El ISC inicia en Cacahuatique una gira de capacitación por las seis cordilleras",
+      "summary": "Arranca con la cosecha 2026-27 (desde el 1 de octubre): siembra, cambio climático, fertilización, certificación y registro para subvenciones."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+    },
+    {
+      "date": "2026-10-21",
+      "id": "n9",
+      "scope": "mundo",
+      "source": "ADM Investor Services",
+      "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+      "tag": "Mercado",
+      "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+      "url": "https://admis.com/cotton-faces-new-rain-risk"
+    },
+    {
+      "date": "2026-10-18",
+      "id": "n10",
+      "scope": "mundo",
+      "source": "Moncloa",
+      "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores salvadoreños que venden a Europa (17,1 % de las exportaciones) deben tener lista la geolocalización de las fincas antes de fin de año.",
+      "tag": "Regulación",
+      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la referencia del café salvadoreño.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "id": "s6",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-10-23",
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/noticias/nacional/epoca-seca-el-salvador/1300213/2026/",
+      "title": "El MARN prevé que la época seca empiece el 5 de noviembre",
+      "summary": "La transición arrancó el 15 de octubre y las lluvias bajarán de forma gradual, con precipitaciones aún posibles. Favorece el secado de la nueva cosecha, aunque con riesgo de lluvias aisladas."
+    },
+    {
+      "id": "s7",
+      "scope": "sv",
+      "regiones": [
+        "el-balsamo-quezaltepec",
+        "cacahuatique",
+        "apaneca-ilamatepec",
+        "chichontepec"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-20",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
+      "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
+      "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
+    },
+    {
+      "id": "s8",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Cafés especiales",
+      "date": "2026-10-14",
+      "source": "El Salvador in English",
+      "url": "https://elsalvadorinenglish.com/2026/10/14/el-salvador-expands-middle-east-trade-presence-with-specialty-coffee-and-agro-exports-at-gfw-2026/",
+      "title": "El Salvador lleva café de especialidad a Global Food Week en Abu Dabi",
+      "summary": "El pabellón salvadoreño presentó café de origen único en la feria del 6 al 8 de octubre; un distribuidor con sede en Emiratos ya comercializa café salvadoreño en la región. Sin cifras de volumen o precio."
+    },
+    {
+      "id": "s9",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Cafés especiales",
+      "date": "2026-10-19",
+      "source": "El Salvador Times",
+      "url": "https://www.elsalvadortimes.com/negocios/cafe-salvador-conquista-paladares-foro-inversion-iniciativa-mano-mano-roma/20261019110902105115.html",
+      "title": "El ISC y el MAG presentan café salvadoreño en Roma y buscan inversión para restaurar cafetales",
+      "summary": "Del 14 al 15 de octubre hubo degustaciones de Pacamara y Bourbon en la FAO, con la Taza de Excelencia 2026 a un precio promedio de US$44,81 en subasta. Las áreas de inversión propuestas son la restauración de cafetales, sistemas agroforestales, adaptación climática y procesamiento en cooperativas."
+    },
+    {
+      "id": "s10",
+      "scope": "sv",
+      "regiones": [
+        "alotepec-metapan",
+        "apaneca-ilamatepec"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-26",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
+      "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
+      "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-24",
+      "source": "Inheritance Coffee",
+      "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
+      "title": "La robusta cae 5,45 % en la semana por inventarios certificados en máximos de 13 meses",
+      "summary": "El contrato de noviembre en Londres cerró en US$3.228 por tonelada el 23 de octubre; el arábica de diciembre en Nueva York, en 307,45 ¢/lb. Las lluvias de septiembre en Brasil y el buen clima en Vietnam pesan sobre los precios, lo que puede dar margen para negociar diferenciales."
+    }
+  ]
 }
