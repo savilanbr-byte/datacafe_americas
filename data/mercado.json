@@ -1,267 +1,267 @@
 {
- "curve": {
-  "asOf": "2026-10-27",
-  "points": [
-   {
-    "contract": "Dic-26",
-    "value": 293.75
-   },
-   {
-    "contract": "Mar-27",
-    "value": 281.1
-   },
-   {
-    "contract": "May-27",
-    "value": 277.1
-   },
-   {
-    "contract": "Jul-27",
-    "value": 274.15
-   },
-   {
-    "contract": "Sep-27",
-    "value": 271.4
-   }
-  ],
-  "source": "Investing.com",
-  "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
- },
- "fx": {
-  "asOf": "2026-10-28",
-  "base": "USD",
-  "rates": {
-   "BOB": 11.855191,
-   "BRL": 5.348375,
-   "COP": 3143.42897,
-   "CRC": 454.800757,
-   "GTQ": 7.64053,
-   "HNL": 26.851722,
-   "MXN": 18.673405,
-   "NIO": 36.803104,
-   "PEN": 3.448578,
-   "VES": 888.1183
+  "curve": {
+    "asOf": "2026-10-29",
+    "points": [
+      {
+        "contract": "Dic-26",
+        "value": 286.5
+      },
+      {
+        "contract": "Mar-27",
+        "value": 276.6
+      },
+      {
+        "contract": "May-27",
+        "value": 272.7
+      },
+      {
+        "contract": "Jul-27",
+        "value": 269.85
+      },
+      {
+        "contract": "Sep-27",
+        "value": 267.25
+      }
+    ],
+    "source": "Investing.com",
+    "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
-  "source": "ExchangeRate-API",
-  "url": "https://open.er-api.com/v6/latest/USD"
- },
- "items": {
-  "cot": {
-   "asOf": "2026-10-20",
-   "change": 7067,
-   "dec": 0,
-   "label": "Fondos (managed money) neto",
-   "note": "Largos 38.596 · cortos 16.259. Neto comprado y subiendo.",
-   "source": "CFTC COT",
-   "unit": "contratos",
-   "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-   "value": 22337
+  "fx": {
+    "asOf": "2026-10-29",
+    "base": "USD",
+    "rates": {
+      "BRL": 5.346831,
+      "COP": 3146.899554,
+      "MXN": 18.653512,
+      "GTQ": 7.637817,
+      "HNL": 26.859177,
+      "NIO": 36.780352,
+      "CRC": 454.546838,
+      "VES": 888.8909,
+      "PEN": 3.450392,
+      "BOB": 11.997047
+    },
+    "source": "ExchangeRate-API",
+    "url": "https://open.er-api.com/v6/latest/USD"
   },
-  "expoBR": {
-   "asOf": "2026-09-30",
-   "changePct": 3.1,
-   "dec": 3,
-   "label": "Exportaciones de Brasil · septiembre",
-   "note": "Año-cosecha 26/27 (jul–sep): 11,21 M sacos, +15,5%",
-   "source": "Cecafé",
-   "unit": "M sacos",
-   "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/",
-   "value": 3.894
+  "items": {
+    "cot": {
+      "asOf": "2026-10-20",
+      "change": 7067,
+      "dec": 0,
+      "label": "Fondos (managed money) neto",
+      "note": "Largos 38.596 · cortos 16.259. Neto comprado y subiendo.",
+      "source": "CFTC COT",
+      "unit": "contratos",
+      "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
+      "value": 22337
+    },
+    "expoBR": {
+      "asOf": "2026-09-30",
+      "changePct": 3.1,
+      "dec": 3,
+      "label": "Exportaciones de Brasil · septiembre",
+      "note": "Año-cosecha 26/27 (jul–sep): 11,21 M sacos, +15,5%",
+      "source": "Cecafé",
+      "unit": "M sacos",
+      "url": "https://www.cecafe.com.br/sem-categoria/exportacao-cafe-39-mi-sacas-setembro-20261009/",
+      "value": 3.894
+    },
+    "expoMundo": {
+      "asOf": "2026-07-02",
+      "dec": 1,
+      "label": "Exportaciones mundiales 26/27",
+      "note": "Café verde; pronóstico",
+      "source": "USDA FAS",
+      "unit": "M sacos",
+      "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
+      "value": 131.41
+    },
+    "icestocks": {
+      "asOf": "2026-10-20",
+      "dec": 0,
+      "label": "Inventarios certificados ICE",
+      "note": "Mínimo en 27 años: 217.646 (15-sep); robusta en máximo de 1 año",
+      "source": "ICE · Barchart",
+      "unit": "sacos",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html",
+      "value": 234901
+    },
+    "icoBN": {
+      "asOf": "2026-09-30",
+      "dec": 2,
+      "label": "Naturales brasileños",
+      "note": "Promedio de septiembre 2026",
+      "source": "OIC · I-CIP",
+      "unit": "¢/lb",
+      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
+      "value": 290.19
+    },
+    "icoCM": {
+      "asOf": "2026-09-30",
+      "dec": 2,
+      "label": "Suaves colombianos",
+      "note": "Promedio de septiembre 2026",
+      "source": "OIC · I-CIP",
+      "unit": "¢/lb",
+      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
+      "value": 356.15
+    },
+    "icoComp": {
+      "asOf": "2026-10-27",
+      "changePct": -0.76,
+      "dec": 0,
+      "label": "Indicador compuesto OIC",
+      "source": "OIC · La República",
+      "unit": "¢/lb",
+      "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
+      "value": 255
+    },
+    "icoOM": {
+      "asOf": "2026-09-30",
+      "dec": 2,
+      "label": "Otros suaves",
+      "note": "Promedio de septiembre 2026",
+      "source": "OIC · I-CIP",
+      "unit": "¢/lb",
+      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
+      "value": 329.44
+    },
+    "icoRB": {
+      "asOf": "2026-09-30",
+      "dec": 2,
+      "label": "Robustas",
+      "note": "Promedio de septiembre 2026",
+      "source": "OIC · I-CIP",
+      "unit": "¢/lb",
+      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
+      "value": 167.49
+    },
+    "kc1": {
+      "asOf": "2026-10-28",
+      "change": -7.0,
+      "chgDec": 2,
+      "contract": "Dic-26",
+      "dec": 2,
+      "label": "KC C1",
+      "note": "Cierre del 28-oct (histórico de Investing); el 29-oct opera cerca de 286,78 (intradía)",
+      "source": "Investing.com",
+      "unit": "¢/lb",
+      "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+      "value": 286.75
+    },
+    "kc2": {
+      "asOf": "2026-10-29",
+      "change": 0.4,
+      "chgDec": 2,
+      "contract": "Mar-27",
+      "dec": 2,
+      "label": "KC C2",
+      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "source": "Investing.com",
+      "unit": "¢/lb",
+      "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+      "value": 276.6
+    },
+    "kc3": {
+      "asOf": "2026-10-29",
+      "change": 0.45,
+      "chgDec": 2,
+      "contract": "May-27",
+      "dec": 2,
+      "label": "KC C3",
+      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "source": "Investing.com",
+      "unit": "¢/lb",
+      "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+      "value": 272.7
+    },
+    "kc4": {
+      "asOf": "2026-10-29",
+      "change": 0.35,
+      "chgDec": 2,
+      "contract": "Jul-27",
+      "dec": 2,
+      "label": "KC C4",
+      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "source": "Investing.com",
+      "unit": "¢/lb",
+      "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
+      "value": 269.85
+    },
+    "prodMundo": {
+      "asOf": "2026-07-02",
+      "changePct": 6.08,
+      "dec": 1,
+      "label": "Producción mundial 26/27",
+      "note": "Pronóstico; +10,8 M sacos frente a 25/26 (178,8 M)",
+      "source": "USDA FAS",
+      "unit": "M sacos",
+      "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
+      "value": 189.67
+    },
+    "robusta": {
+      "asOf": "2026-10-27",
+      "change": 27.5,
+      "changePct": 0.86,
+      "contract": "Nov-26",
+      "dec": 0,
+      "label": "Robusta Londres (ICE)",
+      "note": "Cierre de Londres, 27-oct (Investing; dato aproximado)",
+      "source": "Investing.com",
+      "unit": "USD/t",
+      "url": "https://www.investing.com/commodities/london-coffee",
+      "value": 3237.5
+    },
+    "stocksMundo": {
+      "asOf": "2026-07-02",
+      "dec": 1,
+      "label": "Inventarios finales 26/27",
+      "note": "Pronóstico de existencias al cierre del año",
+      "source": "USDA FAS",
+      "unit": "M sacos",
+      "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
+      "value": 26.28
+    }
   },
-  "expoMundo": {
-   "asOf": "2026-07-02",
-   "dec": 1,
-   "label": "Exportaciones mundiales 26/27",
-   "note": "Café verde; pronóstico",
-   "source": "USDA FAS",
-   "unit": "M sacos",
-   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
-   "value": 131.41
+  "oferta": {
+    "asOf": "2026-07-02",
+    "nota": "Centroamérica y México suman 17,7 M sacos. Vietnam se muestra solo como referencia.",
+    "ref": {
+      "pais": "Vietnam (referencia)",
+      "value": 32.5
+    },
+    "rows": [
+      {
+        "note": "Arábica 47,5 · robusta 24,4",
+        "pais": "Brasil",
+        "value": 71.9
+      },
+      {
+        "pais": "Colombia",
+        "value": 13.4
+      },
+      {
+        "pais": "Honduras",
+        "value": 6.03
+      },
+      {
+        "pais": "Perú",
+        "value": 4.78
+      },
+      {
+        "pais": "México",
+        "value": 4.135
+      },
+      {
+        "pais": "Guatemala",
+        "value": 3.26
+      }
+    ],
+    "source": "USDA FAS",
+    "title": "Producción 26/27 por país (pronóstico)",
+    "unit": "M sacos",
+    "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "icestocks": {
-   "asOf": "2026-10-20",
-   "dec": 0,
-   "label": "Inventarios certificados ICE",
-   "note": "Mínimo en 27 años: 217.646 (15-sep); robusta en máximo de 1 año",
-   "source": "ICE · Barchart",
-   "unit": "sacos",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html",
-   "value": 234901
-  },
-  "icoBN": {
-   "asOf": "2026-09-30",
-   "dec": 2,
-   "label": "Naturales brasileños",
-   "note": "Promedio de septiembre 2026",
-   "source": "OIC · I-CIP",
-   "unit": "¢/lb",
-   "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-   "value": 290.19
-  },
-  "icoCM": {
-   "asOf": "2026-09-30",
-   "dec": 2,
-   "label": "Suaves colombianos",
-   "note": "Promedio de septiembre 2026",
-   "source": "OIC · I-CIP",
-   "unit": "¢/lb",
-   "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-   "value": 356.15
-  },
-  "icoComp": {
-   "asOf": "2026-10-26",
-   "changePct": -2.82,
-   "dec": 0,
-   "label": "Indicador compuesto OIC",
-   "source": "OIC · La República",
-   "unit": "¢/lb",
-   "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-   "value": 257
-  },
-  "icoOM": {
-   "asOf": "2026-09-30",
-   "dec": 2,
-   "label": "Otros suaves",
-   "note": "Promedio de septiembre 2026",
-   "source": "OIC · I-CIP",
-   "unit": "¢/lb",
-   "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-   "value": 329.44
-  },
-  "icoRB": {
-   "asOf": "2026-09-30",
-   "dec": 2,
-   "label": "Robustas",
-   "note": "Promedio de septiembre 2026",
-   "source": "OIC · I-CIP",
-   "unit": "¢/lb",
-   "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-   "value": 167.49
-  },
-  "kc1": {
-   "asOf": "2026-10-27",
-   "change": -7.2,
-   "chgDec": 2,
-   "contract": "Dic-26",
-   "dec": 2,
-   "label": "KC C1",
-   "note": "Cierre del 27-oct (histórico de Investing); el 28-oct opera cerca de 286,75 (intradía)",
-   "source": "Investing.com",
-   "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 293.75
-  },
-  "kc2": {
-   "asOf": "2026-10-27",
-   "change": -4.1,
-   "chgDec": 2,
-   "contract": "Mar-27",
-   "dec": 2,
-   "label": "KC C2",
-   "note": "Último de la página de contratos de Investing, 27-oct (14:34)",
-   "source": "Investing.com",
-   "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 281.1
-  },
-  "kc3": {
-   "asOf": "2026-10-27",
-   "change": -3.55,
-   "chgDec": 2,
-   "contract": "May-27",
-   "dec": 2,
-   "label": "KC C3",
-   "note": "Último de la página de contratos de Investing, 27-oct (14:34)",
-   "source": "Investing.com",
-   "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 277.1
-  },
-  "kc4": {
-   "asOf": "2026-10-27",
-   "change": -3.35,
-   "chgDec": 2,
-   "contract": "Jul-27",
-   "dec": 2,
-   "label": "KC C4",
-   "note": "Último de la página de contratos de Investing, 27-oct (14:34)",
-   "source": "Investing.com",
-   "unit": "¢/lb",
-   "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-   "value": 274.15
-  },
-  "prodMundo": {
-   "asOf": "2026-07-02",
-   "changePct": 6.08,
-   "dec": 1,
-   "label": "Producción mundial 26/27",
-   "note": "Pronóstico; +10,8 M sacos frente a 25/26 (178,8 M)",
-   "source": "USDA FAS",
-   "unit": "M sacos",
-   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
-   "value": 189.67
-  },
-  "robusta": {
-   "asOf": "2026-10-27",
-   "change": 27.5,
-   "changePct": 0.86,
-   "contract": "Nov-26",
-   "dec": 0,
-   "label": "Robusta Londres (ICE)",
-   "note": "Cierre de Londres, 27-oct (Investing; dato aproximado)",
-   "source": "Investing.com",
-   "unit": "USD/t",
-   "url": "https://www.investing.com/commodities/london-coffee",
-   "value": 3237.5
-  },
-  "stocksMundo": {
-   "asOf": "2026-07-02",
-   "dec": 1,
-   "label": "Inventarios finales 26/27",
-   "note": "Pronóstico de existencias al cierre del año",
-   "source": "USDA FAS",
-   "unit": "M sacos",
-   "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf",
-   "value": 26.28
-  }
- },
- "oferta": {
-  "asOf": "2026-07-02",
-  "nota": "Centroamérica y México suman 17,7 M sacos. Vietnam se muestra solo como referencia.",
-  "ref": {
-   "pais": "Vietnam (referencia)",
-   "value": 32.5
-  },
-  "rows": [
-   {
-    "note": "Arábica 47,5 · robusta 24,4",
-    "pais": "Brasil",
-    "value": 71.9
-   },
-   {
-    "pais": "Colombia",
-    "value": 13.4
-   },
-   {
-    "pais": "Honduras",
-    "value": 6.03
-   },
-   {
-    "pais": "Perú",
-    "value": 4.78
-   },
-   {
-    "pais": "México",
-    "value": 4.135
-   },
-   {
-    "pais": "Guatemala",
-    "value": 3.26
-   }
-  ],
-  "source": "USDA FAS",
-  "title": "Producción 26/27 por país (pronóstico)",
-  "unit": "M sacos",
-  "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
- },
- "updatedAt": "2026-10-28T19:46:53Z"
+  "updatedAt": "2026-10-29T11:48:05Z"
 }

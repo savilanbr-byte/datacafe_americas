@@ -1,146 +1,146 @@
 {
- "enso": {
-  "asOf": "2026-10-08",
-  "facts": [
-   {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
-   },
-   {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
-   }
+  "enso": {
+    "asOf": "2026-10-08",
+    "facts": [
+      {
+        "l": "Anomalía Niño 3.4",
+        "v": "+2,1 °C"
+      },
+      {
+        "l": "Fuerte o más hasta ene–mar 2027",
+        "v": "83%"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "period": "30 de octubre al 5 de noviembre",
+    "url": "https://www.yr.no/"
+  },
+  "impactos": [
+    "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Anacafé teme caídas de 5–15% en Guatemala y en El Salvador se esperan menos quintales en 2026-27.",
+    "Colombia y Venezuela: el déficit fuerte de lluvias llega desde diciembre; pone en riesgo floraciones y el llenado de grano de las cosechas del primer semestre de 2027.",
+    "Perú y Ecuador: El Niño trae lluvias fuertes a la costa norte; en las zonas cafeteras de sierra y selva el efecto es más variable. Vigila logística y puertos.",
+    "Brasil: Cepea reporta buena floración y cuajado para la cosecha 2027/28, con lluvias en general; el calor y un posible El Niño son el riesgo de aborto del fruto, y el Cerrado no lo confirma hasta diciembre.",
+    "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "period": "29 de octubre al 4 de noviembre",
-  "url": "https://www.yr.no/"
- },
- "impactos": [
-  "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Anacafé teme caídas de 5–15% en Guatemala y en El Salvador se esperan menos quintales en 2026-27.",
-  "Colombia y Venezuela: el déficit fuerte de lluvias llega desde diciembre; pone en riesgo floraciones y el llenado de grano de las cosechas del primer semestre de 2027.",
-  "Perú y Ecuador: El Niño trae lluvias fuertes a la costa norte; en las zonas cafeteras de sierra y selva el efecto es más variable. Vigila logística y puertos.",
-  "Brasil: Cepea reporta buena floración y cuajado para la cosecha 2027/28, con lluvias en general; el calor y un posible El Niño son el riesgo de aborto del fruto, y el Cerrado no lo confirma hasta diciembre.",
-  "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
- ],
- "regions": [
-  {
-   "dept": "México",
-   "p7": 17.6,
-   "place": "Tapachula, Chiapas",
-   "region": "mexico",
-   "tmax": 31,
-   "tmin": 24
-  },
-  {
-   "dept": "Guatemala",
-   "p7": 12.0,
-   "place": "Antigua",
-   "region": "guatemala",
-   "tmax": 25,
-   "tmin": 14
-  },
-  {
-   "dept": "Honduras",
-   "p7": 6.7,
-   "place": "Marcala, La Paz",
-   "region": "honduras",
-   "tmax": 25,
-   "tmin": 16
-  },
-  {
-   "dept": "El Salvador",
-   "p7": 5.6,
-   "place": "Santa Ana",
-   "region": "el-salvador",
-   "tmax": 30,
-   "tmin": 20
-  },
-  {
-   "dept": "Nicaragua",
-   "p7": 10.0,
-   "place": "Matagalpa",
-   "region": "nicaragua",
-   "tmax": 28,
-   "tmin": 20
-  },
-  {
-   "dept": "Costa Rica",
-   "p7": 58.5,
-   "place": "San Marcos de Tarrazú",
-   "region": "costa-rica",
-   "tmax": 23,
-   "tmin": 16
-  },
-  {
-   "dept": "Panamá",
-   "p7": 73.1,
-   "place": "Boquete, Chiriquí",
-   "region": "panama",
-   "tmax": 23,
-   "tmin": 18
-  },
-  {
-   "dept": "Colombia",
-   "p7": 104.1,
-   "place": "Chinchiná, Caldas",
-   "region": "colombia",
-   "tmax": 24,
-   "tmin": 18
-  },
-  {
-   "dept": "Venezuela",
-   "p7": 14.2,
-   "place": "Boconó, Trujillo",
-   "region": "venezuela",
-   "tmax": 25,
-   "tmin": 17
-  },
-  {
-   "dept": "Ecuador",
-   "p7": 95.8,
-   "place": "Loja",
-   "region": "ecuador",
-   "tmax": 21,
-   "tmin": 14
-  },
-  {
-   "dept": "Perú",
-   "p7": 111.8,
-   "place": "Jaén, Cajamarca",
-   "region": "peru",
-   "tmax": 29,
-   "tmin": 22
-  },
-  {
-   "dept": "Bolivia",
-   "p7": 62.7,
-   "place": "Caranavi, La Paz",
-   "region": "bolivia",
-   "tmax": 30,
-   "tmin": 21
-  },
-  {
-   "dept": "Brasil",
-   "p7": 87.3,
-   "place": "Varginha, Sul de Minas",
-   "region": "brasil-arabica",
-   "tmax": 26,
-   "tmin": 18
-  },
-  {
-   "dept": "Brasil",
-   "p7": 42.5,
-   "place": "Linhares, Espírito Santo",
-   "region": "brasil-conilon",
-   "tmax": 29,
-   "tmin": 23
-  }
- ],
- "updatedAt": "2026-10-28T19:46:53Z"
+  "regions": [
+    {
+      "dept": "México",
+      "p7": 16.3,
+      "place": "Tapachula, Chiapas",
+      "region": "mexico",
+      "tmax": 31,
+      "tmin": 24
+    },
+    {
+      "dept": "Guatemala",
+      "p7": 8.7,
+      "place": "Antigua",
+      "region": "guatemala",
+      "tmax": 25,
+      "tmin": 14
+    },
+    {
+      "dept": "Honduras",
+      "p7": 11.1,
+      "place": "Marcala, La Paz",
+      "region": "honduras",
+      "tmax": 25,
+      "tmin": 16
+    },
+    {
+      "dept": "El Salvador",
+      "p7": 8.3,
+      "place": "Santa Ana",
+      "region": "el-salvador",
+      "tmax": 30,
+      "tmin": 21
+    },
+    {
+      "dept": "Nicaragua",
+      "p7": 10.4,
+      "place": "Matagalpa",
+      "region": "nicaragua",
+      "tmax": 29,
+      "tmin": 20
+    },
+    {
+      "dept": "Costa Rica",
+      "p7": 50.1,
+      "place": "San Marcos de Tarrazú",
+      "region": "costa-rica",
+      "tmax": 23,
+      "tmin": 16
+    },
+    {
+      "dept": "Panamá",
+      "p7": 161.2,
+      "place": "Boquete, Chiriquí",
+      "region": "panama",
+      "tmax": 22,
+      "tmin": 18
+    },
+    {
+      "dept": "Colombia",
+      "p7": 116.3,
+      "place": "Chinchiná, Caldas",
+      "region": "colombia",
+      "tmax": 23,
+      "tmin": 18
+    },
+    {
+      "dept": "Venezuela",
+      "p7": 15.0,
+      "place": "Boconó, Trujillo",
+      "region": "venezuela",
+      "tmax": 25,
+      "tmin": 17
+    },
+    {
+      "dept": "Ecuador",
+      "p7": 67.1,
+      "place": "Loja",
+      "region": "ecuador",
+      "tmax": 22,
+      "tmin": 15
+    },
+    {
+      "dept": "Perú",
+      "p7": 72.0,
+      "place": "Jaén, Cajamarca",
+      "region": "peru",
+      "tmax": 29,
+      "tmin": 22
+    },
+    {
+      "dept": "Bolivia",
+      "p7": 37.1,
+      "place": "Caranavi, La Paz",
+      "region": "bolivia",
+      "tmax": 31,
+      "tmin": 21
+    },
+    {
+      "dept": "Brasil",
+      "p7": 51.6,
+      "place": "Varginha, Sul de Minas",
+      "region": "brasil-arabica",
+      "tmax": 26,
+      "tmin": 18
+    },
+    {
+      "dept": "Brasil",
+      "p7": 22.0,
+      "place": "Linhares, Espírito Santo",
+      "region": "brasil-conilon",
+      "tmax": 31,
+      "tmin": 24
+    }
+  ],
+  "updatedAt": "2026-10-29T11:48:05Z"
 }
