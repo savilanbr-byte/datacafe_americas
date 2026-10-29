@@ -1,19 +1,19 @@
 {
- "updatedAt": "2026-10-29T11:51:29Z",
+ "updatedAt": "2026-10-29T19:46:56Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio interbancario BCRP (venta)",
-   "value": 3.45,
+   "value": 3.454,
    "dec": 3,
    "unit": "PEN/USD",
-   "change": 0.008,
+   "change": 0.004,
    "chgDec": 3,
-   "asOf": "2026-10-27",
+   "asOf": "2026-10-28",
    "source": "BCRP",
    "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-10-19/2026-10-29/",
    "liveUrl": "https://estadisticas.bcrp.gob.pe/",
    "liveT": "BCRP",
-   "note": "Estable: entre S/3,428 y S/3,450 en octubre."
+   "note": "Estable: entre S/3,428 y S/3,454 en octubre."
   },
   "expo": {
    "label": "Precio promedio de exportación ene–jun 2026",
