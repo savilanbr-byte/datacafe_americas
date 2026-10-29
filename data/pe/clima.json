@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T19:50:00Z",
+ "updatedAt": "2026-10-29T11:51:29Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -31,14 +31,18 @@
  ],
  "avisos": {
   "source": "SENAMHI · ENFEN",
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "headline": "Alerta roja por lluvias en Tumbes y Piura hasta el 29-oct; el ENFEN prevé El Niño costero extraordinario hasta enero de 2027",
   "items": [
-   "SENAMHI mantiene aviso rojo por lluvias intensas en Tumbes y en la sierra de Piura (Ayabaca, más de 20–30 mm); en la sierra de Cajamarca limítrofe se esperan unos 20 mm.",
+   "SENAMHI mantiene el aviso rojo por lluvias de fuerte a extrema intensidad en Tumbes y Piura hasta el 29-oct (23:59); Cajamarca figura entre los departamentos incluidos, con lluvias menos intensas (unos 20 mm en la sierra limítrofe con Piura).",
    "SENAMHI advirtió (22-oct) que las lluvias podrían intensificarse y ser más frecuentes desde noviembre en la costa norte; en la selva sur (Cusco, Puno) se anunció un friaje con lluvias.",
    "ENFEN (17-oct): El Niño costero con magnitud extraordinaria hasta enero de 2027 y fuerte hasta inicios del otoño; en la Amazonía central y sur las lluvias estarían normales o por debajo y los ríos Huallaga, Apurímac y Vilcanota con caudales menores. Próximo comunicado: 30-oct."
   ],
   "links": [
+   {
+    "t": "SENAMHI · RPP (28-oct)",
+    "url": "https://rpp.pe/peru/actualidad/senamhi-lluvias-en-la-costa-norte-estan-batiendo-records-historicos-de-acumulado-diario-noticia-1714833"
+   },
    {
     "t": "ENFEN · Infobae",
     "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/"

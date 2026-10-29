@@ -1,16 +1,6 @@
 {
- "updatedAt": "2026-10-28T19:50:00Z",
+ "updatedAt": "2026-10-29T11:51:29Z",
  "items": [
-  {
-   "id": "p1",
-   "scope": "pe",
-   "tag": "Exportaciones",
-   "date": "2026-10-14",
-   "source": "El Peruano",
-   "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-de-2026",
-   "title": "Mincetur: exportaciones de café suman US$705 millones de enero a agosto",
-   "summary": "Perú es el octavo exportador mundial; más de 300 empresas exportan cada año y el 59 % son mipymes. Expocafé Perú será del 26 al 29 de noviembre."
-  },
   {
    "id": "p11",
    "scope": "pe",
@@ -62,24 +52,6 @@
    "url": "https://elbuho.pe/2026/10/el-mejor-cafe-de-cajamarca-es-del-distrito-de-chirinos-provincia-de-san-ignacio/",
    "title": "Un geisha de Chirinos (San Ignacio) gana ExpoCafé Cajamarca 2026",
    "summary": "El lote de 120 kg, cultivado a 1.850 m s. n. m., sacó 89,25 puntos de taza y una cafetería lo compró a S/168 el kilo. Muestra el valor que alcanzan los lotes especiales del norte frente al café convencional."
-  },
-  {
-   "id": "p8",
-   "scope": "pe",
-   "regiones": [
-    "ayacucho",
-    "junin",
-    "huanuco",
-    "puno",
-    "amazonas",
-    "cajamarca"
-   ],
-   "tag": "Eventos",
-   "date": "2026-10-14",
-   "source": "Agro Perú Informa",
-   "url": "https://www.agroperu.pe/expocafe-2026-sera-una-vitrina-comercial-para-familias-cafetaleras-asistidas-por-devida/",
-   "title": "Devida llevará 18 organizaciones cafetaleras a Expocafé Perú 2026",
-   "summary": "La feria será del 26 al 29 de noviembre en Casa Prado (Miraflores) y reunirá a productores del VRAEM, Tingo María, La Merced, San Juan del Oro y Jaén. Devida asiste a 15.222 familias en 15.942 hectáreas: buena vitrina para contactar orígenes de cafés especiales."
   },
   {
    "id": "p9",
@@ -154,6 +126,21 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "p14",
+   "scope": "pe",
+   "regiones": [
+    "cajamarca",
+    "cusco",
+    "junin"
+   ],
+   "tag": "Cafés especiales",
+   "date": "2026-10-28",
+   "source": "Inforegión",
+   "url": "https://inforegion.pe/cajamarca-y-cusco-se-imponen-en-el-golden-cup-peru-2026-con-cafes-de-alta-calidad-y-despiertan-interes-de-mercados-de-japon-y-europa/",
+   "title": "Cajamarca y Cusco lideran el Golden Cup Perú 2026",
+   "summary": "La cooperativa Nuevo Horizonte (Cajamarca) ganó en contenedores completos, con puntajes de 85,48 a 86,40, y San Fernando (Cusco) en microlotes, con hasta 88,02 puntos. Compradores de Japón y España participaron en la cata: señal de demanda por lotes diferenciados."
   }
  ]
 }
