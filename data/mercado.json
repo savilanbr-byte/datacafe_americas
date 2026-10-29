@@ -4,23 +4,23 @@
     "points": [
       {
         "contract": "Dic-26",
-        "value": 286.5
+        "value": 285.45
       },
       {
         "contract": "Mar-27",
-        "value": 276.6
+        "value": 276.75
       },
       {
         "contract": "May-27",
-        "value": 272.7
+        "value": 273.0
       },
       {
         "contract": "Jul-27",
-        "value": 269.85
+        "value": 270.2
       },
       {
         "contract": "Sep-27",
-        "value": 267.25
+        "value": 267.55
       }
     ],
     "source": "Investing.com",
@@ -30,16 +30,16 @@
     "asOf": "2026-10-29",
     "base": "USD",
     "rates": {
+      "BOB": 11.997047,
       "BRL": 5.346831,
       "COP": 3146.899554,
-      "MXN": 18.653512,
+      "CRC": 454.546838,
       "GTQ": 7.637817,
       "HNL": 26.859177,
+      "MXN": 18.653512,
       "NIO": 36.780352,
-      "CRC": 454.546838,
-      "VES": 888.8909,
       "PEN": 3.450392,
-      "BOB": 11.997047
+      "VES": 888.8909
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -144,7 +144,7 @@
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 28-oct (histórico de Investing); el 29-oct opera cerca de 286,78 (intradía)",
+      "note": "Cierre del 28-oct (histórico de Investing); el 29-oct opera cerca de 285,45 (intradía, 14:34)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
@@ -152,42 +152,42 @@
     },
     "kc2": {
       "asOf": "2026-10-29",
-      "change": 0.4,
+      "change": 0.55,
       "chgDec": 2,
       "contract": "Mar-27",
       "dec": 2,
       "label": "KC C2",
-      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "note": "Página de contratos de Investing, 29-oct (14:34, intradía)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 276.6
+      "value": 276.75
     },
     "kc3": {
       "asOf": "2026-10-29",
-      "change": 0.45,
+      "change": 0.75,
       "chgDec": 2,
       "contract": "May-27",
       "dec": 2,
       "label": "KC C3",
-      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "note": "Página de contratos de Investing, 29-oct (14:34, intradía)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 272.7
+      "value": 273.0
     },
     "kc4": {
       "asOf": "2026-10-29",
-      "change": 0.35,
+      "change": 0.7,
       "chgDec": 2,
       "contract": "Jul-27",
       "dec": 2,
       "label": "KC C4",
-      "note": "Página de contratos de Investing, 29-oct (06:30, intradía)",
+      "note": "Página de contratos de Investing, 29-oct (14:34, intradía)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 269.85
+      "value": 270.2
     },
     "prodMundo": {
       "asOf": "2026-07-02",
@@ -263,5 +263,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-10-29T11:48:05Z"
+  "updatedAt": "2026-10-29T19:46:26Z"
 }
