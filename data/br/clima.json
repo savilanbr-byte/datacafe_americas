@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:48:56Z",
+  "updatedAt": "2026-10-29T11:55:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,19 +23,19 @@
     "period": ""
   },
   "impactos": [
-    "Las floradas de la cosecha 2027-28 salieron bien en casi todas las regiones; noviembre y diciembre deciden el cuajado. Un El Niño con calor fuerte puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
+    "Las floradas de la cosecha 2027-28 salieron bien y las lluvias recientes ayudan; noviembre y diciembre deciden el cuajado (pegamento). Un El Niño con calor fuerte puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
     "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-    "El dólar subió 8 % el 26 de octubre y retrocedió 1,1 % el 27 (R$5,35): sigue encareciendo el café en reales y puede animar al productor a vender; vigila el ritmo de ventas y los diferenciales FOB.",
+    "El dólar subió 8 % el 26 de octubre y cerró en R$5,34 el 28: sigue encareciendo el café en reales y puede animar al productor a vender; vigila el ritmo de ventas y los diferenciales FOB.",
     "El Niño suele traer lluvias irregulares al Sudeste y más calor; en el conilon del Espírito Santo, la falta de agua en la florada pesa sobre 2027."
   ],
   "avisos": {
-    "source": "CEPEA · Itatiaia",
-    "asOf": "2026-10-22",
-    "headline": "Floradas buenas; el calor y El Niño mantienen la alerta",
+    "source": "Reuters · StoneX · CEPEA",
+    "asOf": "2026-10-28",
+    "headline": "Lluvias favorables en la florada; el calor sigue como riesgo",
     "items": [
-      "Floradas como se esperaba y cuajado inicial bueno en la mayoría de regiones productoras.",
-      "Cerrado Mineiro: lluvias que se alternan con sol fuerte y calor extremo; el cuajado real se confirma hacia diciembre.",
-      "Mogiana: riesgo de caída prematura de flores y frutos si sigue el calor."
+      "Lluvias por encima del promedio en Minas Gerais durante la floración mejoraron la humedad del suelo y las perspectivas de la próxima safra (Reuters, 28-oct).",
+      "Cerrado Mineiro y Mogiana: el cuajado real se confirma hacia diciembre; el calor extremo sigue como riesgo (CEPEA, 22-oct).",
+      "Espírito Santo (conilon): lluvia adecuada y riego extendido, pero temperaturas sostenidas sobre 34 °C estresarían el cultivo (StoneX, 13-oct)."
     ],
     "links": [
       {
@@ -43,7 +43,11 @@
         "url": "https://portal.inmet.gov.br/"
       },
       {
-        "t": "Itatiaia",
+        "t": "Reuters · ESM",
+        "url": "https://esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
+      },
+      {
+        "t": "Itatiaia · CEPEA",
         "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
       }
     ]
