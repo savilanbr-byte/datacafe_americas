@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T19:55:00Z",
+ "updatedAt": "2026-10-29T11:50:24Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -45,79 +45,79 @@
  },
  "forecastSource": {
   "name": "MET Norway · Yr",
-  "period": "",
-  "url": "https://www.yr.no/"
+  "url": "https://www.yr.no/",
+  "period": ""
  },
  "regions": [
   {
    "region": "valle-central",
    "dept": "Valle Central",
    "place": "Barva, Heredia",
+   "lat": 10.02,
+   "lon": -84.12,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 10.02,
-   "lon": -84.12
+   "tmin": null
   },
   {
    "region": "valle-occidental",
    "dept": "Valle Occidental",
    "place": "Naranjo, Alajuela",
+   "lat": 10.1,
+   "lon": -84.38,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 10.1,
-   "lon": -84.38
+   "tmin": null
   },
   {
    "region": "los-santos",
    "dept": "Los Santos",
    "place": "San Marcos de Tarrazú",
+   "lat": 9.66,
+   "lon": -84.02,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 9.66,
-   "lon": -84.02
+   "tmin": null
   },
   {
    "region": "turrialba",
    "dept": "Turrialba",
    "place": "Turrialba, Cartago",
+   "lat": 9.9,
+   "lon": -83.68,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 9.9,
-   "lon": -83.68
+   "tmin": null
   },
   {
    "region": "perez-zeledon",
    "dept": "Pérez Zeledón",
    "place": "San Isidro de El General",
+   "lat": 9.37,
+   "lon": -83.7,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 9.37,
-   "lon": -83.7
+   "tmin": null
   },
   {
    "region": "coto-brus",
    "dept": "Coto Brus",
    "place": "San Vito, Coto Brus",
+   "lat": 8.82,
+   "lon": -82.97,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 8.82,
-   "lon": -82.97
+   "tmin": null
   },
   {
    "region": "zona-norte",
    "dept": "Zona Norte",
    "place": "Tilarán, Guanacaste",
+   "lat": 10.47,
+   "lon": -84.97,
    "p7": null,
    "tmax": null,
-   "tmin": null,
-   "lat": 10.47,
-   "lon": -84.97
+   "tmin": null
   }
  ]
 }

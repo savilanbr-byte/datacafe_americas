@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T19:55:00Z",
+ "updatedAt": "2026-10-29T11:50:24Z",
  "desde": "2026-09-27",
  "series": {
   "tc": {
@@ -134,6 +134,10 @@
     [
      "2026-10-27",
      451.24
+    ],
+    [
+     "2026-10-28",
+     451.46
     ]
    ]
   },
@@ -259,6 +263,10 @@
     [
      "2026-10-27",
      294.25
+    ],
+    [
+     "2026-10-28",
+     286.75
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
