@@ -1,17 +1,6 @@
 {
- "updatedAt": "2026-10-28T11:48:46Z",
+ "updatedAt": "2026-10-29T11:55:00Z",
  "items": [
-  {
-   "id": "h1",
-   "scope": "hn",
-   "tag": "Exportaciones",
-   "date": "2026-10-13",
-   "source": "La Prensa",
-   "url": "https://www.laprensa.hn/economia/cafetaleros-hondurenos-preven-menos-exportacion-precio-cafe-AD32316688",
-   "title": "Ihcafé prevé exportar unos 7 millones de quintales en 2026-27",
-   "summary": "Menos que los 7,3 M del ciclo anterior. Con el precio promedio de US$312,58 se generarían unos US$2.188 millones, pero la bolsa ha perdido impulso; Honduras exportó a 53 mercados.",
-   "regiones": []
-  },
   {
    "id": "h5",
    "scope": "hn",
@@ -97,6 +86,16 @@
    "tag": "Producción",
    "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
    "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+  },
+  {
+   "id": "n13",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-20",
+   "source": "XTB",
+   "url": "https://www.xtb.com/cl/analisis-y-noticias/analisis-de-mercado/precio-del-cafe-hoy-el-arabica-alcanza-maximos-desde-agosto-pese-a-la-mayor-cosecha-de-brasil",
+   "title": "El arábica vuelve sobre 315 ¢/lb con inventarios certificados en mínimos",
+   "summary": "El arábica superó los 315 ¢/lb, su nivel más alto desde el 31 de agosto, con existencias certificadas en ICE bajo 220.000 sacos en septiembre, pese a que Conab estima la cosecha de Brasil en 67,6 M de sacos (+19,6 %). Para el comprador, el mercado sigue sostenido por la escasez de grano certificado más que por la oferta."
   }
  ]
 }
