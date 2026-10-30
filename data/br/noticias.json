@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T11:50:00Z",
+  "updatedAt": "2026-10-30T19:55:00Z",
   "items": [
     {
       "id": "b2",
@@ -155,6 +155,35 @@
       "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-10-24/",
       "title": "Nestlé supera expectativas y Smucker aplaza rebajas de precio del café",
       "summary": "Las ventas orgánicas de Nestlé crecieron 4,0 % en el tercer trimestre (esperado 3,42 %), con café al alza en Norteamérica; JM Smucker pospuso recortes de precio por la dirección de los futuros. Señal de demanda estable de los tostadores."
+    },
+    {
+      "id": "b13",
+      "scope": "br",
+      "regiones": [
+        "norte-pioneiro"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-30",
+      "source": "Folha Agrícola · Deral",
+      "url": "https://folhaagricola.com.br/2026/10/27/preco-do-cafe-cai-10-para-produtores-e-pacote-fica-19-mais-barato-em-um-ano/",
+      "title": "Paraná: el café al productor cae 10 % en octubre y las lluvias ayudan al cuajado",
+      "summary": "Según el Deral, la saca beneficiada se pagó a R$1.380,51, 10 % menos que el promedio de septiembre (R$1.533,37). Las lluvias ligadas a El Niño favorecen el cuajado (pegamento) de las primeras floradas de la safra 2027."
+    },
+    {
+      "id": "b14",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-30",
+      "source": "SAFRAS & Mercado",
+      "url": "https://safras.com.br/mercado-brasileiro-de-cafe-deve-encerrar-semana-com-negocios-mais-movimentados",
+      "title": "Físico brasileño: arábica sube en Minas, conilon estable y ventas lentas por el dólar",
+      "summary": "El 29-oct el arábica bebida boa en Sul de Minas cotizó R$1.650–1.655 (antes 1.640–1.645), el Cerrado R$1.660–1.665 y el conilon tipo 7 en Vitória R$960–965 sin cambio. Las ventas siguen lentas por la volatilidad del dólar; podrían acelerar si sigue subiendo."
     }
   ]
 }
