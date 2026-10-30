@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T19:46:14Z",
+ "updatedAt": "2026-10-30T11:46:14Z",
  "items": [
   {
    "id": "n1",
@@ -133,17 +133,6 @@
    "url": "https://www.teletica.com/nacional/cafetaleros-costarricenses-salen-a-conquista-de-nuevos-mercados-en-importante-feria-mundial_419866",
    "title": "Productores y exportadores costarricenses buscan nuevos mercados en World of Coffee, en Panamá",
    "summary": "Una delegación de productores y exportadores, con fincas como El Nido y Monte Copey, presenta la calidad del grano costarricense en la feria. Es una vitrina para contactar tostadores y compradores de lotes de especialidad."
-  },
-  {
-   "id": "n16",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Producción",
-   "date": "2026-10-15",
-   "source": "Trivisión",
-   "url": "https://trivisioncr.com/noticias-nacionales/icafe-urge-regularizar-ingreso-de-recolectores-para-cosecha-2026-2027/",
-   "title": "ICAFE pide regularizar el ingreso de recolectores: 16.000 panameños autorizados",
-   "summary": "El Ministerio de Trabajo aprobó por ahora 16.000 recolectores panameños (con opción de llegar a 30.000) y Migración contabiliza unos 6.000 ya ingresados. Para compradores, la mano de obra sigue siendo el principal riesgo de ritmo de cosecha."
   }
  ]
 }
