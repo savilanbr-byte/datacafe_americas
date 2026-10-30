@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T11:47:37Z",
+  "updatedAt": "2026-10-30T19:47:37Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -37,6 +37,10 @@
         [
           "2026-10-29",
           18.8148
+        ],
+        [
+          "2026-10-30",
+          18.7962
         ]
       ],
       "note": "FIX de Banxico. La serie arranca el 20-oct-2026 y suma un dato por actualización.",
@@ -173,6 +177,10 @@
         [
           "2026-10-28",
           286.75
+        ],
+        [
+          "2026-10-29",
+          285.45
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",

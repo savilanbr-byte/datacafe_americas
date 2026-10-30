@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T11:47:37Z",
+  "updatedAt": "2026-10-30T19:47:37Z",
   "items": [
     {
       "id": "m14",
@@ -28,29 +28,6 @@
       "summary": "Antes del corte fuerte de noviembre en Veracruz, los compradores estiman 16–17 MXN/kg de cereza; la CNOC dice que es poco ante los insumos, que el peso fuerte resta unos 1.300 MXN por quintal de pergamino y que las importaciones de robusta brasileño subieron casi 80 % en septiembre. Para comprar: el pergamino mexicano se paga sobre bolsa, con descuentos de intermediarios de unos US$100 por quintal."
     },
     {
-      "id": "m1",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-13",
-      "source": "Hora Cero",
-      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-      "title": "Cafetaleros de Veracruz se quejan por la caída de precios al inicio de la cosecha",
-      "summary": "La cereza se paga a 7–10 pesos por kilo; la CNOC calcula un mínimo de 16 con NY en US$285, un diferencial de +35 y el peso en 18,30."
-    },
-    {
-      "id": "m2",
-      "scope": "mx",
-      "tag": "Precios",
-      "date": "2026-10-12",
-      "source": "Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
-      "title": "El precio del café que vende Chiapas cae 8,8 % en septiembre",
-      "summary": "El indicador Otros Suaves de la OIC quedó en 329,44 ¢/lb, 18 % por debajo de octubre de 2025."
-    },
-    {
       "id": "m6",
       "scope": "mx",
       "regiones": [
@@ -75,21 +52,6 @@
       "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
       "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
       "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
-    },
-    {
-      "id": "m8",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos"
-      ],
-      "tag": "Insumos",
-      "date": "2026-10-12",
-      "source": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/10/12/sin-creditos-viables-ni-apoyos-suficientes-cafeticultores-de-chiapas-operan-al-limite/",
-      "title": "Amecafé: cafeticultores de Chiapas operan sin crédito viable ni apoyos suficientes",
-      "summary": "La banca comercial cobra hasta 19 % de interés y el padrón de Producción para el Bienestar deja fuera a miles de productores. La Ley del Café, aprobada en diciembre de 2025, sigue sin lineamientos."
     },
     {
       "id": "m9",
@@ -187,6 +149,29 @@
       "tag": "Producción",
       "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
       "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+    },
+    {
+      "id": "m15",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-28",
+      "source": "La Opinión de Poza Rica",
+      "url": "https://laopinion.net/cafetaleros-de-veracruz-denuncian-pagos-de-hasta-8-pesos-por-kilo-y-exigen-frenar-importaciones/",
+      "title": "Cafetaleros de Veracruz denuncian pagos de 8–12 pesos por kilo y piden frenar importaciones",
+      "summary": "La cereza temprana se paga a 8–12 MXN/kg; las organizaciones recortaron su estimado del corte fuerte de 17 a unos 16 MXN/kg. Señalan que Brasil envió a México unos 179.500 sacos en septiembre (+79 % anual) y que el diferencial de unos US$30/quintal no llega íntegro al productor."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-29",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-10-29-26/",
+      "title": "Arabica diciembre cierra en 285,45 ¢/lb y robusta enero en US$3.176/t",
+      "summary": "La venta se concentró en el contrato de diciembre de NY (−1,30 ¢) por liquidación de largos, mientras marzo subió 0,55 ¢. El robusta de Londres cayó US$23 tras toparse con ofertas sobre US$3.220."
     }
   ]
 }
