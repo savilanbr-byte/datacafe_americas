@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T11:48:51Z",
+  "updatedAt": "2026-10-30T19:47:11Z",
   "series": {
     "kc1": {
       "points": [
@@ -305,6 +305,10 @@
         [
           "2026-10-29",
           7.6438
+        ],
+        [
+          "2026-10-30",
+          7.6419
         ]
       ],
       "note": "Tipo de cambio de referencia del Banguat. La serie arranca el 26-oct-2026 y suma un dato por actualización.",

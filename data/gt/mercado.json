@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-30T11:48:51Z",
+  "updatedAt": "2026-10-30T19:47:11Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio de referencia Banguat",
-      "value": 7.6438,
+      "value": 7.6419,
       "dec": 4,
       "unit": "GTQ/USD",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "source": "Banguat · Living in Guatemala",
       "url": "https://livinginguatemala.com/es/tipo-de-cambio/",
       "liveUrl": "https://www.banguat.gob.gt/",
       "liveT": "Banguat",
       "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
-      "change": -0.0005
+      "change": -0.0019
     },
     "expo": {
       "label": "Precio promedio de registro 2024-25",
