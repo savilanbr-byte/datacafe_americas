@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-10-29",
+    "asOf": "2026-10-30",
     "base": "USD",
     "rates": {
-      "BOB": 11.997047,
-      "BRL": 5.346831,
-      "COP": 3146.899554,
-      "CRC": 454.546838,
-      "GTQ": 7.637817,
-      "HNL": 26.859177,
-      "MXN": 18.653512,
-      "NIO": 36.780352,
-      "PEN": 3.450392,
-      "VES": 888.8909
+      "BOB": 12.009273,
+      "BRL": 5.362061,
+      "COP": 3164.112219,
+      "CRC": 454.500247,
+      "GTQ": 7.639732,
+      "HNL": 26.844356,
+      "MXN": 18.833591,
+      "NIO": 36.780389,
+      "PEN": 3.4535,
+      "VES": 889.2553
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -108,14 +108,14 @@
       "value": 356.15
     },
     "icoComp": {
-      "asOf": "2026-10-27",
-      "changePct": -0.76,
+      "asOf": "2026-10-28",
+      "changePct": -1.32,
       "dec": 0,
       "label": "Indicador compuesto OIC",
       "source": "OIC · La República",
       "unit": "¢/lb",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-      "value": 255
+      "value": 251
     },
     "icoOM": {
       "asOf": "2026-09-30",
@@ -138,17 +138,17 @@
       "value": 167.49
     },
     "kc1": {
-      "asOf": "2026-10-28",
-      "change": -7.0,
+      "asOf": "2026-10-29",
+      "change": -1.3,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 28-oct (histórico de Investing); el 29-oct opera cerca de 285,45 (intradía, 14:34)",
+      "note": "Cierre del 29-oct (histórico de Investing); el 30-oct opera cerca de 287,3 (intradía)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 286.75
+      "value": 285.45
     },
     "kc2": {
       "asOf": "2026-10-29",
@@ -263,5 +263,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-10-29T19:46:26Z"
+  "updatedAt": "2026-10-30T11:47:31Z"
 }
