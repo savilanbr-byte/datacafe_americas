@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-29T19:46:21Z",
+  "updatedAt": "2026-10-30T11:47:37Z",
   "items": [
+    {
+      "id": "m14",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-29",
+      "source": "La Jornada Veracruz",
+      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/",
+      "title": "Productores de Veracruz reciben solo 8–12 pesos por kilo pese al alza de la bolsa",
+      "summary": "Con la bolsa unos 40 dólares por quintal arriba en un mes, la comisión de seguimiento estima que se podrían pagar unos 17 pesos por kilo de cereza, pero los compradores aplican descuentos de hasta 100 dólares por quintal. Brasil envió 179.519 sacos a México en septiembre (+79 %); las organizaciones piden limitar el robusta importado al 30 % del consumo."
+    },
     {
       "id": "m13",
       "scope": "mx",

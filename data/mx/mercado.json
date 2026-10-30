@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:46:21Z",
+  "updatedAt": "2026-10-30T11:47:37Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
@@ -29,9 +29,9 @@
       "label": "Cereza convencional · Altas Montañas, Veracruz",
       "value": null,
       "text": "8–12 MXN/kg",
-      "asOf": "2026-10-28",
-      "source": "El Demócrata · CNOC",
-      "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/",
+      "asOf": "2026-10-29",
+      "source": "La Jornada Veracruz · CNOC",
+      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/",
       "note": "Los compradores estiman 16–17 MXN/kg al arrancar el corte fuerte (primera semana de noviembre), según la CNOC; hoy se pagan 7–12 en las Altas Montañas (Córdoba a Diario 21-oct, La Jornada Veracruz 22-oct). La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo."
     },
     "expo": {
