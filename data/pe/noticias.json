@@ -1,146 +1,146 @@
 {
- "updatedAt": "2026-10-30T11:48:20Z",
- "items": [
-  {
-   "id": "p11",
-   "scope": "pe",
-   "regiones": [
-    "amazonas",
-    "cajamarca"
-   ],
-   "tag": "Producción",
-   "date": "2026-10-27",
-   "source": "Mundo Agropecuario",
-   "url": "https://mundoagropecuario.com/peru-recuperacion-produccion-agropecuaria-agosto-2026/",
-   "title": "La producción de café pergamino sube 2,6 % en agosto de 2026",
-   "summary": "Con datos de INEI y Midagri, el aumento se atribuye a mejores condiciones climáticas en Amazonas y Cajamarca; de enero a agosto el agro sigue 0,2 % por debajo del año pasado. Tras el +8 % de julio, la oferta de la campaña se recupera pero sigue limitada."
-  },
-  {
-   "id": "p12",
-   "scope": "pe",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-10-17",
-   "source": "Infobae · ENFEN",
-   "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/",
-   "title": "ENFEN: El Niño costero sería extraordinario hasta enero de 2027",
-   "summary": "Bajaría a fuerte hasta inicios del otoño de 2027; la costa norte tendría más lluvia de lo normal y la Amazonía central y sur lluvias normales o menores, con ríos Huallaga y Apurímac bajos. Afecta el transporte hacia Paita y la floración de la campaña 2027."
-  },
-  {
-   "id": "p13",
-   "scope": "pe",
-   "regiones": [
-    "piura",
-    "cajamarca"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-27",
-   "source": "RCR Perú",
-   "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/",
-   "title": "SENAMHI emite alerta roja por lluvias en Tumbes y Piura hasta el 29 de octubre",
-   "summary": "En la sierra de Piura se esperan más de 20–30 mm y en sectores de la sierra de Cajamarca unos 20 mm; SENAMHI advierte que las lluvias podrían ser más frecuentes desde noviembre. Posibles demoras de transporte en el norte cafetero."
-  },
-  {
-   "id": "p7",
-   "scope": "pe",
-   "regiones": [
-    "cajamarca"
-   ],
-   "tag": "Cafés especiales",
-   "date": "2026-10-27",
-   "source": "El Búho",
-   "url": "https://elbuho.pe/2026/10/el-mejor-cafe-de-cajamarca-es-del-distrito-de-chirinos-provincia-de-san-ignacio/",
-   "title": "Un geisha de Chirinos (San Ignacio) gana ExpoCafé Cajamarca 2026",
-   "summary": "El lote de 120 kg, cultivado a 1.850 m s. n. m., sacó 89,25 puntos de taza y una cafetería lo compró a S/168 el kilo. Muestra el valor que alcanzan los lotes especiales del norte frente al café convencional."
-  },
-  {
-   "id": "p9",
-   "scope": "pe",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-10-23",
-   "source": "Agro Perú Informa",
-   "url": "https://www.agroperu.pe/el-nino-devida-prepara-acciones-para-proteger-cultivos-de-cafe-cacao-y-platano/",
-   "title": "Devida prepara medidas contra El Niño 2026-2027 en cafetales",
-   "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
-  },
-  {
-   "id": "p10",
-   "scope": "pe",
-   "regiones": [
-    "cusco"
-   ],
-   "tag": "Eventos",
-   "date": "2026-10-20",
-   "source": "Diario UNO",
-   "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
-   "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
-   "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los orígenes de lavado."
-  },
-  {
-   "date": "2026-10-21",
-   "id": "n9",
-   "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
-   "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
-  },
-  {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea descarta un tercer aplazamiento del EUDR para empresas medianas y grandes. Los exportadores peruanos que venden a Europa necesitan tener lista la geolocalización de las fincas antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, de referencia para el café peruano.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
-   "id": "p14",
-   "scope": "pe",
-   "regiones": [
-    "cajamarca",
-    "cusco",
-    "junin"
-   ],
-   "tag": "Cafés especiales",
-   "date": "2026-10-28",
-   "source": "Inforegión",
-   "url": "https://inforegion.pe/cajamarca-y-cusco-se-imponen-en-el-golden-cup-peru-2026-con-cafes-de-alta-calidad-y-despiertan-interes-de-mercados-de-japon-y-europa/",
-   "title": "Cajamarca y Cusco lideran el Golden Cup Perú 2026",
-   "summary": "La cooperativa Nuevo Horizonte (Cajamarca) ganó en contenedores completos, con puntajes de 85,48 a 86,40, y San Fernando (Cusco) en microlotes, con hasta 88,02 puntos. Compradores de Japón y España participaron en la cata: señal de demanda por lotes diferenciados."
-  }
- ]
+  "updatedAt": "2026-10-30T19:47:24Z",
+  "items": [
+    {
+      "id": "p11",
+      "scope": "pe",
+      "regiones": [
+        "amazonas",
+        "cajamarca"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-27",
+      "source": "Mundo Agropecuario",
+      "url": "https://mundoagropecuario.com/peru-recuperacion-produccion-agropecuaria-agosto-2026/",
+      "title": "La producción de café pergamino sube 2,6 % en agosto de 2026",
+      "summary": "Con datos de INEI y Midagri, el aumento se atribuye a mejores condiciones climáticas en Amazonas y Cajamarca; de enero a agosto el agro sigue 0,2 % por debajo del año pasado. Tras el +8 % de julio, la oferta de la campaña se recupera pero sigue limitada."
+    },
+    {
+      "id": "p12",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-10-17",
+      "source": "Infobae · ENFEN",
+      "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/",
+      "title": "ENFEN: El Niño costero sería extraordinario hasta enero de 2027",
+      "summary": "Bajaría a fuerte hasta inicios del otoño de 2027; la costa norte tendría más lluvia de lo normal y la Amazonía central y sur lluvias normales o menores, con ríos Huallaga y Apurímac bajos. Afecta el transporte hacia Paita y la floración de la campaña 2027."
+    },
+    {
+      "id": "p13",
+      "scope": "pe",
+      "regiones": [
+        "piura",
+        "cajamarca"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-27",
+      "source": "RCR Perú",
+      "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/",
+      "title": "SENAMHI emite alerta roja por lluvias en Tumbes y Piura hasta el 29 de octubre",
+      "summary": "En la sierra de Piura se esperan más de 20–30 mm y en sectores de la sierra de Cajamarca unos 20 mm; SENAMHI advierte que las lluvias podrían ser más frecuentes desde noviembre. Posibles demoras de transporte en el norte cafetero."
+    },
+    {
+      "id": "p7",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-10-27",
+      "source": "El Búho",
+      "url": "https://elbuho.pe/2026/10/el-mejor-cafe-de-cajamarca-es-del-distrito-de-chirinos-provincia-de-san-ignacio/",
+      "title": "Un geisha de Chirinos (San Ignacio) gana ExpoCafé Cajamarca 2026",
+      "summary": "El lote de 120 kg, cultivado a 1.850 m s. n. m., sacó 89,25 puntos de taza y una cafetería lo compró a S/168 el kilo. Muestra el valor que alcanzan los lotes especiales del norte frente al café convencional."
+    },
+    {
+      "id": "p9",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-10-23",
+      "source": "Agro Perú Informa",
+      "url": "https://www.agroperu.pe/el-nino-devida-prepara-acciones-para-proteger-cultivos-de-cafe-cacao-y-platano/",
+      "title": "Devida prepara medidas contra El Niño 2026-2027 en cafetales",
+      "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
+    },
+    {
+      "id": "p10",
+      "scope": "pe",
+      "regiones": [
+        "cusco"
+      ],
+      "tag": "Eventos",
+      "date": "2026-10-20",
+      "source": "Diario UNO",
+      "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
+      "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
+      "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los orígenes de lavado."
+    },
+    {
+      "date": "2026-10-21",
+      "id": "n9",
+      "scope": "mundo",
+      "source": "ADM Investor Services",
+      "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
+      "tag": "Mercado",
+      "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
+      "url": "https://admis.com/cotton-faces-new-rain-risk"
+    },
+    {
+      "date": "2026-10-18",
+      "id": "n10",
+      "scope": "mundo",
+      "source": "Moncloa",
+      "summary": "La Comisión Europea descarta un tercer aplazamiento del EUDR para empresas medianas y grandes. Los exportadores peruanos que venden a Europa necesitan tener lista la geolocalización de las fincas antes de fin de año.",
+      "tag": "Regulación",
+      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
+      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, de referencia para el café peruano.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "date": "2026-10-16",
+      "id": "n12",
+      "scope": "mundo",
+      "source": "TradingKey",
+      "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
+      "tag": "Producción",
+      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
+      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
+    },
+    {
+      "id": "p14",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "cusco",
+        "junin"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-10-28",
+      "source": "Inforegión",
+      "url": "https://inforegion.pe/cajamarca-y-cusco-se-imponen-en-el-golden-cup-peru-2026-con-cafes-de-alta-calidad-y-despiertan-interes-de-mercados-de-japon-y-europa/",
+      "title": "Cajamarca y Cusco lideran el Golden Cup Perú 2026",
+      "summary": "La cooperativa Nuevo Horizonte (Cajamarca) ganó en contenedores completos, con puntajes de 85,48 a 86,40, y San Fernando (Cusco) en microlotes, con hasta 88,02 puntos. Compradores de Japón y España participaron en la cata: señal de demanda por lotes diferenciados."
+    }
+  ]
 }

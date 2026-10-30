@@ -1,166 +1,166 @@
 {
- "updatedAt": "2026-10-30T11:48:20Z",
- "enso": {
-  "asOf": "2026-10-08",
-  "facts": [
-   {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
-   },
-   {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
-   }
+  "updatedAt": "2026-10-30T19:47:24Z",
+  "enso": {
+    "asOf": "2026-10-08",
+    "facts": [
+      {
+        "l": "Anomalía Niño 3.4",
+        "v": "+2,1 °C"
+      },
+      {
+        "l": "Fuerte o más hasta ene–mar 2027",
+        "v": "83%"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "url": "https://www.yr.no/",
+    "period": ""
+  },
+  "impactos": [
+    "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
+    "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); el ENFEN espera lluvias normales o menores en la Amazonía central y sur, así que conviene vigilar la floración de octubre–noviembre en Junín, Pasco, Cusco y Puno.",
+    "Las lluvias extraordinarias de El Niño costero en Tumbes y Piura, con ramalazos en la sierra de Piura y Cajamarca, pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
+    "Devida advierte que más humedad aumenta el riesgo de roya y otros hongos en los cafetales; la sanidad de este ciclo definirá la campaña 2027.",
+    "Con menos producción este año y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "url": "https://www.yr.no/",
-  "period": ""
- },
- "impactos": [
-  "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
-  "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); el ENFEN espera lluvias normales o menores en la Amazonía central y sur, así que conviene vigilar la floración de octubre–noviembre en Junín, Pasco, Cusco y Puno.",
-  "Las lluvias extraordinarias de El Niño costero en Tumbes y Piura, con ramalazos en la sierra de Piura y Cajamarca, pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
-  "Devida advierte que más humedad aumenta el riesgo de roya y otros hongos en los cafetales; la sanidad de este ciclo definirá la campaña 2027.",
-  "Con menos producción este año y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
- ],
- "avisos": {
-  "source": "SENAMHI · ENFEN",
-  "asOf": "2026-10-28",
-  "headline": "Alerta roja por lluvias en Tumbes y Piura hasta el 29-oct; el ENFEN prevé El Niño costero extraordinario hasta enero de 2027",
-  "items": [
-   "SENAMHI mantiene el aviso rojo por lluvias de fuerte a extrema intensidad en Tumbes y Piura hasta el 29-oct (23:59); Cajamarca figura entre los departamentos incluidos, con lluvias menos intensas (unos 20 mm en la sierra limítrofe con Piura).",
-   "SENAMHI advirtió (22-oct) que las lluvias podrían intensificarse y ser más frecuentes desde noviembre en la costa norte; en la selva sur (Cusco, Puno) se anunció un friaje con lluvias.",
-   "ENFEN (17-oct): El Niño costero con magnitud extraordinaria hasta enero de 2027 y fuerte hasta inicios del otoño; en la Amazonía central y sur las lluvias estarían normales o por debajo y los ríos Huallaga, Apurímac y Vilcanota con caudales menores. Próximo comunicado: 30-oct."
-  ],
-  "links": [
-   {
-    "t": "SENAMHI · RPP (28-oct)",
-    "url": "https://rpp.pe/peru/actualidad/senamhi-lluvias-en-la-costa-norte-estan-batiendo-records-historicos-de-acumulado-diario-noticia-1714833"
-   },
-   {
-    "t": "ENFEN · Infobae",
-    "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/"
-   },
-   {
-    "t": "SENAMHI · RCR Perú",
-    "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/"
-   },
-   {
-    "t": "SENAMHI · RPP",
-    "url": "https://rpp.pe/peru/actualidad/senamhi-advierte-lluvias-de-mayor-intensidad-en-la-costa-norte-entre-el-24-y-el-26-de-octubre-noticia-1714015"
-   },
-   {
-    "t": "SENAMHI",
-    "url": "https://www.senamhi.gob.pe/"
-   }
+  "avisos": {
+    "source": "SENAMHI · ENFEN",
+    "asOf": "2026-10-28",
+    "headline": "Alerta roja por lluvias en Tumbes y Piura hasta el 29-oct; el ENFEN prevé El Niño costero extraordinario hasta enero de 2027",
+    "items": [
+      "SENAMHI mantiene el aviso rojo por lluvias de fuerte a extrema intensidad en Tumbes y Piura hasta el 29-oct (23:59); Cajamarca figura entre los departamentos incluidos, con lluvias menos intensas (unos 20 mm en la sierra limítrofe con Piura).",
+      "SENAMHI advirtió (22-oct) que las lluvias podrían intensificarse y ser más frecuentes desde noviembre en la costa norte; en la selva sur (Cusco, Puno) se anunció un friaje con lluvias.",
+      "ENFEN (17-oct): El Niño costero con magnitud extraordinaria hasta enero de 2027 y fuerte hasta inicios del otoño; en la Amazonía central y sur las lluvias estarían normales o por debajo y los ríos Huallaga, Apurímac y Vilcanota con caudales menores. Próximo comunicado: 30-oct."
+    ],
+    "links": [
+      {
+        "t": "SENAMHI · RPP (28-oct)",
+        "url": "https://rpp.pe/peru/actualidad/senamhi-lluvias-en-la-costa-norte-estan-batiendo-records-historicos-de-acumulado-diario-noticia-1714833"
+      },
+      {
+        "t": "ENFEN · Infobae",
+        "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/"
+      },
+      {
+        "t": "SENAMHI · RCR Perú",
+        "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/"
+      },
+      {
+        "t": "SENAMHI · RPP",
+        "url": "https://rpp.pe/peru/actualidad/senamhi-advierte-lluvias-de-mayor-intensidad-en-la-costa-norte-entre-el-24-y-el-26-de-octubre-noticia-1714015"
+      },
+      {
+        "t": "SENAMHI",
+        "url": "https://www.senamhi.gob.pe/"
+      }
+    ]
+  },
+  "regions": [
+    {
+      "region": "cajamarca",
+      "dept": "Cajamarca",
+      "place": "Jaén",
+      "lat": -5.71,
+      "lon": -78.81,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "amazonas",
+      "dept": "Amazonas",
+      "place": "Rodríguez de Mendoza",
+      "lat": -6.4,
+      "lon": -77.48,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "san-martin",
+      "dept": "San Martín",
+      "place": "Moyobamba",
+      "lat": -6.03,
+      "lon": -76.97,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "piura",
+      "dept": "Piura",
+      "place": "Huancabamba",
+      "lat": -5.24,
+      "lon": -79.45,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "junin",
+      "dept": "Junín",
+      "place": "Pichanaqui",
+      "lat": -10.93,
+      "lon": -74.87,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "pasco",
+      "dept": "Pasco",
+      "place": "Villa Rica",
+      "lat": -10.74,
+      "lon": -75.27,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "huanuco",
+      "dept": "Huánuco",
+      "place": "Tingo María",
+      "lat": -9.3,
+      "lon": -76.0,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "cusco",
+      "dept": "Cusco",
+      "place": "Quillabamba",
+      "lat": -12.86,
+      "lon": -72.69,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "puno",
+      "dept": "Puno",
+      "place": "San Juan del Oro",
+      "lat": -14.22,
+      "lon": -69.15,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "ayacucho",
+      "dept": "Ayacucho",
+      "place": "Pichari",
+      "lat": -12.52,
+      "lon": -73.83,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    }
   ]
- },
- "regions": [
-  {
-   "region": "cajamarca",
-   "dept": "Cajamarca",
-   "place": "Jaén",
-   "lat": -5.71,
-   "lon": -78.81,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "amazonas",
-   "dept": "Amazonas",
-   "place": "Rodríguez de Mendoza",
-   "lat": -6.4,
-   "lon": -77.48,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "san-martin",
-   "dept": "San Martín",
-   "place": "Moyobamba",
-   "lat": -6.03,
-   "lon": -76.97,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "piura",
-   "dept": "Piura",
-   "place": "Huancabamba",
-   "lat": -5.24,
-   "lon": -79.45,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "junin",
-   "dept": "Junín",
-   "place": "Pichanaqui",
-   "lat": -10.93,
-   "lon": -74.87,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "pasco",
-   "dept": "Pasco",
-   "place": "Villa Rica",
-   "lat": -10.74,
-   "lon": -75.27,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "huanuco",
-   "dept": "Huánuco",
-   "place": "Tingo María",
-   "lat": -9.3,
-   "lon": -76.0,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "cusco",
-   "dept": "Cusco",
-   "place": "Quillabamba",
-   "lat": -12.86,
-   "lon": -72.69,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "puno",
-   "dept": "Puno",
-   "place": "San Juan del Oro",
-   "lat": -14.22,
-   "lon": -69.15,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "ayacucho",
-   "dept": "Ayacucho",
-   "place": "Pichari",
-   "lat": -12.52,
-   "lon": -73.83,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  }
- ]
 }
