@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T19:46:25Z",
+ "updatedAt": "2026-10-30T11:46:40Z",
  "items": [
   {
    "id": "ni1",
@@ -125,6 +125,17 @@
    "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
    "title": "El arábica cae 2,4 % a US$2,9375 por libra con el clima favorable en Brasil",
    "summary": "El 27 de octubre el arábica de ICE cerró en US$2,9375/lb tras bajar 2,1 % el lunes; el clima brasileño es húmedo pero favorable y se habla de una cosecha récord. El robusta subió 0,6 % a US$3.220/t, aún presionado por la cosecha de Vietnam. Una baja del KC encarece menos el café de Nicaragua en la cobertura de precios fijos."
+  },
+  {
+   "id": "ni9",
+   "scope": "ni",
+   "regiones": [],
+   "tag": "Exportaciones",
+   "date": "2026-10-29",
+   "source": "EFE (Infobae)",
+   "url": "https://www.infobae.com/america/agencias/2026/10/30/nicaragua-preve-ventas-de-al-menos-918-millones-de-dolares-en-la-cosecha-de-cafe-2026-2027/",
+   "title": "Nicaragua prevé ventas de café de al menos US$918 M en la cosecha 2026-27",
+   "summary": "Según el BCN citado por EFE, la cosecha 2026-27 rondaría 3 M de quintales a US$294 por quintal, con ventas de al menos US$918 M; a septiembre llevaba US$691 M. EFE atribuye los US$918 M al ciclo 2025-26, mientras otros medios los dan como el año calendario 2025; y 3 M × US$294 suman ≈ US$882 M, así que la cifra es una meta oficial, no un cálculo."
   }
  ]
 }
