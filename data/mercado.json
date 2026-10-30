@@ -46,15 +46,15 @@
   },
   "items": {
     "cot": {
-      "asOf": "2026-10-20",
-      "change": 7067,
+      "asOf": "2026-10-27",
+      "change": -2233,
       "dec": 0,
       "label": "Fondos (managed money) neto",
-      "note": "Largos 38.596 · cortos 16.259. Neto comprado y subiendo.",
+      "note": "Largos 37.556 · cortos 17.452. Neto comprado pero bajando.",
       "source": "CFTC COT",
       "unit": "contratos",
       "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-      "value": 22337
+      "value": 20104
     },
     "expoBR": {
       "asOf": "2026-09-30",
@@ -263,5 +263,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-10-30T11:47:31Z"
+  "updatedAt": "2026-10-30T19:46:29Z"
 }
