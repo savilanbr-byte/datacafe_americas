@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-10-30T11:46:14Z",
+ "updatedAt": "2026-10-30T19:50:00Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio BCCR (compra)",
-   "value": 451.46,
+   "value": 450.8,
    "dec": 2,
    "unit": "CRC/USD",
-   "change": 0.22,
+   "change": -0.66,
    "chgDec": 2,
-   "asOf": "2026-10-28",
+   "asOf": "2026-10-30",
    "source": "BCCR · EconomíaHoy CR",
    "url": "https://www.economiahoycr.com/tipodecambio.html",
-   "note": "Referencia del Banco Central. Venta: ₡455,21."
+   "note": "Referencia del Banco Central. Venta: ₡455,44."
   },
   "tcCosecha": {
    "label": "Tipo de cambio promedio cosecha 2025-26",
