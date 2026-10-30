@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:47:02Z",
+  "updatedAt": "2026-10-30T11:50:00Z",
   "series": {
     "tc": {
       "label": "Dólar en reales",
@@ -561,6 +561,10 @@
         [
           "2026-10-28",
           5.34
+        ],
+        [
+          "2026-10-29",
+          5.387
         ]
       ],
       "note": "Hasta el 15-oct: tipo de referencia del BCE (Frankfurter). Desde el 16-oct: cierre del dólar comercial.",
@@ -631,6 +635,10 @@
         [
           "2026-10-28",
           1593.89
+        ],
+        [
+          "2026-10-29",
+          1590.72
         ]
       ],
       "note": "Indicador diario; la serie arranca el 13-oct-2026 y suma un dato por actualización.",
@@ -697,6 +705,10 @@
         [
           "2026-10-28",
           960.1
+        ],
+        [
+          "2026-10-29",
+          965.47
         ]
       ],
       "note": "Indicador diario; la serie arranca el 9-oct-2026.",

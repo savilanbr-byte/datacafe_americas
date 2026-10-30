@@ -1,60 +1,60 @@
 {
-  "updatedAt": "2026-10-29T19:47:02Z",
+  "updatedAt": "2026-10-30T11:50:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.34,
+      "value": 5.387,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": -0.0088,
-      "changePct": -0.19,
+      "change": 0.0406,
+      "changePct": 0.76,
       "chgDec": 4,
-      "asOf": "2026-10-28",
+      "asOf": "2026-10-29",
       "source": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
       "liveT": "Banco Central",
-      "note": "El miércoles 28 el dólar cerró en R$5,34 (−0,19 %): llegó a R$5,40 en la tarde, pero cedió tras la decisión de la Fed de mantener las tasas; la cautela fiscal sigue."
+      "note": "El jueves 29 el dólar cerró en R$5,387 (+0,76 %), con máxima de R$5,43: pesaron la cautela fiscal, la incertidumbre sobre el equipo económico del nuevo mandato y un PIB de EE. UU. mejor de lo esperado."
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.342,
+      "value": 5.3744,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-10-28",
+      "asOf": "2026-10-29",
       "source": "BCB · Renova Invest",
       "url": "https://renovainvest.com.br/dolar-hoje/",
-      "note": "Referencia oficial del Banco Central del 28-oct."
+      "note": "Referencia oficial del Banco Central del 29-oct (venta)."
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1593.89,
+      "value": 1590.72,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -1.01,
-      "asOf": "2026-10-28",
-      "fx": 5.34,
-      "fxSrc": "dólar comercial del 28-oct (cierre)",
+      "changePct": -0.2,
+      "asOf": "2026-10-29",
+      "fx": 5.387,
+      "fxSrc": "dólar comercial del 29-oct (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 1,01 % el 28 y 1,06 % el 27, tras subir 1,59 % el 26."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 0,20 % el 29, 1,01 % el 28 y 1,06 % el 27, tras subir 1,59 % el 26."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 960.1,
+      "value": 965.47,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.81,
-      "asOf": "2026-10-28",
-      "fx": 5.34,
-      "fxSrc": "dólar comercial del 28-oct (cierre)",
+      "changePct": 0.56,
+      "asOf": "2026-10-29",
+      "fx": 5.387,
+      "fxSrc": "dólar comercial del 29-oct (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,81 % el 28 tras subir 1,4 % el 27 y 1,9 % el 26."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 0,56 % el 29 tras bajar 0,81 % el 28; había subido 1,4 % el 27 y 1,9 % el 26."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",

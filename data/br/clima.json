@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:47:02Z",
+  "updatedAt": "2026-10-30T11:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -25,22 +25,26 @@
   "impactos": [
     "Las floradas de la cosecha 2027-28 salieron bien y las lluvias recientes ayudan; noviembre y diciembre deciden el cuajado (pegamento). Un El Niño con calor fuerte puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
     "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-    "El dólar subió 8 % el 26 de octubre y cerró en R$5,34 el 28: sigue encareciendo el café en reales y puede animar al productor a vender; vigila el ritmo de ventas y los diferenciales FOB.",
+    "El dólar subió 8 % el 26 de octubre y cerró en R$5,387 el 29: sostiene los precios internos aunque Nueva York cae (el arábica perdió más de 7 % en cuatro sesiones); vigila el ritmo de ventas del productor y los diferenciales FOB.",
     "El Niño suele traer lluvias irregulares al Sudeste y más calor; en el conilon del Espírito Santo, la falta de agua en la florada pesa sobre 2027."
   ],
   "avisos": {
-    "source": "Reuters · StoneX · CEPEA",
-    "asOf": "2026-10-28",
+    "source": "Rabobank · CEPEA · Reuters",
+    "asOf": "2026-10-29",
     "headline": "Lluvias favorables en la florada; el calor sigue como riesgo",
     "items": [
-      "Lluvias por encima del promedio en Minas Gerais durante la floración mejoraron la humedad del suelo y las perspectivas de la próxima safra (Reuters, 28-oct).",
-      "Cerrado Mineiro y Mogiana: el cuajado real se confirma hacia diciembre; el calor extremo sigue como riesgo (CEPEA, 22-oct).",
-      "Espírito Santo (conilon): lluvia adecuada y riego extendido, pero temperaturas sostenidas sobre 34 °C estresarían el cultivo (StoneX, 13-oct)."
+      "Septiembre llovió muy por encima del promedio de 15 años: Guaxupé 154 mm (promedio 57 mm), Manhuaçu 111 mm (28 mm) y Linhares 90 mm (29 mm) (RaboResearch, 22-oct).",
+      "Lluvias sobre el promedio en Minas Gerais durante la floración mejoraron la humedad del suelo y las perspectivas de la próxima safra (Reuters, 28-oct).",
+      "Cerrado Mineiro y Mogiana: el cuajado real se confirma hacia diciembre; el calor extremo sigue como riesgo (CEPEA, 22-oct)."
     ],
     "links": [
       {
         "t": "INMET",
         "url": "https://portal.inmet.gov.br/"
+      },
+      {
+        "t": "Rabobank · Notícias Agrícolas",
+        "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html"
       },
       {
         "t": "Reuters · ESM",

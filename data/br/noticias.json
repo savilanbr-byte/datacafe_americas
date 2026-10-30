@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:47:02Z",
+  "updatedAt": "2026-10-30T11:50:00Z",
   "items": [
     {
       "id": "b2",
@@ -27,13 +27,14 @@
     },
     {
       "id": "n8",
-      "scope": "mundo",
+      "scope": "br",
       "tag": "Exportaciones",
       "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
+      "source": "Cecafé · Trading Economics",
       "url": "https://tradingeconomics.com/commodity/coffee",
       "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacas hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña disponible en el mercado presiona al arábica y respalda las compras de café verde.",
+      "regiones": []
     },
     {
       "date": "2026-10-27",
@@ -44,48 +45,6 @@
       "tag": "Mercado",
       "title": "Inventarios certificados de arábica bajan a 225.610 sacos",
       "url": "https://www.admis.com/coffee-futures-extend-selloff/"
-    },
-    {
-      "date": "2026-10-26",
-      "id": "n11",
-      "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
-      "id": "b4",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-10-19",
-      "source": "Portal do Agronegócio · Itaú BBA",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/preco-do-cafe-arabica-cai-6-no-brasil-com-oferta-maior-e-real-valorizado-aponta-itau-bba",
-      "title": "El arábica cae 6 % en Brasil por mayor oferta y real más fuerte",
-      "summary": "El indicador CEPEA del arábica cerró en R$1.531 por saca el 9-oct, 6 % menos en 30 días; el dólar bajó de más de R$5,20 a menos de R$5,00. Las exportaciones de septiembre sumaron 3,9 M de sacas (+20 %) y el USDA ve 71,9 M de sacas en Brasil en 2026/27."
-    },
-    {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-19",
-      "source": "The Rio Times",
-      "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
-      "title": "Arábica sube a máximo de un mes: 315,7 c/lb con inventarios ICE cerca de mínimos de 27 años",
-      "summary": "El contrato de diciembre ganó 3,3 % el 19-oct y cerca de 11 % en la semana; el real se fortaleció a R$5,04 por dólar. Los robusta de Londres (nov) cerraron en US$3.484/t."
-    },
-    {
-      "id": "b6",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-10-28",
-      "source": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
-      "title": "El dólar cierra en R$5,34 (−0,19 %) con la bolsa cayendo 2,68 %",
-      "summary": "El dólar llegó a R$5,40 por la tarde, pero cedió tras la decisión de la Fed de mantener las tasas; en la semana acumula +6,95 %. Un real débil anima a productores y exportadores a vender café, pero la cautela fiscal mantiene la volatilidad."
     },
     {
       "id": "b7",
@@ -125,6 +84,77 @@
       "url": "https://safras.com.br/brasil-deve-ter-dia-de-precos-mais-baixos-para-o-cafe-2",
       "title": "Precios físicos del café suben el lunes por el dólar, pero se esperan bajas por la caída en Nueva York",
       "summary": "El 26-oct el arábica de Sul de Minas (bebida boa) subió a R$1.730–1.735 por saca y el del Cerrado Mineiro a R$1.740–1.745; el conilon tipo 7 en Vitória pasó a R$960–965. Safras espera precios menores el 28 y productores retraídos; las exportaciones de octubre suman 3,83 M de sacas en 16 días hábiles (+35,5 % en promedio diario), a US$334 por saca."
+    },
+    {
+      "id": "b9",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-10-28",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430450-cafe-cepea-alta-do-dolar-sustenta-cotacoes-domesticas-apesar-de-baixas-externas.html",
+      "title": "CEPEA: el dólar alto sostiene los precios internos pese a la caída en Nueva York",
+      "summary": "El arábica y el robusta se mantienen firmes en el mercado interno gracias al dólar, aunque las bolsas bajan por la expectativa de más oferta. CEPEA ve los precios sensibles al tipo de cambio y al clima en las próximas semanas; la safra 2027/28 está en floración."
+    },
+    {
+      "id": "b10",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "matas-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-22",
+      "source": "Rabobank · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html",
+      "title": "Rabobank: lluvias de septiembre muy por encima del promedio mejoran la perspectiva de la safra 2027/28",
+      "summary": "Guaxupé recibió 154 mm (promedio 57 mm), Manhuaçu 111 mm (28 mm) y Linhares 90 mm (29 mm). El banco ve posible una recuperación de inventarios globales, pero aún no un excedente confirmado."
+    },
+    {
+      "id": "b11",
+      "scope": "br",
+      "regiones": [
+        "conilon-es",
+        "montanhas-es"
+      ],
+      "tag": "Exportaciones",
+      "date": "2026-10-21",
+      "source": "A Gazeta · CCCV",
+      "url": "https://www.agazeta.com.br/colunas/abdo-filho/um-2026-historico-para-o-cafe-do-espirito-santo-1026",
+      "title": "Espírito Santo supera 5 millones de sacas exportadas hasta septiembre, 58 % más",
+      "summary": "Según el Centro do Comércio de Café de Vitória, el conilon aportó 4,22 M de sacas y el arábica 583 mil (+31 %); el precio medio fue de US$236 por saca. Los principales destinos fueron Bélgica (15 %), México (12 %) y Alemania (8 %)."
+    },
+    {
+      "id": "b12",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-10-29",
+      "source": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
+      "title": "El dólar cierra en R$5,387 (+0,76 %) con cautela fiscal y la bolsa en baja",
+      "summary": "Llegó a R$5,43 en la tarde; pesan la incertidumbre sobre las cuentas públicas y el equipo económico del nuevo mandato. Un real débil mantiene firmes los precios en reales y puede animar al productor a vender."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-29",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430572-arabica-acumula-queda-de-mais-de-7-em-quatro-sessoes-e-cafe-fecha-quinta-feira-com-precos-mistos-em-nova-york.html",
+      "title": "El arábica acumula una caída de 7,16 % en cuatro sesiones y cierra en 285,45 c/lb",
+      "summary": "El contrato de diciembre perdió 22 centavos desde el 23-oct; el robusta de Londres (nov) cerró en US$3.177/t (−23). El clima favorable en Brasil al iniciar las lluvias y la cosecha de Vietnam mantienen la tendencia técnica negativa."
+    },
+    {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Industria",
+      "date": "2026-10-24",
+      "source": "World Coffee Index",
+      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-10-24/",
+      "title": "Nestlé supera expectativas y Smucker aplaza rebajas de precio del café",
+      "summary": "Las ventas orgánicas de Nestlé crecieron 4,0 % en el tercer trimestre (esperado 3,42 %), con café al alza en Norteamérica; JM Smucker pospuso recortes de precio por la dirección de los futuros. Señal de demanda estable de los tostadores."
     }
   ]
 }
