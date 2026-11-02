@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:00:00Z",
+ "updatedAt": "2026-11-02T11:46:10Z",
  "temporada": "2026-27",
  "regiones": [
   {
@@ -118,6 +118,24 @@
    "texto": "USDA: la producción 2026-27 bajaría 4,7 % a 2,44 M de sacos por El Niño, costos y falta de mano de obra.",
    "fuente": "Daily Coffee News",
    "url": "https://dailycoffeenews.com/2026/06/15/nicaragua-coffee-report-weather-and-costs-hurting-production/"
+  },
+  {
+   "id": "n3",
+   "fecha": "2026-10-29",
+   "region": "Nicaragua",
+   "tipo": "noticia",
+   "texto": "El presidente del BCN proyecta una cosecha 2026-27 de unos 3 M de quintales, ventas de al menos US$918 M y precio medio de US$294.",
+   "fuente": "EFE (Infobae)",
+   "url": "https://www.infobae.com/america/agencias/2026/10/30/nicaragua-preve-ventas-de-al-menos-918-millones-de-dolares-en-la-cosecha-de-cafe-2026-2027/"
+  },
+  {
+   "id": "n4",
+   "fecha": "2026-10-31",
+   "region": "Nicaragua",
+   "tipo": "noticia",
+   "texto": "Fincas de Jinotega, Matagalpa y el sur buscan cortadores a C$80–100 por lata; la maduración avanza lenta, hasta 50 % en algunos lotes.",
+   "fuente": "Confidencial",
+   "url": "https://confidencial.digital/analisis/cafetaleros-echan-mano-de-tiktok-para-hallar-cortadores/"
   }
  ]
 }
