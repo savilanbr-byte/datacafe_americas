@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:55:00Z",
+  "updatedAt": "2026-11-02T11:55:00Z",
   "items": [
     {
       "id": "b2",
@@ -126,17 +126,6 @@
       "summary": "Según el Centro do Comércio de Café de Vitória, el conilon aportó 4,22 M de sacas y el arábica 583 mil (+31 %); el precio medio fue de US$236 por saca. Los principales destinos fueron Bélgica (15 %), México (12 %) y Alemania (8 %)."
     },
     {
-      "id": "b12",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-10-29",
-      "source": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
-      "title": "El dólar cierra en R$5,387 (+0,76 %) con cautela fiscal y la bolsa en baja",
-      "summary": "Llegó a R$5,43 en la tarde; pesan la incertidumbre sobre las cuentas públicas y el equipo económico del nuevo mandato. Un real débil mantiene firmes los precios en reales y puede animar al productor a vender."
-    },
-    {
       "id": "n15",
       "scope": "mundo",
       "tag": "Mercado",
@@ -184,6 +173,41 @@
       "url": "https://safras.com.br/mercado-brasileiro-de-cafe-deve-encerrar-semana-com-negocios-mais-movimentados",
       "title": "Físico brasileño: arábica sube en Minas, conilon estable y ventas lentas por el dólar",
       "summary": "El 29-oct el arábica bebida boa en Sul de Minas cotizó R$1.650–1.655 (antes 1.640–1.645), el Cerrado R$1.660–1.665 y el conilon tipo 7 en Vitória R$960–965 sin cambio. Las ventas siguen lentas por la volatilidad del dólar; podrían acelerar si sigue subiendo."
+    },
+    {
+      "id": "b15",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-30",
+      "source": "Portal do Agronegócio",
+      "url": "https://portaldoagronegocio.com.br/agricultura/cafe/noticias/dolar-dispara-e-pressiona-cotacoes-do-cafe-em-outubro-arabica-cai-1-1-e-robusta-recua-6-7",
+      "title": "Octubre cierra con dólar +4,9 %: el arábica baja 1,1 % en Nueva York y el robusta 6,7 % en Londres",
+      "summary": "El dólar pasó de R$5,173 a R$5,4257 en el mes y sostuvo el precio en reales: el arábica de Sul de Minas siguió en R$1.650 por saca, mientras el conilon de Vitória bajó de R$980 a R$960. Para llegar a 50 M de sacas exportadas Brasil debe superar 4 M al mes."
+    },
+    {
+      "id": "b16",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-10-30",
+      "source": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-outubro-2026/",
+      "title": "El dólar cierra en R$5,446, su nivel más alto de 2026, con alza semanal de 9,15 %",
+      "summary": "Tras la reelección de Lula, la salida de capital extranjero empujó la divisa (+1,09 % el viernes) y el Ibovespa cayó 18 % en la semana. Un real débil encarece el café en dólares menos de lo que sube en reales: favorece al comprador con divisas, pero anima al productor a retener o vender según la volatilidad."
+    },
+    {
+      "id": "n17",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-24",
+      "source": "Inheritance Coffee",
+      "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
+      "title": "El robusta de Londres cae 5,45 % en la semana con inventarios certificados en máximo de un año",
+      "summary": "El contrato de noviembre cerró en US$3.228 por tonelada el 23-oct y las existencias certificadas llegaron a 6.488 lotes el 22-oct (máximo en unos 13 meses). El arábica certificado en Nueva York sigue bajo, en 234.433 sacos."
     }
   ]
 }
