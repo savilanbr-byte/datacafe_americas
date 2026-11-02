@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:47:11Z",
+  "updatedAt": "2026-11-02T11:49:52Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -36,7 +36,8 @@
     "items": [
       "INSIVUMEH confirmó el 5-oct el establecimiento de El Niño; prevé menos lluvia en general, temperaturas sobre el promedio y mayor intensidad entre septiembre y noviembre, con efectos hasta mediados de 2027.",
       "Pronóstico del 26 al 30-oct: las lluvias bajan de sur a centro del país, con aguaceros aislados; máximas de 33–35 °C en el Pacífico y los valles de oriente, y de 23–28 °C en el altiplano, con frío de noche.",
-      "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados."
+      "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados.",
+      "Pronóstico estacional de INSIVUMEH (27-oct): 16 frentes fríos entre octubre y abril, 2 en noviembre, con mínimas de 10–14 °C en Occidente y Altiplano Central."
     ],
     "links": [
       {
@@ -54,6 +55,10 @@
       {
         "t": "Perspectiva de octubre (Infobae)",
         "url": "https://www.infobae.com/guatemala/2026/10/02/octubre-tendra-menos-lluvias-y-anticipa-la-llegada-de-la-epoca-fria-en-guatemala/"
+      },
+      {
+        "t": "16 frentes fríos (Emisoras Unidas)",
+        "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/"
       }
     ]
   },

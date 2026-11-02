@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:47:11Z",
+  "updatedAt": "2026-11-02T11:49:52Z",
   "items": [
     {
       "id": "g7",
@@ -44,26 +44,6 @@
       "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
     },
     {
-      "date": "2026-10-18",
-      "id": "n10",
-      "scope": "mundo",
-      "source": "Moncloa",
-      "summary": "La Comisión Europea descarta un tercer aplazamiento para medianas y grandes empresas. Europa recibe 24 % del café guatemalteco: los exportadores necesitan la geolocalización de las fincas lista antes de fin de año.",
-      "tag": "Regulación",
-      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-    },
-    {
-      "date": "2026-10-16",
-      "id": "n12",
-      "scope": "mundo",
-      "source": "TradingKey",
-      "summary": "Brasil exportó 236.000 t en septiembre (+20 %) y Vietnam 124.000 t (+53 %); la OIC proyecta un superávit mundial de 3 millones de sacos, el primero en cinco años: menos tensión de oferta para los compradores.",
-      "tag": "Producción",
-      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-    },
-    {
       "id": "g9",
       "scope": "gt",
       "regiones": [
@@ -85,6 +65,23 @@
       "url": "https://brecorder.com/news/40446024/sugar-coffee-slip-as-brazils-real-slumps-on-lula-win",
       "title": "Arábica cae 3,4 % y robusta toca mínimos desde marzo de 2024",
       "summary": "El 27-oct el arábica ICE bajó a unos US$2,97 por libra (máximo de seis semanas: US$3,18) y la robusta cayó 1,9 % a US$3.181 por tonelada, por el real débil tras la reelección de Lula y la cosecha de Vietnam. Más presión sobre las referencias de compra de café lavado."
+    },
+    {
+      "id": "g10",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos",
+        "atitlan",
+        "antigua",
+        "acatenango"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-27",
+      "source": "Emisoras Unidas · INSIVUMEH",
+      "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/",
+      "title": "INSIVUMEH prevé 16 frentes fríos para la temporada 2026-27",
+      "summary": "Habría 2 frentes en noviembre, 4 en diciembre y 4 en enero, con mínimas de 10–14 °C en Occidente y Altiplano Central y picos cercanos a 0 °C. Marcan el fin de la lluvia: ayudan al secado, pero hay que vigilar el frío en las zonas altas durante la cosecha."
     }
   ]
 }
