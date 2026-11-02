@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:47:37Z",
+  "updatedAt": "2026-11-02T11:55:00Z",
   "items": [
     {
       "id": "m14",
@@ -52,19 +52,6 @@
       "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
       "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
       "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
-    },
-    {
-      "id": "m9",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Industria",
-      "date": "2026-10-16",
-      "source": "Daily Coffee News",
-      "url": "https://dailycoffeenews.com/2026/10/16/weekly-coffee-news-new-look-for-iwca-nestle-in-mexico/",
-      "title": "Nestlé suma US$1.000 millones a su inversión cafetalera en México",
-      "summary": "El plan 2025–2030 llega a US$2.000 millones; el programa ha repartido más de 72 millones de plantas y asesora a más de 2.000 productores. Señala compras sostenidas de la industria soluble."
     },
     {
       "id": "m10",
@@ -121,16 +108,6 @@
       "url": "https://admis.com/cotton-faces-new-rain-risk"
     },
     {
-      "date": "2026-10-18",
-      "id": "n10",
-      "scope": "mundo",
-      "source": "Moncloa",
-      "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Bélgica y Alemania compran cerca del 21 % del café mexicano exportado, así que los lotes para Europa necesitan geolocalización de las fincas antes de fin de año.",
-      "tag": "Regulación",
-      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-    },
-    {
       "date": "2026-10-26",
       "id": "n11",
       "scope": "mundo",
@@ -139,16 +116,6 @@
       "tag": "Divisas",
       "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
       "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
-      "date": "2026-10-16",
-      "id": "n12",
-      "scope": "mundo",
-      "source": "TradingKey",
-      "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-      "tag": "Producción",
-      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
     },
     {
       "id": "m15",
@@ -172,6 +139,38 @@
       "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-10-29-26/",
       "title": "Arabica diciembre cierra en 285,45 ¢/lb y robusta enero en US$3.176/t",
       "summary": "La venta se concentró en el contrato de diciembre de NY (−1,30 ¢) por liquidación de largos, mientras marzo subió 0,55 ¢. El robusta de Londres cayó US$23 tras toparse con ofertas sobre US$3.220."
+    },
+    {
+      "id": "m16",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos",
+        "oaxaca",
+        "guerrero",
+        "veracruz",
+        "puebla",
+        "robusta-chiapas",
+        "robusta-golfo"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-01",
+      "source": "Proceso",
+      "url": "https://www.proceso.com.mx/nacional/2026/11/1/se-desplazara-el-frente-frio-4-por-el-pais-y-provocara-lluvias-de-lunes-a-jueves-en-estas-entidades-382963.html",
+      "title": "El frente frío 4 traerá lluvias de lunes a jueves al sur y al Golfo",
+      "summary": "El SMN prevé chubascos de 5 a 25 mm en Guerrero, Oaxaca, Chiapas y Veracruz, y lluvias fuertes de 25 a 50 mm el miércoles 4 en el sur de Chiapas, el suroeste de Oaxaca y la costa de Guerrero; en sierras de Veracruz, Puebla y Oaxaca habrá madrugadas de 0 a 5 °C. Complica el secado del pergamino y el traslado de lotes recién cortados."
+    },
+    {
+      "id": "m17",
+      "scope": "mx",
+      "regiones": [],
+      "tag": "Mercado",
+      "date": "2026-10-30",
+      "source": "Imagen Agropecuaria",
+      "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
+      "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
+      "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
     }
   ]
 }
