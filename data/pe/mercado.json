@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-02T19:50:00Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
-      "value": 3.462,
+      "value": 3.461,
       "dec": 3,
       "unit": "PEN/USD",
-      "change": 0.008,
+      "change": 0.007,
       "chgDec": 3,
       "asOf": "2026-10-29",
-      "source": "BCRP (vía TuCambista)",
-      "url": "https://tucambista.pe/noticias/dolares-a-soles-30-octubre-2026",
+      "source": "BCRP",
+      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-10-23/2026-11-02/",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
       "note": "Sube a su nivel más alto desde inicios de junio; en octubre se movió entre S/3,428 y S/3,462."
