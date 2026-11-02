@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:46:49Z",
+  "updatedAt": "2026-11-02T11:47:21Z",
   "items": [
     {
       "id": "s1",
@@ -11,19 +11,6 @@
       "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
       "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %.",
       "regiones": []
-    },
-    {
-      "id": "s2",
-      "scope": "sv",
-      "regiones": [
-        "cacahuatique"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-10-09",
-      "source": "Diario El Mundo",
-      "url": "https://diario.elmundo.sv/economia/isc-inicia-gira-de-capacitacion-en-cordilleras-cafetaleras-ante-el-arranque-de-la-cosecha-2026-2027",
-      "title": "El ISC inicia en Cacahuatique una gira de capacitación por las seis cordilleras",
-      "summary": "Arranca con la cosecha 2026-27 (desde el 1 de octubre): siembra, cambio climático, fertilización, certificación y registro para subvenciones."
     },
     {
       "id": "n8",
@@ -44,16 +31,6 @@
       "tag": "Mercado",
       "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
       "url": "https://admis.com/cotton-faces-new-rain-risk"
-    },
-    {
-      "date": "2026-10-18",
-      "id": "n10",
-      "scope": "mundo",
-      "source": "Moncloa",
-      "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores salvadoreños que venden a Europa (17,1 % de las exportaciones) deben tener lista la geolocalización de las fincas antes de fin de año.",
-      "tag": "Regulación",
-      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
     },
     {
       "date": "2026-10-26",
