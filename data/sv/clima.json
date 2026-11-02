@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:47:21Z",
+  "updatedAt": "2026-11-02T19:47:19Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,23 +24,27 @@
   },
   "impactos": [
     "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26.",
-    "Con vientos del norte y la época seca por instalarse (5 de noviembre según el MARN), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá buen clima para el secado en patio, con lluvias vespertinas aisladas todavía.",
+    "Con la época seca entre el 5 y el 14 de noviembre y lluvias de noviembre normales a algo superiores (48,7 mm), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá secado en patio con interrupciones vespertinas.",
     "Si noviembre–enero queda 40–50 % bajo lo normal en lluvia, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (cosecha de diciembre a marzo) puede dar grano más pequeño y menos denso.",
     "Las lluvias de la vaguada del 20 de octubre trajeron riesgo de deslizamientos en Morazán (Cacahuatique) y crecidas en La Libertad: conviene confirmar el estado de caminos y beneficios antes de cerrar embarques."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-10-26",
-    "headline": "Vientos del norte enfrían las madrugadas; el MARN prevé la época seca desde el 5 de noviembre",
+    "asOf": "2026-11-01",
+    "headline": "Época seca entre el 5 y el 14 de noviembre según la fuente; el MARN proyecta 48,7 mm en noviembre",
     "items": [
-      "Vientos del norte de 15–25 km/h con ráfagas de hasta 45 km/h; mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana).",
-      "La transición a la época seca empezó el 15 de octubre y se prevé que esta inicie el 5 de noviembre; aún pueden darse lluvias puntuales por la tarde.",
-      "Perspectiva de la UES: entre noviembre y enero las lluvias podrían quedar 40–50 % bajo lo normal y las temperaturas 50–70 % sobre lo habitual."
+      "La UES ubica el inicio oficial de la época seca el 14 de noviembre; el MARN la había previsto para el 5 y espera de dos a cuatro vientos nortes en octubre–noviembre.",
+      "El MARN proyecta 48,7 mm en noviembre (promedio histórico 32,3 mm), con valores superiores en Chalatenango y el norte de Cuscatlán.",
+      "CIIFEN da más de 95 % de probabilidad de El Niño «muy fuerte» entre noviembre de 2026 y enero de 2027; la UES prevé lluvias 40–50 % bajo lo normal hasta enero."
     ],
     "links": [
       {
         "t": "MARN",
         "url": "https://www.snet.gob.sv/"
+      },
+      {
+        "t": "Diario El Mundo",
+        "url": "https://diario.elmundo.sv/nacionales/el-salvador-iniciara-la-epoca-seca-en-noviembre-con-vientos-nortes-y-lluvias-dentro-de-lo-normal"
       },
       {
         "t": "Infobae",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:47:21Z",
+  "updatedAt": "2026-11-02T19:47:19Z",
   "items": [
     {
       "id": "s1",
@@ -114,6 +114,38 @@
       "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
       "title": "La robusta cae 5,45 % en la semana por inventarios certificados en máximos de 13 meses",
       "summary": "El contrato de noviembre en Londres cerró en US$3.228 por tonelada el 23 de octubre; el arábica de diciembre en Nueva York, en 307,45 ¢/lb. Las lluvias de septiembre en Brasil y el buen clima en Vietnam pesan sobre los precios, lo que puede dar margen para negociar diferenciales."
+    },
+    {
+      "id": "s11",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/26/el-deficit-comercial-de-el-salvador-se-amplia-158-en-septiembre-hasta-usd-113343-millones/",
+      "title": "Las ventas de café cayeron a US$5,4 millones en septiembre, pero el año sigue arriba",
+      "summary": "En septiembre las exportaciones de café bajaron de US$7,68 M a US$5,40 M (cerca de −30 %); de enero a septiembre suman US$181,36 M (+15,3 %), por mejores precios internacionales. El ISC aún no publica el acumulado de septiembre que cierra la cosecha 2025-26."
+    },
+    {
+      "id": "s12",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-01",
+      "source": "Diario El Mundo",
+      "url": "https://diario.elmundo.sv/nacionales/el-salvador-iniciara-la-epoca-seca-en-noviembre-con-vientos-nortes-y-lluvias-dentro-de-lo-normal",
+      "title": "Época seca arrancaría el 14 de noviembre; el MARN ve lluvias normales a algo superiores en noviembre",
+      "summary": "Según la UES la transición termina el 13 de noviembre; el MARN proyecta 48,7 mm en noviembre (promedio 32,3 mm) y de dos a cuatro vientos nortes. Con El Niño muy fuerte hasta enero, conviene vigilar el secado en patio en el centro y el oriente."
+    },
+    {
+      "id": "n14",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-27",
+      "source": "Reuters · Investing.com",
+      "url": "https://br.investing.com/news/stock-market-news/acucar-sobe-e-cafe-cai-na-bolsa-ice-a-medida-que-fundamentos-prevalecem-apos-eleicoes-no-brasil-2104229",
+      "title": "El arábica cae 2,4 % a US$2,9375/lb por mejores perspectivas en Brasil",
+      "summary": "Las lluvias favorables a la floración y una posible cosecha récord brasileña presionaron al arábica, mientras la robusta subió 0,6 % a US$3.220/t con la cosecha vietnamita y más inventarios en bolsa. El dólar cotizaba cerca de R$ 5,35."
     }
   ]
 }
