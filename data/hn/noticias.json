@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T19:50:00Z",
+ "updatedAt": "2026-11-02T11:55:00Z",
  "items": [
   {
    "id": "h5",
@@ -58,16 +58,6 @@
    "url": "https://admis.com/cotton-faces-new-rain-risk"
   },
   {
-   "date": "2026-10-18",
-   "id": "n10",
-   "scope": "mundo",
-   "source": "Moncloa",
-   "summary": "La Comisión Europea dice que no habrá un tercer aplazamiento del EUDR para medianas y grandes empresas. Los exportadores de Honduras que venden a Europa deben tener lista la geolocalización de las fincas antes de fin de año.",
-   "tag": "Regulación",
-   "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-   "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-  },
-  {
    "date": "2026-10-26",
    "id": "n11",
    "scope": "mundo",
@@ -78,16 +68,6 @@
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
   },
   {
-   "date": "2026-10-16",
-   "id": "n12",
-   "scope": "mundo",
-   "source": "TradingKey",
-   "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-   "tag": "Producción",
-   "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-   "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
-  },
-  {
    "id": "n13",
    "scope": "mundo",
    "tag": "Mercado",
@@ -96,6 +76,16 @@
    "url": "https://www.xtb.com/cl/analisis-y-noticias/analisis-de-mercado/precio-del-cafe-hoy-el-arabica-alcanza-maximos-desde-agosto-pese-a-la-mayor-cosecha-de-brasil",
    "title": "El arábica vuelve sobre 315 ¢/lb con inventarios certificados en mínimos",
    "summary": "El arábica superó los 315 ¢/lb, su nivel más alto desde el 31 de agosto, con existencias certificadas en ICE bajo 220.000 sacos en septiembre, pese a que Conab estima la cosecha de Brasil en 67,6 M de sacos (+19,6 %). Para el comprador, el mercado sigue sostenido por la escasez de grano certificado más que por la oferta."
+  },
+  {
+   "id": "n14",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-01",
+   "source": "DailyForex",
+   "url": "https://es.dailyforex.com/forex-technical-analysis/2026/11/cafe-arabica-cotiza-bajo-presion-semanal-2-a-6-noviembre-2026/251277",
+   "title": "El arábica cierra la semana cerca de 278,8 ¢/lb, 17 ¢ por debajo de la anterior",
+   "summary": "Tras cerrar cerca de 295,5 ¢/lb una semana antes, el arábica tocó mínimos bajo 274 ¢/lb con un real brasileño débil (USD/BRL ≈5,44). Para el comprador de café hondureño, el diferencial puede aprovechar una bolsa más barata, pero baja el precio de referencia al productor."
   }
  ]
 }
