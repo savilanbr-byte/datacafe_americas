@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-10-30T19:47:24Z",
+  "updatedAt": "2026-11-02T11:55:00Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
-      "value": 3.454,
+      "value": 3.462,
       "dec": 3,
       "unit": "PEN/USD",
-      "change": 0.004,
+      "change": 0.008,
       "chgDec": 3,
-      "asOf": "2026-10-28",
-      "source": "BCRP",
-      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-10-19/2026-10-29/",
+      "asOf": "2026-10-29",
+      "source": "BCRP (vía TuCambista)",
+      "url": "https://tucambista.pe/noticias/dolares-a-soles-30-octubre-2026",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
-      "note": "Estable: entre S/3,428 y S/3,454 en octubre."
+      "note": "Sube a su nivel más alto desde inicios de junio; en octubre se movió entre S/3,428 y S/3,462."
     },
     "expo": {
-      "label": "Precio promedio de exportación ene–jun 2026",
-      "value": 310.82,
+      "label": "Precio promedio de exportación ene–ago 2026",
+      "value": 315.43,
       "dec": 2,
       "unit": "USD/quintal",
-      "asOf": "2026-09-07",
-      "source": "Mincetur · Agraria",
-      "url": "https://www.agraria.pe/noticias/exportaciones-de-cafe-alcanzaron-los-us-325-millones-en-la-p-42977",
-      "note": "Quintal de 46 kg (US$6,757 por kg): US$325 M ÷ 48,1 millones de kg. Valor +7,7 % y volumen +10,3 % frente a 2025."
+      "asOf": "2026-10-30",
+      "source": "Agraria",
+      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
+      "note": "Quintal de 46 kg (US$6.857 por kg): US$701,74 M ÷ 102,3 millones de kg de café verde. Valor +0,6 % y volumen +2,8 % frente a ene–ago de 2025."
     },
     "expoValor": {
       "label": "Exportaciones ene–ago 2026",
@@ -33,18 +33,18 @@
       "asOf": "2026-10-14",
       "source": "Mincetur · El Peruano",
       "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-de-2026",
-      "note": "2025 completo: récord de US$1.796 M. Expocafé Perú será del 26 al 29 de noviembre en Lima."
+      "note": "2025 completo: récord de US$1.796 M. Café verde ene–ago: US$701,74 M (+0,6 % frente a 2025). Expocafé Perú será del 26 al 29 de noviembre en Lima."
     },
     "expoVol": {
-      "label": "Volumen exportado ene–jun 2026",
-      "value": 48.1,
+      "label": "Volumen exportado ene–ago 2026",
+      "value": 102.3,
       "dec": 1,
       "unit": "mil t",
-      "changePct": 10,
-      "asOf": "2026-09-07",
+      "changePct": 2.8,
+      "asOf": "2026-10-30",
       "source": "Agraria",
-      "url": "https://agraria.pe/noticias/norte-y-centro-sostienen-el-crecimiento-de-las-exportaciones-43025",
-      "note": "Norteamérica 45 % y Europa 41 % de las ventas."
+      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
+      "note": "Café verde: 102.336 t entre enero y agosto de 2026. EE. UU. 33,7 %, Alemania 13,7 %, Bélgica 9,4 % y Canadá 9,1 % del valor."
     },
     "prod": {
       "label": "Producción de julio 2026 (INEI)",
@@ -68,12 +68,12 @@
     }
   },
   "ref": {
-    "asOf": "2026-09-07",
-    "cosecha": "ene–jun 2026",
-    "periodo": "enero a junio de 2026",
-    "expo": 310.82,
+    "asOf": "2026-10-30",
+    "cosecha": "ene–ago 2026",
+    "periodo": "enero a agosto de 2026",
+    "expo": 315.43,
     "qqKg": 46,
-    "fuente": "Mincetur y Agraria (valor y volumen)",
+    "fuente": "Agraria (valor y volumen de café verde)",
     "nyMeses": [
       [
         "2026-01",
@@ -99,12 +99,20 @@
       [
         "2026-06",
         256.75
+      ],
+      [
+        "2026-07",
+        310.34
+      ],
+      [
+        "2026-08",
+        313.2
       ]
     ],
     "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
-    "expoUrl": "https://www.agraria.pe/noticias/exportaciones-de-cafe-alcanzaron-los-us-325-millones-en-la-p-42977",
+    "expoUrl": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
     "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
-    "nota": "Precio calculado con el valor (US$325 M) y el volumen (48,1 millones de kg) del primer semestre. Buena parte de lo embarcado en el semestre se fijó meses antes, cuando la bolsa estaba más alta: el diferencial del día puede ser menor."
+    "nota": "Precio calculado con el valor (US$701,74 M) y el volumen (102,3 millones de kg) de café verde de enero a agosto. Buena parte de lo embarcado se fijó meses antes, cuando la bolsa estaba más alta: el diferencial del día puede ser menor."
   },
   "oferta": {
     "title": "Exportación por región · ene–jun 2026",

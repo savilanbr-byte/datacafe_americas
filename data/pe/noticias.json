@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:47:24Z",
+  "updatedAt": "2026-11-02T11:55:00Z",
   "items": [
     {
       "id": "p11",
@@ -14,17 +14,6 @@
       "url": "https://mundoagropecuario.com/peru-recuperacion-produccion-agropecuaria-agosto-2026/",
       "title": "La producción de café pergamino sube 2,6 % en agosto de 2026",
       "summary": "Con datos de INEI y Midagri, el aumento se atribuye a mejores condiciones climáticas en Amazonas y Cajamarca; de enero a agosto el agro sigue 0,2 % por debajo del año pasado. Tras el +8 % de julio, la oferta de la campaña se recupera pero sigue limitada."
-    },
-    {
-      "id": "p12",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-10-17",
-      "source": "Infobae · ENFEN",
-      "url": "https://www.infobae.com/peru/2026/10/17/el-nino-costero-se-extenderia-hasta-el-otono-de-2027-segun-el-ultimo-reporte-del-enfen/",
-      "title": "ENFEN: El Niño costero sería extraordinario hasta enero de 2027",
-      "summary": "Bajaría a fuerte hasta inicios del otoño de 2027; la costa norte tendría más lluvia de lo normal y la Amazonía central y sur lluvias normales o menores, con ríos Huallaga y Apurímac bajos. Afecta el transporte hacia Paita y la floración de la campaña 2027."
     },
     {
       "id": "p13",
@@ -98,16 +87,6 @@
       "url": "https://admis.com/cotton-faces-new-rain-risk"
     },
     {
-      "date": "2026-10-18",
-      "id": "n10",
-      "scope": "mundo",
-      "source": "Moncloa",
-      "summary": "La Comisión Europea descarta un tercer aplazamiento del EUDR para empresas medianas y grandes. Los exportadores peruanos que venden a Europa necesitan tener lista la geolocalización de las fincas antes de fin de año.",
-      "tag": "Regulación",
-      "title": "UE reitera que el reglamento antideforestación aplica al café desde el 30 de diciembre",
-      "url": "https://www.moncloa.com/2026/10/18/reglamento-deforestacion-ue-soja-cafe-3450573"
-    },
-    {
       "date": "2026-10-26",
       "id": "n11",
       "scope": "mundo",
@@ -116,16 +95,6 @@
       "tag": "Divisas",
       "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
       "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
-      "date": "2026-10-16",
-      "id": "n12",
-      "scope": "mundo",
-      "source": "TradingKey",
-      "summary": "Brasil exportó 236.000 t en septiembre (+20%) y Vietnam 124.000 t (+53%); la OIC proyecta un superávit global de 3 millones de sacos, el primero en cinco años.",
-      "tag": "Producción",
-      "title": "Exportaciones récord de Brasil y Vietnam frente a un mercado alcista",
-      "url": "https://www.tradingkey.com/news/market-movers/262220714-market-movers-coffee-20261016"
     },
     {
       "id": "p14",
@@ -141,6 +110,89 @@
       "url": "https://inforegion.pe/cajamarca-y-cusco-se-imponen-en-el-golden-cup-peru-2026-con-cafes-de-alta-calidad-y-despiertan-interes-de-mercados-de-japon-y-europa/",
       "title": "Cajamarca y Cusco lideran el Golden Cup Perú 2026",
       "summary": "La cooperativa Nuevo Horizonte (Cajamarca) ganó en contenedores completos, con puntajes de 85,48 a 86,40, y San Fernando (Cusco) en microlotes, con hasta 88,02 puntos. Compradores de Japón y España participaron en la cata: señal de demanda por lotes diferenciados."
+    },
+    {
+      "id": "p15",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-10-30",
+      "source": "Agraria.pe",
+      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
+      "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
+      "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
+    },
+    {
+      "id": "p16",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura"
+      ],
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Agraria.pe",
+      "url": "https://www.agraria.pe/noticias/cajamarca-lidera-las-exportaciones-de-cafe-y-concentra-la-mi-43343",
+      "title": "Cajamarca concentra la mitad de las exportaciones de café de enero a agosto",
+      "summary": "La región aporta cerca del 50 % del valor y del volumen exportados; el país crece 3 % en volumen y 1 % en valor. Callao y Piura crecieron con fuerza, mientras otras regiones exportadoras cayeron."
+    },
+    {
+      "id": "p17",
+      "scope": "pe",
+      "regiones": [
+        "cusco"
+      ],
+      "tag": "Regulación",
+      "date": "2026-10-23",
+      "source": "Agraria.pe",
+      "url": "https://www.agraria.pe/noticias/contrarreloj-160-mil-predios-de-cafe-aun-no-son-geolocalizad-43334",
+      "title": "160 mil predios de café, cacao y palma aún no están geolocalizados para la UE",
+      "summary": "MIDAGRI lleva 240 mil de unos 400 mil polígonos (60 %). Con el EUDR vigente desde enero de 2027, cooperativas piden postergar las sanciones a 2028; para comprar con destino UE conviene exigir geolocalización."
+    },
+    {
+      "id": "p18",
+      "scope": "pe",
+      "regiones": [
+        "amazonas"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-10-27",
+      "source": "Agraria.pe",
+      "url": "https://www.agraria.pe/noticias/amazonas-cientificos-identifican-hongos-con-potencial-para-c-43355",
+      "title": "Científicos de Amazonas identifican tres hongos con potencial contra la roya",
+      "summary": "La UNTRM halló Akanthomyces uredinophilus, Flavocillium subprimulinum y Ovicillium attenuatum asociados a la roya; en pruebas controladas colonizan sus esporas. Aún es una etapa temprana, sin pruebas en campo."
+    },
+    {
+      "id": "p19",
+      "scope": "pe",
+      "regiones": [
+        "piura",
+        "cajamarca",
+        "amazonas",
+        "san-martin",
+        "junin",
+        "pasco",
+        "huanuco",
+        "cusco",
+        "puno",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-30",
+      "source": "Infobae · ENFEN",
+      "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
+      "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
+      "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-19",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
+      "title": "Arábica sube a máximo de un mes: diciembre cierra en 315,7 ¢/lb",
+      "summary": "El 19-oct el contrato diciembre ganó 3,3 % por cobertura de cortos y existencias certificadas cerca de mínimos de 27 años; el robusta de noviembre cerró en US$3.484/t. Los precios han vuelto a bajar desde entonces."
     }
   ]
 }
