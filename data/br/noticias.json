@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-02T19:47:00Z",
   "items": [
     {
       "id": "b2",
@@ -208,6 +208,25 @@
       "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
       "title": "El robusta de Londres cae 5,45 % en la semana con inventarios certificados en máximo de un año",
       "summary": "El contrato de noviembre cerró en US$3.228 por tonelada el 23-oct y las existencias certificadas llegaron a 6.488 lotes el 22-oct (máximo en unos 13 meses). El arábica certificado en Nueva York sigue bajo, en 234.433 sacos."
+    },
+    {
+      "id": "b17",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "mogiana",
+        "montanhas-es",
+        "conilon-es",
+        "oeste-bahia"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-30",
+      "source": "Correio Braziliense · INMET",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html",
+      "title": "INMET prevé noviembre con menos lluvia y hasta 2 °C más de calor en Minas y Espírito Santo",
+      "summary": "El INMET espera precipitaciones reducidas en Minas Gerais y Espírito Santo y desvíos térmicos de hasta +2 °C en el Sudeste (centro de Minas) y el oeste de Bahia; São Paulo sería la excepción, con tormentas. Es el mes clave del cuajado (pegamento) de la safra 2027: calor y poca agua aumentan el riesgo de caída de flores y chumbinhos."
     }
   ]
 }

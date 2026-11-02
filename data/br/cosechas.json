@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-02T19:47:00Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -206,6 +206,15 @@
       "texto": "Hedgepoint ve un buen arranque de la safra 2027/28 con florada fuerte y lluvias abundantes en octubre, pero avisa de olas de calor en el 4.º trimestre y que el conilon de ES y Bahia es más vulnerable al El Niño.",
       "fuente": "Globo Rural · Extra de Rondônia",
       "url": "https://extraderondonia.com.br/2026/10/19/safra-de-cafe-2027-28-tem-bom-desenvolvimento-mas-el-nino-ainda-gera-riscos/"
+    },
+    {
+      "id": "b4",
+      "fecha": "2026-10-30",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "El INMET prevé para noviembre lluvias reducidas en Minas y Espírito Santo y hasta +2 °C en el Sudeste, mes clave del cuajado de la safra 2027.",
+      "fuente": "Correio Braziliense · INMET",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
     }
   ]
 }
