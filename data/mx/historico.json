@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-02T19:47:03Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -181,6 +181,10 @@
         [
           "2026-10-29",
           285.45
+        ],
+        [
+          "2026-10-30",
+          287.2
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -321,6 +325,10 @@
         [
           "2026-10-27",
           3237.5
+        ],
+        [
+          "2026-11-02",
+          3271.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
