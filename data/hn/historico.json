@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T11:47:36Z",
+ "updatedAt": "2026-11-03T19:47:13Z",
  "series": {
   "kc1": {
    "points": [
@@ -283,6 +283,10 @@
     [
      "2026-11-02",
      3245.0
+    ],
+    [
+     "2026-11-03",
+     3249.0
     ]
    ],
    "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
@@ -349,6 +353,14 @@
     [
      "2026-10-30",
      26.9107
+    ],
+    [
+     "2026-11-02",
+     26.9153
+    ],
+    [
+     "2026-11-03",
+     26.908
     ]
    ],
    "note": "Compra del BCH del 28-sep al 6-oct y tipo de cambio de referencia (compra) desde el 20-oct. Suma un dato por actualización.",
