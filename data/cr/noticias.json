@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T19:50:00Z",
+ "updatedAt": "2026-11-03T11:47:23Z",
  "items": [
   {
    "id": "n1",
@@ -116,6 +116,22 @@
    "url": "https://www.maritimeprofessional.com/news/arabica-coffee-futures-rise-amidst-424035",
    "title": "El arábica sube 2,2 % a US$2,9345 por libra con inventarios certificados cerca de mínimos de 27 años",
    "summary": "Los inventarios certificados de ICE suman 225.068 sacos, cerca del mínimo de mediados de septiembre, aunque el clima favorable en Brasil y un real débil limitan el alza. Para comprar en Costa Rica, el precio de referencia sigue volátil: conviene fijar diferenciales con cautela."
+  },
+  {
+   "id": "n18",
+   "scope": "cr",
+   "regiones": [
+    "los-santos",
+    "zona-norte",
+    "valle-central",
+    "perez-zeledon"
+   ],
+   "tag": "Clima",
+   "date": "2026-10-23",
+   "source": "CR Prensa · Infobae",
+   "url": "https://crprensa.com/2026/10/22/costa-rica-amplia-alertas-por-fenomeno-de-el-nino-ante-deficit-de-lluvias/",
+   "title": "La CNE amplía alertas por El Niño: déficit de lluvias de 43 % en el Pacífico Norte",
+   "summary": "Alerta naranja en Dota, Tarrazú, León Cortés y Tilarán, y amarilla en Pérez Zeledón y el Valle Central; de enero a septiembre llovió 27 % menos en el Pacífico Sur y 20 % menos en el Valle Central. Conviene vigilar el estrés hídrico y las floraciones de la cosecha 2027-28."
   }
  ]
 }
