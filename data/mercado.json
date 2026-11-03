@@ -1,26 +1,26 @@
 {
   "curve": {
-    "asOf": "2026-11-02",
+    "asOf": "2026-11-03",
     "points": [
       {
         "contract": "Dic-26",
-        "value": 292.1
+        "value": 283.95
       },
       {
         "contract": "Mar-27",
-        "value": 280.55
+        "value": 274.6
       },
       {
         "contract": "May-27",
-        "value": 276.5
+        "value": 270.95
       },
       {
         "contract": "Jul-27",
-        "value": 273.5
+        "value": 268.4
       },
       {
         "contract": "Sep-27",
-        "value": 270.8
+        "value": 266.05
       }
     ],
     "source": "Investing.com",
@@ -108,14 +108,14 @@
       "value": 356.15
     },
     "icoComp": {
-      "asOf": "2026-10-30",
-      "changePct": 0.27,
+      "asOf": "2026-11-02",
+      "changePct": 1.01,
       "dec": 0,
       "label": "Indicador compuesto OIC",
       "source": "OIC · La República",
       "unit": "¢/lb",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-      "value": 252
+      "value": 255
     },
     "icoOM": {
       "asOf": "2026-09-30",
@@ -138,56 +138,56 @@
       "value": 167.49
     },
     "kc1": {
-      "asOf": "2026-11-02",
-      "change": 4.9,
+      "asOf": "2026-11-03",
+      "change": -8.05,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 2-nov (Investing, histórico); el 3-nov marcaba 295,13 intradía (+1,04%)",
+      "note": "Cierre del 3-nov (Investing, histórico); -2,76% frente al cierre del 2-nov (292,10)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "value": 292.1
+      "value": 284.05
     },
     "kc2": {
-      "asOf": "2026-11-02",
+      "asOf": "2026-11-03",
       "chgDec": 2,
       "contract": "Mar-27",
       "dec": 2,
       "label": "KC C2",
-      "note": "Página de contratos de Investing del 2-nov (13:34, Bogotá)",
+      "note": "Página de contratos de Investing del 3-nov (13:34, Bogotá; con retraso)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 280.55,
-      "change": 3.75
+      "value": 274.6,
+      "change": -5.95
     },
     "kc3": {
-      "asOf": "2026-11-02",
+      "asOf": "2026-11-03",
       "chgDec": 2,
       "contract": "May-27",
       "dec": 2,
       "label": "KC C3",
-      "note": "Página de contratos de Investing del 2-nov (13:34, Bogotá)",
+      "note": "Página de contratos de Investing del 3-nov (13:34, Bogotá; con retraso)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 276.5,
-      "change": 3.75
+      "value": 270.95,
+      "change": -5.55
     },
     "kc4": {
-      "asOf": "2026-11-02",
+      "asOf": "2026-11-03",
       "chgDec": 2,
       "contract": "Jul-27",
       "dec": 2,
       "label": "KC C4",
-      "note": "Página de contratos de Investing del 2-nov (13:34, Bogotá)",
+      "note": "Página de contratos de Investing del 3-nov (13:34, Bogotá; con retraso)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 273.5,
-      "change": 3.85
+      "value": 268.4,
+      "change": -5.1
     },
     "prodMundo": {
       "asOf": "2026-07-02",
@@ -202,16 +202,16 @@
     },
     "robusta": {
       "asOf": "2026-11-03",
-      "change": 4.0,
-      "changePct": 0.12,
+      "change": -38.0,
+      "changePct": -1.17,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
-      "note": "Intradía (3-nov, 06:46 Bogotá); contrato frente enero 2027",
+      "note": "Cierre del 3-nov (Investing); contrato frente enero 2027",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3249.0
+      "value": 3207.0
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -263,5 +263,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-03T11:48:01Z"
+  "updatedAt": "2026-11-03T19:47:14Z"
 }
