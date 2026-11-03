@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:47:19Z",
+  "updatedAt": "2026-11-03T11:50:00Z",
   "items": [
     {
       "id": "s1",
@@ -70,28 +70,6 @@
       "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
     },
     {
-      "id": "s8",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Cafés especiales",
-      "date": "2026-10-14",
-      "source": "El Salvador in English",
-      "url": "https://elsalvadorinenglish.com/2026/10/14/el-salvador-expands-middle-east-trade-presence-with-specialty-coffee-and-agro-exports-at-gfw-2026/",
-      "title": "El Salvador lleva café de especialidad a Global Food Week en Abu Dabi",
-      "summary": "El pabellón salvadoreño presentó café de origen único en la feria del 6 al 8 de octubre; un distribuidor con sede en Emiratos ya comercializa café salvadoreño en la región. Sin cifras de volumen o precio."
-    },
-    {
-      "id": "s9",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Cafés especiales",
-      "date": "2026-10-19",
-      "source": "El Salvador Times",
-      "url": "https://www.elsalvadortimes.com/negocios/cafe-salvador-conquista-paladares-foro-inversion-iniciativa-mano-mano-roma/20261019110902105115.html",
-      "title": "El ISC y el MAG presentan café salvadoreño en Roma y buscan inversión para restaurar cafetales",
-      "summary": "Del 14 al 15 de octubre hubo degustaciones de Pacamara y Bourbon en la FAO, con la Taza de Excelencia 2026 a un precio promedio de US$44,81 en subasta. Las áreas de inversión propuestas son la restauración de cafetales, sistemas agroforestales, adaptación climática y procesamiento en cooperativas."
-    },
-    {
       "id": "s10",
       "scope": "sv",
       "regiones": [
@@ -146,6 +124,16 @@
       "url": "https://br.investing.com/news/stock-market-news/acucar-sobe-e-cafe-cai-na-bolsa-ice-a-medida-que-fundamentos-prevalecem-apos-eleicoes-no-brasil-2104229",
       "title": "El arábica cae 2,4 % a US$2,9375/lb por mejores perspectivas en Brasil",
       "summary": "Las lluvias favorables a la floración y una posible cosecha récord brasileña presionaron al arábica, mientras la robusta subió 0,6 % a US$3.220/t con la cosecha vietnamita y más inventarios en bolsa. El dólar cotizaba cerca de R$ 5,35."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "El arábica rebota 2,7 % a US$2,95/lb y la robusta toca mínimos de 2024",
+      "summary": "El arábica de ICE sube a US$2,95 por libra por temor a poca oferta cercana: los inventarios certificados (225.068 sacos) siguen cerca de mínimos de 27 años. La robusta llegó a US$3.140/t, su nivel más bajo desde marzo de 2024, antes de repuntar a US$3.286."
     }
   ]
 }
