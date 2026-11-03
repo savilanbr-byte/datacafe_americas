@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:55:00Z",
+  "updatedAt": "2026-11-03T19:55:00Z",
   "items": [
     {
       "id": "n8",
@@ -184,6 +184,17 @@
       "url": "https://tradingeconomics.com/commodity/coffee",
       "title": "El arábica rebota sobre US$2,90/lb tras tocar mínimos de un mes",
       "summary": "El arábica de ICE volvió a superar los US$2,90 por libra tras los mínimos de fines de octubre; los inventarios certificados (225.068 sacos al 29-oct) siguen cerca de mínimos de 27 años y el real débil presiona a la baja. Para comprar en Brasil, el mercado mira la próxima cosecha y el clima por El Niño."
+    },
+    {
+      "id": "b18",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-03",
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
+      "title": "El dólar sube más de 1 % y roza R$5,51 por dudas fiscales y la encuesta Focus",
+      "summary": "El dólar comercial cotizaba a R$5,506 (+1,14 %) a las 14:05 y la PTAX de venta fue R$5,4935, frente a R$5,4212 del 30-oct. Un real más débil apoya los precios en reales del café y puede frenar las ventas del productor; el cierre oficial aún no se publica."
     }
   ]
 }

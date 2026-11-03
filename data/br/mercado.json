@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:55:00Z",
+  "updatedAt": "2026-11-03T19:55:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,13 +18,13 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.3744,
+      "value": 5.4935,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-10-29",
-      "source": "BCB · Renova Invest",
-      "url": "https://renovainvest.com.br/dolar-hoje/",
-      "note": "Referencia oficial del Banco Central del 29-oct (venta)."
+      "asOf": "2026-11-03",
+      "source": "BCB · InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
+      "note": "PTAX de venta del 3-nov (BCB), +1,3 % frente a los R$5,4212 del 30-oct. El dólar comercial de hoy aún no cierra (cotizaba cerca de R$5,50)."
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
