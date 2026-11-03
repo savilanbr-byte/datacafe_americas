@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-11-02T19:47:00Z",
+  "updatedAt": "2026-11-03T11:55:00Z",
   "items": [
-    {
-      "id": "b2",
-      "scope": "br",
-      "regiones": [
-        "cerrado-mineiro",
-        "mogiana"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-22",
-      "source": "Itatiaia",
-      "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/",
-      "title": "CEPEA: la florada empieza bien, pero el calor y El Niño encienden la alerta",
-      "summary": "El cuajado inicial es bueno en la mayoría de regiones; en el Cerrado y la Mogiana preocupa la caída de flores y frutos con el calor."
-    },
-    {
-      "id": "b3",
-      "scope": "br",
-      "tag": "Clima",
-      "date": "2026-10-21",
-      "source": "Folha Agrícola",
-      "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/",
-      "title": "Buen inicio de la cosecha 2027-28, pero el clima preocupa",
-      "summary": "La floración fue buena para la próxima cosecha; el calor es el principal riesgo de las próximas semanas."
-    },
     {
       "id": "n8",
       "scope": "br",
@@ -95,35 +71,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430450-cafe-cepea-alta-do-dolar-sustenta-cotacoes-domesticas-apesar-de-baixas-externas.html",
       "title": "CEPEA: el dólar alto sostiene los precios internos pese a la caída en Nueva York",
       "summary": "El arábica y el robusta se mantienen firmes en el mercado interno gracias al dólar, aunque las bolsas bajan por la expectativa de más oferta. CEPEA ve los precios sensibles al tipo de cambio y al clima en las próximas semanas; la safra 2027/28 está en floración."
-    },
-    {
-      "id": "b10",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "matas-de-minas",
-        "conilon-es"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-22",
-      "source": "Rabobank · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html",
-      "title": "Rabobank: lluvias de septiembre muy por encima del promedio mejoran la perspectiva de la safra 2027/28",
-      "summary": "Guaxupé recibió 154 mm (promedio 57 mm), Manhuaçu 111 mm (28 mm) y Linhares 90 mm (29 mm). El banco ve posible una recuperación de inventarios globales, pero aún no un excedente confirmado."
-    },
-    {
-      "id": "b11",
-      "scope": "br",
-      "regiones": [
-        "conilon-es",
-        "montanhas-es"
-      ],
-      "tag": "Exportaciones",
-      "date": "2026-10-21",
-      "source": "A Gazeta · CCCV",
-      "url": "https://www.agazeta.com.br/colunas/abdo-filho/um-2026-historico-para-o-cafe-do-espirito-santo-1026",
-      "title": "Espírito Santo supera 5 millones de sacas exportadas hasta septiembre, 58 % más",
-      "summary": "Según el Centro do Comércio de Café de Vitória, el conilon aportó 4,22 M de sacas y el arábica 583 mil (+31 %); el precio medio fue de US$236 por saca. Los principales destinos fueron Bélgica (15 %), México (12 %) y Alemania (8 %)."
     },
     {
       "id": "n15",
@@ -227,6 +174,16 @@
       "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html",
       "title": "INMET prevé noviembre con menos lluvia y hasta 2 °C más de calor en Minas y Espírito Santo",
       "summary": "El INMET espera precipitaciones reducidas en Minas Gerais y Espírito Santo y desvíos térmicos de hasta +2 °C en el Sudeste (centro de Minas) y el oeste de Bahia; São Paulo sería la excepción, con tormentas. Es el mes clave del cuajado (pegamento) de la safra 2027: calor y poca agua aumentan el riesgo de caída de flores y chumbinhos."
+    },
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-02",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "El arábica rebota sobre US$2,90/lb tras tocar mínimos de un mes",
+      "summary": "El arábica de ICE volvió a superar los US$2,90 por libra tras los mínimos de fines de octubre; los inventarios certificados (225.068 sacos al 29-oct) siguen cerca de mínimos de 27 años y el real débil presiona a la baja. Para comprar en Brasil, el mercado mira la próxima cosecha y el clima por El Niño."
     }
   ]
 }
