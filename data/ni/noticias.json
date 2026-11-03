@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T19:50:00Z",
+ "updatedAt": "2026-11-03T11:50:00Z",
  "items": [
   {
    "id": "ni1",
@@ -151,6 +151,17 @@
    "url": "https://www.canal4.com.ni/el-13-de-noviembre-de-cada-ano-se-reconoce-como-dia-nacional-del-cafe/",
    "title": "El Gobierno declara el 13 de noviembre como Día Nacional del Café",
    "summary": "La copresidenta Rosario Murillo anunció el 28 de octubre la fecha anual, propuesta por la Secretaría de Economía Creativa, para reconocer a las familias productoras. Es un anuncio oficial sin cifras de mercado; sirve como referencia de las actividades promocionales del sector en noviembre."
+  },
+  {
+   "id": "ni12",
+   "scope": "ni",
+   "regiones": [],
+   "tag": "Regulación",
+   "date": "2026-10-30",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/nicaragua-us-tariff-12-5-percent-explained/",
+   "title": "El café nicaragüense queda exento del arancel de 12,5 % de EE. UU.",
+   "summary": "El arancel de 12,5 % rige desde el 24 de julio de 2026, pero el café figura en la lista de exenciones. Aparte, un arancel a bienes no originarios del CAFTA-DR pasa de 0 % a 10 % el 1 de enero de 2027 y no lista exclusiones; conviene confirmar el origen en los embarques de 2027."
   }
  ]
 }
