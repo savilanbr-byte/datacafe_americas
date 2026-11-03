@@ -1,167 +1,177 @@
 {
- "updatedAt": "2026-11-03T11:50:00Z",
- "items": [
-  {
-   "id": "ni1",
-   "scope": "ni",
-   "regiones": [
-    "jinotega"
-   ],
-   "tag": "Producción",
-   "date": "2026-10-24",
-   "source": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
-   "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
-   "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
-  },
-  {
-   "id": "ni8",
-   "scope": "ni",
-   "regiones": [],
-   "tag": "Precios",
-   "date": "2026-10-28",
-   "source": "Prensa Latina (Conatradec)",
-   "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/",
-   "title": "Conatradec: el precio promedio de venta sube a US$294 por quintal",
-   "summary": "Según Conatradec, el precio promedio pasó de US$272 a US$294 por quintal en 2026, con Nueva York entre US$260 y algo más de US$300; la cosecha 2026-27 se proyecta en 3 M de quintales, menos de 7 % bajo los máximos recientes. Es cifra del gremio vinculado al Gobierno; el BCN da la misma proyección de US$294."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los orígenes centroamericanos."
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre los precios del café de Nicaragua.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
-   "id": "ni5",
-   "scope": "ni",
-   "regiones": [
-    "jinotega",
-    "matagalpa",
-    "nueva-segovia",
-    "madriz",
-    "esteli",
-    "boaco",
-    "meseta",
-    "caribe-sur"
-   ],
-   "tag": "Producción",
-   "date": "2026-10-24",
-   "source": "Canal 4",
-   "url": "https://www.canal4.com.ni/nicaragua-inicia-plan-de-proteccion-y-seguridad-de-la-cosecha-cafetalera-2026-2027/",
-   "title": "Arranca el plan de seguridad de la cosecha 2026-27 con más de 3.000 militares",
-   "summary": "El Ejército y la Policía cubrirán Matagalpa, Jinotega, Estelí, Madriz, Nueva Segovia, Managua, Boaco, Carazo, Nueva Guinea y Ticuantepe; el acto central en Jinotega reunió a más de 4.000 personas. Es la señal oficial de que la recolección 2026-27 (proyectada en más de 3 M de quintales) está por empezar."
-  },
-  {
-   "id": "ni6",
-   "scope": "ni",
-   "regiones": [],
-   "tag": "Industria",
-   "date": "2026-10-16",
-   "source": "Prensa Latina",
-   "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/",
-   "title": "Conatradec: más de 54.000 fincas y 90 exportadoras venden café a 56 países",
-   "summary": "Según Conatradec, hay más de 235.000 manzanas de café (98 % arábica, 2 % robusta), más de 55 beneficios secos, sobre todo en Matagalpa, Nueva Segovia, Madriz y Jinotega, y hasta 600.000 empleos en cosecha. Son cifras del gremio vinculado al Gobierno."
-  },
-  {
-   "id": "ni7",
-   "scope": "ni",
-   "regiones": [
-    "jinotega",
-    "matagalpa",
-    "nueva-segovia",
-    "madriz",
-    "esteli",
-    "boaco",
-    "meseta",
-    "caribe-sur"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-26",
-   "source": "Nuevaya (INETER)",
-   "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/",
-   "title": "INETER anuncia el final gradual de las lluvias y calor de hasta 36 °C",
-   "summary": "Para la semana del 26 de octubre el INETER prevé máximas de 34–36 °C en el Pacífico, 31–34 °C en el resto del país y 28–31 °C en las zonas altas de Jinotega y Matagalpa, con lluvias débiles sobre todo en el Caribe. El tiempo seco favorece el inicio del corte y el secado del pergamino."
-  },
-  {
-   "id": "n13",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-10-27",
-   "source": "ESM Magazine",
-   "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
-   "title": "El arábica cae 2,4 % a US$2,9375 por libra con el clima favorable en Brasil",
-   "summary": "El 27 de octubre el arábica de ICE cerró en US$2,9375/lb tras bajar 2,1 % el lunes; el clima brasileño es húmedo pero favorable y se habla de una cosecha récord. El robusta subió 0,6 % a US$3.220/t, aún presionado por la cosecha de Vietnam. Una baja del KC encarece menos el café de Nicaragua en la cobertura de precios fijos."
-  },
-  {
-   "id": "ni9",
-   "scope": "ni",
-   "regiones": [],
-   "tag": "Exportaciones",
-   "date": "2026-10-29",
-   "source": "EFE (Infobae)",
-   "url": "https://www.infobae.com/america/agencias/2026/10/30/nicaragua-preve-ventas-de-al-menos-918-millones-de-dolares-en-la-cosecha-de-cafe-2026-2027/",
-   "title": "Nicaragua prevé ventas de café de al menos US$918 M en la cosecha 2026-27",
-   "summary": "Según el BCN citado por EFE, la cosecha 2026-27 rondaría 3 M de quintales a US$294 por quintal, con ventas de al menos US$918 M; a septiembre llevaba US$691 M. EFE atribuye los US$918 M al ciclo 2025-26, mientras otros medios los dan como el año calendario 2025; y 3 M × US$294 suman ≈ US$882 M, así que la cifra es una meta oficial, no un cálculo."
-  },
-  {
-   "id": "ni10",
-   "scope": "ni",
-   "regiones": [
-    "jinotega",
-    "matagalpa"
-   ],
-   "tag": "Producción",
-   "date": "2026-10-31",
-   "source": "Confidencial",
-   "url": "https://confidencial.digital/analisis/cafetaleros-echan-mano-de-tiktok-para-hallar-cortadores/",
-   "title": "Cafetaleros buscan cortadores por TikTok ante la escasez de mano de obra",
-   "summary": "Las fincas ofrecen C$80–100 por lata más tres comidas; un cortador hace 5–6 latas al día (C$400–500). Una finca del sur necesitaría 300 personas y se conforma con 200, y la maduración avanza lenta (hasta 50 % en algunos lotes): riesgo de retraso en la entrega de lotes."
-  },
-  {
-   "id": "n14",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-10-31",
-   "source": "The Industry Spread (I & M Smith)",
-   "url": "https://theindustryspread.com/arabica-first-notice-certified-stock-case/",
-   "title": "Inventarios certificados de arábica: 222.035 sacos; el contrato de diciembre cierra en 287,20 ¢/lb",
-   "summary": "Según el informe del 29 de octubre, el stock certificado está 4.389 sacos por encima del mínimo de 27 años (217.646). El primer aviso de diciembre es el 19 de noviembre; la tensión de entrega sostiene el arábica."
-  },
-  {
-   "id": "ni11",
-   "scope": "ni",
-   "regiones": [],
-   "tag": "Eventos",
-   "date": "2026-10-28",
-   "source": "Canal 4",
-   "url": "https://www.canal4.com.ni/el-13-de-noviembre-de-cada-ano-se-reconoce-como-dia-nacional-del-cafe/",
-   "title": "El Gobierno declara el 13 de noviembre como Día Nacional del Café",
-   "summary": "La copresidenta Rosario Murillo anunció el 28 de octubre la fecha anual, propuesta por la Secretaría de Economía Creativa, para reconocer a las familias productoras. Es un anuncio oficial sin cifras de mercado; sirve como referencia de las actividades promocionales del sector en noviembre."
-  },
-  {
-   "id": "ni12",
-   "scope": "ni",
-   "regiones": [],
-   "tag": "Regulación",
-   "date": "2026-10-30",
-   "source": "Rio Times",
-   "url": "https://www.riotimesonline.com/nicaragua-us-tariff-12-5-percent-explained/",
-   "title": "El café nicaragüense queda exento del arancel de 12,5 % de EE. UU.",
-   "summary": "El arancel de 12,5 % rige desde el 24 de julio de 2026, pero el café figura en la lista de exenciones. Aparte, un arancel a bienes no originarios del CAFTA-DR pasa de 0 % a 10 % el 1 de enero de 2027 y no lista exclusiones; conviene confirmar el origen en los embarques de 2027."
-  }
- ]
+  "updatedAt": "2026-11-03T19:50:00Z",
+  "items": [
+    {
+      "id": "ni1",
+      "scope": "ni",
+      "regiones": [
+        "jinotega"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-24",
+      "source": "Prensa Latina",
+      "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
+      "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
+      "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
+    },
+    {
+      "id": "ni8",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-10-28",
+      "source": "Prensa Latina (Conatradec)",
+      "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/",
+      "title": "Conatradec: el precio promedio de venta sube a US$294 por quintal",
+      "summary": "Según Conatradec, el precio promedio pasó de US$272 a US$294 por quintal en 2026, con Nueva York entre US$260 y algo más de US$300; la cosecha 2026-27 se proyecta en 3 M de quintales, menos de 7 % bajo los máximos recientes. Es cifra del gremio vinculado al Gobierno; el BCN da la misma proyección de US$294."
+    },
+    {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los orígenes centroamericanos."
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre los precios del café de Nicaragua.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "id": "ni5",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "matagalpa",
+        "nueva-segovia",
+        "madriz",
+        "esteli",
+        "boaco",
+        "meseta",
+        "caribe-sur"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-24",
+      "source": "Canal 4",
+      "url": "https://www.canal4.com.ni/nicaragua-inicia-plan-de-proteccion-y-seguridad-de-la-cosecha-cafetalera-2026-2027/",
+      "title": "Arranca el plan de seguridad de la cosecha 2026-27 con más de 3.000 militares",
+      "summary": "El Ejército y la Policía cubrirán Matagalpa, Jinotega, Estelí, Madriz, Nueva Segovia, Managua, Boaco, Carazo, Nueva Guinea y Ticuantepe; el acto central en Jinotega reunió a más de 4.000 personas. Es la señal oficial de que la recolección 2026-27 (proyectada en más de 3 M de quintales) está por empezar."
+    },
+    {
+      "id": "ni6",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Industria",
+      "date": "2026-10-16",
+      "source": "Prensa Latina",
+      "url": "https://www.prensa-latina.cu/2026/10/16/nicaragua-fortalece-su-caficultura-y-amplia-mercados/",
+      "title": "Conatradec: más de 54.000 fincas y 90 exportadoras venden café a 56 países",
+      "summary": "Según Conatradec, hay más de 235.000 manzanas de café (98 % arábica, 2 % robusta), más de 55 beneficios secos, sobre todo en Matagalpa, Nueva Segovia, Madriz y Jinotega, y hasta 600.000 empleos en cosecha. Son cifras del gremio vinculado al Gobierno."
+    },
+    {
+      "id": "ni7",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "matagalpa",
+        "nueva-segovia",
+        "madriz",
+        "esteli",
+        "boaco",
+        "meseta",
+        "caribe-sur"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-26",
+      "source": "Nuevaya (INETER)",
+      "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/",
+      "title": "INETER anuncia el final gradual de las lluvias y calor de hasta 36 °C",
+      "summary": "Para la semana del 26 de octubre el INETER prevé máximas de 34–36 °C en el Pacífico, 31–34 °C en el resto del país y 28–31 °C en las zonas altas de Jinotega y Matagalpa, con lluvias débiles sobre todo en el Caribe. El tiempo seco favorece el inicio del corte y el secado del pergamino."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-27",
+      "source": "ESM Magazine",
+      "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
+      "title": "El arábica cae 2,4 % a US$2,9375 por libra con el clima favorable en Brasil",
+      "summary": "El 27 de octubre el arábica de ICE cerró en US$2,9375/lb tras bajar 2,1 % el lunes; el clima brasileño es húmedo pero favorable y se habla de una cosecha récord. El robusta subió 0,6 % a US$3.220/t, aún presionado por la cosecha de Vietnam. Una baja del KC encarece menos el café de Nicaragua en la cobertura de precios fijos."
+    },
+    {
+      "id": "ni9",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-10-29",
+      "source": "EFE (Infobae)",
+      "url": "https://www.infobae.com/america/agencias/2026/10/30/nicaragua-preve-ventas-de-al-menos-918-millones-de-dolares-en-la-cosecha-de-cafe-2026-2027/",
+      "title": "Nicaragua prevé ventas de café de al menos US$918 M en la cosecha 2026-27",
+      "summary": "Según el BCN citado por EFE, la cosecha 2026-27 rondaría 3 M de quintales a US$294 por quintal, con ventas de al menos US$918 M; a septiembre llevaba US$691 M. EFE atribuye los US$918 M al ciclo 2025-26, mientras otros medios los dan como el año calendario 2025; y 3 M × US$294 suman ≈ US$882 M, así que la cifra es una meta oficial, no un cálculo."
+    },
+    {
+      "id": "ni10",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "matagalpa"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-31",
+      "source": "Confidencial",
+      "url": "https://confidencial.digital/analisis/cafetaleros-echan-mano-de-tiktok-para-hallar-cortadores/",
+      "title": "Cafetaleros buscan cortadores por TikTok ante la escasez de mano de obra",
+      "summary": "Las fincas ofrecen C$80–100 por lata más tres comidas; un cortador hace 5–6 latas al día (C$400–500). Una finca del sur necesitaría 300 personas y se conforma con 200, y la maduración avanza lenta (hasta 50 % en algunos lotes): riesgo de retraso en la entrega de lotes."
+    },
+    {
+      "id": "n14",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-10-31",
+      "source": "The Industry Spread (I & M Smith)",
+      "url": "https://theindustryspread.com/arabica-first-notice-certified-stock-case/",
+      "title": "Inventarios certificados de arábica: 222.035 sacos; el contrato de diciembre cierra en 287,20 ¢/lb",
+      "summary": "Según el informe del 29 de octubre, el stock certificado está 4.389 sacos por encima del mínimo de 27 años (217.646). El primer aviso de diciembre es el 19 de noviembre; la tensión de entrega sostiene el arábica."
+    },
+    {
+      "id": "ni11",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Eventos",
+      "date": "2026-10-28",
+      "source": "Canal 4",
+      "url": "https://www.canal4.com.ni/el-13-de-noviembre-de-cada-ano-se-reconoce-como-dia-nacional-del-cafe/",
+      "title": "El Gobierno declara el 13 de noviembre como Día Nacional del Café",
+      "summary": "La copresidenta Rosario Murillo anunció el 28 de octubre la fecha anual, propuesta por la Secretaría de Economía Creativa, para reconocer a las familias productoras. Es un anuncio oficial sin cifras de mercado; sirve como referencia de las actividades promocionales del sector en noviembre."
+    },
+    {
+      "id": "ni12",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-10-30",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/nicaragua-us-tariff-12-5-percent-explained/",
+      "title": "El café nicaragüense queda exento del arancel de 12,5 % de EE. UU.",
+      "summary": "El arancel de 12,5 % rige desde el 24 de julio de 2026, pero el café figura en la lista de exenciones. Aparte, un arancel a bienes no originarios del CAFTA-DR pasa de 0 % a 10 % el 1 de enero de 2027 y no lista exclusiones; conviene confirmar el origen en los embarques de 2027."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "El arábica sube 2,7 % a US$2,95 por libra por temor a poca oferta inmediata",
+      "summary": "Los inventarios certificados de ICE (225.068 sacos) siguen cerca de mínimos de 27 años; el clima favorable en Brasil y el real débil frenan el alza. Para comprar en Nicaragua: diferenciales y fijaciones siguen expuestos a un mercado nervioso en el corto plazo."
+    }
+  ]
 }

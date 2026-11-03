@@ -1,134 +1,134 @@
 {
- "updatedAt": "2026-11-03T11:50:00Z",
- "enso": {
-  "asOf": "2026-10-08",
-  "facts": [
-   {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
-   },
-   {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
-   }
+  "updatedAt": "2026-11-03T19:50:00Z",
+  "enso": {
+    "asOf": "2026-10-08",
+    "facts": [
+      {
+        "l": "Anomalía Niño 3.4",
+        "v": "+2,1 °C"
+      },
+      {
+        "l": "Fuerte o más hasta ene–mar 2027",
+        "v": "83%"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "url": "https://www.yr.no/",
+    "period": ""
+  },
+  "impactos": [
+    "El INETER anuncia el cierre de las lluvias y días secos y calurosos: buen clima para el inicio del corte y el secado al sol del pergamino en Jinotega y Matagalpa.",
+    "Con El Niño en nivel fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct: la lata se paga a C$80–100 y algunas fincas ven hasta 50 % de maduración), crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
+    "Las Segovias, Madriz y Estelí cosechan más tarde; el calor de 31–34 °C favorece el secado, pero conviene vigilar la humedad del grano en bodega.",
+    "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
+    "El Caribe Sur (robusta) mantiene lluvias débiles pero presentes: más riesgo de humedad en el secado."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "url": "https://www.yr.no/",
-  "period": ""
- },
- "impactos": [
-  "El INETER anuncia el cierre de las lluvias y días secos y calurosos: buen clima para el inicio del corte y el secado al sol del pergamino en Jinotega y Matagalpa.",
-  "Con El Niño en nivel fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct: la lata se paga a C$80–100 y algunas fincas ven hasta 50 % de maduración), crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
-  "Las Segovias, Madriz y Estelí cosechan más tarde; el calor de 31–34 °C favorece el secado, pero conviene vigilar la humedad del grano en bodega.",
-  "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
-  "El Caribe Sur (robusta) mantiene lluvias débiles pero presentes: más riesgo de humedad en el secado."
- ],
- "regions": [
-  {
-   "region": "jinotega",
-   "dept": "Jinotega",
-   "place": "Jinotega",
-   "lat": 13.09,
-   "lon": -86.0,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "matagalpa",
-   "dept": "Matagalpa",
-   "place": "Matagalpa",
-   "lat": 12.93,
-   "lon": -85.92,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "nueva-segovia",
-   "dept": "Nueva Segovia",
-   "place": "Dipilto",
-   "lat": 13.72,
-   "lon": -86.51,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "madriz",
-   "dept": "Madriz",
-   "place": "San Juan de Río Coco",
-   "lat": 13.54,
-   "lon": -86.17,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "esteli",
-   "dept": "Estelí",
-   "place": "Miraflor",
-   "lat": 13.25,
-   "lon": -86.25,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "boaco",
-   "dept": "Boaco",
-   "place": "Santa Lucía",
-   "lat": 12.53,
-   "lon": -85.71,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "meseta",
-   "dept": "La Meseta",
-   "place": "San Marcos, Carazo",
-   "lat": 11.91,
-   "lon": -86.2,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "caribe-sur",
-   "dept": "Caribe Sur",
-   "place": "Nueva Guinea",
-   "lat": 11.69,
-   "lon": -84.46,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
+  "regions": [
+    {
+      "region": "jinotega",
+      "dept": "Jinotega",
+      "place": "Jinotega",
+      "lat": 13.09,
+      "lon": -86.0,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "matagalpa",
+      "dept": "Matagalpa",
+      "place": "Matagalpa",
+      "lat": 12.93,
+      "lon": -85.92,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "nueva-segovia",
+      "dept": "Nueva Segovia",
+      "place": "Dipilto",
+      "lat": 13.72,
+      "lon": -86.51,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "madriz",
+      "dept": "Madriz",
+      "place": "San Juan de Río Coco",
+      "lat": 13.54,
+      "lon": -86.17,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "esteli",
+      "dept": "Estelí",
+      "place": "Miraflor",
+      "lat": 13.25,
+      "lon": -86.25,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "boaco",
+      "dept": "Boaco",
+      "place": "Santa Lucía",
+      "lat": 12.53,
+      "lon": -85.71,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "meseta",
+      "dept": "La Meseta",
+      "place": "San Marcos, Carazo",
+      "lat": 11.91,
+      "lon": -86.2,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "caribe-sur",
+      "dept": "Caribe Sur",
+      "place": "Nueva Guinea",
+      "lat": 11.69,
+      "lon": -84.46,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    }
+  ],
+  "avisos": {
+    "source": "INETER",
+    "asOf": "2026-10-26",
+    "headline": "INETER prevé calor y lluvias débiles: transición gradual hacia el final del periodo lluvioso.",
+    "items": [
+      "Máximas de 34 a 36 °C en el Pacífico y de 31 a 34 °C en el resto del país; 28 a 31 °C en las zonas altas de Jinotega y Matagalpa.",
+      "Lluvias ligeras e intermitentes, sobre todo en el Caribe; vientos débiles a moderados de 10 a 25 km/h.",
+      "Según el INETER, es lo típico de finales de octubre e inicios de noviembre; llegarían vientos del norte de fin de año."
+    ],
+    "links": [
+      {
+        "t": "Nuevaya · INETER",
+        "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/"
+      },
+      {
+        "t": "INETER",
+        "url": "https://www.ineter.gob.ni/"
+      }
+    ]
   }
- ],
- "avisos": {
-  "source": "INETER",
-  "asOf": "2026-10-26",
-  "headline": "INETER prevé calor y lluvias débiles: transición gradual hacia el final del periodo lluvioso.",
-  "items": [
-   "Máximas de 34 a 36 °C en el Pacífico y de 31 a 34 °C en el resto del país; 28 a 31 °C en las zonas altas de Jinotega y Matagalpa.",
-   "Lluvias ligeras e intermitentes, sobre todo en el Caribe; vientos débiles a moderados de 10 a 25 km/h.",
-   "Según el INETER, es lo típico de finales de octubre e inicios de noviembre; llegarían vientos del norte de fin de año."
-  ],
-  "links": [
-   {
-    "t": "Nuevaya · INETER",
-    "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/"
-   },
-   {
-    "t": "INETER",
-    "url": "https://www.ineter.gob.ni/"
-   }
-  ]
- }
 }
