@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-02",
+    "asOf": "2026-11-03",
     "base": "USD",
     "rates": {
-      "BOB": 12.102823,
-      "BRL": 5.436971,
-      "COP": 3192.232311,
-      "CRC": 455.428701,
-      "GTQ": 7.655877,
-      "HNL": 26.942164,
-      "MXN": 18.805192,
-      "NIO": 36.861146,
-      "PEN": 3.467246,
-      "VES": 889.5754
+      "BRL": 5.43751,
+      "COP": 3197.305165,
+      "MXN": 18.614044,
+      "GTQ": 7.648702,
+      "HNL": 26.911321,
+      "NIO": 36.810663,
+      "CRC": 454.916623,
+      "VES": 891.1054,
+      "PEN": 3.46461,
+      "BOB": 12.137169
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -78,14 +78,14 @@
       "value": 131.41
     },
     "icestocks": {
-      "asOf": "2026-10-20",
+      "asOf": "2026-11-03",
       "dec": 0,
       "label": "Inventarios certificados ICE",
-      "note": "Mínimo en 27 años: 217.646 (15-sep); robusta en máximo de 1 año",
-      "source": "ICE · Barchart",
+      "note": "Cifra citada por Reuters el 3-nov, cerca del mínimo de 27 años (217.646, mediados de sep)",
+      "source": "ICE · Reuters",
       "unit": "sacos",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html",
-      "value": 234901
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "value": 225068
     },
     "icoBN": {
       "asOf": "2026-09-30",
@@ -108,8 +108,8 @@
       "value": 356.15
     },
     "icoComp": {
-      "asOf": "2026-10-29",
-      "changePct": 0.14,
+      "asOf": "2026-10-30",
+      "changePct": 0.27,
       "dec": 0,
       "label": "Indicador compuesto OIC",
       "source": "OIC · La República",
@@ -139,16 +139,16 @@
     },
     "kc1": {
       "asOf": "2026-11-02",
-      "change": 6.95,
+      "change": 4.9,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Último dato del histórico de Investing del 2-nov (+2,42%); la página de contratos mostraba Dic-26 en 292,10 a las 13:34 (hora de Bogotá), así que puede diferir del liquidado oficial",
+      "note": "Cierre del 2-nov (Investing, histórico); el 3-nov marcaba 295,13 intradía (+1,04%)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "value": 294.15
+      "value": 292.1
     },
     "kc2": {
       "asOf": "2026-11-02",
@@ -201,17 +201,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-02",
-      "change": 41.0,
-      "changePct": 1.28,
+      "asOf": "2026-11-03",
+      "change": 4.0,
+      "changePct": 0.12,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
-      "note": "Cierre del 2-nov; contrato frente enero 2027",
+      "note": "Intradía (3-nov, 06:46 Bogotá); contrato frente enero 2027",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3245.0
+      "value": 3249.0
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -263,5 +263,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-02T19:46:56Z"
+  "updatedAt": "2026-11-03T11:48:01Z"
 }

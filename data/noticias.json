@@ -45,38 +45,6 @@
       "url": "https://www.infobae.com/america/agencias/2026/10/20/exportaciones-no-petroleras-de-ecuador-alcanzan-record-entre-enero-y-agosto-de-2026/"
     },
     {
-      "date": "2026-10-21",
-      "id": "a34",
-      "pais": "México",
-      "scope": "am",
-      "source": "Másnoticias",
-      "summary": "Según recorridos de campo en Teocelo, la estimación visual es de 4,2 a 4,5 millones de sacos, similar a lo reciente. En Coatepec los lotes especiales de más de 86 puntos pagan hasta 4–5 veces el precio convencional.",
-      "tag": "Producción",
-      "title": "Veracruz: el INIFAP anticipa una cosecha con buena carga de fruto",
-      "url": "https://www.masnoticias.mx/en-veracruz-se-espera-una-cosecha-de-cafe-por-arriba-del-promedio/"
-    },
-    {
-      "date": "2026-10-21",
-      "id": "a35",
-      "scope": "mundo",
-      "source": "Barchart · Yahoo Finance",
-      "summary": "Las existencias certificadas de arábica bajaron a 234.901 sacos, cerca del mínimo de 217.646 de septiembre, mientras las de robusta subieron a 6.380 lotes. Minas Gerais recibió 148% de su lluvia media semanal, factor bajista para Brasil.",
-      "tag": "Mercado",
-      "title": "Inventarios ICE divergen: arábica cerca del mínimo de 27 años, robusta en máximo de un año",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/coffee-prices-buffeted-diverging-ice-163157569.html"
-    },
-    {
-      "date": "2026-10-21",
-      "id": "a36",
-      "pais": "México",
-      "scope": "am",
-      "source": "El Financiero",
-      "summary": "Fue la moneda que más se depreció, por el desarme de operaciones de carry trade y el menor diferencial de tasas con EE. UU. Un peso más débil mejora el ingreso en pesos de los exportadores, pero las cotizaciones en dólares no cambian.",
-      "tag": "Divisas",
-      "title": "El peso mexicano cierra en 18,67 por dólar tras caer 1,32% en el día",
-      "url": "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/"
-    },
-    {
       "date": "2026-10-20",
       "id": "a38",
       "pais": "El Salvador",
@@ -97,17 +65,6 @@
       "tag": "Producción",
       "title": "Costa Rica: solo 60 nacionales se han anotado para recoger café",
       "url": "https://www.monumental.co.cr/2026/10/25/icafe-contabiliza-apenas-60-costarricenses-interesados-en-recolectar-cafe-este-ano/"
-    },
-    {
-      "date": "2026-10-24",
-      "id": "a40",
-      "pais": "Brasil",
-      "scope": "am",
-      "source": "Três Pontas Studio live · Cepea",
-      "summary": "Bajó 1,11% el 23 de octubre frente a los R$ 1.619,85 del día anterior. El conilón aparece en R$ 936,73 por saca de 60 kg.",
-      "tag": "Precios",
-      "title": "Brasil: el indicador Cepea del arábica cierra la semana en R$ 1.601,95 por saca",
-      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-semana-em-queda-e-fica-em-r-1-60195/"
     },
     {
       "date": "2026-10-28",
@@ -143,17 +100,6 @@
       "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exportadores-de-cafe-colombiano-piden-al-gobierno-actuar-sobre-fletes-seguridad-y-tramites-portuarios/"
     },
     {
-      "date": "2026-10-22",
-      "id": "a45",
-      "pais": "México",
-      "scope": "am",
-      "source": "Entorno Noticias",
-      "summary": "En la región Córdoba-Huatusco la roya, la antracnosis y la poca floración por falta de calor recortarían la cosecha entre 30% y 40%, y las compras iniciales van de 8 a 11,50 pesos/kg. Ojo: contrasta con el pronóstico de buena carga del INIFAP; confirma volúmenes con tu proveedor.",
-      "tag": "Producción",
-      "title": "Veracruz: arranca la cosecha con compras de 8 a 11,50 pesos por kilo y producción 30–40% menor",
-      "url": "https://entornonoticias.com/arranca-cosecha-en-la-region-cordoba-huatusco-con-precios-de-8-a-11-50-pesos/"
-    },
-    {
       "date": "2026-10-28",
       "id": "a46",
       "scope": "mundo",
@@ -172,17 +118,6 @@
       "tag": "Producción",
       "title": "Vietnam: la cosecha 2026/27 de robusta sería similar a la anterior y El Niño amenaza la 2027/28",
       "url": "https://www.esmmagazine.com/supply-chain/vietnam-coffee-output-forecast-flat-el-nino-threatens-next-crop-324044"
-    },
-    {
-      "date": "2026-10-21",
-      "id": "a48",
-      "pais": "Panamá",
-      "scope": "am",
-      "source": "Forbes Centroamérica",
-      "summary": "Es la primera vez que un país productor es sede del evento. La SCAP estima la producción panameña en unos 200.000 quintales al año, la mitad de especialidad, con Chiriquí como zona de referencia; es una oportunidad para contactar compradores de cafés especiales.",
-      "tag": "Eventos",
-      "title": "Panamá recibe World of Coffee Latinoamérica del 23 al 25 de octubre",
-      "url": "https://forbescentroamerica.com/2026/10/21/world-of-coffee-panama-apunta-a-los-productores-de-cafe-de-centroamerica/"
     },
     {
       "date": "2026-10-21",
@@ -206,16 +141,48 @@
       "url": "https://www.infobae.com/peru/2026/10/26/midagri-peru-vera-estancarse-su-record-historico-de-agroexportaciones-en-2026-y-no-pasara-de-usd15000-millones/"
     },
     {
-      "date": "2026-10-19",
-      "id": "a52",
-      "pais": "Colombia",
+      "id": "a53",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "El arábica rebota 2,7% a US$2,95/lb; la robusta tocó su mínimo desde marzo de 2024",
+      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil."
+    },
+    {
+      "id": "a54",
       "scope": "am",
-      "source": "Infobae · Asoexport",
-      "summary": "Pasaron de 9,80 a 8,45 M de sacos de 60 kg; los exportadores señalan el peso fuerte y el alza de costos laborales. En septiembre los envíos subieron 9 % interanual, a unos 1,17 M de sacos.",
+      "pais": "Guatemala",
       "tag": "Exportaciones",
-      "title": "Colombia: las exportaciones de café caen 13,8 % entre enero y septiembre",
-      "url": "https://www.infobae.com/colombia/2026/10/19/colombia-vendio-menos-cafe-al-exterior-durante-2026-debido-a-la-revaluacion-del-peso-frente-al-dolar-asi-estan-las-preocupantes-cifras/"
+      "date": "2026-11-03",
+      "source": "Prensa Libre · Anacafé",
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
+      "summary": "Se exportaron 4,3 millones de quintales a US$336 en promedio. Para 2026-27 Anacafé recortó la proyección de 4,2 a 3,8 millones de quintales por lluvias irregulares ligadas a El Niño, con precios de US$275–300 por quintal: menos oferta y menor valor."
+    },
+    {
+      "id": "a55",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Precios",
+      "date": "2026-10-29",
+      "source": "La Jornada Veracruz",
+      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/",
+      "title": "Veracruz: productores reciben 8–12 pesos por kilo de cereza frente a 17 que permitiría el mercado",
+      "summary": "Una comisión de precios calcula que las cotizaciones del 24 de octubre permitirían pagar unos 17 pesos por kilo, y denuncia descuentos de compradores que pueden superar US$100 por quintal. Pide reconocer un diferencial de unos US$30 por quintal al café mexicano de exportación."
+    },
+    {
+      "id": "a56",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Precios",
+      "date": "2026-10-30",
+      "source": "Cepea · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
+      "title": "Brasil: el indicador Cepea del arábica cierra octubre en R$ 1.598,37 por saco",
+      "summary": "El indicador subió 0,48% el 30 de octubre tras R$ 1.590,72 el día anterior; en la semana osciló entre R$ 1.590 y R$ 1.627 por saco de 60 kg."
     }
   ],
-  "updatedAt": "2026-11-02T11:55:00Z"
+  "updatedAt": "2026-11-03T11:48:01Z"
 }

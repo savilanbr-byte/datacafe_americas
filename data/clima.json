@@ -18,7 +18,7 @@
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "3 al 9 de noviembre",
+    "period": "4 al 10 de noviembre",
     "url": "https://www.yr.no/"
   },
   "impactos": [
@@ -31,7 +31,7 @@
   "regions": [
     {
       "dept": "México",
-      "p7": 38.4,
+      "p7": 32.0,
       "place": "Tapachula, Chiapas",
       "region": "mexico",
       "tmax": 31,
@@ -39,63 +39,63 @@
     },
     {
       "dept": "Guatemala",
-      "p7": 2.9,
+      "p7": 6.5,
       "place": "Antigua",
       "region": "guatemala",
-      "tmax": 26,
+      "tmax": 25,
       "tmin": 14
     },
     {
       "dept": "Honduras",
-      "p7": 18.1,
+      "p7": 16.7,
       "place": "Marcala, La Paz",
       "region": "honduras",
-      "tmax": 24,
-      "tmin": 16
+      "tmax": 25,
+      "tmin": 15
     },
     {
       "dept": "El Salvador",
-      "p7": 14.0,
+      "p7": 10.4,
       "place": "Santa Ana",
       "region": "el-salvador",
       "tmax": 31,
-      "tmin": 20
+      "tmin": 21
     },
     {
       "dept": "Nicaragua",
-      "p7": 78.8,
+      "p7": 45.7,
       "place": "Matagalpa",
       "region": "nicaragua",
-      "tmax": 26,
+      "tmax": 27,
       "tmin": 20
     },
     {
       "dept": "Costa Rica",
-      "p7": 190.9,
+      "p7": 81.1,
       "place": "San Marcos de Tarrazú",
       "region": "costa-rica",
-      "tmax": 21,
-      "tmin": 17
+      "tmax": 22,
+      "tmin": 16
     },
     {
       "dept": "Panamá",
-      "p7": 109.0,
+      "p7": 121.8,
       "place": "Boquete, Chiriquí",
       "region": "panama",
-      "tmax": 22,
+      "tmax": 23,
       "tmin": 18
     },
     {
       "dept": "Colombia",
-      "p7": 93.8,
+      "p7": 91.9,
       "place": "Chinchiná, Caldas",
       "region": "colombia",
-      "tmax": 23,
-      "tmin": 17
+      "tmax": 24,
+      "tmin": 18
     },
     {
       "dept": "Venezuela",
-      "p7": 34.4,
+      "p7": 28.3,
       "place": "Boconó, Trujillo",
       "region": "venezuela",
       "tmax": 25,
@@ -103,7 +103,7 @@
     },
     {
       "dept": "Ecuador",
-      "p7": 13.0,
+      "p7": 17.8,
       "place": "Loja",
       "region": "ecuador",
       "tmax": 22,
@@ -111,7 +111,7 @@
     },
     {
       "dept": "Perú",
-      "p7": 18.0,
+      "p7": 8.4,
       "place": "Jaén, Cajamarca",
       "region": "peru",
       "tmax": 29,
@@ -119,28 +119,28 @@
     },
     {
       "dept": "Bolivia",
-      "p7": 38.1,
+      "p7": 55.0,
       "place": "Caranavi, La Paz",
       "region": "bolivia",
-      "tmax": 30,
-      "tmin": 20
+      "tmax": 29,
+      "tmin": 19
     },
     {
       "dept": "Brasil",
-      "p7": 36.7,
+      "p7": 17.6,
       "place": "Varginha, Sul de Minas",
       "region": "brasil-arabica",
       "tmax": 26,
-      "tmin": 18
+      "tmin": 17
     },
     {
       "dept": "Brasil",
-      "p7": 27.9,
+      "p7": 43.6,
       "place": "Linhares, Espírito Santo",
       "region": "brasil-conilon",
-      "tmax": 31,
+      "tmax": 30,
       "tmin": 23
     }
   ],
-  "updatedAt": "2026-11-02T11:55:00Z"
+  "updatedAt": "2026-11-03T11:48:01Z"
 }
