@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:50:00Z",
+  "updatedAt": "2026-11-03T11:50:00Z",
   "items": [
     {
       "id": "p11",
@@ -183,16 +183,6 @@
       "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
       "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
       "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
-    },
-    {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-19",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/arabica-coffee-one-month-high-brazil-real-oct-19-2026/",
-      "title": "Arábica sube a máximo de un mes: diciembre cierra en 315,7 ¢/lb",
-      "summary": "El 19-oct el contrato diciembre ganó 3,3 % por cobertura de cortos y existencias certificadas cerca de mínimos de 27 años; el robusta de noviembre cerró en US$3.484/t. Los precios han vuelto a bajar desde entonces."
     }
   ]
 }
