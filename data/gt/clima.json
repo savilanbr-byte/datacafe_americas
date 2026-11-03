@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:50:00Z",
+  "updatedAt": "2026-11-03T11:55:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,21 +23,21 @@
     "period": ""
   },
   "impactos": [
-    "Con El Niño establecido y menos lluvia en Occidente, Altiplano Central y oriente, Anacafé avisa de un posible recorte de 5–15 % en 2026-27 (estimación preliminar: 4,1 M de quintales oro): confirma volúmenes antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen tardes secas y calor en valles de 33–35 °C: buen secado al sol, pero vigila la sobremadurez y la fruta caída.",
+    "Con El Niño establecido, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) enfrentan un noviembre más lluvioso de lo normal en el norte y la Bocacosta: vigila secado, fruta caída y sobremadurez.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración: riesgo para el tamaño de grano y el rendimiento.",
     "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
     "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-10-26",
-    "headline": "Octubre cierra con menos lluvia y El Niño ya establecido",
+    "asOf": "2026-11-02",
+    "headline": "Noviembre: lluvias sobre lo normal, dos frentes fríos y El Niño que persiste",
     "items": [
-      "INSIVUMEH confirmó el 5-oct el establecimiento de El Niño; prevé menos lluvia en general, temperaturas sobre el promedio y mayor intensidad entre septiembre y noviembre, con efectos hasta mediados de 2027.",
-      "Pronóstico del 26 al 30-oct: las lluvias bajan de sur a centro del país, con aguaceros aislados; máximas de 33–35 °C en el Pacífico y los valles de oriente, y de 23–28 °C en el altiplano, con frío de noche.",
-      "La perspectiva de octubre no prevé frentes fríos; podrían aparecer con más frecuencia desde noviembre. Occidente, Altiplano Central y valles de oriente reciben los menores acumulados.",
-      "Pronóstico estacional de INSIVUMEH (27-oct): 16 frentes fríos entre octubre y abril, 2 en noviembre, con mínimas de 10–14 °C en Occidente y Altiplano Central."
+      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual, con 220–600 mm en Caribe, Bocacosta y Petén; riesgo de deslizamientos en el Norte y la Bocacosta.",
+      "Se esperan 2 frentes fríos en noviembre, con mínimas de 7–17 °C en Occidente y Altiplano Central (el primero podría llegar en la primera semana).",
+      "Semana del 2 al 6-nov: menos lluvia de sur a centro del país, con humedad de ambos litorales y lloviznas dispersas; INSIVUMEH prevé 16 frentes fríos en la temporada 2026-27.",
+      "Los modelos internacionales dan 100 % de probabilidad de que El Niño persista en los primeros meses de 2027."
     ],
     "links": [
       {
@@ -45,16 +45,12 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
-        "t": "Pronóstico 26–30 oct",
-        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026"
+        "t": "Perspectiva de noviembre",
+        "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/"
       },
       {
-        "t": "El Niño establecido",
-        "url": "https://www.guatemala.com/noticias/comunidad/fenomeno-el-nino-guatemala-insivumeh-confirma-su-establecimiento.html"
-      },
-      {
-        "t": "Perspectiva de octubre (Infobae)",
-        "url": "https://www.infobae.com/guatemala/2026/10/02/octubre-tendra-menos-lluvias-y-anticipa-la-llegada-de-la-epoca-fria-en-guatemala/"
+        "t": "Pronóstico 2–6 nov",
+        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-2-al-6-de-noviembre-2026"
       },
       {
         "t": "16 frentes fríos (Emisoras Unidas)",

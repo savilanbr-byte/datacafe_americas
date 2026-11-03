@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:50:00Z",
+  "updatedAt": "2026-11-03T11:55:00Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio de referencia Banguat",
@@ -23,7 +23,7 @@
       "asOf": "2026-01-14",
       "source": "Anacafé · República",
       "url": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
-      "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el de 2025-26: de enero a julio de 2026 el promedio bajó cerca de 6 %."
+      "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el promedio de registro oficial de 2025-26; Prensa Libre (3-nov) cita un promedio de US$336 por quintal oro en 2025-26 (−2,3 %), cifra que no es el registro oficial. Esperado 2026-27: US$275–300."
     },
     "expoVol": {
       "label": "Exportación 2025-26 (cierre del año cafetero)",
@@ -49,13 +49,13 @@
     },
     "est": {
       "label": "Estimación cosecha 2026-27",
-      "value": 4.1,
+      "value": 3.8,
       "dec": 1,
       "unit": "M quintales oro",
-      "asOf": "2026-09-16",
+      "asOf": "2026-11-03",
       "source": "Anacafé · Prensa Libre",
-      "url": "https://www.prensalibre.com/economia/exportaciones-de-cafe-crecen-pero-preocupa-deficit-de-lluvia-que-se-reflejaria-en-cosecha-2026-2027/",
-      "note": "Preliminar de agosto. Si sigue el déficit de lluvia, podría bajar entre 5 % y 15 %."
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "note": "Anacafé recortó la proyección de exportación de 4,2 a 3,8 M de quintales por El Niño (nota del 3-nov); antes advirtió que el déficit de lluvia podría restar 5–15 %. Riesgo: floración y llenado del grano."
     },
     "prod": {
       "label": "Producción 2026-27 (USDA)",

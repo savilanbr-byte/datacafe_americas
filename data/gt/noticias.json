@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:50:00Z",
+  "updatedAt": "2026-11-03T11:55:00Z",
   "items": [
     {
       "id": "g7",
@@ -82,6 +82,44 @@
       "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/",
       "title": "INSIVUMEH prevé 16 frentes fríos para la temporada 2026-27",
       "summary": "Habría 2 frentes en noviembre, 4 en diciembre y 4 en enero, con mínimas de 10–14 °C en Occidente y Altiplano Central y picos cercanos a 0 °C. Marcan el fin de la lluvia: ayudan al secado, pero hay que vigilar el frío en las zonas altas durante la cosecha."
+    },
+    {
+      "id": "g11",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-03",
+      "source": "Prensa Libre · Anacafé",
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "title": "Anacafé recorta a 3,8 M de quintales la exportación esperada de 2026-27",
+      "summary": "La proyección bajó de 4,2 a 3,8 M de quintales por El Niño, que podría afectar floración y llenado del grano. El promedio de 2025-26 fue de unos US$336 por quintal oro (−2,3 %) y para 2026-27 se espera entre US$275 y US$300: menos oferta y precios más bajos para negociar."
+    },
+    {
+      "id": "g12",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos",
+        "atitlan",
+        "antigua",
+        "acatenango"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-01",
+      "source": "Canal Antigua · INSIVUMEH",
+      "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/",
+      "title": "INSIVUMEH: noviembre con lluvias sobre lo normal y dos frentes fríos",
+      "summary": "Las lluvias superarían lo habitual, más en Caribe, Bocacosta y Petén (220–600 mm), con mínimas de 7–17 °C en Occidente y Altiplano Central. La humedad dificulta el secado y el transporte en la cosecha temprana; el frío afecta las zonas altas."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "Arábica sube 2,7 % a US$2,95 por libra con inventarios de ICE cerca de mínimos",
+      "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
     }
   ]
 }
