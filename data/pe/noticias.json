@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:48:31Z",
+  "updatedAt": "2026-11-04T11:55:00Z",
   "items": [
     {
       "id": "p11",
@@ -14,20 +14,6 @@
       "url": "https://mundoagropecuario.com/peru-recuperacion-produccion-agropecuaria-agosto-2026/",
       "title": "La producción de café pergamino sube 2,6 % en agosto de 2026",
       "summary": "Con datos de INEI y Midagri, el aumento se atribuye a mejores condiciones climáticas en Amazonas y Cajamarca; de enero a agosto el agro sigue 0,2 % por debajo del año pasado. Tras el +8 % de julio, la oferta de la campaña se recupera pero sigue limitada."
-    },
-    {
-      "id": "p13",
-      "scope": "pe",
-      "regiones": [
-        "piura",
-        "cajamarca"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-27",
-      "source": "RCR Perú",
-      "url": "https://www.rcrperu.com/nino-costero-2026-senamhi-emite-alerta-roja-por-lluvias-extraordinarias-en-tumbes-y-piura-precipitaciones-tambien-afectaran-cajamarca/",
-      "title": "SENAMHI emite alerta roja por lluvias en Tumbes y Piura hasta el 29 de octubre",
-      "summary": "En la sierra de Piura se esperan más de 20–30 mm y en sectores de la sierra de Cajamarca unos 20 mm; SENAMHI advierte que las lluvias podrían ser más frecuentes desde noviembre. Posibles demoras de transporte en el norte cafetero."
     },
     {
       "id": "p7",
@@ -52,19 +38,6 @@
       "url": "https://www.agroperu.pe/el-nino-devida-prepara-acciones-para-proteger-cultivos-de-cafe-cacao-y-platano/",
       "title": "Devida prepara medidas contra El Niño 2026-2027 en cafetales",
       "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
-    },
-    {
-      "id": "p10",
-      "scope": "pe",
-      "regiones": [
-        "cusco"
-      ],
-      "tag": "Eventos",
-      "date": "2026-10-20",
-      "source": "Diario UNO",
-      "url": "https://diariouno.pe/2026/10/20/ficafe-cusco-2026-el-cafe-peruano-conquistara-el-corazon-del-cusco-y-proyectara-su-riqueza-al-mundo/",
-      "title": "FICAFÉ Cusco 2026 será del 2 al 6 de noviembre en la Plaza de Armas",
-      "summary": "La décima feria de cafés especiales espera unos 50.000 visitantes y unos 400 stands, con productores de 17 regiones, compradores nacionales e internacionales y rondas de negocios. Es una oportunidad para contactar oferta de La Convención y otras zonas antes de Expocafé Perú."
     },
     {
       "id": "n8",
@@ -150,19 +123,6 @@
       "summary": "MIDAGRI lleva 240 mil de unos 400 mil polígonos (60 %). Con el EUDR vigente desde enero de 2027, cooperativas piden postergar las sanciones a 2028; para comprar con destino UE conviene exigir geolocalización."
     },
     {
-      "id": "p18",
-      "scope": "pe",
-      "regiones": [
-        "amazonas"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-10-27",
-      "source": "Agraria.pe",
-      "url": "https://www.agraria.pe/noticias/amazonas-cientificos-identifican-hongos-con-potencial-para-c-43355",
-      "title": "Científicos de Amazonas identifican tres hongos con potencial contra la roya",
-      "summary": "La UNTRM halló Akanthomyces uredinophilus, Flavocillium subprimulinum y Ovicillium attenuatum asociados a la roya; en pruebas controladas colonizan sus esporas. Aún es una etapa temprana, sin pruebas en campo."
-    },
-    {
       "id": "p19",
       "scope": "pe",
       "regiones": [
@@ -183,6 +143,35 @@
       "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
       "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
       "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
+    },
+    {
+      "id": "p20",
+      "scope": "pe",
+      "regiones": [
+        "cusco"
+      ],
+      "tag": "Eventos",
+      "date": "2026-11-03",
+      "source": "Agro Perú (Midagri)",
+      "url": "https://www.agroperu.pe/cusco-midagri-inaugura-ficafe-2026-con-productores-de-17-regiones-y-compradores-internacionales/",
+      "title": "Midagri inaugura Ficafé 2026 en Cusco con 25 compradores internacionales",
+      "summary": "La décima feria de cafés especiales corre del 2 al 6 de noviembre en la Plaza de Armas del Cusco, con productores de 17 regiones y una proyección de negocios superior a S/90 millones. Es una ventana para contactar cooperativas de Cusco, Amazonas, Junín, Cajamarca y el VRAEM antes de Expocafé."
+    },
+    {
+      "id": "p21",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "cusco",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-03",
+      "source": "Infobae · SENAMHI",
+      "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/",
+      "title": "SENAMHI declara alerta roja por lluvias del 4 al 5 de noviembre en 13 departamentos",
+      "summary": "El aviso incluye Piura, Cajamarca, Cusco y Ayacucho, con hasta unos 29 mm diarios en la sierra norte y 55 mm en la costa norte; el 6 baja a naranja. Puede retrasar el acopio y los despachos hacia Paita."
     }
   ]
 }
