@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-04T11:55:00Z",
+  "updatedAt": "2026-11-04T19:47:17Z",
   "items": [
+    {
+      "id": "p22",
+      "scope": "pe",
+      "regiones": [
+        "cusco",
+        "huanuco",
+        "junin",
+        "pasco",
+        "ayacucho",
+        "san-martin",
+        "puno",
+        "amazonas"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-02",
+      "source": "Agro Perú (Devida)",
+      "url": "https://www.agroperu.pe/cafetaleros-del-desarrollo-alternativo-participan-desde-hoy-en-la-ficafe-2026/",
+      "title": "16 organizaciones cafetaleras de zonas de desarrollo alternativo llegan a Ficafé 2026",
+      "summary": "En Cusco, 30 muestras tostadas se catan ante 30 compradores internacionales con PromPerú; de 82 participantes, 40 productores pasan a la final de Taza de Excelencia Perú 2026, con subasta internacional el 6 de noviembre. Es una vía para contactar cooperativas de Huánuco, Junín, Pasco, Ayacucho, San Martín y Puno."
+    },
     {
       "id": "p11",
       "scope": "pe",
