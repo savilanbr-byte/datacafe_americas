@@ -1,6 +1,17 @@
 {
- "updatedAt": "2026-11-03T19:50:00Z",
+ "updatedAt": "2026-11-04T11:50:00Z",
  "items": [
+  {
+   "id": "n19",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Producción",
+   "date": "2026-11-03",
+   "source": "Infobae · Banco Mundial",
+   "url": "https://www.infobae.com/el-salvador/2026/11/04/el-banco-mundial-preve-que-los-precios-de-los-productos-basicos-aumenten-23-en-una-centroamerica-debilitada-por-la-sequia/",
+   "title": "El ICAFE recorta entre 10 % y 15 % sus estimaciones de cosecha por lluvias irregulares y calor",
+   "summary": "Según un reporte regional citado por Infobae, las lluvias irregulares demoraron unos 30 días la fertilización en varias zonas, con efecto en peso y calidad del grano de exportación. Para comprar, anticipa menos volumen disponible y posible variabilidad de calidad."
+  },
   {
    "id": "n1",
    "scope": "cr",
