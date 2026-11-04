@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:55:00Z",
+  "updatedAt": "2026-11-04T11:55:00Z",
   "series": {
     "tc": {
       "label": "Dólar en reales",
@@ -569,6 +569,10 @@
         [
           "2026-10-30",
           5.446
+        ],
+        [
+          "2026-11-03",
+          5.4872
         ]
       ],
       "note": "Hasta el 15-oct: tipo de referencia del BCE (Frankfurter). Desde el 16-oct: cierre del dólar comercial.",
@@ -647,6 +651,10 @@
         [
           "2026-10-30",
           1598.37
+        ],
+        [
+          "2026-11-03",
+          1611.06
         ]
       ],
       "note": "Indicador diario; la serie arranca el 13-oct-2026 y suma un dato por actualización.",
@@ -721,6 +729,10 @@
         [
           "2026-10-30",
           972.44
+        ],
+        [
+          "2026-11-03",
+          975.32
         ]
       ],
       "note": "Indicador diario; la serie arranca el 9-oct-2026.",
@@ -869,6 +881,10 @@
         [
           "2026-11-02",
           294.15
+        ],
+        [
+          "2026-11-03",
+          284.05
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",

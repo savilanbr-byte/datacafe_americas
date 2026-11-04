@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:55:00Z",
+  "updatedAt": "2026-11-04T11:55:00Z",
   "items": [
     {
       "id": "n8",
@@ -83,16 +83,6 @@
       "summary": "El contrato de diciembre perdió 22 centavos desde el 23-oct; el robusta de Londres (nov) cerró en US$3.177/t (−23). El clima favorable en Brasil al iniciar las lluvias y la cosecha de Vietnam mantienen la tendencia técnica negativa."
     },
     {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Industria",
-      "date": "2026-10-24",
-      "source": "World Coffee Index",
-      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-10-24/",
-      "title": "Nestlé supera expectativas y Smucker aplaza rebajas de precio del café",
-      "summary": "Las ventas orgánicas de Nestlé crecieron 4,0 % en el tercer trimestre (esperado 3,42 %), con café al alza en Norteamérica; JM Smucker pospuso recortes de precio por la dirección de los futuros. Señal de demanda estable de los tostadores."
-    },
-    {
       "id": "b13",
       "scope": "br",
       "regiones": [
@@ -147,16 +137,6 @@
       "summary": "Tras la reelección de Lula, la salida de capital extranjero empujó la divisa (+1,09 % el viernes) y el Ibovespa cayó 18 % en la semana. Un real débil encarece el café en dólares menos de lo que sube en reales: favorece al comprador con divisas, pero anima al productor a retener o vender según la volatilidad."
     },
     {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-24",
-      "source": "Inheritance Coffee",
-      "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
-      "title": "El robusta de Londres cae 5,45 % en la semana con inventarios certificados en máximo de un año",
-      "summary": "El contrato de noviembre cerró en US$3.228 por tonelada el 23-oct y las existencias certificadas llegaron a 6.488 lotes el 22-oct (máximo en unos 13 meses). El arábica certificado en Nueva York sigue bajo, en 234.433 sacos."
-    },
-    {
       "id": "b17",
       "scope": "br",
       "regiones": [
@@ -195,6 +175,40 @@
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
       "title": "El dólar sube más de 1 % y roza R$5,51 por dudas fiscales y la encuesta Focus",
       "summary": "El dólar comercial cotizaba a R$5,506 (+1,14 %) a las 14:05 y la PTAX de venta fue R$5,4935, frente a R$5,4212 del 30-oct. Un real más débil apoya los precios en reales del café y puede frenar las ventas del productor; el cierre oficial aún no se publica."
+    },
+    {
+      "id": "b19",
+      "scope": "br",
+      "regiones": [
+        "mogiana",
+        "norte-pioneiro"
+      ],
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
+      "title": "El real débil presiona el arábica y se esperan más ventas brasileñas",
+      "summary": "Con el dólar cerca de R$5,49, el arábica de Nueva York cayó 2,79 % a 283,95 ¢/lb, porque un real débil estimula las ventas del productor. Un analista reporta problemas de cosecha en Piraju y Garça (São Paulo) y en el norte de Paraná, y ve US$2,80–3,00/lb como precio atractivo para vender por etapas."
+    },
+    {
+      "id": "n19",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Notícias Agrícolas (Reuters)",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430737-exportacoes-de-cafe-do-vietna-aumentam-188-no-ano-ate-outubro.html",
+      "title": "Vietnam exporta 18,8 % más café en enero–octubre",
+      "summary": "Vietnam envió 1,569 M de toneladas entre enero y octubre (+18,8 %), con ingresos de US$7.080 M (−5,2 %); solo en octubre fueron 114.000 t (+60 %). Mayor oferta de robusta vietnamita pesa sobre el conilon brasileño."
+    },
+    {
+      "id": "n20",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
+      "title": "Robusta de Londres cierra en US$3.210/t (−0,96 %) con stocks de arábica muy bajos",
+      "summary": "El robusta de enero cerró en US$3.210/t, más estable que el arábica. Un trader estima los stocks certificados de arábica en ~220.000 sacos frente a unos 800.000 del promedio de cinco años."
     }
   ]
 }
