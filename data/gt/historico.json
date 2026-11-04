@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T19:47:10Z",
+  "updatedAt": "2026-11-04T11:48:10Z",
   "series": {
     "kc1": {
       "points": [
@@ -139,6 +139,10 @@
         [
           "2026-11-02",
           294.15
+        ],
+        [
+          "2026-11-03",
+          284.05
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -325,6 +329,10 @@
         [
           "2026-10-30",
           7.6419
+        ],
+        [
+          "2026-11-03",
+          7.6362
         ]
       ],
       "note": "Tipo de cambio de referencia del Banguat. La serie arranca el 26-oct-2026 y suma un dato por actualización.",

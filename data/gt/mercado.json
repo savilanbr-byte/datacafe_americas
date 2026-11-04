@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-03T19:47:10Z",
+  "updatedAt": "2026-11-04T11:48:10Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio de referencia Banguat",
-      "value": 7.6419,
+      "value": 7.6362,
       "dec": 4,
       "unit": "GTQ/USD",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-03",
       "source": "Banguat · Living in Guatemala",
       "url": "https://livinginguatemala.com/es/tipo-de-cambio/",
       "liveUrl": "https://www.banguat.gob.gt/",
       "liveT": "Banguat",
       "note": "En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
-      "change": -0.0019
+      "change": -0.0057
     },
     "expo": {
       "label": "Precio promedio de registro 2024-25",
@@ -23,7 +23,7 @@
       "asOf": "2026-01-14",
       "source": "Anacafé · República",
       "url": "https://republica.com/economia/cafe-de-guatemala-cierra-con-precio-historico-usd-344-por-quintal-oro-20261141240",
-      "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el promedio de registro oficial de 2025-26; Prensa Libre (3-nov) cita un promedio de US$336 por quintal oro en 2025-26 (−2,3 %), cifra que no es el registro oficial. Esperado 2026-27: US$275–300."
+      "note": "Récord. 2023-24: US$235,37. Anacafé aún no publica el promedio de registro oficial de 2025-26; Prensa Libre (3-nov) cita un promedio de US$336 por quintal oro en 2025-26 (−2,3 %), cifra que no es el registro oficial. Esperado 2026-27: US$275–300. Prensa Libre (3-nov) cita un promedio de US$336 para 2025-26, sin precisar que sea el de registro de Anacafé; no se usa como referencia hasta que Anacafé lo publique."
     },
     "expoVol": {
       "label": "Exportación 2025-26 (cierre del año cafetero)",
