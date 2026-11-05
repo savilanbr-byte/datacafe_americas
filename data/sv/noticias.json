@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:50:00Z",
+  "updatedAt": "2026-11-05T19:47:21Z",
   "items": [
     {
       "id": "s1",
@@ -74,16 +74,6 @@
       "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
     },
     {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-24",
-      "source": "Inheritance Coffee",
-      "url": "https://inheritancecoffee.com/blogs/news/robusta-coffee-price-fall-certified-stocks-october-2026",
-      "title": "La robusta cae 5,45 % en la semana por inventarios certificados en máximos de 13 meses",
-      "summary": "El contrato de noviembre en Londres cerró en US$3.228 por tonelada el 23 de octubre; el arábica de diciembre en Nueva York, en 307,45 ¢/lb. Las lluvias de septiembre en Brasil y el buen clima en Vietnam pesan sobre los precios, lo que puede dar margen para negociar diferenciales."
-    },
-    {
       "id": "s11",
       "scope": "sv",
       "regiones": [],
@@ -124,6 +114,16 @@
       "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
       "title": "El arábica rebota 2,7 % a US$2,95/lb y la robusta toca mínimos de 2024",
       "summary": "El arábica de ICE sube a US$2,95 por libra por temor a poca oferta cercana: los inventarios certificados (225.068 sacos) siguen cerca de mínimos de 27 años. La robusta llegó a US$3.140/t, su nivel más bajo desde marzo de 2024, antes de repuntar a US$3.286."
+    },
+    {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Admisi",
+      "url": "https://admisi.com/us-cotton-sales-gain-ground",
+      "title": "El arábica se mantiene cerca de mínimos; Sucafina ve caer 9,3 % la oferta de Centroamérica y México",
+      "summary": "Los inventarios certificados de ICE siguen en 220.379 sacos, y Rabobank proyecta exportaciones brasileñas de 42–45 millones de sacos en 2026/27. Sucafina estima que Centroamérica y México producirán menos de 18 millones de sacos (−9,3 %), un respaldo para los precios del café centroamericano."
     }
   ]
 }
