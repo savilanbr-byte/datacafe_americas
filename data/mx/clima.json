@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:46:00Z",
+  "updatedAt": "2026-11-05T11:55:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,7 +24,7 @@
   },
   "impactos": [
     "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
-    "Las lluvias del frente frío 4 (hasta 50 mm el miércoles 4 en el sur de Chiapas, Oaxaca y Guerrero) dificultan el secado del pergamino y el transporte desde fincas; conviene verificar humedad al comprar.",
+    "Las lluvias del frente frío 4 (25 a 50 mm hoy en el sur de Chiapas y Veracruz, Oaxaca y Guerrero) dificultan el secado del pergamino y el transporte desde fincas; conviene verificar humedad al comprar.",
     "En las Altas Montañas de Veracruz la cereza se paga entre 7 y 12 pesos y los productores temen perder hasta 40 % por sequía, calor y lluvias; los lotes buenos se venden pronto.",
     "Las mañanas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en la cosecha que arranca en Chiapas y Oaxaca.",
     "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
@@ -133,17 +133,17 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-01",
-    "headline": "El frente frío 4 traerá lluvias de lunes a jueves al sur y sureste, con lluvias fuertes el miércoles 4 en Chiapas, Oaxaca y Guerrero.",
+    "asOf": "2026-11-05",
+    "headline": "El frente frío 4 deja hoy lluvias fuertes (25 a 50 mm) en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero.",
     "items": [
-      "Chubascos de 5 a 25 mm en Guerrero, Oaxaca, Chiapas y Veracruz el 2 y 3 de noviembre; lluvias de 25 a 50 mm el miércoles 4 en el sur de Chiapas, suroeste de Oaxaca y costa de Guerrero.",
-      "Rachas de 40 a 60 km/h en Oaxaca (viento del norte en el Istmo) y de 30 a 50 km/h en Chiapas el lunes 2.",
-      "Madrugadas de 0 a 5 °C en zonas montañosas de Oaxaca, Veracruz y Puebla el 2, 4 y 5 de noviembre."
+      "Chubascos de 5 a 25 mm en Puebla; lluvias aisladas en Hidalgo.",
+      "Rachas de 30 a 50 km/h en Oaxaca (Istmo).",
+      "Madrugadas de 0 a 5 °C en montañas de Puebla; calor de 35 a 40 °C en Oaxaca y el oeste de Chiapas."
     ],
     "links": [
       {
-        "t": "Proceso · pronóstico SMN 1-nov",
-        "url": "https://www.proceso.com.mx/nacional/2026/11/1/se-desplazara-el-frente-frio-4-por-el-pais-y-provocara-lluvias-de-lunes-a-jueves-en-estas-entidades-382963.html"
+        "t": "UnoTV · pronóstico SMN 5-nov",
+        "url": "https://www.unotv.com/clima/frente-frio-trae-5-estados-con-lluvias-fuertes-este-jueves/"
       },
       {
         "t": "SMN · CONAGUA",

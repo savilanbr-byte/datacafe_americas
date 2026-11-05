@@ -1,6 +1,47 @@
 {
-  "updatedAt": "2026-11-04T19:46:00Z",
+  "updatedAt": "2026-11-05T11:55:00Z",
   "items": [
+    {
+      "id": "m18",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos",
+        "oaxaca",
+        "guerrero",
+        "veracruz",
+        "robusta-golfo",
+        "puebla"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-05",
+      "source": "UnoTV",
+      "url": "https://www.unotv.com/clima/frente-frio-trae-5-estados-con-lluvias-fuertes-este-jueves/",
+      "title": "El frente frío 4 deja hoy lluvias fuertes en el sur de Chiapas, Veracruz, Oaxaca y Guerrero",
+      "summary": "El SMN prevé 25 a 50 mm en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero, chubascos de 5 a 25 mm en Puebla y madrugadas de 0 a 5 °C en montañas poblanas. Dificulta el secado de pergamino y el traslado de cereza recién cortada."
+    },
+    {
+      "id": "n14",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "CocoaIntel",
+      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
+      "title": "Arábica diciembre cierra en 292,10 ¢/lb el 2 de noviembre y los inventarios certificados vuelven a bajar",
+      "summary": "El arábica de diciembre subió 4,90 ¢ y el robusta de enero cerró en US$3.241/t (+37), con las existencias certificadas de ICE otra vez a la baja. Aun así el arábica queda cerca de 5 % bajo su cierre del 23 de octubre."
+    },
+    {
+      "id": "m17",
+      "scope": "mx",
+      "regiones": [],
+      "tag": "Mercado",
+      "date": "2026-10-30",
+      "source": "Imagen Agropecuaria",
+      "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
+      "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
+      "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
+    },
     {
       "id": "m14",
       "scope": "mx",
@@ -28,30 +69,17 @@
       "summary": "Antes del corte fuerte de noviembre en Veracruz, los compradores estiman 16–17 MXN/kg de cereza; la CNOC dice que es poco ante los insumos, que el peso fuerte resta unos 1.300 MXN por quintal de pergamino y que las importaciones de robusta brasileño subieron casi 80 % en septiembre. Para comprar: el pergamino mexicano se paga sobre bolsa, con descuentos de intermediarios de unos US$100 por quintal."
     },
     {
-      "id": "m6",
+      "id": "m15",
       "scope": "mx",
       "regiones": [
         "veracruz"
       ],
       "tag": "Precios",
-      "date": "2026-10-21",
-      "source": "Córdoba a Diario",
-      "url": "https://www.cordobaadiario.com/precio-del-cafe-cereza-alcanza-los-12-pesos-por-kilo/",
-      "title": "La cereza llega a 12 pesos por kilo en las Altas Montañas de Veracruz",
-      "summary": "Totutla paga 12 pesos, Manuel González 11,60, Tenampa 11, y Monte Blanco y Chocamán 8. Los productores citan el contrato de referencia en US$316,65 por quintal; el precio varía según el centro de acopio."
-    },
-    {
-      "id": "m7",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-22",
-      "source": "La Jornada Veracruz",
-      "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
-      "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
-      "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
+      "date": "2026-10-28",
+      "source": "La Opinión de Poza Rica",
+      "url": "https://laopinion.net/cafetaleros-de-veracruz-denuncian-pagos-de-hasta-8-pesos-por-kilo-y-exigen-frenar-importaciones/",
+      "title": "Cafetaleros de Veracruz denuncian pagos de 8–12 pesos por kilo y piden frenar importaciones",
+      "summary": "La cereza temprana se paga a 8–12 MXN/kg; las organizaciones recortaron su estimado del corte fuerte de 17 a unos 16 MXN/kg. Señalan que Brasil envió a México unos 179.500 sacos en septiembre (+79 % anual) y que el diferencial de unos US$30/quintal no llega íntegro al productor."
     },
     {
       "id": "m10",
@@ -71,6 +99,39 @@
       "summary": "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm; rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec. Influye la tormenta tropical Vance en el Pacífico."
     },
     {
+      "id": "n8",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-10-26",
+      "source": "Trading Economics · Cecafé",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
+      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+    },
+    {
+      "date": "2026-10-26",
+      "id": "n11",
+      "scope": "mundo",
+      "source": "Istoé Dinheiro",
+      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la base del precio del café mexicano.",
+      "tag": "Divisas",
+      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+    },
+    {
+      "id": "m7",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-22",
+      "source": "La Jornada Veracruz",
+      "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
+      "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
+      "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
+    },
+    {
       "id": "m11",
       "scope": "mx",
       "regiones": [
@@ -86,91 +147,6 @@
       "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/",
       "title": "SMN alerta por lluvias de 50 a 75 mm en Veracruz, Oaxaca y Chiapas",
       "summary": "El frente frío 3 dejó lluvias puntuales muy fuertes en el norte y sur de Veracruz, el norte de Oaxaca y el sur de Chiapas, y de 25 a 50 mm en Puebla y la costa de Guerrero. Puede afectar el secado y el transporte del café recién cosechado."
-    },
-    {
-      "id": "n8",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-    },
-    {
-      "date": "2026-10-21",
-      "id": "n9",
-      "scope": "mundo",
-      "source": "ADM Investor Services",
-      "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
-      "tag": "Mercado",
-      "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-      "url": "https://admis.com/cotton-faces-new-rain-risk"
-    },
-    {
-      "date": "2026-10-26",
-      "id": "n11",
-      "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la base del precio del café mexicano.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
-      "id": "m15",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "La Opinión de Poza Rica",
-      "url": "https://laopinion.net/cafetaleros-de-veracruz-denuncian-pagos-de-hasta-8-pesos-por-kilo-y-exigen-frenar-importaciones/",
-      "title": "Cafetaleros de Veracruz denuncian pagos de 8–12 pesos por kilo y piden frenar importaciones",
-      "summary": "La cereza temprana se paga a 8–12 MXN/kg; las organizaciones recortaron su estimado del corte fuerte de 17 a unos 16 MXN/kg. Señalan que Brasil envió a México unos 179.500 sacos en septiembre (+79 % anual) y que el diferencial de unos US$30/quintal no llega íntegro al productor."
-    },
-    {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-29",
-      "source": "StoneX",
-      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-10-29-26/",
-      "title": "Arabica diciembre cierra en 285,45 ¢/lb y robusta enero en US$3.176/t",
-      "summary": "La venta se concentró en el contrato de diciembre de NY (−1,30 ¢) por liquidación de largos, mientras marzo subió 0,55 ¢. El robusta de Londres cayó US$23 tras toparse con ofertas sobre US$3.220."
-    },
-    {
-      "id": "m16",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos",
-        "oaxaca",
-        "guerrero",
-        "veracruz",
-        "puebla",
-        "robusta-chiapas",
-        "robusta-golfo"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-01",
-      "source": "Proceso",
-      "url": "https://www.proceso.com.mx/nacional/2026/11/1/se-desplazara-el-frente-frio-4-por-el-pais-y-provocara-lluvias-de-lunes-a-jueves-en-estas-entidades-382963.html",
-      "title": "El frente frío 4 traerá lluvias de lunes a jueves al sur y al Golfo",
-      "summary": "El SMN prevé chubascos de 5 a 25 mm en Guerrero, Oaxaca, Chiapas y Veracruz, y lluvias fuertes de 25 a 50 mm el miércoles 4 en el sur de Chiapas, el suroeste de Oaxaca y la costa de Guerrero; en sierras de Veracruz, Puebla y Oaxaca habrá madrugadas de 0 a 5 °C. Complica el secado del pergamino y el traslado de lotes recién cortados."
-    },
-    {
-      "id": "m17",
-      "scope": "mx",
-      "regiones": [],
-      "tag": "Mercado",
-      "date": "2026-10-30",
-      "source": "Imagen Agropecuaria",
-      "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
-      "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
-      "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
     }
   ]
 }
