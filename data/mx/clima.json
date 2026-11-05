@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:55:00Z",
+  "updatedAt": "2026-11-05T19:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -134,15 +134,15 @@
   "avisos": {
     "source": "SMN · CONAGUA",
     "asOf": "2026-11-05",
-    "headline": "El frente frío 4 deja hoy lluvias fuertes (25 a 50 mm) en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero.",
+    "headline": "El frente frío 4 y una vaguada dejan hoy lluvias fuertes en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero.",
     "items": [
-      "Chubascos de 5 a 25 mm en Puebla; lluvias aisladas en Hidalgo.",
-      "Rachas de 30 a 50 km/h en Oaxaca (Istmo).",
-      "Madrugadas de 0 a 5 °C en montañas de Puebla; calor de 35 a 40 °C en Oaxaca y el oeste de Chiapas."
+      "Lluvias de 25 a 50 mm en el sur de Chiapas y Veracruz, suroeste de Oaxaca y sureste de Guerrero; chubascos de 5 a 25 mm en Puebla.",
+      "Mínimas de 0 a 5 °C en montañas de Puebla; máximas de 35 a 40 °C en Oaxaca y Chiapas.",
+      "Rachas de 30 a 50 km/h en Oaxaca."
     ],
     "links": [
       {
-        "t": "UnoTV · pronóstico SMN 5-nov",
+        "t": "UnoTV · pronóstico SMN del 5-nov",
         "url": "https://www.unotv.com/clima/frente-frio-trae-5-estados-con-lluvias-fuertes-este-jueves/"
       },
       {
