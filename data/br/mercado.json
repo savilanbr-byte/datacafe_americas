@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-04T19:46:37Z",
+  "updatedAt": "2026-11-05T11:55:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.4872,
+      "value": 5.451,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": 0.0412,
-      "changePct": 0.76,
+      "change": -0.0353,
+      "changePct": -0.64,
       "chgDec": 4,
-      "asOf": "2026-11-03",
-      "source": "Agrolink",
-      "url": "https://www.agrolink.com.br/noticias/ibovespa-cai-1-42--e-dolar-fecha-a-r--5-48-nesta-terca-feira_520535.html",
+      "asOf": "2026-11-04",
+      "source": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-r-545-apos-eleicoes-nos-eua-e-antes-do-copom",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
       "liveT": "Banco Central",
-      "note": "El dólar cerró en R$5,4872 el 3-nov, su nivel más alto desde el 30-dic-2025, con el Ibovespa −1,42 % por el deterioro de las expectativas internas antes de la decisión del Copom."
+      "note": "El dólar cerró en R$5,451 el 4-nov (−0,64 %) por el debilitamiento global de la divisa tras la victoria demócrata en las elecciones legislativas de EE. UU., antes de la decisión del Copom."
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
@@ -24,37 +24,37 @@
       "asOf": "2026-11-03",
       "source": "BCB · InfoMoney",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "note": "PTAX de venta del 3-nov (BCB), +1,3 % frente a los R$5,4212 del 30-oct. El dólar comercial de hoy aún no cierra (cotizaba cerca de R$5,50)."
+      "note": "PTAX de venta del 3-nov (BCB), +1,3 % frente a los R$5,4212 del 30-oct. No se pudo confirmar la PTAX del 4-nov."
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1611.06,
+      "value": 1600.77,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": 0.79,
-      "asOf": "2026-11-03",
-      "fx": 5.4872,
-      "fxSrc": "dólar comercial del 3-nov (cierre)",
+      "changePct": -0.64,
+      "asOf": "2026-11-04",
+      "fx": 5.451,
+      "fxSrc": "dólar comercial del 4-nov (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Subió 0,79 % el 3-nov tras +0,48 % el 30-oct y −0,20 % el 29."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Subió 0,79 % el 3-nov y cayó 0,64 % el 4-nov; en octubre el indicador osciló con fuerza entre las lluvias favorables a la florada y la preocupación por El Niño."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 975.32,
+      "value": 972.99,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": 0.3,
-      "asOf": "2026-11-03",
-      "fx": 5.4872,
-      "fxSrc": "dólar comercial del 3-nov (cierre)",
+      "changePct": -0.24,
+      "asOf": "2026-11-04",
+      "fx": 5.451,
+      "fxSrc": "dólar comercial del 4-nov (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 0,30 % el 3-nov tras +0,72 % el 30-oct y +0,56 % el 29."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Cayó 0,24 % el 4-nov tras +0,30 % el 3-nov y +0,72 % el 30-oct."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",

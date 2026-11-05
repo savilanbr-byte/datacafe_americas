@@ -1,27 +1,6 @@
 {
-  "updatedAt": "2026-11-04T19:46:37Z",
+  "updatedAt": "2026-11-05T11:55:00Z",
   "items": [
-    {
-      "id": "n8",
-      "scope": "br",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Cecafé · Trading Economics",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacas hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña disponible en el mercado presiona al arábica y respalda las compras de café verde.",
-      "regiones": []
-    },
-    {
-      "date": "2026-10-27",
-      "id": "n9",
-      "scope": "mundo",
-      "source": "ADM Investor Services",
-      "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15 de septiembre (el mínimo de 27 años fue 217.646). La debilidad del real presiona a exportadores y productores brasileños a vender futuros como cobertura.",
-      "tag": "Mercado",
-      "title": "Inventarios certificados de arábica bajan a 225.610 sacos",
-      "url": "https://www.admis.com/coffee-futures-extend-selloff/"
-    },
     {
       "id": "b7",
       "scope": "br",
@@ -34,16 +13,6 @@
       "url": "https://www.otempo.com.br/agro/2026/10/28/cotacoes-do-agro-em-minas-28-10-2026",
       "title": "El café baja 2,01 % en Minas, pausa en la recuperación del último mes",
       "summary": "La saca de 60 kg se cotizó entre R$1.575 y R$1.750 (Guaxupé) en las cinco plazas de Minas; en el mes sube 6,84 %, pero en el año aún cae 23,35 %."
-    },
-    {
-      "id": "n14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-28",
-      "source": "Reuters · ESM Magazine",
-      "url": "https://esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693",
-      "title": "El arábica cae 2,4 % a US$2,9375/lb por el real débil y el clima favorable en Brasil",
-      "summary": "Los futuros de ICE acumulan dos caídas seguidas mientras el tiempo húmedo en Brasil alimenta la expectativa de una cosecha récord; el robusta subió 0,6 % a US$3.220/t con el inicio de la cosecha en Vietnam y mayores inventarios."
     },
     {
       "id": "b8",
@@ -156,16 +125,6 @@
       "summary": "El INMET espera precipitaciones reducidas en Minas Gerais y Espírito Santo y desvíos térmicos de hasta +2 °C en el Sudeste (centro de Minas) y el oeste de Bahia; São Paulo sería la excepción, con tormentas. Es el mes clave del cuajado (pegamento) de la safra 2027: calor y poca agua aumentan el riesgo de caída de flores y chumbinhos."
     },
     {
-      "id": "n18",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-02",
-      "source": "Trading Economics",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "El arábica rebota sobre US$2,90/lb tras tocar mínimos de un mes",
-      "summary": "El arábica de ICE volvió a superar los US$2,90 por libra tras los mínimos de fines de octubre; los inventarios certificados (225.068 sacos al 29-oct) siguen cerca de mínimos de 27 años y el real débil presiona a la baja. Para comprar en Brasil, el mercado mira la próxima cosecha y el clima por El Niño."
-    },
-    {
       "id": "b18",
       "scope": "br",
       "regiones": [],
@@ -209,6 +168,52 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
       "title": "Robusta de Londres cierra en US$3.210/t (−0,96 %) con stocks de arábica muy bajos",
       "summary": "El robusta de enero cerró en US$3.210/t, más estable que el arábica. Un trader estima los stocks certificados de arábica en ~220.000 sacos frente a unos 800.000 del promedio de cinco años."
+    },
+    {
+      "id": "b20",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-04",
+      "source": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-r-545-apos-eleicoes-nos-eua-e-antes-do-copom",
+      "title": "El dólar cae a R$5,45 tras las elecciones en EE. UU. y antes del Copom",
+      "summary": "La divisa cerró en R$5,451 (−0,64 %) con el dólar global más débil tras la victoria demócrata en EE. UU.; las dudas fiscales limitaron la baja. Un real algo más fuerte resta un poco de apoyo al precio interno del café, que seguía sostenido por el dólar alto."
+    },
+    {
+      "id": "b21",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "mogiana"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-05",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430855-cafe-cepea-precos-internos-e-externos-do-arabica-oscilam-com-forca.html",
+      "title": "CEPEA: el arábica osciló con fuerza en octubre, con precios internos casi planos al cierre",
+      "summary": "Las lluvias que favorecieron la florada 2027/28 y el ritmo ágil de embarques presionaron a la baja, mientras El Niño, la menor oferta colombiana y la lenta reposición de stocks certificados en ICE y el dólar alto empujaron al alza. El indicador interno cerró octubre prácticamente estable."
+    },
+    {
+      "id": "n21",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-04",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430839-cafe-fecha-abaixo-dos-280-cents-em-nova-york-nesta-4-feira-com-perspectiva-de-exportacoes-brasileiras-maiores-robusta-sobe-em-londres.html",
+      "title": "El arábica cierra bajo 280 centavos en Nueva York; el robusta sube en Londres",
+      "summary": "El contrato diciembre cerró en 279,75 ¢/lb (−1,48 %, −4,23 % en dos sesiones) por la expectativa de mayores exportaciones brasileñas; el robusta enero subió a US$3.228/t (+0,56 %). Los stocks certificados de arábica rondan 220.000 sacos, cerca de mínimos de casi tres décadas."
+    },
+    {
+      "id": "n22",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-04",
+      "source": "Notícias Agrícolas · Reuters",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html",
+      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026/27",
+      "summary": "La producción quedaría bajo 18 millones de sacas por anomalías climáticas, el año bajo del ciclo bienal y falta de lluvia; Honduras y México caen más. Menos oferta de lavados centroamericanos refuerza el papel de Brasil como proveedor."
     }
   ]
 }
