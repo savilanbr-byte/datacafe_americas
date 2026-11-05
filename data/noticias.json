@@ -12,25 +12,14 @@
       "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/"
     },
     {
-      "date": "2026-10-21",
-      "id": "a27",
-      "pais": "Costa Rica",
-      "scope": "am",
-      "source": "Infobae",
-      "summary": "La cosecha 2025-2026 logró el mayor precio de exportación desde 1973 (cerca de US$300 por quintal), pero el colón fuerte deja el pago estimado en ¢117.000 por fanega. Con costos que superan el ingreso, el productor tico llega con menos margen al nuevo ciclo.",
-      "tag": "Divisas",
-      "title": "Costa Rica: cafetaleros reciben menos colones por fanega pese al récord de precio de exportación",
-      "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/"
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "id": "a28",
       "pais": "Colombia",
       "scope": "am",
       "source": "La República",
-      "summary": "El precio base del pergamino seco cayó $30.000 (-1,44%) el 3 de noviembre, hasta $2.050.000 por carga de 125 kg. La baja del arábica en Nueva York y el diferencial siguen comprimiendo el ingreso en pesos del caficultor.",
+      "summary": "El precio base del pergamino seco cayó $40.000 (-1,95%) el 4 de noviembre, hasta $2.010.000 por carga de 125 kg, tras la baja de $30.000 del día anterior. Dos caídas seguidas reducen el ingreso en pesos del caficultor.",
       "tag": "Precios",
-      "title": "Colombia: el precio interno del café baja a $2.050.000 por carga",
+      "title": "Colombia: el precio interno del café baja a $2.010.000 por carga",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
     },
     {
@@ -88,16 +77,6 @@
       "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
     },
     {
-      "date": "2026-10-21",
-      "id": "a49",
-      "scope": "mundo",
-      "source": "Capital Ethiopia",
-      "summary": "Un estudio de ODI Global calcula pérdidas de US$160 millones si se excluye el 20% de los envíos a la UE, y hasta US$453 millones en el peor caso. La UE compra cerca del 30% del café etíope, así que la trazabilidad puede reordenar la oferta de origen africano.",
-      "tag": "Regulación",
-      "title": "Etiopía podría perder hasta US$453 millones en café por las reglas europeas antideforestación",
-      "url": "https://capitalethiopia.com/2026/10/21/ethiopias-coffee-sector-faces-453m-risk-under-eu-deforestation-rules/"
-    },
-    {
       "date": "2026-10-26",
       "id": "a51",
       "pais": "Perú",
@@ -145,11 +124,11 @@
       "scope": "am",
       "pais": "Brasil",
       "tag": "Precios",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "source": "Cepea · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
-      "title": "Brasil: el indicador Cepea del arábica sube a R$ 1.611,06 por saco",
-      "summary": "El indicador avanzó 0,79% el 3 de noviembre tras R$ 1.598,37 del 30 de octubre; en la última semana osciló entre R$ 1.590 y R$ 1.611 por saco de 60 kg."
+      "title": "Brasil: el indicador Cepea del arábica cierra en R$ 1.600,77 por saco",
+      "summary": "El indicador Cepea/Esalq del arábica bajó 0,64% el 4 de noviembre, a R$ 1.600,77 por saco de 60 kg, tras subir 0,79% el día anterior. Se mueve en un rango estrecho (R$ 1.590–1.627) desde el 26 de octubre."
     },
     {
       "id": "a57",
@@ -162,5 +141,5 @@
       "summary": "Los caficultores del Altiplano Central vendieron a 88.000–89.000 dong por kg, frente a 91.000–92.500 la semana previa, antes del pico de cosecha; el robusta enero cerró en US$3.199/t. Presión bajista para el robusta que compran tostadores y mezcladores."
     }
   ],
-  "updatedAt": "2026-11-04T11:48:14Z"
+  "updatedAt": "2026-11-05T11:48:53Z"
 }
