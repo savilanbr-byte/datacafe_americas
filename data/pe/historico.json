@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T19:47:17Z",
+  "updatedAt": "2026-11-05T11:46:16Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP",
@@ -217,6 +217,10 @@
         [
           "2026-11-03",
           284.05
+        ],
+        [
+          "2026-11-04",
+          279.5
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
