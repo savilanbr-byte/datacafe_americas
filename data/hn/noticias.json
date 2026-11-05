@@ -1,6 +1,17 @@
 {
- "updatedAt": "2026-11-05T11:47:12Z",
+ "updatedAt": "2026-11-05T19:46:10Z",
  "items": [
+  {
+   "id": "h8",
+   "scope": "hn",
+   "tag": "Exportaciones",
+   "date": "2026-11-04",
+   "source": "Infobae · BCH",
+   "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
+   "title": "Honduras exportó 6,67 M de sacos de café entre enero y agosto, 16,3 % más",
+   "summary": "Según el BCH, las divisas del café suman US$2.067 millones, pero el precio promedio por saco de 46 kg cayó de US$361,36 a US$309,96 (−14,2 %). El volumen compensa el menor precio; el café es el 38 % de las exportaciones de mercancías generales.",
+   "regiones": []
+  },
   {
    "id": "h5",
    "scope": "hn",
