@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T19:46:16Z",
+ "updatedAt": "2026-11-05T11:50:00Z",
  "items": [
   {
    "id": "n19",
@@ -35,19 +35,6 @@
    "url": "https://www.teletica.com/nacional/solo-60-costarricenses-quieren-trabajar-en-la-cosecha-de-cafe-este-ano-advierte-icafe_419947",
    "title": "Solo 60 costarricenses se anotaron para recoger café esta cosecha",
    "summary": "Es cerca del 1 % de la mano de obra que pide el sector, según el ICAFE. Trabajo autorizó 16.000 de los 30.000 recolectores panameños solicitados y unos 6.000 ya ingresaron; la cosecha está en su pico en Coto Brus."
-  },
-  {
-   "id": "n17",
-   "scope": "cr",
-   "regiones": [
-    "coto-brus"
-   ],
-   "tag": "Agricultura",
-   "date": "2026-10-21",
-   "source": "Tv Sur",
-   "url": "https://www.tvsur.co.cr/noticias/icafe-llama-a-productores-a-gestionar-ingreso-regular-de-recolectores-extranjeros-para-la-cosecha-2026-2027/",
-   "title": "ICAFE pide tramitar a tiempo el ingreso de recolectores extranjeros",
-   "summary": "Trabajo aprobó 16.000 recolectores panameños, con opción de llegar a 30.000, y más de 6.000 ya entraron por Río Sereno. Para los beneficios, la mano de obra sigue siendo el cuello de botella en plena cosecha del sur."
   },
   {
    "id": "n2",
@@ -86,17 +73,6 @@
    "url": "https://observador.cr/monex-registra-negociacion-historica-de-1534-millones-la-mayor-en-20-anos/",
    "title": "Monex marca récord de US$153,4 millones en un día y el dólar baja a ₡452,61",
    "summary": "El Banco Central compró US$114,7 millones, el 75 % del volumen, para frenar la caída del dólar. Un colón fuerte sigue recortando lo que recibe el productor por cada quintal exportado."
-  },
-  {
-   "id": "n4",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Precios",
-   "date": "2026-10-21",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/costa-rica/2026/10/21/caficultores-de-costa-rica-reciben-menos-colones-por-fanega-pese-al-record-de-exportacion/",
-   "title": "Liquidación estimada de ₡117.000 por fanega pese al mejor precio de exportación desde 1973",
-   "summary": "El ICAFE estima ese pago para la cosecha 2025-26, frente a ₡132.000 cinco cosechas atrás, aunque el café se exportó por encima de US$300 por quintal. Para comprar, significa productores con menos margen al arrancar 2026-27."
   },
   {
    "id": "n8",
