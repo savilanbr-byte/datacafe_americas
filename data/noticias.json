@@ -77,69 +77,101 @@
       "url": "https://www.infobae.com/peru/2026/10/26/midagri-peru-vera-estancarse-su-record-historico-de-agroexportaciones-en-2026-y-no-pasara-de-usd15000-millones/"
     },
     {
+      "date": "2026-11-03",
       "id": "a53",
       "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
       "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil.",
+      "tag": "Mercado",
       "title": "El arábica rebota 2,7% a US$2,95/lb; la robusta tocó su mínimo desde marzo de 2024",
-      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil."
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally"
     },
     {
-      "id": "a54",
-      "scope": "am",
-      "pais": "Guatemala",
-      "tag": "Exportaciones",
       "date": "2026-11-03",
+      "id": "a54",
+      "pais": "Guatemala",
+      "scope": "am",
       "source": "Prensa Libre · Anacafé",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal.",
+      "tag": "Exportaciones",
       "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
-      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal."
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/"
     },
     {
-      "id": "a55",
-      "scope": "am",
-      "pais": "México",
-      "tag": "Precios",
       "date": "2026-10-29",
-      "source": "La Jornada Veracruz",
-      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/",
-      "title": "Veracruz: productores reciben 8–12 pesos por kilo de cereza frente a 17 que permitiría el mercado",
-      "summary": "Una comisión de precios calcula que las cotizaciones del 24 de octubre permitirían pagar unos 17 pesos por kilo, y denuncia descuentos de compradores que pueden superar US$100 por quintal. Pide reconocer un diferencial de unos US$30 por quintal al café mexicano de exportación."
-    },
-    {
-      "id": "a56",
+      "id": "a55",
+      "pais": "México",
       "scope": "am",
-      "pais": "Brasil",
+      "source": "La Jornada Veracruz",
+      "summary": "Una comisión de precios calcula que las cotizaciones del 24 de octubre permitirían pagar unos 17 pesos por kilo, y denuncia descuentos de compradores que pueden superar US$100 por quintal. Pide reconocer un diferencial de unos US$30 por quintal al café mexicano de exportación.",
       "tag": "Precios",
-      "date": "2026-11-04",
-      "source": "Cepea · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
-      "title": "Brasil: el indicador Cepea del arábica cierra en R$ 1.600,77 por saco",
-      "summary": "El indicador Cepea/Esalq del arábica bajó 0,64% el 4 de noviembre, a R$ 1.600,77 por saco de 60 kg, tras subir 0,79% el día anterior. Se mueve en un rango estrecho (R$ 1.590–1.627) desde el 26 de octubre."
+      "title": "Veracruz: productores reciben 8–12 pesos por kilo de cereza frente a 17 que permitiría el mercado",
+      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/"
     },
     {
+      "date": "2026-11-04",
+      "id": "a56",
+      "pais": "Brasil",
+      "scope": "am",
+      "source": "Cepea · Notícias Agrícolas",
+      "summary": "El indicador Cepea/Esalq del arábica bajó 0,64% el 4 de noviembre, a R$ 1.600,77 por saco de 60 kg, tras subir 0,79% el día anterior. Se mueve en un rango estrecho (R$ 1.590–1.627) desde el 26 de octubre.",
+      "tag": "Precios",
+      "title": "Brasil: el indicador Cepea del arábica cierra en R$ 1.600,77 por saco",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica"
+    },
+    {
+      "date": "2026-10-30",
       "id": "a57",
       "scope": "mundo",
-      "tag": "Precios",
-      "date": "2026-10-30",
       "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40446556/vietnam-coffee-prices-lower-ahead-of-harvest-peak",
+      "summary": "Los caficultores del Altiplano Central vendieron a 88.000–89.000 dong por kg, frente a 91.000–92.500 la semana previa, antes del pico de cosecha; el robusta enero cerró en US$3.199/t. Presión bajista para el robusta que compran tostadores y mezcladores.",
+      "tag": "Precios",
       "title": "Vietnam: el robusta local cae a 88.000–89.000 dong/kg, mínimo desde junio",
-      "summary": "Los caficultores del Altiplano Central vendieron a 88.000–89.000 dong por kg, frente a 91.000–92.500 la semana previa, antes del pico de cosecha; el robusta enero cerró en US$3.199/t. Presión bajista para el robusta que compran tostadores y mezcladores."
+      "url": "https://www.brecorder.com/news/40446556/vietnam-coffee-prices-lower-ahead-of-harvest-peak"
     },
     {
-      "id": "a58",
-      "scope": "am",
-      "pais": "México",
-      "tag": "Producción",
       "date": "2026-11-05",
+      "id": "a58",
+      "pais": "México",
+      "scope": "am",
       "source": "Portavoz Chiapas",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
+      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas.",
+      "tag": "Producción",
       "title": "Chiapas: la sequía recortará la cosecha de café 2026-27",
-      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas."
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+    },
+    {
+      "date": "2026-11-04",
+      "id": "a59",
+      "pais": "Honduras",
+      "scope": "am",
+      "source": "Infobae · BCH",
+      "summary": "El Banco Central reporta ingresos de unos US$2.067 millones (+16,3% en volumen), pero el precio medio por saco bajó de US$361,36 a US$309,96. Más volumen no compensa del todo la caída del precio.",
+      "tag": "Exportaciones",
+      "title": "Honduras: exportó 6,67 millones de sacos de enero a agosto, con precio medio 14% menor",
+      "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/"
+    },
+    {
+      "date": "2026-11-06",
+      "id": "a60",
+      "pais": "El Salvador",
+      "scope": "am",
+      "source": "Infobae · ISC",
+      "summary": "El Instituto Salvadoreño del Café registra US$196,05 millones con 607.908 quintales oro (+0,33%); el aumento viene del mejor ingreso por unidad. Norteamérica recibió el 64% de los envíos.",
+      "tag": "Exportaciones",
+      "title": "El Salvador: las exportaciones de café suben 12% en valor en el ciclo 2025-26",
+      "url": "https://www.infobae.com/el-salvador/2026/11/06/exportaciones-de-cafe-de-el-salvador-generan-usd-19605-millones-un-12-mas/"
+    },
+    {
+      "date": "2026-11-06",
+      "id": "a61",
+      "scope": "am",
+      "source": "Infobae · Sucafina/Reuters",
+      "summary": "La caída frente a 19,68 millones de sacos se atribuye al clima del primer semestre y al ciclo bienal bajo del arábica; Honduras y México bajarían más y Guatemala menos. Menor oferta regional para compras de la próxima cosecha.",
+      "tag": "Producción",
+      "title": "Centroamérica y México: Sucafina prevé una cosecha 2026-27 un 9,3% menor, bajo 18 millones de sacos",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
     }
   ],
-  "updatedAt": "2026-11-06T11:45:28Z"
+  "updatedAt": "2026-11-06T19:55:00Z"
 }
