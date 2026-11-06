@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-22",
-      "id": "a26",
-      "pais": "Brasil",
-      "scope": "am",
-      "source": "Folha Agrícola · Cepea",
-      "summary": "Según Cepea, la floración va dentro de lo esperado y el cuajado del fruto es bueno en la mayoría de las zonas, con lluvias generalizadas. El calor intenso y un posible El Niño mantienen el riesgo de aborto del fruto; en el Cerrado Mineiro el cuajado solo se confirma hacia diciembre.",
-      "tag": "Clima",
-      "title": "Brasil: buena floración para la cosecha 2027/28, pero el calor preocupa",
-      "url": "https://folhaagricola.com.br/2026/10/21/cafe-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa/"
-    },
-    {
       "date": "2026-11-04",
       "id": "a28",
       "pais": "Colombia",
@@ -106,7 +95,7 @@
       "source": "Prensa Libre · Anacafé",
       "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
       "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
-      "summary": "Se exportaron 4,3 millones de quintales a US$336 en promedio. Para 2026-27 Anacafé recortó la proyección de 4,2 a 3,8 millones de quintales por lluvias irregulares ligadas a El Niño, con precios de US$275–300 por quintal: menos oferta y menor valor."
+      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal."
     },
     {
       "id": "a55",
@@ -139,7 +128,18 @@
       "url": "https://www.brecorder.com/news/40446556/vietnam-coffee-prices-lower-ahead-of-harvest-peak",
       "title": "Vietnam: el robusta local cae a 88.000–89.000 dong/kg, mínimo desde junio",
       "summary": "Los caficultores del Altiplano Central vendieron a 88.000–89.000 dong por kg, frente a 91.000–92.500 la semana previa, antes del pico de cosecha; el robusta enero cerró en US$3.199/t. Presión bajista para el robusta que compran tostadores y mezcladores."
+    },
+    {
+      "id": "a58",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Producción",
+      "date": "2026-11-05",
+      "source": "Portavoz Chiapas",
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
+      "title": "Chiapas: la sequía recortará la cosecha de café 2026-27",
+      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas."
     }
   ],
-  "updatedAt": "2026-11-05T11:48:53Z"
+  "updatedAt": "2026-11-06T11:45:28Z"
 }
