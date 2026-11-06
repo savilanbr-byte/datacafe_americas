@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-05T19:50:00Z",
+  "updatedAt": "2026-11-06T11:55:00Z",
   "items": [
+    {
+      "id": "m19",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-05",
+      "source": "Portavoz Chiapas",
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
+      "title": "La sequía en el Soconusco y la Costa de Chiapas amenaza la cosecha 2026-27",
+      "summary": "Según Rigoberto Galindo, del Comité Nacional Sistema Producto Café, solo llovió en junio, julio y parte de septiembre, lo que causa maduración despareja y una producción menor, sin cifra oficial aún. Para el comprador: lotes irregulares y riesgo de menor calidad en la zona."
+    },
     {
       "id": "m18",
       "scope": "mx",
@@ -117,36 +130,6 @@
       "tag": "Divisas",
       "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
       "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-    },
-    {
-      "id": "m7",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-22",
-      "source": "La Jornada Veracruz",
-      "url": "https://jornadaveracruz.com.mx/productores-cafe-veracruz-precio-cafe-cereza/",
-      "title": "Cafetaleros de Zongolica, Río Blanco y Córdoba reciben hasta 10 pesos por kilo",
-      "summary": "Los productores cobran entre 7 y 10 pesos por kilo de cereza y piden apoyos federales en fertilizantes e insumos. Advierten que sequía, calor y lluvias fuertes podrían recortar la producción hasta 40 %."
-    },
-    {
-      "id": "m11",
-      "scope": "mx",
-      "regiones": [
-        "veracruz",
-        "oaxaca",
-        "chiapas-soconusco",
-        "puebla",
-        "guerrero"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-22",
-      "source": "El Imparcial",
-      "url": "https://www.elimparcial.com/mexico/2026/10/22/smn-alerta-por-lluvias-muy-fuertes-en-veracruz-oaxaca-y-chiapas-frente-frio-3-provocara-vientos-en-el-norte-de-mexico/",
-      "title": "SMN alerta por lluvias de 50 a 75 mm en Veracruz, Oaxaca y Chiapas",
-      "summary": "El frente frío 3 dejó lluvias puntuales muy fuertes en el norte y sur de Veracruz, el norte de Oaxaca y el sur de Chiapas, y de 25 a 50 mm en Puebla y la costa de Guerrero. Puede afectar el secado y el transporte del café recién cosechado."
     }
   ]
 }
