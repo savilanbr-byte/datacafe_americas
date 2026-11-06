@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T19:46:10Z",
+ "updatedAt": "2026-11-06T11:46:30Z",
  "items": [
   {
    "id": "h8",
@@ -10,17 +10,6 @@
    "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
    "title": "Honduras exportó 6,67 M de sacos de café entre enero y agosto, 16,3 % más",
    "summary": "Según el BCH, las divisas del café suman US$2.067 millones, pero el precio promedio por saco de 46 kg cayó de US$361,36 a US$309,96 (−14,2 %). El volumen compensa el menor precio; el café es el 38 % de las exportaciones de mercancías generales.",
-   "regiones": []
-  },
-  {
-   "id": "h5",
-   "scope": "hn",
-   "tag": "Clima",
-   "date": "2026-10-22",
-   "source": "La Tribuna",
-   "url": "https://www.latribuna.hn/2026/10/22/cuna-de-alta-presion-provocara-lluvias-este-jueves/",
-   "title": "COPECO: continúan las condiciones secas en la mayor parte del país",
-   "summary": "Una cuña de alta presión deja lluvias débiles en el norte, noroccidente y centro; el resto del país sigue seco.",
    "regiones": []
   },
   {
@@ -57,16 +46,6 @@
    "url": "https://tradingeconomics.com/commodity/coffee",
    "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
    "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-21",
-   "id": "n9",
-   "scope": "mundo",
-   "source": "ADM Investor Services",
-   "summary": "Cayeron 4.951 sacos el martes 20-oct, el nivel más bajo desde el 16 de septiembre, y sostienen el mercado ante la expectativa de oferta ajustada para la entrega de diciembre. El mínimo de 27 años sigue en 217.646 sacos.",
-   "tag": "Mercado",
-   "title": "Inventarios certificados de arábica bajan a 234.901 sacos",
-   "url": "https://admis.com/cotton-faces-new-rain-risk"
   },
   {
    "date": "2026-10-26",
