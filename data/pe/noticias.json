@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:50:00Z",
+  "updatedAt": "2026-11-06T11:50:00Z",
   "items": [
     {
       "id": "p22",
@@ -47,17 +47,6 @@
       "url": "https://elbuho.pe/2026/10/el-mejor-cafe-de-cajamarca-es-del-distrito-de-chirinos-provincia-de-san-ignacio/",
       "title": "Un geisha de Chirinos (San Ignacio) gana ExpoCafé Cajamarca 2026",
       "summary": "El lote de 120 kg, cultivado a 1.850 m s. n. m., sacó 89,25 puntos de taza y una cafetería lo compró a S/168 el kilo. Muestra el valor que alcanzan los lotes especiales del norte frente al café convencional."
-    },
-    {
-      "id": "p9",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-10-23",
-      "source": "Agro Perú Informa",
-      "url": "https://www.agroperu.pe/el-nino-devida-prepara-acciones-para-proteger-cultivos-de-cafe-cacao-y-platano/",
-      "title": "Devida prepara medidas contra El Niño 2026-2027 en cafetales",
-      "summary": "Las lluvias fuertes podrían favorecer hongos como la roya; el plan de podas, fertilización y manejo de sombra cubre 11.735 hectáreas priorizadas, con unas 10.196 familias en riesgo. Conviene vigilar la sanidad de los lotes de la campaña 2027."
     },
     {
       "id": "n8",
@@ -114,20 +103,6 @@
       "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
       "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
       "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
-    },
-    {
-      "id": "p16",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura"
-      ],
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Agraria.pe",
-      "url": "https://www.agraria.pe/noticias/cajamarca-lidera-las-exportaciones-de-cafe-y-concentra-la-mi-43343",
-      "title": "Cajamarca concentra la mitad de las exportaciones de café de enero a agosto",
-      "summary": "La región aporta cerca del 50 % del valor y del volumen exportados; el país crece 3 % en volumen y 1 % en valor. Callao y Piura crecieron con fuerza, mientras otras regiones exportadoras cayeron."
     },
     {
       "id": "p17",
@@ -192,6 +167,48 @@
       "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/",
       "title": "SENAMHI declara alerta roja por lluvias del 4 al 5 de noviembre en 13 departamentos",
       "summary": "El aviso incluye Piura, Cajamarca, Cusco y Ayacucho, con hasta unos 29 mm diarios en la sierra norte y 55 mm en la costa norte; el 6 baja a naranja. Puede retrasar el acopio y los despachos hacia Paita."
+    },
+    {
+      "id": "p23",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "cusco",
+        "junin",
+        "pasco",
+        "amazonas",
+        "ayacucho",
+        "puno",
+        "san-martin"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-04",
+      "source": "Andina",
+      "url": "https://andina.pe/agencia/noticia-ficafe-2026-promperu-genera-205-millones-acuerdos-comerciales-por-cafe-peruano-1098618.aspx",
+      "title": "Ficafé 2026: rueda de negocios deja expectativas por US$ 20,5 millones",
+      "summary": "En la rueda del 3 de noviembre en Cusco, 25 compradores de 13 mercados mantuvieron más de 430 citas con 48 organizaciones productoras; más de US$ 250 mil se cerraron en el acto y el resto son expectativas a 12 meses. El 57 % de los compradores no tenía relación previa con Perú: oportunidad de nuevos contactos para lotes especiales."
+    },
+    {
+      "id": "p24",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "amazonas",
+        "san-martin",
+        "junin",
+        "pasco",
+        "huanuco",
+        "cusco",
+        "puno",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-04",
+      "source": "Infobae · CENEPRED",
+      "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/",
+      "title": "Riesgo de lluvias intensas e inundaciones de noviembre a enero",
+      "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
     }
   ]
 }

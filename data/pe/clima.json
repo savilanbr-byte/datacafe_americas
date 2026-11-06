@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:50:00Z",
+  "updatedAt": "2026-11-06T11:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -31,12 +31,13 @@
   ],
   "avisos": {
     "source": "SENAMHI · ENFEN",
-    "asOf": "2026-11-03",
+    "asOf": "2026-11-04",
     "headline": "SENAMHI (3-nov): alerta roja por lluvias el 4 y 5 de noviembre en 13 departamentos, entre ellos Piura y Cajamarca; naranja el 6; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
       "SENAMHI: alerta roja el miércoles 4 y jueves 5 de noviembre y naranja el viernes 6 en Áncash, Apurímac, Arequipa, Ayacucho, Cajamarca, Cusco, Huancavelica, Ica, La Libertad, Lambayeque, Lima, Piura y Tumbes; en la sierra norte se esperan hasta unos 29 mm por día y en la costa norte hasta 55 mm.",
       "ENFEN mantiene la alerta: magnitud extraordinaria hasta febrero de 2027 y descenso gradual hasta junio. De noviembre a enero se esperan lluvias sobre lo normal en la costa norte y la sierra occidental.",
-      "Sierra suroriental, sierra centro oriental y parte de la Amazonía tendrían lluvias normales o menores (más déficit hacia el Titicaca); caudales reducidos en Ucayali, Huallaga, Apurímac y Vilcanota."
+      "Sierra suroriental, sierra centro oriental y parte de la Amazonía tendrían lluvias normales o menores (más déficit hacia el Titicaca); caudales reducidos en Ucayali, Huallaga, Apurímac y Vilcanota.",
+      "CENEPRED (4-nov): de noviembre a enero hay mayor probabilidad de lluvias intensas en costa, sierra norte y sierra central occidental; parte de la selva puede tener crecidas de ríos, y otros sectores de selva y sierra sur, lluvias bajo el promedio."
     ],
     "links": [
       {
@@ -66,6 +67,10 @@
       {
         "t": "SENAMHI",
         "url": "https://www.senamhi.gob.pe/"
+      },
+      {
+        "t": "CENEPRED · Infobae (4-nov)",
+        "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/"
       }
     ]
   },
