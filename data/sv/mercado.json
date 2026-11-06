@@ -1,49 +1,49 @@
 {
-  "updatedAt": "2026-11-05T19:47:21Z",
+  "updatedAt": "2026-11-06T11:48:01Z",
   "items": {
     "expo": {
       "label": "Precio promedio de exportación 2025-26",
-      "value": 311.78,
+      "value": 311.84,
       "dec": 2,
       "unit": "USD/quintal oro",
       "changePct": 7.9,
-      "asOf": "2026-10-20",
-      "source": "ISC · Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-      "note": "Calculado con datos del ISC de octubre a agosto: US$184,29 M de café oro ÷ 591.086 quintales. 2024-25: US$288,91."
+      "asOf": "2026-11-05",
+      "source": "ISC · Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "note": "Calculado con datos del ISC de octubre a septiembre (cosecha cerrada): US$189,57 M de café oro ÷ 607.908 quintales. 2024-25: US$288,91."
     },
     "expoVol": {
-      "label": "Exportación 2025-26 (a agosto)",
-      "value": 591.086,
+      "label": "Exportación 2025-26 (a septiembre)",
+      "value": 607.908,
       "dec": 1,
       "unit": "mil quintales oro",
-      "changePct": 1.03,
-      "asOf": "2026-10-20",
-      "source": "ISC · Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-      "note": "Norteamérica compró el 64,6 %; Europa, el 17,1 %."
+      "changePct": 0.33,
+      "asOf": "2026-11-05",
+      "source": "ISC · Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "note": "Cierre del ciclo. Norteamérica compró el 64 %; Europa, el 16,9 %; Asia, el 5,4 %."
     },
     "expoValor": {
-      "label": "Divisas 2025-26 (a agosto)",
-      "value": 190.15,
+      "label": "Divisas 2025-26 (a septiembre)",
+      "value": 196.05,
       "dec": 1,
       "unit": "M USD",
-      "changePct": 13.76,
-      "asOf": "2026-10-20",
-      "source": "ISC · Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-      "note": "Incluye soluble (US$3,65 M) y tostado (US$2,2 M). 2024-25 completo: US$175,04 M."
+      "changePct": 12.0,
+      "asOf": "2026-11-05",
+      "source": "ISC · Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "note": "Café oro US$189,57 M, soluble US$4,13 M y tostado US$2,33 M. 2024-25 completo: US$175,04 M."
     },
     "prod": {
       "label": "Cosecha 2025-26",
-      "value": 963.65,
+      "value": 964.017,
       "dec": 1,
       "unit": "mil quintales oro uva",
-      "changePct": 12.2,
-      "asOf": "2026-10-02",
-      "source": "ISC · Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/02/la-produccion-de-cafe-de-el-salvador-creceria-122-hasta-963650-quintales-en-2025-2026/",
-      "note": "La mayor desde 2012-13. Antes de la roya (2012-13) fueron 1,73 M."
+      "changePct": 12.3,
+      "asOf": "2026-11-05",
+      "source": "ISC · Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "note": "Cifra final del ciclo según el ISC (964.017 quintales oro uva); la mayor desde 2012-13. Antes de la roya (2012-13) fueron 1,73 M."
     },
     "est": {
       "label": "Estimación cosecha 2026-27",
@@ -56,12 +56,12 @@
     }
   },
   "ref": {
-    "asOf": "2026-10-20",
+    "asOf": "2026-11-05",
     "cosecha": "2025-26",
-    "periodo": "oct-2025 a ago-2026",
-    "expo": 311.78,
+    "periodo": "oct-2025 a sep-2026",
+    "expo": 311.84,
     "qqKg": 45.36,
-    "fuente": "ISC (Infobae)",
+    "fuente": "ISC (Infobae/EFE)",
     "nyMeses": [
       [
         "2025-10",
@@ -107,12 +107,16 @@
       [
         "2026-08",
         313.2
+      ],
+      [
+        "2026-09",
+        280.68
       ]
     ],
     "nyFuente": "OIC · promedio mensual (2.ª y 3.ª posición)",
-    "expoUrl": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-    "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0226-e.pdf",
-    "nota": "Precio calculado con el valor y el volumen de café oro que reporta el ISC (falta septiembre). Promedio simple de los 11 meses: tómalo como el nivel del periodo."
+    "expoUrl": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+    "nyUrl": "https://ico.org/documents/cy2025-26/cmr-0926-e.pdf",
+    "nota": "Precio calculado con el valor y el volumen de café oro que reporta el ISC; ciclo 2025-26 completo (oct–sep). Promedio simple de los 12 meses: tómalo como el nivel del periodo. La cosecha 2026-27 se activará con al menos 6 meses de datos."
   },
   "alturas": {
     "title": "Clasificación por altura",

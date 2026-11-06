@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-05T19:47:21Z",
+  "updatedAt": "2026-11-06T11:48:01Z",
   "items": [
     {
-      "id": "s1",
+      "id": "s13",
       "scope": "sv",
+      "regiones": [],
       "tag": "Exportaciones",
-      "date": "2026-10-20",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/exportaciones-de-cafe-salvadoreno-superaron-usd-190-millones-en-ingresos-pese-a-que-el-volumen-apenas-crecio-un-1/",
-      "title": "Exportaciones de café superaron US$190 millones con un volumen casi igual",
-      "summary": "De octubre a agosto se exportaron 591.086 quintales oro (+1 %) por US$190,15 M (+13,8 %), según el ISC. Norteamérica compró el 64,6 %.",
-      "regiones": []
+      "date": "2026-11-05",
+      "source": "Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
+      "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
     },
     {
       "id": "n8",
