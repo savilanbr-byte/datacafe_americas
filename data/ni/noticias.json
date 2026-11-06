@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T11:47:30Z",
+  "updatedAt": "2026-11-06T19:47:03Z",
   "items": [
     {
       "id": "ni1",
@@ -151,6 +151,16 @@
       "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
       "title": "El arábica sube 2,7 % a US$2,95 por libra por temor a poca oferta inmediata",
       "summary": "Los inventarios certificados de ICE (225.068 sacos) siguen cerca de mínimos de 27 años; el clima favorable en Brasil y el real débil frenan el alza. Para comprar en Nicaragua: diferenciales y fijaciones siguen expuestos a un mercado nervioso en el corto plazo."
+    },
+    {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Comunicaffe",
+      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+      "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
+      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua."
     }
   ]
 }
