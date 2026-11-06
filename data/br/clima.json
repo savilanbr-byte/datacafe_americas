@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:55:00Z",
+  "updatedAt": "2026-11-06T11:47:30Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,25 +23,29 @@
     "period": ""
   },
   "impactos": [
-    "Las floradas de la cosecha 2027-28 salieron bien, pero noviembre decide el cuajado (pegamento): el INMET prevé menos lluvia y hasta 2 °C más de calor en Minas y Espírito Santo, lo que puede tumbar flores y chumbinhos, sobre todo en el Cerrado y la Mogiana.",
+    "Las floradas de la safra 2027-28 salieron bien y el cuajado (pegamento) luce bueno en Mogiana, Norte Pioneiro y Sul de Minas, pero noviembre lo decide: el INMET prevé menos lluvia y hasta 2 °C más de calor, y CEPEA ve riesgo de caída de frutos en São Paulo y Cerrado; la confirmación llega en diciembre.",
     "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-    "El dólar cerró en R$5,451 el 4-nov (−0,64 %) tras tocar R$5,49 el día 3, por la debilidad global de la divisa tras las elecciones de EE. UU.; sigue alto y sostiene los precios internos aunque Nueva York cae. Vigila el ritmo de ventas del productor y los diferenciales FOB.",
-    "El Niño suele traer lluvias irregulares al Sudeste y más calor; en el conilon del Espírito Santo, la falta de agua en la florada pesa sobre 2027."
+    "El dólar cerró en R$5,4885 el 5-nov (+0,68 %) tras el Copom (Selic en 13,75 %); un real débil sostiene los precios internos aunque Nueva York cae (277 ¢/lb). Vigila el ritmo de ventas del productor y los diferenciales FOB.",
+    "El Niño suele traer lluvias irregulares y más calor al Sudeste; en Rondônia el mes seco ya trajo broca temprana, y en el conilon del Espírito Santo la floración fue satisfactoria pero el agua sigue siendo clave para 2027."
   ],
   "avisos": {
-    "source": "INMET · Rabobank · CEPEA · Reuters",
-    "asOf": "2026-10-30",
-    "headline": "Octubre llovió bien, pero el INMET prevé un noviembre más seco y caluroso en Minas y Espírito Santo",
+    "source": "INMET · CEPEA · Rabobank · Reuters",
+    "asOf": "2026-11-06",
+    "headline": "Cuajado bueno hasta ahora, pero el calor con El Niño es el riesgo de noviembre en Minas, São Paulo y Rondônia",
     "items": [
-      "INMET prevé para noviembre precipitaciones reducidas en Minas Gerais y Espírito Santo y hasta +2 °C sobre el promedio en el Sudeste y el oeste de Bahia; São Paulo con tormentas (Correio Braziliense, 30-oct).",
-      "Septiembre llovió muy por encima del promedio de 15 años: Guaxupé 154 mm (promedio 57 mm), Manhuaçu 111 mm (28 mm) y Linhares 90 mm (29 mm) (RaboResearch, 22-oct).",
-      "Lluvias sobre el promedio en Minas Gerais durante la floración mejoraron la humedad del suelo y las perspectivas de la próxima safra (Reuters, 28-oct).",
-      "Cerrado Mineiro y Mogiana: el cuajado real se confirma hacia diciembre; el calor extremo sigue como riesgo (CEPEA, 22-oct)."
+      "CEPEA (6-nov): tras lluvias en el Cerrado Mineiro llegaron sol intenso y altas temperaturas; el cuajado se confirmará hacia diciembre. En la Paulista (Garça) preocupa que el calor ligado a El Niño provoque caída de frutos (Comunicaffe).",
+      "INMET prevé para noviembre menos lluvia en Minas Gerais y Espírito Santo y hasta +2 °C sobre el promedio en el Sudeste y oeste de Bahia (Correio Braziliense, 30-oct).",
+      "Rondônia: casi un mes seco tras dos floraciones llevó a ataques tempranos de broca; en el Espírito Santo la floración fue satisfactoria (CEPEA, 6-nov).",
+      "Lluvias sobre el promedio en septiembre y octubre ayudaron la floración; Hedgepoint advierte posibles efectos de El Niño en el primer trimestre de 2027 (Notícias Agrícolas, 5-nov)."
     ],
     "links": [
       {
         "t": "INMET",
         "url": "https://portal.inmet.gov.br/"
+      },
+      {
+        "t": "Comunicaffe · CEPEA",
+        "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
       },
       {
         "t": "Correio Braziliense · INMET",
@@ -50,14 +54,6 @@
       {
         "t": "Rabobank · Notícias Agrícolas",
         "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html"
-      },
-      {
-        "t": "Reuters · ESM",
-        "url": "https://esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
-      },
-      {
-        "t": "Itatiaia · CEPEA",
-        "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
       }
     ]
   },

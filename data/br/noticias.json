@@ -1,35 +1,6 @@
 {
-  "updatedAt": "2026-11-05T11:55:00Z",
+  "updatedAt": "2026-11-06T11:47:30Z",
   "items": [
-    {
-      "id": "b7",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "O Tempo · BBM",
-      "url": "https://www.otempo.com.br/agro/2026/10/28/cotacoes-do-agro-em-minas-28-10-2026",
-      "title": "El café baja 2,01 % en Minas, pausa en la recuperación del último mes",
-      "summary": "La saca de 60 kg se cotizó entre R$1.575 y R$1.750 (Guaxupé) en las cinco plazas de Minas; en el mes sube 6,84 %, pero en el año aún cae 23,35 %."
-    },
-    {
-      "id": "b8",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro",
-        "matas-de-minas",
-        "conilon-es"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-27",
-      "source": "SAFRAS & Mercado",
-      "url": "https://safras.com.br/brasil-deve-ter-dia-de-precos-mais-baixos-para-o-cafe-2",
-      "title": "Precios físicos del café suben el lunes por el dólar, pero se esperan bajas por la caída en Nueva York",
-      "summary": "El 26-oct el arábica de Sul de Minas (bebida boa) subió a R$1.730–1.735 por saca y el del Cerrado Mineiro a R$1.740–1.745; el conilon tipo 7 en Vitória pasó a R$960–965. Safras espera precios menores el 28 y productores retraídos; las exportaciones de octubre suman 3,83 M de sacas en 16 días hábiles (+35,5 % en promedio diario), a US$334 por saca."
-    },
     {
       "id": "b9",
       "scope": "br",
@@ -40,16 +11,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430450-cafe-cepea-alta-do-dolar-sustenta-cotacoes-domesticas-apesar-de-baixas-externas.html",
       "title": "CEPEA: el dólar alto sostiene los precios internos pese a la caída en Nueva York",
       "summary": "El arábica y el robusta se mantienen firmes en el mercado interno gracias al dólar, aunque las bolsas bajan por la expectativa de más oferta. CEPEA ve los precios sensibles al tipo de cambio y al clima en las próximas semanas; la safra 2027/28 está en floración."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-29",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430572-arabica-acumula-queda-de-mais-de-7-em-quatro-sessoes-e-cafe-fecha-quinta-feira-com-precos-mistos-em-nova-york.html",
-      "title": "El arábica acumula una caída de 7,16 % en cuatro sesiones y cierra en 285,45 c/lb",
-      "summary": "El contrato de diciembre perdió 22 centavos desde el 23-oct; el robusta de Londres (nov) cerró en US$3.177/t (−23). El clima favorable en Brasil al iniciar las lluvias y la cosecha de Vietnam mantienen la tendencia técnica negativa."
     },
     {
       "id": "b13",
@@ -125,17 +86,6 @@
       "summary": "El INMET espera precipitaciones reducidas en Minas Gerais y Espírito Santo y desvíos térmicos de hasta +2 °C en el Sudeste (centro de Minas) y el oeste de Bahia; São Paulo sería la excepción, con tormentas. Es el mes clave del cuajado (pegamento) de la safra 2027: calor y poca agua aumentan el riesgo de caída de flores y chumbinhos."
     },
     {
-      "id": "b18",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-03",
-      "source": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "title": "El dólar sube más de 1 % y roza R$5,51 por dudas fiscales y la encuesta Focus",
-      "summary": "El dólar comercial cotizaba a R$5,506 (+1,14 %) a las 14:05 y la PTAX de venta fue R$5,4935, frente a R$5,4212 del 30-oct. Un real más débil apoya los precios en reales del café y puede frenar las ventas del productor; el cierre oficial aún no se publica."
-    },
-    {
       "id": "b19",
       "scope": "br",
       "regiones": [
@@ -148,37 +98,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
       "title": "El real débil presiona el arábica y se esperan más ventas brasileñas",
       "summary": "Con el dólar cerca de R$5,49, el arábica de Nueva York cayó 2,79 % a 283,95 ¢/lb, porque un real débil estimula las ventas del productor. Un analista reporta problemas de cosecha en Piraju y Garça (São Paulo) y en el norte de Paraná, y ve US$2,80–3,00/lb como precio atractivo para vender por etapas."
-    },
-    {
-      "id": "n19",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Notícias Agrícolas (Reuters)",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430737-exportacoes-de-cafe-do-vietna-aumentam-188-no-ano-ate-outubro.html",
-      "title": "Vietnam exporta 18,8 % más café en enero–octubre",
-      "summary": "Vietnam envió 1,569 M de toneladas entre enero y octubre (+18,8 %), con ingresos de US$7.080 M (−5,2 %); solo en octubre fueron 114.000 t (+60 %). Mayor oferta de robusta vietnamita pesa sobre el conilon brasileño."
-    },
-    {
-      "id": "n20",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
-      "title": "Robusta de Londres cierra en US$3.210/t (−0,96 %) con stocks de arábica muy bajos",
-      "summary": "El robusta de enero cerró en US$3.210/t, más estable que el arábica. Un trader estima los stocks certificados de arábica en ~220.000 sacos frente a unos 800.000 del promedio de cinco años."
-    },
-    {
-      "id": "b20",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-04",
-      "source": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-r-545-apos-eleicoes-nos-eua-e-antes-do-copom",
-      "title": "El dólar cae a R$5,45 tras las elecciones en EE. UU. y antes del Copom",
-      "summary": "La divisa cerró en R$5,451 (−0,64 %) con el dólar global más débil tras la victoria demócrata en EE. UU.; las dudas fiscales limitaron la baja. Un real algo más fuerte resta un poco de apoyo al precio interno del café, que seguía sostenido por el dólar alto."
     },
     {
       "id": "b21",
@@ -214,6 +133,55 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html",
       "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026/27",
       "summary": "La producción quedaría bajo 18 millones de sacas por anomalías climáticas, el año bajo del ciclo bienal y falta de lluvia; Honduras y México caen más. Menos oferta de lavados centroamericanos refuerza el papel de Brasil como proveedor."
+    },
+    {
+      "id": "b22",
+      "scope": "br",
+      "regiones": [
+        "cerrado-mineiro",
+        "mogiana",
+        "sul-de-minas",
+        "norte-pioneiro",
+        "conilon-es",
+        "rondonia"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Comunicaffe · CEPEA",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
+      "title": "CEPEA: la safra 2027/28 arranca bien, pero el calor y El Niño inquietan",
+      "summary": "El cuajado (pegamento) es bueno en Mogiana, noroeste de Paraná y Sul de Minas; en el Cerrado Mineiro se confirmará hacia diciembre y en Rondônia casi un mes seco trajo broca temprana. Se espera una cosecha grande pero no récord en un año de baja bienal."
+    },
+    {
+      "id": "b23",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-05",
+      "source": "Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/dolar-fecha-a-r-548-apos-copom-manter-juros/",
+      "title": "El dólar sube a R$5,4885 tras el Copom, que mantuvo la Selic en 13,75 %",
+      "summary": "La divisa ganó 0,68 % por la aversión global al riesgo y a la espera de un paquete fiscal. Un real débil sostiene el precio interno del café y estimula la venta del productor."
+    },
+    {
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Notícias Agrícolas (Reuters)",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430894-precos-de-cafe-no-vietna-caem-ainda-mais-com-nova-safra.html",
+      "title": "Vietnam: el robusta local cae con la nueva cosecha; octubre exportó 114.000 t",
+      "summary": "En el Altiplano Central el robusta se ofrece a 83.000–84.000 dong/kg (88.000–89.000 la semana previa); las exportaciones de octubre subieron 60,6 % y el acumulado enero–octubre, 18,8 %. Más oferta vietnamita presiona el robusta y el conilon."
+    },
+    {
+      "id": "n24",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430909-cafe-acumula-3-queda-seguida-em-nova-york-e-fecha-nos-277-cents-robusta-sobe-em-londres-nesta-quinta-feira.html",
+      "title": "El arábica cae por tercera sesión a 277,15 ¢/lb; robusta sube a US$3.241/t",
+      "summary": "En tres sesiones el arábica de Nueva York perdió 5,1 %; los stocks certificados de ICE siguen cerca de mínimos de 27 años (220.379 sacas). Cecafé reporta más de 5 M de sacas con certificado a fines de octubre."
     }
   ]
 }
