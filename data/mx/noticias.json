@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-11-06T11:55:00Z",
+  "updatedAt": "2026-11-06T19:46:51Z",
   "items": [
+    {
+      "id": "m20",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos",
+        "veracruz",
+        "puebla",
+        "huasteca",
+        "oaxaca",
+        "guerrero",
+        "robusta-chiapas",
+        "robusta-golfo"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Infobae · Sucafina/Reuters",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
+      "title": "Sucafina prevé una caída de 9,3 % en la cosecha de Centroamérica y México en 2026-27",
+      "summary": "La comercializadora estima menos de 18 millones de sacos de 60 kg (frente a 19,68 millones el ciclo pasado), con México y Honduras entre las mayores bajas por el clima adverso y el ciclo bienal; advierte dudas sobre la calidad. Para el comprador: menor oferta y lotes más irregulares."
+    },
     {
       "id": "m19",
       "scope": "mx",
