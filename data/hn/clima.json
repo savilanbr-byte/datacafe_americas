@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T19:47:08Z",
+ "updatedAt": "2026-11-09T11:52:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,18 +24,18 @@
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "COPECO reporta condiciones secas en la mayor parte del país a fines de octubre: buen escenario para secar el pergamino de las fincas bajas que ya cosechan.",
+  "Las lluvias del 8 y 9 de noviembre en El Paraíso pueden frenar el secado del pergamino y dificultar el acceso a las fincas: pide humedad del grano al recibir los lotes.",
   "Con la fruta madurando pareja y falta de recolectores, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes de El Paraíso y Copán.",
   "Las regiones altas (Montecillos y Agalta) cosechan de diciembre a abril: una época seca larga favorece el secado, pero puede estresar la floración de 2027-28."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-10-22",
-  "headline": "Condiciones secas en la mayor parte del país",
+  "asOf": "2026-11-08",
+  "headline": "Lluvias intensas en las próximas 48 horas",
   "items": [
-   "Cuña de alta presión con viento del norte y más nubosidad.",
-   "Lluvias débiles a moderadas en el noroccidente, norte y centro; actividad eléctrica en las sierras de Nombre de Dios y Omoa.",
-   "Resto del país: lluvias débiles y aisladas."
+   "Las mayores lluvias se esperan en el oriente, centro, sur y suroriente; El Paraíso, Choluteca y Valle son los departamentos con más riesgo.",
+   "Posibles deslizamientos, derrumbes y crecidas de quebradas y ríos.",
+   "La vaguada pierde fuerza desde el lunes 9, aunque deja lluvias en el norte; COPECO vigila el primer frente frío de la temporada."
   ],
   "links": [
    {
@@ -43,8 +43,8 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "La Tribuna",
-    "url": "https://www.latribuna.hn/2026/10/22/cuna-de-alta-presion-provocara-lluvias-este-jueves/"
+    "t": "Radio HRN",
+    "url": "https://www.radiohrn.hn/copeco-advierte-por-lluvias-durante-48-horas-en-honduras-2026-11-08"
    }
   ]
  },

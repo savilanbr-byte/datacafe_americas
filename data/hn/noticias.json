@@ -1,6 +1,19 @@
 {
- "updatedAt": "2026-11-06T19:47:08Z",
+ "updatedAt": "2026-11-09T11:52:00Z",
  "items": [
+  {
+   "id": "h9",
+   "scope": "hn",
+   "tag": "Clima",
+   "date": "2026-11-08",
+   "source": "Radio HRN · COPECO",
+   "url": "https://www.radiohrn.hn/copeco-advierte-por-lluvias-durante-48-horas-en-honduras-2026-11-08",
+   "title": "COPECO alerta por lluvias intensas el 8 y 9 de noviembre, con más riesgo en El Paraíso",
+   "summary": "Las lluvias más fuertes se esperan en el oriente, centro y sur, sobre todo en El Paraíso, Choluteca y Valle, con posibles deslizamientos y crecidas. Para el comprador: puede frenar el secado del pergamino y el transporte desde las zonas de El Paraíso.",
+   "regiones": [
+    "el-paraiso"
+   ]
+  },
   {
    "id": "h8",
    "scope": "hn",
@@ -10,31 +23,6 @@
    "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
    "title": "Honduras exportó 6,67 M de sacos de café entre enero y agosto, 16,3 % más",
    "summary": "Según el BCH, las divisas del café suman US$2.067 millones, pero el precio promedio por saco de 46 kg cayó de US$361,36 a US$309,96 (−14,2 %). El volumen compensa el menor precio; el café es el 38 % de las exportaciones de mercancías generales.",
-   "regiones": []
-  },
-  {
-   "id": "h7",
-   "scope": "hn",
-   "tag": "Clima",
-   "date": "2026-10-23",
-   "source": "TuNota",
-   "url": "https://www.tunota.com/honduras-hoy/mientras-otros-paises-se-inundan-honduras-teme-quedarse-sin-agua-2026-10-23",
-   "title": "Corredor Seco acumula déficit de lluvia cercano al 50 % y se esperan lluvias bajo lo normal hasta diciembre",
-   "summary": "Según el Cenaos, el déficit llega a 60 % en algunos sectores y GEOGLAM ve más de 70 % de probabilidad de lluvias inferiores a lo normal entre octubre y diciembre. Para el comprador: más riesgo de estrés hídrico en cafetales bajos y buen clima de secado en las primeras cosechas.",
-   "regiones": [
-    "copan",
-    "el-paraiso"
-   ]
-  },
-  {
-   "id": "h6",
-   "scope": "hn",
-   "tag": "Divisas",
-   "date": "2026-10-23",
-   "source": "La Tribuna",
-   "url": "https://www.latribuna.hn/2026/10/23/depreciacion-interanual-del-lempira-es-de-2-65/",
-   "title": "El lempira se deprecia 2,65 % en un año",
-   "summary": "El tipo de cambio de referencia llegó a L26,8936 el 20 de octubre; en 2026 la depreciación acumulada es de 1,97 %.",
    "regiones": []
   },
   {
