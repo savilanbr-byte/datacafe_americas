@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T19:47:20Z",
+ "updatedAt": "2026-11-09T11:55:00Z",
  "items": [
   {
    "id": "n19",
@@ -53,17 +53,6 @@
    "summary": "La saturación llega a 80–95 % cerca del Golfo Dulce. La época seca empezaría del 3 al 15 de noviembre en el Pacífico Norte, del 8 al 23 en el Valle Central y a fines de mes en el Pacífico Sur, cuando se acelera la recolección."
   },
   {
-   "id": "n3",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-10-23",
-   "source": "Teletica",
-   "url": "https://www.teletica.com/nacional/icafe-alerta-sobre-perdidas-millonarias-por-tipo-de-cambio-del-dolar_419844",
-   "title": "ICAFE alerta que los ingresos cafetaleros cayeron cerca de 30 % por el dólar bajo",
-   "summary": "El instituto advierte que la apreciación del colón amenaza la sostenibilidad del sector: el café se vende en dólares pero se liquida en colones."
-  },
-  {
    "id": "n13",
    "scope": "cr",
    "regiones": [],
@@ -95,17 +84,6 @@
    "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
   },
   {
-   "id": "n15",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Eventos",
-   "date": "2026-10-24",
-   "source": "Teletica",
-   "url": "https://www.teletica.com/nacional/cafetaleros-costarricenses-salen-a-conquista-de-nuevos-mercados-en-importante-feria-mundial_419866",
-   "title": "Productores y exportadores costarricenses buscan nuevos mercados en World of Coffee, en Panamá",
-   "summary": "Una delegación de productores y exportadores, con fincas como El Nido y Monte Copey, presenta la calidad del grano costarricense en la feria. Es una vitrina para contactar tostadores y compradores de lotes de especialidad."
-  },
-  {
    "id": "n16",
    "scope": "mundo",
    "tag": "Mercado",
@@ -116,20 +94,53 @@
    "summary": "Los inventarios certificados de ICE suman 225.068 sacos, cerca del mínimo de mediados de septiembre, aunque el clima favorable en Brasil y un real débil limitan el alza. Para comprar en Costa Rica, el precio de referencia sigue volátil: conviene fijar diferenciales con cautela."
   },
   {
-   "id": "n18",
+   "id": "n21",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Clima",
+   "date": "2026-11-06",
+   "source": "CRHoy",
+   "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/",
+   "title": "Octubre cerró como el más seco desde 2020 en todo el país",
+   "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
+  },
+  {
+   "id": "n22",
    "scope": "cr",
    "regiones": [
-    "los-santos",
-    "zona-norte",
     "valle-central",
-    "perez-zeledon"
+    "valle-occidental",
+    "los-santos",
+    "perez-zeledon",
+    "coto-brus"
    ],
    "tag": "Clima",
-   "date": "2026-10-23",
-   "source": "CR Prensa · Infobae",
-   "url": "https://crprensa.com/2026/10/22/costa-rica-amplia-alertas-por-fenomeno-de-el-nino-ante-deficit-de-lluvias/",
-   "title": "La CNE amplía alertas por El Niño: déficit de lluvias de 43 % en el Pacífico Norte",
-   "summary": "Alerta naranja en Dota, Tarrazú, León Cortés y Tilarán, y amarilla en Pérez Zeledón y el Valle Central; de enero a septiembre llovió 27 % menos en el Pacífico Sur y 20 % menos en el Valle Central. Conviene vigilar el estrés hídrico y las floraciones de la cosecha 2027-28."
+   "date": "2026-10-26",
+   "source": "El Observador",
+   "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/",
+   "title": "IMN fija el inicio de la época seca: 13 de noviembre en el Pacífico Central y 30 de noviembre en el Pacífico Sur",
+   "summary": "El Valle Central ya entra en la transición con poca lluvia, mientras el Pacífico Central y Sur mantienen aguaceros vespertinos. El Caribe y la Zona Norte oriental no tienen época seca definida y podrían tener 30 % menos lluvia."
+  },
+  {
+   "id": "n23",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Precios",
+   "date": "2026-10-29",
+   "source": "la fatfluencer · ICAFE",
+   "url": "https://lafatfluencer.com/2026/10/29/cafe-costa-rica-precios-record-productores-dolar/",
+   "title": "Precio de exportación récord desde 1973, pero la fanega se liquida en torno a ₡117.000",
+   "summary": "El ICAFE (Marco Araya) indica que el café se exportó a unos US$300 por quintal en las últimas dos cosechas, pero el pago por fanega 2025-26 ronda ₡117.000 frente a ₡132.000 cinco cosechas antes por el dólar bajo. El tipo de cambio se come el alza del precio."
+  },
+  {
+   "id": "n24",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-10-27",
+   "source": "Viet Nam News · ANN",
+   "url": "https://asianews.network/?p=310836",
+   "title": "Vietnam arranca la cosecha con pronóstico récord de 32,5 millones de sacos para 2026/27",
+   "summary": "El pico de recolección va de fines de octubre a inicios de noviembre y los precios de exportación cayeron cerca de 20 % (unos US$4.537/t). Más robusta barata presiona el precio de referencia y puede restar demanda a los arábicas lavados."
   }
  ]
 }

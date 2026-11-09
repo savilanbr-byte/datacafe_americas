@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T19:50:00Z",
+ "updatedAt": "2026-11-09T11:55:00Z",
  "temporada": "2026-27",
  "regiones": [
   {
@@ -182,6 +182,24 @@
    "texto": "Productores reciben unos ¢30.000 menos por fanega por el tipo de cambio, según el presidente del ICAFE.",
    "fuente": "El Observador",
    "url": "https://observador.cr/mas-catastrofico-que-el-covid-productor-de-cafe-describe-el-impacto-del-dolar-bajo/"
+  },
+  {
+   "id": "r6",
+   "fecha": "2026-11-06",
+   "region": "valle-central",
+   "tipo": "noticia",
+   "texto": "Octubre fue el más seco desde 2020 (déficit de 7,9 % a 52,6 % por región); el Valle Central entra a la época seca en plena arrancada de cosecha.",
+   "fuente": "CRHoy",
+   "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/"
+  },
+  {
+   "id": "r7",
+   "fecha": "2026-10-26",
+   "region": "los-santos",
+   "tipo": "noticia",
+   "texto": "El IMN prevé la época seca en el Pacífico Sur hacia el 30 de noviembre; Los Santos suele iniciar la recolección en noviembre.",
+   "fuente": "El Observador",
+   "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/"
   }
  ]
 }

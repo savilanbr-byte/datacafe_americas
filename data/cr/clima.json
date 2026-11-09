@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T19:47:20Z",
+ "updatedAt": "2026-11-09T11:55:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -18,20 +18,20 @@
   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
  },
  "impactos": [
-  "Coto Brus está en su pico y Pérez Zeledón y Turrialba avanzan con suelos saturados en el Pacífico Sur: vigila el secado, la fruta caída y la humedad de los lotes tempranos.",
-  "El IMN prevé una semana todavía lluviosa (2–8 nov); la época seca llegaría al Valle Central entre el 8 y el 23 de noviembre y al Pacífico Sur a fines de mes: buen escenario para la maduración pareja y el secado al sol en el pico de diciembre a enero.",
-  "El Niño fuerte suele alargar la canícula y recortar lluvias en Centroamérica: puede adelantar la época seca y estresar las floraciones de la cosecha 2027-28.",
-  "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027.",
-  "Las lluvias irregulares demoraron cerca de 30 días la fertilización en varias zonas y el ICAFE recortó 10–15 % sus estimaciones: pide muestras de peso y tamaño de grano antes de fijar volúmenes."
+  "Octubre cerró con déficit de lluvia en todo el país: el Pacífico Sur sigue húmedo en suelos, pero la transición a la época seca favorece el secado al sol en Coto Brus y Pérez Zeledón, que están en plena recolección.",
+  "Valle Central y Valle Occidental entran en época seca y arrancan cosecha: buen escenario para maduración pareja, pero vigila el estrés hídrico tras un año con 20–43 % menos lluvia en Pacífico y Valle Central.",
+  "Los Santos empieza a recoger en noviembre; la época seca llegaría al Pacífico Sur hacia el 30 de noviembre, así que los lotes tempranos aún pueden traer humedad alta.",
+  "El Niño muy fuerte hasta enero de 2027 podría alargar la sequía y estresar las floraciones de la cosecha 2027-28; la sequía además favorece la broca, así que pide análisis de calidad física.",
+  "Las lluvias irregulares retrasaron cerca de 30 días la fertilización y el ICAFE recortó 10–15 % sus estimaciones: pide muestras de peso y tamaño de grano antes de fijar volúmenes."
  ],
  "avisos": {
   "source": "IMN",
-  "asOf": "2026-11-02",
-  "headline": "Semana del 2 al 8 de noviembre inestable y lluviosa, con la onda tropical #52",
+  "asOf": "2026-11-06",
+  "headline": "Octubre cerró como el más seco desde 2020 y la época seca se instala por fases: Valle Central desde el 3 de noviembre, Pacífico Sur hacia el 30 de noviembre",
   "items": [
-   "Aguaceros vespertino-nocturnos en el Pacífico y el Valle Central, y más aislados en la Zona Norte y el Caribe.",
-   "Influyen la onda tropical #52, una vaguada en niveles altos y una Zona de Convergencia Intertropical más activa.",
-   "Temperaturas a la baja en el Pacífico de miércoles a viernes; máximas de hasta 34 °C en el Pacífico Norte y la Zona Norte."
+   "Octubre tuvo déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %; 52,6 % en el Pacífico Norte), por primera vez desde 2020.",
+   "Semana de transición con menos humedad y vientos nortes: poca lluvia en el Valle Central, y aguaceros vespertinos en el Pacífico Central y Sur y en montañas del Caribe y la Zona Norte.",
+   "Inicio previsto de la época seca: Pacífico Central 13 de noviembre, Pacífico Sur 30 de noviembre, Zona Norte occidental 3 de diciembre; El Niño muy fuerte hasta enero de 2027."
   ],
   "links": [
    {
@@ -39,8 +39,12 @@
     "url": "https://www.imn.ac.cr/tendencia-semanal"
    },
    {
-    "t": "El Observador",
-    "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/"
+    "t": "CRHoy · Octubre, el más seco desde 2020",
+    "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/"
+   },
+   {
+    "t": "El Observador · Transición a la época seca",
+    "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/"
    }
   ]
  },
