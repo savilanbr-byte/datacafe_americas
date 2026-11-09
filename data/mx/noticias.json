@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-06T19:46:51Z",
+  "updatedAt": "2026-11-09T11:58:00Z",
   "items": [
+    {
+      "id": "m21",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos",
+        "oaxaca",
+        "guerrero",
+        "veracruz",
+        "puebla",
+        "robusta-golfo"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-08",
+      "source": "Proceso",
+      "url": "https://www.proceso.com.mx/nacional/2026/11/8/siguen-los-efectos-de-la-masa-de-aire-frio-del-frente-4-lluvias-de-lunes-a-jueves-en-estas-entidades-383352.html",
+      "title": "Lluvias fuertes de lunes a jueves en zonas cafeteras por el frente frío 4",
+      "summary": "El SMN prevé 25–50 mm el 9 y 10 en Veracruz, Puebla, Oaxaca y el sur de Chiapas, y hasta 75–150 mm el jueves 12 en el norte de Veracruz, con madrugadas de 0 a 5 °C en montañas. Complica el secado de pergamino y el transporte de cereza."
+    },
     {
       "id": "m20",
       "scope": "mx",
@@ -35,26 +55,6 @@
       "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
       "title": "La sequía en el Soconusco y la Costa de Chiapas amenaza la cosecha 2026-27",
       "summary": "Según Rigoberto Galindo, del Comité Nacional Sistema Producto Café, solo llovió en junio, julio y parte de septiembre, lo que causa maduración despareja y una producción menor, sin cifra oficial aún. Para el comprador: lotes irregulares y riesgo de menor calidad en la zona."
-    },
-    {
-      "id": "m18",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos",
-        "oaxaca",
-        "guerrero",
-        "veracruz",
-        "robusta-golfo",
-        "puebla"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-05",
-      "source": "UnoTV",
-      "url": "https://www.unotv.com/clima/frente-frio-trae-5-estados-con-lluvias-fuertes-este-jueves/",
-      "title": "El frente frío 4 deja hoy lluvias fuertes en el sur de Chiapas, Veracruz, Oaxaca y Guerrero",
-      "summary": "El SMN prevé 25 a 50 mm en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero, chubascos de 5 a 25 mm en Puebla y madrugadas de 0 a 5 °C en montañas poblanas. Dificulta el secado de pergamino y el traslado de cereza recién cortada."
     },
     {
       "id": "n14",

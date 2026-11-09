@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-09T11:58:00Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -131,6 +131,14 @@
       "fecha": "2026-10-28",
       "fuente": "El Demócrata",
       "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/"
+    },
+    "chiapas-soconusco": {
+      "ajusteSemanas": 0,
+      "volumen": "bajo",
+      "resumen": "La sequía prolongada causa maduración despareja y una producción menor en el Soconusco y la Costa, sin cifra oficial aún.",
+      "fecha": "2026-11-05",
+      "fuente": "Portavoz Chiapas",
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
     }
   },
   "reportes": [
@@ -169,6 +177,24 @@
       "texto": "El corte fuerte en Veracruz está previsto para la primera semana de noviembre, con compradores que estiman 16–17 pesos por kilo de cereza.",
       "fuente": "El Demócrata",
       "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/"
+    },
+    {
+      "id": "r5",
+      "fecha": "2026-11-05",
+      "region": "chiapas-soconusco",
+      "tipo": "noticia",
+      "texto": "La sequía en el Soconusco y la Costa de Chiapas (solo llovió en junio, julio y parte de septiembre) causa maduración despareja y una producción menor, según el Sistema Producto Café.",
+      "fuente": "Portavoz Chiapas",
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+    },
+    {
+      "id": "r6",
+      "fecha": "2026-11-06",
+      "region": "México",
+      "tipo": "noticia",
+      "texto": "Sucafina estima que la cosecha 2026-27 de Centroamérica y México caería 9,3 % hasta menos de 18 millones de sacos.",
+      "fuente": "Infobae · Sucafina",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
     }
   ]
 }

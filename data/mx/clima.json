@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:46:51Z",
+  "updatedAt": "2026-11-09T11:58:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,11 +23,11 @@
     "url": "https://www.yr.no/"
   },
   "impactos": [
-    "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas.",
-    "Las lluvias del frente frío 4 (25 a 50 mm hoy en el sur de Chiapas y Veracruz, Oaxaca y Guerrero) dificultan el secado del pergamino y el transporte desde fincas; conviene verificar humedad al comprar.",
-    "En las Altas Montañas de Veracruz la cereza se paga entre 7 y 12 pesos y los productores temen perder hasta 40 % por sequía, calor y lluvias; los lotes buenos se venden pronto.",
-    "Las mañanas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en la cosecha que arranca en Chiapas y Oaxaca.",
-    "El robusta de tierras bajas cosecha desde octubre: vigila la oferta frente al robusta importado, que presiona el precio local."
+    "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
+    "Las lluvias de 25 a 75 mm previstas esta semana (hasta 150 mm el jueves en el norte de Veracruz) dificultan el secado del pergamino y el traslado de cereza en Veracruz, Puebla, Oaxaca y Chiapas; conviene verificar la humedad al comprar.",
+    "En las Altas Montañas de Veracruz la cereza se paga entre 8 y 12 pesos y se espera una cosecha menor; los lotes buenos se venden pronto, con el corte fuerte arrancando en estos días.",
+    "Las madrugadas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en el corte que arranca en Chiapas, Oaxaca y Puebla.",
+    "El robusta de tierras bajas cosecha desde octubre: las lluvias del Golfo pueden frenar el corte y la oferta local compite con el robusta importado de Brasil."
   ],
   "regions": [
     {
@@ -133,17 +133,17 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-05",
-    "headline": "El frente frío 4 y una vaguada dejan hoy lluvias fuertes en el sur de Chiapas y Veracruz, el suroeste de Oaxaca y el sureste de Guerrero.",
+    "asOf": "2026-11-08",
+    "headline": "El SMN prevé lluvias fuertes de lunes a jueves en el sur y el Golfo por la masa de aire frío del frente 4, con hasta 75–150 mm en el norte de Veracruz el jueves 12.",
     "items": [
-      "Lluvias de 25 a 50 mm en el sur de Chiapas y Veracruz, suroeste de Oaxaca y sureste de Guerrero; chubascos de 5 a 25 mm en Puebla.",
-      "Mínimas de 0 a 5 °C en montañas de Puebla; máximas de 35 a 40 °C en Oaxaca y Chiapas.",
-      "Rachas de 30 a 50 km/h en Oaxaca."
+      "Lunes 9 y martes 10: chubascos fuertes de 25 a 50 mm en el centro y sur de Veracruz, Puebla, Oaxaca y el sur de Chiapas; 5–25 mm en Guerrero.",
+      "Miércoles 11 y jueves 12: lluvias muy fuertes de 50 a 75 mm en el norte de Veracruz, el norte de Puebla y el noreste/este de Chiapas, y de 75 a 150 mm en el norte de Veracruz el jueves.",
+      "Madrugadas de 0 a 5 °C en zonas montañosas de Puebla, Veracruz y Oaxaca; rachas de 40 a 60 km/h en el Istmo de Tehuantepec; máximas de 35 a 40 °C en Guerrero, Oaxaca y Chiapas."
     ],
     "links": [
       {
-        "t": "UnoTV · pronóstico SMN del 5-nov",
-        "url": "https://www.unotv.com/clima/frente-frio-trae-5-estados-con-lluvias-fuertes-este-jueves/"
+        "t": "Proceso · pronóstico SMN lunes a jueves",
+        "url": "https://www.proceso.com.mx/nacional/2026/11/8/siguen-los-efectos-de-la-masa-de-aire-frio-del-frente-4-lluvias-de-lunes-a-jueves-en-estas-entidades-383352.html"
       },
       {
         "t": "SMN · CONAGUA",
