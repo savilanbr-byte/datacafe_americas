@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:52:00Z",
+  "updatedAt": "2026-11-09T19:46:00Z",
   "items": [
     {
       "id": "s13",
@@ -24,24 +24,17 @@
       "summary": "La Asociación Cafetalera proyecta 750 mil quintales y la Mesa Agropecuaria 950 mil; ambas quedan bajo los 963.650 quintales oro uva de 2025-26 según el ISC. Para un comprador, la oferta exportable de El Salvador será menor o, en el mejor caso, similar a la del ciclo pasado."
     },
     {
-      "id": "n8",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-    },
-    {
-      "date": "2026-10-26",
-      "id": "n11",
-      "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la referencia del café salvadoreño.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+      "id": "s15",
+      "scope": "sv",
+      "regiones": [
+        "tecapa-chinameca"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-09",
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
+      "title": "Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar en los K-Coffee Awards de Corea",
+      "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
     },
     {
       "id": "s7",
