@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-11-06T19:55:00Z",
+  "updatedAt": "2026-11-09T11:58:00Z",
   "items": [
-    {
-      "id": "g7",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-10-18",
-      "source": "PYME Noticias · Anacafé",
-      "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
-      "title": "Guatemala cierra 2025-26 con 4,28 M de quintales exportados y US$1.440 M",
-      "summary": "Según el informe de Anacafé del 13-oct, el volumen subió 15 % y las divisas 12 % frente a 2024-25. Casi la mitad de las ventas va a EE. UU. (46 %); la inflación de 4,69 % en septiembre encarece mano de obra e insumos."
-    },
     {
       "id": "g8",
       "scope": "gt",
@@ -26,12 +15,12 @@
     {
       "id": "n8",
       "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Trading Economics",
       "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos hasta el 22-oct, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y los diferenciales de los lavados centroamericanos."
+      "title": "Arábica sigue cerca de mínimos de un mes y el stock brasileño en ICE sube",
+      "summary": "Al 6-nov el arábica se mantuvo en su nivel más bajo desde el 24-sep, por la expectativa de más oferta de Brasil y un real débil que anima a vender. Los inventarios certificados siguen críticamente bajos, aunque los de origen Brasil llegaron a un máximo de 9,25 meses; el riesgo alcista es El Niño."
     },
     {
       "id": "n13",
@@ -42,19 +31,6 @@
       "url": "https://www.admis.com/coffee-futures-extend-selloff/",
       "title": "Inventarios certificados de arábica en ICE bajan a 225.610 sacos",
       "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
-    },
-    {
-      "id": "g9",
-      "scope": "gt",
-      "regiones": [
-        "antigua"
-      ],
-      "tag": "Regulación",
-      "date": "2026-10-16",
-      "source": "La Hora",
-      "url": "https://lahora.gt/lh-economia/jveliz/2026/10/16/la-union-europea-protege-el-cafe-antigua-de-guatemala-con-indicaciones-geograficas-protegidas/",
-      "title": "La UE registra \"Café Antigua\" como indicación geográfica protegida",
-      "summary": "La Comisión Europea lo aprobó el 15-oct: siembra, cosecha, beneficio húmedo y secado deben ocurrir en la zona de Sacatepéquez; el tueste y la molienda pueden hacerse fuera. Europa recibió 26 % de las exportaciones de 2024-25 (3,73 M de quintales oro): el sello no garantiza mejor precio, pero exige trazabilidad a quien venda como Antigua."
     },
     {
       "id": "n14",
@@ -131,6 +107,17 @@
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
       "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
       "summary": "La comercializadora proyecta menos de 18 M de sacos (frente a 19,68 M en 2025-26); Guatemala baja menos que Honduras y México, con exportación de 3,8 M de quintales y precio de US$275–300. Menos oferta regional: conviene asegurar volumen temprano."
+    },
+    {
+      "id": "g14",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-04",
+      "source": "Prensa Latina · Anacafé",
+      "url": "https://www.prensa-latina.cu/2026/11/04/guatemala-ingresos-por-venta-de-cafe-con-nivel-mas-alto-en-16-anos/",
+      "title": "Café de Guatemala: ingresos de exportación más altos en 16 años",
+      "summary": "La cosecha 2025-26 dejó US$1.440 M (+12 %) con 4,3 M de quintales (+16 %). Estados Unidos recibió 52 %, Canadá 11 % y Japón 10 %; el café estrictamente duro fue 83 % del total. Anacafé prevé 3,8 M de quintales en 2026-27 por El Niño."
     }
   ]
 }
