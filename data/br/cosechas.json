@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:55:00Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -233,6 +233,15 @@
       "texto": "La floración del conilon en el Espírito Santo fue satisfactoria, aunque el agua sigue siendo clave para la cosecha 2027.",
       "fuente": "Comunicaffe · CEPEA",
       "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
+    },
+    {
+      "id": "b7",
+      "fecha": "2026-11-06",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "Hedgepoint: las lluvias sobre el promedio de septiembre y octubre apoyaron la floración 2027/28; el arábica bajaría por el ciclo bienal y el conilon podría crecer, con El Niño como riesgo en el primer trimestre de 2027.",
+      "fuente": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:55:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -12,7 +12,7 @@
         "v": "83%"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
@@ -25,7 +25,7 @@
   "impactos": [
     "Las floradas de la safra 2027-28 salieron bien y el cuajado (pegamento) luce bueno en Mogiana, Norte Pioneiro y Sul de Minas, pero noviembre lo decide: el INMET prevé menos lluvia y hasta 2 °C más de calor, y CEPEA ve riesgo de caída de frutos en São Paulo y Cerrado; la confirmación llega en diciembre.",
     "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-    "El dólar cerró en R$5,4885 el 5-nov (+0,68 %) tras el Copom (Selic en 13,75 %); un real débil sostiene los precios internos aunque Nueva York cae (277 ¢/lb). Vigila el ritmo de ventas del productor y los diferenciales FOB.",
+    "El dólar cerró en R$5,5115 el 6-nov, su nivel más alto del año; un real débil sostiene los precios internos (arábica CEPEA R$1.611) aunque Nueva York cae (≈277 ¢/lb). Vigila el ritmo de ventas del productor y los diferenciales FOB.",
     "El Niño suele traer lluvias irregulares y más calor al Sudeste; en Rondônia el mes seco ya trajo broca temprana, y en el conilon del Espírito Santo la floración fue satisfactoria pero el agua sigue siendo clave para 2027."
   ],
   "avisos": {
@@ -36,7 +36,7 @@
       "CEPEA (6-nov): tras lluvias en el Cerrado Mineiro llegaron sol intenso y altas temperaturas; el cuajado se confirmará hacia diciembre. En la Paulista (Garça) preocupa que el calor ligado a El Niño provoque caída de frutos (Comunicaffe).",
       "INMET prevé para noviembre menos lluvia en Minas Gerais y Espírito Santo y hasta +2 °C sobre el promedio en el Sudeste y oeste de Bahia (Correio Braziliense, 30-oct).",
       "Rondônia: casi un mes seco tras dos floraciones llevó a ataques tempranos de broca; en el Espírito Santo la floración fue satisfactoria (CEPEA, 6-nov).",
-      "Lluvias sobre el promedio en septiembre y octubre ayudaron la floración; Hedgepoint advierte posibles efectos de El Niño en el primer trimestre de 2027 (Notícias Agrícolas, 5-nov)."
+      "Lluvias sobre el promedio en septiembre y octubre ayudaron la floración; Hedgepoint ve buen arranque de la safra 2027/28 y advierte posibles efectos de El Niño en el primer trimestre de 2027 (Notícias Agrícolas, 6-nov)."
     ],
     "links": [
       {

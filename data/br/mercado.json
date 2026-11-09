@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:55:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,13 +18,13 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.4935,
+      "value": 5.4621,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-03",
-      "source": "BCB · InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "note": "PTAX de venta del 3-nov (BCB), +1,3 % frente a los R$5,4212 del 30-oct. No se pudo confirmar la PTAX del 4-nov."
+      "asOf": "2026-11-05",
+      "source": "BCB · Game Over Drive",
+      "url": "https://gameoverdrive.com.br/dolar-hoje-6-novembro-2026-cotacao/",
+      "note": "PTAX de venta del 5-nov (BCB) según un medio secundario; no se confirmó la PTAX del 6-nov. El dólar comercial cerró en R$5,5115 el 6-nov."
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",

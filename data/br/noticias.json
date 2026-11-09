@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:55:00Z",
   "items": [
     {
       "id": "b13",
@@ -185,6 +185,37 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-5-7-em-nova-york-dolar-sustenta-precos-no-brasil",
       "title": "Safras: el arábica cae 5,7 % en Nueva York en la semana, pero el dólar sostiene los precios en Brasil",
       "summary": "El contrato marzo/27 bajó de 285,45 a 269,25 ¢/lb entre el 29-oct y el 5-nov, mientras el arábica bebida buena del Sul de Minas siguió en R$1.650 por saca y el conilon tipo 7 en Vitória subió de R$960 a R$975. Los productores dosifican los lotes y las exportaciones de octubre podrían superar 5 M de sacas."
+    },
+    {
+      "id": "b26",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-06",
+      "source": "Notícias Agrícolas · Secex",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html",
+      "title": "Brasil exportó en octubre unas 287.350 t de café verde, 23 % más, a un precio medio 14,7 % menor",
+      "summary": "Según la Secex, los embarques de octubre crecieron 23,28 % interanual, pero el precio medio cayó a US$5.568 por tonelada. Más café llegando a los puertos y a los almacenes certificados de ICE amplía la oferta disponible para el comprador; el dato de Cecafé sale en los próximos días."
+    },
+    {
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html",
+      "title": "Arábica cierra la semana −2,5 % en 280 ¢/lb; robusta +2,1 % por la India",
+      "summary": "El diciembre cerró en 280,00 ¢/lb y el robusta enero en US$3.270/t. La India recortó su estimación 2026/27 de 400.000 a 380.000 t por un monzón débil, mientras la cosecha de Vietnam avanza y puede sumar oferta."
+    },
+    {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-09",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431030-em-ny-futuros-do-arabica-perdem-mais-de-1-pressionado-por-perspectivas-de-maior-oferta-brasileira.html",
+      "title": "El arábica pierde más de 1 % en Nueva York por la perspectiva de más oferta brasileña",
+      "summary": "A media sesión del 9-nov el diciembre rondaba 276,75 ¢/lb. Las lluvias de septiembre y octubre mejoran el panorama de la safra 2027/28 (Hedgepoint), aunque los stocks certificados de ICE (220.379 sacas) siguen cerca de mínimos de 27 años."
     }
   ]
 }
