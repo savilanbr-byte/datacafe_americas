@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:47:03Z",
+  "updatedAt": "2026-11-09T11:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,9 +23,9 @@
     "period": ""
   },
   "impactos": [
-    "El INETER anuncia el cierre de las lluvias y días secos y calurosos: buen clima para el inicio del corte y el secado al sol del pergamino en Jinotega y Matagalpa.",
-    "Con El Niño en nivel fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct: la lata se paga a C$80–100 y algunas fincas ven hasta 50 % de maduración), crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
-    "Las Segovias, Madriz y Estelí cosechan más tarde; el calor de 31–34 °C favorece el secado, pero conviene vigilar la humedad del grano en bodega.",
+    "El INETER prevé más lluvias del 6 al 8 de nov en el Norte y el Centro: puede frenar el secado al sol del pergamino en Jinotega y Matagalpa, que ya empezaron el corte.",
+    "Con El Niño fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct: C$80–100 por lata) crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
+    "Las Segovias, Madriz y Estelí cosechan más tarde; la lluvia ocasional exige vigilar la humedad del grano en bodega.",
     "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
     "El Caribe Sur (robusta) mantiene lluvias débiles pero presentes: más riesgo de humedad en el secado."
   ],
@@ -113,17 +113,17 @@
   ],
   "avisos": {
     "source": "INETER",
-    "asOf": "2026-10-26",
-    "headline": "INETER prevé calor y lluvias débiles: transición gradual hacia el final del periodo lluvioso.",
+    "asOf": "2026-11-06",
+    "headline": "INETER: centro de baja presión en el Pacífico aumenta las lluvias el fin de semana.",
     "items": [
-      "Máximas de 34 a 36 °C en el Pacífico y de 31 a 34 °C en el resto del país; 28 a 31 °C en las zonas altas de Jinotega y Matagalpa.",
-      "Lluvias ligeras e intermitentes, sobre todo en el Caribe; vientos débiles a moderados de 10 a 25 km/h.",
-      "Según el INETER, es lo típico de finales de octubre e inicios de noviembre; llegarían vientos del norte de fin de año."
+      "Más lluvias el viernes 6, sábado y domingo, sobre todo en el Pacífico, el Norte y el Centro del país.",
+      "El sistema está a unos 500 km al suroeste de San Juan del Sur y tiene 40 % de probabilidad de fortalecerse en 7 días.",
+      "Oleaje de 1,5 a 2 m en el Pacífico y el lago Cocibolca."
     ],
     "links": [
       {
-        "t": "Nuevaya · INETER",
-        "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/"
+        "t": "Atrévete y Explora · INETER",
+        "url": "https://www.atreveteyexplora.com/nacionales/ineter-centro-de-baja-presion-continuara-generando-lluvias-este-viernes-06-noviembre-2026/"
       },
       {
         "t": "INETER",

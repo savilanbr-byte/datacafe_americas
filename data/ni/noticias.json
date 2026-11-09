@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:47:03Z",
+  "updatedAt": "2026-11-09T11:50:00Z",
   "items": [
     {
       "id": "ni1",
@@ -13,37 +13,6 @@
       "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
       "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
       "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
-    },
-    {
-      "id": "ni8",
-      "scope": "ni",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "Prensa Latina (Conatradec)",
-      "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/",
-      "title": "Conatradec: el precio promedio de venta sube a US$294 por quintal",
-      "summary": "Según Conatradec, el precio promedio pasó de US$272 a US$294 por quintal en 2026, con Nueva York entre US$260 y algo más de US$300; la cosecha 2026-27 se proyecta en 3 M de quintales, menos de 7 % bajo los máximos recientes. Es cifra del gremio vinculado al Gobierno; el BCN da la misma proyección de US$294."
-    },
-    {
-      "id": "n8",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los orígenes centroamericanos."
-    },
-    {
-      "date": "2026-10-26",
-      "id": "n11",
-      "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre los precios del café de Nicaragua.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
     },
     {
       "id": "ni5",
@@ -121,17 +90,6 @@
       "summary": "Según el informe del 29 de octubre, el stock certificado está 4.389 sacos por encima del mínimo de 27 años (217.646). El primer aviso de diciembre es el 19 de noviembre; la tensión de entrega sostiene el arábica."
     },
     {
-      "id": "ni11",
-      "scope": "ni",
-      "regiones": [],
-      "tag": "Eventos",
-      "date": "2026-10-28",
-      "source": "Canal 4",
-      "url": "https://www.canal4.com.ni/el-13-de-noviembre-de-cada-ano-se-reconoce-como-dia-nacional-del-cafe/",
-      "title": "El Gobierno declara el 13 de noviembre como Día Nacional del Café",
-      "summary": "La copresidenta Rosario Murillo anunció el 28 de octubre la fecha anual, propuesta por la Secretaría de Economía Creativa, para reconocer a las familias productoras. Es un anuncio oficial sin cifras de mercado; sirve como referencia de las actividades promocionales del sector en noviembre."
-    },
-    {
       "id": "ni12",
       "scope": "ni",
       "regiones": [],
@@ -161,6 +119,31 @@
       "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
       "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
       "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua."
+    },
+    {
+      "id": "ni13",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "nueva-segovia"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-15",
+      "source": "El Diario Nica",
+      "url": "https://eldiarionica.com/2026/10/15/cooperativa-proyecta-exportar-20-mil-quintales-de-cafe/",
+      "title": "Soppexca arranca el corte en La Dalia, El Cuá y Rancho Grande",
+      "summary": "La Unión de Cooperativas Soppexca (Jinotega, unos 300 socios) proyecta exportar 20.000 quintales oro a EE. UU. y Europa; empezó a recolectar en las zonas bajas y se prepara en San Fernando (Nueva Segovia). Señal de que los primeros lotes ya están disponibles."
+    },
+    {
+      "id": "ni14",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-06",
+      "source": "Atrévete y Explora (INETER)",
+      "url": "https://www.atreveteyexplora.com/nacionales/ineter-centro-de-baja-presion-continuara-generando-lluvias-este-viernes-06-noviembre-2026/",
+      "title": "INETER: un centro de baja presión traerá más lluvias el fin de semana",
+      "summary": "Según el INETER, las lluvias aumentan del 6 al 8 de noviembre, con más intensidad en el Pacífico, el Norte y el Centro; el sistema tiene 40 % de probabilidad de fortalecerse en 7 días. Puede complicar el secado del pergamino al inicio del corte."
     }
   ]
 }
