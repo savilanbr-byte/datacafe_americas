@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:46:34Z",
+  "updatedAt": "2026-11-09T11:47:09Z",
   "items": [
     {
       "id": "p22",
@@ -199,6 +199,26 @@
       "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/",
       "title": "Riesgo de lluvias intensas e inundaciones de noviembre a enero",
       "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
+    },
+    {
+      "id": "n12",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Kensington Coffee Co",
+      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
+      "title": "El arábica cae bajo 280 ¢/lb por primera vez desde fines de septiembre",
+      "summary": "El 4-nov el contrato diciembre de la bolsa ICE cerró en 279,75 ¢/lb (−1,48 %) por mayores exportaciones de Brasil; el robusta de Londres (enero) cerró en US$3.228/t, cerca de su mínimo de seis meses. Un diferencial de origen en Perú se mide contra una bolsa más baja."
+    },
+    {
+      "id": "n13",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "CocoaIntel",
+      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
+      "title": "Los inventarios certificados de arábica en ICE siguen cerca del mínimo de septiembre",
+      "summary": "El 2-nov el arábica diciembre cerró en 292,10 ¢/lb (+1,71 %), aún ~5 % bajo el cierre del 23-oct, y el robusta enero en US$3.241/t; la oferta para entrega inmediata sigue limitada."
     }
   ]
 }
