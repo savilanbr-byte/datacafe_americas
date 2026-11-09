@@ -12,17 +12,6 @@
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
     },
     {
-      "date": "2026-10-25",
-      "id": "a39",
-      "pais": "Costa Rica",
-      "scope": "am",
-      "source": "Monumental",
-      "summary": "Son cerca del 1% de los unos 6.000 recolectores que requiere la cosecha, según ICAFE. La recolección está en su punto máximo en Coto Brus y se intensifica en Pérez Zeledón y Los Santos; la falta de mano de obra puede retrasar entregas.",
-      "tag": "Producción",
-      "title": "Costa Rica: solo 60 nacionales se han anotado para recoger café",
-      "url": "https://www.monumental.co.cr/2026/10/25/icafe-contabiliza-apenas-60-costarricenses-interesados-en-recolectar-cafe-este-ano/"
-    },
-    {
       "date": "2026-10-28",
       "id": "a50",
       "pais": "Nicaragua",
@@ -32,17 +21,6 @@
       "tag": "Producción",
       "title": "Nicaragua: el precio medio del café sube a US$294 por quintal y la cosecha 2026-27 rondaría 3 millones de quintales",
       "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/"
-    },
-    {
-      "date": "2026-10-23",
-      "id": "a42",
-      "pais": "Venezuela",
-      "scope": "am",
-      "source": "AVN",
-      "summary": "La cifra es oficial y no precisa la base de cálculo. En Lara hay unas 50.000 hectáreas y se prevé cerca de un millón de quintales.",
-      "tag": "Producción",
-      "title": "Venezuela: el ministro de Agricultura estima +15% en la cosecha 2026-27",
-      "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
     },
     {
       "date": "2026-10-26",
@@ -109,17 +87,6 @@
       "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/"
     },
     {
-      "date": "2026-11-04",
-      "id": "a56",
-      "pais": "Brasil",
-      "scope": "am",
-      "source": "Cepea · Notícias Agrícolas",
-      "summary": "El indicador Cepea/Esalq del arábica bajó 0,64% el 4 de noviembre, a R$ 1.600,77 por saco de 60 kg, tras subir 0,79% el día anterior. Se mueve en un rango estrecho (R$ 1.590–1.627) desde el 26 de octubre.",
-      "tag": "Precios",
-      "title": "Brasil: el indicador Cepea del arábica cierra en R$ 1.600,77 por saco",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica"
-    },
-    {
       "date": "2026-10-30",
       "id": "a57",
       "scope": "mundo",
@@ -171,7 +138,40 @@
       "tag": "Producción",
       "title": "Centroamérica y México: Sucafina prevé una cosecha 2026-27 un 9,3% menor, bajo 18 millones de sacos",
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
+    },
+    {
+      "id": "b1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Agronegocios · La República",
+      "url": "https://www.agronegocios.co/agricultura/produccion-cafetera-con-corte-a-octubre-de-2026-4519174",
+      "title": "Colombia: la producción de octubre cae 8 % y el año cierra en 12,56 millones de sacos",
+      "summary": "Octubre sumó 1,114 millones de sacos (−8 %) y los últimos doce meses 12,56 millones (−15 %). Las exportaciones del mes subieron 6 % (1,119 millones), pero en doce meses son 11,85 millones (−11 %): oferta local aún corta."
+    },
+    {
+      "id": "b2",
+      "scope": "am",
+      "pais": "Costa Rica",
+      "tag": "Producción",
+      "date": "2026-11-03",
+      "source": "Tico Times · Icafé",
+      "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
+      "title": "Costa Rica: El Niño recorta la cosecha 10–15 % frente a lo estimado",
+      "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
+    },
+    {
+      "id": "b3",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Precios",
+      "date": "2026-11-06",
+      "source": "Cepea · Três Pontas Studio",
+      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-semana-em-alta-e-chega-a-r-1-61114/",
+      "title": "Brasil: el indicador Cepea del arábica cierra la semana en R$ 1.611,14 por saca",
+      "summary": "El arábica subió 0,45 % el 6-nov y 1,28 % en la semana; el conilon quedó en R$ 977,34 por saca (+1,23 % semanal). Con el real débil, el precio interno se sostiene pese a la caída en Nueva York."
     }
   ],
-  "updatedAt": "2026-11-06T19:55:00Z"
+  "updatedAt": "2026-11-09T11:55:00Z"
 }

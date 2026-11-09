@@ -11,19 +11,19 @@
         "v": "83%"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "7 al 13 de noviembre",
+    "period": "10 al 16 de noviembre",
     "url": "https://www.yr.no/"
   },
   "impactos": [
-    "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Anacafé teme caídas de 5–15% en Guatemala y en El Salvador se esperan menos quintales en 2026-27.",
-    "Colombia y Venezuela: el déficit fuerte de lluvias llega desde diciembre; pone en riesgo floraciones y el llenado de grano de las cosechas del primer semestre de 2027.",
+    "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Icafé ya habla de cosecha 10–15 % menor en Costa Rica y Sucafina de −9,3 % regional; Honduras y México bajarían más.",
+    "Colombia y Venezuela: Chinchiná recibe unos 94 mm esta semana, lo que complica el secado; el déficit fuerte de lluvias llega desde diciembre y pone en riesgo floraciones y llenado de grano del primer semestre de 2027.",
     "Perú y Ecuador: El Niño trae lluvias fuertes a la costa norte; en las zonas cafeteras de sierra y selva el efecto es más variable. Vigila logística y puertos.",
     "Brasil: Cepea reporta buena floración y cuajado para la cosecha 2027/28, con lluvias en general; el calor y un posible El Niño son el riesgo de aborto del fruto, y el Cerrado no lo confirma hasta diciembre.",
     "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
@@ -31,15 +31,15 @@
   "regions": [
     {
       "dept": "México",
-      "p7": 50.6,
+      "p7": 20.8,
       "place": "Tapachula, Chiapas",
       "region": "mexico",
       "tmax": 31,
-      "tmin": 23
+      "tmin": 24
     },
     {
       "dept": "Guatemala",
-      "p7": 18.5,
+      "p7": 29.9,
       "place": "Antigua",
       "region": "guatemala",
       "tmax": 25,
@@ -47,39 +47,39 @@
     },
     {
       "dept": "Honduras",
-      "p7": 30.9,
+      "p7": 14.4,
       "place": "Marcala, La Paz",
       "region": "honduras",
-      "tmax": 24,
-      "tmin": 17
+      "tmax": 26,
+      "tmin": 16
     },
     {
       "dept": "El Salvador",
-      "p7": 30.7,
+      "p7": 17.4,
       "place": "Santa Ana",
       "region": "el-salvador",
-      "tmax": 30,
+      "tmax": 32,
       "tmin": 21
     },
     {
       "dept": "Nicaragua",
-      "p7": 31.3,
+      "p7": 28.5,
       "place": "Matagalpa",
       "region": "nicaragua",
-      "tmax": 27,
+      "tmax": 28,
       "tmin": 20
     },
     {
       "dept": "Costa Rica",
-      "p7": 43.3,
+      "p7": 30.7,
       "place": "San Marcos de Tarrazú",
       "region": "costa-rica",
-      "tmax": 24,
-      "tmin": 17
+      "tmax": 25,
+      "tmin": 16
     },
     {
       "dept": "Panamá",
-      "p7": 65.9,
+      "p7": 40.0,
       "place": "Boquete, Chiriquí",
       "region": "panama",
       "tmax": 24,
@@ -87,7 +87,7 @@
     },
     {
       "dept": "Colombia",
-      "p7": 50.8,
+      "p7": 94.3,
       "place": "Chinchiná, Caldas",
       "region": "colombia",
       "tmax": 26,
@@ -95,7 +95,7 @@
     },
     {
       "dept": "Venezuela",
-      "p7": 11.6,
+      "p7": 7.3,
       "place": "Boconó, Trujillo",
       "region": "venezuela",
       "tmax": 26,
@@ -103,7 +103,7 @@
     },
     {
       "dept": "Ecuador",
-      "p7": 15.2,
+      "p7": 25.5,
       "place": "Loja",
       "region": "ecuador",
       "tmax": 22,
@@ -111,23 +111,23 @@
     },
     {
       "dept": "Perú",
-      "p7": 6.8,
+      "p7": 10.2,
       "place": "Jaén, Cajamarca",
       "region": "peru",
-      "tmax": 30,
+      "tmax": 31,
       "tmin": 22
     },
     {
       "dept": "Bolivia",
-      "p7": 78.0,
+      "p7": 72.0,
       "place": "Caranavi, La Paz",
       "region": "bolivia",
-      "tmax": 28,
-      "tmin": 21
+      "tmax": 30,
+      "tmin": 20
     },
     {
       "dept": "Brasil",
-      "p7": 63.2,
+      "p7": 25.3,
       "place": "Varginha, Sul de Minas",
       "region": "brasil-arabica",
       "tmax": 23,
@@ -135,12 +135,12 @@
     },
     {
       "dept": "Brasil",
-      "p7": 39.3,
+      "p7": 40.3,
       "place": "Linhares, Espírito Santo",
       "region": "brasil-conilon",
-      "tmax": 27,
+      "tmax": 26,
       "tmin": 22
     }
   ],
-  "updatedAt": "2026-11-06T19:55:00Z"
+  "updatedAt": "2026-11-09T11:55:00Z"
 }

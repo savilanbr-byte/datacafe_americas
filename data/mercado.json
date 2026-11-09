@@ -1,18 +1,18 @@
 {
   "curve": {
-    "asOf": "2026-11-04",
+    "asOf": "2026-11-06",
     "points": [
       {
         "contract": "Dic-26",
-        "value": 279.75
+        "value": 280.0
       },
       {
         "contract": "Mar-27",
-        "value": 270.9
+        "value": 271.65
       },
       {
         "contract": "May-27",
-        "value": 267.15
+        "value": 267.7
       },
       {
         "contract": "Jul-27",
@@ -20,41 +20,41 @@
       },
       {
         "contract": "Sep-27",
-        "value": 262.7
+        "value": 262.35
       }
     ],
     "source": "Investing.com",
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-06",
+    "asOf": "2026-11-09",
     "base": "USD",
     "rates": {
-      "BOB": 12.102692,
-      "BRL": 5.468173,
-      "COP": 3236.818587,
-      "CRC": 454.182782,
-      "GTQ": 7.649523,
-      "HNL": 26.899723,
-      "MXN": 18.71808,
-      "NIO": 36.82551,
-      "PEN": 3.449259,
-      "VES": 896.1225
+      "BRL": 5.504608,
+      "COP": 3243.549,
+      "MXN": 18.630883,
+      "GTQ": 7.644656,
+      "HNL": 26.8963,
+      "NIO": 36.807109,
+      "CRC": 453.770191,
+      "VES": 897.5383,
+      "PEN": 3.44483,
+      "BOB": 11.978142
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
   },
   "items": {
     "cot": {
-      "asOf": "2026-10-27",
-      "change": -2233,
+      "asOf": "2026-11-03",
+      "change": -5372,
       "dec": 0,
       "label": "Fondos (managed money) neto",
-      "note": "Largos 37.556 · cortos 17.452. Neto comprado pero bajando.",
+      "note": "Largos 34.613 · cortos 19.881. Neto comprado, baja por segunda semana.",
       "source": "CFTC COT",
       "unit": "contratos",
       "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-      "value": 20104
+      "value": 14732
     },
     "expoBR": {
       "asOf": "2026-09-30",
@@ -139,51 +139,48 @@
     },
     "kc1": {
       "asOf": "2026-11-06",
-      "change": 3.0,
+      "change": 2.85,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 6-nov (Investing, histórico); +1,08% frente al cierre del 5-nov (277,15)",
+      "note": "Cierre del 6-nov (Investing, histórico); +1,03% frente al cierre del 5-nov (277,15)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "value": 280.15
+      "value": 280.0
     },
     "kc2": {
-      "asOf": "2026-11-04",
-      "change": -3.7,
+      "asOf": "2026-11-06",
       "chgDec": 2,
       "contract": "Mar-27",
       "dec": 2,
       "label": "KC C2",
-      "note": "Página de contratos de Investing del 4-nov (13:34, Bogotá; con retraso)",
+      "note": "Cierre del 6-nov derivado de la página de contratos de Investing del 9-nov (último precio menos variación del día)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 270.9
+      "value": 271.65
     },
     "kc3": {
-      "asOf": "2026-11-04",
-      "change": -3.8,
+      "asOf": "2026-11-06",
       "chgDec": 2,
       "contract": "May-27",
       "dec": 2,
       "label": "KC C3",
-      "note": "Página de contratos de Investing del 4-nov (13:34, Bogotá; con retraso)",
+      "note": "Cierre del 6-nov derivado de la página de contratos de Investing del 9-nov (último precio menos variación del día)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 267.15
+      "value": 267.7
     },
     "kc4": {
-      "asOf": "2026-11-04",
-      "change": -3.65,
+      "asOf": "2026-11-06",
       "chgDec": 2,
       "contract": "Jul-27",
       "dec": 2,
       "label": "KC C4",
-      "note": "Página de contratos de Investing del 4-nov (13:34, Bogotá; con retraso)",
+      "note": "Cierre del 6-nov derivado de la página de contratos de Investing del 9-nov (último precio menos variación del día)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
@@ -201,17 +198,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-06",
-      "change": 32.0,
-      "changePct": 0.99,
+      "asOf": "2026-11-09",
+      "change": 13.0,
+      "changePct": 0.4,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
-      "note": "Cierre 6-nov (Investing); contrato frente enero 2027",
+      "note": "Intradía 9-nov (Investing); contrato frente enero 2027",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3270.0
+      "value": 3283.0
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -263,5 +260,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-06T19:55:00Z"
+  "updatedAt": "2026-11-09T11:55:00Z"
 }
