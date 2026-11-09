@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:46:55Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -143,15 +143,6 @@
   },
   "reportes": [
     {
-      "id": "m1",
-      "fecha": "2026-10-13",
-      "region": "veracruz",
-      "tipo": "noticia",
-      "texto": "Cereza convencional a 7–10 pesos por kilo en el centro de Veracruz; la CNOC pide un mínimo de 16 y los compradores grandes empiezan en noviembre.",
-      "fuente": "Hora Cero",
-      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
-    },
-    {
       "id": "m2",
       "fecha": "2026-10-12",
       "region": "México",
@@ -159,6 +150,15 @@
       "texto": "El indicador Otros Suaves de la OIC bajó 8,8 % en septiembre, a 329,44 ¢/lb.",
       "fuente": "Alerta Chiapas",
       "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/"
+    },
+    {
+      "id": "m1",
+      "fecha": "2026-10-13",
+      "region": "veracruz",
+      "tipo": "noticia",
+      "texto": "Cereza convencional a 7–10 pesos por kilo en el centro de Veracruz; la CNOC pide un mínimo de 16 y los compradores grandes empiezan en noviembre.",
+      "fuente": "Hora Cero",
+      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/"
     },
     {
       "id": "r3",
@@ -179,6 +179,15 @@
       "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/"
     },
     {
+      "id": "r7",
+      "fecha": "2026-11-04",
+      "region": "chiapas-soconusco",
+      "tipo": "noticia",
+      "texto": "Cafetaleros del Soconusco temen dejar parte de la cereza sin cosechar por la llegada de menos jornaleros guatemaltecos.",
+      "fuente": "Revista Flow",
+      "url": "https://revistaflow.com/produccion-de-cafe-en-chiapas-esta-en-riesgo-por-falta-de-trabajadores-bajos-precios-y-cambio-climatico/"
+    },
+    {
       "id": "r5",
       "fecha": "2026-11-05",
       "region": "chiapas-soconusco",
@@ -195,6 +204,15 @@
       "texto": "Sucafina estima que la cosecha 2026-27 de Centroamérica y México caería 9,3 % hasta menos de 18 millones de sacos.",
       "fuente": "Infobae · Sucafina",
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
+    },
+    {
+      "id": "r8",
+      "fecha": "2026-11-06",
+      "region": "veracruz",
+      "tipo": "noticia",
+      "texto": "En las Altas Montañas la cereza se pagaba a 12–15 MXN/kg el 5 de noviembre, con el corte ya en marcha en Huatusco y Zongolica.",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/"
     }
   ]
 }

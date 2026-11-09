@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:46:55Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -12,7 +12,7 @@
         "v": "83%"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento sigue fortaleciéndose y podría estar entre los más fuertes registrados.",
+    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
@@ -25,8 +25,8 @@
   "impactos": [
     "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
     "Las lluvias de 25 a 75 mm previstas esta semana (hasta 150 mm el jueves en el norte de Veracruz) dificultan el secado del pergamino y el traslado de cereza en Veracruz, Puebla, Oaxaca y Chiapas; conviene verificar la humedad al comprar.",
-    "En las Altas Montañas de Veracruz la cereza se paga entre 8 y 12 pesos y se espera una cosecha menor; los lotes buenos se venden pronto, con el corte fuerte arrancando en estos días.",
-    "Las madrugadas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la mano de obra en el corte que arranca en Chiapas, Oaxaca y Puebla.",
+    "En las Altas Montañas de Veracruz la cereza subió a 12–15 pesos por kilo (5-nov) frente a 7–12 en octubre, aún bajo el mínimo de 16 que pide la CNOC; se espera una cosecha menor y el corte fuerte arranca estos días.",
+    "Las madrugadas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la falta de cortadores en el Soconusco, donde llegan menos jornaleros guatemaltecos.",
     "El robusta de tierras bajas cosecha desde octubre: las lluvias del Golfo pueden frenar el corte y la oferta local compite con el robusta importado de Brasil."
   ],
   "regions": [

@@ -1,6 +1,55 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:46:55Z",
   "items": [
+    {
+      "id": "m22",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-06",
+      "source": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/",
+      "title": "La cereza sube a 12–15 pesos por kilo en las Altas Montañas",
+      "summary": "Productores reportaron 12–15 MXN/kg el 5 de noviembre en los centros de compra de la región (Boca del Monte hasta 14; Huatusco 12,40–13), por encima de los 7–12 de octubre, aún lejos del mínimo de 16 que pide la CNOC. Para comprar: el precio varía por comunidad y centro de acopio."
+    },
+    {
+      "id": "m23",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-11-04",
+      "source": "Revista Flow",
+      "url": "https://revistaflow.com/produccion-de-cafe-en-chiapas-esta-en-riesgo-por-falta-de-trabajadores-bajos-precios-y-cambio-climatico/",
+      "title": "Soconusco teme perder café en la mata por falta de cortadores",
+      "summary": "Ismael Gómez Coronel, de la Asociación Regional de Productores de Café Unidos para estar Bien, advierte que llegan menos jornaleros guatemaltecos y que parte de la cereza podría caer sin cosecharse; pide financiamiento y un programa de apoyo. Riesgo de menor volumen disponible en la zona."
+    },
+    {
+      "id": "m24",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Eventos",
+      "date": "2026-11-09",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/11/09/tapachula-cumbre-cafe-chiapas-coffee-summit-gratis/",
+      "title": "Chiapas Coffee Summit en Tapachula del 23 al 28 de noviembre",
+      "summary": "La primera cumbre internacional del café en Chiapas reunirá a unos 15 compradores de España, Francia, Austria, EE. UU., Alemania y Costa Rica, con catas, presentación de la oferta exportable (25 y 26) y visitas a fincas (27 y 28); el gobierno estatal espera unos 60 millones de pesos en ventas. Oportunidad para conocer lotes de Chiapas."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Kensington Coffee Co",
+      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
+      "title": "Arábica de diciembre cae a 279,75 ¢/lb el 4 de noviembre, su primer cierre bajo 280 desde fines de septiembre",
+      "summary": "Los operadores descuentan mayores exportaciones de Brasil; el robusta de enero cerró en US$3.228/t (+18). Referencia a la baja para el cálculo del precio del pergamino mexicano."
+    },
     {
       "id": "m21",
       "scope": "mx",

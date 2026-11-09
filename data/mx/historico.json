@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:58:00Z",
+  "updatedAt": "2026-11-09T19:46:55Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -57,6 +57,10 @@
         [
           "2026-11-06",
           18.6297
+        ],
+        [
+          "2026-11-09",
+          18.5983
         ]
       ],
       "note": "FIX de Banxico. La serie arranca el 20-oct-2026 y suma un dato por actualización.",
@@ -381,6 +385,10 @@
         [
           "2026-11-06",
           3270.0
+        ],
+        [
+          "2026-11-09",
+          3283.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
