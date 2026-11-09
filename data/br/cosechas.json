@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:47:00Z",
+  "updatedAt": "2026-11-09T11:58:00Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -215,6 +215,24 @@
       "texto": "El INMET prevé para noviembre lluvias reducidas en Minas y Espírito Santo y hasta +2 °C en el Sudeste, mes clave del cuajado de la safra 2027.",
       "fuente": "Correio Braziliense · INMET",
       "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
+    },
+    {
+      "id": "b5",
+      "fecha": "2026-11-06",
+      "region": "rondonia",
+      "tipo": "noticia",
+      "texto": "Casi un mes seco tras dos floraciones provocó ataques tempranos de broca en los cafetales de Rondônia.",
+      "fuente": "Comunicaffe · CEPEA",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
+    },
+    {
+      "id": "b6",
+      "fecha": "2026-11-06",
+      "region": "conilon-es",
+      "tipo": "noticia",
+      "texto": "La floración del conilon en el Espírito Santo fue satisfactoria, aunque el agua sigue siendo clave para la cosecha 2027.",
+      "fuente": "Comunicaffe · CEPEA",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
     }
   ]
 }
