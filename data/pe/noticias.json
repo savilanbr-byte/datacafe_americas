@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:47:09Z",
+  "updatedAt": "2026-11-09T19:50:00Z",
   "items": [
     {
       "id": "p22",
@@ -93,19 +93,6 @@
       "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
       "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
       "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
-    },
-    {
-      "id": "p17",
-      "scope": "pe",
-      "regiones": [
-        "cusco"
-      ],
-      "tag": "Regulación",
-      "date": "2026-10-23",
-      "source": "Agraria.pe",
-      "url": "https://www.agraria.pe/noticias/contrarreloj-160-mil-predios-de-cafe-aun-no-son-geolocalizad-43334",
-      "title": "160 mil predios de café, cacao y palma aún no están geolocalizados para la UE",
-      "summary": "MIDAGRI lleva 240 mil de unos 400 mil polígonos (60 %). Con el EUDR vigente desde enero de 2027, cooperativas piden postergar las sanciones a 2028; para comprar con destino UE conviene exigir geolocalización."
     },
     {
       "id": "p19",
