@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:47:19Z",
+  "updatedAt": "2026-11-09T11:52:00Z",
   "temporada": "2026-27",
   "fuente": "OIC · CSC",
   "url": "https://www.ico.org/documents/cy2015-16/Presentations/7.2 EL SALVADOR.pdf",
@@ -79,6 +79,15 @@
   ],
   "estado": {},
   "reportes": [
+    {
+      "id": "s4",
+      "fecha": "2026-11-06",
+      "region": "El Salvador",
+      "tipo": "noticia",
+      "texto": "Con la corta en marcha desde octubre, la Asociación Cafetalera estima 750 mil quintales y la Mesa Agropecuaria 950 mil para 2026-27, frente a 963.650 de 2025-26.",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
+    },
     {
       "id": "s1",
       "fecha": "2026-10-09",
