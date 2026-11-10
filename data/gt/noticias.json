@@ -1,26 +1,104 @@
 {
-  "updatedAt": "2026-11-10T11:50:00Z",
+  "updatedAt": "2026-11-10T19:50:00Z",
   "items": [
     {
-      "id": "g8",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-10-26",
-      "source": "Guatemala.com · INSIVUMEH",
-      "url": "https://www.guatemala.com/noticias/comunidad/pronostico-insivumeh-clima-guatemala-26-al-30-octubre-2026",
-      "title": "INSIVUMEH: menos lluvia y calor de 33–35 °C del 26 al 30 de octubre",
-      "summary": "Las lluvias bajan de sur a centro del país, con aguaceros aislados en el Pacífico y Alta Verapaz. Favorece el secado, pero el calor y el déficit de lluvia pesan sobre la cosecha 2026-27."
-    },
-    {
-      "id": "n8",
+      "id": "n16",
       "scope": "mundo",
       "tag": "Mercado",
+      "date": "2026-11-09",
+      "source": "Barchart · TradingView",
+      "url": "https://www.tradingview.com/news/barchart:a05bc7548094b:0-coffee-prices-undercut-by-rising-brazil-coffee-exports/",
+      "title": "Arábica cae a mínimo de 7 semanas por el alza de las exportaciones de Brasil y Vietnam",
+      "summary": "El contrato de diciembre cerró el lunes 9-nov con −6,40 ¢ (−2,29 %); Brasil exportó 287.000 t en octubre (+23 % anual) y Vietnam 114.000 t (+61 %). Los inventarios certificados de arábica en ICE (220.379 sacos) siguen cerca del mínimo de 27 años."
+    },
+    {
+      "id": "g16",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos"
+      ],
+      "tag": "Clima",
       "date": "2026-11-06",
-      "source": "Trading Economics",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Arábica sigue cerca de mínimos de un mes y el stock brasileño en ICE sube",
-      "summary": "Al 6-nov el arábica se mantuvo en su nivel más bajo desde el 24-sep, por la expectativa de más oferta de Brasil y un real débil que anima a vender. Los inventarios certificados siguen críticamente bajos, aunque los de origen Brasil llegaron a un máximo de 9,25 meses; el riesgo alcista es El Niño."
+      "source": "Somos Guate · CONRED/INSIVUMEH",
+      "url": "https://www.somosguate.com/conred-declara-alerta-institucional-ante-el-ingreso-del-primer-frente-frio-de-la-temporada/",
+      "title": "Primer frente frío de noviembre trae heladas al Altiplano Occidental",
+      "summary": "CONRED declaró alerta institucional por el primer frente frío del mes, con vientos del norte y heladas meteorológicas en las zonas altas de Huehuetenango, San Marcos, Quetzaltenango y Totonicapán. Para el comprador: conviene preguntar por daños en fruta y brotes en las fincas más altas de Huehuetenango y San Marcos."
+    },
+    {
+      "id": "g13",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Infobae · Reuters · Sucafina",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
+      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
+      "summary": "La comercializadora proyecta menos de 18 M de sacos (frente a 19,68 M en 2025-26); Guatemala baja menos que Honduras y México, con exportación de 3,8 M de quintales y precio de US$275–300. Menos oferta regional: conviene asegurar volumen temprano."
+    },
+    {
+      "id": "g14",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-04",
+      "source": "Prensa Latina · Anacafé",
+      "url": "https://www.prensa-latina.cu/2026/11/04/guatemala-ingresos-por-venta-de-cafe-con-nivel-mas-alto-en-16-anos/",
+      "title": "Café de Guatemala: ingresos de exportación más altos en 16 años",
+      "summary": "La cosecha 2025-26 dejó US$1.440 M (+12 %) con 4,3 M de quintales (+16 %). Estados Unidos recibió 52 %, Canadá 11 % y Japón 10 %; el café estrictamente duro fue 83 % del total. Anacafé prevé 3,8 M de quintales en 2026-27 por El Niño."
+    },
+    {
+      "id": "g11",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-03",
+      "source": "Prensa Libre · Anacafé",
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "title": "Anacafé recorta a 3,8 M de quintales la exportación esperada de 2026-27",
+      "summary": "La proyección bajó de 4,2 a 3,8 M de quintales por El Niño, que podría afectar floración y llenado del grano. El promedio de 2025-26 fue de unos US$336 por quintal oro (−2,3 %) y para 2026-27 se espera entre US$275 y US$300: menos oferta y precios más bajos para negociar."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "Arábica sube 2,7 % a US$2,95 por libra con inventarios de ICE cerca de mínimos",
+      "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
+    },
+    {
+      "id": "g15",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos",
+        "coban"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-02",
+      "source": "Emisoras Unidas · INSIVUMEH",
+      "url": "https://emisorasunidas.com/nacional/2026/11/02/bajas-temperaturas-noviembre-2026-guatemala/",
+      "title": "Noches frías de 2 a 4 °C en el Altiplano y lluvia dispersa en Alta Verapaz",
+      "summary": "Para el 2–6 de noviembre el INSIVUMEH preveía mínimas de 2 a 4 °C en el Altiplano Central y Occidental y máximas de 35–37 °C en el Pacífico y Oriente, con lluvia dispersa en Bocacosta y Alta Verapaz. Conviene vigilar el secado del grano en las zonas que ya cosechan."
+    },
+    {
+      "id": "g12",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos",
+        "atitlan",
+        "antigua",
+        "acatenango"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-01",
+      "source": "Canal Antigua · INSIVUMEH",
+      "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/",
+      "title": "INSIVUMEH: noviembre con lluvias sobre lo normal y dos frentes fríos",
+      "summary": "Las lluvias superarían lo habitual, más en Caribe, Bocacosta y Petén (220–600 mm), con mínimas de 7–17 °C en Occidente y Altiplano Central. La humedad dificulta el secado y el transporte en la cosecha temprana; el frío afecta las zonas altas."
     },
     {
       "id": "n13",
@@ -58,81 +136,6 @@
       "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/",
       "title": "INSIVUMEH prevé 16 frentes fríos para la temporada 2026-27",
       "summary": "Habría 2 frentes en noviembre, 4 en diciembre y 4 en enero, con mínimas de 10–14 °C en Occidente y Altiplano Central y picos cercanos a 0 °C. Marcan el fin de la lluvia: ayudan al secado, pero hay que vigilar el frío en las zonas altas durante la cosecha."
-    },
-    {
-      "id": "g11",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-03",
-      "source": "Prensa Libre · Anacafé",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
-      "title": "Anacafé recorta a 3,8 M de quintales la exportación esperada de 2026-27",
-      "summary": "La proyección bajó de 4,2 a 3,8 M de quintales por El Niño, que podría afectar floración y llenado del grano. El promedio de 2025-26 fue de unos US$336 por quintal oro (−2,3 %) y para 2026-27 se espera entre US$275 y US$300: menos oferta y precios más bajos para negociar."
-    },
-    {
-      "id": "g12",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos",
-        "atitlan",
-        "antigua",
-        "acatenango"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-01",
-      "source": "Canal Antigua · INSIVUMEH",
-      "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/",
-      "title": "INSIVUMEH: noviembre con lluvias sobre lo normal y dos frentes fríos",
-      "summary": "Las lluvias superarían lo habitual, más en Caribe, Bocacosta y Petén (220–600 mm), con mínimas de 7–17 °C en Occidente y Altiplano Central. La humedad dificulta el secado y el transporte en la cosecha temprana; el frío afecta las zonas altas."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "Arábica sube 2,7 % a US$2,95 por libra con inventarios de ICE cerca de mínimos",
-      "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
-    },
-    {
-      "id": "g13",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae · Reuters · Sucafina",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
-      "summary": "La comercializadora proyecta menos de 18 M de sacos (frente a 19,68 M en 2025-26); Guatemala baja menos que Honduras y México, con exportación de 3,8 M de quintales y precio de US$275–300. Menos oferta regional: conviene asegurar volumen temprano."
-    },
-    {
-      "id": "g14",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-04",
-      "source": "Prensa Latina · Anacafé",
-      "url": "https://www.prensa-latina.cu/2026/11/04/guatemala-ingresos-por-venta-de-cafe-con-nivel-mas-alto-en-16-anos/",
-      "title": "Café de Guatemala: ingresos de exportación más altos en 16 años",
-      "summary": "La cosecha 2025-26 dejó US$1.440 M (+12 %) con 4,3 M de quintales (+16 %). Estados Unidos recibió 52 %, Canadá 11 % y Japón 10 %; el café estrictamente duro fue 83 % del total. Anacafé prevé 3,8 M de quintales en 2026-27 por El Niño."
-    },
-    {
-      "id": "g15",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos",
-        "coban"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-02",
-      "source": "Emisoras Unidas · INSIVUMEH",
-      "url": "https://emisorasunidas.com/nacional/2026/11/02/bajas-temperaturas-noviembre-2026-guatemala/",
-      "title": "Noches frías de 2 a 4 °C en el Altiplano y lluvia dispersa en Alta Verapaz",
-      "summary": "Para el 2–6 de noviembre el INSIVUMEH preveía mínimas de 2 a 4 °C en el Altiplano Central y Occidental y máximas de 35–37 °C en el Pacífico y Oriente, con lluvia dispersa en Bocacosta y Alta Verapaz. Conviene vigilar el secado del grano en las zonas que ya cosechan."
     }
   ]
 }

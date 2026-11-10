@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:50:00Z",
+  "updatedAt": "2026-11-10T19:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -25,18 +25,18 @@
   "impactos": [
     "Con El Niño establecido, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
     "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) enfrentan un noviembre más lluvioso de lo normal en el norte y la Bocacosta: vigila secado, fruta caída y sobremadurez.",
-    "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración: riesgo para el tamaño de grano y el rendimiento.",
+    "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración, y las heladas de los frentes fríos en las partes más altas de Huehuetenango y San Marcos pueden dañar fruta y brotes: pregunta por daños en fincas de más de 1.800 m.",
     "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
     "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-02",
-    "headline": "Noviembre: lluvias sobre lo normal, dos frentes fríos y El Niño que persiste",
+    "asOf": "2026-11-09",
+    "headline": "Primer frente frío de noviembre con heladas en el Altiplano Occidental; noviembre sigue con lluvias sobre lo normal y El Niño",
     "items": [
-      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual, con 220–600 mm en Caribe, Bocacosta y Petén; riesgo de deslizamientos en el Norte y la Bocacosta.",
-      "Se esperan 2 frentes fríos en noviembre, con mínimas de 7–17 °C en Occidente y Altiplano Central (el primero podría llegar en la primera semana).",
-      "Semana del 2 al 6-nov: menos lluvia de sur a centro del país, con humedad de ambos litorales y lloviznas dispersas; INSIVUMEH prevé 16 frentes fríos en la temporada 2026-27.",
+      "Primer frente frío del mes (CONRED/INSIVUMEH, 6-nov): vientos del norte y heladas meteorológicas en las partes altas de Huehuetenango, San Marcos, Quetzaltenango y Totonicapán.",
+      "INSIVUMEH (9-nov): mínimas de 10–14 °C en noviembre, cercanas a 0 °C en algunas localidades de Occidente y el Altiplano Central; se esperan 2 frentes fríos en noviembre, 4 en diciembre y 4 en enero (16 en la temporada).",
+      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén, con riesgo de deslizamientos en el Norte y la Bocacosta.",
       "Los modelos internacionales dan 100 % de probabilidad de que El Niño persista en los primeros meses de 2027."
     ],
     "links": [
@@ -45,16 +45,16 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
+        "t": "Primer frente frío (Somos Guate)",
+        "url": "https://www.somosguate.com/conred-declara-alerta-institucional-ante-el-ingreso-del-primer-frente-frio-de-la-temporada/"
+      },
+      {
+        "t": "Frío de noviembre (Emisoras Unidas, 9-nov)",
+        "url": "https://emisorasunidas.com/nacional/2026/11/09/bajas-temperaturas-frio-noviembre-departamentos-guatemala/"
+      },
+      {
         "t": "Perspectiva de noviembre",
         "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/"
-      },
-      {
-        "t": "Pronóstico 2–6 nov",
-        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-2-al-6-de-noviembre-2026"
-      },
-      {
-        "t": "16 frentes fríos (Emisoras Unidas)",
-        "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/"
       }
     ]
   },
