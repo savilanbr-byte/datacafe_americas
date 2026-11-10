@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T11:50:00Z",
+ "updatedAt": "2026-11-10T19:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -23,10 +23,11 @@
   "period": ""
  },
  "impactos": [
-  "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "Las lluvias de esta semana (El Paraíso, luego el occidente) pueden frenar el secado del pergamino y el acceso a fincas: pide humedad del grano al recibir los lotes.",
-  "Con la fruta madurando pareja y falta de recolectores, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes de El Paraíso y Copán.",
-  "Las regiones altas (Montecillos y Agalta) cosechan de diciembre a abril: una época seca larga favorece el secado, pero puede estresar la floración de 2027-28."
+  "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
+  "Lluvias en el occidente hasta el jueves y el primer frente frío el fin de semana pueden frenar el secado del pergamino y el acceso a fincas de Copán y El Paraíso: pide humedad del grano al recibir los lotes.",
+  "CENAOS prevé una temporada fría atípica, con pocos frentes y diciembre–enero 1–2 °C más cálidos: buen secado en Montecillos, Opalaca y Agalta cuando arranquen, pero la fruta puede madurar de golpe y faltar recolectores.",
+  "Con la fruta madurando pareja y falta de mano de obra, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
+  "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",

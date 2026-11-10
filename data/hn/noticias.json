@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T11:50:00Z",
+ "updatedAt": "2026-11-10T19:50:00Z",
  "items": [
   {
    "id": "h10",
@@ -16,6 +16,38 @@
    ]
   },
   {
+   "id": "h11",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-11-09",
+   "source": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/presidente-bch-retos-economicos-honduras-2027-DB32556713",
+   "title": "BCH: la inflación ronda el 7 % y El Niño le suma medio punto",
+   "summary": "El presidente del BCH, Roberto Lagos, dice que la inflación está cerca del 7 % (meta 4–5 %) y volvería al rango hacia mayo–junio de 2027; el banco sube la tasa de política para frenar el deslizamiento del lempira. Las remesas crecen alrededor de 11,5 % en 2026."
+  },
+  {
+   "id": "h14",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Clima",
+   "date": "2026-11-09",
+   "source": "Tunota · CENAOS",
+   "url": "https://www.tunota.com/honduras-hoy/honduras-frente-frio-clima-navidad-2026-11-09",
+   "title": "CENAOS prevé una temporada fría atípica por El Niño",
+   "summary": "Habrá menos frentes fríos, lluvias aisladas en el corredor seco el resto de noviembre y diciembre–enero 1–2 °C sobre lo normal, según CENAOS. Favorece el secado del café, pero puede acelerar la maduración y presionar la mano de obra."
+  },
+  {
+   "id": "n17",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-09",
+   "source": "Barchart",
+   "url": "https://tradingview.com/news/barchart:bf0455cf1094b:0-soaring-brazil-coffee-exports-weigh-on-arabica-prices",
+   "title": "Exportaciones récord de Brasil llevan al arábica a mínimos de 7 semanas",
+   "summary": "Brasil exportó 287.000 t de café en octubre (+23 % interanual) y Vietnam 114.000 t (+61 %); los inventarios certificados de arábica en ICE bajaron a 220.379 sacos. El contrato de diciembre cerró en 273,60 ¢/lb (−6,40)."
+  },
+  {
    "id": "h9",
    "scope": "hn",
    "tag": "Clima",
@@ -29,6 +61,16 @@
    ]
   },
   {
+   "id": "n16",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-06",
+   "source": "Comunicaffe",
+   "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+   "title": "El arábica cae por tercera sesión a mínimos de cinco semanas por récord de exportaciones de Brasil",
+   "summary": "El contrato de diciembre cerró en 277,15 ¢/lb el 5-nov, con exportaciones brasileñas de octubre sobre 5 M de sacos y reposición gradual de inventarios certificados. Presiona el precio de referencia que recibe el productor hondureño."
+  },
+  {
    "id": "h8",
    "scope": "hn",
    "tag": "Exportaciones",
@@ -38,16 +80,6 @@
    "title": "Honduras exportó 6,67 M de sacos de café entre enero y agosto, 16,3 % más",
    "summary": "Según el BCH, las divisas del café suman US$2.067 millones, pero el precio promedio por saco de 46 kg cayó de US$361,36 a US$309,96 (−14,2 %). El volumen compensa el menor precio; el café es el 38 % de las exportaciones de mercancías generales.",
    "regiones": []
-  },
-  {
-   "id": "n14",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-01",
-   "source": "DailyForex",
-   "url": "https://es.dailyforex.com/forex-technical-analysis/2026/11/cafe-arabica-cotiza-bajo-presion-semanal-2-a-6-noviembre-2026/251277",
-   "title": "El arábica cierra la semana cerca de 278,8 ¢/lb, 17 ¢ por debajo de la anterior",
-   "summary": "Tras cerrar cerca de 295,5 ¢/lb una semana antes, el arábica tocó mínimos bajo 274 ¢/lb con un real brasileño débil (USD/BRL ≈5,44). Para el comprador de café hondureño, el diferencial puede aprovechar una bolsa más barata, pero baja el precio de referencia al productor."
   },
   {
    "id": "n15",
@@ -60,14 +92,38 @@
    "summary": "Según Sucafina, la región produciría menos de 18 M de sacos de 60 kg y Honduras y México tendrían las mayores caídas. Anticipa oferta más ajustada de café hondureño en la cosecha en curso."
   },
   {
-   "id": "n16",
+   "id": "h13",
+   "scope": "hn",
+   "regiones": [
+    "opalaca"
+   ],
+   "tag": "Regulación",
+   "date": "2026-11-03",
+   "source": "ACICAFOC",
+   "url": "https://www.acicafoc.org/2026/11/03/reglamento-eudr-una-oportunidad-para-exportar-cafe-cuidando-el-bosque/",
+   "title": "Productores de Santa Bárbara se capacitan para cumplir el EUDR",
+   "summary": "Más de 50 caficultores de Concepción del Sur (Santa Bárbara) recibieron un taller sobre el reglamento europeo de deforestación para mantener el acceso a la UE en 2027. Para compradores europeos, conviene pedir geolocalización y trazabilidad desde ya."
+  },
+  {
+   "id": "h12",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-11-02",
+   "source": "La Prensa",
+   "url": "https://www.laprensa.hn/economia/economia-regreso-mercado-interbancario-divisas-honduras-OM32494479",
+   "title": "Honduras volverá al mercado interbancario de divisas a fin de año",
+   "summary": "El BCH regresará de forma gradual al mercado interbancario hacia el cierre de 2026, tras usar subastas desde abril de 2023, periodo en que el lempira pasó de 24,57 a 26,89 por dólar (+9,47 %). Los analistas advierten riesgo de más depreciación: a vigilar para contratos en lempiras."
+  },
+  {
+   "id": "n14",
    "scope": "mundo",
    "tag": "Mercado",
-   "date": "2026-11-06",
-   "source": "Comunicaffe",
-   "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
-   "title": "El arábica cae por tercera sesión a mínimos de cinco semanas por récord de exportaciones de Brasil",
-   "summary": "El contrato de diciembre cerró en 277,15 ¢/lb el 5-nov, con exportaciones brasileñas de octubre sobre 5 M de sacos y reposición gradual de inventarios certificados. Presiona el precio de referencia que recibe el productor hondureño."
+   "date": "2026-11-01",
+   "source": "DailyForex",
+   "url": "https://es.dailyforex.com/forex-technical-analysis/2026/11/cafe-arabica-cotiza-bajo-presion-semanal-2-a-6-noviembre-2026/251277",
+   "title": "El arábica cierra la semana cerca de 278,8 ¢/lb, 17 ¢ por debajo de la anterior",
+   "summary": "Tras cerrar cerca de 295,5 ¢/lb una semana antes, el arábica tocó mínimos bajo 274 ¢/lb con un real brasileño débil (USD/BRL ≈5,44). Para el comprador de café hondureño, el diferencial puede aprovechar una bolsa más barata, pero baja el precio de referencia al productor."
   }
  ]
 }
