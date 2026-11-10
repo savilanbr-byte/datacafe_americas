@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "id": "c1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Regulación",
+      "date": "2026-11-09",
+      "source": "El Tiempo",
+      "url": "https://www.eltiempo.com/amp/economia/sectores/cafe-colombiano-exporta-11-7-por-ciento-menos-las-dificultades-que-enfrenta-el-sector-desde-las-reglas-de-comercio-hasta-el-clima-3599311",
+      "title": "Colombia: proyecto de ley gravaría con IVA de 19% el café verde y pergamino desde 2028",
+      "summary": "Las exportaciones cafeteras cayeron 11,7% en el último año cafetero y los exportadores advierten que pagar el IVA y esperar la devolución costaría más de 3,9 billones de pesos en financiación. La FNC se opone; el impuesto encarecería la compra de café colombiano si se aprueba."
+    },
+    {
+      "id": "c2",
+      "scope": "mundo",
+      "tag": "Regulación",
+      "date": "2026-11-09",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/09/vietnam-cheap-coffee-sustainability-eu-rules/",
+      "title": "Nestlé Vietnam advierte que el café barato perderá atractivo exportador por las reglas de sostenibilidad de la UE",
+      "summary": "El presidente de Nestlé Vietnam dijo el 3-nov que el robusta barato ya no será atractivo para exportar a Europa; el reglamento antideforestación de la UE aplica a la mayoría de empresas desde el 30-dic-2026. Los compradores con destino europeo deben exigir trazabilidad."
+    },
+    {
+      "id": "c3",
+      "scope": "am",
+      "pais": "El Salvador",
+      "tag": "Exportaciones",
+      "date": "2026-11-09",
+      "source": "Prensa Latina · BCR",
+      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
+      "title": "El Salvador: exportaciones de café de enero a septiembre suman US$181,4 millones, máximo en 13 años",
+      "summary": "Según el BCR se vendieron más de 553.300 quintales a un promedio de US$327,8 por quintal, unos US$24 millones más que un año antes; EE. UU. compró US$106,9 millones."
+    },
+    {
       "date": "2026-11-04",
       "id": "a28",
       "pais": "Colombia",
@@ -13,28 +45,6 @@
     },
     {
       "date": "2026-10-28",
-      "id": "a50",
-      "pais": "Nicaragua",
-      "scope": "am",
-      "source": "Prensa Latina · BCN",
-      "summary": "El precio medio pasó de US$272 a US$294 por quintal siguiendo a Nueva York, y la producción caería menos de 7% frente a máximos recientes por el clima y El Niño. Las exportaciones superan US$700 millones a septiembre y se espera cerrar el año en US$900 millones o más.",
-      "tag": "Producción",
-      "title": "Nicaragua: el precio medio del café sube a US$294 por quintal y la cosecha 2026-27 rondaría 3 millones de quintales",
-      "url": "https://www.prensa-latina.cu/2026/10/28/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/"
-    },
-    {
-      "date": "2026-10-26",
-      "id": "a43",
-      "pais": "Colombia",
-      "scope": "am",
-      "source": "Bloomberg Línea",
-      "summary": "Asoexport reporta 8,45 millones de sacos exportados de enero a septiembre (-13,8%) y pide revisar el piso de fletes terrestres (SICE-TAC), frenar los bloqueos casi semanales en la vía a Buenaventura y agilizar trámites portuarios. Estima una producción de 12 a 12,5 millones de sacos en 2026 por El Niño.",
-      "tag": "Logística",
-      "title": "Exportadores colombianos piden revisar fletes y mejorar seguridad en la vía a Buenaventura",
-      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/exportadores-de-cafe-colombiano-piden-al-gobierno-actuar-sobre-fletes-seguridad-y-tramites-portuarios/"
-    },
-    {
-      "date": "2026-10-28",
       "id": "a46",
       "scope": "mundo",
       "source": "Reuters · ESM Magazine",
@@ -42,17 +52,6 @@
       "tag": "Mercado",
       "title": "El arábica cae 2,4% tras la victoria de Lula y el real se debilita",
       "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
-    },
-    {
-      "date": "2026-10-26",
-      "id": "a51",
-      "pais": "Perú",
-      "scope": "am",
-      "source": "Infobae · Midagri",
-      "summary": "El café sin tostar ni descafeinado explica cerca del 90 % de las agroexportaciones tradicionales (US$775 millones, +3,1 %). En agosto el segmento creció 10,5 % por las ventas de café.",
-      "tag": "Exportaciones",
-      "title": "Perú: el café sin tostar suma US$702 millones en exportaciones de enero a agosto",
-      "url": "https://www.infobae.com/peru/2026/10/26/midagri-peru-vera-estancarse-su-record-historico-de-agroexportaciones-en-2026-y-no-pasara-de-usd15000-millones/"
     },
     {
       "date": "2026-11-03",
@@ -74,17 +73,6 @@
       "tag": "Exportaciones",
       "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
       "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/"
-    },
-    {
-      "date": "2026-10-29",
-      "id": "a55",
-      "pais": "México",
-      "scope": "am",
-      "source": "La Jornada Veracruz",
-      "summary": "Una comisión de precios calcula que las cotizaciones del 24 de octubre permitirían pagar unos 17 pesos por kilo, y denuncia descuentos de compradores que pueden superar US$100 por quintal. Pide reconocer un diferencial de unos US$30 por quintal al café mexicano de exportación.",
-      "tag": "Precios",
-      "title": "Veracruz: productores reciben 8–12 pesos por kilo de cereza frente a 17 que permitiría el mercado",
-      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/"
     },
     {
       "date": "2026-10-30",
@@ -173,5 +161,5 @@
       "summary": "El arábica subió 0,45 % el 6-nov y 1,28 % en la semana; el conilon quedó en R$ 977,34 por saca (+1,23 % semanal). Con el real débil, el precio interno se sostiene pese a la caída en Nueva York."
     }
   ],
-  "updatedAt": "2026-11-09T11:55:00Z"
+  "updatedAt": "2026-11-10T11:48:19Z"
 }
