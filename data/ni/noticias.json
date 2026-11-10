@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:50:00Z",
+  "updatedAt": "2026-11-10T19:47:17Z",
   "items": [
     {
       "id": "ni1",
@@ -124,6 +124,26 @@
       "url": "https://nicaraguainvestiga.com/nacion/175492-lluvias-se-reducen-pacifico-nicaragua-noviembre-2026/",
       "title": "INETER: las lluvias bajan en el Pacífico y siguen en el Caribe; se acerca un frente frío",
       "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
+    },
+    {
+      "id": "n17",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-05",
+      "source": "Reuters (Forbes Brasil)",
+      "url": "https://forbes.com.br/forbes-agro/2026/11/producao-de-cafe-da-america-central-e-do-mexico-deve-cair-em-2026-27/",
+      "title": "Sucafina prevé que la cosecha de Centroamérica y México caiga 9,3 % en 2026-27",
+      "summary": "Quedaría por debajo de 18 M de sacos de 60 kg (19,68 M en 2025-26) por sequía y calor en el primer semestre, más broca y el año bajo del ciclo bienal; Honduras, México y Guatemala caen más (Nicaragua no se detalla). Menos oferta regional tiende a sostener los diferenciales de los lavados centroamericanos."
+    },
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-09",
+      "source": "StoneX",
+      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
+      "title": "El arábica de diciembre cierra en 273,60 ¢/lb (−6,40) por liquidación y el roll de fondos",
+      "summary": "Tocó 280,60 y cayó al cierre con el mayor volumen desde julio (69.769 lotes); el robusta de enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre: volatilidad para fijar precio de café nicaragüense esta semana."
     }
   ]
 }
