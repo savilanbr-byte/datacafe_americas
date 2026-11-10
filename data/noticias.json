@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "id": "d1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-10",
+      "source": "IFM Noticias · FNC",
+      "url": "https://ifmnoticias.com/economicas/el-precio-interno-del-cafe-cae-a-cerca-de-2-millones-por-carga-y-vuelve-a-rondar/",
+      "title": "Colombia: el precio interno del café toca $2.000.000 por carga, cerca del mínimo del año",
+      "summary": "La FNC fijó el 9 de noviembre la carga de 125 kg en $2.000.000 (factor 94), a un paso del mínimo de junio ($2.005.000), por la caída del contrato C a 273,60 ¢/lb y la revaluación del peso. El pergamino colombiano está entre lo más barato del año en pesos."
+    },
+    {
+      "id": "d3",
+      "scope": "am",
+      "pais": "Panamá",
+      "tag": "Cafés especiales",
+      "date": "2026-11-10",
+      "source": "Forbes Centroamérica · EFE",
+      "url": "https://forbescentroamerica.com/2026/11/10/panama-consolida-al-cafe-geisha-como-uno-de-los-productos-de-ultralujo-mas-cotizados-del-mundo",
+      "title": "Panamá: un geisha de Lamastus se vendió a US$18.004 por kg en Best of Panama 2026",
+      "summary": "Un lote de 15 kg de Lamastus Family Estate fue comprado por la china JD.com a US$18.004/kg en la subasta Best of Panama 2026, por debajo del récord de unos US$30.000/kg del año pasado. Asia sigue siendo el principal comprador de los geishas de Chiriquí."
+    },
+    {
+      "id": "d4",
+      "scope": "mundo",
+      "tag": "Industria",
+      "date": "2026-11-10",
+      "source": "Daily Coffee News · GCP",
+      "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+      "title": "Las compras de café sostenible de los grandes tostadores caen por primera vez",
+      "summary": "La Global Coffee Platform reporta que los 14 grandes compradores adquirieron 1,58 millones de toneladas de café sostenible en 2025 (-8,9%), el 69,3% del total frente a 75,4% en 2024; las compras llegaron de 30 orígenes, cuatro menos. Menos demanda de certificados puede reducir primas para productores verificados."
+    },
+    {
       "id": "c1",
       "scope": "am",
       "pais": "Colombia",
@@ -33,78 +65,26 @@
       "summary": "Según el BCR se vendieron más de 553.300 quintales a un promedio de US$327,8 por quintal, unos US$24 millones más que un año antes; EE. UU. compró US$106,9 millones."
     },
     {
-      "date": "2026-11-04",
-      "id": "a28",
-      "pais": "Colombia",
+      "id": "d6",
       "scope": "am",
-      "source": "La República",
-      "summary": "El precio base del pergamino seco cayó $40.000 (-1,95%) el 4 de noviembre, hasta $2.010.000 por carga de 125 kg, tras la baja de $30.000 del día anterior. Dos caídas seguidas reducen el ingreso en pesos del caficultor.",
-      "tag": "Precios",
-      "title": "Colombia: el precio interno del café baja a $2.010.000 por carga",
-      "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe"
+      "pais": "Brasil",
+      "tag": "Agricultura",
+      "date": "2026-11-09",
+      "source": "Daily Coffee News · GCP Brasil",
+      "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
+      "title": "Brasil: fincas regenerativas en Minas Gerais producen 45 sacos por hectárea con costos menores",
+      "summary": "Un estudio de GCP Brasil con JDE Peet's, Cooxupé y Emater-MG en siete fincas de Sul de Minas y Cerrado halló costos operativos de R$488 a R$746 por saco de 60 kg, bajo el referente de Conab (R$768,80), y 45 sacos/ha frente a 30,4 de promedio nacional. La muestra es pequeña y no prueba causalidad."
     },
     {
-      "date": "2026-10-28",
-      "id": "a46",
-      "scope": "mundo",
-      "source": "Reuters · ESM Magazine",
-      "summary": "El arábica liquidó el 27 de octubre en 293,75 ¢/lb (-7,2 ¢), tras bajar 2,1% el lunes, mientras el real se ubicó cerca de 5,35 por dólar, unos 7% más débil que antes de la elección; un real débil incentiva las ventas brasileñas. La robusta subió 0,6% a US$3.220/t, pero con la cosecha de Vietnam arrancando y los inventarios de bolsa al alza.",
-      "tag": "Mercado",
-      "title": "El arábica cae 2,4% tras la victoria de Lula y el real se debilita",
-      "url": "https://www.esmmagazine.com/supply-chain/sugar-and-coffee-diverge-as-fundamentals-reassert-themselves-after-brazil-election-324693"
-    },
-    {
-      "date": "2026-11-03",
-      "id": "a53",
-      "scope": "mundo",
-      "source": "Reuters · Business Recorder",
-      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil.",
-      "tag": "Mercado",
-      "title": "El arábica rebota 2,7% a US$2,95/lb; la robusta tocó su mínimo desde marzo de 2024",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally"
-    },
-    {
-      "date": "2026-11-03",
-      "id": "a54",
-      "pais": "Guatemala",
+      "id": "d2",
       "scope": "am",
-      "source": "Prensa Libre · Anacafé",
-      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal.",
+      "pais": "Brasil",
       "tag": "Exportaciones",
-      "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/"
-    },
-    {
-      "date": "2026-10-30",
-      "id": "a57",
-      "scope": "mundo",
-      "source": "Reuters · Business Recorder",
-      "summary": "Los caficultores del Altiplano Central vendieron a 88.000–89.000 dong por kg, frente a 91.000–92.500 la semana previa, antes del pico de cosecha; el robusta enero cerró en US$3.199/t. Presión bajista para el robusta que compran tostadores y mezcladores.",
-      "tag": "Precios",
-      "title": "Vietnam: el robusta local cae a 88.000–89.000 dong/kg, mínimo desde junio",
-      "url": "https://www.brecorder.com/news/40446556/vietnam-coffee-prices-lower-ahead-of-harvest-peak"
-    },
-    {
-      "date": "2026-11-05",
-      "id": "a58",
-      "pais": "México",
-      "scope": "am",
-      "source": "Portavoz Chiapas",
-      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas.",
-      "tag": "Producción",
-      "title": "Chiapas: la sequía recortará la cosecha de café 2026-27",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
-    },
-    {
-      "date": "2026-11-04",
-      "id": "a59",
-      "pais": "Honduras",
-      "scope": "am",
-      "source": "Infobae · BCH",
-      "summary": "El Banco Central reporta ingresos de unos US$2.067 millones (+16,3% en volumen), pero el precio medio por saco bajó de US$361,36 a US$309,96. Más volumen no compensa del todo la caída del precio.",
-      "tag": "Exportaciones",
-      "title": "Honduras: exportó 6,67 millones de sacos de enero a agosto, con precio medio 14% menor",
-      "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/"
+      "date": "2026-11-07",
+      "source": "Reuters · CNN Brasil (Secex)",
+      "url": "https://www.cnnbrasil.com.br/agro/exportacao-de-petroleo-e/",
+      "title": "Brasil embarca un récord de 4,79 millones de sacos de café verde en octubre",
+      "summary": "Según Secex, Brasil exportó 287.300 toneladas de café verde en octubre (4,79 millones de sacos de 60 kg), 23,3% más que un año antes y máximo histórico mensual; el ingreso subió 5,2% a US$1.600 millones pese a precios casi 15% menores. La oferta brasileña fluye con fuerza y presiona al arábica."
     },
     {
       "date": "2026-11-06",
@@ -139,17 +119,6 @@
       "summary": "Octubre sumó 1,114 millones de sacos (−8 %) y los últimos doce meses 12,56 millones (−15 %). Las exportaciones del mes subieron 6 % (1,119 millones), pero en doce meses son 11,85 millones (−11 %): oferta local aún corta."
     },
     {
-      "id": "b2",
-      "scope": "am",
-      "pais": "Costa Rica",
-      "tag": "Producción",
-      "date": "2026-11-03",
-      "source": "Tico Times · Icafé",
-      "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
-      "title": "Costa Rica: El Niño recorta la cosecha 10–15 % frente a lo estimado",
-      "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
-    },
-    {
       "id": "b3",
       "scope": "am",
       "pais": "Brasil",
@@ -159,7 +128,71 @@
       "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-semana-em-alta-e-chega-a-r-1-61114/",
       "title": "Brasil: el indicador Cepea del arábica cierra la semana en R$ 1.611,14 por saca",
       "summary": "El arábica subió 0,45 % el 6-nov y 1,28 % en la semana; el conilon quedó en R$ 977,34 por saca (+1,23 % semanal). Con el real débil, el precio interno se sostiene pese a la caída en Nueva York."
+    },
+    {
+      "date": "2026-11-05",
+      "id": "a58",
+      "pais": "México",
+      "scope": "am",
+      "source": "Portavoz Chiapas",
+      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas.",
+      "tag": "Producción",
+      "title": "Chiapas: la sequía recortará la cosecha de café 2026-27",
+      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+    },
+    {
+      "date": "2026-11-04",
+      "id": "a59",
+      "pais": "Honduras",
+      "scope": "am",
+      "source": "Infobae · BCH",
+      "summary": "El Banco Central reporta ingresos de unos US$2.067 millones (+16,3% en volumen), pero el precio medio por saco bajó de US$361,36 a US$309,96. Más volumen no compensa del todo la caída del precio.",
+      "tag": "Exportaciones",
+      "title": "Honduras: exportó 6,67 millones de sacos de enero a agosto, con precio medio 14% menor",
+      "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/"
+    },
+    {
+      "id": "d5",
+      "scope": "mundo",
+      "tag": "Industria",
+      "date": "2026-11-04",
+      "source": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/11/04/kraft-heinz-selling-north-american-coffee-business-for-650-million/",
+      "title": "Kraft Heinz vende su negocio de café en Norteamérica por US$650 millones",
+      "summary": "One Rock Capital Partners comprará Maxwell House, Gevalia, Yuban, Nabob, Tassimo y otras marcas, con plantas en Jacksonville y Vancouver; Kraft Heinz conserva 30% y el cierre se espera a mediados de 2027. Cambia de manos uno de los mayores compradores de café verde de EE. UU."
+    },
+    {
+      "date": "2026-11-03",
+      "id": "a53",
+      "scope": "mundo",
+      "source": "Reuters · Business Recorder",
+      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil.",
+      "tag": "Mercado",
+      "title": "El arábica rebota 2,7% a US$2,95/lb; la robusta tocó su mínimo desde marzo de 2024",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "a54",
+      "pais": "Guatemala",
+      "scope": "am",
+      "source": "Prensa Libre · Anacafé",
+      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal.",
+      "tag": "Exportaciones",
+      "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/"
+    },
+    {
+      "id": "b2",
+      "scope": "am",
+      "pais": "Costa Rica",
+      "tag": "Producción",
+      "date": "2026-11-03",
+      "source": "Tico Times · Icafé",
+      "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
+      "title": "Costa Rica: El Niño recorta la cosecha 10–15 % frente a lo estimado",
+      "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-10T11:48:19Z"
+  "updatedAt": "2026-11-10T19:48:42Z"
 }
