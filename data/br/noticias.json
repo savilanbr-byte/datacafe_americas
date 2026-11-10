@@ -1,44 +1,79 @@
 {
-  "updatedAt": "2026-11-10T11:55:00Z",
+  "updatedAt": "2026-11-10T19:47:29Z",
   "items": [
     {
-      "id": "b19",
-      "scope": "br",
-      "regiones": [
-        "mogiana",
-        "norte-pioneiro"
-      ],
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
-      "title": "El real débil presiona el arábica y se esperan más ventas brasileñas",
-      "summary": "Con el dólar cerca de R$5,49, el arábica de Nueva York cayó 2,79 % a 283,95 ¢/lb, porque un real débil estimula las ventas del productor. Un analista reporta problemas de cosecha en Piraju y Garça (São Paulo) y en el norte de Paraná, y ve US$2,80–3,00/lb como precio atractivo para vender por etapas."
-    },
-    {
-      "id": "b21",
+      "id": "b28",
       "scope": "br",
       "regiones": [
         "sul-de-minas",
-        "cerrado-mineiro",
-        "mogiana"
+        "mogiana",
+        "conilon-es",
+        "bahia-atlantico",
+        "planalto-bahia"
       ],
-      "tag": "Precios",
-      "date": "2026-11-05",
-      "source": "CEPEA · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430855-cafe-cepea-precos-internos-e-externos-do-arabica-oscilam-com-forca.html",
-      "title": "CEPEA: el arábica osciló con fuerza en octubre, con precios internos casi planos al cierre",
-      "summary": "Las lluvias que favorecieron la florada 2027/28 y el ritmo ágil de embarques presionaron a la baja, mientras El Niño, la menor oferta colombiana y la lenta reposición de stocks certificados en ICE y el dólar alto empujaron al alza. El indicador interno cerró octubre prácticamente estable."
+      "tag": "Clima",
+      "date": "2026-11-10",
+      "source": "Notícias Agrícolas · Climatempo",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
+      "title": "Semana lluviosa en las zonas cafeteras: más de 100 mm en el sur de Bahia y norte de Espírito Santo",
+      "summary": "Climatempo prevé lluvia en Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves caerían localmente más de 100 mm en el sur de Bahia y el norte del ES, buena señal para el cuajado (pegamento) de la safra 2027."
     },
     {
-      "id": "n22",
+      "id": "b30",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas"
+      ],
+      "tag": "Eventos",
+      "date": "2026-11-10",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431058-sic-2026-comeca-nesta-quarta-feira-com-debates-sobre-competitividade-rentabilidade-e-futuro-do-cafe-brasileiro.html",
+      "title": "La Semana Internacional del Café abre el 11-nov en Belo Horizonte",
+      "summary": "La SIC 2026 se realiza del 11 al 13 de noviembre en Expominas; los días 11 y 12 solo para profesionales. Incluye charla de la directora de la OIC y un taller sobre acceso a China, India y Japón: buena ocasión para contactar exportadores y cooperativas."
+    },
+    {
+      "id": "n27",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-04",
-      "source": "Notícias Agrícolas · Reuters",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html",
-      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026/27",
-      "summary": "La producción quedaría bajo 18 millones de sacas por anomalías climáticas, el año bajo del ciclo bienal y falta de lluvia; Honduras y México caen más. Menos oferta de lavados centroamericanos refuerza el papel de Brasil como proveedor."
+      "date": "2026-11-10",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
+      "title": "El robusta sube más de 1 % en Londres a US$3.305/t; el arábica se estabiliza",
+      "summary": "El contrato enero de robusta ganó US$38 y el arábica diciembre quedó en 273,55 ¢/lb. Los inventarios certificados de arábica en ICE sumaron 241.403 sacas el 9-nov, un 42 % menos que hace un año."
+    },
+    {
+      "id": "b31",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-10",
+      "source": "O Tempo · BBM",
+      "url": "https://otempo.com.br/agro/2026/11/10/cotacoes-do-agro-em-minas-10-11-2026",
+      "title": "El café físico sigue cediendo en Minas: R$1.697 por saca en Guaxupé",
+      "summary": "Según BBM, la saca de 60 kg bajó 0,29 % el 10-nov y quedó en R$1.697 en Guaxupé (entre R$1.570 y R$1.697 en las cinco plazas seguidas); cae 2,0 % en cinco días y 25,7 % en el año. Precios internos en ajuste, unos R$650 bajo el máximo de hace un año: buen momento para cotizar, aunque el real débil frena más caídas."
+    },
+    {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-09",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431030-em-ny-futuros-do-arabica-perdem-mais-de-1-pressionado-por-perspectivas-de-maior-oferta-brasileira.html",
+      "title": "El arábica cierra en 273,60 ¢/lb en Nueva York por la perspectiva de más oferta brasileña",
+      "summary": "El contrato diciembre cerró el 9-nov en 273,60 ¢/lb (−6,4 ¢) y borró lo ganado el viernes; pesa la expectativa de una cosecha brasileña mayor, mientras los inventarios certificados de la ICE siguen cerca de mínimos de 27 años."
+    },
+    {
+      "id": "b27",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-09",
+      "source": "Campo Grande News",
+      "url": "https://www.campograndenews.com.br/economia/dolar-abre-semana-em-queda-e-fecha-cotado-a-r-5-50",
+      "title": "El dólar cierra en R$5,5048, casi plano, tras tocar máximos del año",
+      "summary": "El dólar comercial bajó 0,06 % el 9-nov y suma 1,11 % en noviembre; el Boletim Focus elevó la inflación esperada de 2027 a 4,90 % y la Selic de fin de 2026 a 13,75 %. Un real débil sostiene los precios internos del café."
     },
     {
       "id": "b22",
@@ -57,16 +92,6 @@
       "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
       "title": "CEPEA: la safra 2027/28 arranca bien, pero el calor y El Niño inquietan",
       "summary": "El cuajado (pegamento) es bueno en Mogiana, noroeste de Paraná y Sul de Minas; en el Cerrado Mineiro se confirmará hacia diciembre y en Rondônia casi un mes seco trajo broca temprana. Se espera una cosecha grande pero no récord en un año de baja bienal."
-    },
-    {
-      "id": "n23",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Notícias Agrícolas (Reuters)",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430894-precos-de-cafe-no-vietna-caem-ainda-mais-com-nova-safra.html",
-      "title": "Vietnam: el robusta local cae con la nueva cosecha; octubre exportó 114.000 t",
-      "summary": "En el Altiplano Central el robusta se ofrece a 83.000–84.000 dong/kg (88.000–89.000 la semana previa); las exportaciones de octubre subieron 60,6 % y el acumulado enero–octubre, 18,8 %. Más oferta vietnamita presiona el robusta y el conilon."
     },
     {
       "id": "b24",
@@ -115,79 +140,53 @@
       "summary": "El diciembre cerró en 280,00 ¢/lb y el robusta enero en US$3.270/t. La India recortó su estimación 2026/27 de 400.000 a 380.000 t por un monzón débil, mientras la cosecha de Vietnam avanza y puede sumar oferta."
     },
     {
-      "id": "n26",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431030-em-ny-futuros-do-arabica-perdem-mais-de-1-pressionado-por-perspectivas-de-maior-oferta-brasileira.html",
-      "title": "El arábica cierra en 273,60 ¢/lb en Nueva York por la perspectiva de más oferta brasileña",
-      "summary": "El contrato diciembre cerró el 9-nov en 273,60 ¢/lb (−6,4 ¢) y borró lo ganado el viernes; pesa la expectativa de una cosecha brasileña mayor, mientras los inventarios certificados de la ICE siguen cerca de mínimos de 27 años."
-    },
-    {
-      "id": "b27",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-09",
-      "source": "Campo Grande News",
-      "url": "https://www.campograndenews.com.br/economia/dolar-abre-semana-em-queda-e-fecha-cotado-a-r-5-50",
-      "title": "El dólar cierra en R$5,5048, casi plano, tras tocar máximos del año",
-      "summary": "El dólar comercial bajó 0,06 % el 9-nov y suma 1,11 % en noviembre; el Boletim Focus elevó la inflación esperada de 2027 a 4,90 % y la Selic de fin de 2026 a 13,75 %. Un real débil sostiene los precios internos del café."
-    },
-    {
-      "id": "b28",
+      "id": "b21",
       "scope": "br",
       "regiones": [
         "sul-de-minas",
-        "mogiana",
-        "conilon-es",
-        "bahia-atlantico",
-        "planalto-bahia"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-10",
-      "source": "Notícias Agrícolas · Climatempo",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
-      "title": "Semana lluviosa en las zonas cafeteras: más de 100 mm en el sur de Bahia y norte de Espírito Santo",
-      "summary": "Climatempo prevé lluvia en Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves caerían localmente más de 100 mm en el sur de Bahia y el norte del ES, buena señal para el cuajado (pegamento) de la safra 2027."
-    },
-    {
-      "id": "b29",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro"
+        "cerrado-mineiro",
+        "mogiana"
       ],
       "tag": "Precios",
-      "date": "2026-11-09",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431060-cafe-mercado-fecha-no-vermelho-em-ny-e-derruba-precos-tambem-no-fisico-brasileiro-nesta-2-9.html",
-      "title": "Físico brasileño cede con Nueva York: arábica tipo 6 en Guaxupé a R$1.702 por saca",
-      "summary": "La caída del arábica en Nueva York arrastró al físico: Araguari R$1.680 (−1,18 %), Campos Gerais R$1.731 de cereza descascado (−1,42 %); solo Machado subió (R$1.680). El productor vende poco y solo para cubrir compromisos de fin de cosecha."
+      "date": "2026-11-05",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430855-cafe-cepea-precos-internos-e-externos-do-arabica-oscilam-com-forca.html",
+      "title": "CEPEA: el arábica osciló con fuerza en octubre, con precios internos casi planos al cierre",
+      "summary": "Las lluvias que favorecieron la florada 2027/28 y el ritmo ágil de embarques presionaron a la baja, mientras El Niño, la menor oferta colombiana y la lenta reposición de stocks certificados en ICE y el dólar alto empujaron al alza. El indicador interno cerró octubre prácticamente estable."
     },
     {
-      "id": "b30",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-10",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431058-sic-2026-comeca-nesta-quarta-feira-com-debates-sobre-competitividade-rentabilidade-e-futuro-do-cafe-brasileiro.html",
-      "title": "La Semana Internacional del Café abre el 11-nov en Belo Horizonte",
-      "summary": "La SIC 2026 se realiza del 11 al 13 de noviembre en Expominas; los días 11 y 12 solo para profesionales. Incluye charla de la directora de la OIC y un taller sobre acceso a China, India y Japón: buena ocasión para contactar exportadores y cooperativas."
-    },
-    {
-      "id": "n27",
+      "id": "n23",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-10",
+      "date": "2026-11-05",
+      "source": "Notícias Agrícolas (Reuters)",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430894-precos-de-cafe-no-vietna-caem-ainda-mais-com-nova-safra.html",
+      "title": "Vietnam: el robusta local cae con la nueva cosecha; octubre exportó 114.000 t",
+      "summary": "En el Altiplano Central el robusta se ofrece a 83.000–84.000 dong/kg (88.000–89.000 la semana previa); las exportaciones de octubre subieron 60,6 % y el acumulado enero–octubre, 18,8 %. Más oferta vietnamita presiona el robusta y el conilon."
+    },
+    {
+      "id": "n22",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-04",
+      "source": "Notícias Agrícolas · Reuters",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html",
+      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026/27",
+      "summary": "La producción quedaría bajo 18 millones de sacas por anomalías climáticas, el año bajo del ciclo bienal y falta de lluvia; Honduras y México caen más. Menos oferta de lavados centroamericanos refuerza el papel de Brasil como proveedor."
+    },
+    {
+      "id": "b19",
+      "scope": "br",
+      "regiones": [
+        "mogiana",
+        "norte-pioneiro"
+      ],
+      "tag": "Mercado",
+      "date": "2026-11-03",
       "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
-      "title": "El robusta sube más de 1 % en Londres a US$3.305/t; el arábica se estabiliza",
-      "summary": "El contrato enero de robusta ganó US$38 y el arábica diciembre quedó en 273,55 ¢/lb. Los inventarios certificados de arábica en ICE sumaron 241.403 sacas el 9-nov, un 42 % menos que hace un año."
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html",
+      "title": "El real débil presiona el arábica y se esperan más ventas brasileñas",
+      "summary": "Con el dólar cerca de R$5,49, el arábica de Nueva York cayó 2,79 % a 283,95 ¢/lb, porque un real débil estimula las ventas del productor. Un analista reporta problemas de cosecha en Piraju y Garça (São Paulo) y en el norte de Paraná, y ve US$2,80–3,00/lb como precio atractivo para vender por etapas."
     }
   ]
 }
