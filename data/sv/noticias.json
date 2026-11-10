@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-10T11:45:57Z",
+  "updatedAt": "2026-11-10T19:47:17Z",
   "items": [
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-09",
+      "source": "StoneX",
+      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
+      "title": "El arábica diciembre cae 6,40 ¢ a 273,60 ¢/lb en plena rotación de fondos",
+      "summary": "El contrato de diciembre cerró en 273,60 ¢/lb (−6,40) mientras los largos liquidan y pasan a marzo; la robusta enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre, lo que puede sumar volatilidad a los diferenciales de compra."
+    },
     {
       "id": "s15",
       "scope": "sv",
@@ -24,6 +34,21 @@
       "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
       "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
       "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
+    },
+    {
+      "id": "s17",
+      "scope": "sv",
+      "regiones": [
+        "tecapa-chinameca",
+        "cacahuatique",
+        "chichontepec"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-06",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/11/06/autoridades-advierten-sobre-lluvias-intensas-en-la-costa-y-el-oriente-salvadoreno-durante-el-fin-de-semana/",
+      "title": "MARN avisa lluvias intensas en la costa y el oriente durante el fin de semana",
+      "summary": "Una baja presión frente a Centroamérica (60 % de probabilidad de ciclón en siete días, según el NHC) traería lluvias intensas a la costa y el oriente hasta el 9 de noviembre, junto con vientos nortes débiles en el occidente. Para el comprador: riesgo de retrasos en el secado y en la calidad del pergamino temprano del oriente."
     },
     {
       "id": "s14",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:45:57Z",
+  "updatedAt": "2026-11-10T19:47:17Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,23 +24,27 @@
   },
   "impactos": [
     "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26.",
-    "Con la época seca entre el 5 y el 14 de noviembre y lluvias de noviembre normales a algo superiores (48,7 mm), el bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique) tendrá secado en patio con interrupciones vespertinas.",
+    "Las lluvias intensas que el MARN avisó para la costa y el oriente entre el 6 y el 9 de noviembre interrumpen el secado en patio del bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique); conviene vigilar humedad del pergamino y fruta caída antes de cerrar lotes tempranos.",
     "Si noviembre–enero queda 40–50 % bajo lo normal en lluvia, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (cosecha de diciembre a marzo) puede dar grano más pequeño y menos denso.",
     "Las lluvias de la vaguada del 20 de octubre trajeron riesgo de deslizamientos en Morazán (Cacahuatique) y crecidas en La Libertad: conviene confirmar el estado de caminos y beneficios antes de cerrar embarques."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-01",
-    "headline": "Época seca entre el 5 y el 14 de noviembre según la fuente; el MARN proyecta 48,7 mm en noviembre",
+    "asOf": "2026-11-06",
+    "headline": "El MARN avisó lluvias intensas en la costa y el oriente hasta el 9 de noviembre; la época seca arrancaría entre el 5 y el 14 de noviembre",
     "items": [
-      "La UES ubica el inicio oficial de la época seca el 14 de noviembre; el MARN la había previsto para el 5 y espera de dos a cuatro vientos nortes en octubre–noviembre.",
-      "El MARN proyecta 48,7 mm en noviembre (promedio histórico 32,3 mm), con valores superiores en Chalatenango y el norte de Cuscatlán.",
-      "CIIFEN da más de 95 % de probabilidad de El Niño «muy fuerte» entre noviembre de 2026 y enero de 2027; la UES prevé lluvias 40–50 % bajo lo normal hasta enero."
+      "El 6 de noviembre el MARN advirtió lluvias intensas en la franja costera y la zona oriental durante el fin de semana (hasta el lunes 9), por una baja presión frente a Centroamérica con 60 % de probabilidad de ciclón en siete días según el NHC.",
+      "Vientos nortes débiles el 6 de noviembre, más fuertes en el occidente y la franja montañosa del norte, con ráfagas de hasta 40 km/h; madrugadas frescas.",
+      "La UES ubica el inicio oficial de la época seca el 14 de noviembre; el MARN proyecta 48,7 mm en noviembre (promedio histórico 32,3 mm)."
     ],
     "links": [
       {
         "t": "MARN",
         "url": "https://www.snet.gob.sv/"
+      },
+      {
+        "t": "Infobae",
+        "url": "https://www.infobae.com/el-salvador/2026/11/06/autoridades-advierten-sobre-lluvias-intensas-en-la-costa-y-el-oriente-salvadoreno-durante-el-fin-de-semana/"
       },
       {
         "t": "Diario El Mundo",
