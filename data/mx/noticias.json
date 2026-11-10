@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:46:55Z",
+  "updatedAt": "2026-11-10T11:46:45Z",
   "items": [
     {
       "id": "m22",
@@ -183,24 +183,28 @@
       "summary": "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm; rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec. Influye la tormenta tropical Vance en el Pacífico."
     },
     {
-      "id": "n8",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-10-26",
-      "source": "Trading Economics · Cecafé",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-      "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
+      "id": "m25",
+      "scope": "mx",
+      "regiones": [
+        "robusta-chiapas",
+        "chiapas-soconusco"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-08",
+      "source": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/",
+      "title": "Arranca el corte de robusta en el Soconusco con el precio a 27 pesos por kilo",
+      "summary": "El robusta se paga a 27 MXN/kg frente a 50 del año pasado, una caída de cerca de 45 %; un productor de Tapachula dice que no cubre costos. La zona tiene unos 35 000 pequeños productores, lo que apunta a oferta local barata y a presión sobre el robusta mexicano."
     },
     {
-      "date": "2026-10-26",
-      "id": "n11",
+      "id": "n16",
       "scope": "mundo",
-      "source": "Istoé Dinheiro",
-      "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, que es la base del precio del café mexicano.",
-      "tag": "Divisas",
-      "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Comunicaffe",
+      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+      "title": "El arábica cae a 277,15 ¢/lb, mínimo de cinco semanas, por exportaciones récord de Brasil",
+      "summary": "El contrato de diciembre bajó 0,9 % el 5-nov en su tercera caída seguida; Brasil exportó más de 5 millones de sacos en octubre. Los inventarios certificados en Nueva York siguen muy bajos, lo que limita la baja."
     }
   ]
 }
