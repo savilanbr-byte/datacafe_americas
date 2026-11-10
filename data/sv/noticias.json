@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-11-09T19:46:00Z",
+  "updatedAt": "2026-11-10T11:45:57Z",
   "items": [
-    {
-      "id": "s13",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-05",
-      "source": "Infobae (EFE)",
-      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
-      "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
-      "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
-    },
-    {
-      "id": "s14",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Dos estimaciones distan 200 mil quintales para la cosecha salvadoreña 2026-27",
-      "summary": "La Asociación Cafetalera proyecta 750 mil quintales y la Mesa Agropecuaria 950 mil; ambas quedan bajo los 963.650 quintales oro uva de 2025-26 según el ISC. Para un comprador, la oferta exportable de El Salvador será menor o, en el mejor caso, similar a la del ciclo pasado."
-    },
     {
       "id": "s15",
       "scope": "sv",
@@ -37,45 +15,67 @@
       "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
     },
     {
-      "id": "s7",
-      "scope": "sv",
-      "regiones": [
-        "el-balsamo-quezaltepec",
-        "cacahuatique",
-        "apaneca-ilamatepec",
-        "chichontepec"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-20",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
-      "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
-      "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
-    },
-    {
-      "id": "s10",
-      "scope": "sv",
-      "regiones": [
-        "alotepec-metapan",
-        "apaneca-ilamatepec"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-26",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
-      "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
-      "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
-    },
-    {
-      "id": "s11",
+      "id": "s16",
       "scope": "sv",
       "regiones": [],
       "tag": "Exportaciones",
-      "date": "2026-10-26",
+      "date": "2026-11-09",
+      "source": "Prensa Latina (BCR)",
+      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
+      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
+      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
+    },
+    {
+      "id": "s14",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-06",
       "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/26/el-deficit-comercial-de-el-salvador-se-amplia-158-en-septiembre-hasta-usd-113343-millones/",
-      "title": "Las ventas de café cayeron a US$5,4 millones en septiembre, pero el año sigue arriba",
-      "summary": "En septiembre las exportaciones de café bajaron de US$7,68 M a US$5,40 M (cerca de −30 %); de enero a septiembre suman US$181,36 M (+15,3 %), por mejores precios internacionales. El ISC aún no publica el acumulado de septiembre que cierra la cosecha 2025-26."
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
+      "title": "Dos estimaciones distan 200 mil quintales para la cosecha salvadoreña 2026-27",
+      "summary": "La Asociación Cafetalera proyecta 750 mil quintales y la Mesa Agropecuaria 950 mil; ambas quedan bajo los 963.650 quintales oro uva de 2025-26 según el ISC. Para un comprador, la oferta exportable de El Salvador será menor o, en el mejor caso, similar a la del ciclo pasado."
+    },
+    {
+      "id": "n17",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Coffee & Cocoa Intel",
+      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
+      "title": "El arábica diciembre cierra en 280 ¢/lb tras tres caídas seguidas",
+      "summary": "El contrato de diciembre perdió 7,20 centavos en la semana, tras haber repuntado el 2 de noviembre a 292,10 ¢/lb con inventarios certificados cerca de mínimos. El nivel de referencia para fijar precios del café salvadoreño baja, aunque la oferta inmediata sigue ajustada."
+    },
+    {
+      "id": "s13",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-05",
+      "source": "Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
+      "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
+      "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
+    },
+    {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Admisi",
+      "url": "https://admisi.com/us-cotton-sales-gain-ground",
+      "title": "El arábica se mantiene cerca de mínimos; Sucafina ve caer 9,3 % la oferta de Centroamérica y México",
+      "summary": "Los inventarios certificados de ICE siguen en 220.379 sacos, y Rabobank proyecta exportaciones brasileñas de 42–45 millones de sacos en 2026/27. Sucafina estima que Centroamérica y México producirán menos de 18 millones de sacos (−9,3 %), un respaldo para los precios del café centroamericano."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "El arábica rebota 2,7 % a US$2,95/lb y la robusta toca mínimos de 2024",
+      "summary": "El arábica de ICE sube a US$2,95 por libra por temor a poca oferta cercana: los inventarios certificados (225.068 sacos) siguen cerca de mínimos de 27 años. La robusta llegó a US$3.140/t, su nivel más bajo desde marzo de 2024, antes de repuntar a US$3.286."
     },
     {
       "id": "s12",
@@ -99,34 +99,34 @@
       "summary": "Las lluvias favorables a la floración y una posible cosecha récord brasileña presionaron al arábica, mientras la robusta subió 0,6 % a US$3.220/t con la cosecha vietnamita y más inventarios en bolsa. El dólar cotizaba cerca de R$ 5,35."
     },
     {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "El arábica rebota 2,7 % a US$2,95/lb y la robusta toca mínimos de 2024",
-      "summary": "El arábica de ICE sube a US$2,95 por libra por temor a poca oferta cercana: los inventarios certificados (225.068 sacos) siguen cerca de mínimos de 27 años. La robusta llegó a US$3.140/t, su nivel más bajo desde marzo de 2024, antes de repuntar a US$3.286."
+      "id": "s10",
+      "scope": "sv",
+      "regiones": [
+        "alotepec-metapan",
+        "apaneca-ilamatepec"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-26",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
+      "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
+      "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
     },
     {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Admisi",
-      "url": "https://admisi.com/us-cotton-sales-gain-ground",
-      "title": "El arábica se mantiene cerca de mínimos; Sucafina ve caer 9,3 % la oferta de Centroamérica y México",
-      "summary": "Los inventarios certificados de ICE siguen en 220.379 sacos, y Rabobank proyecta exportaciones brasileñas de 42–45 millones de sacos en 2026/27. Sucafina estima que Centroamérica y México producirán menos de 18 millones de sacos (−9,3 %), un respaldo para los precios del café centroamericano."
-    },
-    {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Coffee & Cocoa Intel",
-      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
-      "title": "El arábica diciembre cierra en 280 ¢/lb tras tres caídas seguidas",
-      "summary": "El contrato de diciembre perdió 7,20 centavos en la semana, tras haber repuntado el 2 de noviembre a 292,10 ¢/lb con inventarios certificados cerca de mínimos. El nivel de referencia para fijar precios del café salvadoreño baja, aunque la oferta inmediata sigue ajustada."
+      "id": "s7",
+      "scope": "sv",
+      "regiones": [
+        "el-balsamo-quezaltepec",
+        "cacahuatique",
+        "apaneca-ilamatepec",
+        "chichontepec"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-20",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
+      "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
+      "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
     }
   ]
 }
