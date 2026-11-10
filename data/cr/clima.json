@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T11:50:00Z",
+ "updatedAt": "2026-11-10T19:48:21Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -18,20 +18,20 @@
   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
  },
  "impactos": [
-  "Octubre cerró con déficit de lluvia en todo el país: el Pacífico Sur sigue húmedo en suelos, pero la transición a la época seca favorece el secado al sol en Coto Brus y Pérez Zeledón, que están en plena recolección.",
-  "Valle Central y Valle Occidental entran en época seca y arrancan cosecha: buen escenario para maduración pareja, pero vigila el estrés hídrico tras un año con 20–43 % menos lluvia en Pacífico y Valle Central.",
-  "Los Santos empieza a recoger en noviembre; la época seca llegaría al Pacífico Sur hacia el 30 de noviembre, así que los lotes tempranos aún pueden traer humedad alta.",
-  "El Niño muy fuerte hasta enero de 2027 podría alargar la sequía y estresar las floraciones de la cosecha 2027-28; la sequía además favorece la broca, así que pide análisis de calidad física.",
-  "Las lluvias irregulares retrasaron cerca de 30 días la fertilización y el ICAFE recortó 10–15 % sus estimaciones: pide muestras de peso y tamaño de grano antes de fijar volúmenes."
+  "Valle Central y Valle Occidental entran en época seca esta semana, justo cuando arranca su cosecha: buen escenario para secado al sol y maduración pareja, pero tras un octubre muy seco vigila el estrés hídrico y el tamaño del grano.",
+  "Pérez Zeledón y Coto Brus, en plena recolección, no tendrán época seca establecida hasta el 23–29 de noviembre: los lotes de estas semanas pueden traer humedad alta, así que pide control de humedad y actividad de agua.",
+  "Los Santos empieza a recoger en noviembre con lluvias en retirada; los primeros lotes de altura podrían llegar con buena densidad, pero el atraso de unos 30 días en la fertilización puede pesar en el rendimiento por fanega.",
+  "El ICAFE ya recorta 10–15 % sus estimaciones y El Niño seguiría muy fuerte hasta febrero de 2027: la sequía prolongada favorece la broca y puede estresar las floraciones de la cosecha 2027-28, así que pide análisis físico antes de fijar volúmenes.",
+  "Turrialba y la Zona Norte oriental, en la vertiente del Caribe, siguen sin época seca definida y con lluvias por encima de lo normal: más riesgo de fruta caída y secado lento en esas zonas."
  ],
  "avisos": {
   "source": "IMN",
-  "asOf": "2026-11-08",
-  "headline": "Octubre cerró como el más seco desde 2020 y la época seca se instala por fases: Valle Central desde el 3 de noviembre, Pacífico Sur hacia el 30 de noviembre",
+  "asOf": "2026-11-09",
+  "headline": "La época seca se instala por fases: Pacífico Norte y Valle Central del 9 al 15 de noviembre, Pacífico Central del 16 al 22 y Pacífico Sur del 23 al 29",
   "items": [
-   "Octubre tuvo déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %; 52,6 % en el Pacífico Norte), por primera vez desde 2020.",
-   "Semana del 9-nov: baja gradual de lluvias al alejarse un sistema de baja presión, con aguaceros concentrados en zonas montañosas del Caribe y del Pacífico Norte y Sur, y alisios más fuertes.",
-   "Inicio previsto de la época seca: Pacífico Central 13 de noviembre, Pacífico Sur 30 de noviembre, Zona Norte occidental 3 de diciembre; El Niño muy fuerte hasta enero de 2027."
+   "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020.",
+   "Semana del 9 al 15 de noviembre: acumulados de 5–80 mm en el Valle Central, 20–80 mm en el Pacífico Sur y 30–70 mm en la Zona Norte; una baja presión frente al Pacífico deja aguaceros aislados y suelos saturados en sectores del Pacífico.",
+   "Caribe y Zona Norte oriental no tienen época seca definida, aunque se prevén menos lluvias en noviembre; El Niño se mantendría muy fuerte hasta febrero de 2027."
   ],
   "links": [
    {
@@ -39,16 +39,16 @@
     "url": "https://www.imn.ac.cr/tendencia-semanal"
    },
    {
+    "t": "El Observador · Llegada de la época seca",
+    "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/"
+   },
+   {
+    "t": "Infobae · Baja presión frente al Pacífico",
+    "url": "https://www.infobae.com/costa-rica/2026/11/08/lluvias-y-tormentas-podrian-mantenerse-en-costa-rica-por-una-baja-presion-frente-al-pacifico/"
+   },
+   {
     "t": "CRHoy · Octubre, el más seco desde 2020",
     "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/"
-   },
-   {
-    "t": "El Observador · Transición a la época seca",
-    "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/"
-   },
-   {
-    "t": "Monumental · Semana con menos lluvias",
-    "url": "https://www.monumental.co.cr/2026/11/08/semana-inicia-con-menos-lluvias-y-aumento-en-la-intensidad-de-los-vientos-alisios/"
    }
   ]
  },

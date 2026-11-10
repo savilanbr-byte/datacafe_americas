@@ -1,6 +1,44 @@
 {
- "updatedAt": "2026-11-10T11:50:00Z",
+ "updatedAt": "2026-11-10T19:48:21Z",
  "items": [
+  {
+   "id": "n26",
+   "scope": "cr",
+   "regiones": [
+    "valle-central",
+    "valle-occidental",
+    "los-santos",
+    "perez-zeledon",
+    "coto-brus",
+    "zona-norte"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-09",
+   "source": "El Observador · IMN",
+   "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/",
+   "title": "IMN fija el calendario de la época seca: Valle Central esta semana, Pacífico Sur a fines de noviembre",
+   "summary": "El IMN prevé que la época seca se establezca en el Pacífico Norte y el Valle Central entre el 9 y el 15 de noviembre, en el Pacífico Central del 16 al 22 y en el Pacífico Sur del 23 al 29; Caribe y Zona Norte oriental no tienen época seca definida. Para compras, el secado al sol mejora primero en Valle Central y Occidental, mientras que en Pérez Zeledón y Coto Brus la humedad sigue siendo un riesgo dos semanas más."
+  },
+  {
+   "id": "n28",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-09",
+   "source": "ADM Investor Services",
+   "url": "https://www.admis.com/brazil-coffee-exports-jump-23/",
+   "title": "Brasil exporta 4,79 millones de sacos en octubre (+23 %) y suben los inventarios certificados de arábica",
+   "summary": "Brasil embarcó 287.348 t de café verde en octubre, 23 % más que un año antes; los inventarios certificados de arábica en ICE subieron a 232.456 sacos, máximo desde el 22 de octubre, con 62.849 sacos brasileños en espera de clasificación. Más oferta brasileña en bodegas de ICE resta soporte al diferencial de los lavados centroamericanos."
+  },
+  {
+   "id": "n31",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-09",
+   "source": "StoneX",
+   "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
+   "title": "El arábica de diciembre cae 6,40 centavos a 273,60 ¢/lb; robusta casi estable",
+   "summary": "El contrato de diciembre del arábica cerró el 9 de noviembre en 273,60 ¢/lb (−6,40) y el robusta de enero en US$3.267/t (−3); las opciones de diciembre vencen el 12 de noviembre. Con la bolsa cerca de 270 ¢/lb, el precio base de NY queda muy por debajo de los US$331 por 46 kg que el ICAFE usó para la cosecha 2025-26."
+  },
   {
    "id": "n25",
    "scope": "cr",
@@ -32,15 +70,36 @@
    "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
   },
   {
-   "id": "n19",
+   "id": "n29",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-11-06",
+   "source": "La Nación · BCCR",
+   "url": "https://www.nacion.com/economia/tipo-de-cambio-en-el-monex-cierra-la-semana-por/CBKRE3RR6BARXEY4NOCLBQZ6FE/story/",
+   "title": "El dólar cierra la semana por debajo de ₡450 en Monex pese a compras del Banco Central",
+   "summary": "El promedio ponderado del Monex terminó el 6 de noviembre en ₡449,58, el más bajo desde septiembre, aunque el BCCR compró US$24,58 millones en operaciones de estabilización el 5 y 6 de noviembre. Un colón fuerte reduce los colones que recibe el productor y presiona al alza los precios en dólares que piden beneficios y fincas."
+  },
+  {
+   "id": "n30",
+   "scope": "mundo",
+   "tag": "Producción",
+   "date": "2026-11-06",
+   "source": "Comunicaffe · Cepea",
+   "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
+   "title": "Cepea: la cosecha 2027-28 de Brasil arranca bien, pero el calor de El Niño amenaza el cuajado",
+   "summary": "Las floraciones fueron satisfactorias en Espírito Santo y el Cerrado Mineiro (cuajado se confirmará en diciembre), mientras en Rondônia la sequía trajo broca temprana; el mercado espera una cosecha grande, aunque no récord, en año de baja bienal. El riesgo de aborto floral por calor es el principal factor alcista para 2027."
+  },
+  {
+   "id": "n27",
    "scope": "cr",
    "regiones": [],
    "tag": "Producción",
    "date": "2026-11-03",
-   "source": "Infobae · Banco Mundial",
-   "url": "https://www.infobae.com/el-salvador/2026/11/04/el-banco-mundial-preve-que-los-precios-de-los-productos-basicos-aumenten-23-en-una-centroamerica-debilitada-por-la-sequia/",
-   "title": "El ICAFE recorta entre 10 % y 15 % sus estimaciones de cosecha por lluvias irregulares y calor",
-   "summary": "Según un reporte regional citado por Infobae, las lluvias irregulares demoraron unos 30 días la fertilización en varias zonas, con efecto en peso y calidad del grano de exportación. Para comprar, anticipa menos volumen disponible y posible variabilidad de calidad."
+   "source": "The Tico Times · ICAFE",
+   "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
+   "title": "El ICAFE prevé una cosecha 10–15 % menor a lo estimado por El Niño y el Banco Central recorta el agro",
+   "summary": "Según el subdirector del ICAFE, Miguel Barquero, las lluvias irregulares atrasaron unos 30 días la fertilización y afectan peso y calidad del café oro; el BCCR bajó su proyección agropecuaria a 0,7 % en 2026 y −0,5 % en 2027. Espera menos volumen exportable que lo anunciado en agosto (+16,7 %) y revisa rendimientos y granulometría antes de cerrar contratos."
   },
   {
    "id": "n20",
@@ -54,16 +113,6 @@
    "summary": "El encuentro, en el Marriott Los Sueños, tratará volatilidad de precios, China, Brasil y Honduras, y el papel de los recolectores, con analistas de Rabobank, Macquarie y StoneX. Es una ocasión para contactar exportadores y medir expectativas de la cosecha 2026-27."
   },
   {
-   "id": "n16",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-02",
-   "source": "Reuters · Maritime Professional",
-   "url": "https://www.maritimeprofessional.com/news/arabica-coffee-futures-rise-amidst-424035",
-   "title": "El arábica sube 2,2 % a US$2,9345 por libra con inventarios certificados cerca de mínimos de 27 años",
-   "summary": "Los inventarios certificados de ICE suman 225.068 sacos, cerca del mínimo de mediados de septiembre, aunque el clima favorable en Brasil y un real débil limitan el alza. Para comprar en Costa Rica, el precio de referencia sigue volátil: conviene fijar diferenciales con cautela."
-  },
-  {
    "id": "n23",
    "scope": "cr",
    "regiones": [],
@@ -73,17 +122,6 @@
    "url": "https://lafatfluencer.com/2026/10/29/cafe-costa-rica-precios-record-productores-dolar/",
    "title": "Precio de exportación récord desde 1973, pero la fanega se liquida en torno a ₡117.000",
    "summary": "El ICAFE (Marco Araya) indica que el café se exportó a unos US$300 por quintal en las últimas dos cosechas, pero el pago por fanega 2025-26 ronda ₡117.000 frente a ₡132.000 cinco cosechas antes por el dólar bajo. El tipo de cambio se come el alza del precio."
-  },
-  {
-   "id": "n13",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-10-27",
-   "source": "El Observador",
-   "url": "https://observador.cr/monex-registra-negociacion-historica-de-1534-millones-la-mayor-en-20-anos/",
-   "title": "Monex marca récord de US$153,4 millones en un día y el dólar baja a ₡452,61",
-   "summary": "El Banco Central compró US$114,7 millones, el 75 % del volumen, para frenar la caída del dólar. Un colón fuerte sigue recortando lo que recibe el productor por cada quintal exportado."
   },
   {
    "id": "n24",
