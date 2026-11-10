@@ -1,25 +1,38 @@
 {
-  "updatedAt": "2026-11-10T11:50:00Z",
+  "updatedAt": "2026-11-10T19:55:00Z",
   "items": [
     {
-      "id": "p22",
+      "id": "p25",
       "scope": "pe",
       "regiones": [
+        "cajamarca",
+        "huanuco"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-09",
+      "source": "Agro Perú · Alliance for Coffee Excellence",
+      "url": "https://www.agroperu.pe/cajamarca-conquista-por-segundo-ano-consecutivo-el-primer-lugar-de-la-taza-de-excelencia-peru-2026/",
+      "title": "Un geisha de Chirinos (San Ignacio) gana la Taza de Excelencia Perú 2026",
+      "summary": "Fidel Huancas (Finca La Esperanza, Cajamarca) ganó con 91,71 puntos, seguido por un geisha de Cholón, Huánuco (91,45), y otro de Jaén (90,93); 30 lotes superaron los 87 puntos y cinco pasaron de 90. La subasta internacional será el 8 de diciembre: oportunidad para comprar microlotes de alto puntaje del norte y la selva central."
+    },
+    {
+      "id": "p26",
+      "scope": "pe",
+      "regiones": [
+        "ayacucho",
         "cusco",
         "huanuco",
         "junin",
         "pasco",
-        "ayacucho",
         "san-martin",
-        "puno",
-        "amazonas"
+        "puno"
       ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-02",
-      "source": "Agro Perú (Devida)",
-      "url": "https://www.agroperu.pe/cafetaleros-del-desarrollo-alternativo-participan-desde-hoy-en-la-ficafe-2026/",
-      "title": "16 organizaciones cafetaleras de zonas de desarrollo alternativo llegan a Ficafé 2026",
-      "summary": "En Cusco, 30 muestras tostadas se catan ante 30 compradores internacionales con PromPerú; de 82 participantes, 40 productores pasan a la final de Taza de Excelencia Perú 2026, con subasta internacional el 6 de noviembre. Es una vía para contactar cooperativas de Huánuco, Junín, Pasco, Ayacucho, San Martín y Puno."
+      "tag": "Clima",
+      "date": "2026-11-06",
+      "source": "Ahora · SENAMHI",
+      "url": "https://ahora.com.pe/nacional/senamhi-decimoquinto-friaje-selva-noviembre",
+      "title": "SENAMHI anuncia el decimoquinto friaje del año para el 8 y 9 de noviembre",
+      "summary": "Alerta amarilla en Ayacucho, Cusco, Huánuco, Junín, Pasco y San Martín, entre otros, con lluvias ligeras a moderadas, tormentas y mínimas de ~17 °C en la selva sur. Aporta humedad en plena floración de la selva central y sur, aunque puede afectar caminos de acopio por unos días."
     },
     {
       "id": "p11",
@@ -168,16 +181,6 @@
       "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
     },
     {
-      "id": "n12",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Kensington Coffee Co",
-      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
-      "title": "El arábica cae bajo 280 ¢/lb por primera vez desde fines de septiembre",
-      "summary": "El 4-nov el contrato diciembre de la bolsa ICE cerró en 279,75 ¢/lb (−1,48 %) por mayores exportaciones de Brasil; el robusta de Londres (enero) cerró en US$3.228/t, cerca de su mínimo de seis meses. Un diferencial de origen en Perú se mide contra una bolsa más baja."
-    },
-    {
       "id": "n13",
       "scope": "mundo",
       "tag": "Mercado",
@@ -186,6 +189,16 @@
       "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
       "title": "Los inventarios certificados de arábica en ICE siguen cerca del mínimo de septiembre",
       "summary": "El 2-nov el arábica diciembre cerró en 292,10 ¢/lb (+1,71 %), aún ~5 % bajo el cierre del 23-oct, y el robusta enero en US$3.241/t; la oferta para entrega inmediata sigue limitada."
+    },
+    {
+      "id": "n14",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-10",
+      "source": "Kensington Coffee Co",
+      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-10-2026/",
+      "title": "El arábica cierra en 273,60 ¢/lb, su nivel más bajo desde el 22 de septiembre",
+      "summary": "El 9-nov el contrato diciembre de ICE cayó 6,40 ¢ (−2,29 %) por exportaciones de Brasil en octubre 23 % mayores que hace un año y más café llegando a los almacenes de ICE; el robusta enero cerró en US$3.267/t. El primer aviso del contrato diciembre es el 19-nov: el precio de referencia para fijar compras en Perú sigue bajando."
     }
   ]
 }
