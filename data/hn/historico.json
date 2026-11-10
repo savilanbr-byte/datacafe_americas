@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T19:45:57Z",
+ "updatedAt": "2026-11-10T11:50:00Z",
  "series": {
   "kc1": {
    "points": [
@@ -155,6 +155,10 @@
     [
      "2026-11-06",
      280.15
+    ],
+    [
+     "2026-11-09",
+     273.05
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -405,6 +409,14 @@
     [
      "2026-11-06",
      26.9101
+    ],
+    [
+     "2026-11-09",
+     26.9157
+    ],
+    [
+     "2026-11-10",
+     26.9161
     ]
    ],
    "note": "Compra del BCH del 28-sep al 6-oct y tipo de cambio de referencia (compra) desde el 20-oct. Suma un dato por actualización.",

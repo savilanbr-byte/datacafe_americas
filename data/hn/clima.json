@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T19:45:57Z",
+ "updatedAt": "2026-11-10T11:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,18 +24,18 @@
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "Las lluvias del 8 y 9 de noviembre en El Paraíso pueden frenar el secado del pergamino y dificultar el acceso a las fincas: pide humedad del grano al recibir los lotes.",
+  "Las lluvias de esta semana (El Paraíso, luego el occidente) pueden frenar el secado del pergamino y el acceso a fincas: pide humedad del grano al recibir los lotes.",
   "Con la fruta madurando pareja y falta de recolectores, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes de El Paraíso y Copán.",
   "Las regiones altas (Montecillos y Agalta) cosechan de diciembre a abril: una época seca larga favorece el secado, pero puede estresar la floración de 2027-28."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-08",
-  "headline": "Lluvias intensas en las próximas 48 horas",
+  "asOf": "2026-11-09",
+  "headline": "Lluvias hasta el viernes y primer frente frío cerca",
   "items": [
-   "Las mayores lluvias se esperan en el oriente, centro, sur y suroriente; El Paraíso, Choluteca y Valle son los departamentos con más riesgo.",
-   "Posibles deslizamientos, derrumbes y crecidas de quebradas y ríos.",
-   "La vaguada pierde fuerza desde el lunes 9, aunque deja lluvias en el norte; COPECO vigila el primer frente frío de la temporada."
+   "El martes 10 hay lluvias dispersas y chubascos por humedad del noreste, con más lluvia en el norte, oriente y sectores del occidente y centro.",
+   "El miércoles y jueves una vaguada deja lluvias en el occidente; luego la lluvia bajaría en el corredor seco y subiría en el Caribe.",
+   "El primer frente frío podría entrar al Caribe el fin de semana; COPECO mantiene vigilancia por deslizamientos."
   ],
   "links": [
    {
@@ -43,8 +43,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
+    "t": "Televicentro",
+    "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09"
+   },
+   {
     "t": "Radio HRN",
-    "url": "https://www.radiohrn.hn/copeco-advierte-por-lluvias-durante-48-horas-en-honduras-2026-11-08"
+    "url": "https://www.radiohrn.hn/clima-honduras-martes-10-de-noviembre-preven-frio-lluvias-para-estas-zonas-2026-11-09"
    }
   ]
  },

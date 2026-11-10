@@ -1,6 +1,20 @@
 {
- "updatedAt": "2026-11-09T19:45:57Z",
+ "updatedAt": "2026-11-10T11:50:00Z",
  "items": [
+  {
+   "id": "h10",
+   "scope": "hn",
+   "tag": "Clima",
+   "date": "2026-11-09",
+   "source": "Televicentro · COPECO",
+   "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09",
+   "title": "COPECO: lluvias hasta el viernes y primer frente frío el fin de semana en el Caribe",
+   "summary": "Una vaguada deja lluvias en Valle, Choluteca, Francisco Morazán y El Paraíso; el miércoles y jueves se mueven al occidente. Después la lluvia bajaría en el corredor seco y subiría en el Caribe. Para el comprador: el secado del pergamino sigue condicionado, sobre todo en El Paraíso y Copán.",
+   "regiones": [
+    "el-paraiso",
+    "copan"
+   ]
+  },
   {
    "id": "h9",
    "scope": "hn",
@@ -26,26 +40,6 @@
    "regiones": []
   },
   {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café hondureño.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
    "id": "n14",
    "scope": "mundo",
    "tag": "Mercado",
@@ -64,6 +58,16 @@
    "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
    "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
    "summary": "Según Sucafina, la región produciría menos de 18 M de sacos de 60 kg y Honduras y México tendrían las mayores caídas. Anticipa oferta más ajustada de café hondureño en la cosecha en curso."
+  },
+  {
+   "id": "n16",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-06",
+   "source": "Comunicaffe",
+   "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+   "title": "El arábica cae por tercera sesión a mínimos de cinco semanas por récord de exportaciones de Brasil",
+   "summary": "El contrato de diciembre cerró en 277,15 ¢/lb el 5-nov, con exportaciones brasileñas de octubre sobre 5 M de sacos y reposición gradual de inventarios certificados. Presiona el precio de referencia que recibe el productor hondureño."
   }
  ]
 }
