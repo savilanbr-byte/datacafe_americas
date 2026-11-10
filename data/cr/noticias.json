@@ -1,6 +1,36 @@
 {
- "updatedAt": "2026-11-09T19:50:00Z",
+ "updatedAt": "2026-11-10T11:50:00Z",
  "items": [
+  {
+   "id": "n25",
+   "scope": "cr",
+   "regiones": [
+    "valle-central",
+    "valle-occidental",
+    "los-santos",
+    "perez-zeledon",
+    "coto-brus",
+    "turrialba",
+    "zona-norte"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-08",
+   "source": "Monumental · IMN",
+   "url": "https://www.monumental.co.cr/2026/11/08/semana-inicia-con-menos-lluvias-y-aumento-en-la-intensidad-de-los-vientos-alisios/",
+   "title": "Semana arranca con menos lluvia: un sistema de baja presión se aleja y los alisios se intensifican",
+   "summary": "Según el IMN, la lluvia baja de forma gradual y en el Caribe y el Pacífico Norte y Sur se concentra en zonas montañosas. Mejora la ventana de secado para el café recién cosechado, aunque en el Pacífico Sur aún pueden darse aguaceros."
+  },
+  {
+   "id": "n21",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Clima",
+   "date": "2026-11-06",
+   "source": "CRHoy",
+   "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/",
+   "title": "Octubre cerró como el más seco desde 2020 en todo el país",
+   "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
+  },
   {
    "id": "n19",
    "scope": "cr",
@@ -24,66 +54,6 @@
    "summary": "El encuentro, en el Marriott Los Sueños, tratará volatilidad de precios, China, Brasil y Honduras, y el papel de los recolectores, con analistas de Rabobank, Macquarie y StoneX. Es una ocasión para contactar exportadores y medir expectativas de la cosecha 2026-27."
   },
   {
-   "id": "n1",
-   "scope": "cr",
-   "regiones": [
-    "coto-brus"
-   ],
-   "tag": "Agricultura",
-   "date": "2026-10-26",
-   "source": "Teletica",
-   "url": "https://www.teletica.com/nacional/solo-60-costarricenses-quieren-trabajar-en-la-cosecha-de-cafe-este-ano-advierte-icafe_419947",
-   "title": "Solo 60 costarricenses se anotaron para recoger café esta cosecha",
-   "summary": "Es cerca del 1 % de la mano de obra que pide el sector, según el ICAFE. Trabajo autorizó 16.000 de los 30.000 recolectores panameños solicitados y unos 6.000 ya ingresaron; la cosecha está en su pico en Coto Brus."
-  },
-  {
-   "id": "n2",
-   "scope": "cr",
-   "regiones": [
-    "perez-zeledon",
-    "coto-brus",
-    "valle-central",
-    "zona-norte"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-26",
-   "source": "El Observador",
-   "url": "https://observador.cr/imn-advierte-sobre-suelos-saturados-en-el-pacifico-sur-pese-a-disminucion-de-lluvias-en-costa-rica/",
-   "title": "IMN: suelos saturados en el Pacífico Sur mientras el país pasa a la época seca",
-   "summary": "La saturación llega a 80–95 % cerca del Golfo Dulce. La época seca empezaría del 3 al 15 de noviembre en el Pacífico Norte, del 8 al 23 en el Valle Central y a fines de mes en el Pacífico Sur, cuando se acelera la recolección."
-  },
-  {
-   "id": "n13",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-10-27",
-   "source": "El Observador",
-   "url": "https://observador.cr/monex-registra-negociacion-historica-de-1534-millones-la-mayor-en-20-anos/",
-   "title": "Monex marca récord de US$153,4 millones en un día y el dólar baja a ₡452,61",
-   "summary": "El Banco Central compró US$114,7 millones, el 75 % del volumen, para frenar la caída del dólar. Un colón fuerte sigue recortando lo que recibe el productor por cada quintal exportado."
-  },
-  {
-   "id": "n8",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-10-26",
-   "source": "Trading Economics · Cecafé",
-   "url": "https://tradingeconomics.com/commodity/coffee",
-   "title": "Embarques de café de Brasil suben 43% anual hasta el 22 de octubre",
-   "summary": "Según Cecafé, Brasil despachó cerca de 3,30 millones de sacos a esa fecha, 43,2 % más que un año atrás. Más oferta brasileña presiona al arábica y a los diferenciales de los centroamericanos."
-  },
-  {
-   "date": "2026-10-26",
-   "id": "n11",
-   "scope": "mundo",
-   "source": "Istoé Dinheiro",
-   "summary": "Tras la victoria de Lula el 25 de octubre, el dólar abrió en R$ 5,42 (+8,65 %). Un real débil suele estimular las ventas de Brasil y presionar a la baja el arábica, lo que pesa sobre el precio del café costarricense.",
-   "tag": "Divisas",
-   "title": "El real se desploma tras la reelección de Lula: el dólar sube cerca de 9% en Brasil",
-   "url": "https://istoedinheiro.com.br/dolar-hoje-26-10-2026-reeleicao-lula"
-  },
-  {
    "id": "n16",
    "scope": "mundo",
    "tag": "Mercado",
@@ -92,34 +62,6 @@
    "url": "https://www.maritimeprofessional.com/news/arabica-coffee-futures-rise-amidst-424035",
    "title": "El arábica sube 2,2 % a US$2,9345 por libra con inventarios certificados cerca de mínimos de 27 años",
    "summary": "Los inventarios certificados de ICE suman 225.068 sacos, cerca del mínimo de mediados de septiembre, aunque el clima favorable en Brasil y un real débil limitan el alza. Para comprar en Costa Rica, el precio de referencia sigue volátil: conviene fijar diferenciales con cautela."
-  },
-  {
-   "id": "n21",
-   "scope": "cr",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-11-06",
-   "source": "CRHoy",
-   "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/",
-   "title": "Octubre cerró como el más seco desde 2020 en todo el país",
-   "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
-  },
-  {
-   "id": "n22",
-   "scope": "cr",
-   "regiones": [
-    "valle-central",
-    "valle-occidental",
-    "los-santos",
-    "perez-zeledon",
-    "coto-brus"
-   ],
-   "tag": "Clima",
-   "date": "2026-10-26",
-   "source": "El Observador",
-   "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/",
-   "title": "IMN fija el inicio de la época seca: 13 de noviembre en el Pacífico Central y 30 de noviembre en el Pacífico Sur",
-   "summary": "El Valle Central ya entra en la transición con poca lluvia, mientras el Pacífico Central y Sur mantienen aguaceros vespertinos. El Caribe y la Zona Norte oriental no tienen época seca definida y podrían tener 30 % menos lluvia."
   },
   {
    "id": "n23",
@@ -131,6 +73,17 @@
    "url": "https://lafatfluencer.com/2026/10/29/cafe-costa-rica-precios-record-productores-dolar/",
    "title": "Precio de exportación récord desde 1973, pero la fanega se liquida en torno a ₡117.000",
    "summary": "El ICAFE (Marco Araya) indica que el café se exportó a unos US$300 por quintal en las últimas dos cosechas, pero el pago por fanega 2025-26 ronda ₡117.000 frente a ₡132.000 cinco cosechas antes por el dólar bajo. El tipo de cambio se come el alza del precio."
+  },
+  {
+   "id": "n13",
+   "scope": "cr",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-10-27",
+   "source": "El Observador",
+   "url": "https://observador.cr/monex-registra-negociacion-historica-de-1534-millones-la-mayor-en-20-anos/",
+   "title": "Monex marca récord de US$153,4 millones en un día y el dólar baja a ₡452,61",
+   "summary": "El Banco Central compró US$114,7 millones, el 75 % del volumen, para frenar la caída del dólar. Un colón fuerte sigue recortando lo que recibe el productor por cada quintal exportado."
   },
   {
    "id": "n24",

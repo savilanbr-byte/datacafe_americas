@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T19:50:00Z",
+ "updatedAt": "2026-11-10T11:50:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -26,11 +26,11 @@
  ],
  "avisos": {
   "source": "IMN",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-08",
   "headline": "Octubre cerró como el más seco desde 2020 y la época seca se instala por fases: Valle Central desde el 3 de noviembre, Pacífico Sur hacia el 30 de noviembre",
   "items": [
    "Octubre tuvo déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %; 52,6 % en el Pacífico Norte), por primera vez desde 2020.",
-   "Semana de transición con menos humedad y vientos nortes: poca lluvia en el Valle Central, y aguaceros vespertinos en el Pacífico Central y Sur y en montañas del Caribe y la Zona Norte.",
+   "Semana del 9-nov: baja gradual de lluvias al alejarse un sistema de baja presión, con aguaceros concentrados en zonas montañosas del Caribe y del Pacífico Norte y Sur, y alisios más fuertes.",
    "Inicio previsto de la época seca: Pacífico Central 13 de noviembre, Pacífico Sur 30 de noviembre, Zona Norte occidental 3 de diciembre; El Niño muy fuerte hasta enero de 2027."
   ],
   "links": [
@@ -45,6 +45,10 @@
    {
     "t": "El Observador · Transición a la época seca",
     "url": "https://observador.cr/costa-rica-entra-en-etapa-de-transicion-hacia-la-epoca-seca-que-pasara-con-las-lluvias-esta-semana/"
+   },
+   {
+    "t": "Monumental · Semana con menos lluvias",
+    "url": "https://www.monumental.co.cr/2026/11/08/semana-inicia-con-menos-lluvias-y-aumento-en-la-intensidad-de-los-vientos-alisios/"
    }
   ]
  },
