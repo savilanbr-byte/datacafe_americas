@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:45:57Z",
+  "updatedAt": "2026-11-10T11:50:00Z",
   "items": [
     {
       "id": "ni1",
@@ -33,26 +33,6 @@
       "url": "https://www.canal4.com.ni/nicaragua-inicia-plan-de-proteccion-y-seguridad-de-la-cosecha-cafetalera-2026-2027/",
       "title": "Arranca el plan de seguridad de la cosecha 2026-27 con más de 3.000 militares",
       "summary": "El Ejército y la Policía cubrirán Matagalpa, Jinotega, Estelí, Madriz, Nueva Segovia, Managua, Boaco, Carazo, Nueva Guinea y Ticuantepe; el acto central en Jinotega reunió a más de 4.000 personas. Es la señal oficial de que la recolección 2026-27 (proyectada en más de 3 M de quintales) está por empezar."
-    },
-    {
-      "id": "ni7",
-      "scope": "ni",
-      "regiones": [
-        "jinotega",
-        "matagalpa",
-        "nueva-segovia",
-        "madriz",
-        "esteli",
-        "boaco",
-        "meseta",
-        "caribe-sur"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-26",
-      "source": "Nuevaya (INETER)",
-      "url": "https://nuevaya.com.ni/nacionales/ineter-pronostica-hasta-36-grados-y-lluvias-debiles-en-el-caribe/",
-      "title": "INETER anuncia el final gradual de las lluvias y calor de hasta 36 °C",
-      "summary": "Para la semana del 26 de octubre el INETER prevé máximas de 34–36 °C en el Pacífico, 31–34 °C en el resto del país y 28–31 °C en las zonas altas de Jinotega y Matagalpa, con lluvias débiles sobre todo en el Caribe. El tiempo seco favorece el inicio del corte y el secado del pergamino."
     },
     {
       "id": "ni9",
@@ -118,7 +98,7 @@
       "source": "Comunicaffe",
       "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
       "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
-      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua."
+      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua. Brasil: Icafé estima la cosecha 2026-27 en 72,75 M de sacos (récord, +16,6 %) y los embarques de octubre superaron 5 M de sacos."
     },
     {
       "id": "ni13",
@@ -135,15 +115,15 @@
       "summary": "La Unión de Cooperativas Soppexca (Jinotega, unos 300 socios) proyecta exportar 20.000 quintales oro a EE. UU. y Europa; empezó a recolectar en las zonas bajas y se prepara en San Fernando (Nueva Segovia). Señal de que los primeros lotes ya están disponibles."
     },
     {
-      "id": "ni14",
+      "id": "ni15",
       "scope": "ni",
       "regiones": [],
       "tag": "Clima",
-      "date": "2026-11-06",
-      "source": "Atrévete y Explora (INETER)",
-      "url": "https://www.atreveteyexplora.com/nacionales/ineter-centro-de-baja-presion-continuara-generando-lluvias-este-viernes-06-noviembre-2026/",
-      "title": "INETER: un centro de baja presión traerá más lluvias el fin de semana",
-      "summary": "Según el INETER, las lluvias aumentan del 6 al 8 de noviembre, con más intensidad en el Pacífico, el Norte y el Centro; el sistema tiene 40 % de probabilidad de fortalecerse en 7 días. Puede complicar el secado del pergamino al inicio del corte."
+      "date": "2026-11-09",
+      "source": "Nicaragua Investiga",
+      "url": "https://nicaraguainvestiga.com/nacion/175492-lluvias-se-reducen-pacifico-nicaragua-noviembre-2026/",
+      "title": "INETER: las lluvias bajan en el Pacífico y siguen en el Caribe; se acerca un frente frío",
+      "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
     }
   ]
 }
