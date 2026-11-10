@@ -1,32 +1,6 @@
 {
-  "updatedAt": "2026-11-10T11:46:45Z",
+  "updatedAt": "2026-11-10T19:47:15Z",
   "items": [
-    {
-      "id": "m22",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-06",
-      "source": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/",
-      "title": "La cereza sube a 12–15 pesos por kilo en las Altas Montañas",
-      "summary": "Productores reportaron 12–15 MXN/kg el 5 de noviembre en los centros de compra de la región (Boca del Monte hasta 14; Huatusco 12,40–13), por encima de los 7–12 de octubre, aún lejos del mínimo de 16 que pide la CNOC. Para comprar: el precio varía por comunidad y centro de acopio."
-    },
-    {
-      "id": "m23",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-04",
-      "source": "Revista Flow",
-      "url": "https://revistaflow.com/produccion-de-cafe-en-chiapas-esta-en-riesgo-por-falta-de-trabajadores-bajos-precios-y-cambio-climatico/",
-      "title": "Soconusco teme perder café en la mata por falta de cortadores",
-      "summary": "Ismael Gómez Coronel, de la Asociación Regional de Productores de Café Unidos para estar Bien, advierte que llegan menos jornaleros guatemaltecos y que parte de la cereza podría caer sin cosecharse; pide financiamiento y un programa de apoyo. Riesgo de menor volumen disponible en la zona."
-    },
     {
       "id": "m24",
       "scope": "mx",
@@ -41,14 +15,14 @@
       "summary": "La primera cumbre internacional del café en Chiapas reunirá a unos 15 compradores de España, Francia, Austria, EE. UU., Alemania y Costa Rica, con catas, presentación de la oferta exportable (25 y 26) y visitas a fincas (27 y 28); el gobierno estatal espera unos 60 millones de pesos en ventas. Oportunidad para conocer lotes de Chiapas."
     },
     {
-      "id": "n15",
+      "id": "n17",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Kensington Coffee Co",
-      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
-      "title": "Arábica de diciembre cae a 279,75 ¢/lb el 4 de noviembre, su primer cierre bajo 280 desde fines de septiembre",
-      "summary": "Los operadores descuentan mayores exportaciones de Brasil; el robusta de enero cerró en US$3.228/t (+18). Referencia a la baja para el cálculo del precio del pergamino mexicano."
+      "date": "2026-11-09",
+      "source": "StoneX",
+      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
+      "title": "Arábica de diciembre cae 6,40 ¢ a 273,60 ¢/lb por liquidación y rolado de fondos",
+      "summary": "El contrato de diciembre cerró el 9-nov en 273,60 ¢/lb tras tocar 280,60; el interés abierto de diciembre bajó 8.018 lotes antes del vencimiento de opciones del jueves 12. El robusta de enero cerró en 3.267 USD/t (−3)."
     },
     {
       "id": "m21",
@@ -69,6 +43,59 @@
       "url": "https://www.proceso.com.mx/nacional/2026/11/8/siguen-los-efectos-de-la-masa-de-aire-frio-del-frente-4-lluvias-de-lunes-a-jueves-en-estas-entidades-383352.html",
       "title": "Lluvias fuertes de lunes a jueves en zonas cafeteras por el frente frío 4",
       "summary": "El SMN prevé 25–50 mm el 9 y 10 en Veracruz, Puebla, Oaxaca y el sur de Chiapas, y hasta 75–150 mm el jueves 12 en el norte de Veracruz, con madrugadas de 0 a 5 °C en montañas. Complica el secado de pergamino y el transporte de cereza."
+    },
+    {
+      "id": "m25",
+      "scope": "mx",
+      "regiones": [
+        "robusta-chiapas",
+        "chiapas-soconusco"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-08",
+      "source": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/",
+      "title": "Arranca el corte de robusta en el Soconusco con el precio a 27 pesos por kilo",
+      "summary": "El robusta se paga a 27 MXN/kg frente a 50 del año pasado, una caída de cerca de 45 %; un productor de Tapachula dice que no cubre costos. La zona tiene unos 35 000 pequeños productores, lo que apunta a oferta local barata y a presión sobre el robusta mexicano."
+    },
+    {
+      "id": "m26",
+      "scope": "mx",
+      "regiones": [
+        "puebla"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-08",
+      "source": "Reto Diario",
+      "url": "https://retodiario.com/gobierno/2026/11/08/impulso-gobierno-de-puebla-produccion-de-cafe-pagaron-hasta-120-pesos-por-kilo-y-preparan-exportacion-a-ee-uu",
+      "title": "Puebla reporta compras de pergamino hasta en 120 pesos por kilo en la Sierra Norte",
+      "summary": "La Secretaría de Agricultura de Puebla dijo en Amixtlán que el pergamino se compró hasta en 120 MXN/kg dentro de su estrategia estatal y que prepara envíos de café soluble poblano a EE. UU.; la región Interserrana tiene 9 mil hectáreas de café."
+    },
+    {
+      "id": "m27",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Logística",
+      "date": "2026-11-08",
+      "source": "Excélsior",
+      "url": "https://www.excelsior.com.mx/nacional/cafe-vainilla-cobro-piso-afecta-cosechas-veracruz",
+      "title": "Cafetaleros del centro de Veracruz piden seguridad en fincas y centros de acopio por robos y extorsión",
+      "summary": "En Coatepec, Teocelo y Cosautlán los productores reportan robo y cobro de piso a compradores durante la cosecha y piden vigilancia en fincas y puntos de compra; para el comprador implica más riesgo y costo en el traslado de cereza y pergamino."
+    },
+    {
+      "id": "m22",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-06",
+      "source": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/",
+      "title": "La cereza sube a 12–15 pesos por kilo en las Altas Montañas",
+      "summary": "Productores reportaron 12–15 MXN/kg el 5 de noviembre en los centros de compra de la región (Boca del Monte hasta 14; Huatusco 12,40–13), por encima de los 7–12 de octubre, aún lejos del mínimo de 16 que pide la CNOC. Para comprar: el precio varía por comunidad y centro de acopio."
     },
     {
       "id": "m20",
@@ -93,6 +120,26 @@
       "summary": "La comercializadora estima menos de 18 millones de sacos de 60 kg (frente a 19,68 millones el ciclo pasado), con México y Honduras entre las mayores bajas por el clima adverso y el ciclo bienal; advierte dudas sobre la calidad. Para el comprador: menor oferta y lotes más irregulares."
     },
     {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Comunicaffe",
+      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+      "title": "El arábica cae a 277,15 ¢/lb, mínimo de cinco semanas, por exportaciones récord de Brasil",
+      "summary": "El contrato de diciembre bajó 0,9 % el 5-nov en su tercera caída seguida; Brasil exportó más de 5 millones de sacos en octubre. Los inventarios certificados en Nueva York siguen muy bajos, lo que limita la baja."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-05",
+      "source": "Kensington Coffee Co",
+      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
+      "title": "Arábica de diciembre cae a 279,75 ¢/lb el 4 de noviembre, su primer cierre bajo 280 desde fines de septiembre",
+      "summary": "Los operadores descuentan mayores exportaciones de Brasil; el robusta de enero cerró en US$3.228/t (+18). Referencia a la baja para el cálculo del precio del pergamino mexicano."
+    },
+    {
       "id": "m19",
       "scope": "mx",
       "regiones": [
@@ -104,6 +151,19 @@
       "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
       "title": "La sequía en el Soconusco y la Costa de Chiapas amenaza la cosecha 2026-27",
       "summary": "Según Rigoberto Galindo, del Comité Nacional Sistema Producto Café, solo llovió en junio, julio y parte de septiembre, lo que causa maduración despareja y una producción menor, sin cifra oficial aún. Para el comprador: lotes irregulares y riesgo de menor calidad en la zona."
+    },
+    {
+      "id": "m23",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-11-04",
+      "source": "Revista Flow",
+      "url": "https://revistaflow.com/produccion-de-cafe-en-chiapas-esta-en-riesgo-por-falta-de-trabajadores-bajos-precios-y-cambio-climatico/",
+      "title": "Soconusco teme perder café en la mata por falta de cortadores",
+      "summary": "Ismael Gómez Coronel, de la Asociación Regional de Productores de Café Unidos para estar Bien, advierte que llegan menos jornaleros guatemaltecos y que parte de la cereza podría caer sin cosecharse; pide financiamiento y un programa de apoyo. Riesgo de menor volumen disponible en la zona."
     },
     {
       "id": "n14",
@@ -127,19 +187,6 @@
       "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
     },
     {
-      "id": "m14",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-29",
-      "source": "La Jornada Veracruz",
-      "url": "https://jornadaveracruz.com.mx/precio-del-cafe-cereza-en-veracruz/",
-      "title": "Productores de Veracruz reciben solo 8–12 pesos por kilo pese al alza de la bolsa",
-      "summary": "Con la bolsa unos 40 dólares por quintal arriba en un mes, la comisión de seguimiento estima que se podrían pagar unos 17 pesos por kilo de cereza, pero los compradores aplican descuentos de hasta 100 dólares por quintal. Brasil envió 179.519 sacos a México en septiembre (+79 %); las organizaciones piden limitar el robusta importado al 30 % del consumo."
-    },
-    {
       "id": "m13",
       "scope": "mx",
       "regiones": [
@@ -151,60 +198,6 @@
       "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/",
       "title": "Compradores ofrecerán 16–17 pesos por kilo de cereza, pero la CNOC advierte presión por importaciones de robusta",
       "summary": "Antes del corte fuerte de noviembre en Veracruz, los compradores estiman 16–17 MXN/kg de cereza; la CNOC dice que es poco ante los insumos, que el peso fuerte resta unos 1.300 MXN por quintal de pergamino y que las importaciones de robusta brasileño subieron casi 80 % en septiembre. Para comprar: el pergamino mexicano se paga sobre bolsa, con descuentos de intermediarios de unos US$100 por quintal."
-    },
-    {
-      "id": "m15",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "La Opinión de Poza Rica",
-      "url": "https://laopinion.net/cafetaleros-de-veracruz-denuncian-pagos-de-hasta-8-pesos-por-kilo-y-exigen-frenar-importaciones/",
-      "title": "Cafetaleros de Veracruz denuncian pagos de 8–12 pesos por kilo y piden frenar importaciones",
-      "summary": "La cereza temprana se paga a 8–12 MXN/kg; las organizaciones recortaron su estimado del corte fuerte de 17 a unos 16 MXN/kg. Señalan que Brasil envió a México unos 179.500 sacos en septiembre (+79 % anual) y que el diferencial de unos US$30/quintal no llega íntegro al productor."
-    },
-    {
-      "id": "m10",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-altos",
-        "veracruz",
-        "oaxaca",
-        "puebla"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-27",
-      "source": "El Imparcial",
-      "url": "https://elimparcial.com/mexico/2026/10/27/tormenta-tropical-vance-provocara-lluvias-fuertes-en-mexico-sonora-alcanzara-hasta-40c",
-      "title": "SMN prevé chubascos y mañanas frías de 0 a 5 °C en zonas altas del sur",
-      "summary": "Chiapas, Oaxaca, Guerrero, Veracruz y Puebla tendrán chubascos de 5 a 25 mm; rachas de 30 a 50 km/h en Chiapas y Puebla y viento del norte en el Istmo de Tehuantepec. Influye la tormenta tropical Vance en el Pacífico."
-    },
-    {
-      "id": "m25",
-      "scope": "mx",
-      "regiones": [
-        "robusta-chiapas",
-        "chiapas-soconusco"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-08",
-      "source": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/",
-      "title": "Arranca el corte de robusta en el Soconusco con el precio a 27 pesos por kilo",
-      "summary": "El robusta se paga a 27 MXN/kg frente a 50 del año pasado, una caída de cerca de 45 %; un productor de Tapachula dice que no cubre costos. La zona tiene unos 35 000 pequeños productores, lo que apunta a oferta local barata y a presión sobre el robusta mexicano."
-    },
-    {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Comunicaffe",
-      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
-      "title": "El arábica cae a 277,15 ¢/lb, mínimo de cinco semanas, por exportaciones récord de Brasil",
-      "summary": "El contrato de diciembre bajó 0,9 % el 5-nov en su tercera caída seguida; Brasil exportó más de 5 millones de sacos en octubre. Los inventarios certificados en Nueva York siguen muy bajos, lo que limita la baja."
     }
   ]
 }

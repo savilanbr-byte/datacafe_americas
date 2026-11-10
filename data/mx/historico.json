@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:46:45Z",
+  "updatedAt": "2026-11-10T19:47:15Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -61,6 +61,10 @@
         [
           "2026-11-09",
           18.5983
+        ],
+        [
+          "2026-11-10",
+          18.6678
         ]
       ],
       "note": "FIX de Banxico. La serie arranca el 20-oct-2026 y suma un dato por actualización.",
@@ -73,11 +77,6 @@
     },
     "kc1": {
       "points": [
-        [
-          "2026-04-15",
-          284.63,
-          "m"
-        ],
         [
           "2026-05-15",
           268.18,
@@ -228,7 +227,7 @@
         ],
         [
           "2026-11-09",
-          273.05
+          273.6
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -245,11 +244,6 @@
     },
     "robusta": {
       "points": [
-        [
-          "2026-04-15",
-          3321,
-          "m"
-        ],
         [
           "2026-05-15",
           3346,
@@ -393,6 +387,10 @@
         [
           "2026-11-09",
           3283.0
+        ],
+        [
+          "2026-11-10",
+          3284.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",

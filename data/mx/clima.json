@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:46:45Z",
+  "updatedAt": "2026-11-10T19:47:15Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -19,8 +19,8 @@
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "",
-    "url": "https://www.yr.no/"
+    "url": "https://www.yr.no/",
+    "period": ""
   },
   "impactos": [
     "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
