@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-11T11:47:50Z",
+  "updatedAt": "2026-11-11T19:46:49Z",
   "items": [
+    {
+      "id": "n20",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "ADM Investor Services",
+      "url": "https://www.admis.com/ice-stocks-weigh-on-coffee/",
+      "title": "Los inventarios de ICE pesan sobre el arábica, que ronda el mínimo de septiembre",
+      "summary": "Los inventarios certificados de arábica quedaron en 241.368 sacos, tras sumar 21.024 en tres sesiones, y el café pendiente de clasificación subió 51.934 sacos a 104.370, el nivel más alto desde marzo, todo de Brasil. Más café brasileño disponible en bolsa resta soporte al precio de referencia con que se fija el café salvadoreño de la nueva cosecha."
+    },
+    {
+      "id": "n21",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-11",
+      "source": "The Cooperator News (OIC)",
+      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
+      "title": "OIC: exportaciones mundiales de café suben 1 % en 2025-26; el precio indicativo promedia 261,26 ¢/lb en octubre",
+      "summary": "Según el informe de octubre de la OIC, el mundo exportó 142,39 millones de sacos en 2025-26 y la región de Centroamérica, México y el Caribe subió 4,6 % a 16,01 millones. Los inventarios de robusta en Londres crecieron 29,9 % a 1,13 millones de sacos, mientras los de arábica en EE. UU. cerraron octubre en su menor nivel desde 2002."
+    },
     {
       "id": "n18",
       "scope": "mundo",
@@ -91,26 +111,6 @@
       "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
       "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
       "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
-    },
-    {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Admisi",
-      "url": "https://admisi.com/us-cotton-sales-gain-ground",
-      "title": "El arábica se mantiene cerca de mínimos; Sucafina ve caer 9,3 % la oferta de Centroamérica y México",
-      "summary": "Los inventarios certificados de ICE siguen en 220.379 sacos, y Rabobank proyecta exportaciones brasileñas de 42–45 millones de sacos en 2026/27. Sucafina estima que Centroamérica y México producirán menos de 18 millones de sacos (−9,3 %), un respaldo para los precios del café centroamericano."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "El arábica rebota 2,7 % a US$2,95/lb y la robusta toca mínimos de 2024",
-      "summary": "El arábica de ICE sube a US$2,95 por libra por temor a poca oferta cercana: los inventarios certificados (225.068 sacos) siguen cerca de mínimos de 27 años. La robusta llegó a US$3.140/t, su nivel más bajo desde marzo de 2024, antes de repuntar a US$3.286."
     },
     {
       "id": "s12",
