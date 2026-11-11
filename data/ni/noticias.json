@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-10T19:47:17Z",
+  "updatedAt": "2026-11-11T11:47:27Z",
   "items": [
+    {
+      "id": "ni13",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "nueva-segovia"
+      ],
+      "tag": "Producción",
+      "date": "2026-10-15",
+      "source": "El Diario Nica",
+      "url": "https://eldiarionica.com/2026/10/15/cooperativa-proyecta-exportar-20-mil-quintales-de-cafe/",
+      "title": "Soppexca arranca el corte en La Dalia, El Cuá y Rancho Grande",
+      "summary": "La Unión de Cooperativas Soppexca (Jinotega, unos 300 socios) proyecta exportar 20.000 quintales oro a EE. UU. y Europa; empezó a recolectar en las zonas bajas y se prepara en San Fernando (Nueva Segovia). Señal de que los primeros lotes ya están disponibles."
+    },
     {
       "id": "ni1",
       "scope": "ni",
@@ -46,6 +60,17 @@
       "summary": "Según el BCN citado por EFE, la cosecha 2026-27 rondaría 3 M de quintales a US$294 por quintal, con ventas de al menos US$918 M; a septiembre llevaba US$691 M. EFE atribuye los US$918 M al ciclo 2025-26, mientras otros medios los dan como el año calendario 2025; y 3 M × US$294 suman ≈ US$882 M, así que la cifra es una meta oficial, no un cálculo."
     },
     {
+      "id": "ni12",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-10-30",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/nicaragua-us-tariff-12-5-percent-explained/",
+      "title": "El café nicaragüense queda exento del arancel de 12,5 % de EE. UU.",
+      "summary": "El arancel de 12,5 % rige desde el 24 de julio de 2026, pero el café figura en la lista de exenciones. Aparte, un arancel a bienes no originarios del CAFTA-DR pasa de 0 % a 10 % el 1 de enero de 2027 y no lista exclusiones; conviene confirmar el origen en los embarques de 2027."
+    },
+    {
       "id": "ni10",
       "scope": "ni",
       "regiones": [
@@ -60,59 +85,15 @@
       "summary": "Las fincas ofrecen C$80–100 por lata más tres comidas; un cortador hace 5–6 latas al día (C$400–500). Una finca del sur necesitaría 300 personas y se conforma con 200, y la maduración avanza lenta (hasta 50 % en algunos lotes): riesgo de retraso en la entrega de lotes."
     },
     {
-      "id": "n14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-31",
-      "source": "The Industry Spread (I & M Smith)",
-      "url": "https://theindustryspread.com/arabica-first-notice-certified-stock-case/",
-      "title": "Inventarios certificados de arábica: 222.035 sacos; el contrato de diciembre cierra en 287,20 ¢/lb",
-      "summary": "Según el informe del 29 de octubre, el stock certificado está 4.389 sacos por encima del mínimo de 27 años (217.646). El primer aviso de diciembre es el 19 de noviembre; la tensión de entrega sostiene el arábica."
-    },
-    {
-      "id": "ni12",
+      "id": "ni16",
       "scope": "ni",
       "regiones": [],
-      "tag": "Regulación",
-      "date": "2026-10-30",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/nicaragua-us-tariff-12-5-percent-explained/",
-      "title": "El café nicaragüense queda exento del arancel de 12,5 % de EE. UU.",
-      "summary": "El arancel de 12,5 % rige desde el 24 de julio de 2026, pero el café figura en la lista de exenciones. Aparte, un arancel a bienes no originarios del CAFTA-DR pasa de 0 % a 10 % el 1 de enero de 2027 y no lista exclusiones; conviene confirmar el origen en los embarques de 2027."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters (Business Recorder)",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "El arábica sube 2,7 % a US$2,95 por libra por temor a poca oferta inmediata",
-      "summary": "Los inventarios certificados de ICE (225.068 sacos) siguen cerca de mínimos de 27 años; el clima favorable en Brasil y el real débil frenan el alza. Para comprar en Nicaragua: diferenciales y fijaciones siguen expuestos a un mercado nervioso en el corto plazo."
-    },
-    {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Comunicaffe",
-      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
-      "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
-      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua. Brasil: Icafé estima la cosecha 2026-27 en 72,75 M de sacos (récord, +16,6 %) y los embarques de octubre superaron 5 M de sacos."
-    },
-    {
-      "id": "ni13",
-      "scope": "ni",
-      "regiones": [
-        "jinotega",
-        "nueva-segovia"
-      ],
-      "tag": "Producción",
-      "date": "2026-10-15",
-      "source": "El Diario Nica",
-      "url": "https://eldiarionica.com/2026/10/15/cooperativa-proyecta-exportar-20-mil-quintales-de-cafe/",
-      "title": "Soppexca arranca el corte en La Dalia, El Cuá y Rancho Grande",
-      "summary": "La Unión de Cooperativas Soppexca (Jinotega, unos 300 socios) proyecta exportar 20.000 quintales oro a EE. UU. y Europa; empezó a recolectar en las zonas bajas y se prepara en San Fernando (Nueva Segovia). Señal de que los primeros lotes ya están disponibles."
+      "tag": "Precios",
+      "date": "2026-11-02",
+      "source": "Prensa Latina (Correo Canadiense)",
+      "url": "https://www.correo.ca/2026/11/nicaragua-mejora-precios-y-calidad-de-su-cafe-de-exportacion/",
+      "title": "Conatradec: el precio promedio del café exportado sube de US$272 a US$294 por quintal en 2026",
+      "summary": "Según Eduardo Escobar (Conatradec), el precio promedio pasó de US$272 por quintal en el ciclo anterior a US$294 en 2026, y las exportaciones superaron US$700 M a septiembre (el BCN reportó US$691 M); esperan cerrar 2026 (año calendario) en US$900 M o más. El BCN presenta los US$294 como proyección del ciclo 2026-27, así que la cifra aún no es un promedio cerrado."
     },
     {
       "id": "ni15",
@@ -126,6 +107,16 @@
       "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
     },
     {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
+      "title": "El arábica sube 2,7 % a US$2,95 por libra por temor a poca oferta inmediata",
+      "summary": "Los inventarios certificados de ICE (225.068 sacos) siguen cerca de mínimos de 27 años; el clima favorable en Brasil y el real débil frenan el alza. Para comprar en Nicaragua: diferenciales y fijaciones siguen expuestos a un mercado nervioso en el corto plazo."
+    },
+    {
       "id": "n17",
       "scope": "mundo",
       "tag": "Producción",
@@ -136,6 +127,16 @@
       "summary": "Quedaría por debajo de 18 M de sacos de 60 kg (19,68 M en 2025-26) por sequía y calor en el primer semestre, más broca y el año bajo del ciclo bienal; Honduras, México y Guatemala caen más (Nicaragua no se detalla). Menos oferta regional tiende a sostener los diferenciales de los lavados centroamericanos."
     },
     {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Comunicaffe",
+      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
+      "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
+      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua. Brasil: Icafé estima la cosecha 2026-27 en 72,75 M de sacos (récord, +16,6 %) y los embarques de octubre superaron 5 M de sacos."
+    },
+    {
       "id": "n18",
       "scope": "mundo",
       "tag": "Mercado",
@@ -144,6 +145,16 @@
       "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
       "title": "El arábica de diciembre cierra en 273,60 ¢/lb (−6,40) por liquidación y el roll de fondos",
       "summary": "Tocó 280,60 y cayó al cierre con el mayor volumen desde julio (69.769 lotes); el robusta de enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre: volatilidad para fijar precio de café nicaragüense esta semana."
+    },
+    {
+      "id": "n19",
+      "scope": "mundo",
+      "tag": "Regulación",
+      "date": "2026-11-09",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/09/vietnam-cheap-coffee-sustainability-eu-rules/",
+      "title": "Nestlé Vietnam: el café barato perderá atractivo en Europa con el reglamento antideforestación",
+      "summary": "El EUDR se aplica a la mayoría de empresas desde el 30 de diciembre de 2026 (las pequeñas, en 2027); Europa consume cerca del 24 % del café mundial. Para lotes de Nicaragua con destino a la UE, la geolocalización y trazabilidad de fincas pasa a ser requisito de compra."
     }
   ]
 }
