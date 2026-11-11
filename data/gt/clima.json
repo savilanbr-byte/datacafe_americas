@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:50:00Z",
+  "updatedAt": "2026-11-11T11:47:59Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,21 +23,20 @@
     "period": ""
   },
   "impactos": [
-    "Con El Niño establecido, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) enfrentan un noviembre más lluvioso de lo normal en el norte y la Bocacosta: vigila secado, fruta caída y sobremadurez.",
-    "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que la sequía no se prolongue en la maduración, y las heladas de los frentes fríos en las partes más altas de Huehuetenango y San Marcos pueden dañar fruta y brotes: pregunta por daños en fincas de más de 1.800 m.",
-    "El calor de El Niño acelera la broca y otras plagas, según el boletín de Anacafé, y las primeras lluvias reactivan la roya: pide a los proveedores su plan de manejo.",
-    "Las floraciones de 2027-28 podrían estresarse si El Niño se prolonga hasta mediados de 2027."
+    "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen lloviznas dispersas por la tarde y un noviembre más lluvioso de lo normal en el Norte y la Bocacosta: vigila secado, fruta caída y sobremadurez.",
+    "Las noches de 3–5 °C en los altiplanos y los frentes fríos pueden dañar fruta y brotes en las partes más altas de Huehuetenango, San Marcos y Atitlán: pregunta por daños de helada en fincas de más de 1.800 m.",
+    "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; Anacafé advirtió pérdidas de 5–15 % si persiste.",
+    "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
     "asOf": "2026-11-09",
-    "headline": "Primer frente frío de noviembre con heladas en el Altiplano Occidental; noviembre sigue con lluvias sobre lo normal y El Niño",
+    "headline": "Semana del 9 al 13 de noviembre: días cálidos, noches frías (3–5 °C en los altiplanos) y lloviznas dispersas por la tarde",
     "items": [
-      "Primer frente frío del mes (CONRED/INSIVUMEH, 6-nov): vientos del norte y heladas meteorológicas en las partes altas de Huehuetenango, San Marcos, Quetzaltenango y Totonicapán.",
-      "INSIVUMEH (9-nov): mínimas de 10–14 °C en noviembre, cercanas a 0 °C en algunas localidades de Occidente y el Altiplano Central; se esperan 2 frentes fríos en noviembre, 4 en diciembre y 4 en enero (16 en la temporada).",
-      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén, con riesgo de deslizamientos en el Norte y la Bocacosta.",
-      "Los modelos internacionales dan 100 % de probabilidad de que El Niño persista en los primeros meses de 2027."
+      "Pronóstico del 9–13 de noviembre (INSIVUMEH): mínimas de 3 a 5 °C en los altiplanos central y occidental; máximas de 26–34 °C en Alta Verapaz y hasta 36 °C en el Pacífico y Oriente; lloviznas o lluvias dispersas en tardes y noches por humedad de ambos litorales.",
+      "INSIVUMEH (9-nov): mínimas de 10–14 °C en noviembre, cercanas a 0 °C en Huehuetenango, San Marcos, Quetzaltenango, Sololá, Chimaltenango y Sacatepéquez; 2 frentes fríos en noviembre, 4 en diciembre y 4 en enero (16 en la temporada).",
+      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén, con riesgo de deslizamientos en el Norte y la Bocacosta; El Niño persistiría en los primeros meses de 2027."
     ],
     "links": [
       {
@@ -45,8 +44,8 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
-        "t": "Primer frente frío (Somos Guate)",
-        "url": "https://www.somosguate.com/conred-declara-alerta-institucional-ante-el-ingreso-del-primer-frente-frio-de-la-temporada/"
+        "t": "Pronóstico 9–13 nov (Guatemala.com)",
+        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-del-9-al-13-noviembre-2026"
       },
       {
         "t": "Frío de noviembre (Emisoras Unidas, 9-nov)",

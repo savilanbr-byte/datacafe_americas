@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-10T19:50:00Z",
+  "updatedAt": "2026-11-11T11:47:59Z",
   "items": [
+    {
+      "id": "n17",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "OIC · The Cooperator News",
+      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
+      "title": "OIC: exportación mundial de café sube 1 % en 2025-26 y se proyecta superávit",
+      "summary": "El mundo exportó 142,39 M de sacos en el año cafetero 2025-26 (+1 %); Centroamérica, el Caribe y México subieron 4,6 % y Brasil cayó 7,3 %. El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %), los inventarios certificados de arábica en EE. UU. quedaron en su menor nivel de fin de octubre desde 2002 y la OIC calcula un superávit de 3 M de sacos."
+    },
     {
       "id": "n16",
       "scope": "mundo",
@@ -10,6 +20,23 @@
       "url": "https://www.tradingview.com/news/barchart:a05bc7548094b:0-coffee-prices-undercut-by-rising-brazil-coffee-exports/",
       "title": "Arábica cae a mínimo de 7 semanas por el alza de las exportaciones de Brasil y Vietnam",
       "summary": "El contrato de diciembre cerró el lunes 9-nov con −6,40 ¢ (−2,29 %); Brasil exportó 287.000 t en octubre (+23 % anual) y Vietnam 114.000 t (+61 %). Los inventarios certificados de arábica en ICE (220.379 sacos) siguen cerca del mínimo de 27 años."
+    },
+    {
+      "id": "g17",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos",
+        "atitlan",
+        "antigua",
+        "acatenango"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-09",
+      "source": "Emisoras Unidas · INSIVUMEH",
+      "url": "https://emisorasunidas.com/nacional/2026/11/09/bajas-temperaturas-frio-noviembre-departamentos-guatemala/",
+      "title": "INSIVUMEH: frío intenso en noviembre en el Altiplano y 16 frentes fríos en la temporada",
+      "summary": "Para noviembre prevé mínimas de 10–14 °C, con valores cercanos a 0 °C en Huehuetenango, San Marcos, Quetzaltenango, Sololá, Chimaltenango y Sacatepéquez; la temporada 2026-27 tendría 16 frentes fríos (2 en noviembre, 4 en diciembre y 4 en enero). Conviene preguntar por daños de helada en fruta y brotes en las fincas más altas."
     },
     {
       "id": "g16",
@@ -99,43 +126,6 @@
       "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/",
       "title": "INSIVUMEH: noviembre con lluvias sobre lo normal y dos frentes fríos",
       "summary": "Las lluvias superarían lo habitual, más en Caribe, Bocacosta y Petén (220–600 mm), con mínimas de 7–17 °C en Occidente y Altiplano Central. La humedad dificulta el secado y el transporte en la cosecha temprana; el frío afecta las zonas altas."
-    },
-    {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-27",
-      "source": "ADM Investor Services",
-      "url": "https://www.admis.com/coffee-futures-extend-selloff/",
-      "title": "Inventarios certificados de arábica en ICE bajan a 225.610 sacos",
-      "summary": "Cayeron 2.368 sacos el lunes 26-oct, el nivel más bajo desde el 15-sep (mínimo de 26 años: 217.646). El real débil mantiene a los exportadores brasileños vendiendo futuros como cobertura."
-    },
-    {
-      "id": "n14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-27",
-      "source": "Business Recorder",
-      "url": "https://brecorder.com/news/40446024/sugar-coffee-slip-as-brazils-real-slumps-on-lula-win",
-      "title": "Arábica cae 3,4 % y robusta toca mínimos desde marzo de 2024",
-      "summary": "El 27-oct el arábica ICE bajó a unos US$2,97 por libra (máximo de seis semanas: US$3,18) y la robusta cayó 1,9 % a US$3.181 por tonelada, por el real débil tras la reelección de Lula y la cosecha de Vietnam. Más presión sobre las referencias de compra de café lavado."
-    },
-    {
-      "id": "g10",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos",
-        "atitlan",
-        "antigua",
-        "acatenango"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-27",
-      "source": "Emisoras Unidas · INSIVUMEH",
-      "url": "https://emisorasunidas.com/nacional/2026/10/27/insivumeh-frentes-frios-guatemala-bajas-temperaturas-2026-2027/",
-      "title": "INSIVUMEH prevé 16 frentes fríos para la temporada 2026-27",
-      "summary": "Habría 2 frentes en noviembre, 4 en diciembre y 4 en enero, con mínimas de 10–14 °C en Occidente y Altiplano Central y picos cercanos a 0 °C. Marcan el fin de la lluvia: ayudan al secado, pero hay que vigilar el frío en las zonas altas durante la cosecha."
     }
   ]
 }
