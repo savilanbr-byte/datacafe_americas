@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-11-10T19:47:29Z",
+  "updatedAt": "2026-11-11T11:49:06Z",
   "series": {
     "tc": {
       "label": "Dólar en reales",
       "unit": "BRL/USD",
       "dec": 4,
       "points": [
-        [
-          "2026-04-16",
-          4.9882
-        ],
-        [
-          "2026-04-17",
-          4.9764
-        ],
-        [
-          "2026-04-20",
-          4.9831
-        ],
-        [
-          "2026-04-21",
-          4.9639
-        ],
-        [
-          "2026-04-22",
-          4.9717
-        ],
-        [
-          "2026-04-23",
-          4.963
-        ],
-        [
-          "2026-04-24",
-          5.0006
-        ],
         [
           "2026-04-27",
           4.9681
@@ -589,6 +561,10 @@
         [
           "2026-11-09",
           5.5048
+        ],
+        [
+          "2026-11-10",
+          5.586
         ]
       ],
       "note": "Hasta el 15-oct: tipo de referencia del BCE (Frankfurter). Desde el 16-oct: cierre del dólar comercial.",
@@ -687,6 +663,10 @@
         [
           "2026-11-09",
           1597.0
+        ],
+        [
+          "2026-11-10",
+          1611.3
         ]
       ],
       "note": "Indicador diario; la serie arranca el 13-oct-2026 y suma un dato por actualización.",
@@ -781,6 +761,10 @@
         [
           "2026-11-09",
           976.02
+        ],
+        [
+          "2026-11-10",
+          977.99
         ]
       ],
       "note": "Indicador diario; la serie arranca el 9-oct-2026.",
@@ -793,11 +777,6 @@
     },
     "kc1": {
       "points": [
-        [
-          "2026-04-15",
-          284.63,
-          "m"
-        ],
         [
           "2026-05-15",
           268.18,
@@ -945,6 +924,10 @@
         [
           "2026-11-09",
           273.6
+        ],
+        [
+          "2026-11-10",
+          272.2
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -961,11 +944,6 @@
     },
     "robusta": {
       "points": [
-        [
-          "2026-04-15",
-          3321,
-          "m"
-        ],
         [
           "2026-05-15",
           3346,

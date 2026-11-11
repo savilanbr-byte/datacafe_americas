@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-10T19:47:29Z",
+  "updatedAt": "2026-11-11T11:49:06Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.5048,
+      "value": 5.586,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": -0.0034,
-      "changePct": -0.06,
+      "change": 0.0812,
+      "changePct": 1.48,
       "chgDec": 4,
-      "asOf": "2026-11-09",
-      "source": "Campo Grande News",
-      "url": "https://www.campograndenews.com.br/economia/dolar-abre-semana-em-queda-e-fecha-cotado-a-r-5-50",
+      "asOf": "2026-11-10",
+      "source": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-dispara-e-fecha-no-maior-patamar-em-1-ano",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
       "liveT": "Banco Central",
-      "note": "El dólar cerró en R$5,5048 el 9-nov (−0,06 % frente a R$5,5082 del viernes según la misma fuente), tras tocar su nivel más alto del año; sube 1,11 % en noviembre. El mercado pesa el Boletim Focus (inflación 2027 a 4,90 %; primer recorte de la Selic solo en marzo de 2027)."
+      "note": "El dólar subió a R$5,586 el 10-nov, el cierre más alto desde julio de 2025, porque la inflación de EE. UU. (IPC +0,4 %) superó lo previsto y avivó apuestas de alza de tasas de la Fed; también pesaron la caída del petróleo y el acta del Copom, que elevó la inflación proyectada para 2027."
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
@@ -28,33 +28,33 @@
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1597.0,
+      "value": 1611.3,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.88,
-      "asOf": "2026-11-09",
-      "fx": 5.5048,
-      "fxSrc": "dólar comercial del 9-nov (cierre)",
+      "changePct": 0.9,
+      "asOf": "2026-11-10",
+      "fx": 5.586,
+      "fxSrc": "dólar comercial del 10-nov (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 0,88 % el 9-nov, tras +0,45 % el 6-nov; el arábica en Nueva York cayó a 273,6 ¢/lb por la expectativa de mayor oferta brasileña."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Subió 0,90 % el 10-nov por el salto del dólar, aunque el arábica en Nueva York cayó a 271,40 ¢/lb (mínimo de siete semanas); según CEPEA, el dólar compensa buena parte de la baja externa y los negocios son escasos."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 976.02,
+      "value": 977.99,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.14,
-      "asOf": "2026-11-09",
-      "fx": 5.5048,
-      "fxSrc": "dólar comercial del 9-nov (cierre)",
+      "changePct": 0.2,
+      "asOf": "2026-11-10",
+      "fx": 5.586,
+      "fxSrc": "dólar comercial del 10-nov (cierre)",
       "source": "CEPEA · Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,14 % el 9-nov, tras +0,04 % el 6-nov; en el mes (26-oct a 9-nov) el indicador sube alrededor de 2 %."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Subió 0,20 % el 10-nov; desde el 27-oct (R$967,97) el indicador gana alrededor de 1 %."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",

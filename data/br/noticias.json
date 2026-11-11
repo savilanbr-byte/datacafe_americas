@@ -1,6 +1,64 @@
 {
-  "updatedAt": "2026-11-10T19:47:29Z",
+  "updatedAt": "2026-11-11T11:49:06Z",
   "items": [
+    {
+      "id": "b33",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-11",
+      "source": "CEPEA · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431160-cafe-cepea-dolar-limita-impacto-das-quedas-externas-sobre-precos-domesticos.html",
+      "title": "CEPEA: el dólar amortigua la caída externa y los precios internos siguen cerca de fines de octubre",
+      "summary": "Según CEPEA, el fuerte ritmo de embarques de Vietnam y Brasil en octubre presiona el arábica en Nueva York, pero la suba del dólar compensa buena parte de la baja en el mercado interno, donde los negocios son esporádicos. Para el comprador, el precio en reales se mantiene firme aunque el precio en dólares baja."
+    },
+    {
+      "id": "b34",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-11",
+      "source": "Conexão Safra",
+      "url": "https://conexaosafra.com/cafeicultura/cafe-brasileiro-na-europa-estudo-inedito-analisa-novas-regras-e-acordo-comercial/",
+      "title": "Estudio sobre el café Brasil–Alemania analiza el EUDR y el acuerdo UE–Mercosur",
+      "summary": "El Diálogo Agropolítico Brasil–Alemania presenta el 12-nov, en la Semana Internacional del Café de Belo Horizonte, un estudio sobre cómo el reglamento europeo contra la deforestación (EUDR) y el acuerdo UE–Mercosur afectan la competitividad, los costos de cumplimiento y el abastecimiento. Clave para quien compra café brasileño con destino a Europa: la trazabilidad será exigida."
+    },
+    {
+      "id": "n28",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431157-cafe-amplia-perdas-nesta-4-feira-com-arabica-e-robusta-em-baixa-nas-bolsas-internacionais.html",
+      "title": "Arábica y robusta abren en baja: real débil y cosecha vietnamita en marcha",
+      "summary": "En la mañana del 11-nov el arábica diciembre cedía a 270,35 ¢/lb y el robusta enero a US$3.234/t; pesan el real en mínimos de 15 meses, las exportaciones brasileñas de octubre (287.000 t, +23 %) y el avance de la cosecha 2026/27 en Vietnam, mientras los stocks certificados bajos dan algo de soporte."
+    },
+    {
+      "id": "b36",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-10",
+      "source": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-dispara-e-fecha-no-maior-patamar-em-1-ano",
+      "title": "El dólar se dispara a R$5,586, su cierre más alto en más de un año",
+      "summary": "El dólar comercial subió 1,45 % el 10-nov por la inflación de EE. UU. más alta de lo esperado, la caída del petróleo y el acta del Copom (Selic en 13,75 %). Un real tan débil abarata el café brasileño en dólares y puede animar las ventas del productor."
+    },
+    {
+      "id": "b32",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "mogiana",
+        "cerrado-mineiro"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-10",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431149-cafe-arabica-atinge-minima-de-sete-semanas-em-ny-mas-precos-sobem-no-br-com-alta-forte-do-dolar.html",
+      "title": "El arábica toca mínimo de siete semanas en NY, pero el físico sube en Brasil por el dólar",
+      "summary": "Diciembre cerró el 10-nov en 271,40 ¢/lb (−2,2 ¢), pero en el mercado físico la saca tipo 6 subió: R$1.722 en Guaxupé (+1,47 %) y R$1.660 en Franca (+1,84 %) y Varginha. En la ICE esperan clasificación 104.370 sacas de café brasileño, el máximo en ocho meses: más café brasileño entrando al stock certificado."
+    },
     {
       "id": "b28",
       "scope": "br",
@@ -42,38 +100,18 @@
       "summary": "El contrato enero de robusta ganó US$38 y el arábica diciembre quedó en 273,55 ¢/lb. Los inventarios certificados de arábica en ICE sumaron 241.403 sacas el 9-nov, un 42 % menos que hace un año."
     },
     {
-      "id": "b31",
+      "id": "b35",
       "scope": "br",
       "regiones": [
-        "sul-de-minas"
+        "sul-de-minas",
+        "cerrado-mineiro"
       ],
-      "tag": "Precios",
-      "date": "2026-11-10",
-      "source": "O Tempo · BBM",
-      "url": "https://otempo.com.br/agro/2026/11/10/cotacoes-do-agro-em-minas-10-11-2026",
-      "title": "El café físico sigue cediendo en Minas: R$1.697 por saca en Guaxupé",
-      "summary": "Según BBM, la saca de 60 kg bajó 0,29 % el 10-nov y quedó en R$1.697 en Guaxupé (entre R$1.570 y R$1.697 en las cinco plazas seguidas); cae 2,0 % en cinco días y 25,7 % en el año. Precios internos en ajuste, unos R$650 bajo el máximo de hace un año: buen momento para cotizar, aunque el real débil frena más caídas."
-    },
-    {
-      "id": "n26",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "tag": "Agricultura",
       "date": "2026-11-09",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431030-em-ny-futuros-do-arabica-perdem-mais-de-1-pressionado-por-perspectivas-de-maior-oferta-brasileira.html",
-      "title": "El arábica cierra en 273,60 ¢/lb en Nueva York por la perspectiva de más oferta brasileña",
-      "summary": "El contrato diciembre cerró el 9-nov en 273,60 ¢/lb (−6,4 ¢) y borró lo ganado el viernes; pesa la expectativa de una cosecha brasileña mayor, mientras los inventarios certificados de la ICE siguen cerca de mínimos de 27 años."
-    },
-    {
-      "id": "b27",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-09",
-      "source": "Campo Grande News",
-      "url": "https://www.campograndenews.com.br/economia/dolar-abre-semana-em-queda-e-fecha-cotado-a-r-5-50",
-      "title": "El dólar cierra en R$5,5048, casi plano, tras tocar máximos del año",
-      "summary": "El dólar comercial bajó 0,06 % el 9-nov y suma 1,11 % en noviembre; el Boletim Focus elevó la inflación esperada de 2027 a 4,90 % y la Selic de fin de 2026 a 13,75 %. Un real débil sostiene los precios internos del café."
+      "source": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
+      "title": "Estudio en siete fincas de Minas mide la economía del café regenerativo",
+      "summary": "GCP Brasil, con apoyo de JDE Peet's, Cooxupé y Emater-MG, halló costos operativos de R$488 a R$746 por saca y 45 sacas por hectárea en parcelas regenerativas del Sul de Minas y el Cerrado Mineiro, frente a 30,4 sacas de promedio nacional. La muestra es pequeña y no prueba causalidad, pero sirve para programas de compra sostenible."
     },
     {
       "id": "b22",
@@ -92,17 +130,6 @@
       "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
       "title": "CEPEA: la safra 2027/28 arranca bien, pero el calor y El Niño inquietan",
       "summary": "El cuajado (pegamento) es bueno en Mogiana, noroeste de Paraná y Sul de Minas; en el Cerrado Mineiro se confirmará hacia diciembre y en Rondônia casi un mes seco trajo broca temprana. Se espera una cosecha grande pero no récord en un año de baja bienal."
-    },
-    {
-      "id": "b24",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-06",
-      "source": "CNN Brasil",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
-      "title": "El dólar cierra en R$5,5115, el más alto del año, por el empleo en EE. UU. y la cautela fiscal",
-      "summary": "La divisa subió 0,44 % el viernes con una nómina estadounidense muy superior a lo esperado (unos 165.000 empleos) y dudas sobre la política fiscal local. Un real débil sostiene los precios internos del café y mantiene al productor reacio a vender barato."
     },
     {
       "id": "b25",
