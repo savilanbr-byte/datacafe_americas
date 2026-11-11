@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T19:48:21Z",
+ "updatedAt": "2026-11-11T11:47:54Z",
  "desde": "2026-09-27",
  "series": {
   "tc": {
@@ -178,16 +178,15 @@
     [
      "2026-11-10",
      445.62
+    ],
+    [
+     "2026-11-11",
+     446.01
     ]
    ]
   },
   "kc1": {
    "points": [
-    [
-     "2026-04-15",
-     284.63,
-     "m"
-    ],
     [
      "2026-05-15",
      268.18,
@@ -339,6 +338,10 @@
     [
      "2026-11-09",
      273.6
+    ],
+    [
+     "2026-11-10",
+     272.2
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -355,11 +358,6 @@
   },
   "robusta": {
    "points": [
-    [
-     "2026-04-15",
-     3321,
-     "m"
-    ],
     [
      "2026-05-15",
      3346,
@@ -506,7 +504,7 @@
     ],
     [
      "2026-11-10",
-     3284.0
+     3252.0
     ]
    ],
    "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",

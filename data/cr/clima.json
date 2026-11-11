@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T19:48:21Z",
+ "updatedAt": "2026-11-11T11:47:54Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -26,17 +26,21 @@
  ],
  "avisos": {
   "source": "IMN",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-11",
   "headline": "La época seca se instala por fases: Pacífico Norte y Valle Central del 9 al 15 de noviembre, Pacífico Central del 16 al 22 y Pacífico Sur del 23 al 29",
   "items": [
    "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020.",
-   "Semana del 9 al 15 de noviembre: acumulados de 5–80 mm en el Valle Central, 20–80 mm en el Pacífico Sur y 30–70 mm en la Zona Norte; una baja presión frente al Pacífico deja aguaceros aislados y suelos saturados en sectores del Pacífico.",
-   "Caribe y Zona Norte oriental no tienen época seca definida, aunque se prevén menos lluvias en noviembre; El Niño se mantendría muy fuerte hasta febrero de 2027."
+   "Tendencia semanal del IMN (9–16 nov): condiciones relativamente estables y menos lluvia; en el Valle Central solo aguaceros aislados de jueves a sábado por la tarde (máx. 31 °C, mín. 16 °C).",
+   "Miércoles 11 de noviembre: ambiente caluroso, pocas lluvias y ráfagas de viento en montañas y Pacífico Norte por alisios acelerados; solo lluvias costeras vespertinas en el Pacífico Central y Sur."
   ],
   "links": [
    {
     "t": "IMN · tendencia semanal",
     "url": "https://www.imn.ac.cr/tendencia-semanal"
+   },
+   {
+    "t": "La Nación · Pronóstico del 11 de noviembre",
+    "url": "https://www.nacion.com/sucesos/se-alejan-las-lluvias-imn-anticipa-cambios-en-el/3KC36A62KVE4PE3URSURJ3RFRE/story/"
    },
    {
     "t": "El Observador · Llegada de la época seca",
