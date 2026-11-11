@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:47:15Z",
+  "updatedAt": "2026-11-11T11:47:10Z",
   "items": [
     {
       "id": "m24",
@@ -23,6 +23,21 @@
       "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
       "title": "Arábica de diciembre cae 6,40 ¢ a 273,60 ¢/lb por liquidación y rolado de fondos",
       "summary": "El contrato de diciembre cerró el 9-nov en 273,60 ¢/lb tras tocar 280,60; el interés abierto de diciembre bajó 8.018 lotes antes del vencimiento de opciones del jueves 12. El robusta de enero cerró en 3.267 USD/t (−3)."
+    },
+    {
+      "id": "m28",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos"
+      ],
+      "tag": "Eventos",
+      "date": "2026-11-09",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/11/09/tuxtla-expo-cafe-13-regiones-dia-del-cafe-chiapaneco/",
+      "title": "Expo de café de 13 regiones de Chiapas en Tuxtla el 20 y 21 de noviembre",
+      "summary": "Productores de las 13 regiones cafetaleras de Chiapas (más de 180 mil en el estado) exponen el 20 y 21 de noviembre en el Parque Bicentenario de Tuxtla, antes del Día del Café Chiapaneco (24-nov) y del Chiapas Coffee Summit en Tapachula; ocasión para conocer lotes de la nueva cosecha."
     },
     {
       "id": "m21",
@@ -185,19 +200,6 @@
       "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
       "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
       "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
-    },
-    {
-      "id": "m13",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "El Demócrata",
-      "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/",
-      "title": "Compradores ofrecerán 16–17 pesos por kilo de cereza, pero la CNOC advierte presión por importaciones de robusta",
-      "summary": "Antes del corte fuerte de noviembre en Veracruz, los compradores estiman 16–17 MXN/kg de cereza; la CNOC dice que es poco ante los insumos, que el peso fuerte resta unos 1.300 MXN por quintal de pergamino y que las importaciones de robusta brasileño subieron casi 80 % en septiembre. Para comprar: el pergamino mexicano se paga sobre bolsa, con descuentos de intermediarios de unos US$100 por quintal."
     }
   ]
 }
