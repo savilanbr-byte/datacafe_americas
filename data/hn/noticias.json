@@ -1,19 +1,41 @@
 {
- "updatedAt": "2026-11-10T19:50:00Z",
+ "updatedAt": "2026-11-11T11:55:00Z",
  "items": [
   {
-   "id": "h10",
+   "id": "h15",
    "scope": "hn",
-   "tag": "Clima",
-   "date": "2026-11-09",
-   "source": "Televicentro · COPECO",
-   "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09",
-   "title": "COPECO: lluvias hasta el viernes y primer frente frío el fin de semana en el Caribe",
-   "summary": "Una vaguada deja lluvias en Valle, Choluteca, Francisco Morazán y El Paraíso; el miércoles y jueves se mueven al occidente. Después la lluvia bajaría en el corredor seco y subiría en el Caribe. Para el comprador: el secado del pergamino sigue condicionado, sobre todo en El Paraíso y Copán.",
+   "regiones": [],
+   "tag": "Divisas",
+   "date": "2026-11-11",
+   "source": "El Heraldo",
+   "url": "https://www.elheraldo.hn/economia/liberalizacion-mercado-divisas-tardara-18-24-meses-honduras-DH32606353",
+   "title": "El BCH liberalizará el mercado de divisas en 18 a 24 meses y espera los dólares del café",
+   "summary": "El mercado interbancario arrancaría a inicios de 2027: bancos y casas de cambio retendrán el 10 % de los dólares que compren y trasladarán el 90 % al BCH. El banco espera la entrada de divisas por exportaciones de café, que suele empezar en noviembre, para reforzar reservas antes del cambio."
+  },
+  {
+   "id": "h16",
+   "scope": "hn",
    "regiones": [
-    "el-paraiso",
-    "copan"
-   ]
+    "copan",
+    "opalaca",
+    "comayagua"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-10",
+   "source": "Radio HRN · CENAOS",
+   "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10",
+   "title": "CENAOS: el primer frente frío entra el viernes 13 con lluvias en el centro y occidente",
+   "summary": "Una vaguada prefrontal y luego el frente frío dejarían nubosidad, descenso de temperatura y lluvias dispersas, sobre todo en el centro y occidente, durante el fin de semana. Puede retrasar el secado del pergamino en las zonas que ya cortan café."
+  },
+  {
+   "id": "n18",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-10",
+   "source": "Comunicaffe",
+   "url": "https://www.comunicaffe.com/coffee-futures-first-lots-traded-under-the-ice-arabicas-new-metric-contract/",
+   "title": "Se negocian los primeros lotes del nuevo contrato métrico de arábica en ICE",
+   "summary": "Se cerraron 48 lotes del vencimiento septiembre 2028 entre US$5.724 y 5.737 por tonelada; el contrato C en ¢/lb dejará de existir tras marzo de 2028. El 9-nov el arábica cerró en 273,60 ¢/lb (mínimo de 7 semanas) y los inventarios certificados subieron a 241.403 sacos."
   },
   {
    "id": "h11",
@@ -46,6 +68,16 @@
    "url": "https://tradingview.com/news/barchart:bf0455cf1094b:0-soaring-brazil-coffee-exports-weigh-on-arabica-prices",
    "title": "Exportaciones récord de Brasil llevan al arábica a mínimos de 7 semanas",
    "summary": "Brasil exportó 287.000 t de café en octubre (+23 % interanual) y Vietnam 114.000 t (+61 %); los inventarios certificados de arábica en ICE bajaron a 220.379 sacos. El contrato de diciembre cerró en 273,60 ¢/lb (−6,40)."
+  },
+  {
+   "id": "n19",
+   "scope": "mundo",
+   "tag": "Producción",
+   "date": "2026-11-09",
+   "source": "Comunicaffe",
+   "url": "https://www.comunicaffe.com/international-coffee-week-2026-brazil/",
+   "title": "Producción mundial récord de 189,7 M de sacos y Brasil con 67,6 M, según USDA y Conab",
+   "summary": "El USDA prevé 189,7 M de sacos de 60 kg en 2026-27 (+6 %) y la Conab 67,6 M para Brasil (+19,6 %). Más oferta mundial presiona la bolsa y el precio de referencia del café hondureño."
   },
   {
    "id": "h9",
@@ -103,27 +135,6 @@
    "url": "https://www.acicafoc.org/2026/11/03/reglamento-eudr-una-oportunidad-para-exportar-cafe-cuidando-el-bosque/",
    "title": "Productores de Santa Bárbara se capacitan para cumplir el EUDR",
    "summary": "Más de 50 caficultores de Concepción del Sur (Santa Bárbara) recibieron un taller sobre el reglamento europeo de deforestación para mantener el acceso a la UE en 2027. Para compradores europeos, conviene pedir geolocalización y trazabilidad desde ya."
-  },
-  {
-   "id": "h12",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-11-02",
-   "source": "La Prensa",
-   "url": "https://www.laprensa.hn/economia/economia-regreso-mercado-interbancario-divisas-honduras-OM32494479",
-   "title": "Honduras volverá al mercado interbancario de divisas a fin de año",
-   "summary": "El BCH regresará de forma gradual al mercado interbancario hacia el cierre de 2026, tras usar subastas desde abril de 2023, periodo en que el lempira pasó de 24,57 a 26,89 por dólar (+9,47 %). Los analistas advierten riesgo de más depreciación: a vigilar para contratos en lempiras."
-  },
-  {
-   "id": "n14",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-01",
-   "source": "DailyForex",
-   "url": "https://es.dailyforex.com/forex-technical-analysis/2026/11/cafe-arabica-cotiza-bajo-presion-semanal-2-a-6-noviembre-2026/251277",
-   "title": "El arábica cierra la semana cerca de 278,8 ¢/lb, 17 ¢ por debajo de la anterior",
-   "summary": "Tras cerrar cerca de 295,5 ¢/lb una semana antes, el arábica tocó mínimos bajo 274 ¢/lb con un real brasileño débil (USD/BRL ≈5,44). Para el comprador de café hondureño, el diferencial puede aprovechar una bolsa más barata, pero baja el precio de referencia al productor."
   }
  ]
 }

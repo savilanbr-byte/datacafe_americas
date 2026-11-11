@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T19:50:00Z",
+ "updatedAt": "2026-11-11T11:55:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,19 +24,19 @@
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "Lluvias en el occidente hasta el jueves y el primer frente frío el fin de semana pueden frenar el secado del pergamino y el acceso a fincas de Copán y El Paraíso: pide humedad del grano al recibir los lotes.",
-  "CENAOS prevé una temporada fría atípica, con pocos frentes y diciembre–enero 1–2 °C más cálidos: buen secado en Montecillos, Opalaca y Agalta cuando arranquen, pero la fruta puede madurar de golpe y faltar recolectores.",
+  "Lluvias en el centro y occidente hasta el jueves y el primer frente frío desde el viernes 13 (nubosidad y descenso de temperatura) pueden frenar el secado del pergamino en Copán, Opalaca y Comayagua, donde ya se corta en zonas bajas: pide humedad del grano al recibir los lotes.",
+  "CENAOS prevé una temporada fría atípica, con pocos frentes y diciembre–enero 1–2 °C más cálidos: buen secado en Montecillos, El Paraíso y Agalta cuando arranquen, pero la fruta puede madurar de golpe y faltar recolectores.",
   "Con la fruta madurando pareja y falta de mano de obra, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-09",
-  "headline": "Lluvias hasta el viernes y primer frente frío cerca",
+  "asOf": "2026-11-10",
+  "headline": "Primer frente frío entra el viernes 13 de noviembre",
   "items": [
-   "El martes 10 hay lluvias dispersas y chubascos por humedad del noreste, con más lluvia en el norte, oriente y sectores del occidente y centro.",
-   "El miércoles y jueves una vaguada deja lluvias en el occidente; luego la lluvia bajaría en el corredor seco y subiría en el Caribe.",
-   "El primer frente frío podría entrar al Caribe el fin de semana; COPECO mantiene vigilancia por deslizamientos."
+   "Según CENAOS, una vaguada prefrontal llega la mañana del viernes 13 y el primer frente frío de la temporada por la tarde; persistiría el fin de semana.",
+   "Hasta entonces siguen lluvias dispersas en la mayor parte del país, con más presencia en el centro y el occidente; en el sur, vientos racheados.",
+   "Se esperan descenso de temperaturas y abundante nubosidad; por El Niño, la temporada tendría menos frentes y más débiles."
   ],
   "links": [
    {
@@ -44,12 +44,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Televicentro",
-    "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09"
+    "t": "Radio HRN",
+    "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10"
    },
    {
-    "t": "Radio HRN",
-    "url": "https://www.radiohrn.hn/clima-honduras-martes-10-de-noviembre-preven-frio-lluvias-para-estas-zonas-2026-11-09"
+    "t": "Televicentro",
+    "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09"
    }
   ]
  },
