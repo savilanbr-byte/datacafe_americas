@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-11",
     "base": "USD",
     "rates": {
-      "BRL": 5.512234,
-      "COP": 3242.125467,
-      "MXN": 18.57202,
-      "GTQ": 7.648075,
-      "HNL": 26.895378,
-      "NIO": 36.823063,
-      "CRC": 453.484156,
-      "VES": 899.2705,
-      "PEN": 3.421491,
-      "BOB": 11.906012
+      "BRL": 5.553906,
+      "COP": 3276.876985,
+      "MXN": 18.611384,
+      "GTQ": 7.648231,
+      "HNL": 26.88979,
+      "NIO": 36.814499,
+      "CRC": 452.888176,
+      "VES": 901.6175,
+      "PEN": 3.41557,
+      "BOB": 11.864569
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -90,24 +90,24 @@
       "chgDec": 0
     },
     "icoBN": {
-      "asOf": "2026-09-30",
+      "asOf": "2026-10-31",
       "dec": 2,
       "label": "Naturales brasileños",
-      "note": "Promedio de septiembre 2026",
+      "note": "Promedio de octubre 2026",
       "source": "OIC · I-CIP",
       "unit": "¢/lb",
-      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-      "value": 290.19
+      "url": "https://www.ico.org/documents/prices/I-CIP_10.2026.pdf",
+      "value": 294.49
     },
     "icoCM": {
-      "asOf": "2026-09-30",
+      "asOf": "2026-10-31",
       "dec": 2,
       "label": "Suaves colombianos",
-      "note": "Promedio de septiembre 2026",
+      "note": "Promedio de octubre 2026",
       "source": "OIC · I-CIP",
       "unit": "¢/lb",
-      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-      "value": 356.15
+      "url": "https://www.ico.org/documents/prices/I-CIP_10.2026.pdf",
+      "value": 357.85
     },
     "icoComp": {
       "asOf": "2026-11-09",
@@ -120,37 +120,37 @@
       "value": 247
     },
     "icoOM": {
-      "asOf": "2026-09-30",
+      "asOf": "2026-10-31",
       "dec": 2,
       "label": "Otros suaves",
-      "note": "Promedio de septiembre 2026",
+      "note": "Promedio de octubre 2026",
       "source": "OIC · I-CIP",
       "unit": "¢/lb",
-      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-      "value": 329.44
+      "url": "https://www.ico.org/documents/prices/I-CIP_10.2026.pdf",
+      "value": 334.99
     },
     "icoRB": {
-      "asOf": "2026-09-30",
+      "asOf": "2026-10-31",
       "dec": 2,
       "label": "Robustas",
-      "note": "Promedio de septiembre 2026",
+      "note": "Promedio de octubre 2026",
       "source": "OIC · I-CIP",
       "unit": "¢/lb",
-      "url": "https://www.ico.org/documents/prices/I-CIP_09.2026.pdf",
-      "value": 167.49
+      "url": "https://www.ico.org/documents/prices/I-CIP_10.2026.pdf",
+      "value": 164.19
     },
     "kc1": {
       "asOf": "2026-11-10",
-      "change": -1.4,
+      "change": -2.2,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 10-nov (Investing, histórico); -0,51% frente al cierre del 9-nov (273,60)",
+      "note": "Cierre del 10-nov (Investing, histórico); -0,80% frente al cierre del 9-nov (273,60)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "value": 272.2
+      "value": 271.4
     },
     "kc2": {
       "asOf": "2026-11-10",
@@ -203,17 +203,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-10",
-      "change": -12.0,
-      "changePct": -0.37,
+      "asOf": "2026-11-11",
+      "change": -34.0,
+      "changePct": -1.05,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
-      "note": "Cierre del 10-nov (Investing); contrato frente enero 2027",
+      "note": "Intradía 11-nov (Investing, 06:45 Bogotá); cierre anterior 3.252",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3252.0
+      "value": 3218.0
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-10T19:48:42Z"
+  "updatedAt": "2026-11-11T11:47:00Z"
 }

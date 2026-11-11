@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "e4",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Divisas",
+      "date": "2026-11-10",
+      "source": "Portafolio",
+      "url": "https://www.portafolio.co/amp/economia/finanzas/dolar-en-colombia-sigue-subiendo-previo-al-dato-de-inflacion-en-ee-uu-podria-romper-la-barrera-de-los-3-506036",
+      "title": "Colombia: el dólar se acerca a $3.300 con la caída del petróleo y apuestas de alza de la Fed",
+      "summary": "La TRM subió $32 a $3.269,88 y el dólar tocó $3.297 en la mañana del 10-nov, presionado por la caída del crudo y una probabilidad de 79,5% de alza de tasas de la Fed en diciembre. Un peso más débil mejora el precio interno en pesos, aunque el KC siga bajando."
+    },
+    {
       "id": "d1",
       "scope": "am",
       "pais": "Colombia",
@@ -31,6 +42,28 @@
       "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
       "title": "Las compras de café sostenible de los grandes tostadores caen por primera vez",
       "summary": "La Global Coffee Platform reporta que los 14 grandes compradores adquirieron 1,58 millones de toneladas de café sostenible en 2025 (-8,9%), el 69,3% del total frente a 75,4% en 2024; las compras llegaron de 30 orígenes, cuatro menos. Menos demanda de certificados puede reducir primas para productores verificados."
+    },
+    {
+      "id": "e1",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Eventos",
+      "date": "2026-11-09",
+      "source": "O Tempo · Faemg",
+      "url": "https://www.otempo.com.br/minas-sa/2026/11/9/com-minas-respondendo-por-mais-de-50-do-cafe-do-brasil-sic-espera-r-200-milhoes-em-negocios",
+      "title": "Brasil: arranca la Semana Internacional del Café en Belo Horizonte con Minas en unos 35 millones de sacas",
+      "summary": "La SIC va del 11 al 13 de noviembre y espera R$ 200 millones en negocios; Faemg calcula unos 35 millones de sacas para Minas en 2026, más de la mitad de Brasil. Para 2027 el tono es cauto por El Niño fuerte y el año bajo de la bienalidad."
+    },
+    {
+      "id": "e2",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Eventos",
+      "date": "2026-11-09",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/11/09/tapachula-cumbre-cafe-chiapas-coffee-summit-gratis/",
+      "title": "Chiapas: el Coffee Summit de Tapachula reunirá a 15 compradores de Europa, EE. UU. y Costa Rica",
+      "summary": "La cumbre se hace del 23 al 28 de noviembre con talleres, panel de oferta exportable de 40 espacios y visitas a cuatro fincas; el gobierno estatal espera ventas de unos 60 millones de pesos. Es una ventana para cerrar lotes chiapanecos de la cosecha 2026-27 directo con productores."
     },
     {
       "id": "c1",
@@ -74,6 +107,16 @@
       "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
       "title": "Brasil: fincas regenerativas en Minas Gerais producen 45 sacos por hectárea con costos menores",
       "summary": "Un estudio de GCP Brasil con JDE Peet's, Cooxupé y Emater-MG en siete fincas de Sul de Minas y Cerrado halló costos operativos de R$488 a R$746 por saco de 60 kg, bajo el referente de Conab (R$768,80), y 45 sacos/ha frente a 30,4 de promedio nacional. La muestra es pequeña y no prueba causalidad."
+    },
+    {
+      "id": "e3",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-08",
+      "source": "Xinhua · ECTA",
+      "url": "https://english.news.cn/20261108/6c47963125274c77b33a1f33c9f4ca67/c.html",
+      "title": "Etiopía exporta más de 131.000 toneladas de café en el primer trimestre fiscal y gana 15% más",
+      "summary": "Los ingresos superaron US$878 millones, 15% más que un año antes, aunque un poco por debajo de la meta; China ya es el tercer destino con unas 15.125 toneladas. Más competencia de Etiopía por los compradores de lavados de alta calidad."
     },
     {
       "id": "d2",
@@ -194,5 +237,5 @@
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-10T19:48:42Z"
+  "updatedAt": "2026-11-11T11:47:00Z"
 }
