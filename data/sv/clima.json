@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:47:17Z",
+  "updatedAt": "2026-11-11T11:47:50Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,24 +23,28 @@
     "period": ""
   },
   "impactos": [
-    "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26.",
-    "Las lluvias intensas que el MARN avisó para la costa y el oriente entre el 6 y el 9 de noviembre interrumpen el secado en patio del bajío que cosecha primero (Chichontepec, Tecapa-Chinameca y Cacahuatique); conviene vigilar humedad del pergamino y fruta caída antes de cerrar lotes tempranos.",
-    "Si noviembre–enero queda 40–50 % bajo lo normal en lluvia, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (cosecha de diciembre a marzo) puede dar grano más pequeño y menos denso.",
-    "Las lluvias de la vaguada del 20 de octubre trajeron riesgo de deslizamientos en Morazán (Cacahuatique) y crecidas en La Libertad: conviene confirmar el estado de caminos y beneficios antes de cerrar embarques."
+    "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26; la Mesa Agropecuaria estima 950 mil.",
+    "Las tormentas puntuales de la tarde que el MARN prevé hasta el 12 de noviembre en Tecapa-Chinameca, Cacahuatique y El Bálsamo pueden interrumpir el secado en patio del café de bajío y media altura que se corta ahora; conviene vigilar la humedad del pergamino antes de cerrar lotes tempranos.",
+    "Con la época seca prevista desde el 14 de noviembre y El Niño fuerte hasta inicios de 2027, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (corta de diciembre a marzo) puede adelantarse y dar grano más pequeño y menos denso.",
+    "Los vientos nortes de noviembre (ráfagas de hasta 35 km/h) pueden botar fruta madura en las partes altas del occidente y el norte; conviene preguntar por pérdidas de uva al negociar volúmenes de diciembre."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-06",
-    "headline": "El MARN avisó lluvias intensas en la costa y el oriente hasta el 9 de noviembre; la época seca arrancaría entre el 5 y el 14 de noviembre",
+    "asOf": "2026-11-11",
+    "headline": "MARN: tardes con lluvias y tormentas puntuales en las cordilleras el 11 y 12 de noviembre; la época seca arrancaría el 14 de noviembre",
     "items": [
-      "El 6 de noviembre el MARN advirtió lluvias intensas en la franja costera y la zona oriental durante el fin de semana (hasta el lunes 9), por una baja presión frente a Centroamérica con 60 % de probabilidad de ciclón en siete días según el NHC.",
-      "Vientos nortes débiles el 6 de noviembre, más fuertes en el occidente y la franja montañosa del norte, con ráfagas de hasta 40 km/h; madrugadas frescas.",
-      "La UES ubica el inicio oficial de la época seca el 14 de noviembre; el MARN proyecta 48,7 mm en noviembre (promedio histórico 32,3 mm)."
+      "Para el 11 de noviembre el MARN prevé mañana seca y lluvias y tormentas puntuales por la tarde en Apaneca-Ilamatepec, El Bálsamo y el norte de Chalatenango, Cabañas, Morazán y San Miguel; el 12 se suma la sierra de Tecapa-Chinameca.",
+      "Viento del noreste de 10 a 20 km/h con brisas de hasta 35 km/h; máximas de 30–31 °C en Santa Ana y San Salvador y de 37 °C en San Miguel.",
+      "El MARN espera de dos a cuatro eventos de vientos nortes en noviembre y que la época seca se establezca este mes y dure hasta finales de abril de 2027; la UES ubica su inicio oficial el 14 de noviembre."
     ],
     "links": [
       {
-        "t": "MARN",
-        "url": "https://www.snet.gob.sv/"
+        "t": "MARN · pronóstico 48 h",
+        "url": "https://www.snet.gob.sv/ver/meteorologia/pronostico/24+horas"
+      },
+      {
+        "t": "Diario El Mundo",
+        "url": "https://diario.elmundo.sv/nacionales/vientos-del-norte-retornaran-este-miercoles-segun-marn"
       },
       {
         "t": "Infobae",
@@ -49,18 +53,6 @@
       {
         "t": "Diario El Mundo",
         "url": "https://diario.elmundo.sv/nacionales/el-salvador-iniciara-la-epoca-seca-en-noviembre-con-vientos-nortes-y-lluvias-dentro-de-lo-normal"
-      },
-      {
-        "t": "Infobae",
-        "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/"
-      },
-      {
-        "t": "El Diario de Hoy",
-        "url": "https://www.elsalvador.com/noticias/nacional/epoca-seca-el-salvador/1300213/2026/"
-      },
-      {
-        "t": "Infobae",
-        "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/"
       }
     ]
   },

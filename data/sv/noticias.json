@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T19:47:17Z",
+  "updatedAt": "2026-11-11T11:47:50Z",
   "items": [
     {
       "id": "n18",
@@ -72,6 +72,16 @@
       "summary": "El contrato de diciembre perdió 7,20 centavos en la semana, tras haber repuntado el 2 de noviembre a 292,10 ¢/lb con inventarios certificados cerca de mínimos. El nivel de referencia para fijar precios del café salvadoreño baja, aunque la oferta inmediata sigue ajustada."
     },
     {
+      "id": "n19",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-06",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "El arábica ronda US$2,80/lb, mínimo de más de un mes, por la llegada rápida de café brasileño",
+      "summary": "Los inventarios certificados de café brasileño en ICE subieron a 83.678 sacos (máximo de 9,25 meses) y hay 55.396 sacos en espera de clasificación; el real débil anima a vender en Brasil. Un mercado más holgado presiona los precios base con que se negocia el café salvadoreño de la nueva cosecha."
+    },
+    {
       "id": "s13",
       "scope": "sv",
       "regiones": [],
@@ -114,16 +124,6 @@
       "summary": "Según la UES la transición termina el 13 de noviembre; el MARN proyecta 48,7 mm en noviembre (promedio 32,3 mm) y de dos a cuatro vientos nortes. Con El Niño muy fuerte hasta enero, conviene vigilar el secado en patio en el centro y el oriente."
     },
     {
-      "id": "n14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-10-27",
-      "source": "Reuters · Investing.com",
-      "url": "https://br.investing.com/news/stock-market-news/acucar-sobe-e-cafe-cai-na-bolsa-ice-a-medida-que-fundamentos-prevalecem-apos-eleicoes-no-brasil-2104229",
-      "title": "El arábica cae 2,4 % a US$2,9375/lb por mejores perspectivas en Brasil",
-      "summary": "Las lluvias favorables a la floración y una posible cosecha récord brasileña presionaron al arábica, mientras la robusta subió 0,6 % a US$3.220/t con la cosecha vietnamita y más inventarios en bolsa. El dólar cotizaba cerca de R$ 5,35."
-    },
-    {
       "id": "s10",
       "scope": "sv",
       "regiones": [
@@ -136,22 +136,6 @@
       "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
       "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
       "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
-    },
-    {
-      "id": "s7",
-      "scope": "sv",
-      "regiones": [
-        "el-balsamo-quezaltepec",
-        "cacahuatique",
-        "apaneca-ilamatepec",
-        "chichontepec"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-20",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/20/observatorio-de-amenazas-advierte-inundaciones-y-deslizamientos-por-vaguada-y-alta-presion-en-el-salvador/",
-      "title": "Vaguada trae lluvias y riesgo de deslizamientos; la UES ve noviembre–enero 40–50 % más seco",
-      "summary": "El Observatorio de Amenazas advirtió crecidas en La Libertad y deslizamientos en la cordillera de Morazán, con lluvias fuertes en la zona volcánica. La UES proyecta un El Niño muy fuerte y lluvias 40–50 % bajo lo normal hasta enero."
     }
   ]
 }
