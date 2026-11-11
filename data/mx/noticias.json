@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:47:10Z",
+  "updatedAt": "2026-11-11T19:46:43Z",
   "items": [
     {
       "id": "m24",
@@ -145,16 +145,6 @@
       "summary": "El contrato de diciembre bajó 0,9 % el 5-nov en su tercera caída seguida; Brasil exportó más de 5 millones de sacos en octubre. Los inventarios certificados en Nueva York siguen muy bajos, lo que limita la baja."
     },
     {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Kensington Coffee Co",
-      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-5-2026/",
-      "title": "Arábica de diciembre cae a 279,75 ¢/lb el 4 de noviembre, su primer cierre bajo 280 desde fines de septiembre",
-      "summary": "Los operadores descuentan mayores exportaciones de Brasil; el robusta de enero cerró en US$3.228/t (+18). Referencia a la baja para el cálculo del precio del pergamino mexicano."
-    },
-    {
       "id": "m19",
       "scope": "mx",
       "regiones": [
@@ -200,6 +190,19 @@
       "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
       "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
       "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
+    },
+    {
+      "id": "m29",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-10-28",
+      "source": "Hora Cero",
+      "url": "https://horacero.mx/2026/10/28/cafetaleros-veracruzanos-denuncian-bajos-precios-y-exigen-aplicar-nueva-ley/",
+      "title": "CNOC denuncia descuentos de hasta US$100 por quintal a los cafetaleros de Veracruz",
+      "summary": "La CNOC estima que los compradores pagarán apenas 16–17 pesos por kilo de cereza al arrancar el corte fuerte, con descuentos de intermediación cercanos a US$100 por quintal (menos de US$60 en Colombia u Honduras) y sin reconocer el premio de hasta US$30 del lavado mexicano; el peso fuerte resta unos 1.300 pesos por quintal de pergamino."
     }
   ]
 }

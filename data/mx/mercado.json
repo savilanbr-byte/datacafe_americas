@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-11T11:47:10Z",
+  "updatedAt": "2026-11-11T19:46:43Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
-      "value": 18.6678,
+      "value": 18.6192,
       "dec": 4,
       "unit": "MXN/USD",
-      "change": 0.0695,
+      "change": -0.0486,
       "chgDec": 4,
-      "asOf": "2026-11-10",
+      "asOf": "2026-11-11",
       "source": "Banxico",
       "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
@@ -35,15 +35,15 @@
       "note": "Centros de compra de las Altas Montañas pagaban 12–15 MXN/kg el 5-nov (Boca del Monte hasta 14; Huatusco 12,40–13), por encima de los 7–12 de octubre. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo. En el Soconusco, el robusta se paga a 27 MXN/kg frente a 50 el año pasado (El Sol del Soconusco, 8-nov)."
     },
     "expo": {
-      "label": "Otros Suaves (OIC) · septiembre",
-      "value": 329.44,
+      "label": "Otros Suaves (OIC) · octubre",
+      "value": 334.99,
       "dec": 2,
       "unit": "¢/lb",
-      "changePct": -8.8,
-      "asOf": "2026-10-09",
-      "source": "OIC · Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/10/12/precio-cafe-chiapas-cae-septiembre-oic/",
-      "note": "Referencia del café de México y Centroamérica. Promedio de 12 meses: 351,56; máximo del ciclo: 410,31 (nov-2025)."
+      "changePct": 1.7,
+      "asOf": "2026-10-31",
+      "source": "OIC",
+      "url": "https://www.ico.org/documents/prices/I-CIP_10.2026.pdf",
+      "note": "Referencia del café de México y Centroamérica. Promedio de octubre 2026; septiembre fue 329,44."
     },
     "prod": {
       "label": "Producción 2024-25 (SIAP)",
