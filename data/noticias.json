@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "id": "f1",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Exportaciones",
+      "date": "2026-11-11",
+      "source": "CNN Brasil · Cecafé",
+      "url": "https://www.cnnbrasil.com.br/agro/brasil-bate-recorde-e-exporta-53-milhoes-de-sacas-de-cafe-em-outubro/",
+      "title": "Brasil exporta un récord mensual de 5,3 millones de sacos de café en octubre, según Cecafé",
+      "summary": "Los envíos subieron 28,4 % frente a octubre de 2025 y el año-cosecha 2026/27 (julio–octubre) suma 16,591 millones de sacos (+19,7 %); los embarques a EE. UU. crecieron 119 % en el mes tras el retiro de aranceles. Más oferta brasileña disponible presiona los diferenciales de otros orígenes."
+    },
+    {
+      "id": "f2",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "ADM Investor Services",
+      "url": "https://www.admis.com/ice-stocks-weigh-on-coffee/",
+      "title": "ICE: el café pendiente de certificación salta a 104.370 sacos, el mayor nivel desde marzo",
+      "summary": "Los inventarios certificados de arábica quedaron en 241.368 sacos el 10 de noviembre, pero el volumen en revisión subió 51.934 sacos en un día, todo de origen Brasil. Si se certifica, aliviaría la estrechez de existencias que ha sostenido el precio en Nueva York."
+    },
+    {
       "id": "e4",
       "scope": "am",
       "pais": "Colombia",
@@ -42,6 +63,17 @@
       "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
       "title": "Las compras de café sostenible de los grandes tostadores caen por primera vez",
       "summary": "La Global Coffee Platform reporta que los 14 grandes compradores adquirieron 1,58 millones de toneladas de café sostenible en 2025 (-8,9%), el 69,3% del total frente a 75,4% en 2024; las compras llegaron de 30 orígenes, cuatro menos. Menos demanda de certificados puede reducir primas para productores verificados."
+    },
+    {
+      "id": "f3",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Logística",
+      "date": "2026-11-09",
+      "source": "El Universal · Asoexport",
+      "url": "https://www.eluniversal.com.co/economica/2026/11/09/este-es-el-grupo-portuario-del-caribe-colombiano-que-mas-cafe-exporta-por-sus-terminales/",
+      "title": "Colombia: Cartagena despacha el 32 % del café exportado y prepara una bodega más grande en Contecar",
+      "summary": "Según Asoexport, Buenaventura mueve el 61 % de los embarques de café, Cartagena el 32 % y Santa Marta el 7 %; Contecar ampliaría su bodega cafetera de 30.000 a 50.000 m². Cartagena ofrece salida por el Caribe para cargas con destino a la costa este de EE. UU. y Europa."
     },
     {
       "id": "e1",
@@ -117,17 +149,6 @@
       "url": "https://english.news.cn/20261108/6c47963125274c77b33a1f33c9f4ca67/c.html",
       "title": "Etiopía exporta más de 131.000 toneladas de café en el primer trimestre fiscal y gana 15% más",
       "summary": "Los ingresos superaron US$878 millones, 15% más que un año antes, aunque un poco por debajo de la meta; China ya es el tercer destino con unas 15.125 toneladas. Más competencia de Etiopía por los compradores de lavados de alta calidad."
-    },
-    {
-      "id": "d2",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Exportaciones",
-      "date": "2026-11-07",
-      "source": "Reuters · CNN Brasil (Secex)",
-      "url": "https://www.cnnbrasil.com.br/agro/exportacao-de-petroleo-e/",
-      "title": "Brasil embarca un récord de 4,79 millones de sacos de café verde en octubre",
-      "summary": "Según Secex, Brasil exportó 287.300 toneladas de café verde en octubre (4,79 millones de sacos de 60 kg), 23,3% más que un año antes y máximo histórico mensual; el ingreso subió 5,2% a US$1.600 millones pese a precios casi 15% menores. La oferta brasileña fluye con fuerza y presiona al arábica."
     },
     {
       "date": "2026-11-06",
@@ -237,5 +258,5 @@
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-11T11:47:00Z"
+  "updatedAt": "2026-11-11T19:55:00Z"
 }
