@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:49:06Z",
+  "updatedAt": "2026-11-11T19:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,41 +23,41 @@
     "period": ""
   },
   "impactos": [
-    "Las floradas de la safra 2027-28 salieron bien y el cuajado (pegamento) luce bueno en Mogiana, Norte Pioneiro y Sul de Minas; las lluvias de esta semana ayudan, pero el INMET prevé noviembre con menos lluvia y hasta 2 °C más de calor, y CEPEA ve riesgo de caída de frutos en São Paulo y Cerrado: la confirmación llega en diciembre.",
-    "Con la cosecha 2026 terminada (récord de 67,6 M de sacas), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
+    "Las floradas de la safra 2027-28 salieron bien y el cuajado (pegamento) luce bueno en Mogiana, Norte Pioneiro y Sul de Minas; esta semana el INMET prevé solo 20–40 mm en Minas y São Paulo y un noviembre con menos lluvia y hasta 2 °C más de calor, y CEPEA ve riesgo de caída de frutos en São Paulo y el Cerrado: la confirmación llega en diciembre.",
+    "Con la cosecha 2026 terminada (récord de 67,6 M de sacas) y exportaciones récord en octubre (5,33 M de sacas, Cecafé), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
     "El dólar saltó a R$5,586 el 10-nov, su cierre más alto desde julio de 2025; el real débil sostiene los precios internos (arábica CEPEA R$1.611,30) aunque Nueva York cae a mínimos de siete semanas (≈271 ¢/lb). Con negocios escasos y el productor vendiendo solo lo necesario, vigila los diferenciales FOB: el cambio abre ventanas de compra en dólares.",
     "El Niño suele traer lluvias irregulares y más calor al Sudeste; en Rondônia el mes seco ya trajo broca temprana, y en el conilon del Espírito Santo la floración fue satisfactoria pero el agua sigue siendo clave para 2027."
   ],
   "avisos": {
-    "source": "INMET · Climatempo · CEPEA · Rabobank",
-    "asOf": "2026-11-10",
-    "headline": "Lluvias esta semana en Bahia, Espírito Santo y Minas, pero el calor con El Niño sigue como riesgo para el cuajado en Minas, São Paulo y Rondônia",
+    "source": "INMET · Climatempo · CEPEA",
+    "asOf": "2026-11-11",
+    "headline": "Lluvia moderada esta semana en el Sudeste (20–40 mm) y más fuerte en el sur de Bahia, pero el calor con El Niño sigue como riesgo para el cuajado en Minas, São Paulo y Rondônia",
     "items": [
-      "Climatempo (10-nov): llueve esta semana en las principales zonas cafeteras de Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves los mayores acumulados (localmente más de 100 mm) caen en el sur de Bahia y el norte del Espírito Santo, y São Paulo recibe nuevos chubascos desde el jueves (Notícias Agrícolas).",
-      "CEPEA (6-nov): tras lluvias en el Cerrado Mineiro llegaron sol intenso y altas temperaturas; el cuajado se confirmará hacia diciembre. En la Paulista (Garça) preocupa que el calor ligado a El Niño provoque caída de frutos (Comunicaffe).",
-      "INMET prevé para noviembre menos lluvia en Minas Gerais y Espírito Santo y hasta +2 °C sobre el promedio en el Sudeste y oeste de Bahia (Correio Braziliense, 30-oct).",
-      "Rondônia: casi un mes seco tras dos floraciones llevó a ataques tempranos de broca; en el Espírito Santo la floración fue satisfactoria (CEPEA, 6-nov)."
+      "INMET (semana del 9 al 16-nov): chubascos aislados entre el oeste de Minas y el Espírito Santo que pierden fuerza en la semana; 20–40 mm en el oeste y este de Minas, centro-sur del Espírito Santo y sur y oeste de São Paulo (allí, la lluvia más fuerte desde el 15-nov); entre el Recôncavo y la Costa do Descobrimento (Bahia) puntos de más de 70 mm, y 20–50 mm en Rondônia.",
+      "Climatempo (10-nov): los mayores acumulados de la semana (localmente más de 100 mm) caen en el sur de Bahia y el norte del Espírito Santo (Notícias Agrícolas).",
+      "CEPEA (6-nov): tras lluvias en el Cerrado Mineiro llegaron sol intenso y calor; el cuajado (pegamento) se confirmará hacia diciembre. En la Paulista preocupa la caída de frutos por el calor, y en Rondônia casi un mes seco trajo broca temprana (Comunicaffe).",
+      "INMET prevé para noviembre lluvia bajo el promedio en Minas Gerais y Espírito Santo y hasta +2 °C en el Sudeste, con riesgo de déficit hídrico durante la floración y el cuajado."
     ],
     "links": [
       {
-        "t": "Notícias Agrícolas · Climatempo",
-        "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html"
+        "t": "INMET · semana 9–16 nov",
+        "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-9-a-16-de-novembro-de-2026"
       },
       {
-        "t": "INMET",
-        "url": "https://portal.inmet.gov.br/"
+        "t": "Notícias Agrícolas · Climatempo",
+        "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html"
       },
       {
         "t": "Comunicaffe · CEPEA",
         "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
       },
       {
-        "t": "Correio Braziliense · INMET",
-        "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
+        "t": "INMET · noviembre",
+        "url": "https://portal.inmet.gov.br/noticias/novembro-como-ser%C3%A1-o-clima-no-brasil-5"
       },
       {
-        "t": "Rabobank · Notícias Agrícolas",
-        "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html"
+        "t": "Correio Braziliense · INMET",
+        "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
       }
     ]
   },

@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-11T11:49:06Z",
+  "updatedAt": "2026-11-11T19:50:00Z",
   "items": [
+    {
+      "id": "b37",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-11",
+      "source": "Cecafé · Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/commodities-news/exportacao-de-cafe-do-brasil-supera-5-mi-sacas-em-outubro-e-atinge-recorde-diz-cecafe-2124218",
+      "title": "Cecafé: Brasil exportó un récord de 5,33 M de sacas en octubre, 28,4 % más",
+      "summary": "El arábica sumó 4,12 M de sacas (máximo para cualquier mes) y el conilon 897.000, casi el doble que hace un año; los ingresos fueron US$1.786 M y los envíos a EE. UU. subieron 119 % tras retirarse por completo el arancel. Con 34,5 M de sacas en enero–octubre, el flujo de oferta brasileña sigue fuerte y presiona los diferenciales."
+    },
     {
       "id": "b33",
       "scope": "br",
@@ -144,17 +155,6 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-5-7-em-nova-york-dolar-sustenta-precos-no-brasil",
       "title": "Safras: el arábica cae 5,7 % en Nueva York en la semana, pero el dólar sostiene los precios en Brasil",
       "summary": "El contrato marzo/27 bajó de 285,45 a 269,25 ¢/lb entre el 29-oct y el 5-nov, mientras el arábica bebida buena del Sul de Minas siguió en R$1.650 por saca y el conilon tipo 7 en Vitória subió de R$960 a R$975. Los productores dosifican los lotes y las exportaciones de octubre podrían superar 5 M de sacas."
-    },
-    {
-      "id": "b26",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-06",
-      "source": "Notícias Agrícolas · Secex",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html",
-      "title": "Brasil exportó en octubre unas 287.350 t de café verde, 23 % más, a un precio medio 14,7 % menor",
-      "summary": "Según la Secex, los embarques de octubre crecieron 23,28 % interanual, pero el precio medio cayó a US$5.568 por tonelada. Más café llegando a los puertos y a los almacenes certificados de ICE amplía la oferta disponible para el comprador; el dato de Cecafé sale en los próximos días."
     },
     {
       "id": "n25",

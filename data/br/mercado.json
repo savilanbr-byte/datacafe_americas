@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:49:06Z",
+  "updatedAt": "2026-11-11T19:50:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -90,15 +90,15 @@
       "note": "El Espírito Santo bajó 14 %; Rondônia subió 24 %."
     },
     "expoMes": {
-      "label": "Exportación de septiembre",
-      "value": 3.894,
+      "label": "Exportación de octubre",
+      "value": 5.33,
       "dec": 2,
       "unit": "M sacas",
-      "changePct": 3.1,
-      "asOf": "2026-10-09",
-      "source": "Cecafé · Canal Rural",
-      "url": "https://www.canalrural.com.br/economia/exportacao-de-cafe-cresce-31-em-volume-em-setembro-mas-receita-cai-71/",
-      "note": "Ingresos US$1.282 M (−7,1 %). Enero–septiembre: 29,1 M de sacas; el conilon exportado sube 68 %."
+      "changePct": 28.4,
+      "asOf": "2026-11-11",
+      "source": "Cecafé · Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/commodities-news/exportacao-de-cafe-do-brasil-supera-5-mi-sacas-em-outubro-e-atinge-recorde-diz-cecafe-2124218",
+      "note": "Récord para un octubre: arábica 4,12 M de sacas (+21,6 %), conilon 897.000 (casi el doble) y solubles 309.500. Ingresos US$1.786 M (+7,8 %). Enero–octubre: 34,5 M de sacas (+3,5 %) y US$11.900 M (−6,3 %); los envíos a EE. UU. subieron 119 % en octubre tras el fin del arancel."
     },
     "expoSafra": {
       "label": "Exportación safra 2025-26",
