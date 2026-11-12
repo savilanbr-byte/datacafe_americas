@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:46:01Z",
+  "updatedAt": "2026-11-12T19:46:30Z",
   "items": [
     {
       "id": "m30",
@@ -18,6 +18,19 @@
       "url": "https://www.nmas.com.mx/clima/pronostico-del-tiempo-frente-frio-5-provocara-lluvias-en-todo-el-pais-jueves-12-noviembre-2026/",
       "title": "Frente frío 5 trae lluvias de 75 a 150 mm a Veracruz, Puebla y el norte de Oaxaca",
       "summary": "El SMN prevé para el jueves 12 lluvias muy fuertes a intensas (75–150 mm) en el norte y centro de Veracruz, el norte y sureste de Puebla y el norte de Oaxaca, 50–75 mm en la Huasteca y 25–50 mm en el norte y este de Chiapas, con norte de 50–70 km/h en la costa de Veracruz. En plena cosecha: retrasa el corte, el secado del pergamino y el traslado de cereza."
+    },
+    {
+      "id": "m31",
+      "scope": "mx",
+      "regiones": [
+        "veracruz"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-12",
+      "source": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/repunta-el-precio-del-cafe-en-las-altas-montanas-cereza-se-paga-hasta-en-16-pesos-el-kilo/",
+      "title": "La cereza llega a 16 pesos por kilo en las Altas Montañas de Veracruz",
+      "summary": "El miércoles 11 los centros de acopio pagaban de 13 MXN/kg (Monte Blanco, Fortín) a 15,50–16 (Comapa, Tenampa, Totutla y Boca del Monte), con Chocamán y Córdoba en 14 e Ixhuatlán y Zentla en 14,70–15, pese a una bolsa a la baja. Hay hasta 4 pesos de diferencia según la zona: conviene comparar centros de compra."
     },
     {
       "id": "n18",
@@ -106,19 +119,6 @@
       "url": "https://www.excelsior.com.mx/nacional/cafe-vainilla-cobro-piso-afecta-cosechas-veracruz",
       "title": "Cafetaleros del centro de Veracruz piden seguridad en fincas y centros de acopio por robos y extorsión",
       "summary": "En Coatepec, Teocelo y Cosautlán los productores reportan robo y cobro de piso a compradores durante la cosecha y piden vigilancia en fincas y puntos de compra; para el comprador implica más riesgo y costo en el traslado de cereza y pergamino."
-    },
-    {
-      "id": "m22",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-06",
-      "source": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/",
-      "title": "La cereza sube a 12–15 pesos por kilo en las Altas Montañas",
-      "summary": "Productores reportaron 12–15 MXN/kg el 5 de noviembre en los centros de compra de la región (Boca del Monte hasta 14; Huatusco 12,40–13), por encima de los 7–12 de octubre, aún lejos del mínimo de 16 que pide la CNOC. Para comprar: el precio varía por comunidad y centro de acopio."
     },
     {
       "id": "m20",
