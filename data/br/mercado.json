@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:49:17Z",
+  "updatedAt": "2026-11-12T19:47:17Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,13 +18,16 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.5606,
+      "value": 5.6143,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-11",
-      "source": "BCB · Piranot",
-      "url": "https://www.piranot.com.br/2026/11/11/noticias/economia/dolar-ptax-fecha-em-r-55606-nesta-quarta-feira-11-11-2026-veja-a/",
-      "note": "PTAX de venta del 11-nov: −0,42 % frente a R$5,5840 del 10-nov (BCB, boletín de cierre de las 13:02). La fuente no da el motivo."
+      "asOf": "2026-11-12",
+      "source": "BCB · API Olinda (PTAX)",
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-09-2026'&@dataFinalCotacao='11-12-2026'&$format=json",
+      "note": "PTAX de venta del 12-nov (boletín de cierre de las 13:08): +0,97 % frente a R$5,5606 del 11-nov. La fuente no da el motivo.",
+      "change": 0.0537,
+      "changePct": 0.97,
+      "chgDec": 4
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
