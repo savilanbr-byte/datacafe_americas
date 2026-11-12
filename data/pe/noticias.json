@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-11-11T19:50:00Z",
+  "updatedAt": "2026-11-12T11:55:00Z",
   "items": [
+    {
+      "id": "n16",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Business Recorder · Reuters",
+      "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
+      "title": "El arábica toca su mínimo en seis semanas y los inventarios certificados de ICE suben",
+      "summary": "El 11 de noviembre el arábica cayó 1,2 % a US$2,627 por libra (mínimo de 2,6215) y el robusta 0,6 % a US$3.233 por tonelada; los inventarios certificados de arábica superaron 241.000 sacos, su máximo desde mediados de octubre, y hay más de 100.000 sacos en espera de clasificación. Una bolsa más baja abarata el café peruano sin fijar, pero reduce el ingreso del productor."
+    },
+    {
+      "id": "n15",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "The Cooperator News · OIC",
+      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
+      "title": "OIC: el indicador compuesto promedió 261,26 ¢/lb en octubre y las exportaciones mundiales 2025/26 subieron 1 %",
+      "summary": "Según el informe de octubre de 2026 de la OIC, el precio compuesto bajó 0,3 % frente a septiembre; Otros Suaves (grupo de Perú) promedió 334,99 ¢/lb (+1,7 %) y la robusta 164,19 ¢/lb (−2 %). En el año cafetero 2025/26 se exportaron 142,39 millones de sacos (+1 %), con Brasil −7,3 % y Asia +12,8 %."
+    },
+    {
+      "id": "p28",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Eventos",
+      "date": "2026-11-11",
+      "source": "Agro Perú · Devida",
+      "url": "https://www.agroperu.pe/expovida-lima-2026-reunira-lo-mejor-de-la-produccion-de-cafe-cacao-y-otros-productos-del-desarrollo-alternativo/",
+      "title": "Expovida Lima 2026 reúne del 12 al 15 de noviembre café y cacao del desarrollo alternativo",
+      "summary": "Devida reúne a 33 organizaciones productoras en el Parque Kennedy de Miraflores, con concursos de café filtrado y cold brew y una meta de ventas de S/248.608 para todas las organizaciones; es una vitrina para contactar cooperativas de zonas como el VRAEM y la selva central."
+    },
     {
       "id": "p27",
       "scope": "pe",
@@ -20,16 +51,6 @@
       "url": "https://eltiempo.pe/nacional/senamhi-emite-alerta-roja-por-lluvias-intensas-en-el-norte-tumbes-podria-registrar-hasta-100-mm-de-precipitacion/",
       "title": "SENAMHI emite alerta roja por lluvias del 9 al 11 de noviembre en 19 departamentos",
       "summary": "El aviso 462 prevé hasta 100 mm diarios en la costa norte y de 8 a 30 mm por día en la sierra norte, e incluye Cajamarca, Piura, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho. Para compras en el norte, puede retrasar el transporte de lotes hacia Paita; en el ciclo actual, las lluvias favorecen la floración pero elevan el riesgo de roya."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "The Cooperator News · OIC",
-      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
-      "title": "OIC: el indicador compuesto promedió 261,26 ¢/lb en octubre y las exportaciones mundiales 2025/26 subieron 1 %",
-      "summary": "Según el informe de octubre de 2026 de la OIC, el precio compuesto bajó 0,3 % frente a septiembre; Otros Suaves (grupo de Perú) promedió 334,99 ¢/lb (+1,7 %) y la robusta 164,19 ¢/lb (−2 %). En el año cafetero 2025/26 se exportaron 142,39 millones de sacos (+1 %), con Brasil −7,3 % y Asia +12,8 %."
     },
     {
       "id": "p25",
@@ -65,81 +86,14 @@
       "summary": "Alerta amarilla en Ayacucho, Cusco, Huánuco, Junín, Pasco y San Martín, entre otros, con lluvias ligeras a moderadas, tormentas y mínimas de ~17 °C en la selva sur. Aporta humedad en plena floración de la selva central y sur, aunque puede afectar caminos de acopio por unos días."
     },
     {
-      "id": "p14",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "cusco",
-        "junin"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-10-28",
-      "source": "Inforegión",
-      "url": "https://inforegion.pe/cajamarca-y-cusco-se-imponen-en-el-golden-cup-peru-2026-con-cafes-de-alta-calidad-y-despiertan-interes-de-mercados-de-japon-y-europa/",
-      "title": "Cajamarca y Cusco lideran el Golden Cup Perú 2026",
-      "summary": "La cooperativa Nuevo Horizonte (Cajamarca) ganó en contenedores completos, con puntajes de 85,48 a 86,40, y San Fernando (Cusco) en microlotes, con hasta 88,02 puntos. Compradores de Japón y España participaron en la cata: señal de demanda por lotes diferenciados."
-    },
-    {
-      "id": "p15",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-10-30",
-      "source": "Agraria.pe",
-      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
-      "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
-      "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
-    },
-    {
-      "id": "p19",
-      "scope": "pe",
-      "regiones": [
-        "piura",
-        "cajamarca",
-        "amazonas",
-        "san-martin",
-        "junin",
-        "pasco",
-        "huanuco",
-        "cusco",
-        "puno",
-        "ayacucho"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-30",
-      "source": "Infobae · ENFEN",
-      "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
-      "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
-      "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
-    },
-    {
-      "id": "p20",
-      "scope": "pe",
-      "regiones": [
-        "cusco"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-03",
-      "source": "Agro Perú (Midagri)",
-      "url": "https://www.agroperu.pe/cusco-midagri-inaugura-ficafe-2026-con-productores-de-17-regiones-y-compradores-internacionales/",
-      "title": "Midagri inaugura Ficafé 2026 en Cusco con 25 compradores internacionales",
-      "summary": "La décima feria de cafés especiales corre del 2 al 6 de noviembre en la Plaza de Armas del Cusco, con productores de 17 regiones y una proyección de negocios superior a S/90 millones. Es una ventana para contactar cooperativas de Cusco, Amazonas, Junín, Cajamarca y el VRAEM antes de Expocafé."
-    },
-    {
-      "id": "p21",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura",
-        "cusco",
-        "ayacucho"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-03",
-      "source": "Infobae · SENAMHI",
-      "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/",
-      "title": "SENAMHI declara alerta roja por lluvias del 4 al 5 de noviembre en 13 departamentos",
-      "summary": "El aviso incluye Piura, Cajamarca, Cusco y Ayacucho, con hasta unos 29 mm diarios en la sierra norte y 55 mm en la costa norte; el 6 baja a naranja. Puede retrasar el acopio y los despachos hacia Paita."
+      "id": "n17",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Comunicaffe · Cepea",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
+      "title": "Cepea: la cosecha 2027/28 de Brasil arranca bien, pero el calor de El Niño preocupa",
+      "summary": "La floración fue la esperada y el cuajado es bueno en el sur de Minas, Mogiana y el Cerrado, aunque es un año de bienalidad negativa y el calor podría provocar aborto de flores; Rondônia sufrió casi un mes seco y ataques tempranos de broca. El mercado espera una cosecha grande pero no récord, lo que presiona la bolsa."
     },
     {
       "id": "p23",
@@ -184,24 +138,66 @@
       "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
     },
     {
-      "id": "n13",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "id": "p20",
+      "scope": "pe",
+      "regiones": [
+        "cusco"
+      ],
+      "tag": "Eventos",
       "date": "2026-11-03",
-      "source": "CocoaIntel",
-      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
-      "title": "Los inventarios certificados de arábica en ICE siguen cerca del mínimo de septiembre",
-      "summary": "El 2-nov el arábica diciembre cerró en 292,10 ¢/lb (+1,71 %), aún ~5 % bajo el cierre del 23-oct, y el robusta enero en US$3.241/t; la oferta para entrega inmediata sigue limitada."
+      "source": "Agro Perú (Midagri)",
+      "url": "https://www.agroperu.pe/cusco-midagri-inaugura-ficafe-2026-con-productores-de-17-regiones-y-compradores-internacionales/",
+      "title": "Midagri inaugura Ficafé 2026 en Cusco con 25 compradores internacionales",
+      "summary": "La décima feria de cafés especiales corre del 2 al 6 de noviembre en la Plaza de Armas del Cusco, con productores de 17 regiones y una proyección de negocios superior a S/90 millones. Es una ventana para contactar cooperativas de Cusco, Amazonas, Junín, Cajamarca y el VRAEM antes de Expocafé."
     },
     {
-      "id": "n14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-10",
-      "source": "Kensington Coffee Co",
-      "url": "https://kensingtoncoffeeco.com/green-coffee-market-update-november-10-2026/",
-      "title": "El arábica cierra en 273,60 ¢/lb, su nivel más bajo desde el 22 de septiembre",
-      "summary": "El 9-nov el contrato diciembre de ICE cayó 6,40 ¢ (−2,29 %) por exportaciones de Brasil en octubre 23 % mayores que hace un año y más café llegando a los almacenes de ICE; el robusta enero cerró en US$3.267/t. El primer aviso del contrato diciembre es el 19-nov: el precio de referencia para fijar compras en Perú sigue bajando."
+      "id": "p21",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "cusco",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-03",
+      "source": "Infobae · SENAMHI",
+      "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/",
+      "title": "SENAMHI declara alerta roja por lluvias del 4 al 5 de noviembre en 13 departamentos",
+      "summary": "El aviso incluye Piura, Cajamarca, Cusco y Ayacucho, con hasta unos 29 mm diarios en la sierra norte y 55 mm en la costa norte; el 6 baja a naranja. Puede retrasar el acopio y los despachos hacia Paita."
+    },
+    {
+      "id": "p15",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-10-30",
+      "source": "Agraria.pe",
+      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
+      "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
+      "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
+    },
+    {
+      "id": "p19",
+      "scope": "pe",
+      "regiones": [
+        "piura",
+        "cajamarca",
+        "amazonas",
+        "san-martin",
+        "junin",
+        "pasco",
+        "huanuco",
+        "cusco",
+        "puno",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-10-30",
+      "source": "Infobae · ENFEN",
+      "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
+      "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
+      "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
     }
   ]
 }
