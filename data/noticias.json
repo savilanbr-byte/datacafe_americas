@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "h1",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Precios",
+      "date": "2026-11-12",
+      "source": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/repunta-el-precio-del-cafe-en-las-altas-montanas-cereza-se-paga-hasta-en-16-pesos-el-kilo/",
+      "title": "Veracruz: el café cereza se paga entre 12 y 16 pesos por kilo en las Altas Montañas",
+      "summary": "Los centros de compra de Fortín, Córdoba, Ixhuatlán del Café y Huatusco pagaron el 11 de noviembre de 13 a 16 pesos por kilo de cereza, con hasta 4 pesos de diferencia entre localidades. La dispersión deja margen para negociar por zona al inicio de la cosecha veracruzana."
+    },
+    {
       "id": "g1",
       "scope": "mundo",
       "tag": "Regulación",
@@ -226,16 +237,6 @@
       "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/"
     },
     {
-      "id": "d5",
-      "scope": "mundo",
-      "tag": "Industria",
-      "date": "2026-11-04",
-      "source": "Daily Coffee News",
-      "url": "https://dailycoffeenews.com/2026/11/04/kraft-heinz-selling-north-american-coffee-business-for-650-million/",
-      "title": "Kraft Heinz vende su negocio de café en Norteamérica por US$650 millones",
-      "summary": "One Rock Capital Partners comprará Maxwell House, Gevalia, Yuban, Nabob, Tassimo y otras marcas, con plantas en Jacksonville y Vancouver; Kraft Heinz conserva 30% y el cierre se espera a mediados de 2027. Cambia de manos uno de los mayores compradores de café verde de EE. UU."
-    },
-    {
       "date": "2026-11-03",
       "id": "a53",
       "scope": "mundo",
@@ -268,5 +269,5 @@
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-12T12:15:00Z"
+  "updatedAt": "2026-11-12T19:50:00Z"
 }
