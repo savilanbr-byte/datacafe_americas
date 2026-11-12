@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-12T11:55:00Z",
+  "updatedAt": "2026-11-12T19:48:41Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
-      "value": 3.416,
+      "value": 3.411,
       "dec": 3,
       "unit": "PEN/USD",
-      "change": 0.004,
+      "change": -0.005,
       "chgDec": 3,
-      "asOf": "2026-11-10",
+      "asOf": "2026-11-11",
       "source": "BCRP",
       "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-02/2026-11-12/",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
-      "note": "En lo que va de noviembre (2 al 10) se movió entre S/3,412 y S/3,463; el 10-nov cerró en S/3,416, casi en el mínimo del mes (S/3,412 el 9-nov)."
+      "note": "En lo que va de noviembre (2 al 11) se movió entre S/3,411 y S/3,463; el 11-nov cerró en S/3,411, el mínimo del mes."
     },
     "expo": {
       "label": "Precio promedio de exportación ene–ago 2026",
@@ -47,15 +47,15 @@
       "note": "Café verde: 102.336 t entre enero y agosto de 2026. EE. UU. 33,7 %, Alemania 13,7 %, Bélgica 9,4 % y Canadá 9,1 % del valor."
     },
     "prod": {
-      "label": "Producción de julio 2026 (INEI)",
-      "value": 66.28,
+      "label": "Producción de agosto 2026 (INEI)",
+      "value": 36.0,
       "dec": 1,
       "unit": "mil t",
-      "changePct": 8,
-      "asOf": "2026-09-29",
-      "source": "INEI · Agraria",
-      "url": "https://agraria.pe/noticias/produccion-de-cafe-crecio-8-en-julio-de-2026-43187",
-      "note": "Amazonas, Cajamarca, Puno y Junín hicieron el 71,9 % del total."
+      "changePct": 2.6,
+      "asOf": "2026-10-15",
+      "source": "INEI · MIDAGRI",
+      "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/10-informe-tecnico-produccion-nacional-agosto-2026.pdf",
+      "note": "Café pergamino, +2,57 % frente a agosto de 2025: subieron Cajamarca (+2,9 %), Amazonas (+37 %), Junín (+4,5 %) y Huánuco (+7,9 %); cayeron San Martín (−13,7 %), Cusco (−29,5 %) y Puno (−37,2 %). En 12 meses (set 2025–ago 2026) la producción suma 332 mil t (−4,5 %)."
     },
     "est": {
       "label": "Estimado de producción 2026 (ADEX)",

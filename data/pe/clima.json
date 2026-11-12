@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:55:00Z",
+  "updatedAt": "2026-11-12T19:48:41Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,23 +24,28 @@
   },
   "impactos": [
     "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
-    "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); el ENFEN espera lluvias normales o menores en la Amazonía central y sur, así que conviene vigilar la floración de noviembre en Junín, Pasco, Cusco y Puno. El friaje del 8 y 9 de noviembre trajo algo de lluvia a la selva central y sur, pero no cambia ese pronóstico.",
+    "La falta de lluvias de 2026 retrasó la campaña y afectó la floración en la selva norte (ADEX); el ENFEN espera lluvias normales o menores en la Amazonía central y sur, y SENAMHI anuncia calor de 34–36 °C en la selva alta de Huánuco hasta el 15 de noviembre (con déficits de lluvia de 50–90 % en la sierra en octubre): vigila el cuajado en Huánuco, Junín, Pasco, Cusco y Puno.",
     "Las lluvias extraordinarias de El Niño costero en la costa norte y la sierra (alerta roja del 9 al 11 de noviembre en 19 departamentos, incluidos Cajamarca, Piura, Junín y Cusco) pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
     "Devida advierte que más humedad aumenta el riesgo de roya y otros hongos en los cafetales; la sanidad de este ciclo definirá la campaña 2027.",
     "Con menos producción este año y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
   ],
   "avisos": {
     "source": "SENAMHI · ENFEN",
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-11",
     "headline": "SENAMHI: alerta roja por lluvias del 9 al 11 de noviembre en 19 departamentos (aviso 462), incluida la sierra cafetera de Cajamarca, Piura, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
       "SENAMHI (aviso 462, 10-nov): alerta roja del lunes 9 al miércoles 11 de noviembre en 19 departamentos, entre ellos Cajamarca, Piura, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho; hasta 100 mm por día en la costa norte y de 8 a 30 mm por día en la sierra norte.",
+      "SENAMHI (avisos 458 y 463, 11-nov): calor en Huánuco hasta el 15 de noviembre, con 34–36 °C en la selva alta; desde el 15, lluvias moderadas a fuertes en la selva al menos hasta el 19. Para la temporada, lluvias normales a bajo lo normal en la selva y bajo lo normal en la sierra.",
       "SENAMHI (6-nov): alerta amarilla por el decimoquinto friaje el 8 y 9 de noviembre en Ayacucho, Cusco, Huánuco, Junín, Pasco, San Martín, Loreto y Ucayali, con lluvias ligeras a moderadas, descargas eléctricas, ráfagas de unos 45 km/h y mínimas de ~17 °C en la selva sur y 22–23 °C en la selva central.",
       "ENFEN mantiene la alerta: magnitud extraordinaria hasta febrero de 2027 y descenso gradual hasta junio. De noviembre a enero se esperan lluvias sobre lo normal en la costa norte y la sierra occidental.",
       "Sierra suroriental, sierra centro oriental y parte de la Amazonía tendrían lluvias normales o menores (más déficit hacia el Titicaca); caudales reducidos en Ucayali, Huallaga, Apurímac y Vilcanota.",
       "CENEPRED (4-nov): de noviembre a enero hay mayor probabilidad de lluvias intensas en costa, sierra norte y sierra central occidental; parte de la selva puede tener crecidas de ríos, y otros sectores de selva y sierra sur, lluvias bajo el promedio."
     ],
     "links": [
+      {
+        "t": "SENAMHI · Inforegión (11-nov)",
+        "url": "https://inforegion.pe/huanuco-soportara-temperaturas-de-hasta-38-c-en-la-selva-y-senamhi-advierte-lluvias-de-moderada-a-fuerte-intensidad-desde-el-15-de-noviembre/"
+      },
       {
         "t": "SENAMHI · El Tiempo (10-nov)",
         "url": "https://eltiempo.pe/nacional/senamhi-emite-alerta-roja-por-lluvias-intensas-en-el-norte-tumbes-podria-registrar-hasta-100-mm-de-precipitacion/"

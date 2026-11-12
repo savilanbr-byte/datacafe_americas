@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:55:00Z",
+  "updatedAt": "2026-11-12T19:48:41Z",
   "items": [
     {
       "id": "n16",
@@ -31,6 +31,29 @@
       "url": "https://www.agroperu.pe/expovida-lima-2026-reunira-lo-mejor-de-la-produccion-de-cafe-cacao-y-otros-productos-del-desarrollo-alternativo/",
       "title": "Expovida Lima 2026 reúne del 12 al 15 de noviembre café y cacao del desarrollo alternativo",
       "summary": "Devida reúne a 33 organizaciones productoras en el Parque Kennedy de Miraflores, con concursos de café filtrado y cold brew y una meta de ventas de S/248.608 para todas las organizaciones; es una vitrina para contactar cooperativas de zonas como el VRAEM y la selva central."
+    },
+    {
+      "id": "p29",
+      "scope": "pe",
+      "regiones": [
+        "huanuco"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-11",
+      "source": "Inforegión · SENAMHI",
+      "url": "https://inforegion.pe/huanuco-soportara-temperaturas-de-hasta-38-c-en-la-selva-y-senamhi-advierte-lluvias-de-moderada-a-fuerte-intensidad-desde-el-15-de-noviembre/",
+      "title": "Calor de hasta 36 °C en la selva alta de Huánuco y lluvias fuertes desde el 15 de noviembre",
+      "summary": "SENAMHI (avisos 458 y 463) prevé de 34 a 36 °C en la selva alta y lluvias ligeras hasta el 15 de noviembre; desde ese día, lluvias moderadas a fuertes al menos hasta el 19. En octubre la sierra tuvo déficits de lluvia de 50 % a 90 %: el calor en plena floración puede afectar el cuajado de la campaña 2027 en la zona de Tingo María."
+    },
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-11",
+      "source": "BPMoney · Cecafé",
+      "url": "https://bpmoney.com.br/agro/brasil-recorde-exportacao-cafe-53-milhoes-sacas-outubro/",
+      "title": "Brasil exporta un récord de 5,3 millones de sacos en octubre",
+      "summary": "Según Cecafé, los envíos de octubre de 2026 subieron 28,4 % interanual y facturaron US$1.786 M; a EE. UU. crecieron 119 % tras el fin de los aranceles adicionales. De enero a octubre suman 34,48 millones de sacos (+3,5 %) con precio medio de US$345,64 por saco (−9,5 %): más competencia brasileña en el mercado estadounidense, primer destino del café peruano."
     },
     {
       "id": "p27",
@@ -136,19 +159,6 @@
       "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/",
       "title": "Riesgo de lluvias intensas e inundaciones de noviembre a enero",
       "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
-    },
-    {
-      "id": "p20",
-      "scope": "pe",
-      "regiones": [
-        "cusco"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-03",
-      "source": "Agro Perú (Midagri)",
-      "url": "https://www.agroperu.pe/cusco-midagri-inaugura-ficafe-2026-con-productores-de-17-regiones-y-compradores-internacionales/",
-      "title": "Midagri inaugura Ficafé 2026 en Cusco con 25 compradores internacionales",
-      "summary": "La décima feria de cafés especiales corre del 2 al 6 de noviembre en la Plaza de Armas del Cusco, con productores de 17 regiones y una proyección de negocios superior a S/90 millones. Es una ventana para contactar cooperativas de Cusco, Amazonas, Junín, Cajamarca y el VRAEM antes de Expocafé."
     },
     {
       "id": "p21",
