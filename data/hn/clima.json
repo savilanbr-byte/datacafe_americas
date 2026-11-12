@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T19:46:12Z",
+ "updatedAt": "2026-11-12T11:52:00Z",
  "enso": {
   "asOf": "2026-10-08",
   "facts": [
@@ -24,19 +24,19 @@
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "Lluvias en el centro y occidente hasta el jueves y el primer frente frío desde el viernes 13 (nubosidad y descenso de temperatura) pueden frenar el secado del pergamino en Copán, Opalaca y Comayagua, donde ya se corta en zonas bajas: pide humedad del grano al recibir los lotes.",
+  "La vaguada del jueves 12 (más lluvia en el noroccidente) y el primer frente frío desde el viernes 13 traen nubosidad y lluvias que pueden frenar el secado del pergamino en Copán, Opalaca y Comayagua, donde ya se corta en zonas bajas: pide la humedad del grano al recibir los lotes.",
   "CENAOS prevé una temporada fría atípica, con pocos frentes y diciembre–enero 1–2 °C más cálidos: buen secado en Montecillos, El Paraíso y Agalta cuando arranquen, pero la fruta puede madurar de golpe y faltar recolectores.",
   "Con la fruta madurando pareja y falta de mano de obra, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-10",
-  "headline": "Primer frente frío entra el viernes 13 de noviembre",
+  "asOf": "2026-11-11",
+  "headline": "Vaguada prefrontal el jueves 12 y primer frente frío el viernes 13",
   "items": [
-   "Según CENAOS, una vaguada prefrontal llega la mañana del viernes 13 y el primer frente frío de la temporada por la tarde; persistiría el fin de semana.",
-   "Hasta entonces siguen lluvias dispersas en la mayor parte del país, con más presencia en el centro y el occidente; en el sur, vientos racheados.",
-   "Se esperan descenso de temperaturas y abundante nubosidad; por El Niño, la temporada tendría menos frentes y más débiles."
+   "Según CENAOS, una vaguada prefrontal deja el jueves 12 lluvias y chubascos con actividad eléctrica en el norte, centro, noroccidente y oriente; los mayores acumulados, en el noroccidente, y en zonas montañosas pueden ser moderados o fuertes.",
+   "El viernes 13 entra el primer frente frío de la temporada, con descenso de temperatura y más lluvias durante el fin de semana.",
+   "Intibucá marca las temperaturas más bajas del jueves (máxima de 24 °C y mínima de 16 °C); en Choluteca y Valle, máximas de 36 °C."
   ],
   "links": [
    {
@@ -44,12 +44,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Radio HRN",
-    "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10"
+    "t": "Radio HRN (11-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11"
    },
    {
-    "t": "Televicentro",
-    "url": "https://www.televicentro.com/copeco-anuncia-mas-lluvias-y-revela-cuando-ingresara-el-primer-frente-frio-2026-11-09"
+    "t": "Radio HRN (10-nov)",
+    "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10"
    }
   ]
  },

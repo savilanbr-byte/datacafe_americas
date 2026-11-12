@@ -1,6 +1,26 @@
 {
- "updatedAt": "2026-11-11T19:46:12Z",
+ "updatedAt": "2026-11-12T11:52:00Z",
  "items": [
+  {
+   "id": "n20",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-12",
+   "source": "Comunicaffe · OIC",
+   "url": "https://www.comunicaffe.com/ico-report-world-coffee-exports-increase-to-142-4-million-bags-as-market-returns-to-surplus/",
+   "title": "OIC: el mercado mundial vuelve al superávit y las exportaciones de Honduras crecen 19,3 %",
+   "summary": "Según la OIC, en 2025-26 se exportaron 142,4 M de sacos (+1 %) y hubo un superávit de 3 M de sacos, el primero desde 2020-21; el promedio mensual del indicador compuesto fue de 261,26 ¢/lb (−0,3 %). Las exportaciones de Honduras subieron 19,3 %."
+  },
+  {
+   "id": "n21",
+   "scope": "mundo",
+   "tag": "Exportaciones",
+   "date": "2026-11-12",
+   "source": "Comunicaffe · Cecafé",
+   "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
+   "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
+   "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre (+28,4 %), con 4,12 M de arábica (+21,6 %) y 0,90 M de robusta; de enero a octubre suma 34,5 M (+3,5 %). La oferta brasileña presiona la bolsa de NY y con ella los diferenciales del café hondureño."
+  },
   {
    "id": "h15",
    "scope": "hn",
@@ -13,7 +33,7 @@
    "summary": "El mercado interbancario arrancaría a inicios de 2027: bancos y casas de cambio retendrán el 10 % de los dólares que compren y trasladarán el 90 % al BCH. El banco espera la entrada de divisas por exportaciones de café, que suele empezar en noviembre, para reforzar reservas antes del cambio."
   },
   {
-   "id": "h16",
+   "id": "h17",
    "scope": "hn",
    "regiones": [
     "copan",
@@ -21,11 +41,11 @@
     "comayagua"
    ],
    "tag": "Clima",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "source": "Radio HRN · CENAOS",
-   "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10",
-   "title": "CENAOS: el primer frente frío entra el viernes 13 con lluvias en el centro y occidente",
-   "summary": "Una vaguada prefrontal y luego el frente frío dejarían nubosidad, descenso de temperatura y lluvias dispersas, sobre todo en el centro y occidente, durante el fin de semana. Puede retrasar el secado del pergamino en las zonas que ya cortan café."
+   "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11",
+   "title": "Vaguada prefrontal trae tormentas el jueves y el primer frente frío entra el viernes 13",
+   "summary": "CENAOS prevé lluvias con actividad eléctrica el jueves 12, con los mayores acumulados en el noroccidente, y descenso de temperatura con más lluvias desde el viernes 13. En zonas que ya cortan, como Copán y Opalaca, puede retrasarse el secado del pergamino."
   },
   {
    "id": "n18",
@@ -60,16 +80,6 @@
    "summary": "Habrá menos frentes fríos, lluvias aisladas en el corredor seco el resto de noviembre y diciembre–enero 1–2 °C sobre lo normal, según CENAOS. Favorece el secado del café, pero puede acelerar la maduración y presionar la mano de obra."
   },
   {
-   "id": "n17",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-09",
-   "source": "Barchart",
-   "url": "https://tradingview.com/news/barchart:bf0455cf1094b:0-soaring-brazil-coffee-exports-weigh-on-arabica-prices",
-   "title": "Exportaciones récord de Brasil llevan al arábica a mínimos de 7 semanas",
-   "summary": "Brasil exportó 287.000 t de café en octubre (+23 % interanual) y Vietnam 114.000 t (+61 %); los inventarios certificados de arábica en ICE bajaron a 220.379 sacos. El contrato de diciembre cerró en 273,60 ¢/lb (−6,40)."
-  },
-  {
    "id": "n19",
    "scope": "mundo",
    "tag": "Producción",
@@ -91,16 +101,6 @@
    "regiones": [
     "el-paraiso"
    ]
-  },
-  {
-   "id": "n16",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-06",
-   "source": "Comunicaffe",
-   "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
-   "title": "El arábica cae por tercera sesión a mínimos de cinco semanas por récord de exportaciones de Brasil",
-   "summary": "El contrato de diciembre cerró en 277,15 ¢/lb el 5-nov, con exportaciones brasileñas de octubre sobre 5 M de sacos y reposición gradual de inventarios certificados. Presiona el precio de referencia que recibe el productor hondureño."
   },
   {
    "id": "h8",
