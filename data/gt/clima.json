@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:47:27Z",
+  "updatedAt": "2026-11-12T19:47:41Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,19 +24,19 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tienen lloviznas dispersas por la tarde y un noviembre más lluvioso de lo normal en el Norte y la Bocacosta: vigila secado, fruta caída y sobremadurez.",
-    "Las noches de 3–5 °C en los altiplanos y los frentes fríos pueden dañar fruta y brotes en las partes más altas de Huehuetenango, San Marcos y Atitlán: pregunta por daños de helada en fincas de más de 1.800 m.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) siguen con lluvias por la tarde en el Norte, Occidente y la Bocacosta, aunque empiezan a disminuir: vigila secado, fruta caída y sobremadurez.",
+    "Ya se registran mínimas de 5 °C en Huehuetenango (San Pedro Necta, Todos Santos) y se esperan 3–5 °C en los altiplanos con frentes fríos: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos y Atitlán.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-09",
-    "headline": "Semana del 9 al 13 de noviembre: días cálidos, noches frías (3–5 °C en los altiplanos) y lloviznas dispersas por la tarde",
+    "asOf": "2026-11-12",
+    "headline": "12 de noviembre: humedad de ambos litorales, lluvias por la tarde en Occidente, Norte, Caribe y Bocacosta, y noches frías en los altiplanos",
     "items": [
-      "Pronóstico del 9–13 de noviembre (INSIVUMEH): mínimas de 3 a 5 °C en los altiplanos central y occidental; máximas de 26–34 °C en Alta Verapaz y hasta 36 °C en el Pacífico y Oriente; lloviznas o lluvias dispersas en tardes y noches por humedad de ambos litorales.",
-      "INSIVUMEH (9-nov): mínimas de 10–14 °C en noviembre, cercanas a 0 °C en Huehuetenango, San Marcos, Quetzaltenango, Sololá, Chimaltenango y Sacatepéquez; 2 frentes fríos en noviembre, 4 en diciembre y 4 en enero (16 en la temporada).",
-      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén, con riesgo de deslizamientos en el Norte y la Bocacosta; El Niño persistiría en los primeros meses de 2027."
+      "Pronóstico del 12-nov (INSIVUMEH): nublados y lluvias en tarde y noche en el Caribe, Occidente, parte del Norte y la Bocacosta, con lluvias aisladas y actividad eléctrica en el Altiplano Central; descenso de temperatura nocturno en Occidente, el Altiplano Central y la Franja Transversal del Norte.",
+      "INSIVUMEH (11-nov): mínimas registradas de 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; se esperan 3–5 °C en los altiplanos y dos frentes fríos en noviembre; las lluvias empiezan a disminuir.",
+      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén; 16 frentes fríos en la temporada y mínimas cercanas a 0 °C en zonas altas en diciembre; El Niño persistiría a inicios de 2027."
     ],
     "links": [
       {
@@ -44,8 +44,12 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
-        "t": "Pronóstico 9–13 nov (Guatemala.com)",
-        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-del-9-al-13-noviembre-2026"
+        "t": "Pronóstico 12-nov (Publinews)",
+        "url": "https://www.publinews.gt/noticias/2026/11/12/insivumeh-pronostica-ingreso-de-humedad-y-lluvias-para-este-jueves/"
+      },
+      {
+        "t": "Temperaturas registradas (Prensa Latina, 11-nov)",
+        "url": "https://prensa-latina.cu/2026/11/11/continuaran-bajas-temperaturas-en-distintas-regiones-de-guatemala"
       },
       {
         "t": "Frío de noviembre (Emisoras Unidas, 9-nov)",

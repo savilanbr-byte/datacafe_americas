@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-12T11:47:27Z",
+  "updatedAt": "2026-11-12T19:47:41Z",
   "items": [
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Reuters · Business Recorder",
+      "url": "https://brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
+      "title": "Arábica toca mínimo de seis semanas y suben los inventarios certificados de ICE",
+      "summary": "El 12-nov el arábica cayó 1,2 % a US$2,627 por libra (mínimo de seis semanas) ante la expectativa de una gran oferta de Brasil; los inventarios certificados de ICE superaron 241.000 sacos, máximo desde mediados de octubre, y la robusta bajó 0,6 % a US$3.233/t. Un mercado más flojo presiona los diferenciales que piden los exportadores guatemaltecos."
+    },
     {
       "id": "n17",
       "scope": "mundo",
@@ -12,14 +22,18 @@
       "summary": "El mundo exportó 142,39 M de sacos en el año cafetero 2025-26 (+1 %); Centroamérica, el Caribe y México subieron 4,6 % y Brasil cayó 7,3 %. El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %), los inventarios certificados de arábica en EE. UU. quedaron en su menor nivel de fin de octubre desde 2002 y la OIC calcula un superávit de 3 M de sacos."
     },
     {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "Barchart · TradingView",
-      "url": "https://www.tradingview.com/news/barchart:a05bc7548094b:0-coffee-prices-undercut-by-rising-brazil-coffee-exports/",
-      "title": "Arábica cae a mínimo de 7 semanas por el alza de las exportaciones de Brasil y Vietnam",
-      "summary": "El contrato de diciembre cerró el lunes 9-nov con −6,40 ¢ (−2,29 %); Brasil exportó 287.000 t en octubre (+23 % anual) y Vietnam 114.000 t (+61 %). Los inventarios certificados de arábica en ICE (220.379 sacos) siguen cerca del mínimo de 27 años."
+      "id": "g18",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-11",
+      "source": "Prensa Latina · INSIVUMEH",
+      "url": "https://prensa-latina.cu/2026/11/11/continuaran-bajas-temperaturas-en-distintas-regiones-de-guatemala",
+      "title": "Mínimas de 5 °C en Huehuetenango y lluvias por la tarde en la Bocacosta",
+      "summary": "El INSIVUMEH registró 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; prevé mínimas de 3–5 °C en los altiplanos, lluvias dispersas con tormenta en la Bocacosta y dos frentes fríos este mes. En San Marcos, que ya cosecha, la lluvia de la tarde complica el secado."
     },
     {
       "id": "g17",
@@ -94,21 +108,6 @@
       "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
       "title": "Arábica sube 2,7 % a US$2,95 por libra con inventarios de ICE cerca de mínimos",
       "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
-    },
-    {
-      "id": "g15",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos",
-        "coban"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-02",
-      "source": "Emisoras Unidas · INSIVUMEH",
-      "url": "https://emisorasunidas.com/nacional/2026/11/02/bajas-temperaturas-noviembre-2026-guatemala/",
-      "title": "Noches frías de 2 a 4 °C en el Altiplano y lluvia dispersa en Alta Verapaz",
-      "summary": "Para el 2–6 de noviembre el INSIVUMEH preveía mínimas de 2 a 4 °C en el Altiplano Central y Occidental y máximas de 35–37 °C en el Pacífico y Oriente, con lluvia dispersa en Bocacosta y Alta Verapaz. Conviene vigilar el secado del grano en las zonas que ya cosechan."
     },
     {
       "id": "g12",
