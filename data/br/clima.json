@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:50:00Z",
+  "updatedAt": "2026-11-12T11:49:17Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,18 +23,19 @@
     "period": ""
   },
   "impactos": [
-    "Las floradas de la safra 2027-28 salieron bien y el cuajado (pegamento) luce bueno en Mogiana, Norte Pioneiro y Sul de Minas; esta semana el INMET prevé solo 20–40 mm en Minas y São Paulo y un noviembre con menos lluvia y hasta 2 °C más de calor, y CEPEA ve riesgo de caída de frutos en São Paulo y el Cerrado: la confirmación llega en diciembre.",
-    "Con la cosecha 2026 terminada (récord de 67,6 M de sacas) y exportaciones récord en octubre (5,33 M de sacas, Cecafé), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
-    "El dólar saltó a R$5,586 el 10-nov, su cierre más alto desde julio de 2025; el real débil sostiene los precios internos (arábica CEPEA R$1.611,30) aunque Nueva York cae a mínimos de siete semanas (≈271 ¢/lb). Con negocios escasos y el productor vendiendo solo lo necesario, vigila los diferenciales FOB: el cambio abre ventanas de compra en dólares.",
-    "El Niño suele traer lluvias irregulares y más calor al Sudeste; en Rondônia el mes seco ya trajo broca temprana, y en el conilon del Espírito Santo la floración fue satisfactoria pero el agua sigue siendo clave para 2027."
+    "Las floradas de la safra 2027-28 salieron, pero en Minas y São Paulo fueron varias y desparejas: Cooxupé ya estima una pérdida de 10 % del potencial en su zona (Sul de Minas, Mogiana, Cerrado) y anticipa una cosecha 2027 con maduración despareja y calidad afectada; el INMET prevé un noviembre con menos lluvia y hasta 2 °C más de calor, justo durante el cuajado (pegamento), que se confirma en diciembre.",
+    "Con la cosecha 2026 terminada (récord de 67,6 M de sacas, Conab) y exportaciones récord en octubre (5,33 M de sacas, Cecafé), la oferta disponible es amplia: el riesgo de precio viene del clima de la próxima cosecha y del dólar.",
+    "El dólar retrocedió a R$5,5628 el 11-nov tras su máximo desde julio de 2025 y el arábica CEPEA bajó a R$1.593,28 con Nueva York en 269 ¢/lb (mínimo de seis semanas); con márgenes estrechos para el productor (Campo Futuro) y ventas solo de lo necesario, vigila los diferenciales FOB: los saltos del cambio abren ventanas de compra en dólares.",
+    "El Niño suele traer lluvias irregulares y más calor al Sudeste; en Rondônia el mes seco ya trajo broca temprana, y en el sur de Bahia y el norte del Espírito Santo las lluvias de esta semana (más de 100 mm localmente) favorecen al conilon para 2027."
   ],
   "avisos": {
     "source": "INMET · Climatempo · CEPEA",
-    "asOf": "2026-11-11",
+    "asOf": "2026-11-12",
     "headline": "Lluvia moderada esta semana en el Sudeste (20–40 mm) y más fuerte en el sur de Bahia, pero el calor con El Niño sigue como riesgo para el cuajado en Minas, São Paulo y Rondônia",
     "items": [
       "INMET (semana del 9 al 16-nov): chubascos aislados entre el oeste de Minas y el Espírito Santo que pierden fuerza en la semana; 20–40 mm en el oeste y este de Minas, centro-sur del Espírito Santo y sur y oeste de São Paulo (allí, la lluvia más fuerte desde el 15-nov); entre el Recôncavo y la Costa do Descobrimento (Bahia) puntos de más de 70 mm, y 20–50 mm en Rondônia.",
       "Climatempo (10-nov): los mayores acumulados de la semana (localmente más de 100 mm) caen en el sur de Bahia y el norte del Espírito Santo (Notícias Agrícolas).",
+      "Cooxupé (11-nov, SIC): estima de entrada una pérdida de 10 % del potencial de la safra 2027 en su zona por El Niño, con floradas muy desparejas y calidad muy afectada; advierte que la merma podría ser mayor (Agência Safras).",
       "CEPEA (6-nov): tras lluvias en el Cerrado Mineiro llegaron sol intenso y calor; el cuajado (pegamento) se confirmará hacia diciembre. En la Paulista preocupa la caída de frutos por el calor, y en Rondônia casi un mes seco trajo broca temprana (Comunicaffe).",
       "INMET prevé para noviembre lluvia bajo el promedio en Minas Gerais y Espírito Santo y hasta +2 °C en el Sudeste, con riesgo de déficit hídrico durante la floración y el cuajado."
     ],
@@ -46,6 +47,10 @@
       {
         "t": "Notícias Agrícolas · Climatempo",
         "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html"
+      },
+      {
+        "t": "Notícias Agrícolas · Cooxupé",
+        "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
       },
       {
         "t": "Comunicaffe · CEPEA",
