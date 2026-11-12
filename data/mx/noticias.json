@@ -1,6 +1,34 @@
 {
-  "updatedAt": "2026-11-11T19:46:43Z",
+  "updatedAt": "2026-11-12T11:46:01Z",
   "items": [
+    {
+      "id": "m30",
+      "scope": "mx",
+      "regiones": [
+        "veracruz",
+        "puebla",
+        "huasteca",
+        "oaxaca",
+        "chiapas-altos",
+        "robusta-golfo"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-12",
+      "source": "N+ · SMN",
+      "url": "https://www.nmas.com.mx/clima/pronostico-del-tiempo-frente-frio-5-provocara-lluvias-en-todo-el-pais-jueves-12-noviembre-2026/",
+      "title": "Frente frío 5 trae lluvias de 75 a 150 mm a Veracruz, Puebla y el norte de Oaxaca",
+      "summary": "El SMN prevé para el jueves 12 lluvias muy fuertes a intensas (75–150 mm) en el norte y centro de Veracruz, el norte y sureste de Puebla y el norte de Oaxaca, 50–75 mm en la Huasteca y 25–50 mm en el norte y este de Chiapas, con norte de 50–70 km/h en la costa de Veracruz. En plena cosecha: retrasa el corte, el secado del pergamino y el traslado de cereza."
+    },
+    {
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Kirehalli · Barchart",
+      "url": "https://kirehalli.com/coffee-prices-karnataka-11-11-2026-2",
+      "title": "El arábica toca un mínimo de siete semanas presionado por el real brasileño",
+      "summary": "El arábica de diciembre cerró el martes 10 en 271,40 ¢/lb (−2,20; −0,80 %) y el robusta de enero en 3.250 USD/t (−17), con la debilidad del real brasileño como principal presión. Una bolsa más baja abarata la referencia de compra del café mexicano."
+    },
     {
       "id": "m24",
       "scope": "mx",
@@ -38,26 +66,6 @@
       "url": "https://alertachiapas.com/2026/11/09/tuxtla-expo-cafe-13-regiones-dia-del-cafe-chiapaneco/",
       "title": "Expo de café de 13 regiones de Chiapas en Tuxtla el 20 y 21 de noviembre",
       "summary": "Productores de las 13 regiones cafetaleras de Chiapas (más de 180 mil en el estado) exponen el 20 y 21 de noviembre en el Parque Bicentenario de Tuxtla, antes del Día del Café Chiapaneco (24-nov) y del Chiapas Coffee Summit en Tapachula; ocasión para conocer lotes de la nueva cosecha."
-    },
-    {
-      "id": "m21",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos",
-        "oaxaca",
-        "guerrero",
-        "veracruz",
-        "puebla",
-        "robusta-golfo"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-08",
-      "source": "Proceso",
-      "url": "https://www.proceso.com.mx/nacional/2026/11/8/siguen-los-efectos-de-la-masa-de-aire-frio-del-frente-4-lluvias-de-lunes-a-jueves-en-estas-entidades-383352.html",
-      "title": "Lluvias fuertes de lunes a jueves en zonas cafeteras por el frente frío 4",
-      "summary": "El SMN prevé 25–50 mm el 9 y 10 en Veracruz, Puebla, Oaxaca y el sur de Chiapas, y hasta 75–150 mm el jueves 12 en el norte de Veracruz, con madrugadas de 0 a 5 °C en montañas. Complica el secado de pergamino y el transporte de cereza."
     },
     {
       "id": "m25",
@@ -190,19 +198,6 @@
       "url": "https://imagenagropecuaria.com/2026/aumenta-79-importaciones-de-cafe-robusta-de-brasil-hacia-mexico/",
       "title": "Importaciones de robusta brasileño a México suben 79 % en septiembre",
       "summary": "México compró 179.519 sacos a Brasil (98.558 un año antes), según Cecafé; la CNOC calcula que entre importaciones y contrabando centroamericano entran unos 3 millones de sacos. El robusta cuesta cerca de 35 % menos que el arábica mexicano y presiona los precios locales."
-    },
-    {
-      "id": "m29",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Precios",
-      "date": "2026-10-28",
-      "source": "Hora Cero",
-      "url": "https://horacero.mx/2026/10/28/cafetaleros-veracruzanos-denuncian-bajos-precios-y-exigen-aplicar-nueva-ley/",
-      "title": "CNOC denuncia descuentos de hasta US$100 por quintal a los cafetaleros de Veracruz",
-      "summary": "La CNOC estima que los compradores pagarán apenas 16–17 pesos por kilo de cereza al arrancar el corte fuerte, con descuentos de intermediación cercanos a US$100 por quintal (menos de US$60 en Colombia u Honduras) y sin reconocer el premio de hasta US$30 del lavado mexicano; el peso fuerte resta unos 1.300 pesos por quintal de pergamino."
     }
   ]
 }

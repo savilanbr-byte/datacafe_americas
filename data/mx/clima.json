@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:46:43Z",
+  "updatedAt": "2026-11-12T11:46:01Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,9 +24,9 @@
   },
   "impactos": [
     "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
-    "Las lluvias de 25 a 75 mm previstas esta semana (hasta 150 mm el jueves en el norte de Veracruz) dificultan el secado del pergamino y el traslado de cereza en Veracruz, Puebla, Oaxaca y Chiapas; conviene verificar la humedad al comprar.",
+    "El frente frío 5 deja 75–150 mm el jueves 12 en el centro y norte de Veracruz, Puebla y el norte de Oaxaca, y sigue el viernes: en pleno arranque del corte fuerte retrasa la cosecha, el secado del pergamino y el traslado de cereza; conviene verificar la humedad y el riesgo de fermento al comprar.",
     "En las Altas Montañas de Veracruz la cereza subió a 12–15 pesos por kilo (5-nov) frente a 7–12 en octubre, aún bajo el mínimo de 16 que pide la CNOC; se espera una cosecha menor y el corte fuerte arranca estos días.",
-    "Las madrugadas de 0 a 5 °C en zonas altas no son crítica para la cosecha, pero vigila la fruta caída y la falta de cortadores en el Soconusco, donde llegan menos jornaleros guatemaltecos.",
+    "Las madrugadas de 0 a 5 °C en la sierra de Puebla no son críticas para la cosecha, pero vigila la fruta caída tras las lluvias y la falta de cortadores en el Soconusco, donde llegan menos jornaleros guatemaltecos.",
     "El robusta de tierras bajas cosecha desde octubre: las lluvias del Golfo pueden frenar el corte y la oferta local compite con el robusta importado de Brasil."
   ],
   "regions": [
@@ -133,17 +133,17 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-08",
-    "headline": "El SMN prevé lluvias fuertes de lunes a jueves en el sur y el Golfo por la masa de aire frío del frente 4, con hasta 75–150 mm en el norte de Veracruz el jueves 12.",
+    "asOf": "2026-11-12",
+    "headline": "El frente frío 5 deja lluvias muy fuertes a intensas en el Golfo el jueves 12, con 75–150 mm en el centro y norte de Veracruz, Puebla y el norte de Oaxaca; siguen el viernes 13.",
     "items": [
-      "Lunes 9 y martes 10: chubascos fuertes de 25 a 50 mm en el centro y sur de Veracruz, Puebla, Oaxaca y el sur de Chiapas; 5–25 mm en Guerrero.",
-      "Miércoles 11 y jueves 12: lluvias muy fuertes de 50 a 75 mm en el norte de Veracruz, el norte de Puebla y el noreste/este de Chiapas, y de 75 a 150 mm en el norte de Veracruz el jueves.",
-      "Madrugadas de 0 a 5 °C en zonas montañosas de Puebla, Veracruz y Oaxaca; rachas de 40 a 60 km/h en el Istmo de Tehuantepec; máximas de 35 a 40 °C en Guerrero, Oaxaca y Chiapas."
+      "Jueves 12: 75 a 150 mm en el norte y centro de Veracruz, norte y sureste de Puebla y norte de Oaxaca; 50 a 75 mm en el norte y este de Hidalgo y centro y este de San Luis Potosí (Huasteca); 25 a 50 mm en el norte y este de Chiapas; 5 a 25 mm en Guerrero.",
+      "Evento de norte con rachas de 50 a 70 km/h en la costa de Veracruz y en el Istmo y golfo de Tehuantepec; madrugadas de 0 a 5 °C en la sierra de Puebla.",
+      "Viernes 13: el SMN prevé que siga la lluvia puntual muy fuerte en Puebla, Veracruz, Oaxaca y Chiapas; mejora a partir del sábado 14. Máximas de 35 a 40 °C en Guerrero, Oaxaca y Chiapas."
     ],
     "links": [
       {
-        "t": "Proceso · pronóstico SMN lunes a jueves",
-        "url": "https://www.proceso.com.mx/nacional/2026/11/8/siguen-los-efectos-de-la-masa-de-aire-frio-del-frente-4-lluvias-de-lunes-a-jueves-en-estas-entidades-383352.html"
+        "t": "N+ · pronóstico SMN jueves 12",
+        "url": "https://www.nmas.com.mx/clima/pronostico-del-tiempo-frente-frio-5-provocara-lluvias-en-todo-el-pais-jueves-12-noviembre-2026/"
       },
       {
         "t": "SMN · CONAGUA",
