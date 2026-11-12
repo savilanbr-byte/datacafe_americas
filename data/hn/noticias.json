@@ -1,6 +1,16 @@
 {
- "updatedAt": "2026-11-12T11:52:00Z",
+ "updatedAt": "2026-11-12T19:46:57Z",
  "items": [
+  {
+   "id": "n22",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-12",
+   "source": "Business Recorder · Reuters",
+   "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
+   "title": "El arábica toca su mínimo de seis semanas por la oleada de café brasileño",
+   "summary": "El arábica en ICE cayó 1,2 % a 262,70 ¢/lb y el robusta 0,6 % a US$3.233/t, presionados por la llegada esperada de café de Brasil y buenas perspectivas para 2027-28; el café pendiente de certificar en ICE superó 100.000 sacos. Una bolsa a la baja abarata los primeros contratos de la cosecha hondureña; Reuters nota que la sequía y el calor dañaron la cosecha centroamericana que hoy se recoge."
+  },
   {
    "id": "n20",
    "scope": "mundo",
@@ -46,16 +56,6 @@
    "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11",
    "title": "Vaguada prefrontal trae tormentas el jueves y el primer frente frío entra el viernes 13",
    "summary": "CENAOS prevé lluvias con actividad eléctrica el jueves 12, con los mayores acumulados en el noroccidente, y descenso de temperatura con más lluvias desde el viernes 13. En zonas que ya cortan, como Copán y Opalaca, puede retrasarse el secado del pergamino."
-  },
-  {
-   "id": "n18",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-10",
-   "source": "Comunicaffe",
-   "url": "https://www.comunicaffe.com/coffee-futures-first-lots-traded-under-the-ice-arabicas-new-metric-contract/",
-   "title": "Se negocian los primeros lotes del nuevo contrato métrico de arábica en ICE",
-   "summary": "Se cerraron 48 lotes del vencimiento septiembre 2028 entre US$5.724 y 5.737 por tonelada; el contrato C en ¢/lb dejará de existir tras marzo de 2028. El 9-nov el arábica cerró en 273,60 ¢/lb (mínimo de 7 semanas) y los inventarios certificados subieron a 241.403 sacos."
   },
   {
    "id": "h11",
