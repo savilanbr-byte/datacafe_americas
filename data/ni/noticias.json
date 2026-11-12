@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:47:18Z",
+  "updatedAt": "2026-11-12T19:46:42Z",
   "items": [
     {
       "id": "ni13",
@@ -107,6 +107,19 @@
       "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
     },
     {
+      "id": "ni17",
+      "scope": "ni",
+      "regiones": [
+        "matagalpa"
+      ],
+      "tag": "Eventos",
+      "date": "2026-11-10",
+      "source": "Canal 6",
+      "url": "https://canal6.com.ni/dia-nacional-del-cafe-destacara-la-riqueza-y-tradicion-cafetalera-de-nicaragua/",
+      "title": "Nicaragua celebra por primera vez el Día Nacional del Café, el 13 de noviembre en Matagalpa",
+      "summary": "La celebración central será el 13 y 14 de noviembre en el Museo del Café de Matagalpa, con ferias en varios municipios; la organiza la Secretaría de Economía Creativa y la fecha quedará fija cada año. Medios oficiales mencionan ruedas de negocio y una indicación geográfica para el café de Matagalpa, pero la nota de Canal 6 no lo confirma."
+    },
+    {
       "id": "n17",
       "scope": "mundo",
       "tag": "Producción",
@@ -115,16 +128,6 @@
       "url": "https://forbes.com.br/forbes-agro/2026/11/producao-de-cafe-da-america-central-e-do-mexico-deve-cair-em-2026-27/",
       "title": "Sucafina prevé que la cosecha de Centroamérica y México caiga 9,3 % en 2026-27",
       "summary": "Quedaría por debajo de 18 M de sacos de 60 kg (19,68 M en 2025-26) por sequía y calor en el primer semestre, más broca y el año bajo del ciclo bienal; Honduras, México y Guatemala caen más (Nicaragua no se detalla). Menos oferta regional tiende a sostener los diferenciales de los lavados centroamericanos."
-    },
-    {
-      "id": "n16",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Comunicaffe",
-      "url": "https://www.comunicaffe.com/coffee-futures-arabica-extends-losses-to-fresh-lows-as-el-nino-and-logistics-concerns-linger/",
-      "title": "El arábica cae por tercera sesión a 277,15 ¢/lb, mínimo de cinco semanas",
-      "summary": "Pesan las exportaciones récord de Brasil (más de 5 M de sacos en el último mes) y una posible recuperación de los inventarios certificados de ICE, aún muy bajos; el robusta de enero sube 0,4 % a US$3.421/t. Un arábica más débil limita el precio de referencia para fijar café de Nicaragua. Brasil: Icafé estima la cosecha 2026-27 en 72,75 M de sacos (récord, +16,6 %) y los embarques de octubre superaron 5 M de sacos."
     },
     {
       "id": "n18",
