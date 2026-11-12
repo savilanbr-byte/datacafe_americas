@@ -1,15 +1,16 @@
 {
-  "updatedAt": "2026-11-11T19:46:49Z",
+  "updatedAt": "2026-11-12T11:48:50Z",
   "items": [
     {
-      "id": "n20",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "id": "s18",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Clima",
       "date": "2026-11-11",
-      "source": "ADM Investor Services",
-      "url": "https://www.admis.com/ice-stocks-weigh-on-coffee/",
-      "title": "Los inventarios de ICE pesan sobre el arábica, que ronda el mínimo de septiembre",
-      "summary": "Los inventarios certificados de arábica quedaron en 241.368 sacos, tras sumar 21.024 en tres sesiones, y el café pendiente de clasificación subió 51.934 sacos a 104.370, el nivel más alto desde marzo, todo de Brasil. Más café brasileño disponible en bolsa resta soporte al precio de referencia con que se fija el café salvadoreño de la nueva cosecha."
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/noticias/nacional/meteorologia-y-climatologia-sequia-lluvia-viento-ministerio-de-medio-ambiente/1303607/2026/",
+      "title": "El MARN da por iniciada la época seca desde el 9 de noviembre",
+      "summary": "Las lluvias bajaron desde el 18 de octubre y el inicio de la época seca varió entre el 21 de octubre y el 10 de noviembre según la zona; aún puede haber lluvias puntuales por frentes fríos y madrugadas muy frescas por los vientos nortes. Para el comprador: mejora el secado en patio del café que se corta ahora, aunque sigue el riesgo de lluvias aisladas."
     },
     {
       "id": "n21",
@@ -22,14 +23,25 @@
       "summary": "Según el informe de octubre de la OIC, el mundo exportó 142,39 millones de sacos en 2025-26 y la región de Centroamérica, México y el Caribe subió 4,6 % a 16,01 millones. Los inventarios de robusta en Londres crecieron 29,9 % a 1,13 millones de sacos, mientras los de arábica en EE. UU. cerraron octubre en su menor nivel desde 2002."
     },
     {
-      "id": "n18",
+      "id": "n20",
       "scope": "mundo",
       "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "ADM Investor Services",
+      "url": "https://www.admis.com/ice-stocks-weigh-on-coffee/",
+      "title": "Los inventarios de ICE pesan sobre el arábica, que ronda el mínimo de septiembre",
+      "summary": "Los inventarios certificados de arábica quedaron en 241.368 sacos, tras sumar 21.024 en tres sesiones, y el café pendiente de clasificación subió 51.934 sacos a 104.370, el nivel más alto desde marzo, todo de Brasil. Más café brasileño disponible en bolsa resta soporte al precio de referencia con que se fija el café salvadoreño de la nueva cosecha."
+    },
+    {
+      "id": "s16",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
       "date": "2026-11-09",
-      "source": "StoneX",
-      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
-      "title": "El arábica diciembre cae 6,40 ¢ a 273,60 ¢/lb en plena rotación de fondos",
-      "summary": "El contrato de diciembre cerró en 273,60 ¢/lb (−6,40) mientras los largos liquidan y pasan a marzo; la robusta enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre, lo que puede sumar volatilidad a los diferenciales de compra."
+      "source": "Prensa Latina (BCR)",
+      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
+      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
+      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
     },
     {
       "id": "s15",
@@ -45,15 +57,14 @@
       "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
     },
     {
-      "id": "s16",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
+      "id": "n18",
+      "scope": "mundo",
+      "tag": "Mercado",
       "date": "2026-11-09",
-      "source": "Prensa Latina (BCR)",
-      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
-      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
-      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
+      "source": "StoneX",
+      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
+      "title": "El arábica diciembre cae 6,40 ¢ a 273,60 ¢/lb en plena rotación de fondos",
+      "summary": "El contrato de diciembre cerró en 273,60 ¢/lb (−6,40) mientras los largos liquidan y pasan a marzo; la robusta enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre, lo que puede sumar volatilidad a los diferenciales de compra."
     },
     {
       "id": "s17",
@@ -82,26 +93,6 @@
       "summary": "La Asociación Cafetalera proyecta 750 mil quintales y la Mesa Agropecuaria 950 mil; ambas quedan bajo los 963.650 quintales oro uva de 2025-26 según el ISC. Para un comprador, la oferta exportable de El Salvador será menor o, en el mejor caso, similar a la del ciclo pasado."
     },
     {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Coffee & Cocoa Intel",
-      "url": "https://www.cocoaintel.com/coffee-extends-recovery-as-arabica-stocks-near-september-low-2-november-2026/",
-      "title": "El arábica diciembre cierra en 280 ¢/lb tras tres caídas seguidas",
-      "summary": "El contrato de diciembre perdió 7,20 centavos en la semana, tras haber repuntado el 2 de noviembre a 292,10 ¢/lb con inventarios certificados cerca de mínimos. El nivel de referencia para fijar precios del café salvadoreño baja, aunque la oferta inmediata sigue ajustada."
-    },
-    {
-      "id": "n19",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Trading Economics",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "El arábica ronda US$2,80/lb, mínimo de más de un mes, por la llegada rápida de café brasileño",
-      "summary": "Los inventarios certificados de café brasileño en ICE subieron a 83.678 sacos (máximo de 9,25 meses) y hay 55.396 sacos en espera de clasificación; el real débil anima a vender en Brasil. Un mercado más holgado presiona los precios base con que se negocia el café salvadoreño de la nueva cosecha."
-    },
-    {
       "id": "s13",
       "scope": "sv",
       "regiones": [],
@@ -113,15 +104,24 @@
       "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
     },
     {
-      "id": "s12",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-11-01",
-      "source": "Diario El Mundo",
-      "url": "https://diario.elmundo.sv/nacionales/el-salvador-iniciara-la-epoca-seca-en-noviembre-con-vientos-nortes-y-lluvias-dentro-de-lo-normal",
-      "title": "Época seca arrancaría el 14 de noviembre; el MARN ve lluvias normales a algo superiores en noviembre",
-      "summary": "Según la UES la transición termina el 13 de noviembre; el MARN proyecta 48,7 mm en noviembre (promedio 32,3 mm) y de dos a cuatro vientos nortes. Con El Niño muy fuerte hasta enero, conviene vigilar el secado en patio en el centro y el oriente."
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-03",
+      "source": "Prensa Libre",
+      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
+      "title": "Guatemala factura US$1.440 millones por café en 2025-26 y prevé menos volumen y precio en 2026-27",
+      "summary": "Guatemala exportó 4,3 millones de quintales (+16 %) a un promedio de US$336 por quintal; Anacafé baja su previsión 2026-27 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal. Referencia regional útil para negociar precios del café salvadoreño."
+    },
+    {
+      "id": "n22",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-03",
+      "source": "Woodpeckers Coffee",
+      "url": "https://www.woodpeckerscoffee.com/post/global-coffee-roundup-28-october-3-november-2026",
+      "title": "Brasil exporta un récord de 4,93 millones de sacos en octubre y Vietnam acelera su cosecha de robusta",
+      "summary": "Las exportaciones brasileñas de octubre marcaron un récord mensual pese a demoras en puertos; en Vietnam la cosecha 2026/27 (hasta 32,5 millones de sacos, récord) llega a su pico en noviembre–diciembre, con precio interno de unos 86.000 VND/kg. La robusta tocó US$3.183/t, mínimo desde marzo de 2024."
     },
     {
       "id": "s10",
