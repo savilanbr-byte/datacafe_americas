@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-11",
+    "asOf": "2026-11-12",
     "base": "USD",
     "rates": {
-      "BRL": 5.553906,
-      "COP": 3276.876985,
-      "MXN": 18.611384,
-      "GTQ": 7.648231,
-      "HNL": 26.88979,
-      "NIO": 36.814499,
-      "CRC": 452.888176,
-      "VES": 901.6175,
-      "PEN": 3.41557,
-      "BOB": 11.864569
+      "BRL": 5.572647,
+      "COP": 3301.604364,
+      "MXN": 18.62736,
+      "GTQ": 7.653488,
+      "HNL": 26.930954,
+      "NIO": 36.859363,
+      "CRC": 452.459518,
+      "VES": 904.4485,
+      "PEN": 3.417777,
+      "BOB": 11.811977
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -141,16 +141,16 @@
     },
     "kc1": {
       "asOf": "2026-11-11",
-      "change": -1.9,
+      "change": -2.4,
       "chgDec": 2,
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Cierre del 11-nov (Investing, histórico); -0,70% frente al cierre del 10-nov (271,40)",
+      "note": "Cierre del 11-nov (Investing, histórico); -0,88% frente al cierre del 10-nov (271,40). El 12-nov opera cerca de 269,20 en la mañana",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "value": 269.5
+      "value": 269.0
     },
     "kc2": {
       "asOf": "2026-11-11",
@@ -203,17 +203,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-11",
-      "change": -10.0,
-      "changePct": -0.31,
+      "asOf": "2026-11-12",
+      "change": -48.0,
+      "changePct": -1.48,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
-      "note": "Cierre del 11-nov (Investing); cierre anterior 3.252",
+      "note": "Intradía 12-nov (Investing, mañana); cierre anterior 3.242",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3242.0
+      "value": 3194.0
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-11T19:55:00Z"
+  "updatedAt": "2026-11-12T12:15:00Z"
 }

@@ -18,20 +18,20 @@
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "12 al 18 de noviembre",
+    "period": "13 al 19 de noviembre",
     "url": "https://www.yr.no/"
   },
   "impactos": [
-    "Centroamérica y el sur de México: El Niño suele alargar la canícula y recortar lluvias. Icafé ya habla de cosecha 10–15 % menor en Costa Rica y Sucafina de −9,3 % regional; Honduras y México bajarían más.",
-    "Colombia y Venezuela: Chinchiná recibe unos 71 mm en 7 días, con lluvia todos los días, lo que complica el secado de la cosecha principal; Boconó sigue seco. El déficit fuerte de lluvias por El Niño llega desde diciembre y pone en riesgo floraciones y llenado de grano del primer semestre de 2027.",
-    "Perú y Ecuador: El Niño trae lluvias fuertes a la costa norte; en las zonas cafeteras de sierra y selva el efecto es más variable. Vigila logística y puertos.",
-    "Brasil: Varginha (~56 mm) y Linhares (~46 mm) reciben lluvias regulares esta semana, favorables para el cuajado de la cosecha 2027/28; Faemg y el mercado ven con cautela 2027 por El Niño fuerte y el año bajo de la bienalidad, y el Cerrado no lo confirma hasta diciembre.",
-    "Calidad: la sequía favorece la broca y los defectos; revisa la calidad física de los lotes que lleguen a inicios de 2027."
+    "México y Centroamérica: semana con pocas lluvias (10–26 mm en 7 días), buena para el corte y el secado al sol que arranca en zonas bajas; El Niño ya recorta la cosecha (Icafé 10–15 % menos en Costa Rica, Sucafina −9,3 % regional) y la sequía pesa más en Chiapas y Honduras.",
+    "Colombia y Venezuela: Chinchiná recibe unos 73 mm con lluvia los 7 días, lo que complica el secado de la cosecha principal y eleva el riesgo de café húmedo o fermentado; Boconó sigue seco (~7 mm). El déficit de lluvias por El Niño llegaría desde diciembre.",
+    "Perú, Ecuador y Bolivia: lluvias diarias en Loja (~66 mm) y Jaén (~34 mm) en plena época de floración y llenado; Caranavi recibe unos 35 mm. El Niño puede traer lluvias fuertes a la costa norte de Perú y Ecuador: vigila puertos (Paita, Guayaquil).",
+    "Brasil: Varginha (~56 mm) recibe lluvia todos los días, favorable para el cuajado de la cosecha 2027/28; en Linhares se esperan unos 121 mm, exceso que puede afectar floraciones tardías del conilon. La de 2027 es año bajo de la bienalidad y El Niño mantiene la cautela.",
+    "Calidad: la combinación de sequía y calor favorece la broca y los defectos en Centroamérica, mientras que la lluvia en Colombia y Ecuador exige revisar humedad y taza de los lotes de esta cosecha."
   ],
   "regions": [
     {
       "dept": "México",
-      "p7": 17.6,
+      "p7": 13.9,
       "place": "Tapachula, Chiapas",
       "region": "mexico",
       "tmax": 32,
@@ -39,15 +39,15 @@
     },
     {
       "dept": "Guatemala",
-      "p7": 14.9,
+      "p7": 9.7,
       "place": "Antigua",
       "region": "guatemala",
-      "tmax": 26,
+      "tmax": 25,
       "tmin": 15
     },
     {
       "dept": "Honduras",
-      "p7": 26.1,
+      "p7": 13.2,
       "place": "Marcala, La Paz",
       "region": "honduras",
       "tmax": 26,
@@ -55,7 +55,7 @@
     },
     {
       "dept": "El Salvador",
-      "p7": 6.5,
+      "p7": 12.2,
       "place": "Santa Ana",
       "region": "el-salvador",
       "tmax": 32,
@@ -63,15 +63,15 @@
     },
     {
       "dept": "Nicaragua",
-      "p7": 24.1,
+      "p7": 20.3,
       "place": "Matagalpa",
       "region": "nicaragua",
-      "tmax": 27,
+      "tmax": 28,
       "tmin": 21
     },
     {
       "dept": "Costa Rica",
-      "p7": 29.0,
+      "p7": 25.8,
       "place": "San Marcos de Tarrazú",
       "region": "costa-rica",
       "tmax": 25,
@@ -79,15 +79,15 @@
     },
     {
       "dept": "Panamá",
-      "p7": 21.3,
+      "p7": 20.9,
       "place": "Boquete, Chiriquí",
       "region": "panama",
-      "tmax": 24,
+      "tmax": 25,
       "tmin": 18
     },
     {
       "dept": "Colombia",
-      "p7": 70.9,
+      "p7": 73.2,
       "place": "Chinchiná, Caldas",
       "region": "colombia",
       "tmax": 25,
@@ -95,7 +95,7 @@
     },
     {
       "dept": "Venezuela",
-      "p7": 4.5,
+      "p7": 6.6,
       "place": "Boconó, Trujillo",
       "region": "venezuela",
       "tmax": 26,
@@ -103,44 +103,44 @@
     },
     {
       "dept": "Ecuador",
-      "p7": 62.8,
+      "p7": 65.9,
       "place": "Loja",
       "region": "ecuador",
       "tmax": 21,
-      "tmin": 14
+      "tmin": 15
     },
     {
       "dept": "Perú",
-      "p7": 36.1,
+      "p7": 34.2,
       "place": "Jaén, Cajamarca",
       "region": "peru",
-      "tmax": 30,
+      "tmax": 31,
       "tmin": 23
     },
     {
       "dept": "Bolivia",
-      "p7": 49.2,
+      "p7": 34.5,
       "place": "Caranavi, La Paz",
       "region": "bolivia",
-      "tmax": 30,
-      "tmin": 22
+      "tmax": 31,
+      "tmin": 21
     },
     {
       "dept": "Brasil",
-      "p7": 55.5,
+      "p7": 55.8,
       "place": "Varginha, Sul de Minas",
       "region": "brasil-arabica",
-      "tmax": 26,
-      "tmin": 17
+      "tmax": 25,
+      "tmin": 18
     },
     {
       "dept": "Brasil",
-      "p7": 46.3,
+      "p7": 120.9,
       "place": "Linhares, Espírito Santo",
       "region": "brasil-conilon",
-      "tmax": 30,
+      "tmax": 29,
       "tmin": 22
     }
   ],
-  "updatedAt": "2026-11-11T19:55:00Z"
+  "updatedAt": "2026-11-12T12:15:00Z"
 }

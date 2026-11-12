@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "id": "g1",
+      "scope": "mundo",
+      "tag": "Regulación",
+      "date": "2026-11-12",
+      "source": "AJP",
+      "url": "https://www.ajupress.com/view/20261112032842647",
+      "title": "La regla europea contra la deforestación arranca el 30 de diciembre para el café de grandes y medianos operadores",
+      "summary": "Las pequeñas y microempresas tendrán hasta el 30 de junio de 2027; las multas mínimas llegan al 4 % de la facturación en la UE y las inspecciones van de 1 % a 9 % según el riesgo del país. Los compradores que envían café a Europa deben tener lista la geolocalización de fincas antes de fin de año."
+    },
+    {
+      "id": "g2",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Precios",
+      "date": "2026-11-11",
+      "source": "Cepea · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
+      "title": "Brasil: el indicador Cepea del arábica cae 1,12 % a R$ 1.593,28 por saca",
+      "summary": "El precio físico del arábica en São Paulo bajó el 11-nov tras subir a R$ 1.611,30 el día anterior, en línea con la caída del contrato en Nueva York; referencia útil para negociar café brasileño en reales."
+    },
+    {
       "id": "f1",
       "scope": "am",
       "pais": "Brasil",
@@ -183,17 +204,6 @@
       "summary": "Octubre sumó 1,114 millones de sacos (−8 %) y los últimos doce meses 12,56 millones (−15 %). Las exportaciones del mes subieron 6 % (1,119 millones), pero en doce meses son 11,85 millones (−11 %): oferta local aún corta."
     },
     {
-      "id": "b3",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Precios",
-      "date": "2026-11-06",
-      "source": "Cepea · Três Pontas Studio",
-      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-semana-em-alta-e-chega-a-r-1-61114/",
-      "title": "Brasil: el indicador Cepea del arábica cierra la semana en R$ 1.611,14 por saca",
-      "summary": "El arábica subió 0,45 % el 6-nov y 1,28 % en la semana; el conilon quedó en R$ 977,34 por saca (+1,23 % semanal). Con el real débil, el precio interno se sostiene pese a la caída en Nueva York."
-    },
-    {
       "date": "2026-11-05",
       "id": "a58",
       "pais": "México",
@@ -258,5 +268,5 @@
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-11T19:55:00Z"
+  "updatedAt": "2026-11-12T12:15:00Z"
 }
