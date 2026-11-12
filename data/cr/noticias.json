@@ -1,6 +1,16 @@
 {
- "updatedAt": "2026-11-11T19:46:21Z",
+ "updatedAt": "2026-11-12T11:48:10Z",
  "items": [
+  {
+   "id": "n33",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-12",
+   "source": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
+   "title": "El arábica toca mínimos de seis semanas y el robusta ronda su piso de dos años y medio",
+   "summary": "El arábica en ICE cayó 1,2 % a US$2,627/lb (mínimo de US$2,6215) y el robusta 0,6 % a US$3.233/t, por la llegada esperada de café brasileño, buenas condiciones para la cosecha 2027-28 y existencias certificadas de arábica por encima de 241.000 sacos, las más altas desde mediados de octubre. Con la bolsa a la baja, los compradores tienen margen para negociar precios fijos de lotes ticos, aunque los diferenciales de lavados centroamericanos siguen firmes."
+  },
   {
    "id": "n26",
    "scope": "cr",
