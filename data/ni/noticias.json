@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:46:32Z",
+  "updatedAt": "2026-11-12T11:47:18Z",
   "items": [
     {
       "id": "ni13",
@@ -107,16 +107,6 @@
       "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
     },
     {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters (Business Recorder)",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "El arábica sube 2,7 % a US$2,95 por libra por temor a poca oferta inmediata",
-      "summary": "Los inventarios certificados de ICE (225.068 sacos) siguen cerca de mínimos de 27 años; el clima favorable en Brasil y el real débil frenan el alza. Para comprar en Nicaragua: diferenciales y fijaciones siguen expuestos a un mercado nervioso en el corto plazo."
-    },
-    {
       "id": "n17",
       "scope": "mundo",
       "tag": "Producción",
@@ -155,6 +145,16 @@
       "url": "https://fortune.com/2026/11/09/vietnam-cheap-coffee-sustainability-eu-rules/",
       "title": "Nestlé Vietnam: el café barato perderá atractivo en Europa con el reglamento antideforestación",
       "summary": "El EUDR se aplica a la mayoría de empresas desde el 30 de diciembre de 2026 (las pequeñas, en 2027); Europa consume cerca del 24 % del café mundial. Para lotes de Nicaragua con destino a la UE, la geolocalización y trazabilidad de fincas pasa a ser requisito de compra."
+    },
+    {
+      "id": "n20",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
+      "title": "El arábica toca mínimo de seis semanas: US$2,62 por libra",
+      "summary": "El arábica cayó 1,2 % a US$2,6270/lb (mínimo de US$2,6215) por la llegada esperada de café de Brasil y el buen estado de su cosecha 2027-28; los inventarios certificados de ICE subieron a más de 241.000 sacos, máximo desde mediados de octubre, y el robusta bajó 0,6 % a US$3.233/t. Reuters señala que la sequía y el calor dañaron la cosecha centroamericana en curso: bolsa más baja, pero diferenciales de origen firmes para el café de Nicaragua."
     }
   ]
 }
