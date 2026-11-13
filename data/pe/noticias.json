@@ -1,15 +1,28 @@
 {
-  "updatedAt": "2026-11-12T19:48:41Z",
+  "updatedAt": "2026-11-13T11:47:08Z",
   "items": [
     {
-      "id": "n16",
+      "id": "p30",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-12",
+      "source": "RCR Perú",
+      "url": "https://www.rcrperu.com/fenomeno-de-el-nino-va-a-afectar-los-campos-de-cultivo-de-400-mil-familias-dedicadas-a-la-agricultura-familiar-en-cajamarca/",
+      "title": "Gremio de Cajamarca advierte que El Niño podría afectar hasta 60 % de los cafetales de la región",
+      "summary": "Juan Carlos Mondragón, expresidente de la Cámara de Comercio de Cajamarca, estima que las lluvias intensas y la roya podrían afectar hasta un 60 % de los campos de café de la región (estimación gremial, no oficial). Es una señal de riesgo para el volumen y la calidad de la campaña 2027 en Jaén y San Ignacio."
+    },
+    {
+      "id": "n19",
       "scope": "mundo",
       "tag": "Mercado",
       "date": "2026-11-12",
-      "source": "Business Recorder · Reuters",
-      "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
-      "title": "El arábica toca su mínimo en seis semanas y los inventarios certificados de ICE suben",
-      "summary": "El 11 de noviembre el arábica cayó 1,2 % a US$2,627 por libra (mínimo de 2,6215) y el robusta 0,6 % a US$3.233 por tonelada; los inventarios certificados de arábica superaron 241.000 sacos, su máximo desde mediados de octubre, y hay más de 100.000 sacos en espera de clasificación. Una bolsa más baja abarata el café peruano sin fijar, pero reduce el ingreso del productor."
+      "source": "Barchart",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
+      "title": "El arábica rebota 4,2 % desde su mínimo en casi cinco meses; la robusta cae a su mínimo en semana y media",
+      "summary": "El 12 de noviembre el contrato de diciembre del arábica cerró +11,20 ¢ (+4,16 %) por cobertura de cortos y existencias certificadas de ICE de solo 228.586 sacos, mientras la robusta de enero bajó 1,17 %. En contra pesan 141.194 sacos brasileños en espera de clasificación (máximo en 8,5 meses), la Conab con 67,6 millones de sacos para 2026 y el real en mínimos de 17 meses."
     },
     {
       "id": "n15",
