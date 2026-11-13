@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:58:00Z",
+  "updatedAt": "2026-11-13T19:47:04Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.6143,
+      "value": 5.6518,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-12",
+      "asOf": "2026-11-13",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-09-2026'&@dataFinalCotacao='11-12-2026'&$format=json",
-      "note": "PTAX de venta del 12-nov (boletín de cierre de las 13:08): +0,97 % frente a R$5,5606 del 11-nov. La fuente no da el motivo.",
-      "change": 0.0537,
-      "changePct": 0.97,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-11-2026'&@dataFinalCotacao='11-13-2026'&$format=json",
+      "note": "PTAX de venta del 13-nov (boletín de cierre de las 13:03): +0,67 % frente a R$5,6143 del 12-nov, en la estela del salto del dólar por las dudas sobre el ajuste fiscal.",
+      "change": 0.0375,
+      "changePct": 0.67,
       "chgDec": 4
     },
     "cepeaA": {
