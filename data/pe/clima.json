@@ -1,18 +1,22 @@
 {
-  "updatedAt": "2026-11-13T11:47:08Z",
+  "updatedAt": "2026-11-13T19:47:06Z",
   "enso": {
-    "asOf": "2026-10-08",
+    "asOf": "2026-11-12",
     "facts": [
       {
-        "l": "Anomalía Niño 3.4",
-        "v": "+2,1 °C"
+        "v": "+2,5 °C",
+        "l": "Anomalía Niño 3.4"
       },
       {
-        "l": "Fuerte o más hasta ene–mar 2027",
-        "v": "83%"
+        "v": ">79%",
+        "l": "Fuerte o muy fuerte hasta ene–mar 2027"
+      },
+      {
+        "v": "~60%",
+        "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
+    "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
