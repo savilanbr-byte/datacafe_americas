@@ -43,17 +43,6 @@
       "summary": "Cooxupé calcula en forma preliminar una pérdida de cerca del 10% del potencial de sus cooperados para 2027, y la Fundação Procafé estima unas 1,5 millones de sacas menos por granizo; además hay floraciones escalonadas, menos frutos y más enfermedades. Apunta a un arábica brasileño 2027/28 más corto y de calidad más dispareja, lo que da razones para cubrir ese ciclo en las caídas."
     },
     {
-      "id": "i3",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Precios",
-      "date": "2026-11-12",
-      "source": "Notícias Agrícolas · CNA/Senar",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html",
-      "title": "Brasil: solo 8 de 14 modelos de finca cubren su costo total, según Campo Futuro",
-      "summary": "Con precios de octubre, el arábica mecanizado cuesta R$1.237 por saca frente a un precio de R$1.594, mientras que el manual y el semimecanizado apenas ganan R$33–45 por saca y el conilon (R$932) queda bajo su costo de R$1.059. Con márgenes tan finos, el productor tiende a retener ventas cuando bajan los precios, lo que limita la oferta barata en el físico."
-    },
-    {
       "id": "i4",
       "scope": "mundo",
       "tag": "Mercado",
@@ -269,7 +258,18 @@
       "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
       "title": "Costa Rica: El Niño recorta la cosecha 10–15 % frente a lo estimado",
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
+    },
+    {
+      "id": "j1",
+      "scope": "am",
+      "pais": "Nicaragua",
+      "tag": "Exportaciones",
+      "date": "2026-10-30",
+      "source": "Estrategia y Negocios · EFE · BCN",
+      "url": "https://www.revistaeyn.com/centroamericaymundo/nicaragua-preve-ventas-de-us-918-millones-en-cosecha-de-cafe-2026-2027-ON32489340",
+      "title": "Nicaragua: el Banco Central prevé ventas de al menos US$918 millones en la cosecha 2026-27",
+      "summary": "El BCN calcula una producción de unos 3 millones de quintales y un precio promedio de US$294 por quintal, frente a US$270 del ciclo anterior; a septiembre las exportaciones sumaban US$691 millones. Un volumen estable con precios más altos sugiere oferta disponible pero menos margen para negociar descuentos."
     }
   ],
-  "updatedAt": "2026-11-13T11:52:28Z"
+  "updatedAt": "2026-11-13T19:48:09Z"
 }
