@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:47:17Z",
+  "updatedAt": "2026-11-13T11:58:00Z",
   "items": [
     {
       "id": "n30",
@@ -21,6 +21,17 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html",
       "title": "Campo Futuro: el caficultor cierra 2026 con márgenes estrechos y 2027 podría ser peor",
       "summary": "De 14 fincas modelo, solo 8 cubren el costo total; el arábica semimecanizado gana apenas R$33 por saca (costo R$1.321 vs precio R$1.354) y el conilon vende a R$932, por debajo de su costo total de R$1.059. Con 10 % menos de precio en 2027 solo 3 modelos serían rentables, lo que puede frenar las ventas a precios bajos."
+    },
+    {
+      "id": "b41",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-12",
+      "source": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-fecha-no-maior-valor-em-17-meses-a-r-5-65",
+      "title": "El dólar sube 1,58 % a R$5,6507, su cierre más alto en 17 meses",
+      "summary": "El mercado consideró insuficiente el paquete de ajuste fiscal (impacto estimado de R$43.000 a 54.000 M en 2027) y el dólar se fortaleció en el mundo por los rendimientos del Tesoro de EE. UU. Un real más débil sostiene los precios internos en reales y puede mejorar los diferenciales FOB para el comprador en dólares."
     },
     {
       "id": "b37",
@@ -95,15 +106,14 @@
       "summary": "El arábica cerró el 11-nov en US$2,6465/lb (−0,5 %, mínimo intradía 2,6215) ante la ola de café brasileño esperada; Sucafina ve buenas condiciones para la safra 2027/28. Los inventarios certificados superan 241.000 sacas y hay más de 100.000 en clasificación; el robusta cerró en US$3.245/t, cerca del mínimo de 2,5 años."
     },
     {
-      "id": "b36",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-10",
-      "source": "SBT News",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-dispara-e-fecha-no-maior-patamar-em-1-ano",
-      "title": "El dólar se dispara a R$5,586, su cierre más alto en más de un año",
-      "summary": "El dólar comercial subió 1,45 % el 10-nov por la inflación de EE. UU. más alta de lo esperado, la caída del petróleo y el acta del Copom (Selic en 13,75 %). Un real tan débil abarata el café brasileño en dólares y puede animar las ventas del productor."
+      "id": "n31",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "Tea & Coffee Trade Journal (OIC)",
+      "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
+      "title": "OIC: en octubre el arábica subió y el robusta bajó; inventarios certificados en polos opuestos",
+      "summary": "El precio compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); los Naturales Brasileños subieron 1,5 % a 294,49 ¢/lb y los robustas cayeron 2 %. Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacas (mínimo desde 2002), mientras los de robusta en Londres subieron 29,9 % a 1,13 M."
     },
     {
       "id": "b28",
@@ -177,16 +187,6 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-5-7-em-nova-york-dolar-sustenta-precos-no-brasil",
       "title": "Safras: el arábica cae 5,7 % en Nueva York en la semana, pero el dólar sostiene los precios en Brasil",
       "summary": "El contrato marzo/27 bajó de 285,45 a 269,25 ¢/lb entre el 29-oct y el 5-nov, mientras el arábica bebida buena del Sul de Minas siguió en R$1.650 por saca y el conilon tipo 7 en Vitória subió de R$960 a R$975. Los productores dosifican los lotes y las exportaciones de octubre podrían superar 5 M de sacas."
-    },
-    {
-      "id": "n25",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-06",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html",
-      "title": "Arábica cierra la semana −2,5 % en 280 ¢/lb; robusta +2,1 % por la India",
-      "summary": "El diciembre cerró en 280,00 ¢/lb y el robusta enero en US$3.270/t. La India recortó su estimación 2026/27 de 400.000 a 380.000 t por un monzón débil, mientras la cosecha de Vietnam avanza y puede sumar oferta."
     },
     {
       "id": "n23",

@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-12T19:47:17Z",
+  "updatedAt": "2026-11-13T11:58:00Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.5628,
+      "value": 5.6507,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": -0.0232,
-      "changePct": -0.42,
+      "change": 0.0879,
+      "changePct": 1.58,
       "chgDec": 4,
-      "asOf": "2026-11-11",
-      "source": "Imirante (Agência Brasil)",
-      "url": "https://imirante.com/noticias/brasil/2026/11/11/dolar-cai-042-fecha-r-556-foco-pacote-fiscal",
+      "asOf": "2026-11-12",
+      "source": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-fecha-no-maior-valor-em-17-meses-a-r-5-65",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
       "liveT": "Banco Central",
-      "note": "Bajó a R$5,5628 el 11-nov, una corrección tras el salto de la víspera (máximo desde julio de 2025), ayudada por las medidas fiscales del gobierno y el alza del petróleo."
+      "note": "Subió 1,58 % a R$5,6507 el 12-nov, su cierre más alto desde junio de 2025: el mercado juzgó insuficiente el paquete de ajuste fiscal del gobierno y los rendimientos del Tesoro de EE. UU. subieron."
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
@@ -31,33 +31,33 @@
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1593.28,
+      "value": 1619.43,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -1.12,
-      "asOf": "2026-11-11",
-      "fx": 5.5628,
-      "fxSrc": "dólar comercial del 11-nov (cierre)",
-      "source": "CEPEA · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
+      "changePct": 1.64,
+      "asOf": "2026-11-12",
+      "fx": 5.6507,
+      "fxSrc": "dólar comercial del 12-nov (cierre)",
+      "source": "CEPEA · Brasil 61",
+      "url": "https://brasil61.com/n/cafe-arabica-sobe-1-64-e-saca-chega-a-r-1-619-43-em-sao-paulo-pagr266645",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 1,12 % el 11-nov: el arábica en Nueva York cayó a 269 ¢/lb (mínimo de seis semanas) y el dólar retrocedió 0,42 %, con lo que perdió el sostén cambiario del día anterior."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Subió 1,64 % el 12-nov: el arábica rebotó 4,2 % en Nueva York (280 ¢/lb, recompra de posiciones vendidas) y el dólar saltó 1,58 %."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 974.24,
+      "value": 969.24,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.38,
-      "asOf": "2026-11-11",
-      "fx": 5.5628,
-      "fxSrc": "dólar comercial del 11-nov (cierre)",
-      "source": "CEPEA · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-conillon",
+      "changePct": -0.51,
+      "asOf": "2026-11-12",
+      "fx": 5.6507,
+      "fxSrc": "dólar comercial del 12-nov (cierre)",
+      "source": "CEPEA · Brasil 61",
+      "url": "https://brasil61.com/n/cafe-arabica-sobe-1-64-e-saca-chega-a-r-1-619-43-em-sao-paulo-pagr266645",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,38 % el 11-nov; el robusta en Londres cerró en US$3.245/t (−0,2 %), cerca del mínimo de dos años y medio."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,51 % el 12-nov pese al salto del dólar: el robusta en Londres cayó a US$3.192/t (−1,5 %), presionado por la cosecha de Vietnam."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",
