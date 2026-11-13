@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:46:51Z",
+  "updatedAt": "2026-11-13T11:50:00Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -25,17 +25,17 @@
   "impactos": [
     "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26; la Mesa Agropecuaria estima 950 mil. Conviene asegurar volúmenes de lotes de altura con tiempo.",
     "Con la época seca ya instalada desde el 9 de noviembre, mejoran las condiciones para la corta y el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Cacahuatique, Chichontepec y El Bálsamo, que está en plena cosecha.",
-    "Las tormentas puntuales de la tarde que el MARN aún prevé el 12 y 13 de noviembre en Apaneca-Ilamatepec, El Bálsamo y Tecapa-Chinameca pueden interrumpir el secado; conviene vigilar la humedad del pergamino antes de cerrar lotes tempranos.",
+    "Las lluvias breves de la tarde que el MARN aún prevé en el norte de Chalatenango, Morazán y el norte de San Miguel pueden interrumpir el secado en patio en Alotepec-Metapán y Cacahuatique; conviene vigilar la humedad del pergamino antes de cerrar lotes tempranos.",
     "Con El Niño fuerte hasta inicios de 2027, la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (corta de diciembre a marzo) puede adelantarse y dar grano más pequeño y menos denso; los vientos nortes de noviembre pueden botar fruta madura en las partes altas."
   ],
   "avisos": {
     "source": "MARN",
     "asOf": "2026-11-12",
-    "headline": "MARN: la época seca comenzó oficialmente el 9 de noviembre, aunque siguen lluvias y tormentas puntuales por la tarde en las cordilleras el 12 y 13 de noviembre",
+    "headline": "MARN: la época seca comenzó el 9 de noviembre; siguen lluvias breves por la tarde en el norte y la cordillera, con calor de hasta 37 °C en el oriente",
     "items": [
       "El MARN fijó el inicio oficial de la época seca 2026 el 9 de noviembre; las lluvias bajaron desde el 18 de octubre y el Observatorio de Amenazas ubica el inicio entre el 21 de octubre y el 10 de noviembre según la zona. Los frentes fríos aún pueden traer lluvias puntuales.",
-      "Para el 12 de noviembre prevé lluvias puntuales por la tarde en Apaneca-Ilamatepec, El Bálsamo, la sierra Tecapa-Chinameca y el norte de Santa Ana, Chalatenango, Cabañas y Morazán; el 13 se repiten en Apaneca-Ilamatepec y El Bálsamo, con tormentas nocturnas en Chalatenango, San Salvador y Cuscatlán.",
-      "Viento del noreste de 10 a 20 km/h con brisas de hasta 30 km/h; máximas de 30 °C en San Salvador, 32 °C en Santa Ana y 37 °C en San Miguel, con noches y madrugadas frescas."
+      "Para el 12 de noviembre, mañana despejada y nubes por la tarde sobre el norte y la cadena montañosa del centro al occidente, con lluvias breves y aisladas en el norte de Chalatenango, Cabañas, Morazán y el norte de San Miguel; de noche, lluvia solo en el noreste.",
+      "Viento del noreste de 10 a 20 km/h con ráfagas de hasta 30 km/h; máximas de 20–25 °C en las zonas altas, 29–34 °C en el resto y hasta 37 °C en el oriente; mínimas de 12 °C en las partes altas."
     ],
     "links": [
       {
@@ -43,12 +43,12 @@
         "url": "https://www.snet.gob.sv/ver/meteorologia/pronostico/24+horas"
       },
       {
-        "t": "El Diario de Hoy · inicio de la época seca",
-        "url": "https://www.elsalvador.com/noticias/nacional/meteorologia-y-climatologia-sequia-lluvia-viento-ministerio-de-medio-ambiente/1303607/2026/"
+        "t": "El Diario de Hoy · pronóstico 12-nov",
+        "url": "https://eldiariodehoy.com/noticias/nacionales/ambiente-calido-lluvias-puntuales/100241/2026"
       },
       {
-        "t": "Infobae",
-        "url": "https://www.infobae.com/el-salvador/2026/11/06/autoridades-advierten-sobre-lluvias-intensas-en-la-costa-y-el-oriente-salvadoreno-durante-el-fin-de-semana/"
+        "t": "El Diario de Hoy · inicio de la época seca",
+        "url": "https://www.elsalvador.com/noticias/nacional/meteorologia-y-climatologia-sequia-lluvia-viento-ministerio-de-medio-ambiente/1303607/2026/"
       }
     ]
   },

@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-12T19:46:51Z",
+  "updatedAt": "2026-11-13T11:50:00Z",
   "items": [
+    {
+      "id": "n24",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Barchart (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
+      "title": "El arábica rebota 4,2 % por inventarios ajustados de ICE; la robusta cae 1,2 %",
+      "summary": "El arábica diciembre subió 11,20 ¢ (+4,16 %) el 12-nov con los inventarios certificados de ICE en 228.586 sacos, cerca del mínimo de 27 años, aunque 141.194 sacos de Brasil esperan clasificación; la robusta enero bajó 38 US$/t. Brasil exportó 287.000 t en octubre (+23 %) y Vietnam 114.000 t (+61 %): la volatilidad obliga a fijar diferenciales salvadoreños con cuidado."
+    },
     {
       "id": "s18",
       "scope": "sv",
@@ -55,16 +65,6 @@
       "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
       "title": "Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar en los K-Coffee Awards de Corea",
       "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
-    },
-    {
-      "id": "n18",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "StoneX",
-      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
-      "title": "El arábica diciembre cae 6,40 ¢ a 273,60 ¢/lb en plena rotación de fondos",
-      "summary": "El contrato de diciembre cerró en 273,60 ¢/lb (−6,40) mientras los largos liquidan y pasan a marzo; la robusta enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre, lo que puede sumar volatilidad a los diferenciales de compra."
     },
     {
       "id": "s17",
