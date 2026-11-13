@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:46:30Z",
+  "updatedAt": "2026-11-13T11:47:43Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -244,6 +244,10 @@
         [
           "2026-11-11",
           269.0
+        ],
+        [
+          "2026-11-12",
+          280.6
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",

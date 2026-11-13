@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:46:30Z",
+  "updatedAt": "2026-11-13T11:47:43Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -23,11 +23,11 @@
     "period": ""
   },
   "impactos": [
-    "Con El Niño hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
-    "El frente frío 5 deja 75–150 mm el jueves 12 en el centro y norte de Veracruz, Puebla y el norte de Oaxaca, y sigue el viernes: en pleno arranque del corte fuerte retrasa la cosecha, el secado del pergamino y el traslado de cereza; conviene verificar la humedad y el riesgo de fermento al comprar.",
-    "En las Altas Montañas de Veracruz la cereza subió a 13–16 pesos por kilo (11-nov) frente a 12–15 el 5-nov, ya tocando el mínimo de 16 que pide la CNOC en Comapa, Totutla y Boca del Monte; se espera una cosecha menor y el corte fuerte arranca estos días.",
-    "Las madrugadas de 0 a 5 °C en la sierra de Puebla no son críticas para la cosecha, pero vigila la fruta caída tras las lluvias y la falta de cortadores en el Soconusco, donde llegan menos jornaleros guatemaltecos.",
-    "El robusta de tierras bajas cosecha desde octubre: las lluvias del Golfo pueden frenar el corte y la oferta local compite con el robusta importado de Brasil."
+    "Con El Niño fuerte hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
+    "El frente frío 5 mantiene 50–75 mm el viernes 13 en el centro y sur de Veracruz, Puebla, Oaxaca y el norte de Chiapas, da una pausa el fin de semana y vuelve a cargar lluvias el lunes 16 en Veracruz, Puebla y la Huasteca: en pleno arranque del corte fuerte retrasa la cosecha y el secado del pergamino; conviene verificar humedad y riesgo de fermento al comprar.",
+    "En las Altas Montañas de Veracruz la cereza subió a 13–16 pesos por kilo (11-nov), ya tocando el mínimo de 16 que pide la CNOC en Comapa, Totutla y Boca del Monte; el rebote del arábica del jueves 12 (+4 %) puede sostener esos precios.",
+    "Las madrugadas de 0 a 5 °C en las sierras de Puebla, Veracruz y Oaxaca no son heladas críticas, pero vigila la fruta caída tras las lluvias y la falta de cortadores en el Soconusco.",
+    "El robusta de tierras bajas cosecha desde octubre a 27 MXN/kg en el Soconusco: las lluvias del Golfo pueden frenar el corte en Tezonapa y Tuxtepec, y la oferta local compite con el robusta importado de Brasil."
   ],
   "regions": [
     {
@@ -134,16 +134,16 @@
   "avisos": {
     "source": "SMN · CONAGUA",
     "asOf": "2026-11-12",
-    "headline": "El frente frío 5 deja lluvias muy fuertes a intensas en el Golfo el jueves 12, con 75–150 mm en el centro y norte de Veracruz, Puebla y el norte de Oaxaca; siguen el viernes 13.",
+    "headline": "El frente frío 5 sigue con lluvias de 50–75 mm el viernes 13 en el centro y sur de Veracruz, el este de Puebla, Oaxaca y el norte de Chiapas; amaina el fin de semana y vuelve a llover fuerte el lunes 16.",
     "items": [
-      "Jueves 12: 75 a 150 mm en el norte y centro de Veracruz, norte y sureste de Puebla y norte de Oaxaca; 50 a 75 mm en el norte y este de Hidalgo y centro y este de San Luis Potosí (Huasteca); 25 a 50 mm en el norte y este de Chiapas; 5 a 25 mm en Guerrero.",
-      "Evento de norte con rachas de 50 a 70 km/h en la costa de Veracruz y en el Istmo y golfo de Tehuantepec; madrugadas de 0 a 5 °C en la sierra de Puebla.",
-      "Viernes 13: el SMN prevé que siga la lluvia puntual muy fuerte en Puebla, Veracruz, Oaxaca y Chiapas; mejora a partir del sábado 14. Máximas de 35 a 40 °C en Guerrero, Oaxaca y Chiapas."
+      "Viernes 13: 50 a 75 mm en el este y sureste de Puebla, centro y sur de Veracruz, norte y sur de Oaxaca y norte de Chiapas; 5 a 25 mm en Guerrero, Hidalgo y San Luis Potosí; norte de 50 a 70 km/h en la costa de Veracruz y el Istmo de Tehuantepec.",
+      "Sábado 14 y domingo 15: lluvias de 5 a 25 mm en Veracruz, Oaxaca y Chiapas; mínimas de 0 a 5 °C en las sierras de Puebla, Veracruz, Oaxaca, Hidalgo y San Luis Potosí; máximas de 35 a 40 °C en Guerrero, Oaxaca y Chiapas.",
+      "Lunes 16: otra vez 50 a 75 mm en el norte, centro y sur de Veracruz, norte de Oaxaca y de Puebla, la Huasteca (norte y este de Hidalgo, este de San Luis Potosí) y 25 a 50 mm en el norte de Chiapas, con norte de 40 a 60 km/h."
     ],
     "links": [
       {
-        "t": "N+ · pronóstico SMN jueves 12",
-        "url": "https://www.nmas.com.mx/clima/pronostico-del-tiempo-frente-frio-5-provocara-lluvias-en-todo-el-pais-jueves-12-noviembre-2026/"
+        "t": "Proceso · pronóstico SMN viernes 13 a lunes 16",
+        "url": "https://www.proceso.com.mx/nacional/2026/11/12/alerta-ahora-por-el-frente-frio-5-lluvias-fuertes-de-viernes-a-lunes-en-los-siguientes-estados-383637.html"
       },
       {
         "t": "SMN · CONAGUA",
