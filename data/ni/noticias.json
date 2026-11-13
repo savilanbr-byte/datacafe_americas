@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:46:42Z",
+  "updatedAt": "2026-11-13T11:47:11Z",
   "items": [
     {
       "id": "ni13",
@@ -107,17 +107,17 @@
       "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
     },
     {
-      "id": "ni17",
+      "id": "ni18",
       "scope": "ni",
       "regiones": [
         "matagalpa"
       ],
       "tag": "Eventos",
-      "date": "2026-11-10",
-      "source": "Canal 6",
-      "url": "https://canal6.com.ni/dia-nacional-del-cafe-destacara-la-riqueza-y-tradicion-cafetalera-de-nicaragua/",
-      "title": "Nicaragua celebra por primera vez el Día Nacional del Café, el 13 de noviembre en Matagalpa",
-      "summary": "La celebración central será el 13 y 14 de noviembre en el Museo del Café de Matagalpa, con ferias en varios municipios; la organiza la Secretaría de Economía Creativa y la fecha quedará fija cada año. Medios oficiales mencionan ruedas de negocio y una indicación geográfica para el café de Matagalpa, pero la nota de Canal 6 no lo confirma."
+      "date": "2026-11-12",
+      "source": "Vos TV",
+      "url": "https://www.vostv.com.ni/nacionales/52593-nicaragua-celebra-por-primera-vez-el-dia-nacional-/",
+      "title": "Primer Día Nacional del Café: el Gobierno otorgará la indicación geográfica al café de Matagalpa",
+      "summary": "El 13 de noviembre (Decreto 12-2026) se celebra por primera vez, con acto central en Matagalpa donde se entregará la indicación geográfica al café del departamento; el sector reúne a más de 51.000 familias, más de 500.000 personas en cosecha y llega a 57 países. Para compradores, la indicación geográfica puede abrir una vía de diferenciación por origen para lotes de Matagalpa."
     },
     {
       "id": "n17",
@@ -130,16 +130,6 @@
       "summary": "Quedaría por debajo de 18 M de sacos de 60 kg (19,68 M en 2025-26) por sequía y calor en el primer semestre, más broca y el año bajo del ciclo bienal; Honduras, México y Guatemala caen más (Nicaragua no se detalla). Menos oferta regional tiende a sostener los diferenciales de los lavados centroamericanos."
     },
     {
-      "id": "n18",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "StoneX",
-      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
-      "title": "El arábica de diciembre cierra en 273,60 ¢/lb (−6,40) por liquidación y el roll de fondos",
-      "summary": "Tocó 280,60 y cayó al cierre con el mayor volumen desde julio (69.769 lotes); el robusta de enero cerró en US$3.267/t (−3). Las opciones de diciembre vencen el 12 de noviembre: volatilidad para fijar precio de café nicaragüense esta semana."
-    },
-    {
       "id": "n19",
       "scope": "mundo",
       "tag": "Regulación",
@@ -150,14 +140,14 @@
       "summary": "El EUDR se aplica a la mayoría de empresas desde el 30 de diciembre de 2026 (las pequeñas, en 2027); Europa consume cerca del 24 % del café mundial. Para lotes de Nicaragua con destino a la UE, la geolocalización y trazabilidad de fincas pasa a ser requisito de compra."
     },
     {
-      "id": "n20",
+      "id": "n21",
       "scope": "mundo",
       "tag": "Mercado",
       "date": "2026-11-12",
-      "source": "Reuters (Business Recorder)",
-      "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
-      "title": "El arábica toca mínimo de seis semanas: US$2,62 por libra",
-      "summary": "El arábica cayó 1,2 % a US$2,6270/lb (mínimo de US$2,6215) por la llegada esperada de café de Brasil y el buen estado de su cosecha 2027-28; los inventarios certificados de ICE subieron a más de 241.000 sacos, máximo desde mediados de octubre, y el robusta bajó 0,6 % a US$3.233/t. Reuters señala que la sequía y el calor dañaron la cosecha centroamericana en curso: bolsa más baja, pero diferenciales de origen firmes para el café de Nicaragua."
+      "source": "Barchart (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
+      "title": "El arábica rebota 4,2 % desde mínimos de casi 5 meses por inventarios ICE ajustados",
+      "summary": "El arábica de diciembre cerró +11,20 ¢/lb (+4,16 %) el 12 de noviembre, tras tocar mínimos intradía, con inventarios certificados en 228.586 sacos, cerca del mínimo de 27 años; el robusta de enero bajó 1,2 %. Brasil exportó 287.000 t en octubre (+23 %), Conab subió su cosecha 2026 a 67,6 M de sacos y el real tocó mínimo de 17 meses; Vietnam exportó 114.000 t en octubre (+61 %). Bolsa muy volátil para fijar precio de café nicaragüense."
     }
   ]
 }
