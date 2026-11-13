@@ -1,15 +1,15 @@
 {
- "updatedAt": "2026-11-12T19:46:57Z",
+ "updatedAt": "2026-11-13T11:48:32Z",
  "items": [
   {
-   "id": "n22",
+   "id": "n23",
    "scope": "mundo",
    "tag": "Mercado",
    "date": "2026-11-12",
-   "source": "Business Recorder · Reuters",
-   "url": "https://www.brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
-   "title": "El arábica toca su mínimo de seis semanas por la oleada de café brasileño",
-   "summary": "El arábica en ICE cayó 1,2 % a 262,70 ¢/lb y el robusta 0,6 % a US$3.233/t, presionados por la llegada esperada de café de Brasil y buenas perspectivas para 2027-28; el café pendiente de certificar en ICE superó 100.000 sacos. Una bolsa a la baja abarata los primeros contratos de la cosecha hondureña; Reuters nota que la sequía y el calor dañaron la cosecha centroamericana que hoy se recoge."
+   "source": "Barchart · Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
+   "title": "El arábica rebota 4,2 % desde su mínimo de 4,75 meses por inventarios ICE ajustados",
+   "summary": "El contrato de diciembre subió 11,20 centavos el jueves 12 por cierre de posiciones cortas; los inventarios certificados de arábica (228.586 sacos) siguen cerca de su mínimo de 27 años, mientras la robusta cayó 1,2 % con stocks en máximos de 1,25 años. La volatilidad del NY pesa sobre los diferenciales que se negocien para café hondureño de la cosecha nueva."
   },
   {
    "id": "n20",
