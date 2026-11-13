@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "id": "i5",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-13",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
+      "title": "Vietnam: la cosecha de robusta avanza lento y los precios internos se sostienen",
+      "summary": "En las Tierras Altas Centrales el productor recibe 83.200–83.800 dongs por kilo y el robusta grado 2 se ofrece a US$50 bajo el contrato de enero. Los comerciantes no esperan volúmenes grandes hasta diciembre, así que la presión estacional sobre el robusta aún no llega."
+    },
+    {
       "id": "h1",
       "scope": "am",
       "pais": "México",
@@ -20,6 +30,82 @@
       "url": "https://www.ajupress.com/view/20261112032842647",
       "title": "La regla europea contra la deforestación arranca el 30 de diciembre para el café de grandes y medianos operadores",
       "summary": "Las pequeñas y microempresas tendrán hasta el 30 de junio de 2027; las multas mínimas llegan al 4 % de la facturación en la UE y las inspecciones van de 1 % a 9 % según el riesgo del país. Los compradores que envían café a Europa deben tener lista la geolocalización de fincas antes de fin de año."
+    },
+    {
+      "id": "i2",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Producción",
+      "date": "2026-11-12",
+      "source": "Notícias Agrícolas · Cooxupé",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431271-alem-da-bienalidade-baixa-floradas-irregulares-ampliam-preocupacao-com-safra-de-cafe-de-2027.html",
+      "title": "Brasil: floraciones irregulares y año de bienalidad baja recortan el potencial de la cosecha 2027",
+      "summary": "Cooxupé calcula en forma preliminar una pérdida de cerca del 10% del potencial de sus cooperados para 2027, y la Fundação Procafé estima unas 1,5 millones de sacas menos por granizo; además hay floraciones escalonadas, menos frutos y más enfermedades. Apunta a un arábica brasileño 2027/28 más corto y de calidad más dispareja, lo que da razones para cubrir ese ciclo en las caídas."
+    },
+    {
+      "id": "i3",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Precios",
+      "date": "2026-11-12",
+      "source": "Notícias Agrícolas · CNA/Senar",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html",
+      "title": "Brasil: solo 8 de 14 modelos de finca cubren su costo total, según Campo Futuro",
+      "summary": "Con precios de octubre, el arábica mecanizado cuesta R$1.237 por saca frente a un precio de R$1.594, mientras que el manual y el semimecanizado apenas ganan R$33–45 por saca y el conilon (R$932) queda bajo su costo de R$1.059. Con márgenes tan finos, el productor tiende a retener ventas cuando bajan los precios, lo que limita la oferta barata en el físico."
+    },
+    {
+      "id": "i4",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-12",
+      "source": "Barchart · Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
+      "title": "El arábica rebota 4,16% desde mínimos de casi cinco meses; el robusta cae 1,17%",
+      "summary": "El diciembre de Nueva York subió 11,20 ¢/lb el 12-nov apoyado en inventarios certificados bajos, aunque 141.194 sacos esperan clasificación, el máximo en 8,5 meses; Vietnam exportó 114.000 t en octubre (+61%). Si ese café brasileño se certifica, el soporte del arábica puede ceder; el robusta sigue presionado por la oferta."
+    },
+    {
+      "id": "i6",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Clima",
+      "date": "2026-11-12",
+      "source": "Infobae · IDEAM",
+      "url": "https://www.infobae.com/colombia/2026/11/12/el-nino-se-fortalecera-y-podria-extenderse-hasta-mayo-de-2027-estas-son-las-zonas-donde-habra-mas-lluvias-y-riesgo-de-sequia/",
+      "title": "Colombia: el IDEAM prevé un El Niño muy fuerte con menos lluvia en Huila y Tolima",
+      "summary": "El IDEAM da 61% de probabilidad de que El Niño se extienda hasta mayo de 2027, con déficit de lluvias en Huila, Tolima, Santander y parte de Antioquia y calor en el Eje Cafetero. Es un riesgo para la floración de la mitaca 2027, en un año en que la producción ya viene a la baja."
+    },
+    {
+      "id": "i7",
+      "scope": "am",
+      "pais": "Perú",
+      "tag": "Exportaciones",
+      "date": "2026-11-12",
+      "source": "Revista Economía · INEI",
+      "url": "https://www.revistaeconomia.com/importaciones-exportaciones-peru-setiembre/",
+      "title": "Perú: las exportaciones de café caen 11,4% en septiembre",
+      "summary": "Según el INEI, la baja del café arrastró una caída de 10,6% en la agroexportación tradicional de septiembre. Refleja una campaña peruana más corta y menos café disponible hacia fin de año."
+    },
+    {
+      "id": "i8",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Divisas",
+      "date": "2026-11-12",
+      "source": "O Tempo",
+      "url": "https://www.otempo.com.br/economia/2026/11/12/dolar-dispara-e-fecha-no-maior-valor-desde-junho-de-2025",
+      "title": "Brasil: el dólar sube 1,6% a R$5,65, su máximo desde junio de 2025",
+      "summary": "El alza responde a dudas sobre el paquete fiscal, un balance débil del Banco do Brasil y apuestas a que la Fed suba tasas. Un real más débil anima las ventas del productor brasileño y puede abaratar el físico en dólares."
+    },
+    {
+      "id": "i9",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Logística",
+      "date": "2026-11-12",
+      "source": "Efficienza",
+      "url": "https://efficienza.com.br/ataque-hacker-porto-de-santos-sistemas-fora-do-ar-aps/",
+      "title": "Brasil: un ataque informático deja sin sistemas a la Autoridad Portuaria de Santos",
+      "summary": "Desde el 6-nov la autoridad portuaria opera en parte de forma manual, aunque buques, camiones y trenes siguen entrando; la espera media para atracar fue de unos 1,85 días entre el 4 y el 10 de noviembre. Santos embarca cerca del 71% del café brasileño: conviene prever demoras administrativas en los embarques de noviembre."
     },
     {
       "id": "g2",
@@ -42,16 +128,6 @@
       "url": "https://www.cnnbrasil.com.br/agro/brasil-bate-recorde-e-exporta-53-milhoes-de-sacas-de-cafe-em-outubro/",
       "title": "Brasil exporta un récord mensual de 5,3 millones de sacos de café en octubre, según Cecafé",
       "summary": "Los envíos subieron 28,4 % frente a octubre de 2025 y el año-cosecha 2026/27 (julio–octubre) suma 16,591 millones de sacos (+19,7 %); los embarques a EE. UU. crecieron 119 % en el mes tras el retiro de aranceles. Más oferta brasileña disponible presiona los diferenciales de otros orígenes."
-    },
-    {
-      "id": "f2",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "ADM Investor Services",
-      "url": "https://www.admis.com/ice-stocks-weigh-on-coffee/",
-      "title": "ICE: el café pendiente de certificación salta a 104.370 sacos, el mayor nivel desde marzo",
-      "summary": "Los inventarios certificados de arábica quedaron en 241.368 sacos el 10 de noviembre, pero el volumen en revisión subió 51.934 sacos en un día, todo de origen Brasil. Si se certifica, aliviaría la estrechez de existencias que ha sostenido el precio en Nueva York."
     },
     {
       "id": "e4",
@@ -87,49 +163,6 @@
       "summary": "Un lote de 15 kg de Lamastus Family Estate fue comprado por la china JD.com a US$18.004/kg en la subasta Best of Panama 2026, por debajo del récord de unos US$30.000/kg del año pasado. Asia sigue siendo el principal comprador de los geishas de Chiriquí."
     },
     {
-      "id": "d4",
-      "scope": "mundo",
-      "tag": "Industria",
-      "date": "2026-11-10",
-      "source": "Daily Coffee News · GCP",
-      "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
-      "title": "Las compras de café sostenible de los grandes tostadores caen por primera vez",
-      "summary": "La Global Coffee Platform reporta que los 14 grandes compradores adquirieron 1,58 millones de toneladas de café sostenible en 2025 (-8,9%), el 69,3% del total frente a 75,4% en 2024; las compras llegaron de 30 orígenes, cuatro menos. Menos demanda de certificados puede reducir primas para productores verificados."
-    },
-    {
-      "id": "f3",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Logística",
-      "date": "2026-11-09",
-      "source": "El Universal · Asoexport",
-      "url": "https://www.eluniversal.com.co/economica/2026/11/09/este-es-el-grupo-portuario-del-caribe-colombiano-que-mas-cafe-exporta-por-sus-terminales/",
-      "title": "Colombia: Cartagena despacha el 32 % del café exportado y prepara una bodega más grande en Contecar",
-      "summary": "Según Asoexport, Buenaventura mueve el 61 % de los embarques de café, Cartagena el 32 % y Santa Marta el 7 %; Contecar ampliaría su bodega cafetera de 30.000 a 50.000 m². Cartagena ofrece salida por el Caribe para cargas con destino a la costa este de EE. UU. y Europa."
-    },
-    {
-      "id": "e1",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Eventos",
-      "date": "2026-11-09",
-      "source": "O Tempo · Faemg",
-      "url": "https://www.otempo.com.br/minas-sa/2026/11/9/com-minas-respondendo-por-mais-de-50-do-cafe-do-brasil-sic-espera-r-200-milhoes-em-negocios",
-      "title": "Brasil: arranca la Semana Internacional del Café en Belo Horizonte con Minas en unos 35 millones de sacas",
-      "summary": "La SIC va del 11 al 13 de noviembre y espera R$ 200 millones en negocios; Faemg calcula unos 35 millones de sacas para Minas en 2026, más de la mitad de Brasil. Para 2027 el tono es cauto por El Niño fuerte y el año bajo de la bienalidad."
-    },
-    {
-      "id": "e2",
-      "scope": "am",
-      "pais": "México",
-      "tag": "Eventos",
-      "date": "2026-11-09",
-      "source": "Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/11/09/tapachula-cumbre-cafe-chiapas-coffee-summit-gratis/",
-      "title": "Chiapas: el Coffee Summit de Tapachula reunirá a 15 compradores de Europa, EE. UU. y Costa Rica",
-      "summary": "La cumbre se hace del 23 al 28 de noviembre con talleres, panel de oferta exportable de 40 espacios y visitas a cuatro fincas; el gobierno estatal espera ventas de unos 60 millones de pesos. Es una ventana para cerrar lotes chiapanecos de la cosecha 2026-27 directo con productores."
-    },
-    {
       "id": "c1",
       "scope": "am",
       "pais": "Colombia",
@@ -139,16 +172,6 @@
       "url": "https://www.eltiempo.com/amp/economia/sectores/cafe-colombiano-exporta-11-7-por-ciento-menos-las-dificultades-que-enfrenta-el-sector-desde-las-reglas-de-comercio-hasta-el-clima-3599311",
       "title": "Colombia: proyecto de ley gravaría con IVA de 19% el café verde y pergamino desde 2028",
       "summary": "Las exportaciones cafeteras cayeron 11,7% en el último año cafetero y los exportadores advierten que pagar el IVA y esperar la devolución costaría más de 3,9 billones de pesos en financiación. La FNC se opone; el impuesto encarecería la compra de café colombiano si se aprueba."
-    },
-    {
-      "id": "c2",
-      "scope": "mundo",
-      "tag": "Regulación",
-      "date": "2026-11-09",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/11/09/vietnam-cheap-coffee-sustainability-eu-rules/",
-      "title": "Nestlé Vietnam advierte que el café barato perderá atractivo exportador por las reglas de sostenibilidad de la UE",
-      "summary": "El presidente de Nestlé Vietnam dijo el 3-nov que el robusta barato ya no será atractivo para exportar a Europa; el reglamento antideforestación de la UE aplica a la mayoría de empresas desde el 30-dic-2026. Los compradores con destino europeo deben exigir trazabilidad."
     },
     {
       "id": "c3",
@@ -162,15 +185,15 @@
       "summary": "Según el BCR se vendieron más de 553.300 quintales a un promedio de US$327,8 por quintal, unos US$24 millones más que un año antes; EE. UU. compró US$106,9 millones."
     },
     {
-      "id": "d6",
+      "id": "i1",
       "scope": "am",
-      "pais": "Brasil",
-      "tag": "Agricultura",
+      "pais": "México",
+      "tag": "Precios",
       "date": "2026-11-09",
-      "source": "Daily Coffee News · GCP Brasil",
-      "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
-      "title": "Brasil: fincas regenerativas en Minas Gerais producen 45 sacos por hectárea con costos menores",
-      "summary": "Un estudio de GCP Brasil con JDE Peet's, Cooxupé y Emater-MG en siete fincas de Sul de Minas y Cerrado halló costos operativos de R$488 a R$746 por saco de 60 kg, bajo el referente de Conab (R$768,80), y 45 sacos/ha frente a 30,4 de promedio nacional. La muestra es pequeña y no prueba causalidad."
+      "source": "Cuarto Poder",
+      "url": "https://www.cuartopoder.mx/chiapas/drastica-caida-del-precio-del-cafe-robusta/597444",
+      "title": "Chiapas: el robusta del Soconusco baja de 50 a 27 pesos por kilo al arrancar el corte",
+      "summary": "Productores de las zonas alta y media del Soconusco empezaron a cosechar robusta con el kilo pagado a 27 pesos, frente a 50 pesos hace un año. El robusta mexicano sale barato, pero los productores dicen que cosechan con pérdida, lo que puede llevar al abandono de fincas y reducir la oferta futura."
     },
     {
       "id": "e3",
@@ -181,17 +204,6 @@
       "url": "https://english.news.cn/20261108/6c47963125274c77b33a1f33c9f4ca67/c.html",
       "title": "Etiopía exporta más de 131.000 toneladas de café en el primer trimestre fiscal y gana 15% más",
       "summary": "Los ingresos superaron US$878 millones, 15% más que un año antes, aunque un poco por debajo de la meta; China ya es el tercer destino con unas 15.125 toneladas. Más competencia de Etiopía por los compradores de lavados de alta calidad."
-    },
-    {
-      "date": "2026-11-06",
-      "id": "a60",
-      "pais": "El Salvador",
-      "scope": "am",
-      "source": "Infobae · ISC",
-      "summary": "El Instituto Salvadoreño del Café registra US$196,05 millones con 607.908 quintales oro (+0,33%); el aumento viene del mejor ingreso por unidad. Norteamérica recibió el 64% de los envíos.",
-      "tag": "Exportaciones",
-      "title": "El Salvador: las exportaciones de café suben 12% en valor en el ciclo 2025-26",
-      "url": "https://www.infobae.com/el-salvador/2026/11/06/exportaciones-de-cafe-de-el-salvador-generan-usd-19605-millones-un-12-mas/"
     },
     {
       "date": "2026-11-06",
@@ -238,16 +250,6 @@
     },
     {
       "date": "2026-11-03",
-      "id": "a53",
-      "scope": "mundo",
-      "source": "Reuters · Business Recorder",
-      "summary": "El arábica ICE subió 2,7% pese a haber perdido solo 1,2% en octubre, y los inventarios certificados están en 225.068 sacos, cerca del mínimo de 27 años. La robusta llegó a US$3.140/t el lunes y rebotó a US$3.286; el real débil impulsa ventas de futuros en Brasil.",
-      "tag": "Mercado",
-      "title": "El arábica rebota 2,7% a US$2,95/lb; la robusta tocó su mínimo desde marzo de 2024",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally"
-    },
-    {
-      "date": "2026-11-03",
       "id": "a54",
       "pais": "Guatemala",
       "scope": "am",
@@ -269,5 +271,5 @@
       "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
     }
   ],
-  "updatedAt": "2026-11-12T19:50:00Z"
+  "updatedAt": "2026-11-13T11:52:28Z"
 }
