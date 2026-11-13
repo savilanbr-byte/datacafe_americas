@@ -1,18 +1,22 @@
 {
-  "updatedAt": "2026-11-13T11:47:43Z",
+  "updatedAt": "2026-11-13T19:47:17Z",
   "enso": {
-    "asOf": "2026-10-08",
+    "asOf": "2026-11-12",
     "facts": [
       {
-        "l": "Anomalía Niño 3.4",
-        "v": "+2,1 °C"
+        "v": "+2,5 °C",
+        "l": "Anomalía Niño 3.4"
       },
       {
-        "l": "Fuerte o más hasta ene–mar 2027",
-        "v": "83%"
+        "v": ">79%",
+        "l": "Fuerte o muy fuerte hasta ene–mar 2027"
+      },
+      {
+        "v": "~60%",
+        "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
+    "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
@@ -23,7 +27,7 @@
     "period": ""
   },
   "impactos": [
-    "Con El Niño fuerte hasta el primer trimestre de 2027, el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
+    "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027 (+2,5 °C en Niño 3.4, NOAA 12-nov), el sur de México suele tener menos lluvia: la maduración llega más pareja y rápida, pero con grano más pequeño en zonas bajas; en el Soconusco la sequía ya causa maduración despareja.",
     "El frente frío 5 mantiene 50–75 mm el viernes 13 en el centro y sur de Veracruz, Puebla, Oaxaca y el norte de Chiapas, da una pausa el fin de semana y vuelve a cargar lluvias el lunes 16 en Veracruz, Puebla y la Huasteca: en pleno arranque del corte fuerte retrasa la cosecha y el secado del pergamino; conviene verificar humedad y riesgo de fermento al comprar.",
     "En las Altas Montañas de Veracruz la cereza subió a 13–16 pesos por kilo (11-nov), ya tocando el mínimo de 16 que pide la CNOC en Comapa, Totutla y Boca del Monte; el rebote del arábica del jueves 12 (+4 %) puede sostener esos precios.",
     "Las madrugadas de 0 a 5 °C en las sierras de Puebla, Veracruz y Oaxaca no son heladas críticas, pero vigila la fruta caída tras las lluvias y la falta de cortadores en el Soconusco.",
