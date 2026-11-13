@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T11:48:32Z",
+ "updatedAt": "2026-11-13T19:46:37Z",
  "items": [
   {
    "id": "n23",
@@ -32,6 +32,19 @@
    "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre (+28,4 %), con 4,12 M de arábica (+21,6 %) y 0,90 M de robusta; de enero a octubre suma 34,5 M (+3,5 %). La oferta brasileña presiona la bolsa de NY y con ella los diferenciales del café hondureño."
   },
   {
+   "id": "h18",
+   "scope": "hn",
+   "regiones": [
+    "agalta"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-12",
+   "source": "Radio HRN · CENAOS",
+   "url": "https://www.radiohrn.hn/lluvias-en-honduras-vaguada-en-superficie-y-cuna-de-alta-presion-pronostico-cenaos-2026-11-12",
+   "title": "CENAOS descarta el primer frente frío del viernes 13",
+   "summary": "El frente frío previsto para el viernes se retrasó: el día viene seco salvo en Olancho y el oriente, con lluvias débiles a moderadas e Intibucá entre 13 y 22 °C. Buen día para el secado del pergamino en el occidente."
+  },
+  {
    "id": "h15",
    "scope": "hn",
    "regiones": [],
@@ -41,21 +54,6 @@
    "url": "https://www.elheraldo.hn/economia/liberalizacion-mercado-divisas-tardara-18-24-meses-honduras-DH32606353",
    "title": "El BCH liberalizará el mercado de divisas en 18 a 24 meses y espera los dólares del café",
    "summary": "El mercado interbancario arrancaría a inicios de 2027: bancos y casas de cambio retendrán el 10 % de los dólares que compren y trasladarán el 90 % al BCH. El banco espera la entrada de divisas por exportaciones de café, que suele empezar en noviembre, para reforzar reservas antes del cambio."
-  },
-  {
-   "id": "h17",
-   "scope": "hn",
-   "regiones": [
-    "copan",
-    "opalaca",
-    "comayagua"
-   ],
-   "tag": "Clima",
-   "date": "2026-11-11",
-   "source": "Radio HRN · CENAOS",
-   "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11",
-   "title": "Vaguada prefrontal trae tormentas el jueves y el primer frente frío entra el viernes 13",
-   "summary": "CENAOS prevé lluvias con actividad eléctrica el jueves 12, con los mayores acumulados en el noroccidente, y descenso de temperatura con más lluvias desde el viernes 13. En zonas que ya cortan, como Copán y Opalaca, puede retrasarse el secado del pergamino."
   },
   {
    "id": "h11",

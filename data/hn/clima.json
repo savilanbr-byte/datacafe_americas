@@ -1,18 +1,22 @@
 {
- "updatedAt": "2026-11-13T11:48:32Z",
+ "updatedAt": "2026-11-13T19:46:37Z",
  "enso": {
-  "asOf": "2026-10-08",
+  "asOf": "2026-11-12",
   "facts": [
    {
-    "l": "Anomalía Niño 3.4",
-    "v": "+2,1 °C"
+    "v": "+2,5 °C",
+    "l": "Anomalía Niño 3.4"
    },
    {
-    "l": "Fuerte o más hasta ene–mar 2027",
-    "v": "83%"
+    "v": ">79%",
+    "l": "Fuerte o muy fuerte hasta ene–mar 2027"
+   },
+   {
+    "v": "~60%",
+    "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
    }
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
+  "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
   "source": "NOAA CPC",
   "status": "El Niño · fuerte a muy fuerte",
   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
@@ -24,19 +28,19 @@
  },
  "impactos": [
   "El Niño fuerte recorta lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "La vaguada del jueves 12 y el primer frente frío, que entra este viernes 13 con lluvias sobre todo en el centro y occidente durante el fin de semana, traen nubosidad que puede frenar el secado del pergamino en Copán, Opalaca y Comayagua, donde ya se corta en zonas bajas: pide la humedad del grano al recibir los lotes.",
+  "El frente frío que se esperaba para el viernes 13 se retrasó: el día viene seco en el occidente y el centro, lo que ayuda a secar el pergamino en Copán, Opalaca y Comayagua, donde ya se corta en zonas bajas; en Agalta (Olancho) siguen las lluvias, así que pide la humedad del grano al recibir los lotes.",
   "CENAOS prevé una temporada fría atípica, con pocos frentes y diciembre–enero 1–2 °C más cálidos: buen secado en Montecillos, El Paraíso y Agalta cuando arranquen, pero la fruta puede madurar de golpe y faltar recolectores.",
   "Con la fruta madurando pareja y falta de mano de obra, sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-11",
-  "headline": "Vaguada prefrontal el jueves 12 y primer frente frío el viernes 13",
+  "asOf": "2026-11-12",
+  "headline": "CENAOS descarta el frente frío del viernes 13: día seco salvo en Olancho y el oriente",
   "items": [
-   "Según CENAOS, una vaguada prefrontal deja el jueves 12 lluvias y chubascos con actividad eléctrica en el norte, centro, noroccidente y oriente; los mayores acumulados, en el noroccidente, y en zonas montañosas pueden ser moderados o fuertes.",
-   "El viernes 13 entra el primer frente frío de la temporada, con descenso de temperatura y más lluvias durante el fin de semana.",
-   "Intibucá marca las temperaturas más bajas del jueves (máxima de 24 °C y mínima de 16 °C); en Choluteca y Valle, máximas de 36 °C."
+   "Los modelos fueron descartando el ingreso del primer frente frío previsto para el viernes 13; una cuña débil de alta presión y una vaguada en superficie dejan menos lluvias.",
+   "Se espera un viernes bastante seco, excepto en Olancho y el oriente, con lluvias y chubascos débiles a moderados y actividad eléctrica aislada.",
+   "Ligero descenso de temperatura: Intibucá con máxima de 22 °C y mínima de 13 °C; Copán 27/20 °C, El Paraíso 27/19 °C y La Paz 29/19 °C."
   ],
   "links": [
    {
@@ -44,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Radio HRN (11-nov)",
-    "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11"
+    "t": "Radio HRN (12-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-en-honduras-vaguada-en-superficie-y-cuna-de-alta-presion-pronostico-cenaos-2026-11-12"
    },
    {
-    "t": "Radio HRN (10-nov)",
-    "url": "https://www.radiohrn.hn/frente-frio-dejara-descenso-de-temperatura-y-mas-lluvias-en-zonas-de-honduras-2026-11-10"
+    "t": "Radio HRN (11-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-con-actividad-electrica-por-vaguada-prefrontal-en-honduras-pronostico-cenaos-2026-11-11"
    }
   ]
  },
