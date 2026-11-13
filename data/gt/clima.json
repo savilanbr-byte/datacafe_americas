@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:47:41Z",
+  "updatedAt": "2026-11-13T11:47:22Z",
   "enso": {
     "asOf": "2026-10-08",
     "facts": [
@@ -24,17 +24,17 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) siguen con lluvias por la tarde en el Norte, Occidente y la Bocacosta, aunque empiezan a disminuir: vigila secado, fruta caída y sobremadurez.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) siguen con lluvias por la tarde, y el 12-nov hubo aguaceros fuertes en Sacatepéquez y la capital: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
     "Ya se registran mínimas de 5 °C en Huehuetenango (San Pedro Necta, Todos Santos) y se esperan 3–5 °C en los altiplanos con frentes fríos: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos y Atitlán.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-12",
-    "headline": "12 de noviembre: humedad de ambos litorales, lluvias por la tarde en Occidente, Norte, Caribe y Bocacosta, y noches frías en los altiplanos",
+    "asOf": "2026-11-13",
+    "headline": "13 de noviembre: tras lluvias fuertes el 12-nov en Sacatepéquez y la capital, el viento gira al sur y sube la temperatura; noches aún frías en los altiplanos",
     "items": [
-      "Pronóstico del 12-nov (INSIVUMEH): nublados y lluvias en tarde y noche en el Caribe, Occidente, parte del Norte y la Bocacosta, con lluvias aisladas y actividad eléctrica en el Altiplano Central; descenso de temperatura nocturno en Occidente, el Altiplano Central y la Franja Transversal del Norte.",
+      "INSIVUMEH (12-nov): lluvias de tarde y noche en el Caribe, Occidente, parte del Norte y la Bocacosta, aisladas en el Altiplano Central; ese día hubo aguaceros con inundaciones en Antigua Guatemala y lodo en la Interamericana (Sacatepéquez). Para el 13-nov se espera viento del sur y más calor.",
       "INSIVUMEH (11-nov): mínimas registradas de 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; se esperan 3–5 °C en los altiplanos y dos frentes fríos en noviembre; las lluvias empiezan a disminuir.",
       "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén; 16 frentes fríos en la temporada y mínimas cercanas a 0 °C en zonas altas en diciembre; El Niño persistiría a inicios de 2027."
     ],
@@ -44,8 +44,8 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
-        "t": "Pronóstico 12-nov (Publinews)",
-        "url": "https://www.publinews.gt/noticias/2026/11/12/insivumeh-pronostica-ingreso-de-humedad-y-lluvias-para-este-jueves/"
+        "t": "Lluvias del 12-nov (Prensa Libre)",
+        "url": "https://www.prensalibre.com/guatemala/comunitario/lluvias-inesperadas-en-noviembre-dejan-calles-inundadas-lodo-y-piedras-en-carreteras-de-guatemala-breaking/"
       },
       {
         "t": "Temperaturas registradas (Prensa Latina, 11-nov)",

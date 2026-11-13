@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-12T19:47:41Z",
+  "updatedAt": "2026-11-13T11:47:22Z",
   "items": [
+    {
+      "id": "g19",
+      "scope": "gt",
+      "regiones": [
+        "antigua",
+        "fraijanes"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-12",
+      "source": "Prensa Libre · INSIVUMEH",
+      "url": "https://www.prensalibre.com/guatemala/comunitario/lluvias-inesperadas-en-noviembre-dejan-calles-inundadas-lodo-y-piedras-en-carreteras-de-guatemala-breaking/",
+      "title": "Aguaceros fuera de temporada inundan Antigua y dejan lodo en la Interamericana",
+      "summary": "El 12 de noviembre lluvias fuertes inundaron calles de Antigua Guatemala, arrastraron lodo y piedras a la Interamericana en Sacatepéquez y afectaron la capital y Villa Canales; el INSIVUMEH prevé viento del sur y más calor desde el 13-nov. Para quien compra, son días malos para secar en patio en zonas tempranas: conviene revisar humedad del pergamino."
+    },
     {
       "id": "n18",
       "scope": "mundo",
