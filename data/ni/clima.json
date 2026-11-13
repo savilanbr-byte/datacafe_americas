@@ -1,18 +1,22 @@
 {
-  "updatedAt": "2026-11-13T11:47:11Z",
+  "updatedAt": "2026-11-13T19:45:35Z",
   "enso": {
-    "asOf": "2026-10-08",
+    "asOf": "2026-11-12",
     "facts": [
       {
-        "l": "Anomalía Niño 3.4",
-        "v": "+2,1 °C"
+        "v": "+2,5 °C",
+        "l": "Anomalía Niño 3.4"
       },
       {
-        "l": "Fuerte o más hasta ene–mar 2027",
-        "v": "83%"
+        "v": ">79%",
+        "l": "Fuerte o muy fuerte hasta ene–mar 2027"
+      },
+      {
+        "v": "~60%",
+        "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
       }
     ],
-    "headline": "NOAA mantiene el aviso de El Niño: el evento se fortalece (+2,1 °C en Niño 3.4) y se espera de fuerte a muy fuerte hasta ene–mar 2027; próxima actualización el 12-nov.",
+    "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
     "source": "NOAA CPC",
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
@@ -24,7 +28,7 @@
   },
   "impactos": [
     "El INETER prevé que las lluvias bajen en el Pacífico y el Centro-Norte esta semana (chubascos aislados): mejora el secado al sol del pergamino en Jinotega y Matagalpa, que ya cosechan.",
-    "Con El Niño fuerte (NOAA, +2,1 °C), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct) crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
+    "Con El Niño fuerte a muy fuerte (NOAA, +2,5 °C en Niño 3.4 al 12-nov), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct) crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
     "Las Segovias, Madriz y Estelí cosechan más tarde; un posible frente frío a fin de semana (INETER, sin confirmar para Nicaragua) obliga a vigilar la humedad y la temperatura en altura.",
     "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
     "El Caribe Sur (robusta) sigue con lluvias: más riesgo de humedad en el secado."
