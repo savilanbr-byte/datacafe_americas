@@ -1,6 +1,43 @@
 {
-  "updatedAt": "2026-11-13T19:47:16Z",
+  "updatedAt": "2026-11-16T11:48:33Z",
   "items": [
+    {
+      "id": "n37",
+      "scope": "cr",
+      "regiones": [
+        "valle-central",
+        "valle-occidental",
+        "turrialba",
+        "zona-norte"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-16",
+      "source": "Diario Extra · IMN",
+      "url": "https://www.diarioextra.com/noticia/clima-costa-rica-semana-empezara-con-lluvias-esto-dice-el-imn/",
+      "title": "IMN: semana con poca nubosidad en el Pacífico y alisios fuertes, con lluvias en el Caribe desde mitad de semana",
+      "summary": "El IMN prevé ráfagas de 20–50 km/h en el Valle Central y de 50–80 km/h en montañas, condiciones estables en la vertiente del Pacífico y lluvias en el Caribe y la Zona Norte, sobre todo desde el miércoles. Buena semana para secar al sol en Valle Central y Occidental; en Turrialba y Zona Norte el secado seguirá lento."
+    },
+    {
+      "id": "n35",
+      "scope": "cr",
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-15",
+      "source": "La Nación · ICAFE",
+      "url": "https://www.nacion.com/economia/costa-rica-produce-la-mitad-del-cafe-que-cosechaba/XF6QPN6Z4RCZBEMOFV6UYZPCBM/story/",
+      "title": "Costa Rica cosecha la mitad del café que hace 27 años: 1,59 millones de fanegas en 2025-26",
+      "summary": "Según datos del ICAFE, la cosecha cayó 51,4 % desde 1998-99 (3,28 millones de fanegas); Turrialba (−83,9 %) y Zona Norte (−80,3 %) son las más golpeadas y Los Santos (−38,9 %) la que mejor resiste, con 35 % del área. El costo por fanega subió a ₡105.267 en 2024-25: la oferta exportable seguirá concentrada en Los Santos y el Valle Occidental y los productores necesitan precios altos para cubrir costos."
+    },
+    {
+      "id": "n36",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-14",
+      "source": "World Coffee Index",
+      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
+      "title": "Arábica cierra la semana cerca de 274 ¢/lb (−2,2 %) y los inventarios certificados suben a más de 241.000 sacos",
+      "summary": "El arábica de diciembre tocó 262,15 ¢/lb el miércoles, rebotó 4,16 % con el vencimiento de opciones y terminó la semana cerca de 274 ¢/lb; el robusta de enero quedó en unos US$3.207/t, cerca de mínimos de dos años y medio, y hay más de 100.000 sacos en espera de clasificación en ICE. Más inventario certificado resta presión alcista al contrato de diciembre, cuyo primer aviso es el 19 de noviembre."
+    },
     {
       "id": "n34",
       "scope": "mundo",
@@ -38,35 +75,6 @@
       "url": "https://www.admis.com/brazil-coffee-exports-jump-23/",
       "title": "Brasil exporta 4,79 millones de sacos en octubre (+23 %) y suben los inventarios certificados de arábica",
       "summary": "Brasil embarcó 287.348 t de café verde en octubre, 23 % más que un año antes; los inventarios certificados de arábica en ICE subieron a 232.456 sacos, máximo desde el 22 de octubre, con 62.849 sacos brasileños en espera de clasificación. Más oferta brasileña en bodegas de ICE resta soporte al diferencial de los lavados centroamericanos."
-    },
-    {
-      "id": "n31",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "StoneX",
-      "url": "https://stonex.com/en-us/insights/daily-coffee-report-11-9-26",
-      "title": "El arábica de diciembre cae 6,40 centavos a 273,60 ¢/lb; robusta casi estable",
-      "summary": "El contrato de diciembre del arábica cerró el 9 de noviembre en 273,60 ¢/lb (−6,40) y el robusta de enero en US$3.267/t (−3); las opciones de diciembre vencen el 12 de noviembre. Con la bolsa cerca de 270 ¢/lb, el precio base de NY queda muy por debajo de los US$331 por 46 kg que el ICAFE usó para la cosecha 2025-26."
-    },
-    {
-      "id": "n25",
-      "scope": "cr",
-      "regiones": [
-        "valle-central",
-        "valle-occidental",
-        "los-santos",
-        "perez-zeledon",
-        "coto-brus",
-        "turrialba",
-        "zona-norte"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-08",
-      "source": "Monumental · IMN",
-      "url": "https://www.monumental.co.cr/2026/11/08/semana-inicia-con-menos-lluvias-y-aumento-en-la-intensidad-de-los-vientos-alisios/",
-      "title": "Semana arranca con menos lluvia: un sistema de baja presión se aleja y los alisios se intensifican",
-      "summary": "Según el IMN, la lluvia baja de forma gradual y en el Caribe y el Pacífico Norte y Sur se concentra en zonas montañosas. Mejora la ventana de secado para el café recién cosechado, aunque en el Pacífico Sur aún pueden darse aguaceros."
     },
     {
       "id": "n21",
@@ -120,17 +128,6 @@
       "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
       "title": "El ICAFE prevé una cosecha 10–15 % menor a lo estimado por El Niño y el Banco Central recorta el agro",
       "summary": "Según el subdirector del ICAFE, Miguel Barquero, las lluvias irregulares atrasaron unos 30 días la fertilización y afectan peso y calidad del café oro; el BCCR bajó su proyección agropecuaria a 0,7 % en 2026 y −0,5 % en 2027. Espera menos volumen exportable que lo anunciado en agosto (+16,7 %) y revisa rendimientos y granulometría antes de cerrar contratos."
-    },
-    {
-      "id": "n20",
-      "scope": "cr",
-      "regiones": [],
-      "tag": "Eventos",
-      "date": "2026-11-02",
-      "source": "la fatfluencer",
-      "url": "https://lafatfluencer.com/2026/11/02/sintercafe-2026-costa-rica-semana-internacional-cafe/",
-      "title": "SINTERCAFE 2026 reunirá del 11 al 14 de noviembre a unos 500 profesionales del café",
-      "summary": "El encuentro, en el Marriott Los Sueños, tratará volatilidad de precios, China, Brasil y Honduras, y el papel de los recolectores, con analistas de Rabobank, Macquarie y StoneX. Es una ocasión para contactar exportadores y medir expectativas de la cosecha 2026-27."
     }
   ]
 }
