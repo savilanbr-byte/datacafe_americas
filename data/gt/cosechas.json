@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:46:59Z",
+  "updatedAt": "2026-11-16T11:49:02Z",
   "temporada": "2026-27",
   "fuente": "1Zpresso (Anacafé)",
   "url": "https://1zpresso.coffee/guatemalan-coffee-guide/",
@@ -172,6 +172,15 @@
       "texto": "Sucafina proyecta que la cosecha de Centroamérica y México caiga 9,3 % en 2026-27, con Guatemala bajando menos que Honduras y México.",
       "fuente": "Infobae",
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
+    },
+    {
+      "id": "g6",
+      "fecha": "2026-11-03",
+      "region": "Guatemala",
+      "tipo": "noticia",
+      "texto": "INSIVUMEH: déficit de lluvia de 29 % en el Pacífico y el Altiplano Central y de 17 % en Occidente; los mayores faltantes en Chiquimula, Santa Rosa, Jutiapa y Sololá.",
+      "fuente": "IberoNews",
+      "url": "https://iberonewsla.com/exportaciones-cafe-guatemala-record-proyeccion-2027/"
     }
   ]
 }

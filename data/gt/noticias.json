@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-13T19:47:06Z",
+  "updatedAt": "2026-11-16T11:49:02Z",
   "items": [
+    {
+      "id": "g20",
+      "scope": "gt",
+      "regiones": [
+        "coban",
+        "san-marcos",
+        "huehuetenango",
+        "acatenango",
+        "antigua"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-15",
+      "source": "Publinews · INSIVUMEH",
+      "url": "https://www.publinews.gt/noticias/2026/11/16/prepara-el-abrigo-insivumeh-pronostica-viento-norte-y-ambiente-frio-para-este-lunes-16/",
+      "title": "INSIVUMEH: viento norte, lloviznas por la tarde y noches frías para el 16 de noviembre",
+      "summary": "Para el lunes 16-nov el INSIVUMEH prevé lloviznas por la tarde y noche en el Norte, Caribe, Occidente y parte de la Bocacosta, viento norte en el Altiplano Central y Valles de Oriente, y ambiente frío de noche en la Franja Transversal del Norte, Occidente y el Altiplano. En Cobán y San Marcos, que ya cosechan, la llovizna de la tarde sigue complicando el secado."
+    },
+    {
+      "id": "n20",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-13",
+      "source": "Perfect Daily Grind · Safras & Mercado",
+      "url": "https://perfectdailygrind.com/es/2026/11/13/noticias-de-cafe-futuros-arabica-caen/",
+      "title": "Arábica rebota más de 4 % y debuta el contrato de ICE en toneladas",
+      "summary": "Tras tocar un mínimo de seis semanas, el arábica para diciembre subió 4,16 % y el de marzo 3,74 % (Safras); en ICE se negociaron los primeros 48 lotes del nuevo contrato de arábica en toneladas (septiembre 2028, US$5.724–5.737/t), mientras el contrato C se retira con marzo de 2028 como último vencimiento. Sucafina ve la cosecha de Centroamérica y México 9,3 % más baja en 2026-27."
+    },
     {
       "id": "g19",
       "scope": "gt",
@@ -24,6 +51,16 @@
       "url": "https://brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
       "title": "Arábica toca mínimo de seis semanas y suben los inventarios certificados de ICE",
       "summary": "El 12-nov el arábica cayó 1,2 % a US$2,627 por libra (mínimo de seis semanas) ante la expectativa de una gran oferta de Brasil; los inventarios certificados de ICE superaron 241.000 sacos, máximo desde mediados de octubre, y la robusta bajó 0,6 % a US$3.233/t. Un mercado más flojo presiona los diferenciales que piden los exportadores guatemaltecos."
+    },
+    {
+      "id": "n19",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-12",
+      "source": "Cecafé · Comunicaffe",
+      "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
+      "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
+      "summary": "Según Cecafé, Brasil exportó 5,33 M de sacos en octubre de 2026 (+28,4 %), con 4,12 M de arábica (+21,6 %); de enero a octubre suma 34,48 M (+3,5 %), aún 7,3 M por debajo de 2024. La llegada de la nueva cosecha brasileña presiona la Bolsa de NY y los diferenciales centroamericanos."
     },
     {
       "id": "n17",
@@ -124,21 +161,19 @@
       "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
     },
     {
-      "id": "g12",
+      "id": "g21",
       "scope": "gt",
       "regiones": [
-        "huehuetenango",
-        "san-marcos",
-        "atitlan",
-        "antigua",
-        "acatenango"
+        "nuevo-oriente",
+        "fraijanes",
+        "atitlan"
       ],
       "tag": "Clima",
-      "date": "2026-11-01",
-      "source": "Canal Antigua · INSIVUMEH",
-      "url": "https://canalantigua.tv/2026/11/01/noviembre-tendra-lluvias-por-encima-de-valores-habituales-y-dos-frentes-frios/",
-      "title": "INSIVUMEH: noviembre con lluvias sobre lo normal y dos frentes fríos",
-      "summary": "Las lluvias superarían lo habitual, más en Caribe, Bocacosta y Petén (220–600 mm), con mínimas de 7–17 °C en Occidente y Altiplano Central. La humedad dificulta el secado y el transporte en la cosecha temprana; el frío afecta las zonas altas."
+      "date": "2026-11-03",
+      "source": "IberoNews · Anacafé · INSIVUMEH",
+      "url": "https://iberonewsla.com/exportaciones-cafe-guatemala-record-proyeccion-2027/",
+      "title": "Déficit de lluvia de hasta 29 % golpeó más a Chiquimula, Santa Rosa, Jutiapa y Sololá",
+      "summary": "El INSIVUMEH reportó déficits de lluvia de 29 % en el Pacífico y el Altiplano Central y de 17 % en Occidente, con los mayores faltantes en Chiquimula, Santa Rosa, Jutiapa y Sololá, y mantiene 100 % de probabilidad de El Niño hasta abril de 2027; por eso Anacafé bajó la exportación esperada de 2026-27 a 3,8 M de quintales (previsión, no caída confirmada). Para el comprador: revisar tamaño de grano y rendimiento en Nuevo Oriente, Fraijanes y Atitlán."
     }
   ]
 }
