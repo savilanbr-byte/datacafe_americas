@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-11-16T11:55:00Z",
+  "updatedAt": "2026-11-16T19:47:32Z",
   "items": [
+    {
+      "id": "b45",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-16",
+      "source": "Metrópoles",
+      "url": "https://metropoles.com/brasil/dolar-nesta-segunda-16-11",
+      "title": "El dólar se dispara hasta R$5,79, su nivel más alto en 19 meses",
+      "summary": "El lunes 16 el dólar abrió en R$5,68 y subió más de 2,4 % durante la tarde por las dudas sobre el ajuste fiscal de 2027 (el Senado vota cambios el 17-nov) y por los tipos altos en EE. UU.; la PTAX quedó en R$5,7324. Un real más débil sostiene los precios internos en reales y abarata el café brasileño para quien compra en dólares."
+    },
+    {
+      "id": "b46",
+      "scope": "br",
+      "regiones": [
+        "conilon-es"
+      ],
+      "tag": "Regulación",
+      "date": "2026-11-16",
+      "source": "Reuters (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/nestle-brazil-coffee-supplier-faces-hearing-over-labor-abuse-claims--ce785edfda8ff624",
+      "title": "Cooabriel, gran cooperativa de conilon y proveedora de Nestlé, va a audiencia por trabajo análogo a la esclavitud",
+      "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
+    },
     {
       "id": "n32",
       "scope": "mundo",
@@ -10,17 +34,6 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-recua-em-nova-york-apos-alta-de-4-16-estoques-e-oferta-brasileira-mantem-volatilidade",
       "title": "El arábica cede en Nueva York tras el rebote de 4 %; los inventarios certificados siguen subiendo",
       "summary": "El viernes por la mañana el contrato de diciembre caía 0,55 % a 278,65 ¢/lb después de cerrar el jueves en 280,20 ¢ (+4,16 %). Los inventarios certificados de arábica en la ICE llegaron a 250.241 sacas el 11-nov (máximo desde mediados de octubre) y hay 113.038 sacas esperando clasificación, la mayor cifra en ocho meses: más café brasileño entrando a la bolsa limita las subidas."
-    },
-    {
-      "id": "b42",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-13",
-      "source": "Reuters (Investing.com)",
-      "url": "https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-011-a-r56567-na-venda-2127030",
-      "title": "El dólar cierra la semana en R$5,6567 con alta de 2,63 %",
-      "summary": "Tras saltar 1,58 % el jueves, el dólar subió 0,11 % el viernes 13 y acumuló 2,63 % en la semana, en su nivel más alto desde junio de 2025, por las dudas sobre el paquete fiscal de 2027 y la inflación de EE. UU. Un real más débil anima las ventas del productor y abarata el café brasileño en dólares."
     },
     {
       "id": "b43",
@@ -189,20 +202,6 @@
       "summary": "Climatempo prevé lluvia en Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves caerían localmente más de 100 mm en el sur de Bahia y el norte del ES, buena señal para el cuajado (pegamento) de la safra 2027."
     },
     {
-      "id": "b35",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-09",
-      "source": "Daily Coffee News",
-      "url": "https://dailycoffeenews.com/2026/11/09/brazil-study-field-tests-the-economics-of-regenerative-coffee/",
-      "title": "Estudio en siete fincas de Minas mide la economía del café regenerativo",
-      "summary": "GCP Brasil, con apoyo de JDE Peet's, Cooxupé y Emater-MG, halló costos operativos de R$488 a R$746 por saca y 45 sacas por hectárea en parcelas regenerativas del Sul de Minas y el Cerrado Mineiro, frente a 30,4 sacas de promedio nacional. La muestra es pequeña y no prueba causalidad, pero sirve para programas de compra sostenible."
-    },
-    {
       "id": "b22",
       "scope": "br",
       "regiones": [
@@ -219,20 +218,6 @@
       "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
       "title": "CEPEA: la safra 2027/28 arranca bien, pero el calor y El Niño inquietan",
       "summary": "El cuajado (pegamento) es bueno en Mogiana, noroeste de Paraná y Sul de Minas; en el Cerrado Mineiro se confirmará hacia diciembre y en Rondônia casi un mes seco trajo broca temprana. Se espera una cosecha grande pero no récord en un año de baja bienal."
-    },
-    {
-      "id": "b25",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "conilon-es"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-06",
-      "source": "Portal do Agronegócio · Safras & Mercado",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-5-7-em-nova-york-dolar-sustenta-precos-no-brasil",
-      "title": "Safras: el arábica cae 5,7 % en Nueva York en la semana, pero el dólar sostiene los precios en Brasil",
-      "summary": "El contrato marzo/27 bajó de 285,45 a 269,25 ¢/lb entre el 29-oct y el 5-nov, mientras el arábica bebida buena del Sul de Minas siguió en R$1.650 por saca y el conilon tipo 7 en Vitória subió de R$960 a R$975. Los productores dosifican los lotes y las exportaciones de octubre podrían superar 5 M de sacas."
     }
   ]
 }
