@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-11-13T19:45:35Z",
+  "updatedAt": "2026-11-16T11:45:35Z",
   "items": [
-    {
-      "id": "ni13",
-      "scope": "ni",
-      "regiones": [
-        "jinotega",
-        "nueva-segovia"
-      ],
-      "tag": "Producción",
-      "date": "2026-10-15",
-      "source": "El Diario Nica",
-      "url": "https://eldiarionica.com/2026/10/15/cooperativa-proyecta-exportar-20-mil-quintales-de-cafe/",
-      "title": "Soppexca arranca el corte en La Dalia, El Cuá y Rancho Grande",
-      "summary": "La Unión de Cooperativas Soppexca (Jinotega, unos 300 socios) proyecta exportar 20.000 quintales oro a EE. UU. y Europa; empezó a recolectar en las zonas bajas y se prepara en San Fernando (Nueva Segovia). Señal de que los primeros lotes ya están disponibles."
-    },
-    {
-      "id": "ni1",
-      "scope": "ni",
-      "regiones": [
-        "jinotega"
-      ],
-      "tag": "Producción",
-      "date": "2026-10-24",
-      "source": "Prensa Latina",
-      "url": "https://www.prensa-latina.cu/2026/10/24/nicaragua-proyecta-superar-record-de-exportacion-de-cafe-en-2026/",
-      "title": "Nicaragua proyecta superar el récord de exportación de café en 2026",
-      "summary": "El BCN reporta US$691 M exportados a septiembre de 2026 (año calendario) y proyecta un promedio de US$294 por quintal; la cosecha 2026-27 superaría los 66 M de latas de uva (≈ 3 M de quintales oro). El récord a batir es el de 2025: US$918,4 M."
-    },
     {
       "id": "ni5",
       "scope": "ni",
@@ -96,6 +69,21 @@
       "summary": "Según Eduardo Escobar (Conatradec), el precio promedio pasó de US$272 por quintal en el ciclo anterior a US$294 en 2026, y las exportaciones superaron US$700 M a septiembre (el BCN reportó US$691 M); esperan cerrar 2026 (año calendario) en US$900 M o más. El BCN presenta los US$294 como proyección del ciclo 2026-27, así que la cifra aún no es un promedio cerrado."
     },
     {
+      "id": "ni22",
+      "scope": "ni",
+      "regiones": [
+        "nueva-segovia",
+        "madriz",
+        "esteli"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-07",
+      "source": "Canal 4",
+      "url": "https://www.canal4.com.ni/zonas-cafetaleras-de-esteli-madriz-y-nueva-segovia-bajo-resguardo-del-ejercito-de-nicaragua/",
+      "title": "Las Segovias proyectan más de 585.000 quintales en la cosecha 2026-27",
+      "summary": "Al lanzar el plan de seguridad en Estelí, Madriz y Nueva Segovia, el Ejército citó una proyección de más de 585.000 quintales en más de 57.000 manzanas y con más de 4.000 productores. Es la zona de cosecha más tardía (diciembre a marzo): ahí estará la oferta de cafés de altura."
+    },
+    {
       "id": "ni15",
       "scope": "ni",
       "regiones": [],
@@ -140,6 +128,16 @@
       "summary": "El EUDR se aplica a la mayoría de empresas desde el 30 de diciembre de 2026 (las pequeñas, en 2027); Europa consume cerca del 24 % del café mundial. Para lotes de Nicaragua con destino a la UE, la geolocalización y trazabilidad de fincas pasa a ser requisito de compra."
     },
     {
+      "id": "n24",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-11",
+      "source": "Tea & Coffee Trade Journal (OIC)",
+      "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
+      "title": "OIC: el arábica de NY sube 1,6 % en octubre y los inventarios certificados tocan mínimos desde 2002",
+      "summary": "El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); el arábica de NY promedió 285,10 ¢/lb (+1,6 %) y el robusta de Londres 152,56 ¢/lb (−1,1 %). Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacos, el nivel más bajo a fin de mes desde enero de 2002; los Otros Suaves (grupo de Nicaragua) promediaron 334,99 ¢/lb."
+    },
+    {
       "id": "n21",
       "scope": "mundo",
       "tag": "Mercado",
@@ -148,6 +146,16 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
       "title": "El arábica rebota 4,2 % desde mínimos de casi 5 meses por inventarios ICE ajustados",
       "summary": "El arábica de diciembre cerró +11,20 ¢/lb (+4,16 %) el 12 de noviembre, tras tocar mínimos intradía, con inventarios certificados en 228.586 sacos, cerca del mínimo de 27 años; el robusta de enero bajó 1,2 %. Brasil exportó 287.000 t en octubre (+23 %), Conab subió su cosecha 2026 a 67,6 M de sacos y el real tocó mínimo de 17 meses; Vietnam exportó 114.000 t en octubre (+61 %). Bolsa muy volátil para fijar precio de café nicaragüense."
+    },
+    {
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-12",
+      "source": "Comunicaffe (Cecafé)",
+      "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
+      "title": "Brasil exporta un récord mensual de 5,3 M de sacos en octubre",
+      "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre de 2026 (+28,4 %), el mayor volumen mensual desde 1990; el robusta casi se duplicó (897.081 sacos). La llegada de café brasileño presiona los precios de NY en plena cosecha centroamericana."
     }
   ]
 }

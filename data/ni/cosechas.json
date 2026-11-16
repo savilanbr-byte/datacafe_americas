@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:45:57Z",
+  "updatedAt": "2026-11-16T11:45:35Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -145,6 +145,15 @@
       "texto": "Soppexca empezó el corte en La Dalia, El Cuá y Rancho Grande y proyecta 20.000 quintales oro.",
       "fuente": "El Diario Nica",
       "url": "https://eldiarionica.com/2026/10/15/cooperativa-proyecta-exportar-20-mil-quintales-de-cafe/"
+    },
+    {
+      "id": "n6",
+      "fecha": "2026-11-07",
+      "region": "nueva-segovia",
+      "tipo": "noticia",
+      "texto": "Estelí, Madriz y Nueva Segovia proyectan más de 585.000 quintales en la cosecha 2026-27, en más de 57.000 manzanas y con más de 4.000 productores.",
+      "fuente": "Canal 4",
+      "url": "https://www.canal4.com.ni/zonas-cafetaleras-de-esteli-madriz-y-nueva-segovia-bajo-resguardo-del-ejercito-de-nicaragua/"
     }
   ]
 }
