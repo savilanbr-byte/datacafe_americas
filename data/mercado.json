@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-13",
+    "asOf": "2026-11-16",
     "base": "USD",
     "rates": {
-      "BRL": 5.610238,
-      "COP": 3288.648844,
-      "MXN": 18.620415,
-      "GTQ": 7.666133,
-      "HNL": 26.987182,
-      "NIO": 36.94012,
-      "CRC": 453.237093,
-      "VES": 911.6243,
-      "PEN": 3.41062,
-      "BOB": 11.822815
+      "BRL": 5.663557,
+      "COP": 3316.635822,
+      "MXN": 18.544914,
+      "GTQ": 7.652174,
+      "HNL": 26.923049,
+      "NIO": 36.840046,
+      "CRC": 449.715073,
+      "VES": 914.0218,
+      "PEN": 3.409303,
+      "BOB": 11.69897
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -203,16 +203,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-13",
-      "change": 9.0,
-      "changePct": 0.28,
+      "asOf": "2026-11-16",
+      "change": -28.0,
+      "changePct": -0.87,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3201.0
+      "value": 3173.0,
+      "note": "Intradía 16-nov; cierre previo 3.201"
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -264,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-13T19:48:09Z"
+  "updatedAt": "2026-11-16T12:05:00Z"
 }
