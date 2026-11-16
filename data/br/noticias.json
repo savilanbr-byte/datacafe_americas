@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:47:04Z",
+  "updatedAt": "2026-11-16T11:55:00Z",
   "items": [
     {
       "id": "n32",
@@ -10,6 +10,63 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-recua-em-nova-york-apos-alta-de-4-16-estoques-e-oferta-brasileira-mantem-volatilidade",
       "title": "El arábica cede en Nueva York tras el rebote de 4 %; los inventarios certificados siguen subiendo",
       "summary": "El viernes por la mañana el contrato de diciembre caía 0,55 % a 278,65 ¢/lb después de cerrar el jueves en 280,20 ¢ (+4,16 %). Los inventarios certificados de arábica en la ICE llegaron a 250.241 sacas el 11-nov (máximo desde mediados de octubre) y hay 113.038 sacas esperando clasificación, la mayor cifra en ocho meses: más café brasileño entrando a la bolsa limita las subidas."
+    },
+    {
+      "id": "b42",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-13",
+      "source": "Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-011-a-r56567-na-venda-2127030",
+      "title": "El dólar cierra la semana en R$5,6567 con alta de 2,63 %",
+      "summary": "Tras saltar 1,58 % el jueves, el dólar subió 0,11 % el viernes 13 y acumuló 2,63 % en la semana, en su nivel más alto desde junio de 2025, por las dudas sobre el paquete fiscal de 2027 y la inflación de EE. UU. Un real más débil anima las ventas del productor y abarata el café brasileño en dólares."
+    },
+    {
+      "id": "b43",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-13",
+      "source": "Safras & Mercado",
+      "url": "https://safras.com.br/brasil-deve-encerrar-semana-com-precos-mais-altos-para-o-cafe",
+      "title": "El físico brasileño cierra la semana con alza del arábica y más negocios",
+      "summary": "Con Nueva York y el dólar al alza, el arábica bebida boa del Sul de Minas pasó a R$1.730–1.735 la saca (desde R$1.660–1.665) y el bebida dura del Cerrado a R$1.740–1.745; el conilon de Vitória quedó estable en R$970–975. Los productores aprovecharon el repunte para vender más: buen momento para cerrar lotes con oferta disponible."
+    },
+    {
+      "id": "b44",
+      "scope": "br",
+      "regiones": [
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "sul-de-minas",
+        "conilon-es",
+        "montanhas-es",
+        "planalto-bahia",
+        "oeste-bahia",
+        "bahia-atlantico",
+        "mogiana"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-13",
+      "source": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-14-domingo-15-e-segunda-feira-16",
+      "title": "INMET: tormentas y lluvia fuerte en el Sudeste y Bahia del 14 al 16-nov",
+      "summary": "Aviso amarelo de tormentas el fin de semana; el lunes 16, lluvia fuerte en el Triângulo Mineiro, norte y este de Minas, Espírito Santo, oeste de São Paulo y gran parte de Bahia, con calor de hasta 32 °C. El agua llega en pleno cuajado (pegamento) de la safra 2027-28, aunque con riesgo puntual de granizo."
+    },
+    {
+      "id": "n33",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-13",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
+      "title": "Vietnam: la cosecha de robusta avanza lenta y los precios se estabilizan",
+      "summary": "En las Tierras Altas Centrales el robusta se paga 83.200–83.800 dong/kg (US$3,24–3,26), casi igual que la semana anterior; los volúmenes grandes no llegarían hasta diciembre. El robusta de enero cerró en US$3.245/t y el grado 2 se ofrece con primas de US$40–50 sobre el contrato."
     },
     {
       "id": "n30",
@@ -31,17 +88,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html",
       "title": "Campo Futuro: el caficultor cierra 2026 con márgenes estrechos y 2027 podría ser peor",
       "summary": "De 14 fincas modelo, solo 8 cubren el costo total; el arábica semimecanizado gana apenas R$33 por saca (costo R$1.321 vs precio R$1.354) y el conilon vende a R$932, por debajo de su costo total de R$1.059. Con 10 % menos de precio en 2027 solo 3 modelos serían rentables, lo que puede frenar las ventas a precios bajos."
-    },
-    {
-      "id": "b41",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-12",
-      "source": "SBT News",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-fecha-no-maior-valor-em-17-meses-a-r-5-65",
-      "title": "El dólar sube 1,58 % a R$5,6507, su cierre más alto en 17 meses",
-      "summary": "El mercado consideró insuficiente el paquete de ajuste fiscal (impacto estimado de R$43.000 a 54.000 M en 2027) y el dólar se fortaleció en el mundo por los rendimientos del Tesoro de EE. UU. Un real más débil sostiene los precios internos en reales y puede mejorar los diferenciales FOB para el comprador en dólares."
     },
     {
       "id": "b37",
@@ -187,26 +233,6 @@
       "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-5-7-em-nova-york-dolar-sustenta-precos-no-brasil",
       "title": "Safras: el arábica cae 5,7 % en Nueva York en la semana, pero el dólar sostiene los precios en Brasil",
       "summary": "El contrato marzo/27 bajó de 285,45 a 269,25 ¢/lb entre el 29-oct y el 5-nov, mientras el arábica bebida buena del Sul de Minas siguió en R$1.650 por saca y el conilon tipo 7 en Vitória subió de R$960 a R$975. Los productores dosifican los lotes y las exportaciones de octubre podrían superar 5 M de sacas."
-    },
-    {
-      "id": "n23",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-05",
-      "source": "Notícias Agrícolas (Reuters)",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430894-precos-de-cafe-no-vietna-caem-ainda-mais-com-nova-safra.html",
-      "title": "Vietnam: el robusta local cae con la nueva cosecha; octubre exportó 114.000 t",
-      "summary": "En el Altiplano Central el robusta se ofrece a 83.000–84.000 dong/kg (88.000–89.000 la semana previa); las exportaciones de octubre subieron 60,6 % y el acumulado enero–octubre, 18,8 %. Más oferta vietnamita presiona el robusta y el conilon."
-    },
-    {
-      "id": "n22",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-04",
-      "source": "Notícias Agrícolas · Reuters",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html",
-      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026/27",
-      "summary": "La producción quedaría bajo 18 millones de sacas por anomalías climáticas, el año bajo del ciclo bienal y falta de lluvia; Honduras y México caen más. Menos oferta de lavados centroamericanos refuerza el papel de Brasil como proveedor."
     }
   ]
 }

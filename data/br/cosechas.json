@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:55:00Z",
+  "updatedAt": "2026-11-16T11:55:00Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -140,11 +140,11 @@
   "estado": {
     "sul-de-minas": {
       "ajusteSemanas": 0,
-      "volumen": null,
-      "resumen": "Lluvias tempranas adelantaron una florada abundante para la cosecha 2027; falta confirmar el cuajado (pegamento).",
-      "fecha": "2026-10-02",
-      "fuente": "O Tempo",
-      "url": "https://www.otempo.com.br/agro/2026/10/2/chuvas-antecipam-florada-do-cafe-e-elevam-expectativa-para-safra-2027"
+      "volumen": "bajo",
+      "resumen": "Cooxupé estima una pérdida inicial de 10 % del potencial de la safra 2027 (año de baja del ciclo bienal) por El Niño; floradas muy desparejas y calidad en riesgo.",
+      "fecha": "2026-11-11",
+      "fuente": "Cooxupé · Agência Safras",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
     },
     "cerrado-mineiro": {
       "ajusteSemanas": 0,
@@ -156,11 +156,11 @@
     },
     "mogiana": {
       "ajusteSemanas": 0,
-      "volumen": null,
-      "resumen": "Preocupa que el calor persistente y El Niño tumben flores y frutos recién formados (chumbinhos).",
-      "fecha": "2026-10-22",
-      "fuente": "Itatiaia",
-      "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+      "volumen": "bajo",
+      "resumen": "Cooxupé (zona que incluye la Alta Mogiana) estima una pérdida inicial de 10 % del potencial 2027; el calor amenaza flores y frutos recién formados (chumbinhos).",
+      "fecha": "2026-11-11",
+      "fuente": "Cooxupé · Agência Safras",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
     },
     "rondonia": {
       "ajusteSemanas": 0,
@@ -181,40 +181,31 @@
   },
   "reportes": [
     {
-      "id": "b1",
-      "fecha": "2026-10-22",
+      "id": "b10",
+      "fecha": "2026-11-13",
       "region": "Brasil",
       "tipo": "noticia",
-      "texto": "CEPEA: las floradas de la cosecha 2027-28 salieron como se esperaba y el cuajado inicial es bueno, pero el calor intenso y El Niño mantienen el riesgo de aborto de frutos.",
-      "fuente": "Itatiaia",
-      "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+      "texto": "INMET: aviso amarelo de tormentas del 14 al 16-nov, con lluvia fuerte en el Triângulo Mineiro, norte y este de Minas, Espírito Santo, oeste de São Paulo y Bahia durante el cuajado.",
+      "fuente": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-14-domingo-15-e-segunda-feira-16"
     },
     {
-      "id": "b2",
-      "fecha": "2026-09-24",
-      "region": "Brasil",
+      "id": "b8",
+      "fecha": "2026-11-11",
+      "region": "sul-de-minas",
       "tipo": "noticia",
-      "texto": "Conab: cosecha 2026 récord de 67,6 M de sacas (arábica 48,2 M, +34,8 %; conilon 19,4 M, −6,6 %).",
-      "fuente": "Conab",
-      "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf"
+      "texto": "Cooxupé estima de entrada una pérdida de 10 % del potencial de la safra 2027 en su zona (Sul de Minas, Alta Mogiana y Cerrado) por El Niño, con floradas muy desparejas.",
+      "fuente": "Agência Safras · Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
     },
     {
-      "id": "b3",
-      "fecha": "2026-10-19",
-      "region": "Brasil",
+      "id": "b9",
+      "fecha": "2026-11-10",
+      "region": "conilon-es",
       "tipo": "noticia",
-      "texto": "Hedgepoint ve un buen arranque de la safra 2027/28 con florada fuerte y lluvias abundantes en octubre, pero avisa de olas de calor en el 4.º trimestre y que el conilon de ES y Bahia es más vulnerable al El Niño.",
-      "fuente": "Globo Rural · Extra de Rondônia",
-      "url": "https://extraderondonia.com.br/2026/10/19/safra-de-cafe-2027-28-tem-bom-desenvolvimento-mas-el-nino-ainda-gera-riscos/"
-    },
-    {
-      "id": "b4",
-      "fecha": "2026-10-30",
-      "region": "Brasil",
-      "tipo": "noticia",
-      "texto": "El INMET prevé para noviembre lluvias reducidas en Minas y Espírito Santo y hasta +2 °C en el Sudeste, mes clave del cuajado de la safra 2027.",
-      "fuente": "Correio Braziliense · INMET",
-      "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
+      "texto": "Climatempo: semana con más de 100 mm localmente en el norte del Espírito Santo y el sur de Bahia, favorable al conilon de la safra 2027.",
+      "fuente": "Notícias Agrícolas · Climatempo",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html"
     },
     {
       "id": "b5",
@@ -242,6 +233,42 @@
       "texto": "Hedgepoint: las lluvias sobre el promedio de septiembre y octubre apoyaron la floración 2027/28; el arábica bajaría por el ciclo bienal y el conilon podría crecer, con El Niño como riesgo en el primer trimestre de 2027.",
       "fuente": "Notícias Agrícolas",
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html"
+    },
+    {
+      "id": "b4",
+      "fecha": "2026-10-30",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "El INMET prevé para noviembre lluvias reducidas en Minas y Espírito Santo y hasta +2 °C en el Sudeste, mes clave del cuajado de la safra 2027.",
+      "fuente": "Correio Braziliense · INMET",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7530723-novembro-tera-calor-e-chuvas-intensas-no-brasil-veja-previsao.html"
+    },
+    {
+      "id": "b1",
+      "fecha": "2026-10-22",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "CEPEA: las floradas de la cosecha 2027-28 salieron como se esperaba y el cuajado inicial es bueno, pero el calor intenso y El Niño mantienen el riesgo de aborto de frutos.",
+      "fuente": "Itatiaia",
+      "url": "https://www.itatiaia.com.br/agro/florada-do-cafe-comeca-bem-mas-calor-e-el-nino-acendem-alerta-para-a-safra-aponta-cepea/"
+    },
+    {
+      "id": "b3",
+      "fecha": "2026-10-19",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "Hedgepoint ve un buen arranque de la safra 2027/28 con florada fuerte y lluvias abundantes en octubre, pero avisa de olas de calor en el 4.º trimestre y que el conilon de ES y Bahia es más vulnerable al El Niño.",
+      "fuente": "Globo Rural · Extra de Rondônia",
+      "url": "https://extraderondonia.com.br/2026/10/19/safra-de-cafe-2027-28-tem-bom-desenvolvimento-mas-el-nino-ainda-gera-riscos/"
+    },
+    {
+      "id": "b2",
+      "fecha": "2026-09-24",
+      "region": "Brasil",
+      "tipo": "noticia",
+      "texto": "Conab: cosecha 2026 récord de 67,6 M de sacas (arábica 48,2 M, +34,8 %; conilon 19,4 M, −6,6 %).",
+      "fuente": "Conab",
+      "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf"
     }
   ]
 }
