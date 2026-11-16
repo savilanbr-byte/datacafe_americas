@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:55:00Z",
+  "updatedAt": "2026-11-16T11:48:52Z",
   "temporada": "2026",
   "fuente": "Gestión · Agraria",
   "url": "https://gestion.pe/economia/cafe-se-tomaria-frio-exportaciones-peruanas-se-alejarian-de-un-record-en-2026-noticia/",
@@ -208,6 +208,24 @@
     }
   },
   "reportes": [
+    {
+      "id": "p6",
+      "fecha": "2026-11-14",
+      "region": "san-martin",
+      "tipo": "noticia",
+      "texto": "En Ficafé, diez organizaciones de San Martín vendieron S/ 46.615 y negocian cinco contenedores (más de US$ 746 mil); la cosecha de la cooperativa CAFCER va de febrero a abril.",
+      "fuente": "Diario Voces",
+      "url": "https://diariovoces.com.pe/cafes-de-san-martin-despiertan-interes-de-compradores-de-25-paises-y-generan-negocios-por-miles-de-dolares/"
+    },
+    {
+      "id": "p5",
+      "fecha": "2026-11-12",
+      "region": "cajamarca",
+      "tipo": "noticia",
+      "texto": "Un gremio de Cajamarca estima que lluvias intensas y roya podrían afectar hasta 60 % de los cafetales de la región para la campaña 2027 (estimación no oficial).",
+      "fuente": "RCR Perú",
+      "url": "https://www.rcrperu.com/fenomeno-de-el-nino-va-a-afectar-los-campos-de-cultivo-de-400-mil-familias-dedicadas-a-la-agricultura-familiar-en-cajamarca/"
+    },
     {
       "id": "p3",
       "fecha": "2026-10-30",

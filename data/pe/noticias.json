@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-11-13T19:47:06Z",
+  "updatedAt": "2026-11-16T11:48:52Z",
   "items": [
+    {
+      "id": "p31",
+      "scope": "pe",
+      "regiones": [
+        "san-martin"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-14",
+      "source": "Diario Voces",
+      "url": "https://diariovoces.com.pe/cafes-de-san-martin-despiertan-interes-de-compradores-de-25-paises-y-generan-negocios-por-miles-de-dolares/",
+      "title": "Cafés de San Martín cierran S/ 46.615 en ventas en Ficafé y negocian cinco contenedores",
+      "summary": "Diez organizaciones de San Martín vendieron S/ 46.615 en la feria de Cusco y evalúan la venta de cinco contenedores por más de US$ 746 mil (cifra referencial), liderada por la cooperativa CAFCER, cuya cosecha va de febrero a abril. Hay oferta de San Martín abierta a contratos para la campaña 2027."
+    },
+    {
+      "id": "p32",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "junin",
+        "pasco",
+        "cusco",
+        "puno",
+        "ayacucho",
+        "san-martin"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-14",
+      "source": "DSN · SENAMHI",
+      "url": "https://dsn.pe/clima-en-peru-hoy-14-de-noviembre-senamhi-activa-alerta-roja-por-lluvias-de-hasta-80-mm-y-calor-de-37-c/",
+      "title": "SENAMHI: lluvias en la sierra hasta el 17 de noviembre y calor de hasta 37 °C en la selva",
+      "summary": "El aviso rojo 464 (hasta el 14-nov) previó 5–26 mm diarios en la sierra norte y unos 25 mm en la sierra sur; el 467 extiende lluvias ligeras a fuertes del 15 al 17 de noviembre (5–29 mm en la sierra norte), y el 466 llevó la selva a 31–37 °C. Para la campaña 2027, la alternancia de calor y lluvia en plena floración eleva el riesgo de roya y de mal cuajado."
+    },
+    {
+      "id": "n20",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-13",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
+      "title": "Vietnam: la cosecha de robusta avanza lento y los precios internos se mantienen",
+      "summary": "Los productores de las Tierras Altas Centrales vendieron a 83.200–83.800 dong por kg (US$3,24–3,26), casi igual que la semana previa, porque el café nuevo aún no llega en volumen; la robusta de enero cerró en US$3.245 por tonelada. Cuando la cosecha vietnamita se acelere, presionará a la robusta y a los cafés de menor calidad."
+    },
     {
       "id": "p30",
       "scope": "pe",
@@ -172,55 +215,6 @@
       "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/",
       "title": "Riesgo de lluvias intensas e inundaciones de noviembre a enero",
       "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
-    },
-    {
-      "id": "p21",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura",
-        "cusco",
-        "ayacucho"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-03",
-      "source": "Infobae · SENAMHI",
-      "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/",
-      "title": "SENAMHI declara alerta roja por lluvias del 4 al 5 de noviembre en 13 departamentos",
-      "summary": "El aviso incluye Piura, Cajamarca, Cusco y Ayacucho, con hasta unos 29 mm diarios en la sierra norte y 55 mm en la costa norte; el 6 baja a naranja. Puede retrasar el acopio y los despachos hacia Paita."
-    },
-    {
-      "id": "p15",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-10-30",
-      "source": "Agraria.pe",
-      "url": "https://www.agraria.pe/noticias/cafe-peruano-marca-record-de-exportaciones-pero-el-valor-agr-43378",
-      "title": "Exportaciones de café verde de enero a agosto suman 102.336 t y US$701,7 M",
-      "summary": "El volumen crece 2,8 % y el valor solo 0,6 % frente a 2025, un año récord (US$1.798 M). EE. UU. concentra 33,7 % del valor; los tostados casi no cuentan (US$1,58 M)."
-    },
-    {
-      "id": "p19",
-      "scope": "pe",
-      "regiones": [
-        "piura",
-        "cajamarca",
-        "amazonas",
-        "san-martin",
-        "junin",
-        "pasco",
-        "huanuco",
-        "cusco",
-        "puno",
-        "ayacucho"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-30",
-      "source": "Infobae · ENFEN",
-      "url": "https://www.infobae.com/peru/2026/10/31/enfen-alerta-que-el-fenomeno-el-nino-costero-seguiria-hasta-fines-de-otono-de-2027-con-lluvias-y-temperaturas-elevadas/",
-      "title": "ENFEN: El Niño costero extraordinario hasta febrero de 2027",
-      "summary": "Lluvias sobre lo normal de noviembre a enero en costa y sierra occidental del norte; normales o menores en parte de la Amazonía, con caudales reducidos en Huallaga, Ucayali y Apurímac. Riesgo de transporte en el norte y de déficit en selva central y sur."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-13T19:47:06Z",
+  "updatedAt": "2026-11-16T11:48:52Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
-      "value": 3.411,
+      "value": 3.406,
       "dec": 3,
       "unit": "PEN/USD",
       "change": -0.005,
       "chgDec": 3,
-      "asOf": "2026-11-11",
+      "asOf": "2026-11-12",
       "source": "BCRP",
-      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-03/2026-11-13/",
+      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-04/2026-11-16/",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
-      "note": "En lo que va de noviembre (2 al 11) se movió entre S/3,411 y S/3,463; el 11-nov cerró en S/3,411, el mínimo del mes."
+      "note": "En lo que va de noviembre (2 al 12) se movió entre S/3,406 y S/3,463; el 12-nov cerró en S/3,406, nuevo mínimo del mes."
     },
     "expo": {
       "label": "Precio promedio de exportación ene–ago 2026",
@@ -58,13 +58,15 @@
       "note": "Café pergamino, +2,57 % frente a agosto de 2025: subieron Cajamarca (+2,9 %), Amazonas (+37 %), Junín (+4,5 %) y Huánuco (+7,9 %); cayeron San Martín (−13,7 %), Cusco (−29,5 %) y Puno (−37,2 %). En 12 meses (set 2025–ago 2026) la producción suma 332 mil t (−4,5 %)."
     },
     "est": {
-      "label": "Estimado de producción 2026 (ADEX)",
+      "label": "Estimado de producción 2026 (JNC)",
       "value": null,
-      "text": "230–240 mil t",
-      "asOf": "2026-08-05",
-      "source": "ADEX · Gestión",
-      "url": "https://gestion.pe/economia/el-nino-amenaza-al-cafe-de-peru-asi-podria-afectar-a-la-produccion-y-exportacion-de-2026-noticia/",
-      "note": "Entre 15 % y 20 % menos que las 285 mil t de 2025 por la falta de lluvias; la campaña empezó en mayo y no en abril."
+      "text": "220–230 mil t",
+      "dec": 0,
+      "unit": "mil t",
+      "asOf": "2026-10-01",
+      "source": "JNC · Agraria",
+      "url": "https://agraria.pe/noticias/jnc-programa-de-renovacion-de-cafetales-permitira-alcanzar-l-43203",
+      "note": "Lorenzo Castillo, gerente de la Junta Nacional del Café, proyecta de 18 % a 22 % menos que las 280 mil t de 2025 por lluvias escasas que afectaron la floración y el llenado del grano, cafetales envejecidos (75 % cumplió su ciclo) y plagas como la roya. ADEX estimaba 230–240 mil t en agosto."
     }
   },
   "ref": {
