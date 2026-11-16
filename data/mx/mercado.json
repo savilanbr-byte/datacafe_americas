@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:47:17Z",
+  "updatedAt": "2026-11-16T11:48:35Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
@@ -17,22 +17,22 @@
     },
     "difRef": {
       "label": "Diferencial de referencia · Veracruz",
-      "value": 35,
+      "value": 30,
       "dec": 0,
       "unit": "¢/lb",
-      "asOf": "2026-10-13",
-      "source": "CNOC · Hora Cero",
-      "url": "https://horacero.mx/2026/10/13/cafetaleros-se-quejan-por-caida-de-precios-al-inicio-de-la-cosecha-en-veracruz/",
-      "note": "Unos US$35 por 100 libras sobre una bolsa promedio de US$285, con el peso en ≈18,30 (Fernando Celis, CNOC)."
+      "asOf": "2026-10-28",
+      "source": "CNOC · XEU",
+      "url": "https://xeu.mx/veracruz/1438350/alza-de-precios-del-cafe-no-llega-a-productores-veracruzanos-esto-es-lo-que-exigen",
+      "note": "Unos US$30 por quintal (100 lb) sobre la Bolsa de Nueva York para el café convencional de exportación, con el peso en ≈18,60 por dólar (Fernando Celis, CNOC, Comisión de Seguimiento de Precios del Café de Veracruz, 28-oct); antes eran US$35 (13-oct)."
     },
     "precioProd": {
-      "label": "Cereza convencional · Altas Montañas, Veracruz",
+      "label": "Cereza convencional · Huatusco y Altas Montañas, Veracruz",
       "value": null,
-      "text": "13–16 MXN/kg",
-      "asOf": "2026-11-11",
+      "text": "14,2–16,1 MXN/kg",
+      "asOf": "2026-11-12",
       "source": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/repunta-el-precio-del-cafe-en-las-altas-montanas-cereza-se-paga-hasta-en-16-pesos-el-kilo/",
-      "note": "Centros de compra de las Altas Montañas pagaban 13–16 MXN/kg el 11-nov (Monte Blanco 13; Chocamán y Córdoba 14; Ixhuatlán 14,70–15; Zentla 15; Comapa, Tenampa, Totutla y Boca del Monte 15,50–16), por encima de los 12–15 del 5-nov. La CNOC sugiere un mínimo de 16 y los cortadores piden hasta 7 por kilo. En el Soconusco, el robusta se paga a 27 MXN/kg frente a 50 el año pasado (El Sol del Soconusco, 8-nov)."
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/",
+      "note": "El 12-nov se pagaba de 14,20 (Rincón Toningo, Tlaltetela) a 15,80–16,10 (Capulapa, Huatusco), con Boca del Monte y Totutla en 16 e Ixhuatlán en 15; el monitoreo de la Comisión de Seguimiento de Precios ubica el promedio de Huatusco–Ixhuatlán en 15,40 (13-nov). La CNOC pide un mínimo de 16; en Córdoba a los cortadores se les paga unos 6 pesos por kilo (7-nov). En el Soconusco, el robusta se paga a 27 MXN/kg frente a 50 el año pasado (8-nov)."
     },
     "expo": {
       "label": "Otros Suaves (OIC) · octubre",
@@ -68,7 +68,7 @@
     }
   },
   "calcRef": {
-    "difA": 35,
+    "difA": 30,
     "difR": 0
   },
   "oferta": {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:46:55Z",
+  "updatedAt": "2026-11-16T11:48:35Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -127,10 +127,10 @@
     "veracruz": {
       "ajusteSemanas": 0,
       "volumen": "bajo",
-      "resumen": "Productores esperan una cosecha menor: en Huatusco hasta la mitad (de unos 20 a 9 quintales por hectárea) y en Zongolica–Córdoba temen perder hasta 40 %; el corte fuerte se espera en la primera semana de noviembre.",
-      "fecha": "2026-10-28",
-      "fuente": "El Demócrata",
-      "url": "https://www.eldemocrata.com/843400/advierten-desplome-en-precios-del-cafe-veracruzano-por-importaciones-masivas-de-grano-barato/"
+      "resumen": "El corte avanza en Huatusco y las Altas Montañas con la cereza a 14–16 MXN/kg; en Córdoba arrancó lento por el exceso de lluvia, y los productores esperan una cosecha menor (hasta 40 % menos en Zongolica–Córdoba).",
+      "fecha": "2026-11-13",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
     },
     "chiapas-soconusco": {
       "ajusteSemanas": 0,
@@ -139,6 +139,14 @@
       "fecha": "2026-11-05",
       "fuente": "Portavoz Chiapas",
       "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+    },
+    "robusta-chiapas": {
+      "ajusteSemanas": 0,
+      "volumen": null,
+      "resumen": "El corte de robusta arrancó a inicios de noviembre en el Soconusco con el kilo a 27 pesos, casi la mitad que el año pasado.",
+      "fecha": "2026-11-08",
+      "fuente": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/"
     }
   },
   "reportes": [
@@ -213,6 +221,33 @@
       "texto": "En las Altas Montañas la cereza se pagaba a 12–15 MXN/kg el 5 de noviembre, con el corte ya en marcha en Huatusco y Zongolica.",
       "fuente": "El Buen Tono",
       "url": "https://www.elbuentono.com.mx/cafe-cereza-se-paga-hasta-en-15-pesos-por-kilo-en-las-altas-montanas/"
+    },
+    {
+      "id": "r9",
+      "fecha": "2026-11-07",
+      "region": "veracruz",
+      "tipo": "noticia",
+      "texto": "En Córdoba la cosecha arranca lenta porque el exceso de lluvia retrasó la maduración; la cereza se paga a 11–12 MXN/kg y a los cortadores 6 pesos por kilo.",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/se-desploma-el-precio-del-cafe-en-cordoba-pagan-hasta-11-pesos-el-kilo-de-cereza/"
+    },
+    {
+      "id": "r10",
+      "fecha": "2026-11-08",
+      "region": "robusta-chiapas",
+      "tipo": "noticia",
+      "texto": "Arrancó el corte de robusta en el Soconusco con el kilo a 27 pesos, frente a 50 el año pasado.",
+      "fuente": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/"
+    },
+    {
+      "id": "r11",
+      "fecha": "2026-11-13",
+      "region": "veracruz",
+      "tipo": "noticia",
+      "texto": "Con el corte en marcha en Huatusco y las Altas Montañas, la cereza se pagaba a 14,20–16,10 MXN/kg el 12-nov (promedio de 15,40 en Huatusco–Ixhuatlán).",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
     }
   ]
 }
