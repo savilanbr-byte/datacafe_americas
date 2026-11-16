@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:45:35Z",
+  "updatedAt": "2026-11-16T19:50:00Z",
   "items": [
     {
       "id": "ni5",
@@ -84,28 +84,28 @@
       "summary": "Al lanzar el plan de seguridad en Estelí, Madriz y Nueva Segovia, el Ejército citó una proyección de más de 585.000 quintales en más de 57.000 manzanas y con más de 4.000 productores. Es la zona de cosecha más tardía (diciembre a marzo): ahí estará la oferta de cafés de altura."
     },
     {
-      "id": "ni15",
-      "scope": "ni",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-11-09",
-      "source": "Nicaragua Investiga",
-      "url": "https://nicaraguainvestiga.com/nacion/175492-lluvias-se-reducen-pacifico-nicaragua-noviembre-2026/",
-      "title": "INETER: las lluvias bajan en el Pacífico y siguen en el Caribe; se acerca un frente frío",
-      "summary": "Según el INETER, esta semana solo habrá chubascos aislados en el Pacífico y temperaturas de 31–33 °C en el Norte y el Centro; las lluvias persisten en el Caribe. Menos lluvia favorece el secado del pergamino en Jinotega y Matagalpa, pero El Niño acortó el invierno."
-    },
-    {
-      "id": "ni18",
+      "id": "ni26",
       "scope": "ni",
       "regiones": [
         "matagalpa"
       ],
-      "tag": "Eventos",
-      "date": "2026-11-12",
-      "source": "Vos TV",
-      "url": "https://www.vostv.com.ni/nacionales/52593-nicaragua-celebra-por-primera-vez-el-dia-nacional-/",
-      "title": "Primer Día Nacional del Café: el Gobierno otorgará la indicación geográfica al café de Matagalpa",
-      "summary": "El 13 de noviembre (Decreto 12-2026) se celebra por primera vez, con acto central en Matagalpa donde se entregará la indicación geográfica al café del departamento; el sector reúne a más de 51.000 familias, más de 500.000 personas en cosecha y llega a 57 países. Para compradores, la indicación geográfica puede abrir una vía de diferenciación por origen para lotes de Matagalpa."
+      "tag": "Exportaciones",
+      "date": "2026-11-13",
+      "source": "El Diario Nica",
+      "url": "https://eldiarionica.com/2026/11/13/nicaragua-celebra-por-primera-vez-el-dia-nacional-del-cafe/",
+      "title": "En el primer Día Nacional del Café, el Gobierno espera exportar más de US$1.000 M en 2026",
+      "summary": "Con acto central en Matagalpa (Decreto 12-2026), se citaron US$918 M exportados en 2025 y US$691 M de enero a septiembre de 2026 (año calendario), con la expectativa de superar US$1.000 M al cierre de 2026; el sector suma unas 54.000 fincas y más de 235.000 manzanas. La nota anuncia que se otorgaría la indicación geográfica al café de Matagalpa, pero no confirma su entrega; Conatradec esperaba cerrar en US$900 M o más."
+    },
+    {
+      "id": "ni25",
+      "scope": "ni",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-16",
+      "source": "Despacho 505 (INETER)",
+      "url": "https://despacho505.com/nacionales/71177-semana-bochorno-fuertes-vientos-nicaragua-termometro-36-grados/",
+      "title": "INETER: semana calurosa y casi sin lluvia en el Pacífico, con vientos de hasta 45 km/h",
+      "summary": "Para la semana que arranca el 16 de noviembre, el INETER prevé máximas de 30–33 °C en el Norte y el Caribe y de 33–36 °C en el Pacífico, lluvias casi nulas en el Pacífico, lloviznas aisladas en el Norte y Centro y ráfagas de 35–45 km/h. El tiempo seco favorece el secado del pergamino en Jinotega y Matagalpa, pero el calor acelera la maduración y presiona a fincas con pocos cortadores."
     },
     {
       "id": "n17",
@@ -138,16 +138,6 @@
       "summary": "El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); el arábica de NY promedió 285,10 ¢/lb (+1,6 %) y el robusta de Londres 152,56 ¢/lb (−1,1 %). Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacos, el nivel más bajo a fin de mes desde enero de 2002; los Otros Suaves (grupo de Nicaragua) promediaron 334,99 ¢/lb."
     },
     {
-      "id": "n21",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Barchart (Yahoo Finance)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
-      "title": "El arábica rebota 4,2 % desde mínimos de casi 5 meses por inventarios ICE ajustados",
-      "summary": "El arábica de diciembre cerró +11,20 ¢/lb (+4,16 %) el 12 de noviembre, tras tocar mínimos intradía, con inventarios certificados en 228.586 sacos, cerca del mínimo de 27 años; el robusta de enero bajó 1,2 %. Brasil exportó 287.000 t en octubre (+23 %), Conab subió su cosecha 2026 a 67,6 M de sacos y el real tocó mínimo de 17 meses; Vietnam exportó 114.000 t en octubre (+61 %). Bolsa muy volátil para fijar precio de café nicaragüense."
-    },
-    {
       "id": "n23",
       "scope": "mundo",
       "tag": "Exportaciones",
@@ -156,6 +146,16 @@
       "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
       "title": "Brasil exporta un récord mensual de 5,3 M de sacos en octubre",
       "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre de 2026 (+28,4 %), el mayor volumen mensual desde 1990; el robusta casi se duplicó (897.081 sacos). La llegada de café brasileño presiona los precios de NY en plena cosecha centroamericana."
+    },
+    {
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-16",
+      "source": "Finimize (ICE)",
+      "url": "https://finimize.com/content/coffee-prices-perk-up-as-ice-stockpiles-hit-a-27-year-low",
+      "title": "Los inventarios certificados de arábica en ICE caen a 211.321 sacos, mínimo de 27 años",
+      "summary": "Las existencias bajaron 15 % en dos sesiones y el arábica subió 0,7 % a 275,45 ¢/lb, lejos del mínimo de 262 ¢/lb de la semana pasada; el robusta cedió 0,7 % a US$3.173 por tonelada por el avance de la cosecha en Vietnam. Inventarios tan bajos sostienen la volatilidad de NY justo cuando se fijan precios de la cosecha nicaragüense."
     }
   ]
 }

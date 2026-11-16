@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:45:35Z",
+  "updatedAt": "2026-11-16T19:50:00Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -27,11 +27,11 @@
     "period": ""
   },
   "impactos": [
-    "El INETER prevé que las lluvias bajen en el Pacífico y el Centro-Norte esta semana (chubascos aislados): mejora el secado al sol del pergamino en Jinotega y Matagalpa, que ya cosechan.",
-    "Con El Niño fuerte a muy fuerte (NOAA, +2,5 °C en Niño 3.4 al 12-nov), la maduración tiende a concentrarse; con pocos cortadores (Confidencial, 31-oct) crece el riesgo de fruta sobremadura o caída en los primeros lotes.",
-    "Las Segovias (Nueva Segovia, Madriz y Estelí) cosechan más tarde y proyectan más de 585.000 quintales (Ejército, 7-nov); en altura conviene vigilar humedad y temperatura si llega un frente frío.",
-    "La roya, favorecida por El Niño, afectaría sobre todo la cosecha 2027-28; fertilizantes más caros pesan en la floración.",
-    "El Caribe Sur (robusta) sigue con lluvias: más riesgo de humedad en el secado."
+    "El INETER prevé una semana seca y calurosa (30–33 °C en el Norte): buen secado al sol del pergamino en Jinotega, Matagalpa y Boaco, que están en plena cosecha.",
+    "Con El Niño fuerte a muy fuerte (NOAA, +2,5 °C en Niño 3.4 al 12-nov), el calor concentra la maduración; con pocos cortadores (C$80–100 por lata, Confidencial 31-oct) sube el riesgo de fruta sobremadura o caída y de lotes con taza irregular.",
+    "Las Segovias (Nueva Segovia, Madriz y Estelí) entran a cosecha en diciembre y proyectan más de 585.000 quintales (Ejército, 7-nov): conviene vigilar si el calor adelanta la maduración en altura.",
+    "La roya (incidencia cercana a 5 % con El Niño, según La Prensa en septiembre) pesaría más en la floración y la cosecha 2027-28 que en el café ya cargado.",
+    "El Caribe Sur (robusta) sigue con lluvias ligeras a moderadas: más riesgo de humedad en el secado."
   ],
   "regions": [
     {
@@ -117,17 +117,17 @@
   ],
   "avisos": {
     "source": "INETER",
-    "asOf": "2026-11-09",
-    "headline": "INETER: las lluvias se reducen en el Pacífico y continúan en el Caribe; un frente frío podría acercarse al norte de Centroamérica.",
+    "asOf": "2026-11-16",
+    "headline": "INETER: semana del 16 de noviembre muy calurosa, con lluvias casi nulas en el Pacífico y vientos fuertes por la tarde y la noche.",
     "items": [
-      "Pacífico: chubascos aislados y de corta duración; el invierno termina.",
-      "Caribe Norte y Sur: siguen las lluvias por bajas presiones; vientos de hasta 30 km/h a fin de semana.",
-      "Temperaturas: 33–35 °C en el occidente, 31–33 °C en el Norte y Centro, unos 32 °C en el Caribe."
+      "Temperaturas máximas: 33–36 °C en el Pacífico, 34–36 °C en Chontales y 30–33 °C en el Norte y el Caribe.",
+      "Lluvias: casi nulas en el Pacífico; ligeras a moderadas en el Caribe y Río San Juan; lloviznas aisladas en el Norte y Centro.",
+      "Vientos con ráfagas de 35–45 km/h en el centro y sur del país, y más oleaje en el sur del litoral Pacífico."
     ],
     "links": [
       {
-        "t": "Nicaragua Investiga · INETER",
-        "url": "https://nicaraguainvestiga.com/nacion/175492-lluvias-se-reducen-pacifico-nicaragua-noviembre-2026/"
+        "t": "Despacho 505 · INETER",
+        "url": "https://despacho505.com/nacionales/71177-semana-bochorno-fuertes-vientos-nicaragua-termometro-36-grados/"
       },
       {
         "t": "INETER",
