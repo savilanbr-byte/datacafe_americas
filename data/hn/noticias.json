@@ -1,6 +1,32 @@
 {
- "updatedAt": "2026-11-13T19:46:37Z",
+ "updatedAt": "2026-11-16T11:48:29Z",
  "items": [
+  {
+   "id": "h19",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Regulación",
+   "date": "2026-11-15",
+   "source": "Infobae · SAG",
+   "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
+   "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
+   "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
+  },
+  {
+   "id": "h20",
+   "scope": "hn",
+   "regiones": [
+    "agalta",
+    "comayagua",
+    "el-paraiso"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-15",
+   "source": "Radio HRN · CENAOS",
+   "url": "https://www.radiohrn.hn/ingresara-algun-frente-frio-a-honduras-esta-semana-zonas-en-las-que-habra-lluvias-2026-11-15",
+   "title": "CENAOS: no habrá frentes fríos en al menos 10 días",
+   "summary": "El país cerró el domingo 15 seco y la semana empieza igual; solo se esperan lluvias en el norte, Gracias a Dios, Yoro, norte de Olancho, Comayagua y norte de Francisco Morazán. Favorece el secado del pergamino en el occidente, pero lo frena en Agalta y Comayagua."
+  },
   {
    "id": "n23",
    "scope": "mundo",
@@ -30,19 +56,6 @@
    "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
    "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
    "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre (+28,4 %), con 4,12 M de arábica (+21,6 %) y 0,90 M de robusta; de enero a octubre suma 34,5 M (+3,5 %). La oferta brasileña presiona la bolsa de NY y con ella los diferenciales del café hondureño."
-  },
-  {
-   "id": "h18",
-   "scope": "hn",
-   "regiones": [
-    "agalta"
-   ],
-   "tag": "Clima",
-   "date": "2026-11-12",
-   "source": "Radio HRN · CENAOS",
-   "url": "https://www.radiohrn.hn/lluvias-en-honduras-vaguada-en-superficie-y-cuna-de-alta-presion-pronostico-cenaos-2026-11-12",
-   "title": "CENAOS descarta el primer frente frío del viernes 13",
-   "summary": "El frente frío previsto para el viernes se retrasó: el día viene seco salvo en Olancho y el oriente, con lluvias débiles a moderadas e Intibucá entre 13 y 22 °C. Buen día para el secado del pergamino en el occidente."
   },
   {
    "id": "h15",
