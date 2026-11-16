@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "id": "l9",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-16",
+      "source": "Notícias Agrícolas · ICE",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431396-cafe-sobe-mais-de-1-em-nova-york-nesta-2-e-inicia-semana-recuperando-parte-das-perdas-recentes.html",
+      "title": "El arábica abre la semana con un rebote de más de 1 % en Nueva York",
+      "summary": "En la mañana del lunes 16/11 diciembre subía 1,18 % a 281,95 ¢/lb y marzo 0,95 % a 276,10 ¢/lb, recuperando parte de lo perdido. El mercado sigue de cerca el calor y las lluvias irregulares en Mogiana y Cerrado durante el cuajado."
+    },
+    {
+      "id": "l1",
+      "scope": "am",
+      "pais": "Costa Rica",
+      "tag": "Producción",
+      "date": "2026-11-15",
+      "source": "La Nación · ICAFE",
+      "url": "https://www.nacion.com/economia/costa-rica-produce-la-mitad-del-cafe-que-cosechaba/XF6QPN6Z4RCZBEMOFV6UYZPCBM/story/",
+      "title": "Costa Rica produce hoy la mitad del café que cosechaba hace 27 años",
+      "summary": "Con datos del ICAFE, la cosecha 2025-26 se estima en 1.591.850 fanegas frente a 3.278.716 en 1998-99 (−51,4 %), con desplomes en Turrialba (−83,9 %) y Zona Norte (−80,3 %), mientras el costo subió a ¢105.267 por fanega. La oferta tica se concentra cada vez más en Los Santos y el Valle Occidental."
+    },
+    {
+      "id": "l2",
+      "scope": "am",
+      "pais": "Honduras",
+      "tag": "Regulación",
+      "date": "2026-11-15",
+      "source": "Infobae · SAG / IHCAFE",
+      "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
+      "title": "Honduras corre para georreferenciar sus fincas antes de que rija la EUDR",
+      "summary": "La SAG georreferenciará unas 400 mil manzanas de café porque más de la mitad de las exportaciones (7,18 millones de quintales el ciclo pasado) va a la UE, donde la norma aplica desde el 30 de diciembre. Quien compre para Europa debe pedir ya a sus exportadores los datos de trazabilidad de cada lote."
+    },
+    {
+      "id": "l5",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Producción",
+      "date": "2026-11-15",
+      "source": "BC Noticias · Comité de Cafeteros de Caldas",
+      "url": "https://www.bcnoticias.com.co/cosecha-cafetera-en-caldas-tendra-su-pico-en-diciembre-y-buscan-recolectores-en-cauca-y-narino/",
+      "title": "Caldas: el pico de la cosecha se corre a la segunda semana de diciembre",
+      "summary": "El Comité de Caldas espera el pico de recolección entre el 7 y el 13 de diciembre, cuando antes llegaba entre fines de septiembre e inicios de octubre; faltan recolectores y se paga en promedio $1.348 por kilo de cereza. El café nuevo de la cosecha principal llegará más tarde a los puertos."
+    },
+    {
+      "id": "l10",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-14",
+      "source": "World Coffee Index · ICE",
+      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
+      "title": "ICE estrena el contrato métrico de arábica con sus primeros 48 lotes",
+      "summary": "El 10/11 se negociaron los primeros 48 lotes del nuevo Coffee C métrico (septiembre 2028, lotes de 10 t) entre 5.724 y 5.737 USD/t; el contrato C clásico dejará de listarse tras marzo 2028. En la semana el robusta cerró en 3.207 USD/t (−1,93 %)."
+    },
+    {
+      "id": "l12",
+      "scope": "mundo",
+      "tag": "Divisas",
+      "date": "2026-11-14",
+      "source": "Reuters · Yahoo Noticias",
+      "url": "https://es-us.noticias.yahoo.com/monedas-retroceden-medio-expectativas-alzas-022119214.html",
+      "title": "Las monedas latinoamericanas retroceden ante la posibilidad de alzas de la Fed",
+      "summary": "Al cierre del 13/11 el real quedó en 5,6567 por dólar (−2,63 % en la semana), el peso colombiano en 3.315,56 y el sol en torno a 3,40, mientras funcionarios de la Fed abren la puerta a subir tasas. Monedas de origen más débiles abaratan el café en dólares y animan a los productores a vender."
+    },
+    {
       "id": "i5",
       "scope": "mundo",
       "tag": "Producción",
@@ -11,15 +74,37 @@
       "summary": "En las Tierras Altas Centrales el productor recibe 83.200–83.800 dongs por kilo y el robusta grado 2 se ofrece a US$50 bajo el contrato de enero. Los comerciantes no esperan volúmenes grandes hasta diciembre, así que la presión estacional sobre el robusta aún no llega."
     },
     {
-      "id": "h1",
+      "id": "l3",
       "scope": "am",
       "pais": "México",
       "tag": "Precios",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/repunta-el-precio-del-cafe-en-las-altas-montanas-cereza-se-paga-hasta-en-16-pesos-el-kilo/",
-      "title": "Veracruz: el café cereza se paga entre 12 y 16 pesos por kilo en las Altas Montañas",
-      "summary": "Los centros de compra de Fortín, Córdoba, Ixhuatlán del Café y Huatusco pagaron el 11 de noviembre de 13 a 16 pesos por kilo de cereza, con hasta 4 pesos de diferencia entre localidades. La dispersión deja margen para negociar por zona al inicio de la cosecha veracruzana."
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/",
+      "title": "Veracruz: la cereza sube hasta 16,10 pesos por kilo en las Altas Montañas",
+      "summary": "Al 12 de noviembre la cereza se pagaba entre 14,20 pesos (Tlaltetela) y 16,10 pesos por kilo (Huatusco), con un promedio de 15,40 pesos según la comisión estatal de precios. El piso subió unos 2 pesos en la semana a medida que avanzan las compras de la cosecha 2026-27."
+    },
+    {
+      "id": "l4",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-13",
+      "source": "FNC",
+      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
+      "title": "Colombia: el precio interno repunta a $2.075.000 por carga",
+      "summary": "La FNC fijó el 13 de noviembre la referencia en $2.075.000 por carga de 125 kg de pergamino seco, con el contrato C en 278,65 ¢/lb y la pasilla en $12.000 por kilo. El repunte frente a los cerca de $2.000.000 de inicios de semana se apoya en un peso más débil."
+    },
+    {
+      "id": "l6",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Precios",
+      "date": "2026-11-13",
+      "source": "Notícias Agrícolas",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431370-cafe-fecha-6-feira-13-em-queda-em-ny-pressionado-pelo-dolar-mercado-fisico-brasileiro-tem-poucas-alteracoes.html",
+      "title": "Brasil: el físico se mantiene firme aunque Nueva York cede por el dólar",
+      "summary": "El 13/11 el arábica de diciembre cerró en 278,65 ¢/lb (−155 puntos), mientras el tipo 6 duro se pagaba a R$ 1.752 por saca en Guaxupé, R$ 1.710 en Poços de Caldas y R$ 1.670 en Varginha. El real débil sostiene los precios internos y favorece las ventas de los exportadores."
     },
     {
       "id": "g1",
@@ -41,16 +126,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431271-alem-da-bienalidade-baixa-floradas-irregulares-ampliam-preocupacao-com-safra-de-cafe-de-2027.html",
       "title": "Brasil: floraciones irregulares y año de bienalidad baja recortan el potencial de la cosecha 2027",
       "summary": "Cooxupé calcula en forma preliminar una pérdida de cerca del 10% del potencial de sus cooperados para 2027, y la Fundação Procafé estima unas 1,5 millones de sacas menos por granizo; además hay floraciones escalonadas, menos frutos y más enfermedades. Apunta a un arábica brasileño 2027/28 más corto y de calidad más dispareja, lo que da razones para cubrir ese ciclo en las caídas."
-    },
-    {
-      "id": "i4",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Barchart · Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
-      "title": "El arábica rebota 4,16% desde mínimos de casi cinco meses; el robusta cae 1,17%",
-      "summary": "El diciembre de Nueva York subió 11,20 ¢/lb el 12-nov apoyado en inventarios certificados bajos, aunque 141.194 sacos esperan clasificación, el máximo en 8,5 meses; Vietnam exportó 114.000 t en octubre (+61%). Si ese café brasileño se certifica, el soporte del arábica puede ceder; el robusta sigue presionado por la oferta."
     },
     {
       "id": "i6",
@@ -75,17 +150,6 @@
       "summary": "Según el INEI, la baja del café arrastró una caída de 10,6% en la agroexportación tradicional de septiembre. Refleja una campaña peruana más corta y menos café disponible hacia fin de año."
     },
     {
-      "id": "i8",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Divisas",
-      "date": "2026-11-12",
-      "source": "O Tempo",
-      "url": "https://www.otempo.com.br/economia/2026/11/12/dolar-dispara-e-fecha-no-maior-valor-desde-junho-de-2025",
-      "title": "Brasil: el dólar sube 1,6% a R$5,65, su máximo desde junio de 2025",
-      "summary": "El alza responde a dudas sobre el paquete fiscal, un balance débil del Banco do Brasil y apuestas a que la Fed suba tasas. Un real más débil anima las ventas del productor brasileño y puede abaratar el físico en dólares."
-    },
-    {
       "id": "i9",
       "scope": "am",
       "pais": "Brasil",
@@ -95,17 +159,6 @@
       "url": "https://efficienza.com.br/ataque-hacker-porto-de-santos-sistemas-fora-do-ar-aps/",
       "title": "Brasil: un ataque informático deja sin sistemas a la Autoridad Portuaria de Santos",
       "summary": "Desde el 6-nov la autoridad portuaria opera en parte de forma manual, aunque buques, camiones y trenes siguen entrando; la espera media para atracar fue de unos 1,85 días entre el 4 y el 10 de noviembre. Santos embarca cerca del 71% del café brasileño: conviene prever demoras administrativas en los embarques de noviembre."
-    },
-    {
-      "id": "g2",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Precios",
-      "date": "2026-11-11",
-      "source": "Cepea · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
-      "title": "Brasil: el indicador Cepea del arábica cae 1,12 % a R$ 1.593,28 por saca",
-      "summary": "El precio físico del arábica en São Paulo bajó el 11-nov tras subir a R$ 1.611,30 el día anterior, en línea con la caída del contrato en Nueva York; referencia útil para negociar café brasileño en reales."
     },
     {
       "id": "f1",
@@ -119,28 +172,6 @@
       "summary": "Los envíos subieron 28,4 % frente a octubre de 2025 y el año-cosecha 2026/27 (julio–octubre) suma 16,591 millones de sacos (+19,7 %); los embarques a EE. UU. crecieron 119 % en el mes tras el retiro de aranceles. Más oferta brasileña disponible presiona los diferenciales de otros orígenes."
     },
     {
-      "id": "e4",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Divisas",
-      "date": "2026-11-10",
-      "source": "Portafolio",
-      "url": "https://www.portafolio.co/amp/economia/finanzas/dolar-en-colombia-sigue-subiendo-previo-al-dato-de-inflacion-en-ee-uu-podria-romper-la-barrera-de-los-3-506036",
-      "title": "Colombia: el dólar se acerca a $3.300 con la caída del petróleo y apuestas de alza de la Fed",
-      "summary": "La TRM subió $32 a $3.269,88 y el dólar tocó $3.297 en la mañana del 10-nov, presionado por la caída del crudo y una probabilidad de 79,5% de alza de tasas de la Fed en diciembre. Un peso más débil mejora el precio interno en pesos, aunque el KC siga bajando."
-    },
-    {
-      "id": "d1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Precios",
-      "date": "2026-11-10",
-      "source": "IFM Noticias · FNC",
-      "url": "https://ifmnoticias.com/economicas/el-precio-interno-del-cafe-cae-a-cerca-de-2-millones-por-carga-y-vuelve-a-rondar/",
-      "title": "Colombia: el precio interno del café toca $2.000.000 por carga, cerca del mínimo del año",
-      "summary": "La FNC fijó el 9 de noviembre la carga de 125 kg en $2.000.000 (factor 94), a un paso del mínimo de junio ($2.005.000), por la caída del contrato C a 273,60 ¢/lb y la revaluación del peso. El pergamino colombiano está entre lo más barato del año en pesos."
-    },
-    {
       "id": "d3",
       "scope": "am",
       "pais": "Panamá",
@@ -150,6 +181,16 @@
       "url": "https://forbescentroamerica.com/2026/11/10/panama-consolida-al-cafe-geisha-como-uno-de-los-productos-de-ultralujo-mas-cotizados-del-mundo",
       "title": "Panamá: un geisha de Lamastus se vendió a US$18.004 por kg en Best of Panama 2026",
       "summary": "Un lote de 15 kg de Lamastus Family Estate fue comprado por la china JD.com a US$18.004/kg en la subasta Best of Panama 2026, por debajo del récord de unos US$30.000/kg del año pasado. Asia sigue siendo el principal comprador de los geishas de Chiriquí."
+    },
+    {
+      "id": "l11",
+      "scope": "mundo",
+      "tag": "Industria",
+      "date": "2026-11-10",
+      "source": "Daily Coffee News · Global Coffee Platform",
+      "url": "https://dailycoffeenews.com/2026/11/10/gcp-reports-drop-in-sustainable-purchasing-among-large-green-coffee-buyers/",
+      "title": "GCP: baja la proporción de café verde sostenible que compran los grandes tostadores",
+      "summary": "Entre 14 grandes compradores, el 69,3 % del café verde de 2025 cumplió el estándar básico de GCP frente a 75,4 % en 2024, y el volumen en programas sostenibles cayó 8,9 % a 1,58 millones de t; JDE Peet's bajó de 72,9 % a 47,0 %. Indica menos apetito por primas certificadas en parte de la industria."
     },
     {
       "id": "c1",
@@ -216,60 +257,16 @@
       "summary": "Octubre sumó 1,114 millones de sacos (−8 %) y los últimos doce meses 12,56 millones (−15 %). Las exportaciones del mes subieron 6 % (1,119 millones), pero en doce meses son 11,85 millones (−11 %): oferta local aún corta."
     },
     {
-      "date": "2026-11-05",
-      "id": "a58",
-      "pais": "México",
+      "id": "l7",
       "scope": "am",
-      "source": "Portavoz Chiapas",
-      "summary": "El Comité Nacional Sistema Producto Café admite que la producción bajará: las lluvias solo llegaron en junio, julio y parte de septiembre y la maduración es irregular, sobre todo en Soconusco y la Costa. No hay cifra de caída; conviene revisar volumen y uniformidad de lotes antes de cerrar compras en Chiapas.",
+      "pais": "Brasil",
       "tag": "Producción",
-      "title": "Chiapas: la sequía recortará la cosecha de café 2026-27",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
-    },
-    {
-      "date": "2026-11-04",
-      "id": "a59",
-      "pais": "Honduras",
-      "scope": "am",
-      "source": "Infobae · BCH",
-      "summary": "El Banco Central reporta ingresos de unos US$2.067 millones (+16,3% en volumen), pero el precio medio por saco bajó de US$361,36 a US$309,96. Más volumen no compensa del todo la caída del precio.",
-      "tag": "Exportaciones",
-      "title": "Honduras: exportó 6,67 millones de sacos de enero a agosto, con precio medio 14% menor",
-      "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/"
-    },
-    {
-      "date": "2026-11-03",
-      "id": "a54",
-      "pais": "Guatemala",
-      "scope": "am",
-      "source": "Prensa Libre · Anacafé",
-      "summary": "Anacafé reporta exportaciones de 4,3 millones de quintales y US$1.440 millones en 2025-26 (+12%), a US$336 por quintal en promedio. Para 2026-27 recorta la proyección exportable de 4,2 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal.",
-      "tag": "Exportaciones",
-      "title": "Guatemala cierra 2025-26 con ingresos récord de US$1.440 millones y proyecta menos café",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/"
-    },
-    {
-      "id": "b2",
-      "scope": "am",
-      "pais": "Costa Rica",
-      "tag": "Producción",
-      "date": "2026-11-03",
-      "source": "Tico Times · Icafé",
-      "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
-      "title": "Costa Rica: El Niño recorta la cosecha 10–15 % frente a lo estimado",
-      "summary": "Los productores prevén una cosecha 10–15 % menor a la estimada, con fertilización retrasada unos 30 días por lluvias irregulares y afectación del peso y la calidad del grano exportable. Se esperan temperaturas altas en diciembre y enero."
-    },
-    {
-      "id": "j1",
-      "scope": "am",
-      "pais": "Nicaragua",
-      "tag": "Exportaciones",
-      "date": "2026-10-30",
-      "source": "Estrategia y Negocios · EFE · BCN",
-      "url": "https://www.revistaeyn.com/centroamericaymundo/nicaragua-preve-ventas-de-us-918-millones-en-cosecha-de-cafe-2026-2027-ON32489340",
-      "title": "Nicaragua: el Banco Central prevé ventas de al menos US$918 millones en la cosecha 2026-27",
-      "summary": "El BCN calcula una producción de unos 3 millones de quintales y un precio promedio de US$294 por quintal, frente a US$270 del ciclo anterior; a septiembre las exportaciones sumaban US$691 millones. Un volumen estable con precios más altos sugiere oferta disponible pero menos margen para negociar descuentos."
+      "date": "2026-11-06",
+      "source": "Comunicaffè · Cepea",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
+      "title": "Cepea: buen cuajado para la cosecha 2027/28, pero el calor preocupa",
+      "summary": "Cepea reporta floración y cuajado buenos en Mogiana, noroeste de Paraná y buena parte del Sur de Minas; en el Cerrado se confirmará hacia diciembre y Rondônia sufrió casi un mes seco con broca temprana. Con bienalidad baja, el mercado espera una cosecha grande pero no récord, expuesta al calor de El Niño."
     }
   ],
-  "updatedAt": "2026-11-13T19:48:09Z"
+  "updatedAt": "2026-11-16T12:05:00Z"
 }

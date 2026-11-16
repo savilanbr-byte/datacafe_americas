@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T11:55:00Z",
+  "updatedAt": "2026-11-16T12:05:00Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -175,18 +175,18 @@
     "brasil-arabica": {
       "ajusteSemanas": 0,
       "volumen": "alto",
-      "resumen": "Conab (24-sep) eleva el arábica 2026 a 48,21 M sacos, +34,8% anual. Cosecha terminada; exportaciones jul–sep +15,5%.",
-      "fecha": "2026-09-24",
-      "fuente": "Conab vía Barchart",
-      "url": "https://www.tradingview.com/news/barchart:f50148f03094b:0-arabica-coffee-prices-finish-higher-on-supply-concerns/"
+      "resumen": "Cosecha 2026 terminada y alta (Conab 48,21 M sacos de arábica). Para 2027, Cepea ve buen cuajado en Sur de Minas y Mogiana, pero Cooxupé estima un 10 % menos de potencial por floraciones irregulares.",
+      "fecha": "2026-11-11",
+      "fuente": "Notícias Agrícolas · Cooxupé / Cepea",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
     },
     "brasil-conilon": {
       "ajusteSemanas": 0,
       "volumen": null,
-      "resumen": "Conab estima el robusta/conilon en 19,39 M sacos, −6,6% anual.",
-      "fecha": "2026-09-24",
-      "fuente": "Conab vía Barchart",
-      "url": "https://www.tradingview.com/news/barchart:f50148f03094b:0-arabica-coffee-prices-finish-higher-on-supply-concerns/"
+      "resumen": "Conab estima el conilon de Espírito Santo 2026 en 12,1 M sacas (−14,3 %); Cepea ve potencial para una buena cosecha 2027 en el estado, menos favorable en Rondônia.",
+      "fecha": "2026-11-06",
+      "fuente": "Comunicaffè · Cepea",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
     },
     "honduras": {
       "ajusteSemanas": 0,
@@ -215,18 +215,18 @@
     "mexico": {
       "ajusteSemanas": 0,
       "volumen": "bajo",
-      "resumen": "Sistema Producto Café admite menor producción por lluvias tardías y maduración irregular en Chiapas.",
-      "fecha": "2026-11-05",
-      "fuente": "Portavoz Chiapas",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+      "resumen": "Compras de la cosecha 2026-27 en marcha en Veracruz (cereza a 14,20–16,10 pesos/kg al 12-nov); en Chiapas se admite menor producción por lluvias tardías y maduración irregular.",
+      "fecha": "2026-11-13",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
     },
     "colombia": {
-      "ajusteSemanas": 0,
+      "ajusteSemanas": 3,
       "volumen": "bajo",
-      "resumen": "Producción de octubre 1,114 M sacos (−8 %); 12 meses a oct. 12,56 M (−15 %). USDA proyecta 13,4 M para 26/27.",
-      "fecha": "2026-11-06",
-      "fuente": "Agronegocios",
-      "url": "https://www.agronegocios.co/agricultura/produccion-cafetera-con-corte-a-octubre-de-2026-4519174"
+      "resumen": "La cosecha principal va tarde: en Caldas el pico se espera del 7 al 13 de diciembre (antes, fines de sep–inicios de oct) y faltan recolectores. Producción de octubre 1,114 M sacos (−8 %); 12 meses 12,56 M (−15 %).",
+      "fecha": "2026-11-15",
+      "fuente": "BC Noticias · Comité de Cafeteros de Caldas",
+      "url": "https://www.bcnoticias.com.co/cosecha-cafetera-en-caldas-tendra-su-pico-en-diciembre-y-buscan-recolectores-en-cauca-y-narino/"
     },
     "costa-rica": {
       "ajusteSemanas": 0,
@@ -255,6 +255,33 @@
   },
   "reportes": [
     {
+      "id": "a16",
+      "fecha": "2026-11-15",
+      "region": "colombia",
+      "tipo": "noticia",
+      "texto": "El Comité de Cafeteros de Caldas proyecta el pico de recolección entre el 7 y el 13 de diciembre (antes llegaba a fines de septiembre e inicios de octubre), con déficit de recolectores y un pago medio de $1.348/kg de cereza.",
+      "fuente": "BC Noticias · Comité de Cafeteros de Caldas",
+      "url": "https://www.bcnoticias.com.co/cosecha-cafetera-en-caldas-tendra-su-pico-en-diciembre-y-buscan-recolectores-en-cauca-y-narino/"
+    },
+    {
+      "id": "a17",
+      "fecha": "2026-11-13",
+      "region": "mexico",
+      "tipo": "noticia",
+      "texto": "En las Altas Montañas de Veracruz la cereza de la cosecha 2026-27 se pagaba entre 14,20 y 16,10 pesos/kg al 12 de noviembre, con promedio de 15,40 pesos/kg en Huatusco-Ixhuatlán.",
+      "fuente": "El Buen Tono",
+      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
+    },
+    {
+      "id": "a18",
+      "fecha": "2026-11-11",
+      "region": "brasil-arabica",
+      "tipo": "noticia",
+      "texto": "Cooxupé estima de forma preliminar que la cosecha 2027 en su área quedará un 10 % por debajo de su potencial por floraciones múltiples e irregulares asociadas a El Niño.",
+      "fuente": "Notícias Agrícolas · Cooxupé",
+      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
+    },
+    {
       "id": "a12",
       "fecha": "2026-11-06",
       "region": "colombia",
@@ -271,6 +298,24 @@
       "texto": "Sucafina prevé que Centroamérica y México caigan 9,3 % en 2026-27 (<18 M sacos), con Honduras y México entre las mayores bajas.",
       "fuente": "Infobae · Sucafina/Reuters",
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
+    },
+    {
+      "id": "a19",
+      "fecha": "2026-11-06",
+      "region": "brasil-arabica",
+      "tipo": "noticia",
+      "texto": "Cepea reporta floración y cuajado buenos para 2027/28 en Mogiana, noroeste de Paraná y Sur de Minas; en el Cerrado se confirmará hacia diciembre.",
+      "fuente": "Comunicaffè · Cepea",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
+    },
+    {
+      "id": "a20",
+      "fecha": "2026-11-06",
+      "region": "brasil-conilon",
+      "tipo": "noticia",
+      "texto": "Cepea ve potencial para una buena cosecha 2027 de conilon en Espírito Santo tras la caída de 14,3 % de 2026 (12,1 M sacas, Conab); Rondônia sufrió casi un mes seco y broca temprana.",
+      "fuente": "Comunicaffè · Cepea",
+      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/"
     },
     {
       "id": "a15",
