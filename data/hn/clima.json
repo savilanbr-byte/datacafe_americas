@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T11:48:29Z",
+ "updatedAt": "2026-11-16T19:47:44Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -28,19 +28,19 @@
  },
  "impactos": [
   "El Niño fuerte (+2,5 °C en Niño 3.4) sigue recortando lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "CENAOS no ve frentes fríos en los próximos 10 días y el occidente y el sur siguen secos: buen secado del pergamino en Copán, Opalaca y Montecillos, donde arranca el corte en las zonas bajas.",
-  "Habrá lluvias en Comayagua, el norte de Olancho (Agalta) y el norte de Francisco Morazán: ahí el secado al sol será más lento, así que pide la humedad del grano al recibir los lotes.",
+  "CENAOS prevé días mayormente secos y madrugadas frescas (unos 15 °C en el occidente) sin frentes fríos en cinco días: buen secado del pergamino en Copán, Opalaca y Montecillos, donde arranca el corte en las zonas bajas.",
+  "Las lluvias serán débiles y sobre todo en las montañas del norte (Yoro, norte de Olancho y Comayagua): el secado al sol puede ser más lento en Agalta y Comayagua, así que pide la humedad del grano al recibir los lotes.",
   "Con calor y poca lluvia la fruta madura de golpe; si faltan recolectores sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-15",
-  "headline": "CENAOS: sin frentes fríos en los próximos 10 días; semana seca con lluvias en el norte",
+  "asOf": "2026-11-16",
+  "headline": "CENAOS: madrugadas frescas y días mayormente secos; sin frentes fríos en los próximos cinco días",
   "items": [
-   "Honduras cerró el domingo 15 con condiciones secas; el inicio de semana sería muy similar, con poca nubosidad en la mañana y más nubes por la tarde.",
-   "Lluvias por humedad del Caribe en Colón, Cortés, Atlántida, Islas de la Bahía, Gracias a Dios, Yoro, norte de Olancho, Comayagua y norte de Francisco Morazán.",
-   "No se prevé el ingreso de frentes fríos al menos en 10 días; las temperaturas se mantendrían parecidas a las actuales."
+   "Mínimas de unos 15 °C en el occidente, 17–18 °C en el centro, 22 °C en el norte y 24 °C en el sur; neblina por la mañana en varios sectores.",
+   "Condiciones mayormente secas; solo lluvias débiles y breves por humedad del Caribe, sobre todo en zonas montañosas del norte.",
+   "El frente frío previsto se debilitó y no llegó; no se espera ninguno en al menos cinco días."
   ],
   "links": [
    {
@@ -48,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Radio HRN (15-nov)",
-    "url": "https://www.radiohrn.hn/ingresara-algun-frente-frio-a-honduras-esta-semana-zonas-en-las-que-habra-lluvias-2026-11-15"
+    "t": "Hondudiario (15-nov)",
+    "url": "https://www.hondudiario.com/2026/11/15/copeco-anuncia-temperaturas-bajas-para-este-inicio-de-semana/"
    },
    {
-    "t": "Radio HRN (13-nov)",
-    "url": "https://www.radiohrn.hn/frente-frio-en-honduras-que-paso-con-el-fenomeno-segun-cenaos-copeco-2026-11-13"
+    "t": "Radio HRN (15-nov)",
+    "url": "https://www.radiohrn.hn/ingresara-algun-frente-frio-a-honduras-esta-semana-zonas-en-las-que-habra-lluvias-2026-11-15"
    }
   ]
  },
