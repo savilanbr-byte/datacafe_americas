@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-16T11:48:52Z",
+  "updatedAt": "2026-11-16T19:47:47Z",
   "items": [
+    {
+      "id": "p33",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-16",
+      "source": "Revista Economía · Midagri",
+      "url": "https://www.revistaeconomia.com/agroexportaciones-peruanas-setiembre-2026/",
+      "title": "Café verde suma US$ 969 millones exportados de enero a septiembre de 2026",
+      "summary": "Según Midagri, el café sin tostar fue el principal producto tradicional del agro con US$ 969 millones entre enero y septiembre de 2026 (92,1 % de esos envíos); frente a los US$ 705 millones de enero a agosto, septiembre habría aportado unos US$ 264 millones. Confirma que el grueso de la campaña 2026 ya se embarcó y que queda menos café disponible hasta la cosecha 2027."
+    },
     {
       "id": "p31",
       "scope": "pe",
@@ -76,17 +87,6 @@
       "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
       "title": "OIC: el indicador compuesto promedió 261,26 ¢/lb en octubre y las exportaciones mundiales 2025/26 subieron 1 %",
       "summary": "Según el informe de octubre de 2026 de la OIC, el precio compuesto bajó 0,3 % frente a septiembre; Otros Suaves (grupo de Perú) promedió 334,99 ¢/lb (+1,7 %) y la robusta 164,19 ¢/lb (−2 %). En el año cafetero 2025/26 se exportaron 142,39 millones de sacos (+1 %), con Brasil −7,3 % y Asia +12,8 %."
-    },
-    {
-      "id": "p28",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Eventos",
-      "date": "2026-11-11",
-      "source": "Agro Perú · Devida",
-      "url": "https://www.agroperu.pe/expovida-lima-2026-reunira-lo-mejor-de-la-produccion-de-cafe-cacao-y-otros-productos-del-desarrollo-alternativo/",
-      "title": "Expovida Lima 2026 reúne del 12 al 15 de noviembre café y cacao del desarrollo alternativo",
-      "summary": "Devida reúne a 33 organizaciones productoras en el Parque Kennedy de Miraflores, con concursos de café filtrado y cold brew y una meta de ventas de S/248.608 para todas las organizaciones; es una vitrina para contactar cooperativas de zonas como el VRAEM y la selva central."
     },
     {
       "id": "p29",

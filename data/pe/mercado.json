@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:48:52Z",
+  "updatedAt": "2026-11-16T19:47:47Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
@@ -26,14 +26,14 @@
       "note": "Quintal de 46 kg (US$6.857 por kg): US$701,74 M ÷ 102,3 millones de kg de café verde. Valor +0,6 % y volumen +2,8 % frente a ene–ago de 2025."
     },
     "expoValor": {
-      "label": "Exportaciones ene–ago 2026",
-      "value": 705,
+      "label": "Exportaciones ene–set 2026",
+      "value": 969,
       "dec": 0,
       "unit": "M USD",
-      "asOf": "2026-10-14",
-      "source": "Mincetur · El Peruano",
-      "url": "https://elperuano.pe/noticia/306824-mincetur-exportaciones-de-cafe-ascendieron-a-us-705-millones-en-primeros-ocho-meses-de-2026",
-      "note": "2025 completo: récord de US$1.796 M. Café verde ene–ago: US$701,74 M (+0,6 % frente a 2025). Expocafé Perú será del 26 al 29 de noviembre en Lima."
+      "asOf": "2026-11-16",
+      "source": "Midagri · Revista Economía",
+      "url": "https://www.revistaeconomia.com/agroexportaciones-peruanas-setiembre-2026/",
+      "note": "Café sin tostar ni descafeinar, enero a septiembre de 2026 (92,1 % de las agroexportaciones tradicionales). La fuente no da la comparación con ene–set de 2025 ni el volumen; ene–ago sumó US$705 M (Mincetur), lo que implica unos US$264 M en septiembre. 2025 completo: récord de US$1.796 M."
     },
     "expoVol": {
       "label": "Volumen exportado ene–ago 2026",

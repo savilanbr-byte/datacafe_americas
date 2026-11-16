@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:48:52Z",
+  "updatedAt": "2026-11-16T19:47:47Z",
   "temporada": "2026",
   "fuente": "Gestión · Agraria",
   "url": "https://gestion.pe/economia/cafe-se-tomaria-frio-exportaciones-peruanas-se-alejarian-de-un-record-en-2026-noticia/",
@@ -208,6 +208,15 @@
     }
   },
   "reportes": [
+    {
+      "id": "p7",
+      "fecha": "2026-11-16",
+      "region": "Perú",
+      "tipo": "noticia",
+      "texto": "Midagri: el café sin tostar sumó US$ 969 millones exportados entre enero y septiembre de 2026 (unos US$ 264 millones en septiembre).",
+      "fuente": "Revista Economía · Midagri",
+      "url": "https://www.revistaeconomia.com/agroexportaciones-peruanas-setiembre-2026/"
+    },
     {
       "id": "p6",
       "fecha": "2026-11-14",
