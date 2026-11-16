@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:47:29Z",
+  "updatedAt": "2026-11-16T19:47:58Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -29,16 +29,16 @@
   "impactos": [
     "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26; la Mesa Agropecuaria estima 950 mil. Conviene asegurar volúmenes de lotes de altura con tiempo.",
     "La época seca (desde el 9 de noviembre) favorece la corta y el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Cacahuatique, Chichontepec y El Bálsamo, que está en plena cosecha.",
-    "El MARN aún prevé lluvias breves por la tarde y la noche en Apaneca-Ilamatepec, El Bálsamo, Usulután, San Vicente, La Paz y Morazán por una vaguada: pueden interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
+    "El MARN aún prevé tormentas puntuales por la tarde en Apaneca-Ilamatepec y El Bálsamo, y lluvias breves de noche en Morazán y San Miguel (Cacahuatique), por vaguadas: pueden interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
     "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (corta de diciembre a marzo) puede adelantarse y dar grano más pequeño y menos denso; los vientos nortes pueden botar fruta madura en las partes altas."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-15",
-    "headline": "MARN: época seca con viento del noreste, pero una vaguada aún trae lluvias breves por la tarde y la noche sobre varias cordilleras cafetaleras",
+    "asOf": "2026-11-16",
+    "headline": "MARN: época seca con viento del noreste y calor; una vaguada aún deja tormentas puntuales por la tarde en Apaneca-Ilamatepec y El Bálsamo",
     "items": [
-      "Para el 15 de noviembre, lluvias breves por la tarde en Apaneca-Ilamatepec, tramos de El Bálsamo, el norte de Santa Ana, Chalatenango, Morazán y La Unión; de noche, en sectores de Morazán, San Miguel, Usulután, San Vicente, La Paz, Cabañas, Chalatenango, San Salvador y La Libertad.",
-      "Viento del noreste de 10 a 20 km/h con ráfagas de hasta 25 km/h; máximas de 35 °C en San Miguel, 33 °C en Santa Ana y 31 °C en San Salvador, por un flujo del noreste y una vaguada en niveles altos.",
+      "Para el 16 de noviembre, mañana despejada; por la tarde, lluvias y tormentas puntuales en las cordilleras Apaneca-Ilamatepec y El Bálsamo, el norte de Chalatenango y Santa Ana, Morazán y La Unión; de noche, lluvias breves en La Unión, Morazán y San Miguel. No se prevén lluvias generalizadas.",
+      "Viento del noreste de 10 a 20 km/h con brisas de hasta 30 km/h; máximas de 37 °C en San Miguel, 31 °C en San Salvador y 30 °C en Santa Ana, por el flujo del este y vaguadas.",
       "El MARN fijó el inicio de la época seca el 9 de noviembre; para noviembre prevé 48,7 mm de lluvia a escala nacional, sobre el promedio de 32,3 mm."
     ],
     "links": [
@@ -47,8 +47,8 @@
         "url": "https://www.snet.gob.sv/ver/meteorologia/pronostico/24+horas"
       },
       {
-        "t": "El Diario de Hoy · pronóstico 15-nov",
-        "url": "https://www.elsalvador.com/noticias/nacional/clima-pronostico-lluvia-tormentas-viento/1304166/2026/"
+        "t": "El Diario de Hoy · pronóstico 16-nov",
+        "url": "https://www.elsalvador.com/noticias/nacional/clima-pronostico-lluvia-calor/1304271/2026/"
       },
       {
         "t": "El Diario de Hoy · inicio de la época seca",
