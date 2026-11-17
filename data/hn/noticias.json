@@ -1,20 +1,28 @@
 {
- "updatedAt": "2026-11-17T11:48:03Z",
+ "updatedAt": "2026-11-17T19:47:14Z",
  "items": [
   {
-   "id": "h21",
+   "id": "h22",
    "scope": "hn",
    "regiones": [
-    "comayagua",
-    "el-paraiso",
     "agalta"
    ],
    "tag": "Clima",
+   "date": "2026-11-17",
+   "source": "Once Noticias · COPECO",
+   "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/",
+   "title": "COPECO declara alerta verde en Cortés y Atlántida por la vaguada prefrontal",
+   "summary": "La alerta (boletín 050-2026) rige 48 horas desde el martes 17; CENAOS prevé chubascos con tormentas en el noroccidente y la montaña de Olancho, lluvias débiles y aisladas en el occidente, centro y oriente, y el jueves 19 más lluvia en el norte, centro y oriente por una cuña de alta presión. En Agalta y el oriente puede frenar el secado del pergamino; el occidente sigue con buen tiempo para secar."
+  },
+  {
+   "id": "n24",
+   "scope": "mundo",
+   "tag": "Mercado",
    "date": "2026-11-16",
-   "source": "El Heraldo · CENAOS",
-   "url": "https://www.elheraldo.hn/honduras/vaguada-prefrontal-dejara-lluvias-chubascos-varias-zonas-honduras-martes-AB32662112",
-   "title": "Vaguada prefrontal trae chubascos al centro, oriente y norte de Honduras",
-   "summary": "CENAOS prevé para el martes 17 lluvias débiles a moderadas con actividad eléctrica en el noroccidente, norte, centro y oriente, y solo lluvias aisladas en el occidente (15–28 °C). Puede frenar unos días el secado del pergamino en Comayagua, El Paraíso y Olancho."
+   "source": "Reuters · Business Recorder",
+   "url": "https://www.brecorder.com/news/40449223/coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows",
+   "title": "El arábica sube con los inventarios ICE en nuevo mínimo de 27 años",
+   "summary": "El lunes 16 el arábica subía 0,7 % a 275,45 ¢/lb, alejándose del mínimo de siete semanas (262) del jueves, tras caer los inventarios certificados 15 % en dos sesiones a 211.321 sacos; la robusta bajaba 0,7 % a US$3.173/t, cerca de su mínimo de 2,5 años por la cosecha de Vietnam. Los operadores esperan que los stocks se recuperen con la buena cosecha de Brasil, así que la bolsa sigue volátil para fijar contratos de café hondureño."
   },
   {
    "id": "h19",
@@ -26,16 +34,6 @@
    "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
    "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
    "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
-  },
-  {
-   "id": "n23",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-12",
-   "source": "Barchart · Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
-   "title": "El arábica rebota 4,2 % desde su mínimo de 4,75 meses por inventarios ICE ajustados",
-   "summary": "El contrato de diciembre subió 11,20 centavos el jueves 12 por cierre de posiciones cortas; los inventarios certificados de arábica (228.586 sacos) siguen cerca de su mínimo de 27 años, mientras la robusta cayó 1,2 % con stocks en máximos de 1,25 años. La volatilidad del NY pesa sobre los diferenciales que se negocien para café hondureño de la cosecha nueva."
   },
   {
    "id": "n20",
