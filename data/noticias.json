@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "id": "n1",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "ADM Investor Services · ICE",
+      "url": "https://www.admis.com/arabica-stocks-hit-1999-low/",
+      "title": "Los inventarios certificados de arábica en ICE bajan a 186.414 sacos, el nivel más bajo desde 1999",
+      "summary": "Las existencias certificadas cayeron 24.907 sacos el lunes, mientras el café pendiente de clasificación subió a 196.852 sacos, todo de Brasil. El piso de inventarios sostiene el frente de Nueva York, pero esa fila de café brasileño en espera puede reponer existencias en las próximas semanas."
+    },
+    {
       "id": "l9",
       "scope": "mundo",
       "tag": "Mercado",
@@ -247,5 +257,5 @@
       "summary": "Los ingresos superaron US$878 millones, 15% más que un año antes, aunque un poco por debajo de la meta; China ya es el tercer destino con unas 15.125 toneladas. Más competencia de Etiopía por los compradores de lavados de alta calidad."
     }
   ],
-  "updatedAt": "2026-11-17T11:50:27Z"
+  "updatedAt": "2026-11-17T19:47:04Z"
 }
