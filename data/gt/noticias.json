@@ -1,22 +1,24 @@
 {
-  "updatedAt": "2026-11-16T19:46:31Z",
+  "updatedAt": "2026-11-17T11:48:06Z",
   "items": [
     {
-      "id": "g20",
+      "id": "g22",
       "scope": "gt",
       "regiones": [
         "coban",
         "san-marcos",
         "huehuetenango",
+        "atitlan",
         "acatenango",
-        "antigua"
+        "antigua",
+        "nuevo-oriente"
       ],
       "tag": "Clima",
-      "date": "2026-11-15",
-      "source": "Publinews · INSIVUMEH",
-      "url": "https://www.publinews.gt/noticias/2026/11/16/prepara-el-abrigo-insivumeh-pronostica-viento-norte-y-ambiente-frio-para-este-lunes-16/",
-      "title": "INSIVUMEH: viento norte, lloviznas por la tarde y noches frías para el 16 de noviembre",
-      "summary": "Para el lunes 16-nov el INSIVUMEH prevé lloviznas por la tarde y noche en el Norte, Caribe, Occidente y parte de la Bocacosta, viento norte en el Altiplano Central y Valles de Oriente, y ambiente frío de noche en la Franja Transversal del Norte, Occidente y el Altiplano. En Cobán y San Marcos, que ya cosechan, la llovizna de la tarde sigue complicando el secado."
+      "date": "2026-11-16",
+      "source": "Radio Sonora · INSIVUMEH",
+      "url": "https://www.sonora.com.gt/asi-estara-el-clima-en-guatemala-del-16-al-20-de-noviembre-de-2026-segun-el-insivumeh/",
+      "title": "INSIVUMEH: semana del 16 al 20-nov con noches de 3–5 °C en el Altiplano y lluvias por la tarde",
+      "summary": "El pronóstico semanal prevé mínimas de 3 a 5 °C en el Altiplano Central y Occidental, neblina y lluvias dispersas por la tarde y noche en Alta Verapaz, el Norte, el Caribe, la Bocacosta y el Suroccidente, con tormentas en zonas montañosas del Oriente. En Cobán, San Marcos y Nuevo Oriente, que ya cosechan, la lluvia de la tarde sigue frenando el secado en patio."
     },
     {
       "id": "n20",

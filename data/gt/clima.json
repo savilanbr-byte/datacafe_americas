@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:46:31Z",
+  "updatedAt": "2026-11-17T11:48:06Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,7 +28,7 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) siguen con lloviznas por la tarde en el Norte, Occidente y la Bocacosta: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
+    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tendrán lluvias dispersas por la tarde en el Norte, la Bocacosta, el Suroccidente y el Oriente toda la semana del 16 al 20-nov: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
     "Con el viento norte y los frentes fríos se esperan mínimas de 3–5 °C en los altiplanos (ya hubo 5 °C en Huehuetenango): pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos y Atitlán.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; los mayores déficits se dieron en Chiquimula, Santa Rosa, Jutiapa y Sololá, y Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
@@ -36,11 +36,11 @@
   "avisos": {
     "source": "INSIVUMEH",
     "asOf": "2026-11-16",
-    "headline": "16 de noviembre: vuelve el viento norte con lloviznas por la tarde en el Norte, Caribe, Occidente y parte de la Bocacosta; noches frías en el Altiplano",
+    "headline": "Semana del 16 al 20 de noviembre: días cálidos, noches frías (3–5 °C en el Altiplano) y lluvias dispersas por la tarde en el Norte, Caribe, Bocacosta y Suroccidente",
     "items": [
-      "INSIVUMEH (pronóstico para el 16-nov): más nubes en el Norte y el Caribe; por la tarde y noche, lloviznas en el Norte, Caribe, Occidente y parte de la Bocacosta, sin descartar actividad eléctrica aislada; viento norte leve a moderado en el Altiplano Central, Valles de Oriente y parte de Occidente.",
-      "INSIVUMEH (11-nov): mínimas registradas de 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; se esperan 3–5 °C en los altiplanos y dos frentes fríos en noviembre.",
-      "Perspectiva de noviembre (INSIVUMEH, 1-nov): lluvias por encima de lo habitual en Caribe, Bocacosta y Petén; 16 frentes fríos en la temporada y mínimas cercanas a 0 °C en zonas altas en diciembre; El Niño persistiría a inicios de 2027."
+      "INSIVUMEH (pronóstico semanal 16–20 nov): ingreso de humedad desde ambos litorales con lluvias dispersas por la tarde y noche en Petén, Alta Verapaz, la Franja Transversal del Norte, el Caribe, la Bocacosta y el Suroccidente; en el Oriente, lluvias con actividad eléctrica en zonas montañosas.",
+      "Mínimas de 3 a 5 °C en las noches y madrugadas del Altiplano Central y Occidental, con neblina por la mañana y la noche en buena parte del país; de día, ambiente cálido.",
+      "INSIVUMEH (11-nov): ya se registraron 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango); la perspectiva de noviembre prevé dos frentes fríos en el mes y 16 en la temporada 2026-27."
     ],
     "links": [
       {
@@ -48,8 +48,8 @@
         "url": "https://insivumeh.gob.gt/"
       },
       {
-        "t": "Pronóstico del 16-nov (Publinews)",
-        "url": "https://www.publinews.gt/noticias/2026/11/16/prepara-el-abrigo-insivumeh-pronostica-viento-norte-y-ambiente-frio-para-este-lunes-16/"
+        "t": "Pronóstico 16–20 nov (Radio Sonora)",
+        "url": "https://www.sonora.com.gt/asi-estara-el-clima-en-guatemala-del-16-al-20-de-noviembre-de-2026-segun-el-insivumeh/"
       },
       {
         "t": "Temperaturas registradas (Prensa Latina, 11-nov)",
