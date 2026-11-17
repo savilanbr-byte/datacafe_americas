@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-16T19:47:58Z",
+  "updatedAt": "2026-11-17T11:48:15Z",
   "items": [
+    {
+      "id": "s19",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Eventos",
+      "date": "2026-11-13",
+      "source": "Diario El Salvador",
+      "url": "https://diarioelsalvador.com/dedinero/el-salvador-promueve-su-cafe-en-campeonato-de-barismo-en-argentina/875807",
+      "title": "El ISC promueve el café salvadoreño en un campeonato de baristas de Café Martínez en Argentina",
+      "summary": "El Instituto Salvadoreño del Café y la embajada en Argentina participaron en el 7.º Campeonato Internacional de Baristas 2026 de la cadena Café Martínez, que se disputó con grano de origen salvadoreño. Es una vitrina comercial en Sudamérica; la nota no da volúmenes ni precios de compra."
+    },
     {
       "id": "n24",
       "scope": "mundo",
@@ -112,20 +123,6 @@
       "url": "https://www.woodpeckerscoffee.com/post/global-coffee-roundup-28-october-3-november-2026",
       "title": "Brasil exporta un récord de 4,93 millones de sacos en octubre y Vietnam acelera su cosecha de robusta",
       "summary": "Las exportaciones brasileñas de octubre marcaron un récord mensual pese a demoras en puertos; en Vietnam la cosecha 2026/27 (hasta 32,5 millones de sacos, récord) llega a su pico en noviembre–diciembre, con precio interno de unos 86.000 VND/kg. La robusta tocó US$3.183/t, mínimo desde marzo de 2024."
-    },
-    {
-      "id": "s10",
-      "scope": "sv",
-      "regiones": [
-        "alotepec-metapan",
-        "apaneca-ilamatepec"
-      ],
-      "tag": "Clima",
-      "date": "2026-10-26",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/10/26/vientos-del-norte-mantendran-las-madrugadas-frescas-con-temperaturas-de-hasta-11-c-en-el-salvador/",
-      "title": "Vientos del norte dejan madrugadas de hasta 12 °C en zonas altas, sin lluvias previstas",
-      "summary": "El MARN reporta mínimas de 11,9 °C en Las Pilas (Chalatenango) y 12,4 °C en Planes de Montecristo (Santa Ana), con vientos de 15–25 km/h y ráfagas de hasta 45 km/h. El tiempo seco favorece el secado en patio y la corta, aunque el viento puede acelerar la caída de fruta en lotes expuestos."
     }
   ]
 }
