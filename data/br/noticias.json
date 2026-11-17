@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2026-11-16T19:47:32Z",
+  "updatedAt": "2026-11-17T11:48:44Z",
   "items": [
     {
-      "id": "b45",
+      "id": "n34",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://brecorder.com/news/40449223/coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows",
+      "title": "Los inventarios certificados de arábica caen a su mínimo en 27 años",
+      "summary": "Las existencias de la ICE bajaron 15 % en dos sesiones a 211.321 sacas y el arábica subió 0,7 % a US$2,7545/lb, lejos del mínimo de siete semanas (US$2,62); el robusta cayó 0,7 % a US$3.173/t, cerca de su mínimo en 2,5 años por la amplia cosecha de Vietnam. Los operadores esperan que los inventarios se recuperen con la buena perspectiva de Brasil."
+    },
+    {
+      "id": "b47",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
       "date": "2026-11-16",
-      "source": "Metrópoles",
-      "url": "https://metropoles.com/brasil/dolar-nesta-segunda-16-11",
-      "title": "El dólar se dispara hasta R$5,79, su nivel más alto en 19 meses",
-      "summary": "El lunes 16 el dólar abrió en R$5,68 y subió más de 2,4 % durante la tarde por las dudas sobre el ajuste fiscal de 2027 (el Senado vota cambios el 17-nov) y por los tipos altos en EE. UU.; la PTAX quedó en R$5,7324. Un real más débil sostiene los precios internos en reales y abarata el café brasileño para quien compra en dólares."
+      "source": "Reuters (Antena 1)",
+      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-213-a-r57770-na-venda",
+      "title": "El dólar cierra en R$5,777, su nivel más alto desde abril de 2025",
+      "summary": "El dólar comercial subió 2,13 % el lunes 16 por el temor a que el Senado diluya el paquete fiscal de hasta R$60.000 millones para 2027 y por la incertidumbre sobre el próximo ministro de Hacienda; el Focus elevó su previsión de cambio. Un real tan débil sostiene los precios internos en reales y abarata el café brasileño para quien compra en dólares."
     },
     {
       "id": "b46",
@@ -24,6 +34,20 @@
       "url": "https://www.marketscreener.com/news/nestle-brazil-coffee-supplier-faces-hearing-over-labor-abuse-claims--ce785edfda8ff624",
       "title": "Cooabriel, gran cooperativa de conilon y proveedora de Nestlé, va a audiencia por trabajo análogo a la esclavitud",
       "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
+    },
+    {
+      "id": "b48",
+      "scope": "br",
+      "regiones": [
+        "montanhas-es",
+        "matas-de-minas"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-14",
+      "source": "Manhuaçu News",
+      "url": "https://www.manhuacunews.com.br/2026/11/14/cafe-de-iuna-e-campeao-do-coffee-of-the-year-2026-matas-de-minas-tem-tres-entre-os-dez-primeiros/",
+      "title": "Coffee of the Year 2026: un arábica de Iúna (ES) es el mejor de Brasil",
+      "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
     },
     {
       "id": "n32",
@@ -200,24 +224,6 @@
       "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
       "title": "Semana lluviosa en las zonas cafeteras: más de 100 mm en el sur de Bahia y norte de Espírito Santo",
       "summary": "Climatempo prevé lluvia en Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves caerían localmente más de 100 mm en el sur de Bahia y el norte del ES, buena señal para el cuajado (pegamento) de la safra 2027."
-    },
-    {
-      "id": "b22",
-      "scope": "br",
-      "regiones": [
-        "cerrado-mineiro",
-        "mogiana",
-        "sul-de-minas",
-        "norte-pioneiro",
-        "conilon-es",
-        "rondonia"
-      ],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Comunicaffe · CEPEA",
-      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
-      "title": "CEPEA: la safra 2027/28 arranca bien, pero el calor y El Niño inquietan",
-      "summary": "El cuajado (pegamento) es bueno en Mogiana, noroeste de Paraná y Sul de Minas; en el Cerrado Mineiro se confirmará hacia diciembre y en Rondônia casi un mes seco trajo broca temprana. Se espera una cosecha grande pero no récord en un año de baja bienal."
     }
   ]
 }
