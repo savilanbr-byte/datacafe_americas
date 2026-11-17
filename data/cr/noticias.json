@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:47:14Z",
+  "updatedAt": "2026-11-17T11:47:32Z",
   "items": [
     {
       "id": "n37",
@@ -16,6 +16,16 @@
       "url": "https://www.diarioextra.com/noticia/clima-costa-rica-semana-empezara-con-lluvias-esto-dice-el-imn/",
       "title": "IMN: semana con poca nubosidad en el Pacífico y alisios fuertes, con lluvias en el Caribe desde mitad de semana",
       "summary": "El IMN prevé ráfagas de 20–50 km/h en el Valle Central y de 50–80 km/h en montañas, condiciones estables en la vertiente del Pacífico y lluvias en el Caribe y la Zona Norte, sobre todo desde el miércoles. Buena semana para secar al sol en Valle Central y Occidental; en Turrialba y Zona Norte el secado seguirá lento."
+    },
+    {
+      "id": "n38",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-16",
+      "source": "Báo Lào Cai",
+      "url": "https://baolaocai.vn/gia-ca-phe-hom-nay-1611-cho-tin-hieu-moi-sau-chuoi-giam-sau-post914608.html",
+      "title": "Vietnam en pico de cosecha: el robusta interno baja a unos 83.000 VND/kg y Londres cierra en 3.196 US$/t",
+      "summary": "En el Altiplano Central el robusta se paga entre 82.300 y 83.000 VND/kg tras una racha de caídas, mientras el contrato de enero en Londres cerró en 3.196 US$/t y el arábica de diciembre en 278,65 ¢/lb. La presión de la cosecha vietnamita pesa sobre los precios mundiales y sobre el diferencial que se negocia para los cafés lavados de Costa Rica."
     },
     {
       "id": "n35",
@@ -37,16 +47,6 @@
       "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
       "title": "Arábica cierra la semana cerca de 274 ¢/lb (−2,2 %) y los inventarios certificados suben a más de 241.000 sacos",
       "summary": "El arábica de diciembre tocó 262,15 ¢/lb el miércoles, rebotó 4,16 % con el vencimiento de opciones y terminó la semana cerca de 274 ¢/lb; el robusta de enero quedó en unos US$3.207/t, cerca de mínimos de dos años y medio, y hay más de 100.000 sacos en espera de clasificación en ICE. Más inventario certificado resta presión alcista al contrato de diciembre, cuyo primer aviso es el 19 de noviembre."
-    },
-    {
-      "id": "n38",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-16",
-      "source": "Báo Lào Cai",
-      "url": "https://baolaocai.vn/gia-ca-phe-hom-nay-1611-cho-tin-hieu-moi-sau-chuoi-giam-sau-post914608.html",
-      "title": "Vietnam en pico de cosecha: el robusta interno baja a unos 83.000 VND/kg y Londres cierra en 3.196 US$/t",
-      "summary": "En el Altiplano Central el robusta se paga entre 82.300 y 83.000 VND/kg tras una racha de caídas, mientras el contrato de enero en Londres cerró en 3.196 US$/t y el arábica de diciembre en 278,65 ¢/lb. La presión de la cosecha vietnamita pesa sobre los precios mundiales y sobre el diferencial que se negocia para los cafés lavados de Costa Rica."
     },
     {
       "id": "n34",
