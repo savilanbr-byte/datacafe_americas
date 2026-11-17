@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-16T19:47:47Z",
+  "updatedAt": "2026-11-17T11:47:44Z",
   "items": [
+    {
+      "id": "p34",
+      "scope": "pe",
+      "regiones": [
+        "huanuco",
+        "junin",
+        "pasco"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-17",
+      "source": "Ahora · SENAMHI",
+      "url": "https://ahora.com.pe/regional/senamhi-preve-hasta-35-c-en-puerto-inca-y-radiacion-uv-de-15-en-huanuco",
+      "title": "SENAMHI: alerta roja por calor en la selva hasta el 18 de noviembre, con vientos fuertes y lluvias en Huánuco",
+      "summary": "El aviso 469 (rojo) prevé de 28 a 37 °C en la selva central del 16 al 18 de noviembre; el 468 anuncia ráfagas de más de 55 km/h en Tingo María y Leoncio Prado, y el aviso regional 320 de 5 a 45 mm diarios en 11 provincias de Huánuco. El calor con lluvias intermitentes en plena floración puede afectar el cuajado de la campaña 2027 en la selva central."
+    },
     {
       "id": "p33",
       "scope": "pe",
@@ -144,25 +159,6 @@
       "url": "https://www.agroperu.pe/cajamarca-conquista-por-segundo-ano-consecutivo-el-primer-lugar-de-la-taza-de-excelencia-peru-2026/",
       "title": "Un geisha de Chirinos (San Ignacio) gana la Taza de Excelencia Perú 2026",
       "summary": "Fidel Huancas (Finca La Esperanza, Cajamarca) ganó con 91,71 puntos, seguido por un geisha de Cholón, Huánuco (91,45), y otro de Jaén (90,93); 30 lotes superaron los 87 puntos y cinco pasaron de 90. La subasta internacional será el 8 de diciembre: oportunidad para comprar microlotes de alto puntaje del norte y la selva central."
-    },
-    {
-      "id": "p26",
-      "scope": "pe",
-      "regiones": [
-        "ayacucho",
-        "cusco",
-        "huanuco",
-        "junin",
-        "pasco",
-        "san-martin",
-        "puno"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-06",
-      "source": "Ahora · SENAMHI",
-      "url": "https://ahora.com.pe/nacional/senamhi-decimoquinto-friaje-selva-noviembre",
-      "title": "SENAMHI anuncia el decimoquinto friaje del año para el 8 y 9 de noviembre",
-      "summary": "Alerta amarilla en Ayacucho, Cusco, Huánuco, Junín, Pasco y San Martín, entre otros, con lluvias ligeras a moderadas, tormentas y mínimas de ~17 °C en la selva sur. Aporta humedad en plena floración de la selva central y sur, aunque puede afectar caminos de acopio por unos días."
     },
     {
       "id": "n17",
