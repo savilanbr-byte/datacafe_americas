@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:48:06Z",
+  "updatedAt": "2026-11-17T19:47:20Z",
   "items": [
     {
       "id": "g22",
@@ -19,6 +19,16 @@
       "url": "https://www.sonora.com.gt/asi-estara-el-clima-en-guatemala-del-16-al-20-de-noviembre-de-2026-segun-el-insivumeh/",
       "title": "INSIVUMEH: semana del 16 al 20-nov con noches de 3–5 °C en el Altiplano y lluvias por la tarde",
       "summary": "El pronóstico semanal prevé mínimas de 3 a 5 °C en el Altiplano Central y Occidental, neblina y lluvias dispersas por la tarde y noche en Alta Verapaz, el Norte, el Caribe, la Bocacosta y el Suroccidente, con tormentas en zonas montañosas del Oriente. En Cobán, San Marcos y Nuevo Oriente, que ya cosechan, la lluvia de la tarde sigue frenando el secado en patio."
+    },
+    {
+      "id": "n21",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-16",
+      "source": "Reuters · MarketScreener",
+      "url": "https://www.marketscreener.com/news/softs-arabica-coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows-ce785edfdd80ff24",
+      "title": "Arábica sube el 16-nov con inventarios certificados de ICE en mínimos de 27 años",
+      "summary": "Los futuros de arábica en ICE cerraron al alza el lunes 16 de noviembre y se alejaron de sus mínimos de siete semanas, porque los inventarios certificados de la bolsa cayeron a su nivel más bajo en 27 años. Para quien compra en Guatemala, un mercado de existencias escasas sostiene el precio base de la Bolsa de NY sobre el que se fijan los contratos de la cosecha 2026-27."
     },
     {
       "id": "n20",
@@ -151,16 +161,6 @@
       "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
       "title": "Anacafé recorta a 3,8 M de quintales la exportación esperada de 2026-27",
       "summary": "La proyección bajó de 4,2 a 3,8 M de quintales por El Niño, que podría afectar floración y llenado del grano. El promedio de 2025-26 fue de unos US$336 por quintal oro (−2,3 %) y para 2026-27 se espera entre US$275 y US$300: menos oferta y precios más bajos para negociar."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40447130/arabica-coffee-futures-rally",
-      "title": "Arábica sube 2,7 % a US$2,95 por libra con inventarios de ICE cerca de mínimos",
-      "summary": "El 2-nov el arábica rebotó tras perder 1,2 % en octubre; los inventarios certificados son de 225.068 sacos, cerca del mínimo de 27 años. La robusta subió 2,6 % a US$3.286 por tonelada tras tocar US$3.140, su nivel más bajo desde marzo de 2024; el real débil sigue presionando."
     },
     {
       "id": "g21",
