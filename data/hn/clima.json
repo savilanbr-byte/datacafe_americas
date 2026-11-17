@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T19:47:44Z",
+ "updatedAt": "2026-11-17T11:48:03Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -28,19 +28,19 @@
  },
  "impactos": [
   "El Niño fuerte (+2,5 °C en Niño 3.4) sigue recortando lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "CENAOS prevé días mayormente secos y madrugadas frescas (unos 15 °C en el occidente) sin frentes fríos en cinco días: buen secado del pergamino en Copán, Opalaca y Montecillos, donde arranca el corte en las zonas bajas.",
-  "Las lluvias serán débiles y sobre todo en las montañas del norte (Yoro, norte de Olancho y Comayagua): el secado al sol puede ser más lento en Agalta y Comayagua, así que pide la humedad del grano al recibir los lotes.",
+  "La vaguada prefrontal del martes trae chubascos al centro, oriente y norte: en Comayagua, El Paraíso y Agalta el secado al sol puede interrumpirse unos días, así que pide la humedad del grano al recibir los lotes.",
+  "En el occidente (Copán, Opalaca y Montecillos) solo habrá lluvias débiles y madrugadas de unos 15 °C: buenas condiciones para secar el pergamino donde arranca el corte en las zonas bajas.",
   "Con calor y poca lluvia la fruta madura de golpe; si faltan recolectores sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-16",
-  "headline": "CENAOS: madrugadas frescas y días mayormente secos; sin frentes fríos en los próximos cinco días",
+  "asOf": "2026-11-17",
+  "headline": "CENAOS: una vaguada prefrontal deja lluvias y chubascos débiles a moderados el martes 17 en el noroccidente, norte, centro y oriente",
   "items": [
-   "Mínimas de unos 15 °C en el occidente, 17–18 °C en el centro, 22 °C en el norte y 24 °C en el sur; neblina por la mañana en varios sectores.",
-   "Condiciones mayormente secas; solo lluvias débiles y breves por humedad del Caribe, sobre todo en zonas montañosas del norte.",
-   "El frente frío previsto se debilitó y no llegó; no se espera ninguno en al menos cinco días."
+   "Lluvias dispersas con actividad eléctrica aislada en el noroccidente, norte, centro y oriente; en el occidente y el sur, solo lluvias débiles y aisladas.",
+   "Temperaturas: occidente 15–28 °C, centro 20–30 °C, oriente 20–31 °C, norte 23–29 °C y sur hasta 37 °C.",
+   "Madrugadas frescas en el occidente; CENAOS no prevé el ingreso de frentes fríos en los próximos días."
   ],
   "links": [
    {
@@ -48,8 +48,8 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Hondudiario (15-nov)",
-    "url": "https://www.hondudiario.com/2026/11/15/copeco-anuncia-temperaturas-bajas-para-este-inicio-de-semana/"
+    "t": "El Heraldo (16-nov)",
+    "url": "https://www.elheraldo.hn/honduras/vaguada-prefrontal-dejara-lluvias-chubascos-varias-zonas-honduras-martes-AB32662112"
    },
    {
     "t": "Radio HRN (15-nov)",
