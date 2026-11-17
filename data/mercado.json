@@ -27,34 +27,34 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-16",
+    "asOf": "2026-11-17",
     "base": "USD",
     "rates": {
-      "BRL": 5.663557,
-      "COP": 3316.635822,
-      "MXN": 18.544914,
-      "GTQ": 7.652174,
-      "HNL": 26.923049,
-      "NIO": 36.840046,
-      "CRC": 449.715073,
-      "VES": 914.0218,
-      "PEN": 3.409303,
-      "BOB": 11.69897
+      "BRL": 5.714693,
+      "COP": 3315.703306,
+      "MXN": 18.548392,
+      "GTQ": 7.640804,
+      "HNL": 26.904225,
+      "NIO": 36.80446,
+      "CRC": 447.073657,
+      "VES": 915.7476,
+      "PEN": 3.411033,
+      "BOB": 11.669516
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
   },
   "items": {
     "cot": {
-      "asOf": "2026-11-03",
-      "change": -5372,
+      "asOf": "2026-11-10",
+      "change": -3800,
       "dec": 0,
       "label": "Fondos (managed money) neto",
-      "note": "Largos 34.613 · cortos 19.881. Neto comprado, baja por segunda semana.",
+      "note": "Largos 32.213 · cortos 21.281. Neto comprado, baja por tercera semana.",
       "source": "CFTC COT",
       "unit": "contratos",
       "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-      "value": 14732
+      "value": 10932
     },
     "expoBR": {
       "asOf": "2026-10-31",
@@ -146,7 +146,7 @@
       "contract": "Dic-26",
       "dec": 2,
       "label": "KC C1",
-      "note": "Liquidación del 16-nov (página de contratos de Investing; la serie continua del histórico ya pasó a Mar-27: 274,40, +0,33%)",
+      "note": "Liquidación del 16-nov (página de contratos de Investing). Intradía 17-nov: Dic-26 en 286,15 (+5,45)",
       "source": "Investing.com",
       "unit": "¢/lb",
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
@@ -213,7 +213,7 @@
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
       "value": 3139.0,
-      "note": "Cierre del 16-nov; cierre previo 3.201"
+      "note": "Cierre del 16-nov; cierre previo 3.201. Intradía 17-nov: 3.134 (−5)"
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-16T19:47:06Z"
+  "updatedAt": "2026-11-17T11:50:27Z"
 }

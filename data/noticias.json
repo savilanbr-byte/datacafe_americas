@@ -11,6 +11,17 @@
       "summary": "En la mañana del lunes 16/11 diciembre subía 1,18 % a 281,95 ¢/lb y marzo 0,95 % a 276,10 ¢/lb, recuperando parte de lo perdido. El mercado sigue de cerca el calor y las lluvias irregulares en Mogiana y Cerrado durante el cuajado."
     },
     {
+      "id": "l4",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-16",
+      "source": "FNC",
+      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
+      "title": "Colombia: el precio interno sube a $2.085.000 por carga",
+      "summary": "La FNC fijó el 16 de noviembre la referencia en $2.085.000 por carga de 125 kg de pergamino seco, $10.000 más que el viernes, con el contrato C en 280,70 ¢/lb. El precio interno sigue la recuperación de Nueva York con un peso estable cerca de 3.316 por dólar."
+    },
+    {
       "id": "l1",
       "scope": "am",
       "pais": "Costa Rica",
@@ -85,17 +96,6 @@
       "summary": "Al 12 de noviembre la cereza se pagaba entre 14,20 pesos (Tlaltetela) y 16,10 pesos por kilo (Huatusco), con un promedio de 15,40 pesos según la comisión estatal de precios. El piso subió unos 2 pesos en la semana a medida que avanzan las compras de la cosecha 2026-27."
     },
     {
-      "id": "l4",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Precios",
-      "date": "2026-11-13",
-      "source": "FNC",
-      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
-      "title": "Colombia: el precio interno repunta a $2.075.000 por carga",
-      "summary": "La FNC fijó el 13 de noviembre la referencia en $2.075.000 por carga de 125 kg de pergamino seco, con el contrato C en 278,65 ¢/lb y la pasilla en $12.000 por kilo. El repunte frente a los cerca de $2.000.000 de inicios de semana se apoya en un peso más débil."
-    },
-    {
       "id": "l6",
       "scope": "am",
       "pais": "Brasil",
@@ -159,6 +159,17 @@
       "url": "https://efficienza.com.br/ataque-hacker-porto-de-santos-sistemas-fora-do-ar-aps/",
       "title": "Brasil: un ataque informático deja sin sistemas a la Autoridad Portuaria de Santos",
       "summary": "Desde el 6-nov la autoridad portuaria opera en parte de forma manual, aunque buques, camiones y trenes siguen entrando; la espera media para atracar fue de unos 1,85 días entre el 4 y el 10 de noviembre. Santos embarca cerca del 71% del café brasileño: conviene prever demoras administrativas en los embarques de noviembre."
+    },
+    {
+      "id": "m1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Logística",
+      "date": "2026-11-12",
+      "source": "El Tiempo · MinTransporte",
+      "url": "https://www.eltiempo.com/colombia/cali/represamiento-de-mas-de-109-000-contenedores-vacios-en-buenaventura-pone-en-alerta-el-42-del-comercio-exterior-del-pais-mintransporte-en-el-puerto-3600627",
+      "title": "Buenaventura acumula más de 109.000 contenedores vacíos y congestiona sus accesos",
+      "summary": "Según la ministra de Transporte, por cada cuatro contenedores que entran al puerto solo sale uno; el Gobierno abrió mesas con navieras y operadores para descongestionar vías y devolver los vacíos. Buenaventura mueve el 42 % del comercio exterior colombiano y la mayor parte del café exportado: prever demoras en citas y sobrecostos de transporte en los embarques."
     },
     {
       "id": "f1",
@@ -234,39 +245,7 @@
       "url": "https://english.news.cn/20261108/6c47963125274c77b33a1f33c9f4ca67/c.html",
       "title": "Etiopía exporta más de 131.000 toneladas de café en el primer trimestre fiscal y gana 15% más",
       "summary": "Los ingresos superaron US$878 millones, 15% más que un año antes, aunque un poco por debajo de la meta; China ya es el tercer destino con unas 15.125 toneladas. Más competencia de Etiopía por los compradores de lavados de alta calidad."
-    },
-    {
-      "date": "2026-11-06",
-      "id": "a61",
-      "scope": "am",
-      "source": "Infobae · Sucafina/Reuters",
-      "summary": "La caída frente a 19,68 millones de sacos se atribuye al clima del primer semestre y al ciclo bienal bajo del arábica; Honduras y México bajarían más y Guatemala menos. Menor oferta regional para compras de la próxima cosecha.",
-      "tag": "Producción",
-      "title": "Centroamérica y México: Sucafina prevé una cosecha 2026-27 un 9,3% menor, bajo 18 millones de sacos",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/"
-    },
-    {
-      "id": "b1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Agronegocios · La República",
-      "url": "https://www.agronegocios.co/agricultura/produccion-cafetera-con-corte-a-octubre-de-2026-4519174",
-      "title": "Colombia: la producción de octubre cae 8 % y el año cierra en 12,56 millones de sacos",
-      "summary": "Octubre sumó 1,114 millones de sacos (−8 %) y los últimos doce meses 12,56 millones (−15 %). Las exportaciones del mes subieron 6 % (1,119 millones), pero en doce meses son 11,85 millones (−11 %): oferta local aún corta."
-    },
-    {
-      "id": "l7",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Comunicaffè · Cepea",
-      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
-      "title": "Cepea: buen cuajado para la cosecha 2027/28, pero el calor preocupa",
-      "summary": "Cepea reporta floración y cuajado buenos en Mogiana, noroeste de Paraná y buena parte del Sur de Minas; en el Cerrado se confirmará hacia diciembre y Rondônia sufrió casi un mes seco con broca temprana. Con bienalidad baja, el mercado espera una cosecha grande pero no récord, expuesta al calor de El Niño."
     }
   ],
-  "updatedAt": "2026-11-16T19:47:06Z"
+  "updatedAt": "2026-11-17T11:50:27Z"
 }
