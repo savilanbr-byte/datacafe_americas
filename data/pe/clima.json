@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:47:44Z",
+  "updatedAt": "2026-11-17T19:52:00Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,7 +28,7 @@
   },
   "impactos": [
     "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
-    "La semana alterna lluvias en la sierra (aviso 467, hasta el 17-nov) con calor de 28–37 °C y vientos fuertes en la selva (avisos 469 y 468, hasta el 18-nov). El ENFEN espera lluvias normales o menores en la Amazonía central y sur: vigila el cuajado en Huánuco, Junín, Pasco, Cusco y Puno.",
+    "Tras el calor de 28–37 °C y los vientos fuertes en la selva (avisos 469 y 468, hasta el 18-nov), vuelven las lluvias moderadas a fuertes a la sierra del 18 al 20 de noviembre (5–45 mm/día en la sierra norte). El ENFEN espera lluvias normales o menores en la Amazonía central y sur: vigila el cuajado en Huánuco, Junín, Pasco, Cusco y Puno.",
     "Las lluvias de El Niño costero en la costa norte y la sierra norte pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
     "Más humedad y calor elevan el riesgo de roya; en Cajamarca, un gremio local estima (12-nov) que lluvias y roya podrían afectar hasta 60 % de los cafetales. La sanidad de este ciclo definirá la campaña 2027.",
     "La JNC proyecta 220–230 mil t para 2026 (−18 a −22 %): con menos café y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes."
@@ -36,14 +36,17 @@
   "avisos": {
     "source": "SENAMHI · ENFEN",
     "asOf": "2026-11-17",
-    "headline": "SENAMHI: alerta roja por calor en la selva (28–37 °C) y vientos fuertes hasta el 18 de noviembre, tras las lluvias en la sierra del 15 al 17; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
+    "headline": "SENAMHI: lluvias de moderada a fuerte intensidad en la sierra del 18 al 20 de noviembre, tras la alerta roja por calor en la selva (28–37 °C) hasta el 18; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
+      "SENAMHI (pronóstico del 17-nov): del 18 al 20 de noviembre, lluvias de moderada a fuerte intensidad con 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y cerca de 20 mm en la sierra sur; entre los departamentos con posible afectación están Cajamarca, Piura, Junín, Pasco, Huánuco y Ayacucho.",
       "SENAMHI (aviso 469, rojo): aumento de la temperatura diurna en la selva del lunes 16 al miércoles 18 de noviembre, con 28–37 °C en la selva central; el aviso 468 (naranja) prevé ráfagas de más de 55 km/h, entre otros en Tingo María.",
-      "SENAMHI (aviso regional 320, amarillo, desde el 16-nov por 24 h): 5–45 mm diarios con descargas eléctricas en 11 provincias de Huánuco.",
-      "SENAMHI (aviso 467): lluvias de ligera a fuerte intensidad en la sierra del 15 al 17 de noviembre; el domingo, 5–29 mm en la sierra norte, 6–13 mm en la sierra central y unos 13 mm en la sierra sur.",
       "ENFEN mantiene la alerta: magnitud extraordinaria hasta febrero de 2027 y descenso gradual hasta junio; de noviembre a enero, lluvias sobre lo normal en la costa norte y la sierra occidental, y normales o menores en la sierra suroriental y parte de la Amazonía."
     ],
     "links": [
+      {
+        "t": "SENAMHI · La República (17-nov)",
+        "url": "https://larepublica.pe/sociedad/2026/11/17/senamhi-advierte-lluvias-de-hasta-50-mm-por-dia-en-la-costa-norte-y-sierra-desde-este-miercoles-18-de-noviembre-811869"
+      },
       {
         "t": "SENAMHI · Ahora (17-nov)",
         "url": "https://ahora.com.pe/regional/senamhi-preve-hasta-35-c-en-puerto-inca-y-radiacion-uv-de-15-en-huanuco"
@@ -55,14 +58,6 @@
       {
         "t": "SENAMHI · Inforegión (11-nov)",
         "url": "https://inforegion.pe/huanuco-soportara-temperaturas-de-hasta-38-c-en-la-selva-y-senamhi-advierte-lluvias-de-moderada-a-fuerte-intensidad-desde-el-15-de-noviembre/"
-      },
-      {
-        "t": "SENAMHI · El Tiempo (10-nov)",
-        "url": "https://eltiempo.pe/nacional/senamhi-emite-alerta-roja-por-lluvias-intensas-en-el-norte-tumbes-podria-registrar-hasta-100-mm-de-precipitacion/"
-      },
-      {
-        "t": "SENAMHI · Infobae (3-nov)",
-        "url": "https://www.infobae.com/peru/2026/11/03/alerta-roja-del-senamhi-por-precipitaciones-en-la-costa-norte-desde-este-miercoles-4-hasta-el-viernes-6-de-noviembre/"
       },
       {
         "t": "ENFEN · Infobae (30-oct)",

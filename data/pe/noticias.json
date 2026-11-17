@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-17T11:47:44Z",
+  "updatedAt": "2026-11-17T19:52:00Z",
   "items": [
+    {
+      "id": "p35",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "junin",
+        "pasco",
+        "huanuco",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-17",
+      "source": "La República · SENAMHI",
+      "url": "https://larepublica.pe/sociedad/2026/11/17/senamhi-advierte-lluvias-de-hasta-50-mm-por-dia-en-la-costa-norte-y-sierra-desde-este-miercoles-18-de-noviembre-811869",
+      "title": "SENAMHI prevé lluvias moderadas a fuertes en la sierra del 18 al 20 de noviembre",
+      "summary": "Se esperan 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y unos 20 mm en la sierra sur, con Cajamarca, Piura, Junín, Pasco, Huánuco y Ayacucho entre las zonas con posible afectación. Más humedad en plena floración y cuajado eleva el riesgo de roya y puede complicar el acopio de los últimos lotes."
+    },
     {
       "id": "p34",
       "scope": "pe",
@@ -39,26 +57,6 @@
       "url": "https://diariovoces.com.pe/cafes-de-san-martin-despiertan-interes-de-compradores-de-25-paises-y-generan-negocios-por-miles-de-dolares/",
       "title": "Cafés de San Martín cierran S/ 46.615 en ventas en Ficafé y negocian cinco contenedores",
       "summary": "Diez organizaciones de San Martín vendieron S/ 46.615 en la feria de Cusco y evalúan la venta de cinco contenedores por más de US$ 746 mil (cifra referencial), liderada por la cooperativa CAFCER, cuya cosecha va de febrero a abril. Hay oferta de San Martín abierta a contratos para la campaña 2027."
-    },
-    {
-      "id": "p32",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura",
-        "junin",
-        "pasco",
-        "cusco",
-        "puno",
-        "ayacucho",
-        "san-martin"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-14",
-      "source": "DSN · SENAMHI",
-      "url": "https://dsn.pe/clima-en-peru-hoy-14-de-noviembre-senamhi-activa-alerta-roja-por-lluvias-de-hasta-80-mm-y-calor-de-37-c/",
-      "title": "SENAMHI: lluvias en la sierra hasta el 17 de noviembre y calor de hasta 37 °C en la selva",
-      "summary": "El aviso rojo 464 (hasta el 14-nov) previó 5–26 mm diarios en la sierra norte y unos 25 mm en la sierra sur; el 467 extiende lluvias ligeras a fuertes del 15 al 17 de noviembre (5–29 mm en la sierra norte), y el 466 llevó la selva a 31–37 °C. Para la campaña 2027, la alternancia de calor y lluvia en plena floración eleva el riesgo de roya y de mal cuajado."
     },
     {
       "id": "n20",
