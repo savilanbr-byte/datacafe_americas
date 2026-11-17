@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:47:33Z",
+  "updatedAt": "2026-11-17T11:48:21Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,10 +28,10 @@
   },
   "impactos": [
     "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027 (+2,5 °C en Niño 3.4, NOAA 12-nov), el sur de México suele tener menos lluvia: en el Soconusco y Guerrero la sequía ya causó maduración despareja y menos volumen, así que espera lotes irregulares.",
-    "El frente frío 6 deja 75–150 mm el lunes 16 y 50–75 mm el martes 17 en el centro de Veracruz, la Sierra Norte de Puebla, el norte de Oaxaca y el norte de Chiapas, justo en el corte fuerte: más días sin cortar ni secar, fruta caída y riesgo de fermento; al comprar pergamino revisa humedad y defectos. Desde el miércoles 18 la lluvia se concentra en el sur de Veracruz (zona de robusta).",
-    "En Huatusco y las Altas Montañas la cereza ya se paga a 14,20–16,10 MXN/kg (12-nov), cerca del mínimo de 16 que pide la CNOC; si las lluvias frenan el corte, la competencia por la cereza puede sostener esos precios.",
-    "Las madrugadas de 0 a 5 °C en las sierras de Puebla, Veracruz, Oaxaca y la Huasteca no son heladas críticas para el cafeto, pero frenan la maduración y a los cortadores.",
-    "El robusta del Soconusco cosecha a 27 MXN/kg y el del Golfo (Tezonapa, Tuxtepec) puede retrasarse por las lluvias del norte; la oferta local barata compite con el robusta importado de Brasil."
+    "Tras 75–150 mm el lunes 16 en el centro de Veracruz, la Sierra Norte de Puebla y el norte de Oaxaca, el martes 17 la lluvia se desplaza al sur de Veracruz, Oaxaca y el norte de Chiapas, y desde el jueves 19 baja a 5–25 mm: se reanuda el corte, pero la fruta caída y el secado lento elevan el riesgo de fermento; al comprar pergamino de estas semanas revisa humedad y defectos.",
+    "En Huatusco y las Altas Montañas la cereza se paga a 14,20–16,10 MXN/kg (12–13-nov), cerca del mínimo de 16 que pide la CNOC; los días perdidos por lluvia y la escasez de cortadores pueden sostener la competencia por la cereza.",
+    "Las madrugadas de 0 a 5 °C hasta el sábado 21 en las sierras de Puebla, Veracruz, Oaxaca y la Huasteca no son heladas críticas para el cafeto, pero frenan la maduración y a los cortadores.",
+    "El norte de 70–90 km/h del martes 17 en el centro y sur de Veracruz puede tirar fruta en las zonas de robusta del Golfo (Tezonapa, Tierra Blanca, Tuxtepec); el robusta del Soconusco se cosecha a 27 MXN/kg y compite con el robusta importado de Brasil."
   ],
   "regions": [
     {
@@ -137,25 +137,25 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-15",
-    "headline": "El frente frío 6 deja 75–150 mm el lunes 16 en el norte y centro de Veracruz, el norte de Puebla y el norte de Oaxaca; el martes 17 sigue con 50–75 mm y evento de norte en el centro y sur de Veracruz, Oaxaca y Chiapas, y el frente 7 entra por el norte el miércoles 18 (aviso 319, 15-nov).",
+    "asOf": "2026-11-16",
+    "headline": "El frente frío 6 queda estacionario sobre el Golfo y el sureste: el martes 17 deja 50–75 mm en el sur de Veracruz, el norte y este de Oaxaca y el norte y este de Chiapas, con evento de norte de rachas de 70 a 90 km/h en el centro y sur de Veracruz y el Istmo; el frente 7 avanza por el norte del país (aviso 320, 16-nov).",
     "items": [
-      "Lunes 16: 75 a 150 mm en el norte y centro de Veracruz, norte de Puebla y norte de Oaxaca; 50 a 75 mm en el este de San Luis Potosí, norte y este de Hidalgo y este de Chiapas; 5 a 25 mm en Guerrero. Riesgo de deslaves y crecidas de ríos.",
-      "Martes 17: 50 a 75 mm en el este y sureste de Puebla, centro y sur de Veracruz, norte y este de Oaxaca y norte y este de Chiapas; norte con rachas de 60 a 80 km/h en Veracruz y el Istmo de Tehuantepec. Miércoles 18: 25 a 50 mm en el sur de Veracruz.",
-      "Mínimas de 0 a 5 °C cada madrugada hasta el viernes 20 en las sierras de Puebla, Veracruz, Oaxaca, Hidalgo y San Luis Potosí; máximas de 35 a 40 °C en zonas bajas de Guerrero y Chiapas."
+      "Martes 17: 50 a 75 mm en el sur de Veracruz, norte y este de Oaxaca y norte y este de Chiapas; 25 a 50 mm en el sureste de Puebla. Miércoles 18: 25 a 50 mm en el sur de Veracruz; del jueves 19 al viernes 20, solo 5 a 25 mm en las zonas cafeteras.",
+      "Evento de norte el martes 17 con rachas de 70 a 90 km/h en el centro y sur de Veracruz y el Istmo de Tehuantepec; en el Istmo siguen rachas de 50 a 80 km/h hasta el viernes 20.",
+      "Mínimas de 0 a 5 °C cada madrugada hasta el sábado 21 en las sierras de Veracruz, Puebla, Oaxaca, Hidalgo y San Luis Potosí; sin heladas bajo 0 °C en estados cafeteros."
     ],
     "links": [
       {
-        "t": "SMN · pronóstico extendido a 96 h (aviso 319)",
+        "t": "SMN · pronóstico extendido a 96 h (aviso 320)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
+      },
+      {
+        "t": "El Financiero · frente frío 7 (16-nov)",
+        "url": "https://www.elfinanciero.com.mx/nacional/2026/11/16/frente-frio-7-entra-hoy-a-mexico-que-estados-sufriran-con-bajas-temperaturas/"
       },
       {
         "t": "La Razón · pronóstico SMN lunes 16",
         "url": "https://www.razon.com.mx/mexico/2026/11/15/frente-frio-6-pronostican-lluvias-bajas-temperaturas-y-viento-para-el-16-de-noviembre/"
-      },
-      {
-        "t": "SMN · CONAGUA",
-        "url": "https://smn.conagua.gob.mx/"
       }
     ]
   }
