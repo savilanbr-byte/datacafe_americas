@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:48:44Z",
+  "updatedAt": "2026-11-17T19:46:33Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.7324,
+      "value": 5.7851,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-12-2026'&@dataFinalCotacao='11-16-2026'&$format=json",
-      "note": "PTAX de venta del 16-nov: +1,43 % frente a R$5,6518 del 13-nov; el dólar llegó a R$5,79 en el día, máximo en 19 meses, por las dudas sobre el ajuste fiscal de 2027 y el Focus con más inflación y Selic.",
-      "change": 0.0806,
-      "changePct": 1.43,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-13-2026'&@dataFinalCotacao='11-17-2026'&$format=json",
+      "note": "PTAX de venta del 17-nov: +0,92 % frente a R$5,7324 del 16-nov, cuarta alza seguida y nuevo máximo desde abril de 2025, con el mercado aún pendiente del ajuste fiscal de 2027.",
+      "change": 0.0527,
+      "changePct": 0.92,
       "chgDec": 4
     },
     "cepeaA": {
