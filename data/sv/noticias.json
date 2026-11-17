@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-17T11:48:15Z",
+  "updatedAt": "2026-11-17T19:46:40Z",
   "items": [
+    {
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Reuters (Arab News)",
+      "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
+      "title": "Los inventarios certificados de arábica en ICE caen a 211.321 sacos, mínimo de 27 años; la robusta sigue cerca de su piso",
+      "summary": "El arábica subió 0,4 % a 2,7470 US$/lb el 17-nov, tras un mínimo de siete semanas de 2,62 US$ el jueves, con las existencias de ICE 15 % abajo en dos sesiones y 166.456 sacos esperando clasificación; la robusta cayó 1,5 % a 3.146 US$/t por la cosecha de Vietnam. Los inventarios escasos sostienen la bolsa, pero la buena perspectiva de Brasil limita el alza: conviene fijar precio por tramos."
+    },
     {
       "id": "s19",
       "scope": "sv",
@@ -11,16 +21,6 @@
       "url": "https://diarioelsalvador.com/dedinero/el-salvador-promueve-su-cafe-en-campeonato-de-barismo-en-argentina/875807",
       "title": "El ISC promueve el café salvadoreño en un campeonato de baristas de Café Martínez en Argentina",
       "summary": "El Instituto Salvadoreño del Café y la embajada en Argentina participaron en el 7.º Campeonato Internacional de Baristas 2026 de la cadena Café Martínez, que se disputó con grano de origen salvadoreño. Es una vitrina comercial en Sudamérica; la nota no da volúmenes ni precios de compra."
-    },
-    {
-      "id": "n24",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Barchart (Yahoo Finance)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
-      "title": "El arábica rebota 4,2 % por inventarios ajustados de ICE; la robusta cae 1,2 %",
-      "summary": "El arábica diciembre subió 11,20 ¢ (+4,16 %) el 12-nov con los inventarios certificados de ICE en 228.586 sacos, cerca del mínimo de 27 años, aunque 141.194 sacos de Brasil esperan clasificación; la robusta enero bajó 38 US$/t. Brasil exportó 287.000 t en octubre (+23 %) y Vietnam 114.000 t (+61 %): la volatilidad obliga a fijar diferenciales salvadoreños con cuidado."
     },
     {
       "id": "s18",
