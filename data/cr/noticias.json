@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-17T11:47:32Z",
+  "updatedAt": "2026-11-17T19:47:27Z",
   "items": [
+    {
+      "id": "n40",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Reuters · Arab News",
+      "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
+      "title": "El arábica sube por inventarios certificados en mínimos de 27 años; el robusta toca mínimos de dos años y medio",
+      "summary": "El arábica ganó 0,4 % a 274,70 ¢/lb tras caer 15 % en dos sesiones las existencias certificadas de ICE, que quedaron en 211.321 sacos (mínimo en 27 años), aunque hay 166.456 sacos en espera de clasificación; el robusta bajó 1,5 % a US$3.146/t con la cosecha de Vietnam en marcha. Inventarios ajustados sostienen la base de NY justo antes del primer aviso de diciembre, lo que encarece las fijaciones de lavados de Costa Rica."
+    },
     {
       "id": "n37",
       "scope": "cr",
@@ -49,14 +59,19 @@
       "summary": "El arábica de diciembre tocó 262,15 ¢/lb el miércoles, rebotó 4,16 % con el vencimiento de opciones y terminó la semana cerca de 274 ¢/lb; el robusta de enero quedó en unos US$3.207/t, cerca de mínimos de dos años y medio, y hay más de 100.000 sacos en espera de clasificación en ICE. Más inventario certificado resta presión alcista al contrato de diciembre, cuyo primer aviso es el 19 de noviembre."
     },
     {
-      "id": "n34",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "id": "n39",
+      "scope": "cr",
+      "regiones": [
+        "valle-central",
+        "valle-occidental",
+        "zona-norte"
+      ],
+      "tag": "Clima",
       "date": "2026-11-13",
-      "source": "Perfect Daily Grind Español",
-      "url": "https://perfectdailygrind.com/es/2026/11/13/noticias-de-cafe-futuros-arabica-caen/",
-      "title": "El arábica rebota más de 4 % desde mínimos de seis semanas y debuta con operaciones el contrato métrico de ICE",
-      "summary": "El arábica de diciembre subió 4,16 % (a unos 280 ¢/lb) tras tocar mínimos de seis semanas, aunque las exportaciones récord de Brasil siguen pesando; en el nuevo contrato métrico de ICE se negociaron los primeros 48 lotes (sep-2028) a US$5.724–5.737 por tonelada. El rebote encarece la base de NY justo cuando arrancan las fijaciones de la cosecha 2026-27 en Costa Rica."
+      "source": "El Observador · IMN",
+      "url": "https://observador.cr/noviembre-rompe-mas-de-23-records-de-calor-en-costa-rica-y-el-imn-advierte-que-podrian-venir-mas/",
+      "title": "Noviembre ya rompe más de 23 récords de calor y el IMN prevé temperaturas hasta 2 °C sobre lo normal",
+      "summary": "En los primeros 11 días de noviembre el IMN registró más de 23 récords de temperatura máxima, con unos 37 °C en el Pacífico Norte y 33,3 °C en La Garita (oeste del Valle Central); por El Niño, las medias de noviembre a enero podrían quedar hasta 2 °C sobre lo normal. El calor acelera el secado pero favorece la broca y puede apurar la maduración en las zonas bajas."
     },
     {
       "id": "n26",
@@ -75,16 +90,6 @@
       "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/",
       "title": "IMN fija el calendario de la época seca: Valle Central esta semana, Pacífico Sur a fines de noviembre",
       "summary": "El IMN prevé que la época seca se establezca en el Pacífico Norte y el Valle Central entre el 9 y el 15 de noviembre, en el Pacífico Central del 16 al 22 y en el Pacífico Sur del 23 al 29; Caribe y Zona Norte oriental no tienen época seca definida. Para compras, el secado al sol mejora primero en Valle Central y Occidental, mientras que en Pérez Zeledón y Coto Brus la humedad sigue siendo un riesgo dos semanas más."
-    },
-    {
-      "id": "n28",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-09",
-      "source": "ADM Investor Services",
-      "url": "https://www.admis.com/brazil-coffee-exports-jump-23/",
-      "title": "Brasil exporta 4,79 millones de sacos en octubre (+23 %) y suben los inventarios certificados de arábica",
-      "summary": "Brasil embarcó 287.348 t de café verde en octubre, 23 % más que un año antes; los inventarios certificados de arábica en ICE subieron a 232.456 sacos, máximo desde el 22 de octubre, con 62.849 sacos brasileños en espera de clasificación. Más oferta brasileña en bodegas de ICE resta soporte al diferencial de los lavados centroamericanos."
     },
     {
       "id": "n21",

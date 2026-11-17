@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T11:47:32Z",
+  "updatedAt": "2026-11-17T19:47:27Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,34 +22,34 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, que arrancan cosecha, tienen una semana estable y ventosa: buena para secar al sol, aunque los alisios fuertes piden cubrir patios y vigilar que el pergamino no se seque de forma dispareja.",
-    "Pérez Zeledón y Coto Brus, en plena recolección, mejoran con la semana más seca en el Pacífico, pero la época seca del Pacífico Sur no se establecería antes del 23–29 de noviembre: pide control de humedad y actividad de agua en los lotes de estas semanas.",
-    "Turrialba y la Zona Norte, en la vertiente del Caribe, recibirán más lluvia desde mitad de semana con los alisios: más riesgo de fruta caída y secado lento en esas zonas.",
+    "Valle Central y Valle Occidental, que arrancan cosecha, tienen días secos, calurosos y muy ventosos: excelentes para secar al sol, pero las ráfagas de hasta 70–85 km/h piden cubrir patios y vigilar que el pergamino no se seque de forma dispareja.",
+    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona con aguaceros aislados esta semana: pide control de humedad y actividad de agua en los lotes del Pacífico Sur hasta que se establezca la época seca a fines de noviembre.",
+    "El aire seco que entra por el Caribe también frena la lluvia en Turrialba y la Zona Norte: mejor ventana para secar y menos fruta caída de lo que se esperaba en esas zonas.",
     "Los Santos empieza a recoger con lluvias en retirada; los primeros lotes de altura podrían traer buena densidad, aunque el atraso en la fertilización puede pesar en el rendimiento por fanega.",
-    "El ICAFE ya recorta 10–15 % sus estimaciones y El Niño seguiría de fuerte a muy fuerte hasta ene–mar 2027: la sequía favorece la broca y puede estresar las floraciones de 2027-28, así que pide análisis físico antes de fijar volúmenes."
+    "Con récords de calor en noviembre y El Niño de fuerte a muy fuerte hasta ene–mar 2027, sube el riesgo de broca y de estrés en las floraciones de 2027-28; el ICAFE ya recorta 10–15 % sus estimaciones, así que pide análisis físico antes de fijar volúmenes."
   ],
   "avisos": {
     "source": "IMN",
-    "asOf": "2026-11-16",
-    "headline": "IMN (16–18 nov): poca nubosidad y alisios de moderados a fuertes en el Pacífico y el Valle Central; lluvias en el Caribe y la Zona Norte desde mitad de semana",
+    "asOf": "2026-11-17",
+    "headline": "IMN (17 nov): alisios más fuertes y aire seco del Caribe estabilizan casi todo el país; solo aguaceros aislados en el Pacífico Sur",
     "items": [
-      "Lunes con poca nubosidad y calor en gran parte del país; ráfagas de 20–50 km/h en el Valle Central y las llanuras del Pacífico Norte y de 50–80 km/h en zonas montañosas.",
-      "Desde el martes los alisios siguen fuertes: condiciones más estables en la vertiente del Pacífico y lluvia que se desplaza hacia Limón, la Zona Norte y el este y norte del Valle Central.",
-      "Extremos de la semana (12–18 nov): Valle Central 32 °C / 14 °C, Pacífico Sur 34 °C / 20 °C, Zona Norte 34 °C / 18 °C y Pacífico Norte hasta 36 °C.",
+      "Martes con ráfagas de 40–70 km/h en el Valle Central y las llanuras del Pacífico Norte y de hasta 85 km/h en montañas; temperaturas diurnas más altas.",
+      "Una masa de aire seco reduce la humedad en el Caribe y la Zona Norte; las lluvias quedan limitadas a chubascos y tormentas aisladas en el Pacífico Sur.",
+      "Noviembre ya suma más de 23 récords de temperatura máxima en sus primeros 11 días (hasta 37 °C en el Pacífico Norte y 33,3 °C en La Garita); el IMN prevé medias hasta 2 °C sobre lo normal entre noviembre y enero por El Niño.",
       "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020."
     ],
     "links": [
       {
-        "t": "IMN · tendencia semanal (12–18 nov)",
+        "t": "IMN · tendencia semanal",
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "Diario Extra · Pronóstico del IMN para la semana (16 nov)",
-        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-semana-empezara-con-lluvias-esto-dice-el-imn/"
+        "t": "Diario Extra · Ráfagas de hasta 85 km/h este martes (17 nov)",
+        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-rafagas-de-hasta-85-km-h-este-martes/"
       },
       {
-        "t": "El Observador · Llegada de la época seca",
-        "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/"
+        "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
+        "url": "https://observador.cr/noviembre-rompe-mas-de-23-records-de-calor-en-costa-rica-y-el-imn-advierte-que-podrian-venir-mas/"
       },
       {
         "t": "CRHoy · Octubre, el más seco desde 2020",
