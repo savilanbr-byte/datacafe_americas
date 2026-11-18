@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T11:48:05Z",
+ "updatedAt": "2026-11-18T19:47:02Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -28,18 +28,18 @@
  },
  "impactos": [
   "El Niño fuerte (+2,5 °C en Niño 3.4) sigue recortando lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "La vaguada prefrontal deja chubascos hasta el jueves 19 en el norte, el centro y el oriente: en Agalta, El Paraíso y Comayagua el secado al sol puede interrumpirse, así que pide la humedad del grano al recibir los lotes.",
-  "En el occidente (Copán, Opalaca y Montecillos) solo habrá lluvias débiles y madrugadas de unos 15 °C: buenas condiciones para secar el pergamino donde arranca el corte en las zonas bajas.",
+  "La vaguada prefrontal descarga hasta 50 mm en Santa Bárbara y 30 mm en Yoro el miércoles 18: en zonas de Opalaca y Agalta el secado al sol se interrumpe, así que pide la humedad del grano al recibir los lotes.",
+  "En Montecillos, El Paraíso y el sur de Opalaca (La Paz, Intibucá, Danlí) solo caen unos 2 mm y en Olancho no llueve: buenas condiciones para secar el pergamino donde arranca el corte en las zonas bajas.",
   "Con calor y poca lluvia la fruta madura de golpe; si faltan recolectores sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-17",
-  "headline": "COPECO declara alerta verde por 48 horas en Cortés y Atlántida (boletín 050-2026) por una vaguada prefrontal",
+  "asOf": "2026-11-18",
+  "headline": "COPECO mantiene la alerta verde en Cortés y Atlántida: la vaguada prefrontal deja lluvias de moderadas a fuertes en el norte este miércoles 18",
   "items": [
-   "Martes 17: chubascos con actividad eléctrica en el noroccidente y la montaña de Olancho; lluvias débiles y aisladas en el resto del norte, occidente, centro y oriente.",
-   "Miércoles 18: la vaguada sigue; lluvias débiles a moderadas sobre todo en el noroccidente y Atlántida, y aisladas en el occidente, centro y oriente.",
+   "Miércoles 18: hasta 60 mm en Atlántida, 50 mm en Santa Bárbara, 40 mm en Cortés y 30 mm en Yoro; 20 mm en Lempira, 15 mm en Comayagua y 10 mm en Copán.",
+   "En La Paz, Intibucá, El Paraíso, Francisco Morazán y Ocotepeque apenas 2 mm; Olancho sin lluvias.",
    "Jueves 19: una cuña de alta presión traerá lluvias al norte, centro y oriente; CENAOS no prevé frentes fríos esta semana."
   ],
   "links": [
@@ -48,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Once Noticias (17-nov)",
-    "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/"
+    "t": "El País (18-nov)",
+    "url": "https://www.elpais.hn/copeco-advierte-lluvias-de-hasta-60-milimetros-en-departamentos-del-norte-del-pais/"
    },
    {
-    "t": "El Heraldo (16-nov)",
-    "url": "https://www.elheraldo.hn/honduras/vaguada-prefrontal-dejara-lluvias-chubascos-varias-zonas-honduras-martes-AB32662112"
+    "t": "Once Noticias (17-nov)",
+    "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/"
    }
   ]
  },
