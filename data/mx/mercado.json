@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-18T11:49:19Z",
+  "updatedAt": "2026-11-18T19:47:56Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
-      "value": 18.4677,
+      "value": 18.6723,
       "dec": 4,
       "unit": "MXN/USD",
-      "change": -0.0848,
+      "change": 0.2046,
       "chgDec": 4,
-      "asOf": "2026-11-17",
+      "asOf": "2026-11-18",
       "source": "Banxico",
       "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveT": "Banxico",
-      "note": "El peso se fortaleció 0,7 % frente al día anterior: por el mismo precio en dólares, el productor recibe menos pesos."
+      "note": "El peso se debilitó 1,1 % frente al día anterior (18,67 por dólar): por el mismo precio en dólares, el productor recibe más pesos."
     },
     "difRef": {
       "label": "Diferencial de referencia · Veracruz",
