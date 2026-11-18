@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:46:40Z",
+  "updatedAt": "2026-11-18T11:48:33Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -29,17 +29,17 @@
   "impactos": [
     "El Niño dejó 89 días secos en cuatro periodos de 2026: la Asociación Cafetalera espera 750–800 mil quintales en 2026-27, entre 17 % y 22 % menos que en 2025-26; la Mesa Agropecuaria estima 950 mil. Conviene asegurar volúmenes de lotes de altura con tiempo.",
     "La época seca (desde el 9 de noviembre) favorece la corta y el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Cacahuatique, Chichontepec y El Bálsamo, que está en plena cosecha.",
-    "El MARN aún prevé lluvias y tormentas puntuales por vaguadas: de noche en Usulután, San Miguel, San Vicente y La Paz (Tecapa-Chinameca y Chichontepec) y por la tarde en Apaneca-Ilamatepec y El Bálsamo. Pueden interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
+    "El MARN aún prevé lluvias aisladas por la tarde y la noche en el oriente y la zona paracentral (Usulután, San Miguel, Morazán, San Vicente y La Paz: Tecapa-Chinameca, Cacahuatique y Chichontepec), mientras el occidente queda más seco. Pueden interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos del oriente.",
     "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración del SHG de Apaneca-Ilamatepec y Alotepec-Metapán (corta de diciembre a marzo) puede adelantarse y dar grano más pequeño y menos denso; los vientos nortes pueden botar fruta madura en las partes altas."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-17",
-    "headline": "MARN: días calurosos con lluvias y tormentas puntuales por vaguadas; mañanas despejadas y viento de hasta 35 km/h",
+    "asOf": "2026-11-18",
+    "headline": "MARN: calor, brisas y lluvias aisladas sobre todo en la zona oriental; mañanas secas",
     "items": [
-      "Martes 17: mañana despejada; por la tarde, lluvias puntuales en la cordillera Apaneca-Ilamatepec y el norte de Chalatenango y Morazán; de noche, lluvias y tormentas puntuales en La Unión, San Miguel, Usulután, San Vicente y La Paz.",
-      "Miércoles 18: tarde con lluvias puntuales en Apaneca-Ilamatepec, El Bálsamo y el norte de Chalatenango, Cabañas y Morazán; de noche, lluvias puntuales sobre todo en San Vicente y Usulután. Viento de 10 a 20 km/h con brisas de hasta 35 km/h.",
-      "Máximas de 31–32 °C en San Salvador y Santa Ana y de 35 °C en San Miguel; mínimas de 20–21 °C, con noches y madrugadas frescas. El MARN fijó el inicio de la época seca el 9 de noviembre."
+      "Miércoles 18: sin lluvias por la mañana; por la tarde, lluvias aisladas en Cabañas, Morazán, San Miguel, La Unión y Usulután; de noche, en San Vicente, San Miguel, La Paz y Usulután.",
+      "Jueves 19: tarde con lluvias aisladas en Cabañas, San Vicente y Cuscatlán; de noche, en San Miguel, San Vicente, La Paz, Usulután y San Salvador Este. Viento del este y noreste de 10 a 20 km/h, con brisas de hasta 30–35 km/h.",
+      "Máximas de 32–33 °C en Santa Ana y San Salvador y de 37 °C en San Miguel; mínimas de 20–21 °C en las zonas altas. El MARN fijó el inicio de la época seca el 9 de noviembre."
     ],
     "links": [
       {

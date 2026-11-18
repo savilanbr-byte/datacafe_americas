@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:46:40Z",
+  "updatedAt": "2026-11-18T11:48:33Z",
   "items": [
     {
       "id": "n25",
@@ -10,6 +10,26 @@
       "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
       "title": "Los inventarios certificados de arábica en ICE caen a 211.321 sacos, mínimo de 27 años; la robusta sigue cerca de su piso",
       "summary": "El arábica subió 0,4 % a 2,7470 US$/lb el 17-nov, tras un mínimo de siete semanas de 2,62 US$ el jueves, con las existencias de ICE 15 % abajo en dos sesiones y 166.456 sacos esperando clasificación; la robusta cayó 1,5 % a 3.146 US$/t por la cosecha de Vietnam. Los inventarios escasos sostienen la bolsa, pero la buena perspectiva de Brasil limita el alza: conviene fijar precio por tramos."
+    },
+    {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-17",
+      "source": "IndexBox (Conab/MDIC)",
+      "url": "https://www.indexbox.io/blog/caf-exportaes-recordes-em-outubro-pressionam-cotaes-externas/",
+      "title": "Brasil exporta un récord de 5,2 millones de sacos en octubre y presiona la bolsa",
+      "summary": "Brasil embarcó unos 5,2 millones de sacos de 60 kg en octubre, el mayor volumen mensual desde 1997, por cerca de US$1.700 millones; de enero a octubre suma 34,0 millones de sacos (−0,5 %) y US$11.800 millones (−8,3 %). La oferta brasileña abundante pesa sobre el arábica y resta poder a los diferenciales de los lavados centroamericanos."
+    },
+    {
+      "id": "n27",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-14",
+      "source": "World Coffee Index",
+      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
+      "title": "El arábica cierra la semana en 273,94 ¢/lb tras tocar un mínimo de seis semanas; la robusta, cerca de su piso de 2,5 años",
+      "summary": "El arábica de diciembre bajó 2,16 % en la semana, con un mínimo de 262,15 ¢ el miércoles y un rebote de 4,16 % el jueves; la robusta de enero cerró en 3.207 US$/t (−1,93 %). El indicador de los Suaves Colombianos de la OIC quedó en 339,70 ¢/lb y el compuesto en 249,09 ¢/lb, mientras Brasil reporta buen cuajado para 2027-28."
     },
     {
       "id": "s19",
@@ -103,26 +123,6 @@
       "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
       "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
       "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
-    },
-    {
-      "id": "n23",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-11-03",
-      "source": "Prensa Libre",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
-      "title": "Guatemala factura US$1.440 millones por café en 2025-26 y prevé menos volumen y precio en 2026-27",
-      "summary": "Guatemala exportó 4,3 millones de quintales (+16 %) a un promedio de US$336 por quintal; Anacafé baja su previsión 2026-27 a 3,8 millones de quintales por El Niño y espera precios de US$275–300 por quintal. Referencia regional útil para negociar precios del café salvadoreño."
-    },
-    {
-      "id": "n22",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-03",
-      "source": "Woodpeckers Coffee",
-      "url": "https://www.woodpeckerscoffee.com/post/global-coffee-roundup-28-october-3-november-2026",
-      "title": "Brasil exporta un récord de 4,93 millones de sacos en octubre y Vietnam acelera su cosecha de robusta",
-      "summary": "Las exportaciones brasileñas de octubre marcaron un récord mensual pese a demoras en puertos; en Vietnam la cosecha 2026/27 (hasta 32,5 millones de sacos, récord) llega a su pico en noviembre–diciembre, con precio interno de unos 86.000 VND/kg. La robusta tocó US$3.183/t, mínimo desde marzo de 2024."
     }
   ]
 }
