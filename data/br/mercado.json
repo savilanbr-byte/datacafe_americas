@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-11-17T19:46:33Z",
+  "updatedAt": "2026-11-18T11:49:33Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.777,
+      "value": 5.7819,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": 0.1203,
-      "changePct": 2.13,
+      "change": 0.0049,
+      "changePct": 0.08,
       "chgDec": 4,
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-17",
       "source": "Reuters (Antena 1)",
-      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-213-a-r57770-na-venda",
+      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-008-a-r57819-na-venda",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
-      "liveT": "Banco Central",
-      "note": "Subió 2,13 % el 16-nov, máximo desde abril de 2025, por las dudas sobre el paquete fiscal de 2027 que revisa el Senado y quién dirigirá Hacienda, además de un dólar global más fuerte."
+      "liveT": "Banco Central"
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
@@ -31,33 +30,33 @@
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1669.0,
+      "value": 1688.0,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": 1.28,
-      "asOf": "2026-11-16",
-      "fx": 5.777,
-      "fxSrc": "dólar comercial del 16-nov (cierre)",
+      "changePct": 1.14,
+      "asOf": "2026-11-17",
+      "fx": 5.7819,
+      "fxSrc": "dólar comercial del 17-nov (cierre)",
       "source": "CEPEA · Três Pontas Studio Live",
-      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-r-1-669-nesta-terca-feira-17-como-referencia-para-o-mercado/",
+      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-registra-valorizacao-nesta-quarta-feira/",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Subió 1,28 % el 16-nov, tercera alza seguida, empujado sobre todo por el salto del dólar a R$5,78; en las cooperativas del Sul de Minas la saca ganó 2–3 % (Cooxupé R$1.802)."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Cuarta alza seguida (+1,14 % el 17-nov), con el arábica +2,4 % en Nueva York por inventarios certificados en mínimos de 27 años y el dólar cerca de R$5,78; Cooxupé pagó R$1.811 la saca en Guaxupé."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 968.89,
+      "value": 960.04,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.42,
-      "asOf": "2026-11-16",
-      "fx": 5.777,
-      "fxSrc": "dólar comercial del 16-nov (cierre)",
+      "changePct": -0.91,
+      "asOf": "2026-11-17",
+      "fx": 5.7819,
+      "fxSrc": "dólar comercial del 17-nov (cierre)",
       "source": "CEPEA · Três Pontas Studio Live",
-      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-saca-do-arabica-fecha-a-r-1-669-nesta-terca-feira-17-como-referencia-para-o-mercado/",
+      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-registra-valorizacao-nesta-quarta-feira/",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,42 % el 16-nov pese al dólar, porque el robusta en Londres cayó 1,6 % (enero a US$3.144/t) con el avance de la cosecha de Vietnam."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Bajó 0,91 % el 17-nov porque el robusta en Londres cayó 2,3 % a US$3.071/t, su mínimo en dos años y medio, con la llegada de la cosecha de Vietnam."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",

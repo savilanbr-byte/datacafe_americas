@@ -1,26 +1,72 @@
 {
-  "updatedAt": "2026-11-17T19:46:33Z",
+  "updatedAt": "2026-11-18T11:49:33Z",
   "items": [
     {
-      "id": "n34",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Reuters (Business Recorder)",
-      "url": "https://brecorder.com/news/40449223/coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows",
-      "title": "Los inventarios certificados de arábica caen a su mínimo en 27 años",
-      "summary": "Las existencias de la ICE bajaron 15 % en dos sesiones a 211.321 sacas y el arábica subió 0,7 % a US$2,7545/lb, lejos del mínimo de siete semanas (US$2,62); el robusta cayó 0,7 % a US$3.173/t, cerca de su mínimo en 2,5 años por la amplia cosecha de Vietnam. Los operadores esperan que los inventarios se recuperen con la buena perspectiva de Brasil."
+      "id": "b52",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-18",
+      "source": "Três Pontas Studio Live (CEPEA)",
+      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-registra-valorizacao-nesta-quarta-feira/",
+      "title": "CEPEA: el arábica sube a R$1.688 la saca; el conilon cae a R$960",
+      "summary": "El indicador del arábica ganó 1,14 % el 17-nov y el del conilon perdió 0,91 %; en el Sul de Minas Cooxupé pagó R$1.811 (+1,97 %) en Guaxupé y Coopercam R$1.776 en Campos Gerais, aunque Minasul bajó a R$1.620 en Varginha. La brecha entre arábica y conilon se amplía a más de R$700 por saca."
     },
     {
-      "id": "b47",
+      "id": "n37",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-18",
+      "source": "VnEconomy (Aduanas de Vietnam)",
+      "url": "https://en.vneconomy.vn/vietnams-coffee-exports-earn-708b-in-10m.htm",
+      "title": "Vietnam exportó 108.800 t de café en octubre, 53 % más, con precios 20 % menores",
+      "summary": "Los envíos de octubre valieron US$501,2 M (+22,9 %) a un precio medio de US$4.606/t; en enero–octubre sumaron 1,56 M t (+18,5 %) y US$7.080 M (−5,2 %). Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, que empieza a fines de noviembre: más robusta compitiendo con el conilon brasileño."
+    },
+    {
+      "id": "b49",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "Reuters (Antena 1)",
-      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-213-a-r57770-na-venda",
-      "title": "El dólar cierra en R$5,777, su nivel más alto desde abril de 2025",
-      "summary": "El dólar comercial subió 2,13 % el lunes 16 por el temor a que el Senado diluya el paquete fiscal de hasta R$60.000 millones para 2027 y por la incertidumbre sobre el próximo ministro de Hacienda; el Focus elevó su previsión de cambio. Un real tan débil sostiene los precios internos en reales y abarata el café brasileño para quien compra en dólares."
+      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-008-a-r57819-na-venda",
+      "title": "El dólar se mantiene en R$5,78 mientras el Senado posterga el ajuste fiscal",
+      "summary": "El dólar comercial cerró el 17-nov en R$5,7819 (+0,08 %), tras rozar R$5,81 en la apertura; el Senado pasó al miércoles la votación de las enmiendas del paquete fiscal y el mercado espera el nombre del nuevo equipo económico. Con el real en mínimos de 19 meses, el café brasileño sigue barato en dólares y los precios internos en reales se sostienen."
+    },
+    {
+      "id": "b50",
+      "scope": "br",
+      "regiones": [
+        "conilon-es"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-17",
+      "source": "Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325",
+      "title": "El agregado del USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 M de sacas",
+      "summary": "Subió el arábica a 49,2 M de sacas (desde 47,5 M; +29,5 % anual) y bajó el conilon a 23,3 M (desde 24,4 M) por el mal clima en el Espírito Santo; las exportaciones se mantienen en 49 M de sacas (+26 %). Para 2027-28 ve floradas tempranas prometedoras, pero será año de baja del ciclo bienal del arábica y preocupa El Niño."
+    },
+    {
+      "id": "n35",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/economy-news/cafe-robusta-atinge-menor-cotacao-em-2-anos-e-meio-enquanto-arabica-sobe-2130436",
+      "title": "El robusta toca su mínimo en dos años y medio mientras el arábica sube 2,4 %",
+      "summary": "El robusta cerró el 17-nov en US$3.071/t (−2,3 %, mínimo intradía US$3.042) con la llegada de café nuevo de Vietnam, cuya cosecha se acelerará a fines de noviembre; el arábica subió a US$2,814/lb por los inventarios bajos. GSX Commodities ve más espacio de baja por las fuertes exportaciones de Brasil y el café pendiente de clasificación."
+    },
+    {
+      "id": "n36",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Safras & Mercado",
+      "url": "https://safras.com.br/cafe-fecha-em-forte-alta-em-ny-com-estoques-certificados-nos-menores-niveis-em-27-anos",
+      "title": "Inventarios certificados de arábica en mínimos de 27 años, pero hay casi 197.000 sacas brasileñas en fila",
+      "summary": "Las existencias certificadas de la ICE bajaron a 186.414 sacas el lunes 16, mientras 196.852 sacas brasileñas esperan clasificación, la mayor cifra en tres años y nueve meses; el marzo cerró en 281,40 ¢/lb (+6,50 ¢). Si ese café se aprueba, los inventarios se recuperarían y limitarían las alzas."
     },
     {
       "id": "b46",
@@ -36,6 +82,25 @@
       "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
     },
     {
+      "id": "b51",
+      "scope": "br",
+      "regiones": [
+        "matas-de-minas",
+        "montanhas-es",
+        "oeste-bahia",
+        "planalto-bahia",
+        "bahia-atlantico",
+        "conilon-es",
+        "rondonia"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-16",
+      "source": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-16-a-23-de-novembro-de-2026",
+      "title": "INMET: más de 150 mm en las montañas del ES y el oeste de Bahia en la semana del 16 al 23-nov",
+      "summary": "La región serrana y el Caparaó del Espírito Santo podrían superar 150 mm y la Zona da Mata recibir 70–100 mm, mientras el litoral norte del ES (zona de conilon) tendría menos de 30 mm; el oeste y suroeste de Bahia, hasta 150 mm con tormentas severas, y Rondônia casi sin lluvia. Buen respaldo al cuajado (pegamento) del arábica de montaña; el conilon del norte capixaba sigue con poca agua."
+    },
+    {
       "id": "b48",
       "scope": "br",
       "regiones": [
@@ -48,16 +113,6 @@
       "url": "https://www.manhuacunews.com.br/2026/11/14/cafe-de-iuna-e-campeao-do-coffee-of-the-year-2026-matas-de-minas-tem-tres-entre-os-dez-primeiros/",
       "title": "Coffee of the Year 2026: un arábica de Iúna (ES) es el mejor de Brasil",
       "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
-    },
-    {
-      "id": "n32",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "Portal do Agronegócio",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-recua-em-nova-york-apos-alta-de-4-16-estoques-e-oferta-brasileira-mantem-volatilidade",
-      "title": "El arábica cede en Nueva York tras el rebote de 4 %; los inventarios certificados siguen subiendo",
-      "summary": "El viernes por la mañana el contrato de diciembre caía 0,55 % a 278,65 ¢/lb después de cerrar el jueves en 280,20 ¢ (+4,16 %). Los inventarios certificados de arábica en la ICE llegaron a 250.241 sacas el 11-nov (máximo desde mediados de octubre) y hay 113.038 sacas esperando clasificación, la mayor cifra en ocho meses: más café brasileño entrando a la bolsa limita las subidas."
     },
     {
       "id": "b43",
@@ -75,27 +130,6 @@
       "summary": "Con Nueva York y el dólar al alza, el arábica bebida boa del Sul de Minas pasó a R$1.730–1.735 la saca (desde R$1.660–1.665) y el bebida dura del Cerrado a R$1.740–1.745; el conilon de Vitória quedó estable en R$970–975. Los productores aprovecharon el repunte para vender más: buen momento para cerrar lotes con oferta disponible."
     },
     {
-      "id": "b44",
-      "scope": "br",
-      "regiones": [
-        "cerrado-mineiro",
-        "matas-de-minas",
-        "sul-de-minas",
-        "conilon-es",
-        "montanhas-es",
-        "planalto-bahia",
-        "oeste-bahia",
-        "bahia-atlantico",
-        "mogiana"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-13",
-      "source": "INMET",
-      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-s%C3%A1bado-14-domingo-15-e-segunda-feira-16",
-      "title": "INMET: tormentas y lluvia fuerte en el Sudeste y Bahia del 14 al 16-nov",
-      "summary": "Aviso amarelo de tormentas el fin de semana; el lunes 16, lluvia fuerte en el Triângulo Mineiro, norte y este de Minas, Espírito Santo, oeste de São Paulo y gran parte de Bahia, con calor de hasta 32 °C. El agua llega en pleno cuajado (pegamento) de la safra 2027-28, aunque con riesgo puntual de granizo."
-    },
-    {
       "id": "n33",
       "scope": "mundo",
       "tag": "Mercado",
@@ -104,16 +138,6 @@
       "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
       "title": "Vietnam: la cosecha de robusta avanza lenta y los precios se estabilizan",
       "summary": "En las Tierras Altas Centrales el robusta se paga 83.200–83.800 dong/kg (US$3,24–3,26), casi igual que la semana anterior; los volúmenes grandes no llegarían hasta diciembre. El robusta de enero cerró en US$3.245/t y el grado 2 se ofrece con primas de US$40–50 sobre el contrato."
-    },
-    {
-      "id": "n30",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Safras & Mercado",
-      "url": "https://safras.com.br/cafe-sobe-mais-de-4-em-ny-com-correcao-tecnica-e-cobertura-de-posicoes-vendidas",
-      "title": "El arábica rebota más de 4 % en Nueva York por recompra de posiciones vendidas",
-      "summary": "El contrato de diciembre cerró el 12-nov en 280,20 ¢/lb (+4,16 %) y el de marzo en 274,55 (+3,74 %), tras tocar el mínimo de seis semanas (262,15) la víspera; los inventarios certificados de la ICE superan las 250.000 sacas y hay más de 113.000 en clasificación. El rebote es técnico: la presión de la mayor oferta brasileña sigue presente."
     },
     {
       "id": "b40",
@@ -136,17 +160,6 @@
       "url": "https://br.investing.com/news/commodities-news/exportacao-de-cafe-do-brasil-supera-5-mi-sacas-em-outubro-e-atinge-recorde-diz-cecafe-2124218",
       "title": "Cecafé: Brasil exportó un récord de 5,33 M de sacas en octubre, 28,4 % más",
       "summary": "El arábica sumó 4,12 M de sacas (máximo para cualquier mes) y el conilon 897.000, casi el doble que hace un año; los ingresos fueron US$1.786 M y los envíos a EE. UU. subieron 119 % tras retirarse por completo el arancel. Con 34,5 M de sacas en enero–octubre, el flujo de oferta brasileña sigue fuerte y presiona los diferenciales."
-    },
-    {
-      "id": "b33",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-11-11",
-      "source": "CEPEA · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431160-cafe-cepea-dolar-limita-impacto-das-quedas-externas-sobre-precos-domesticos.html",
-      "title": "CEPEA: el dólar amortigua la caída externa y los precios internos siguen cerca de fines de octubre",
-      "summary": "Según CEPEA, el fuerte ritmo de embarques de Vietnam y Brasil en octubre presiona el arábica en Nueva York, pero la suba del dólar compensa buena parte de la baja en el mercado interno, donde los negocios son esporádicos. Para el comprador, el precio en reales se mantiene firme aunque el precio en dólares baja."
     },
     {
       "id": "b34",
@@ -175,30 +188,6 @@
       "summary": "El presidente de la mayor cooperativa del país dijo en la Semana Internacional del Café que El Niño dejó floradas muy desparejas y que la safra 2027 —ya menor por el ciclo bienal— tendría calidad muy afectada; advirtió que la merma podría crecer. Señal alcista para el arábica de Minas y São Paulo de 2027."
     },
     {
-      "id": "b39",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "mogiana"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-11",
-      "source": "Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431214-cafe-volta-a-cair-em-nova-york-e-perde-forca-tambem-no-mercado-brasileiro-nesta-4-feira.html",
-      "title": "El café vuelve a caer en Nueva York y pierde fuerza en el físico brasileño",
-      "summary": "El arábica de diciembre cerró el 11-nov en 269 ¢/lb (−240 puntos) por la expectativa de más oferta, y con el dólar a R$5,56 (−0,43 %) el físico bajó: Varginha R$1.650 y Franca R$1.640 por saca (tipo 6, −0,6 % y −1,2 %)."
-    },
-    {
-      "id": "n29",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "Reuters (Investing.com)",
-      "url": "https://br.investing.com/news/economy-news/cafe-arabica-atinge-a-menor-cotacao-em-6-semanas-na-bolsa-ice-2124295",
-      "title": "El arábica toca su mínimo de seis semanas; suben los inventarios certificados de ICE",
-      "summary": "El arábica cerró el 11-nov en US$2,6465/lb (−0,5 %, mínimo intradía 2,6215) ante la ola de café brasileño esperada; Sucafina ve buenas condiciones para la safra 2027/28. Los inventarios certificados superan 241.000 sacas y hay más de 100.000 en clasificación; el robusta cerró en US$3.245/t, cerca del mínimo de 2,5 años."
-    },
-    {
       "id": "n31",
       "scope": "mundo",
       "tag": "Mercado",
@@ -207,23 +196,6 @@
       "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
       "title": "OIC: en octubre el arábica subió y el robusta bajó; inventarios certificados en polos opuestos",
       "summary": "El precio compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); los Naturales Brasileños subieron 1,5 % a 294,49 ¢/lb y los robustas cayeron 2 %. Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacas (mínimo desde 2002), mientras los de robusta en Londres subieron 29,9 % a 1,13 M."
-    },
-    {
-      "id": "b28",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "mogiana",
-        "conilon-es",
-        "bahia-atlantico",
-        "planalto-bahia"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-10",
-      "source": "Notícias Agrícolas · Climatempo",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431085-cafe-robusta-sobe-mais-de-1-em-londres-enquanto-arabica-busca-estabilidade-em-ny-nesta-3.html",
-      "title": "Semana lluviosa en las zonas cafeteras: más de 100 mm en el sur de Bahia y norte de Espírito Santo",
-      "summary": "Climatempo prevé lluvia en Minas Gerais, Espírito Santo, Bahia y São Paulo; del martes al jueves caerían localmente más de 100 mm en el sur de Bahia y el norte del ES, buena señal para el cuajado (pegamento) de la safra 2027."
     }
   ]
 }
