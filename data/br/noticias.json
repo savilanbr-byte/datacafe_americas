@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:49:33Z",
+  "updatedAt": "2026-11-18T19:47:20Z",
   "items": [
     {
       "id": "b52",
@@ -25,15 +25,31 @@
       "summary": "Los envíos de octubre valieron US$501,2 M (+22,9 %) a un precio medio de US$4.606/t; en enero–octubre sumaron 1,56 M t (+18,5 %) y US$7.080 M (−5,2 %). Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, que empieza a fines de noviembre: más robusta compitiendo con el conilon brasileño."
     },
     {
-      "id": "b49",
+      "id": "b54",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
-      "date": "2026-11-17",
-      "source": "Reuters (Antena 1)",
-      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-008-a-r57819-na-venda",
-      "title": "El dólar se mantiene en R$5,78 mientras el Senado posterga el ajuste fiscal",
-      "summary": "El dólar comercial cerró el 17-nov en R$5,7819 (+0,08 %), tras rozar R$5,81 en la apertura; el Senado pasó al miércoles la votación de las enmiendas del paquete fiscal y el mercado espera el nombre del nuevo equipo económico. Con el real en mínimos de 19 meses, el café brasileño sigue barato en dólares y los precios internos en reales se sostienen."
+      "date": "2026-11-18",
+      "source": "TVT News",
+      "url": "https://tvtnews.com.br/dolar-hoje-ajuste-fiscal-18-novembro-2026/",
+      "title": "El dólar supera R$5,84, su nivel más alto desde abril de 2025, mientras el Senado vota el ajuste fiscal",
+      "summary": "La PTAX de venta quedó en R$5,8102 y en la tarde el dólar llegó a operar en R$5,86, presionado por la votación del paquete fiscal (PLP 299/2026) y enmiendas que podrían costar hasta R$18.300 M en 2027. Un real más débil sostiene los precios internos en reales y anima al productor a vender."
+    },
+    {
+      "id": "b55",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-18",
+      "source": "Safras & Mercado",
+      "url": "https://safras.com.br/com-dolar-e-ny-em-direcoes-opostas-brasil-deve-ter-dia-de-poucos-negocios-para-o-cafe",
+      "title": "El físico sube en Minas: arábica del Cerrado a R$1.800 la saca; el conilon se mueve poco",
+      "summary": "El 17-nov el arábica bebida dura del Cerrado Mineiro pasó a R$1.800–1.805 la saca y el bebida boa del Sul de Minas a R$1.790–1.795 (+R$40), mientras el conilon tipo 7 en Vitória quedó cerca de R$980. Para el 18-nov se esperaban pocos negocios, con Nueva York a la baja y el dólar al alza; el productor vende solo lo necesario."
     },
     {
       "id": "b50",
@@ -196,6 +212,17 @@
       "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
       "title": "OIC: en octubre el arábica subió y el robusta bajó; inventarios certificados en polos opuestos",
       "summary": "El precio compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); los Naturales Brasileños subieron 1,5 % a 294,49 ¢/lb y los robustas cayeron 2 %. Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacas (mínimo desde 2002), mientras los de robusta en Londres subieron 29,9 % a 1,13 M."
+    },
+    {
+      "id": "b56",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Logística",
+      "date": "2026-11-11",
+      "source": "Agrolink (Cecafé)",
+      "url": "https://www.agrolink.com.br/noticias/porto-de-santos-responde-por-70-9--das-exportacoes-brasileiras-de-cafe_520897.html",
+      "title": "Santos despacha el 70,9 % del café exportado por Brasil en 2026",
+      "summary": "Según Cecafé, entre enero y octubre salieron por Santos 24,4 M de sacas y por Río de Janeiro 8,7 M (25,2 %); Paranaguá movió unas 339.000. La concentración en Santos hace que cualquier congestión allí pese en los plazos de embarque."
     }
   ]
 }

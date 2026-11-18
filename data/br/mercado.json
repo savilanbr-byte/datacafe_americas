@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:49:33Z",
+  "updatedAt": "2026-11-18T19:47:20Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -17,15 +17,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.7851,
+      "value": 5.8102,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-17",
+      "asOf": "2026-11-18",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-13-2026'&@dataFinalCotacao='11-17-2026'&$format=json",
-      "note": "PTAX de venta del 17-nov: +0,92 % frente a R$5,7324 del 16-nov, cuarta alza seguida y nuevo máximo desde abril de 2025, con el mercado aún pendiente del ajuste fiscal de 2027.",
-      "change": 0.0527,
-      "changePct": 0.92,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-16-2026'&@dataFinalCotacao='11-18-2026'&$format=json",
+      "note": "PTAX de venta del 18-nov: +0,43 % frente a R$5,7851 del 17-nov, quinta alza seguida; en la tarde el dólar comercial pasó de R$5,84, su nivel más alto desde abril de 2025, mientras el Senado vota el ajuste fiscal.",
+      "change": 0.0251,
+      "changePct": 0.43,
       "chgDec": 4
     },
     "cepeaA": {
