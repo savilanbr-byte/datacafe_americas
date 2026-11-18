@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-17T19:47:27Z",
+  "updatedAt": "2026-11-18T11:48:11Z",
   "items": [
     {
-      "id": "n40",
+      "id": "n41",
       "scope": "mundo",
       "tag": "Mercado",
       "date": "2026-11-17",
-      "source": "Reuters · Arab News",
-      "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
-      "title": "El arábica sube por inventarios certificados en mínimos de 27 años; el robusta toca mínimos de dos años y medio",
-      "summary": "El arábica ganó 0,4 % a 274,70 ¢/lb tras caer 15 % en dos sesiones las existencias certificadas de ICE, que quedaron en 211.321 sacos (mínimo en 27 años), aunque hay 166.456 sacos en espera de clasificación; el robusta bajó 1,5 % a US$3.146/t con la cosecha de Vietnam en marcha. Inventarios ajustados sostienen la base de NY justo antes del primer aviso de diciembre, lo que encarece las fijaciones de lavados de Costa Rica."
+      "source": "Barchart · Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
+      "title": "El arábica sube 2,1 % a máximos de dos semanas con inventarios ICE en mínimos de 27 años; el robusta cae a mínimos de casi tres años",
+      "summary": "El contrato de diciembre ganó 5,90 ¢/lb (+2,1 %) porque las existencias certificadas bajaron a 186.414 sacos, aunque hay 212.959 sacos brasileños en espera de clasificación; el robusta de enero cayó 2,3 % ante la previsión de 2,1 Mt para Vietnam (+5 %) y exportaciones vietnamitas de octubre +61 %. Con el real en mínimos de 19 meses y Brasil exportando 23 % más, el rebote de NY puede ser corto: conviene fijar por tramos los lavados de Costa Rica."
     },
     {
       "id": "n37",
@@ -74,6 +74,30 @@
       "summary": "En los primeros 11 días de noviembre el IMN registró más de 23 récords de temperatura máxima, con unos 37 °C en el Pacífico Norte y 33,3 °C en La Garita (oeste del Valle Central); por El Niño, las medias de noviembre a enero podrían quedar hasta 2 °C sobre lo normal. El calor acelera el secado pero favorece la broca y puede apurar la maduración en las zonas bajas."
     },
     {
+      "id": "n42",
+      "scope": "cr",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-13",
+      "source": "Diario Extra · BCCR",
+      "url": "https://www.diarioextra.com/noticia/dolar-cae-a-¢44610-y-alcanza-nuevo-minimo-historico-en-monex/",
+      "title": "El dólar marca un nuevo mínimo histórico en Monex: ₡446,10, pese a compras del BCCR por US$102 millones",
+      "summary": "El promedio ponderado del Monex cerró el 13 de noviembre en ₡446,10 y superó el mínimo de ₡446,80 de septiembre; el BCCR compró unos US$102,6 millones entre el 10 y el 13 de noviembre y el dólar acumula una caída de ₡50,97 en 2026. Un colón más fuerte recorta la liquidación en colones al productor y empuja a beneficios y fincas a pedir más dólares por quintal."
+    },
+    {
+      "id": "n43",
+      "scope": "cr",
+      "regiones": [
+        "perez-zeledon"
+      ],
+      "tag": "Exportaciones",
+      "date": "2026-11-13",
+      "source": "Tv Sur",
+      "url": "https://www.tvsur.co.cr/noticias/perez-zeledon-fue-sede-del-exporta-cafe-tour-para-impulsar-la-exportacion-del-grano-de-oro/",
+      "title": "Procomer y el ICAFE llevan el «Exporta Café Tour» a Rivas de Pérez Zeledón",
+      "summary": "Procomer, el ICAFE, Esencial Costa Rica y la Feria del Café capacitaron a productores de la zona sur sobre el mercado internacional y los trámites para exportar. Apunta a más microbeneficios de Pérez Zeledón vendiendo directo, una vía para conseguir lotes trazables de la región."
+    },
+    {
       "id": "n26",
       "scope": "cr",
       "regiones": [
@@ -103,17 +127,6 @@
       "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
     },
     {
-      "id": "n29",
-      "scope": "cr",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-06",
-      "source": "La Nación · BCCR",
-      "url": "https://www.nacion.com/economia/tipo-de-cambio-en-el-monex-cierra-la-semana-por/CBKRE3RR6BARXEY4NOCLBQZ6FE/story/",
-      "title": "El dólar cierra la semana por debajo de ₡450 en Monex pese a compras del Banco Central",
-      "summary": "El promedio ponderado del Monex terminó el 6 de noviembre en ₡449,58, el más bajo desde septiembre, aunque el BCCR compró US$24,58 millones en operaciones de estabilización el 5 y 6 de noviembre. Un colón fuerte reduce los colones que recibe el productor y presiona al alza los precios en dólares que piden beneficios y fincas."
-    },
-    {
       "id": "n30",
       "scope": "mundo",
       "tag": "Producción",
@@ -132,17 +145,6 @@
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
       "title": "Sucafina prevé que la cosecha de Centroamérica y México caiga 9,3 %, a menos de 18 millones de sacos",
       "summary": "La comercializadora estima la cosecha 2026-27 de la región por debajo de 18 millones de sacos de 60 kg (19,68 millones en 2025-26) por sequía y ciclo bajo del arábica; Honduras y México, los más golpeados. Menos oferta de lavados centroamericanos sostiene los diferenciales que pueden pedir los beneficios ticos."
-    },
-    {
-      "id": "n27",
-      "scope": "cr",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-03",
-      "source": "The Tico Times · ICAFE",
-      "url": "https://ticotimes.net/2026/11/03/costa-rica-el-nino-coffee-harvest-farm-losses",
-      "title": "El ICAFE prevé una cosecha 10–15 % menor a lo estimado por El Niño y el Banco Central recorta el agro",
-      "summary": "Según el subdirector del ICAFE, Miguel Barquero, las lluvias irregulares atrasaron unos 30 días la fertilización y afectan peso y calidad del café oro; el BCCR bajó su proyección agropecuaria a 0,7 % en 2026 y −0,5 % en 2027. Espera menos volumen exportable que lo anunciado en agosto (+16,7 %) y revisa rendimientos y granulometría antes de cerrar contratos."
     }
   ]
 }

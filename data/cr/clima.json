@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:47:27Z",
+  "updatedAt": "2026-11-18T11:48:11Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,20 +22,20 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, que arrancan cosecha, tienen días secos, calurosos y muy ventosos: excelentes para secar al sol, pero las ráfagas de hasta 70–85 km/h piden cubrir patios y vigilar que el pergamino no se seque de forma dispareja.",
-    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona con aguaceros aislados esta semana: pide control de humedad y actividad de agua en los lotes del Pacífico Sur hasta que se establezca la época seca a fines de noviembre.",
-    "El aire seco que entra por el Caribe también frena la lluvia en Turrialba y la Zona Norte: mejor ventana para secar y menos fruta caída de lo que se esperaba en esas zonas.",
-    "Los Santos empieza a recoger con lluvias en retirada; los primeros lotes de altura podrían traer buena densidad, aunque el atraso en la fertilización puede pesar en el rendimiento por fanega.",
-    "Con récords de calor en noviembre y El Niño de fuerte a muy fuerte hasta ene–mar 2027, sube el riesgo de broca y de estrés en las floraciones de 2027-28; el ICAFE ya recorta 10–15 % sus estimaciones, así que pide análisis físico antes de fijar volúmenes."
+    "Valle Central y Valle Occidental, que arrancan cosecha, siguen con días secos, calurosos y ventosos: muy buenos para secar al sol, aunque las ráfagas de hasta 80 km/h obligan a proteger patios y vigilar que el pergamino no se seque disparejo.",
+    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona con chubascos de tarde; la época seca llegaría al Pacífico Sur entre el 23 y el 29 de noviembre, así que hasta entonces pide control de humedad y actividad de agua en esos lotes.",
+    "Turrialba y la Zona Norte tienen menos lluvia de lo habitual gracias al aire seco, pero el Caribe aún trae lluvias dispersas: el secado ahí sigue más lento y conviene revisar fruta caída.",
+    "Los Santos empieza a recoger con lluvias en retirada; los primeros lotes de altura podrían traer buena densidad, aunque el atraso de unos 30 días en la fertilización puede pesar en el rendimiento por fanega.",
+    "Con récords de calor y El Niño de fuerte a muy fuerte hasta ene–mar 2027, sube el riesgo de broca y de estrés en las floraciones de 2027-28; el ICAFE ya recorta 10–15 % sus estimaciones, así que pide análisis físico antes de fijar volúmenes."
   ],
   "avisos": {
     "source": "IMN",
-    "asOf": "2026-11-17",
-    "headline": "IMN (17 nov): alisios más fuertes y aire seco del Caribe estabilizan casi todo el país; solo aguaceros aislados en el Pacífico Sur",
+    "asOf": "2026-11-18",
+    "headline": "IMN (18 nov): condiciones mayormente estables y baja humedad en casi todo el país; viento fuerte y chubascos aislados solo en el Pacífico Sur",
     "items": [
-      "Martes con ráfagas de 40–70 km/h en el Valle Central y las llanuras del Pacífico Norte y de hasta 85 km/h en montañas; temperaturas diurnas más altas.",
-      "Una masa de aire seco reduce la humedad en el Caribe y la Zona Norte; las lluvias quedan limitadas a chubascos y tormentas aisladas en el Pacífico Sur.",
-      "Noviembre ya suma más de 23 récords de temperatura máxima en sus primeros 11 días (hasta 37 °C en el Pacífico Norte y 33,3 °C en La Garita); el IMN prevé medias hasta 2 °C sobre lo normal entre noviembre y enero por El Niño.",
+      "Miércoles con poca nubosidad en la mayor parte del país; chubascos aislados por la tarde en el Pacífico Sur y en las montañas del Pacífico Central, y lluvias dispersas en el Caribe.",
+      "Ráfagas de 40–60 km/h en las zonas central y norte y de hasta 80 km/h en las montañas; mañanas y primeras horas de la tarde calurosas.",
+      "Noviembre ya suma más de 23 récords de temperatura máxima (hasta 37 °C en el Pacífico Norte); el IMN prevé medias hasta 2 °C sobre lo normal entre noviembre y enero por El Niño.",
       "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020."
     ],
     "links": [
@@ -44,8 +44,8 @@
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "Diario Extra · Ráfagas de hasta 85 km/h este martes (17 nov)",
-        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-rafagas-de-hasta-85-km-h-este-martes/"
+        "t": "Diario Extra · Condiciones para este miércoles (18 nov)",
+        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-conozca-las-condiciones-para-este-miercoles-7/"
       },
       {
         "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
