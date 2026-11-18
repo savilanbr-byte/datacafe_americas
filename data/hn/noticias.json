@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T19:47:14Z",
+ "updatedAt": "2026-11-18T11:48:05Z",
  "items": [
   {
    "id": "h22",
@@ -15,14 +15,14 @@
    "summary": "La alerta (boletín 050-2026) rige 48 horas desde el martes 17; CENAOS prevé chubascos con tormentas en el noroccidente y la montaña de Olancho, lluvias débiles y aisladas en el occidente, centro y oriente, y el jueves 19 más lluvia en el norte, centro y oriente por una cuña de alta presión. En Agalta y el oriente puede frenar el secado del pergamino; el occidente sigue con buen tiempo para secar."
   },
   {
-   "id": "n24",
+   "id": "n25",
    "scope": "mundo",
    "tag": "Mercado",
-   "date": "2026-11-16",
-   "source": "Reuters · Business Recorder",
-   "url": "https://www.brecorder.com/news/40449223/coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows",
-   "title": "El arábica sube con los inventarios ICE en nuevo mínimo de 27 años",
-   "summary": "El lunes 16 el arábica subía 0,7 % a 275,45 ¢/lb, alejándose del mínimo de siete semanas (262) del jueves, tras caer los inventarios certificados 15 % en dos sesiones a 211.321 sacos; la robusta bajaba 0,7 % a US$3.173/t, cerca de su mínimo de 2,5 años por la cosecha de Vietnam. Los operadores esperan que los stocks se recuperen con la buena cosecha de Brasil, así que la bolsa sigue volátil para fijar contratos de café hondureño."
+   "date": "2026-11-17",
+   "source": "Barchart",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
+   "title": "El arábica sube 2,1 % y la robusta toca su mínimo en 2,75 años",
+   "summary": "El arábica de diciembre subió 5,90 ¢/lb (+2,1 %) con los inventarios certificados de ICE en 186.414 sacos, mínimo de 27 años, aunque hay 212.959 sacos brasileños esperando clasificación; la robusta cayó 2,3 % por las mayores exportaciones de Vietnam (+61 % en octubre) y el real en mínimo de 19 meses. Un arábica firme sostiene los precios de referencia para el café hondureño, pero la llegada de café de Brasil a los almacenes puede frenar la subida."
   },
   {
    "id": "h19",
@@ -131,19 +131,6 @@
    "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
    "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
    "summary": "Según Sucafina, la región produciría menos de 18 M de sacos de 60 kg y Honduras y México tendrían las mayores caídas. Anticipa oferta más ajustada de café hondureño en la cosecha en curso."
-  },
-  {
-   "id": "h13",
-   "scope": "hn",
-   "regiones": [
-    "opalaca"
-   ],
-   "tag": "Regulación",
-   "date": "2026-11-03",
-   "source": "ACICAFOC",
-   "url": "https://www.acicafoc.org/2026/11/03/reglamento-eudr-una-oportunidad-para-exportar-cafe-cuidando-el-bosque/",
-   "title": "Productores de Santa Bárbara se capacitan para cumplir el EUDR",
-   "summary": "Más de 50 caficultores de Concepción del Sur (Santa Bárbara) recibieron un taller sobre el reglamento europeo de deforestación para mantener el acceso a la UE en 2027. Para compradores europeos, conviene pedir geolocalización y trazabilidad desde ya."
   }
  ]
 }
