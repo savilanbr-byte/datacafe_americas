@@ -22,20 +22,20 @@
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "18 al 24 de noviembre",
+    "period": "19 al 25 de noviembre",
     "url": "https://www.yr.no/"
   },
   "impactos": [
-    "México y Centroamérica: semana mayormente seca en el centro y sur (Tarrazú unos 4 mm, Boquete 5 mm, Antigua 7 mm, Santa Ana y Matagalpa cerca de 9 mm), buena para el corte y el secado al sol; Tapachula (~21 mm) y Marcala (~17 mm) tienen lluvias ligeras casi a diario. El Niño ya recorta volúmenes (Icafé 10–15 % menos en Costa Rica, Sucafina −9,3 % regional).",
-    "Colombia y Venezuela: Chinchiná suma unos 25 mm con lluvia 6 de 7 días en plena cosecha principal, con pico esperado en diciembre en Caldas: conviene revisar humedad del pergamino; Boconó sigue casi seco (~7 mm). El IDEAM espera que el déficit de lluvias de El Niño se note desde diciembre.",
-    "Perú, Ecuador y Bolivia: Jaén (~81 mm) y Loja (~76 mm) tienen lluvia los 7 días y Caranavi suma unos 31 mm, en floración y llenado del grano de la próxima cosecha; con un El Niño fuerte a muy fuerte, vigila lluvias intensas en la costa norte de Perú y Ecuador y posibles cortes en Paita y Guayaquil.",
-    "Brasil: vuelven las lluvias a Varginha (~35 mm, todos los días), favorables para el cuajado de la cosecha 2027/28 del arábica tras las floraciones irregulares; en Linhares siguen lluvias fuertes (~84 mm), útiles para el conilon pero con riesgo para la logística en Espírito Santo.",
-    "Calidad: la sequía y el calor en Centroamérica favorecen broca y granos defectuosos, mientras que las lluvias persistentes en el sur de Ecuador, el norte de Perú y el Eje Cafetero obligan a revisar humedad y taza de los lotes antes de cerrar compras."
+    "México y Centroamérica: semana con pocas lluvias en el centro y sur (Tarrazú y Boquete unos 8 mm, Marcala 9 mm, Antigua y Santa Ana 11 mm, Matagalpa 12 mm), favorable para el corte y el secado al sol en plena cosecha; Tapachula (~23 mm) tiene lluvias ligeras los 7 días. El Niño ya recorta volúmenes en la región (Icafé prevé 10–15 % menos en Costa Rica).",
+    "Colombia y Venezuela: Chinchiná sube a unos 47 mm con lluvia los 7 días en plena cosecha principal, cuyo pico en Caldas se espera en diciembre: conviene revisar humedad del pergamino y posibles demoras en la recolección; Boconó sigue casi seco (~9 mm). El IDEAM espera que el déficit de lluvias de El Niño se note desde diciembre.",
+    "Perú, Ecuador y Bolivia: Loja (~89 mm) y Jaén (~82 mm) tienen lluvia casi a diario y Caranavi suma unos 42 mm, en floración y llenado del grano de la próxima cosecha; con un El Niño fuerte a muy fuerte, vigila lluvias intensas en la costa norte de Perú y Ecuador y posibles cortes en Paita y Guayaquil.",
+    "Brasil: lluvias generosas en Varginha (~51 mm en 5 días), favorables para el cuajado de la cosecha 2027/28 del arábica tras las floraciones irregulares; en Linhares siguen lluvias fuertes (~80 mm), útiles para el conilon pero con riesgo para caminos y logística en Espírito Santo.",
+    "Calidad: el tiempo seco y caluroso en Centroamérica favorece el secado pero también la broca y los granos defectuosos, mientras que las lluvias persistentes en el sur de Ecuador, el norte de Perú y el Eje Cafetero obligan a revisar humedad y taza de los lotes antes de cerrar compras."
   ],
   "regions": [
     {
       "dept": "México",
-      "p7": 20.6,
+      "p7": 23.0,
       "place": "Tapachula, Chiapas",
       "region": "mexico",
       "tmax": 32,
@@ -43,15 +43,15 @@
     },
     {
       "dept": "Guatemala",
-      "p7": 7.4,
+      "p7": 11.4,
       "place": "Antigua",
       "region": "guatemala",
       "tmax": 25,
-      "tmin": 15
+      "tmin": 14
     },
     {
       "dept": "Honduras",
-      "p7": 17.4,
+      "p7": 8.8,
       "place": "Marcala, La Paz",
       "region": "honduras",
       "tmax": 25,
@@ -59,15 +59,15 @@
     },
     {
       "dept": "El Salvador",
-      "p7": 8.6,
+      "p7": 11.4,
       "place": "Santa Ana",
       "region": "el-salvador",
       "tmax": 32,
-      "tmin": 22
+      "tmin": 21
     },
     {
       "dept": "Nicaragua",
-      "p7": 8.5,
+      "p7": 12.0,
       "place": "Matagalpa",
       "region": "nicaragua",
       "tmax": 28,
@@ -75,15 +75,15 @@
     },
     {
       "dept": "Costa Rica",
-      "p7": 4.2,
+      "p7": 8.3,
       "place": "San Marcos de Tarrazú",
       "region": "costa-rica",
       "tmax": 25,
-      "tmin": 15
+      "tmin": 16
     },
     {
       "dept": "Panamá",
-      "p7": 5.2,
+      "p7": 8.4,
       "place": "Boquete, Chiriquí",
       "region": "panama",
       "tmax": 25,
@@ -91,7 +91,7 @@
     },
     {
       "dept": "Colombia",
-      "p7": 25.0,
+      "p7": 47.1,
       "place": "Chinchiná, Caldas",
       "region": "colombia",
       "tmax": 27,
@@ -99,23 +99,23 @@
     },
     {
       "dept": "Venezuela",
-      "p7": 7.2,
+      "p7": 9.1,
       "place": "Boconó, Trujillo",
       "region": "venezuela",
-      "tmax": 26,
-      "tmin": 16
+      "tmax": 27,
+      "tmin": 17
     },
     {
       "dept": "Ecuador",
-      "p7": 75.9,
+      "p7": 88.7,
       "place": "Loja",
       "region": "ecuador",
-      "tmax": 23,
+      "tmax": 22,
       "tmin": 15
     },
     {
       "dept": "Perú",
-      "p7": 81.3,
+      "p7": 82.4,
       "place": "Jaén, Cajamarca",
       "region": "peru",
       "tmax": 30,
@@ -123,28 +123,28 @@
     },
     {
       "dept": "Bolivia",
-      "p7": 31.0,
+      "p7": 41.6,
       "place": "Caranavi, La Paz",
       "region": "bolivia",
-      "tmax": 30,
+      "tmax": 32,
       "tmin": 22
     },
     {
       "dept": "Brasil",
-      "p7": 34.9,
+      "p7": 50.7,
       "place": "Varginha, Sul de Minas",
       "region": "brasil-arabica",
-      "tmax": 28,
-      "tmin": 19
+      "tmax": 26,
+      "tmin": 20
     },
     {
       "dept": "Brasil",
-      "p7": 83.7,
+      "p7": 79.6,
       "place": "Linhares, Espírito Santo",
       "region": "brasil-conilon",
-      "tmax": 30,
+      "tmax": 31,
       "tmin": 24
     }
   ],
-  "updatedAt": "2026-11-17T19:47:04Z"
+  "updatedAt": "2026-11-18T11:54:59Z"
 }

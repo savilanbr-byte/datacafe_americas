@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-17",
+    "asOf": "2026-11-18",
     "base": "USD",
     "rates": {
-      "BRL": 5.714693,
-      "COP": 3315.703306,
-      "MXN": 18.548392,
-      "GTQ": 7.640804,
-      "HNL": 26.904225,
-      "NIO": 36.80446,
-      "CRC": 447.073657,
-      "VES": 915.7476,
-      "PEN": 3.411033,
-      "BOB": 11.669516
+      "BRL": 5.781701,
+      "COP": 3320.186806,
+      "MXN": 18.442572,
+      "GTQ": 7.648031,
+      "HNL": 26.949218,
+      "NIO": 36.830151,
+      "CRC": 446.134339,
+      "VES": 916.6477,
+      "PEN": 3.41413,
+      "BOB": 11.662995
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -81,10 +81,10 @@
       "asOf": "2026-11-16",
       "dec": 0,
       "label": "Inventarios certificados ICE",
-      "note": "Lunes 16-nov; mínimo desde febrero de 1999 (211.321 el viernes 13-nov). Pendientes de clasificación: 196.852 sacos, todos de Brasil",
-      "source": "ICE · ADM Investor Services",
+      "note": "Lunes 16-nov; mínimo desde febrero de 1999 (211.321 el viernes 13-nov). Pendientes de clasificación: 212.959 sacos de Brasil al martes 17-nov, máximo en 3,75 años",
+      "source": "ICE · Barchart",
       "unit": "sacos",
-      "url": "https://www.admis.com/arabica-stocks-hit-1999-low/",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
       "value": 186414,
       "change": -24907,
       "chgDec": 0
@@ -110,8 +110,8 @@
       "value": 357.85
     },
     "icoComp": {
-      "asOf": "2026-11-13",
-      "changePct": 0.09,
+      "asOf": "2026-11-16",
+      "changePct": -0.11,
       "dec": 0,
       "label": "Indicador compuesto OIC",
       "source": "OIC · La República",
@@ -203,17 +203,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-17",
-      "change": -70.0,
-      "changePct": -2.23,
+      "asOf": "2026-11-18",
+      "change": -10.0,
+      "changePct": -0.33,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 3069.0,
-      "note": "Cierre del 17-nov; cierre previo 3.139"
+      "value": 3059.0,
+      "note": "Intradía del 18-nov (06:44); cierre previo 3.069"
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-17T19:47:04Z"
+  "updatedAt": "2026-11-18T11:54:59Z"
 }
