@@ -1,6 +1,43 @@
 {
-  "updatedAt": "2026-11-17T19:47:02Z",
+  "updatedAt": "2026-11-18T11:49:19Z",
   "items": [
+    {
+      "id": "n22",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Barchart",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
+      "title": "El arábica sube 2,1 % con inventarios de ICE en mínimo de 27 años; el robusta toca mínimo de 2,75 años",
+      "summary": "El arábica de diciembre ganó 5,90 ¢/lb (+2,10 %) el martes 17, con los inventarios certificados de ICE en 186 414 sacos (mínimo de 27 años) aunque hay 212 959 sacos de Brasil pendientes de clasificación; el robusta de enero cayó 73 USD/t (−2,32 %) porque VICOFA prevé 2,1 Mt en Vietnam (+5 %) y el real brasileño tocó un mínimo de 19 meses. La brecha arábica–robusta se abre, lo que favorece al soluble hecho con robusta importado frente a la cereza mexicana."
+    },
+    {
+      "id": "m36",
+      "scope": "mx",
+      "regiones": [
+        "veracruz",
+        "robusta-golfo"
+      ],
+      "tag": "Logística",
+      "date": "2026-11-17",
+      "source": "Publimetro · Semar",
+      "url": "https://www.publimetro.com.mx/noticias/2026/11/18/frente-frio-6-provoca-cierre-de-puertos-en-mexico-alertan-por-lluvias-torrenciales-y-vientos/",
+      "title": "El frente frío 6 cierra los puertos de Veracruz, Tuxpan y Coatzacoalcos",
+      "summary": "La Semar cerró a la navegación mayor los puertos de Veracruz, Tuxpan, Coatzacoalcos y Alvarado por el norte de 70–90 km/h y olas de 3–4 m, mientras el SMN elevó la lluvia del martes 17 a 150–250 mm en el sur de Veracruz, el norte y este de Oaxaca y el noroeste de Chiapas. Embarques de café verde por Veracruz pueden retrasarse unos días."
+    },
+    {
+      "id": "m37",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-frailesca"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-17",
+      "source": "Alerta Chiapas",
+      "url": "https://alertachiapas.com/2026/11/17/villa-corzo-cafe-especialidad-83-puntos-certificacion-unicach/",
+      "title": "Café de Villa Corzo puntúa 82–83 pero buena parte se vende como convencional",
+      "summary": "Una tesis de la UNICACH, basada en entrevistas a Oro Verde, Exportadora de Café California y AMSA, encontró que el café de más de 1 200 m en Villa Corzo (Frailesca) alcanza 82–83 puntos, pero de 80 quintales diferenciados a veces solo 40 se pagan como especial por falta de certificación, organización y cuidado en el fermento. Hay lotes de calidad que un comprador puede diferenciar si trabaja la trazabilidad."
+    },
     {
       "id": "m35",
       "scope": "mx",
@@ -51,16 +88,6 @@
       "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/",
       "title": "La cereza sube hasta 16,10 pesos por kilo en Huatusco y las Altas Montañas",
       "summary": "El jueves 12 se pagaba de 14,20 MXN/kg (Rincón Toningo, Tlaltetela) a 15,80–16,10 (Capulapa, Huatusco), con Boca del Monte y Totutla en 16 y FICUS comprando a 15,60 en Sábanas; el monitoreo de la Comisión de Seguimiento de Precios pone el promedio de Huatusco–Ixhuatlán en 15,40. Los precios ya rozan el mínimo de 16 que pide la CNOC."
-    },
-    {
-      "id": "n19",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Barchart",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/tightness-ice-inventories-lifts-arabica-191910072.html",
-      "title": "El arábica rebota 4 % por inventarios certificados ajustados; el robusta sigue a la baja",
-      "summary": "El arábica de diciembre subió 11,20 ¢/lb (+4,16 %) el jueves 12 desde un mínimo de 4,75 meses, con los inventarios certificados de ICE en 228 586 sacos, cerca del mínimo de 27 años; el robusta de enero cayó 38 USD/t (−1,17 %) por más oferta de Brasil y Vietnam (exportaciones de octubre +61 %). El rebote mejora la referencia para la cereza mexicana."
     },
     {
       "id": "m24",
@@ -177,19 +204,6 @@
       "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
       "title": "La sequía en el Soconusco y la Costa de Chiapas amenaza la cosecha 2026-27",
       "summary": "Según Rigoberto Galindo, del Comité Nacional Sistema Producto Café, solo llovió en junio, julio y parte de septiembre, lo que causa maduración despareja y una producción menor, sin cifra oficial aún. Para el comprador: lotes irregulares y riesgo de menor calidad en la zona."
-    },
-    {
-      "id": "m23",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-04",
-      "source": "Revista Flow",
-      "url": "https://revistaflow.com/produccion-de-cafe-en-chiapas-esta-en-riesgo-por-falta-de-trabajadores-bajos-precios-y-cambio-climatico/",
-      "title": "Soconusco teme perder café en la mata por falta de cortadores",
-      "summary": "Ismael Gómez Coronel, de la Asociación Regional de Productores de Café Unidos para estar Bien, advierte que llegan menos jornaleros guatemaltecos y que parte de la cereza podría caer sin cosecharse; pide financiamiento y un programa de apoyo. Riesgo de menor volumen disponible en la zona."
     }
   ]
 }
