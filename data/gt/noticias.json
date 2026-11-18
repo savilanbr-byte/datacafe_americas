@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-17T19:47:20Z",
+  "updatedAt": "2026-11-18T11:48:17Z",
   "items": [
+    {
+      "id": "n22",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-17",
+      "source": "Barchart · Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
+      "title": "Arábica sube 2,1 % a máximo de dos semanas; robusta toca mínimo de 2,75 años",
+      "summary": "El 17-nov el arábica de diciembre subió 5,90 centavos (+2,1 %) con los inventarios certificados de ICE en 186.414 sacos, mínimo de 27 años, aunque hay 212.959 sacos brasileños esperando clasificación. La robusta de enero cayó 2,3 % por la mayor oferta de Vietnam y el real en mínimo de 19 meses."
+    },
     {
       "id": "g22",
       "scope": "gt",
@@ -21,14 +31,15 @@
       "summary": "El pronóstico semanal prevé mínimas de 3 a 5 °C en el Altiplano Central y Occidental, neblina y lluvias dispersas por la tarde y noche en Alta Verapaz, el Norte, el Caribe, la Bocacosta y el Suroccidente, con tormentas en zonas montañosas del Oriente. En Cobán, San Marcos y Nuevo Oriente, que ya cosechan, la lluvia de la tarde sigue frenando el secado en patio."
     },
     {
-      "id": "n21",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-16",
-      "source": "Reuters · MarketScreener",
-      "url": "https://www.marketscreener.com/news/softs-arabica-coffee-gains-as-ice-stocks-fall-to-fresh-27-year-lows-ce785edfdd80ff24",
-      "title": "Arábica sube el 16-nov con inventarios certificados de ICE en mínimos de 27 años",
-      "summary": "Los futuros de arábica en ICE cerraron al alza el lunes 16 de noviembre y se alejaron de sus mínimos de siete semanas, porque los inventarios certificados de la bolsa cayeron a su nivel más bajo en 27 años. Para quien compra en Guatemala, un mercado de existencias escasas sostiene el precio base de la Bolsa de NY sobre el que se fijan los contratos de la cosecha 2026-27."
+      "id": "g23",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Cafés especiales",
+      "date": "2026-11-14",
+      "source": "Anacafé",
+      "url": "https://www.anacafe.org/guatemala-presenta-su-diversidad-de-perfiles-de-taza-en-café-show-seoul-2026/",
+      "title": "Productores guatemaltecos ofrecen sus cafés a compradores coreanos en Café Show Seoul",
+      "summary": "Tres productores presentaron sus perfiles de taza y una sesión de catación para compradores en la feria de Seúl (11–14 nov). Corea compró el 4 % de la exportación de café de Guatemala en 2025-26, entre los destinos principales."
     },
     {
       "id": "n20",
@@ -150,32 +161,6 @@
       "url": "https://www.prensa-latina.cu/2026/11/04/guatemala-ingresos-por-venta-de-cafe-con-nivel-mas-alto-en-16-anos/",
       "title": "Café de Guatemala: ingresos de exportación más altos en 16 años",
       "summary": "La cosecha 2025-26 dejó US$1.440 M (+12 %) con 4,3 M de quintales (+16 %). Estados Unidos recibió 52 %, Canadá 11 % y Japón 10 %; el café estrictamente duro fue 83 % del total. Anacafé prevé 3,8 M de quintales en 2026-27 por El Niño."
-    },
-    {
-      "id": "g11",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-03",
-      "source": "Prensa Libre · Anacafé",
-      "url": "https://www.prensalibre.com/economia/el-cafe-guatemalteco-rompe-record-de-ingresos-que-impulso-las-exportaciones-y-que-viene-para-2027/",
-      "title": "Anacafé recorta a 3,8 M de quintales la exportación esperada de 2026-27",
-      "summary": "La proyección bajó de 4,2 a 3,8 M de quintales por El Niño, que podría afectar floración y llenado del grano. El promedio de 2025-26 fue de unos US$336 por quintal oro (−2,3 %) y para 2026-27 se espera entre US$275 y US$300: menos oferta y precios más bajos para negociar."
-    },
-    {
-      "id": "g21",
-      "scope": "gt",
-      "regiones": [
-        "nuevo-oriente",
-        "fraijanes",
-        "atitlan"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-03",
-      "source": "IberoNews · Anacafé · INSIVUMEH",
-      "url": "https://iberonewsla.com/exportaciones-cafe-guatemala-record-proyeccion-2027/",
-      "title": "Déficit de lluvia de hasta 29 % golpeó más a Chiquimula, Santa Rosa, Jutiapa y Sololá",
-      "summary": "El INSIVUMEH reportó déficits de lluvia de 29 % en el Pacífico y el Altiplano Central y de 17 % en Occidente, con los mayores faltantes en Chiquimula, Santa Rosa, Jutiapa y Sololá, y mantiene 100 % de probabilidad de El Niño hasta abril de 2027; por eso Anacafé bajó la exportación esperada de 2026-27 a 3,8 M de quintales (previsión, no caída confirmada). Para el comprador: revisar tamaño de grano y rendimiento en Nuevo Oriente, Fraijanes y Atitlán."
     }
   ]
 }
