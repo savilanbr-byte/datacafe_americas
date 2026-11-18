@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:48:17Z",
+  "updatedAt": "2026-11-18T19:47:56Z",
   "items": [
     {
       "id": "n22",
@@ -52,6 +52,16 @@
       "summary": "Tras tocar un mínimo de seis semanas, el arábica para diciembre subió 4,16 % y el de marzo 3,74 % (Safras); en ICE se negociaron los primeros 48 lotes del nuevo contrato de arábica en toneladas (septiembre 2028, US$5.724–5.737/t), mientras el contrato C se retira con marzo de 2028 como último vencimiento. Sucafina ve la cosecha de Centroamérica y México 9,3 % más baja en 2026-27."
     },
     {
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-13",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
+      "title": "Vietnam arranca lento su cosecha de robusta y los precios locales se mantienen",
+      "summary": "Los caficultores del Altiplano Central vendieron a 83.200–83.800 dong/kg (US$3,24–3,26) y los operadores no esperan volúmenes grandes hasta diciembre; el robusta de enero cerró en US$3.245/t. La presión de oferta vietnamita llegaría justo cuando arranca la cosecha guatemalteca."
+    },
+    {
       "id": "g19",
       "scope": "gt",
       "regiones": [
@@ -64,16 +74,6 @@
       "url": "https://www.prensalibre.com/guatemala/comunitario/lluvias-inesperadas-en-noviembre-dejan-calles-inundadas-lodo-y-piedras-en-carreteras-de-guatemala-breaking/",
       "title": "Aguaceros fuera de temporada inundan Antigua y dejan lodo en la Interamericana",
       "summary": "El 12 de noviembre lluvias fuertes inundaron calles de Antigua Guatemala, arrastraron lodo y piedras a la Interamericana en Sacatepéquez y afectaron la capital y Villa Canales; el INSIVUMEH prevé viento del sur y más calor desde el 13-nov. Para quien compra, son días malos para secar en patio en zonas tempranas: conviene revisar humedad del pergamino."
-    },
-    {
-      "id": "n18",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-12",
-      "source": "Reuters · Business Recorder",
-      "url": "https://brecorder.com/news/40448495/arabica-coffee-hits-six-week-low-cocoa-and-sugar-rebound",
-      "title": "Arábica toca mínimo de seis semanas y suben los inventarios certificados de ICE",
-      "summary": "El 12-nov el arábica cayó 1,2 % a US$2,627 por libra (mínimo de seis semanas) ante la expectativa de una gran oferta de Brasil; los inventarios certificados de ICE superaron 241.000 sacos, máximo desde mediados de octubre, y la robusta bajó 0,6 % a US$3.233/t. Un mercado más flojo presiona los diferenciales que piden los exportadores guatemaltecos."
     },
     {
       "id": "n19",

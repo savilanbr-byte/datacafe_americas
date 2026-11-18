@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:48:17Z",
+  "updatedAt": "2026-11-18T19:47:56Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -29,18 +29,18 @@
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
     "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tendrán lluvias dispersas por la tarde en el Norte, la Bocacosta, el Suroccidente y el Oriente toda la semana del 16 al 20-nov: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
-    "Con el viento norte y los frentes fríos se esperan mínimas de 3–5 °C en los altiplanos (ya hubo 5 °C en Huehuetenango): pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos y Atitlán.",
+    "Con el viento norte se esperan mínimas de 3–5 °C en los altiplanos y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; los mayores déficits se dieron en Chiquimula, Santa Rosa, Jutiapa y Sololá, y Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-16",
+    "asOf": "2026-11-18",
     "headline": "Semana del 16 al 20 de noviembre: días cálidos, noches frías (3–5 °C en el Altiplano) y lluvias dispersas por la tarde en el Norte, Caribe, Bocacosta y Suroccidente",
     "items": [
       "INSIVUMEH (pronóstico semanal 16–20 nov): ingreso de humedad desde ambos litorales con lluvias dispersas por la tarde y noche en Petén, Alta Verapaz, la Franja Transversal del Norte, el Caribe, la Bocacosta y el Suroccidente; en el Oriente, lluvias con actividad eléctrica en zonas montañosas.",
       "Mínimas de 3 a 5 °C en las noches y madrugadas del Altiplano Central y Occidental, con neblina por la mañana y la noche en buena parte del país; de día, ambiente cálido.",
-      "INSIVUMEH (11-nov): ya se registraron 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango); la perspectiva de noviembre prevé dos frentes fríos en el mes y 16 en la temporada 2026-27."
+      "INSIVUMEH (18-nov): el frío más intenso será en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; ya se registraron 5,0 °C en San Pedro Necta (11-nov). La temporada traería 16 frentes fríos."
     ],
     "links": [
       {
@@ -50,6 +50,10 @@
       {
         "t": "Pronóstico 16–20 nov (Radio Sonora)",
         "url": "https://www.sonora.com.gt/asi-estara-el-clima-en-guatemala-del-16-al-20-de-noviembre-de-2026-segun-el-insivumeh/"
+      },
+      {
+        "t": "Frío y lluvias de la semana (Emisoras Unidas, 18-nov)",
+        "url": "https://emisorasunidas.com/nacional/2026/11/18/guatemala-frio-bajas-temperaturas-lluvias-noviembre-2026/"
       },
       {
         "t": "Temperaturas registradas (Prensa Latina, 11-nov)",
