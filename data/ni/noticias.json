@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:46:36Z",
+  "updatedAt": "2026-11-18T11:46:52Z",
   "items": [
     {
       "id": "ni5",
@@ -148,14 +148,14 @@
       "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre de 2026 (+28,4 %), el mayor volumen mensual desde 1990; el robusta casi se duplicó (897.081 sacos). La llegada de café brasileño presiona los precios de NY en plena cosecha centroamericana."
     },
     {
-      "id": "n26",
+      "id": "n27",
       "scope": "mundo",
       "tag": "Mercado",
       "date": "2026-11-17",
-      "source": "Reuters (Arab News)",
-      "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
-      "title": "El arábica se apoya en inventarios mínimos de 27 años; el robusta vuelve a su piso de 2,5 años",
-      "summary": "El 16-nov el arábica de ICE subió 0,4 % a US$2,747/lb tras caer 15 % en dos sesiones los inventarios certificados (211.321 sacos, mínimo en 27 años), mientras el robusta bajó 1,5 % a US$3.146/t por la cosecha de Vietnam. Inventarios tan bajos sostienen la demanda de lavados centroamericanos como el de Nicaragua."
+      "source": "Barchart (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
+      "title": "El arábica sube a máximo de 2 semanas con inventarios de ICE en mínimo de 27 años; el robusta cae a mínimo de 2,75 años",
+      "summary": "El 17-nov el arábica de diciembre subió 5,90 ¢/lb (+2,1 %) y el robusta de enero bajó US$73/t (−2,3 %); los inventarios certificados de arábica cayeron a 186.414 sacos (mínimo en 27 años), aunque 212.959 sacos de Brasil esperan clasificación y el real está en mínimo de 19 meses. La escasez de arábica certificado sostiene la demanda de lavados como el nicaragüense, pero el café brasileño por certificar puede frenar el alza."
     }
   ]
 }
