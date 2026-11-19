@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-19T11:47:15Z",
+  "updatedAt": "2026-11-19T19:47:09Z",
   "items": [
+    {
+      "id": "m38",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-19",
+      "source": "Revista Flow · AMECAFÉ",
+      "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/",
+      "title": "AMECAFÉ prevé que la cosecha de la Costa-Sierra de Chiapas caiga hasta 40 %",
+      "summary": "Según Rigoberto Galindo (AMECAFÉ), la sequía y la falta de cortadores llevarían la cosecha 2026-27 de la Costa-Sierra de Chiapas de unos 1,5 millones a 900 mil quintales. Menos oferta del Soconusco y la Sierra puede encarecer el pergamino de la región y complicar el cumplimiento de contratos."
+    },
     {
       "id": "n23",
       "scope": "mundo",
