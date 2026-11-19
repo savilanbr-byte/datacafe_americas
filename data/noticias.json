@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "w1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Divisas",
+      "date": "2026-11-19",
+      "source": "Semana",
+      "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-mas-caro-tras-aumento-de-100-pesos-en-su-valor-la-moneda-supero-la-barrera-de-los-3400-pesos-este-19-de-noviembre/202654/",
+      "title": "Colombia: el dólar cierra en $3.415, $89 por encima de la TRM",
+      "summary": "El peso colombiano se debilitó el jueves 19 de noviembre: el dólar tocó un máximo de $3.469 y cerró en $3.415 frente a una TRM de $3.326,96. Un peso más débil eleva el precio interno en pesos y puede animar las ventas de los caficultores, lo que abre algo de oferta para compradores en dólares."
+    },
+    {
       "id": "u1",
       "scope": "mundo",
       "tag": "Mercado",
@@ -257,18 +268,7 @@
       "url": "https://ifmnoticias.com/economicas/el-precio-interno-del-cafe-cae-a-cerca-de-2-millones-por-carga-y-vuelve-a-rondar/",
       "title": "Colombia: el precio interno del café baja a $2.000.000 por carga, cerca del mínimo del año",
       "summary": "El 9 de noviembre la FNC fijó la referencia del pergamino seco en $2.000.000 por carga de 125 kg (factor 94), por debajo incluso del mínimo de junio ($2.005.000), con el contrato C en 273,60 centavos por libra y un peso revaluado. Un precio interno tan bajo, en plena cosecha, puede frenar la entrega de café de los productores y reducir la oferta disponible para exportar en las próximas semanas."
-    },
-    {
-      "id": "v4",
-      "scope": "am",
-      "pais": "El Salvador",
-      "tag": "Exportaciones",
-      "date": "2026-11-06",
-      "source": "Forbes Centroamérica",
-      "url": "https://forbescentroamerica.com/2026/11/06/el-salvador-aumenta-un-12-sus-ingresos-por-exportaciones-de-cafe-en-2025-2026",
-      "title": "El Salvador ingresa USD 196,05 millones por café en 2025-2026, 12 % más con volumen casi igual",
-      "summary": "Según el Instituto Salvadoreño del Café, en el ciclo 2025-2026 se exportaron 607.908 quintales oro de una cosecha de 964.017 quintales oro-uva, por USD 196,05 millones (USD 189,57 millones de café oro), mientras el volumen exportado apenas subió 0,33 %. Norteamérica se llevó el 64 % y Europa el 16,9 %. El aumento vino del precio y no del volumen, y para 2026-27 el gremio prevé una cosecha menor, por lo que la oferta salvadoreña será escasa."
     }
   ],
-  "updatedAt": "2026-11-19T11:52:38Z"
+  "updatedAt": "2026-11-19T19:50:00Z"
 }
