@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-18T19:47:00Z",
+  "updatedAt": "2026-11-19T11:55:00Z",
   "items": [
+    {
+      "id": "n44",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-18",
+      "source": "Reuters · Business Recorder",
+      "url": "https://brecorder.com/news/40449415/robusta-coffee-hits-2-12-year-low?v=1hFrQl6aJDZbQxyRJRS3nAce",
+      "title": "El robusta toca mínimos de dos años y medio por la llegada de la cosecha vietnamita; el arábica se sostiene",
+      "summary": "El robusta de Londres cayó 2,45 % a US$3.067/t tras tocar US$3.050, mientras el arábica subió 0,95 % a 277,75 ¢/lb apoyado en inventarios certificados en mínimos de 27 años. La brecha entre ambos sigue amplia, así que los lavados centroamericanos como el de Costa Rica conservan su prima frente a los robustas."
+    },
     {
       "id": "n41",
       "scope": "mundo",
