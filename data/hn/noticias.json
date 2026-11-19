@@ -1,6 +1,16 @@
 {
- "updatedAt": "2026-11-18T19:47:02Z",
+ "updatedAt": "2026-11-19T11:48:17Z",
  "items": [
+  {
+   "id": "n26",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-19",
+   "source": "UkrAgroConsult · Barchart",
+   "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+   "title": "El arábica cae 3,6 % y la robusta toca su mínimo en 2 años y 9 meses",
+   "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 % ante la expectativa de cosechas y exportaciones récord de Brasil y Vietnam; las existencias certificadas de arábica en ICE siguen en mínimos de 27 años (186.400 sacos). Una bolsa más baja recorta el precio del pergamino en Honduras al inicio del corte."
+  },
   {
    "id": "h22",
    "scope": "hn",
@@ -15,16 +25,6 @@
    "summary": "La alerta (boletín 050-2026) rige 48 horas desde el martes 17; CENAOS prevé chubascos con tormentas en el noroccidente y la montaña de Olancho, lluvias débiles y aisladas en el occidente, centro y oriente, y el jueves 19 más lluvia en el norte, centro y oriente por una cuña de alta presión. En Agalta y el oriente puede frenar el secado del pergamino; el occidente sigue con buen tiempo para secar."
   },
   {
-   "id": "n25",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-17",
-   "source": "Barchart",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-   "title": "El arábica sube 2,1 % y la robusta toca su mínimo en 2,75 años",
-   "summary": "El arábica de diciembre subió 5,90 ¢/lb (+2,1 %) con los inventarios certificados de ICE en 186.414 sacos, mínimo de 27 años, aunque hay 212.959 sacos brasileños esperando clasificación; la robusta cayó 2,3 % por las mayores exportaciones de Vietnam (+61 % en octubre) y el real en mínimo de 19 meses. Un arábica firme sostiene los precios de referencia para el café hondureño, pero la llegada de café de Brasil a los almacenes puede frenar la subida."
-  },
-  {
    "id": "h19",
    "scope": "hn",
    "regiones": [],
@@ -34,6 +34,17 @@
    "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
    "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
    "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
+  },
+  {
+   "id": "h23",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Insumos",
+   "date": "2026-11-13",
+   "source": "El Informativo · SAG",
+   "url": "https://www.elinformativo.hn/archivos/136200",
+   "title": "La SAG termina de entregar fertilizante a 83.777 caficultores y georreferenciará 400.000 manzanas",
+   "summary": "La SAG cerró el reparto de 327.333 quintales de fertilizante a pequeños y medianos productores de todo el país y avanza en georreferenciar unas 400.000 manzanas de café. Más fincas con mapa ayudan a vender lotes trazables a Europa bajo el EUDR."
   },
   {
    "id": "n20",
@@ -110,27 +121,6 @@
    "regiones": [
     "el-paraiso"
    ]
-  },
-  {
-   "id": "h8",
-   "scope": "hn",
-   "tag": "Exportaciones",
-   "date": "2026-11-04",
-   "source": "Infobae · BCH",
-   "url": "https://www.infobae.com/honduras/2026/11/04/honduras-exporta-667-millones-de-sacos-de-cafe-y-genera-mas-de-2000-millones-de-dolares-en-ocho-meses/",
-   "title": "Honduras exportó 6,67 M de sacos de café entre enero y agosto, 16,3 % más",
-   "summary": "Según el BCH, las divisas del café suman US$2.067 millones, pero el precio promedio por saco de 46 kg cayó de US$361,36 a US$309,96 (−14,2 %). El volumen compensa el menor precio; el café es el 38 % de las exportaciones de mercancías generales.",
-   "regiones": []
-  },
-  {
-   "id": "n15",
-   "scope": "mundo",
-   "tag": "Producción",
-   "date": "2026-11-04",
-   "source": "Infobae · Reuters · Sucafina",
-   "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-   "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
-   "summary": "Según Sucafina, la región produciría menos de 18 M de sacos de 60 kg y Honduras y México tendrían las mayores caídas. Anticipa oferta más ajustada de café hondureño en la cosecha en curso."
   }
  ]
 }
