@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-18T19:50:00Z",
+  "updatedAt": "2026-11-19T11:47:19Z",
   "items": [
     {
-      "id": "n21",
+      "id": "n22",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Barchart",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-      "title": "El arábica sube a máximo de dos semanas por inventarios de ICE en mínimo de 27 años; la robusta cae a su nivel más bajo en 2,75 años",
-      "summary": "El 17 de noviembre el arábica de diciembre subió 5,90 ¢ (+2,1 %) con existencias certificadas de ICE de 186.414 sacos (mínimo en 27 años), mientras la robusta de enero cayó 73 US$/t (−2,3 %); en contra pesan 212.959 sacos brasileños en espera de clasificación y el real en mínimo de 19 meses. Bolsa más firme encarece las fijaciones de café peruano, aunque la oferta brasileña limita las subidas."
+      "date": "2026-11-19",
+      "source": "UkrAgroConsult · Barchart",
+      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+      "title": "El arábica cae 3,6 % y la robusta toca su nivel más bajo en 2 años y 9 meses por expectativas de cosecha mundial récord",
+      "summary": "El 18 de noviembre el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 %, presionados por el USDA (producción mundial 2026/27 récord de 189,7 millones de sacos, Brasil 71,9 millones, +14 %), exportaciones de octubre de Brasil +23 % y de Vietnam +61 %, y 212.960 sacos brasileños en espera de clasificación en ICE. Bolsa más baja abarata las fijaciones de café peruano, aunque las existencias certificadas siguen en mínimo de 27 años (186.400 sacos)."
     },
     {
       "id": "p35",
@@ -67,6 +67,28 @@
       "url": "https://diariovoces.com.pe/cafes-de-san-martin-despiertan-interes-de-compradores-de-25-paises-y-generan-negocios-por-miles-de-dolares/",
       "title": "Cafés de San Martín cierran S/ 46.615 en ventas en Ficafé y negocian cinco contenedores",
       "summary": "Diez organizaciones de San Martín vendieron S/ 46.615 en la feria de Cusco y evalúan la venta de cinco contenedores por más de US$ 746 mil (cifra referencial), liderada por la cooperativa CAFCER, cuya cosecha va de febrero a abril. Hay oferta de San Martín abierta a contratos para la campaña 2027."
+    },
+    {
+      "id": "p36",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "amazonas",
+        "san-martin",
+        "junin",
+        "pasco",
+        "huanuco",
+        "cusco",
+        "puno",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-14",
+      "source": "Andina · ENFEN",
+      "url": "https://andina.pe/agencia/noticia-enfen-nino-costero-extraordinario-continuaria-hasta-inicios-invierno-2027-1099939.aspx",
+      "title": "ENFEN: El Niño costero seguirá extraordinario hasta febrero de 2027 y se debilitaría recién hacia julio",
+      "summary": "El comunicado N.° 20-2026 (13-nov) prevé de noviembre a enero lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía (inferiores en la zona del Titicaca). Para la campaña 2027 implica riesgo de roya y problemas de transporte en el norte, y posible déficit hídrico en la floración de la selva central y el sur (Cusco y Puno)."
     },
     {
       "id": "n20",
@@ -167,48 +189,6 @@
       "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
       "title": "Cepea: la cosecha 2027/28 de Brasil arranca bien, pero el calor de El Niño preocupa",
       "summary": "La floración fue la esperada y el cuajado es bueno en el sur de Minas, Mogiana y el Cerrado, aunque es un año de bienalidad negativa y el calor podría provocar aborto de flores; Rondônia sufrió casi un mes seco y ataques tempranos de broca. El mercado espera una cosecha grande pero no récord, lo que presiona la bolsa."
-    },
-    {
-      "id": "p23",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "cusco",
-        "junin",
-        "pasco",
-        "amazonas",
-        "ayacucho",
-        "puno",
-        "san-martin"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-04",
-      "source": "Andina",
-      "url": "https://andina.pe/agencia/noticia-ficafe-2026-promperu-genera-205-millones-acuerdos-comerciales-por-cafe-peruano-1098618.aspx",
-      "title": "Ficafé 2026: rueda de negocios deja expectativas por US$ 20,5 millones",
-      "summary": "En la rueda del 3 de noviembre en Cusco, 25 compradores de 13 mercados mantuvieron más de 430 citas con 48 organizaciones productoras; más de US$ 250 mil se cerraron en el acto y el resto son expectativas a 12 meses. El 57 % de los compradores no tenía relación previa con Perú: oportunidad de nuevos contactos para lotes especiales."
-    },
-    {
-      "id": "p24",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura",
-        "amazonas",
-        "san-martin",
-        "junin",
-        "pasco",
-        "huanuco",
-        "cusco",
-        "puno",
-        "ayacucho"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-04",
-      "source": "Infobae · CENEPRED",
-      "url": "https://www.infobae.com/peru/2026/11/04/riesgo-climatico-en-peru-senamhi-anticipa-lluvias-intensas-e-inundaciones-entre-noviembre-y-enero/",
-      "title": "Riesgo de lluvias intensas e inundaciones de noviembre a enero",
-      "summary": "El Cenepred advierte mayor probabilidad de lluvias intensas en la costa, la sierra norte y la sierra central occidental, con 8,5 millones de personas expuestas a inundaciones; en la selva hay riesgo de crecidas de ríos, aunque otros sectores tendrían lluvias bajo el promedio. Puede afectar caminos de acopio y la floración de la campaña 2027."
     }
   ]
 }

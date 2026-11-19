@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:50:00Z",
+  "updatedAt": "2026-11-19T11:47:19Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
@@ -10,7 +10,7 @@
       "chgDec": 3,
       "asOf": "2026-11-16",
       "source": "BCRP",
-      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-08/2026-11-18/",
+      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-09/2026-11-19/",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
       "note": "En lo que va de noviembre (2 al 16) se movió entre S/3,401 y S/3,463; el 16-nov subió a S/3,414 tras el mínimo del mes del 13-nov (S/3,401)."
