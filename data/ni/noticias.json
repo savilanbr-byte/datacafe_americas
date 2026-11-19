@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:47:07Z",
+  "updatedAt": "2026-11-19T11:47:55Z",
   "items": [
     {
       "id": "ni5",
@@ -108,16 +108,6 @@
       "summary": "Para la semana que arranca el 16 de noviembre, el INETER prevé máximas de 30–33 °C en el Norte y el Caribe y de 33–36 °C en el Pacífico, lluvias casi nulas en el Pacífico, lloviznas aisladas en el Norte y Centro y ráfagas de 35–45 km/h. El tiempo seco favorece el secado del pergamino en Jinotega y Matagalpa, pero el calor acelera la maduración y presiona a fincas con pocos cortadores."
     },
     {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-05",
-      "source": "Reuters (Forbes Brasil)",
-      "url": "https://forbes.com.br/forbes-agro/2026/11/producao-de-cafe-da-america-central-e-do-mexico-deve-cair-em-2026-27/",
-      "title": "Sucafina prevé que la cosecha de Centroamérica y México caiga 9,3 % en 2026-27",
-      "summary": "Quedaría por debajo de 18 M de sacos de 60 kg (19,68 M en 2025-26) por sequía y calor en el primer semestre, más broca y el año bajo del ciclo bienal; Honduras, México y Guatemala caen más (Nicaragua no se detalla). Menos oferta regional tiende a sostener los diferenciales de los lavados centroamericanos."
-    },
-    {
       "id": "n19",
       "scope": "mundo",
       "tag": "Regulación",
@@ -156,6 +146,16 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
       "title": "El arábica sube a máximo de 2 semanas con inventarios de ICE en mínimo de 27 años; el robusta cae a mínimo de 2,75 años",
       "summary": "El 17-nov el arábica de diciembre subió 5,90 ¢/lb (+2,1 %) y el robusta de enero bajó US$73/t (−2,3 %); los inventarios certificados de arábica cayeron a 186.414 sacos (mínimo en 27 años), aunque 212.959 sacos de Brasil esperan clasificación y el real está en mínimo de 19 meses. La escasez de arábica certificado sostiene la demanda de lavados como el nicaragüense, pero el café brasileño por certificar puede frenar el alza."
+    },
+    {
+      "id": "n28",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-13",
+      "source": "Business Recorder (Reuters)",
+      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
+      "title": "Vietnam: la cosecha de robusta avanza lenta y los volúmenes grandes llegarían en diciembre",
+      "summary": "Los productores de las Tierras Altas Centrales vendían a 83.200–83.800 dongs por kilo (US$3,24–3,26), casi sin cambios; el robusta de enero cerró el 11-nov en US$3.245/t y los exportadores ofrecían el grado 2 con prima de US$40–50/t. La llegada de la cosecha vietnamita en diciembre tiende a presionar el robusta, con poco efecto directo sobre los arábicas lavados de Nicaragua."
     }
   ]
 }
