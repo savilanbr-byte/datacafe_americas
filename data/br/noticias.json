@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-18T19:47:20Z",
+  "updatedAt": "2026-11-19T11:48:17Z",
   "items": [
+    {
+      "id": "n38",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "UkrAgroConsult (Barchart)",
+      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+      "title": "El café se desploma: el arábica de diciembre cae 3,6 % y el robusta toca un mínimo de casi tres años",
+      "summary": "El 18-nov el arábica de diciembre perdió 3,59 % y el robusta de enero 2,25 %, por la expectativa de una cosecha mundial récord de 189,7 M de sacas (USDA) y más envíos de Brasil y Vietnam; hay 212.960 sacas de café brasileño esperando clasificación en ICE, aunque el inventario certificado sigue en 186.400 sacas, mínimo de 27 años. El riesgo de El Niño en Brasil y Vietnam es lo que podría frenar la baja."
+    },
     {
       "id": "b52",
       "scope": "br",
@@ -25,17 +35,6 @@
       "summary": "Los envíos de octubre valieron US$501,2 M (+22,9 %) a un precio medio de US$4.606/t; en enero–octubre sumaron 1,56 M t (+18,5 %) y US$7.080 M (−5,2 %). Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, que empieza a fines de noviembre: más robusta compitiendo con el conilon brasileño."
     },
     {
-      "id": "b54",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-18",
-      "source": "TVT News",
-      "url": "https://tvtnews.com.br/dolar-hoje-ajuste-fiscal-18-novembro-2026/",
-      "title": "El dólar supera R$5,84, su nivel más alto desde abril de 2025, mientras el Senado vota el ajuste fiscal",
-      "summary": "La PTAX de venta quedó en R$5,8102 y en la tarde el dólar llegó a operar en R$5,86, presionado por la votación del paquete fiscal (PLP 299/2026) y enmiendas que podrían costar hasta R$18.300 M en 2027. Un real más débil sostiene los precios internos en reales y anima al productor a vender."
-    },
-    {
       "id": "b55",
       "scope": "br",
       "regiones": [
@@ -52,6 +51,17 @@
       "summary": "El 17-nov el arábica bebida dura del Cerrado Mineiro pasó a R$1.800–1.805 la saca y el bebida boa del Sul de Minas a R$1.790–1.795 (+R$40), mientras el conilon tipo 7 en Vitória quedó cerca de R$980. Para el 18-nov se esperaban pocos negocios, con Nueva York a la baja y el dólar al alza; el productor vende solo lo necesario."
     },
     {
+      "id": "b58",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-18",
+      "source": "Reuters (Antena 1)",
+      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-148-a-r58677-na-venda",
+      "title": "El dólar cierra en R$5,8677 (+1,48 %), su nivel más alto en 19 meses",
+      "summary": "Quinta alza seguida del dólar comercial, que acumula +17,6 % desde la reelección del 25-oct, por dudas sobre el ajuste fiscal tras el aplazamiento de la votación en el Senado; la PTAX de venta quedó en R$5,8102. El real débil sostiene los precios en reales y abarata el café brasileño en dólares para el comprador."
+    },
+    {
       "id": "b50",
       "scope": "br",
       "regiones": [
@@ -63,16 +73,6 @@
       "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325",
       "title": "El agregado del USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 M de sacas",
       "summary": "Subió el arábica a 49,2 M de sacas (desde 47,5 M; +29,5 % anual) y bajó el conilon a 23,3 M (desde 24,4 M) por el mal clima en el Espírito Santo; las exportaciones se mantienen en 49 M de sacas (+26 %). Para 2027-28 ve floradas tempranas prometedoras, pero será año de baja del ciclo bienal del arábica y preocupa El Niño."
-    },
-    {
-      "id": "n35",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Reuters (Investing.com)",
-      "url": "https://br.investing.com/news/economy-news/cafe-robusta-atinge-menor-cotacao-em-2-anos-e-meio-enquanto-arabica-sobe-2130436",
-      "title": "El robusta toca su mínimo en dos años y medio mientras el arábica sube 2,4 %",
-      "summary": "El robusta cerró el 17-nov en US$3.071/t (−2,3 %, mínimo intradía US$3.042) con la llegada de café nuevo de Vietnam, cuya cosecha se acelerará a fines de noviembre; el arábica subió a US$2,814/lb por los inventarios bajos. GSX Commodities ve más espacio de baja por las fuertes exportaciones de Brasil y el café pendiente de clasificación."
     },
     {
       "id": "n36",
@@ -117,6 +117,21 @@
       "summary": "La región serrana y el Caparaó del Espírito Santo podrían superar 150 mm y la Zona da Mata recibir 70–100 mm, mientras el litoral norte del ES (zona de conilon) tendría menos de 30 mm; el oeste y suroeste de Bahia, hasta 150 mm con tormentas severas, y Rondônia casi sin lluvia. Buen respaldo al cuajado (pegamento) del arábica de montaña; el conilon del norte capixaba sigue con poca agua."
     },
     {
+      "id": "b57",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas"
+      ],
+      "tag": "Regulación",
+      "date": "2026-11-15",
+      "source": "Diário do Comércio",
+      "url": "https://diariodocomercio.com.br/agronegocio/regras-europeias-cafe-mineiro/",
+      "title": "EUDR: el café de Minas tendrá que probar que cumple la ley laboral para entrar a Europa",
+      "summary": "El reglamento europeo contra la deforestación exige desde el 30-dic-2026 (medianas y grandes empresas; pequeñas desde el 30-jun-2027) café sin deforestación posterior a 2020 y producido conforme a la ley del país, incluida la laboral; en la 'lista sucia' del Ministerio de Trabajo hay 19 empleadores de Minas. Para el comprador europeo, la trazabilidad y la debida diligencia laboral del proveedor pasan a ser condición de compra."
+    },
+    {
       "id": "b48",
       "scope": "br",
       "regiones": [
@@ -129,21 +144,6 @@
       "url": "https://www.manhuacunews.com.br/2026/11/14/cafe-de-iuna-e-campeao-do-coffee-of-the-year-2026-matas-de-minas-tem-tres-entre-os-dez-primeiros/",
       "title": "Coffee of the Year 2026: un arábica de Iúna (ES) es el mejor de Brasil",
       "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
-    },
-    {
-      "id": "b43",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro",
-        "matas-de-minas"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-13",
-      "source": "Safras & Mercado",
-      "url": "https://safras.com.br/brasil-deve-encerrar-semana-com-precos-mais-altos-para-o-cafe",
-      "title": "El físico brasileño cierra la semana con alza del arábica y más negocios",
-      "summary": "Con Nueva York y el dólar al alza, el arábica bebida boa del Sul de Minas pasó a R$1.730–1.735 la saca (desde R$1.660–1.665) y el bebida dura del Cerrado a R$1.740–1.745; el conilon de Vitória quedó estable en R$970–975. Los productores aprovecharon el repunte para vender más: buen momento para cerrar lotes con oferta disponible."
     },
     {
       "id": "n33",
