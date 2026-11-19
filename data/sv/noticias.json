@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-18T19:46:45Z",
+  "updatedAt": "2026-11-19T11:47:43Z",
   "items": [
     {
-      "id": "n25",
+      "id": "n28",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Reuters (Arab News)",
-      "url": "https://arabnews.pk/pakistan/coffee-rises-on-27-year-low-stocks-pakistan-sugar-tender-draws-400-a-ton-offer-3007252",
-      "title": "Los inventarios certificados de arábica en ICE caen a 211.321 sacos, mínimo de 27 años; la robusta sigue cerca de su piso",
-      "summary": "El arábica subió 0,4 % a 2,7470 US$/lb el 17-nov, tras un mínimo de siete semanas de 2,62 US$ el jueves, con las existencias de ICE 15 % abajo en dos sesiones y 166.456 sacos esperando clasificación; la robusta cayó 1,5 % a 3.146 US$/t por la cosecha de Vietnam. Los inventarios escasos sostienen la bolsa, pero la buena perspectiva de Brasil limita el alza: conviene fijar precio por tramos."
+      "date": "2026-11-19",
+      "source": "UkrAgroConsult",
+      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+      "title": "El arábica de diciembre cae 3,6 % y la robusta toca su mínimo en casi tres años; los inventarios certificados bajan a 186.400 sacos",
+      "summary": "El 18 de noviembre el arábica de diciembre perdió 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha récord que prevé el USDA (189,7 millones de sacos; Brasil 71,9 millones) y por las exportaciones de octubre de Brasil (+23 %) y Vietnam (+61 %). Los inventarios certificados de arábica en ICE cayeron a 186.400 sacos, mínimo de 27 años, aunque hay 212.960 sacos brasileños esperando clasificación."
     },
     {
       "id": "n26",
@@ -20,6 +20,16 @@
       "url": "https://www.indexbox.io/blog/caf-exportaes-recordes-em-outubro-pressionam-cotaes-externas/",
       "title": "Brasil exporta un récord de 5,2 millones de sacos en octubre y presiona la bolsa",
       "summary": "Brasil embarcó unos 5,2 millones de sacos de 60 kg en octubre, el mayor volumen mensual desde 1997, por cerca de US$1.700 millones; de enero a octubre suma 34,0 millones de sacos (−0,5 %) y US$11.800 millones (−8,3 %). La oferta brasileña abundante pesa sobre el arábica y resta poder a los diferenciales de los lavados centroamericanos."
+    },
+    {
+      "id": "n29",
+      "scope": "mundo",
+      "tag": "Precios",
+      "date": "2026-11-17",
+      "source": "Bloomberg Línea",
+      "url": "https://bloomberglinea.com/mercados/que-pasara-con-el-precio-del-cafe-en-2027-las-senales-que-anticipan-una-fuerte-caida",
+      "title": "Citi prevé el arábica en US$2,25/lb a 12 meses por un superávit mundial de 8,3 millones de sacos",
+      "summary": "Con el arábica en US$2,74/lb, Citi espera US$2,75 al cierre de 2026, US$2,50 en el primer trimestre de 2027 y US$2,25 después; ve a El Niño como el principal riesgo alcista. Para quien compra café salvadoreño, anticipa una bolsa más baja al fijar precio de los embarques del ciclo 2026-27."
     },
     {
       "id": "n27",
