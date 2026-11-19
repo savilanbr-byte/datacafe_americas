@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-18T19:47:56Z",
+  "updatedAt": "2026-11-19T11:47:15Z",
   "items": [
+    {
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "UkrAgroConsult · Barchart",
+      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+      "title": "El arábica cae 3,6 % y el robusta 2,3 % por las expectativas de cosechas récord",
+      "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 % (mínimo de 2 años y 9 meses), con el USDA previendo 189,7 M sacos mundiales en 2026-27 y Brasil en 71,9 M; los inventarios certificados de ICE siguen en 186.400 sacos (mínimo de 27 años) pero hay 212.960 sacos brasileños en espera de calificar. Un real en mínimo de 19 meses y el robusta barato presionan los precios del café mexicano."
+    },
     {
       "id": "n22",
       "scope": "mundo",
@@ -65,16 +75,6 @@
       "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
       "title": "El arábica cierra la semana casi sin cambios y el robusta sigue cerca de mínimos de 2,5 años",
       "summary": "El arábica tocó 262,15 ¢/lb el miércoles, saltó a 280,20 el jueves y cerró el viernes cerca de 274, mientras los cafés pendientes de clasificación en ICE superaron 100 000 sacos y los certificados llegaron a su nivel más alto desde mediados de octubre; el indicador Otros Suaves de la OIC subió levemente. Más inventarios limitan los rebotes de la referencia del café mexicano."
-    },
-    {
-      "id": "n20",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "Perfect Daily Grind",
-      "url": "https://perfectdailygrind.com/es/2026/11/13/noticias-de-cafe-futuros-arabica-caen/",
-      "title": "Se negocian los primeros contratos del nuevo arábica métrico de ICE",
-      "summary": "Se cruzaron 48 lotes del vencimiento septiembre 2028 a 5.724–5.737 USD por tonelada; el contrato C en ¢/lb dejará de listarse tras marzo de 2028, así que los contratos de compra de café mexicano a plazo largo tendrán que fijarse en la nueva referencia."
     },
     {
       "id": "m33",
@@ -191,19 +191,6 @@
       "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
       "title": "Sucafina prevé una caída de 9,3 % en la cosecha de Centroamérica y México en 2026-27",
       "summary": "La comercializadora estima menos de 18 millones de sacos de 60 kg (frente a 19,68 millones el ciclo pasado), con México y Honduras entre las mayores bajas por el clima adverso y el ciclo bienal; advierte dudas sobre la calidad. Para el comprador: menor oferta y lotes más irregulares."
-    },
-    {
-      "id": "m19",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco"
-      ],
-      "tag": "Producción",
-      "date": "2026-11-05",
-      "source": "Portavoz Chiapas",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/",
-      "title": "La sequía en el Soconusco y la Costa de Chiapas amenaza la cosecha 2026-27",
-      "summary": "Según Rigoberto Galindo, del Comité Nacional Sistema Producto Café, solo llovió en junio, julio y parte de septiembre, lo que causa maduración despareja y una producción menor, sin cifra oficial aún. Para el comprador: lotes irregulares y riesgo de menor calidad en la zona."
     }
   ]
 }
