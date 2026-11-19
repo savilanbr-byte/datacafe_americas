@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "id": "u1",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "Tạp chí Công Thương",
+      "url": "https://tapchicongthuong.vn/gia-ca-phe-hom-nay-19-11--the-gioi-dong-loat-lao-doc--robusta-tien-sat-moc-3-000-usd-tan-567472.htm",
+      "title": "El robusta encadena ocho caídas y roza los 3.000 USD/t; el arábica baja a 280,95 centavos",
+      "summary": "El 18 de noviembre el robusta de enero cerró en 3.019 USD/t (−52) en Londres y el arábica de diciembre en 280,95 centavos/lb (−5,65) en Nueva York, mientras el físico en Vietnam cayó a unos 74.800 VND/kg por la presión de la nueva cosecha (2,1 millones de t según VICOFA) y el real débil. Para el comprador, la tendencia bajista refuerza la conveniencia de escalonar fijaciones en vez de cerrar todo de una vez."
+    },
+    {
       "id": "p2",
       "scope": "am",
       "pais": "Brasil",
@@ -12,16 +22,6 @@
       "summary": "El 17-nov el indicador Cepea del arábica ganó 1,14 % hasta R$ 1.688,00 por saco de 60 kg, mientras el conilon cedió 0,91 % a R$ 960,04. El mercado interno sigue firme para el arábica pese a la abundancia de la cosecha."
     },
     {
-      "id": "p4",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-18",
-      "source": "Tạp chí Công Thương · ICE",
-      "url": "https://tapchicongthuong.vn/gia-ca-phe-hom-nay-18-11--gia-robusta-xuong-thap-nhat-2-5-nam-567190.htm",
-      "title": "El robusta toca su mínimo en 2,5 años mientras el arábica sube por segunda sesión",
-      "summary": "El 17-nov el robusta de enero-2027 perdió 73 USD hasta 3.071 USD/t por la entrada de la cosecha vietnamita, y el arábica de diciembre ganó 5,90 c hasta 286,60 c/lb apoyado en inventarios certificados mínimos. El arbitraje arábica–robusta se sigue ampliando."
-    },
-    {
       "id": "p5",
       "scope": "mundo",
       "tag": "Producción",
@@ -30,6 +30,38 @@
       "url": "https://dantri.com.vn/kinh-doanh/gia-ca-phe-roi-khoi-moc-80000-dongkg-nong-dan-giu-hang-cho-gia-20261118152626164.htm",
       "title": "Vietnam: el café interno cae bajo 80.000 VND/kg y VICOFA prevé 2,2 millones de toneladas",
       "summary": "En Đắk Lắk el grano ronda 77.000 VND/kg, 7.500 menos que a inicios de mes; VICOFA estima 2,2 Mt para 2026/27 (2,1 Mt de robusta, +5 %) con el grueso de la cosecha a fines de noviembre. Los exportadores ofrecen diferenciales de unos +100 USD/t sobre Londres hasta mayo de 2027."
+    },
+    {
+      "id": "u2",
+      "scope": "mundo",
+      "tag": "Precios",
+      "date": "2026-11-18",
+      "source": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/11/18/fair-trade-usa-raising-minimum-coffee-prices-to-new-fairtrade-levels/",
+      "title": "Fair Trade USA sube el precio mínimo del arábica lavado de 1,40 a 2,00 USD/lb",
+      "summary": "Fair Trade USA iguala los nuevos pisos de Fairtrade International: arábica lavado 2,00 USD/lb (antes 1,40), natural 1,95, robusta lavado 1,35 y natural 1,30, con prima de 20 centavos y diferencial orgánico de 30 centavos sin cambios; el arábica lavado rige para contratos firmados desde el 1 de febrero de 2027. Con la bolsa por encima de 2,70 USD/lb el efecto inmediato es limitado, pero el piso encarece la cobertura de riesgo de los contratos certificados si los precios siguen cayendo."
+    },
+    {
+      "id": "u5",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Divisas",
+      "date": "2026-11-18",
+      "source": "Money Times",
+      "url": "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-585-e-fecha-na-maior-cotacao-em-19-meses-davs/",
+      "title": "El dólar sube 1,45 % y cierra en R$ 5,8667, máximo en 19 meses",
+      "summary": "El real se debilitó por el aplazamiento en el Senado del ajuste fiscal y unas minutas de la Fed que apuntan a nuevas subidas de tasas, pese a dos subastas de línea del Banco Central de hasta USD 1.000 millones. Un real más débil incentiva las ventas de los productores brasileños y presiona a la baja los precios en dólares del café de Brasil."
+    },
+    {
+      "id": "u6",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Divisas",
+      "date": "2026-11-18",
+      "source": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/mercados/2026/11/18/peso-dolar-tipo-de-cambio-precio-hoy-18-de-noviembre-de-2026/",
+      "title": "El peso mexicano cae 2,26 % y cierra en 18,84 por dólar tras las minutas de la Fed",
+      "summary": "Casi todos los miembros de la Fed ven probable subir tasas en los próximos meses, lo que también depreció al real brasileño (1,56 %) y al peso colombiano (1,55 %). Las monedas de origen más débiles mejoran el ingreso en moneda local de los productores y pueden acelerar ventas y abaratar diferenciales en dólares para el comprador."
     },
     {
       "id": "n1",
@@ -130,17 +162,6 @@
       "summary": "El Comité de Caldas espera el pico de recolección entre el 7 y el 13 de diciembre, cuando antes llegaba entre fines de septiembre e inicios de octubre; faltan recolectores y se paga en promedio $1.348 por kilo de cereza. El café nuevo de la cosecha principal llegará más tarde a los puertos."
     },
     {
-      "id": "p9",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Industria",
-      "date": "2026-11-14",
-      "source": "Reporteros Asociados · FNC / MinAgricultura",
-      "url": "https://www.reporterosasociados.com.co/2026/11/gobierno-y-fedecafe-renuevan-por-10-anos-el-manejo-de-los-fondos-cafeteros",
-      "title": "Colombia: Gobierno y FNC renuevan por diez años el contrato del Fondo Nacional del Café",
-      "summary": "Los contratos del FoNC y del FEPCafé quedan firmados hasta 2036 y reemplazan una prórroga que vencía el 11 de diciembre; se mantiene la contribución de 6 centavos de dólar por libra exportada. La garantía de compra y el esquema de la FNC siguen sin cambios para los compradores."
-    },
-    {
       "id": "l3",
       "scope": "am",
       "pais": "México",
@@ -174,15 +195,14 @@
       "summary": "Según el Banguat, el café fue el principal producto exportado entre enero y septiembre de 2026, con USD 1.329,2 millones (+10,8 %). El alza viene sobre todo por precio; con Anacafé esperando menos café exportable en 2026-27, conviene asegurar volumen temprano."
     },
     {
-      "id": "p14",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Divisas",
+      "id": "u3",
+      "scope": "mundo",
+      "tag": "Exportaciones",
       "date": "2026-11-13",
-      "source": "Jornal do Comércio",
-      "url": "https://www.jornaldocomercio.com/economia/2026/11/1270500-dolar-fecha-estavel-mas-sobe-266-na-semana-com-fiscal-e-fed-no-radar.html",
-      "title": "El dólar sube 2,66 % en la semana frente al real y cierra en R$ 5,655",
-      "summary": "El dólar acumula 3,87 % de alza en noviembre por dudas fiscales en Brasil y la expectativa de alzas de la Fed. Un real débil anima las ventas de los productores brasileños y suele presionar a la baja Nueva York."
+      "source": "StockMarket.et",
+      "url": "https://www.stockmarket.et/ethiopias-coffee-export-earnings-climb-16-to-usd-1-16bn-in-first-four-months/",
+      "title": "Etiopía exporta 167.800 toneladas de café y factura USD 1.160 millones de julio a octubre",
+      "summary": "Según la Autoridad Etíope del Café y el Té, las exportaciones del primer cuatrimestre fiscal 2026/27 subieron unas 24.600 t y USD 157,2 millones frente al año anterior, con un precio medio de unos 6.910 USD/t, apenas 1 % menor. Más volumen etíope en el mercado de arábicas lavados añade competencia a los orígenes de Centroamérica y Colombia en Europa y Asia."
     },
     {
       "id": "g1",
@@ -228,26 +248,27 @@
       "summary": "Los envíos subieron 28,4 % frente a octubre de 2025 y el año-cosecha 2026/27 (julio–octubre) suma 16,591 millones de sacos (+19,7 %); los embarques a EE. UU. crecieron 119 % en el mes tras el retiro de aranceles. Más oferta brasileña disponible presiona los diferenciales de otros orígenes."
     },
     {
-      "id": "p6",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "Tea & Coffee Trade Journal · OIC",
-      "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
-      "title": "OIC: en octubre el arábica se sostuvo y el robusta cayó",
-      "summary": "El indicador compuesto promedió 261,26 c/lb en octubre (−0,3 %), con naturales brasileños en 294,49 c/lb (+1,5 %) y robustas en 164,19 c/lb (−2 %); las exportaciones mundiales 2025/26 sumaron 142,39 M sacos (+1 %). Arábica firme y robusta holgado marcan la diferencia de costos entre orígenes."
+      "id": "v1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-10",
+      "source": "IFM Noticias",
+      "url": "https://ifmnoticias.com/economicas/el-precio-interno-del-cafe-cae-a-cerca-de-2-millones-por-carga-y-vuelve-a-rondar/",
+      "title": "Colombia: el precio interno del café baja a $2.000.000 por carga, cerca del mínimo del año",
+      "summary": "El 9 de noviembre la FNC fijó la referencia del pergamino seco en $2.000.000 por carga de 125 kg (factor 94), por debajo incluso del mínimo de junio ($2.005.000), con el contrato C en 273,60 centavos por libra y un peso revaluado. Un precio interno tan bajo, en plena cosecha, puede frenar la entrega de café de los productores y reducir la oferta disponible para exportar en las próximas semanas."
     },
     {
-      "id": "i1",
+      "id": "v4",
       "scope": "am",
-      "pais": "México",
-      "tag": "Precios",
-      "date": "2026-11-09",
-      "source": "Cuarto Poder",
-      "url": "https://www.cuartopoder.mx/chiapas/drastica-caida-del-precio-del-cafe-robusta/597444",
-      "title": "Chiapas: el robusta del Soconusco baja de 50 a 27 pesos por kilo al arrancar el corte",
-      "summary": "Productores de las zonas alta y media del Soconusco empezaron a cosechar robusta con el kilo pagado a 27 pesos, frente a 50 pesos hace un año. El robusta mexicano sale barato, pero los productores dicen que cosechan con pérdida, lo que puede llevar al abandono de fincas y reducir la oferta futura."
+      "pais": "El Salvador",
+      "tag": "Exportaciones",
+      "date": "2026-11-06",
+      "source": "Forbes Centroamérica",
+      "url": "https://forbescentroamerica.com/2026/11/06/el-salvador-aumenta-un-12-sus-ingresos-por-exportaciones-de-cafe-en-2025-2026",
+      "title": "El Salvador ingresa USD 196,05 millones por café en 2025-2026, 12 % más con volumen casi igual",
+      "summary": "Según el Instituto Salvadoreño del Café, en el ciclo 2025-2026 se exportaron 607.908 quintales oro de una cosecha de 964.017 quintales oro-uva, por USD 196,05 millones (USD 189,57 millones de café oro), mientras el volumen exportado apenas subió 0,33 %. Norteamérica se llevó el 64 % y Europa el 16,9 %. El aumento vino del precio y no del volumen, y para 2026-27 el gremio prevé una cosecha menor, por lo que la oferta salvadoreña será escasa."
     }
   ],
-  "updatedAt": "2026-11-18T19:47:45Z"
+  "updatedAt": "2026-11-19T11:52:38Z"
 }

@@ -27,19 +27,19 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-18",
+    "asOf": "2026-11-19",
     "base": "USD",
     "rates": {
-      "BRL": 5.781701,
-      "COP": 3320.186806,
-      "MXN": 18.442572,
-      "GTQ": 7.648031,
-      "HNL": 26.949218,
-      "NIO": 36.830151,
-      "CRC": 446.134339,
-      "VES": 916.6477,
-      "PEN": 3.41413,
-      "BOB": 11.662995
+      "BRL": 5.809843,
+      "COP": 3308.13231,
+      "MXN": 18.725791,
+      "GTQ": 7.636508,
+      "HNL": 26.865513,
+      "NIO": 36.771225,
+      "CRC": 444.550233,
+      "VES": 917.7751,
+      "PEN": 3.41939,
+      "BOB": 11.696505
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -264,5 +264,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-18T19:47:45Z"
+  "updatedAt": "2026-11-19T11:52:38Z"
 }
