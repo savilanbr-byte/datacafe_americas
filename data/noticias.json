@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "id": "k8",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Tạp chí Công Thương · ICE",
+      "url": "https://tapchicongthuong.vn/gia-ca-phe-hom-nay-20-11--nguon-cung-ca-phe-gia-tang--dong-real-suy-yeu-gay-ap-luc-len-gia-robusta-567734.htm",
+      "title": "Se acumulan 248.175 sacos de café brasileño por clasificar en la ICE",
+      "summary": "Es el máximo en unos 3,75 años (212.959 el 17-nov). Si se certifican en una o dos semanas, los inventarios saldrían del mínimo de 27 años y el arábica perdería parte de su soporte."
+    },
+    {
       "id": "w1",
       "scope": "am",
       "pais": "Colombia",
@@ -22,6 +32,50 @@
       "summary": "El 18 de noviembre el robusta de enero cerró en 3.019 USD/t (−52) en Londres y el arábica de diciembre en 280,95 centavos/lb (−5,65) en Nueva York, mientras el físico en Vietnam cayó a unos 74.800 VND/kg por la presión de la nueva cosecha (2,1 millones de t según VICOFA) y el real débil. Para el comprador, la tendencia bajista refuerza la conveniencia de escalonar fijaciones en vez de cerrar todo de una vez."
     },
     {
+      "id": "k1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-19",
+      "source": "Federación Nacional de Cafeteros",
+      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
+      "title": "Colombia: el precio interno del café rebota a $2.155.000 por carga",
+      "summary": "La FNC fijó el 19-nov el precio de referencia del pergamino seco en $2.155.000 por carga de 125 kg, con Nueva York en 276,00 US¢/lb, frente a los $2.000.000 del 10-nov. El costo en origen vuelve a subir en plena cosecha principal."
+    },
+    {
+      "id": "k3",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Producción",
+      "date": "2026-11-19",
+      "source": "Revista Flow · AMECAFÉ",
+      "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/",
+      "title": "Chiapas: AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra",
+      "summary": "La región pasaría de cerca de 1,5 millones a 900 mil quintales en 2026-27 por lluvias irregulares y escasez de cortadores. Menos oferta chiapaneca implica más competencia por lotes: conviene cerrar contratos temprano."
+    },
+    {
+      "id": "k6",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Divisas",
+      "date": "2026-11-19",
+      "source": "ISTOÉ",
+      "url": "https://istoe.com.br/dolar-hoje-19-novembro-2026-alta-593-banco-central",
+      "title": "El dólar sube a R$ 5,935 pese a la intervención del Banco Central",
+      "summary": "Sexta alza seguida (+1,16 %) y máximo desde abril de 2025, más de 9 % en noviembre, aun con una subasta de US$ 1.000 millones. Un real débil abarata el café brasileño en dólares y anima a vender."
+    },
+    {
+      "id": "k7",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Divisas",
+      "date": "2026-11-19",
+      "source": "El CEO",
+      "url": "https://elceo.com/mercados/tipo-de-cambio-peso-dolar-hoy-19-de-noviembre-de-2026/",
+      "title": "El peso mexicano pasa de 19 por dólar por primera vez desde junio de 2025",
+      "summary": "Cerró en 19,1182 por dólar (−1,45 %) tras las minutas de la Fed y el recorte de Banxico a 6,25 %. Un peso más débil abarata en dólares el café mexicano."
+    },
+    {
       "id": "p2",
       "scope": "am",
       "pais": "Brasil",
@@ -41,38 +95,6 @@
       "url": "https://dantri.com.vn/kinh-doanh/gia-ca-phe-roi-khoi-moc-80000-dongkg-nong-dan-giu-hang-cho-gia-20261118152626164.htm",
       "title": "Vietnam: el café interno cae bajo 80.000 VND/kg y VICOFA prevé 2,2 millones de toneladas",
       "summary": "En Đắk Lắk el grano ronda 77.000 VND/kg, 7.500 menos que a inicios de mes; VICOFA estima 2,2 Mt para 2026/27 (2,1 Mt de robusta, +5 %) con el grueso de la cosecha a fines de noviembre. Los exportadores ofrecen diferenciales de unos +100 USD/t sobre Londres hasta mayo de 2027."
-    },
-    {
-      "id": "u2",
-      "scope": "mundo",
-      "tag": "Precios",
-      "date": "2026-11-18",
-      "source": "Daily Coffee News",
-      "url": "https://dailycoffeenews.com/2026/11/18/fair-trade-usa-raising-minimum-coffee-prices-to-new-fairtrade-levels/",
-      "title": "Fair Trade USA sube el precio mínimo del arábica lavado de 1,40 a 2,00 USD/lb",
-      "summary": "Fair Trade USA iguala los nuevos pisos de Fairtrade International: arábica lavado 2,00 USD/lb (antes 1,40), natural 1,95, robusta lavado 1,35 y natural 1,30, con prima de 20 centavos y diferencial orgánico de 30 centavos sin cambios; el arábica lavado rige para contratos firmados desde el 1 de febrero de 2027. Con la bolsa por encima de 2,70 USD/lb el efecto inmediato es limitado, pero el piso encarece la cobertura de riesgo de los contratos certificados si los precios siguen cayendo."
-    },
-    {
-      "id": "u5",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Divisas",
-      "date": "2026-11-18",
-      "source": "Money Times",
-      "url": "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-585-e-fecha-na-maior-cotacao-em-19-meses-davs/",
-      "title": "El dólar sube 1,45 % y cierra en R$ 5,8667, máximo en 19 meses",
-      "summary": "El real se debilitó por el aplazamiento en el Senado del ajuste fiscal y unas minutas de la Fed que apuntan a nuevas subidas de tasas, pese a dos subastas de línea del Banco Central de hasta USD 1.000 millones. Un real más débil incentiva las ventas de los productores brasileños y presiona a la baja los precios en dólares del café de Brasil."
-    },
-    {
-      "id": "u6",
-      "scope": "am",
-      "pais": "México",
-      "tag": "Divisas",
-      "date": "2026-11-18",
-      "source": "El Financiero",
-      "url": "https://www.elfinanciero.com.mx/mercados/2026/11/18/peso-dolar-tipo-de-cambio-precio-hoy-18-de-noviembre-de-2026/",
-      "title": "El peso mexicano cae 2,26 % y cierra en 18,84 por dólar tras las minutas de la Fed",
-      "summary": "Casi todos los miembros de la Fed ven probable subir tasas en los próximos meses, lo que también depreció al real brasileño (1,56 %) y al peso colombiano (1,55 %). Las monedas de origen más débiles mejoran el ingreso en moneda local de los productores y pueden acelerar ventas y abaratar diferenciales en dólares para el comprador."
     },
     {
       "id": "n1",
@@ -129,15 +151,15 @@
       "summary": "La producción cayó de 69 mil toneladas en 2008 a 15.695 toneladas según Fedeagro; el diferencial cambiario bajó a 15–18 % en noviembre, pero los permisos y el crédito siguen trabando la exportación. La oferta exportable es aún marginal."
     },
     {
-      "id": "p13",
+      "id": "k5",
       "scope": "am",
-      "pais": "Perú",
-      "tag": "Logística",
+      "pais": "Brasil",
+      "tag": "Exportaciones",
       "date": "2026-11-17",
-      "source": "La República (Perú)",
-      "url": "https://larepublica.pe/sociedad/2026/11/17/paro-de-72-horas-transportistas-de-carga-pesada-bloquean-carreteras-por-alza-de-combustible-1164602",
-      "title": "Perú: paro de transportistas de carga bloquea la Carretera Central del 16 al 18 de noviembre",
-      "summary": "La protesta por el diésel, que pasó de unos S/13 a entre S/26 y S/30 por galón desde febrero, bloquea vías en Huánuco, Junín, Áncash y San Martín. Son rutas de la selva central cafetalera hacia Callao: prevé retrasos y fletes internos más caros."
+      "source": "CaféPoint · Boletim Carvalhaes / Cecafé",
+      "url": "https://www.cafepoint.com.br/noticias/giro-de-noticias/boletim-carvalhaes-exportacoes-recordes-e-estoques-baixos-marcam-mercado-de-cafe-242955/",
+      "title": "Brasil: los embarques de noviembre van más lentos que en el récord de octubre",
+      "summary": "Al día 13 se habían embarcado 1.224.016 sacas (987.937 de arábica), frente a 1.645.592 a la misma fecha de octubre, y los certificados de origen sumaban 1.840.269. Los productores venden lo justo, de modo que la oferta física se modera."
     },
     {
       "id": "l1",
@@ -184,17 +206,6 @@
       "summary": "Al 12 de noviembre la cereza se pagaba entre 14,20 pesos (Tlaltetela) y 16,10 pesos por kilo (Huatusco), con un promedio de 15,40 pesos según la comisión estatal de precios. El piso subió unos 2 pesos en la semana a medida que avanzan las compras de la cosecha 2026-27."
     },
     {
-      "id": "p3",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "SpaceMoney · Federação dos Cafeicultores do Cerrado",
-      "url": "https://www.spacemoney.com.br/commodities/cerrado-mineiro-vendas-cafe-2027",
-      "title": "Cerrado Mineiro: los productores han vendido menos del 10 % de la cosecha 2027",
-      "summary": "La venta anticipada de 2027 no llega al 10 % de lo habitual (antes de la helada de 2021 rondaba 30–40 %) y los productores guardan inventarios por encima de lo normal. Cerrar contratos a término de 2027 a precio fijo en Brasil seguirá siendo difícil."
-    },
-    {
       "id": "p7",
       "scope": "am",
       "pais": "Guatemala",
@@ -204,16 +215,6 @@
       "url": "https://lahora.gt/lh-economia/jveliz/2026/11/13/comercio-de-fin-de-ano-importaciones-superan-los-usd-28-mil-millones-y-exportaciones-mantienen-crecimiento/",
       "title": "Guatemala: el café lidera las exportaciones con USD 1.329,2 millones a septiembre",
       "summary": "Según el Banguat, el café fue el principal producto exportado entre enero y septiembre de 2026, con USD 1.329,2 millones (+10,8 %). El alza viene sobre todo por precio; con Anacafé esperando menos café exportable en 2026-27, conviene asegurar volumen temprano."
-    },
-    {
-      "id": "u3",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-11-13",
-      "source": "StockMarket.et",
-      "url": "https://www.stockmarket.et/ethiopias-coffee-export-earnings-climb-16-to-usd-1-16bn-in-first-four-months/",
-      "title": "Etiopía exporta 167.800 toneladas de café y factura USD 1.160 millones de julio a octubre",
-      "summary": "Según la Autoridad Etíope del Café y el Té, las exportaciones del primer cuatrimestre fiscal 2026/27 subieron unas 24.600 t y USD 157,2 millones frente al año anterior, con un precio medio de unos 6.910 USD/t, apenas 1 % menor. Más volumen etíope en el mercado de arábicas lavados añade competencia a los orígenes de Centroamérica y Colombia en Europa y Asia."
     },
     {
       "id": "g1",
@@ -237,38 +238,37 @@
       "summary": "Cooxupé calcula en forma preliminar una pérdida de cerca del 10% del potencial de sus cooperados para 2027, y la Fundação Procafé estima unas 1,5 millones de sacas menos por granizo; además hay floraciones escalonadas, menos frutos y más enfermedades. Apunta a un arábica brasileño 2027/28 más corto y de calidad más dispareja, lo que da razones para cubrir ese ciclo en las caídas."
     },
     {
-      "id": "m1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Logística",
-      "date": "2026-11-12",
-      "source": "El Tiempo · MinTransporte",
-      "url": "https://www.eltiempo.com/colombia/cali/represamiento-de-mas-de-109-000-contenedores-vacios-en-buenaventura-pone-en-alerta-el-42-del-comercio-exterior-del-pais-mintransporte-en-el-puerto-3600627",
-      "title": "Buenaventura acumula más de 109.000 contenedores vacíos y congestiona sus accesos",
-      "summary": "Según la ministra de Transporte, por cada cuatro contenedores que entran al puerto solo sale uno; el Gobierno abrió mesas con navieras y operadores para descongestionar vías y devolver los vacíos. Buenaventura mueve el 42 % del comercio exterior colombiano y la mayor parte del café exportado: prever demoras en citas y sobrecostos de transporte en los embarques."
-    },
-    {
-      "id": "f1",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Exportaciones",
-      "date": "2026-11-11",
-      "source": "CNN Brasil · Cecafé",
-      "url": "https://www.cnnbrasil.com.br/agro/brasil-bate-recorde-e-exporta-53-milhoes-de-sacas-de-cafe-em-outubro/",
-      "title": "Brasil exporta un récord mensual de 5,3 millones de sacos de café en octubre, según Cecafé",
-      "summary": "Los envíos subieron 28,4 % frente a octubre de 2025 y el año-cosecha 2026/27 (julio–octubre) suma 16,591 millones de sacos (+19,7 %); los embarques a EE. UU. crecieron 119 % en el mes tras el retiro de aranceles. Más oferta brasileña disponible presiona los diferenciales de otros orígenes."
-    },
-    {
-      "id": "v1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Precios",
+      "id": "k9",
+      "scope": "mundo",
+      "tag": "Regulación",
       "date": "2026-11-10",
-      "source": "IFM Noticias",
-      "url": "https://ifmnoticias.com/economicas/el-precio-interno-del-cafe-cae-a-cerca-de-2-millones-por-carga-y-vuelve-a-rondar/",
-      "title": "Colombia: el precio interno del café baja a $2.000.000 por carga, cerca del mínimo del año",
-      "summary": "El 9 de noviembre la FNC fijó la referencia del pergamino seco en $2.000.000 por carga de 125 kg (factor 94), por debajo incluso del mínimo de junio ($2.005.000), con el contrato C en 273,60 centavos por libra y un peso revaluado. Un precio interno tan bajo, en plena cosecha, puede frenar la entrega de café de los productores y reducir la oferta disponible para exportar en las próximas semanas."
+      "source": "Comunicaffe · ICE",
+      "url": "https://www.comunicaffe.com/coffee-futures-first-lots-traded-under-the-ice-arabicas-new-metric-contract/",
+      "title": "Debuta el contrato métrico de arábica de la ICE con 48 lotes negociados",
+      "summary": "El vencimiento septiembre 2028 se negoció entre 5.724 y 5.737 USD/t en lotes de 10 t; marzo 2028 será el último contrato C. Los contratos a precio diferido tendrán que migrar a USD/t."
+    },
+    {
+      "id": "k4",
+      "scope": "am",
+      "pais": "El Salvador",
+      "tag": "Exportaciones",
+      "date": "2026-11-09",
+      "source": "ContraPunto · BCR",
+      "url": "https://www.contrapunto.com.sv/el-salvador-exporta-181-4-millones-en-cafe-y-alcanza-su-mejor-resultado-en-13-anos/",
+      "title": "El Salvador factura USD 181,4 millones por café a septiembre, máximo en 13 años",
+      "summary": "Exportó más de 553.300 quintales a un promedio de USD 327,8/qq, 15,3 % más en valor que en 2025; EE. UU. compró USD 106,9 millones. Para 2026-27 los cafetaleros proyectan solo unos 750 mil quintales, así que habrá poca oferta."
+    },
+    {
+      "id": "k2",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Agronegocios · FNC",
+      "url": "https://www.agronegocios.co/agricultura/produccion-cafetera-con-corte-a-octubre-de-2026-4519174",
+      "title": "Colombia produce 1,114 millones de sacos en octubre, 8 % menos",
+      "summary": "La producción de los últimos doce meses baja 15 %, a 12,56 millones de sacos, y las exportaciones de 12 meses suman 11,85 millones (−11 %), aunque las de octubre subieron 6 %. La oferta colombiana sigue corta al empezar la cosecha principal."
     }
   ],
-  "updatedAt": "2026-11-19T19:50:00Z"
+  "updatedAt": "2026-11-20T12:30:00Z"
 }
