@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-20T11:46:53Z",
+  "updatedAt": "2026-11-20T19:47:19Z",
   "items": [
+    {
+      "id": "n46",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40449781/vietnam-coffee-prices-slide",
+      "title": "Vietnam: el robusta en finca cae a 74.200–75.000 VND/kg y Londres toca mínimos desde enero de 2024",
+      "summary": "Con la cosecha vietnamita en marcha y el real brasileño débil, el robusta de enero cerró en US$3.019/t (−2 %) el miércoles y los precios internos bajaron unos 9.000 dong por kg en una semana; un robusta más barato resta soporte a los blends y presiona los diferenciales de arábicas comerciales."
+    },
     {
       "id": "n44",
       "scope": "mundo",
@@ -38,14 +48,17 @@
       "summary": "El IMN prevé ráfagas de 20–50 km/h en el Valle Central y de 50–80 km/h en montañas, condiciones estables en la vertiente del Pacífico y lluvias en el Caribe y la Zona Norte, sobre todo desde el miércoles. Buena semana para secar al sol en Valle Central y Occidental; en Turrialba y Zona Norte el secado seguirá lento."
     },
     {
-      "id": "n38",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "id": "n45",
+      "scope": "cr",
+      "regiones": [
+        "los-santos"
+      ],
+      "tag": "Eventos",
       "date": "2026-11-16",
-      "source": "Báo Lào Cai",
-      "url": "https://baolaocai.vn/gia-ca-phe-hom-nay-1611-cho-tin-hieu-moi-sau-chuoi-giam-sau-post914608.html",
-      "title": "Vietnam en pico de cosecha: el robusta interno baja a unos 83.000 VND/kg y Londres cierra en 3.196 US$/t",
-      "summary": "En el Altiplano Central el robusta se paga entre 82.300 y 83.000 VND/kg tras una racha de caídas, mientras el contrato de enero en Londres cerró en 3.196 US$/t y el arábica de diciembre en 278,65 ¢/lb. La presión de la cosecha vietnamita pesa sobre los precios mundiales y sobre el diferencial que se negocia para los cafés lavados de Costa Rica."
+      "source": "La Fatfluencer",
+      "url": "https://lafatfluencer.com/2026/11/16/cosecha-cafe-coopedota-los-santos-2026/",
+      "title": "CoopeDota abrirá la cosecha 2026-27 de Los Santos del 4 al 6 de diciembre en Santa María de Dota",
+      "summary": "La cooperativa, con unos 1.200 asociados de Dota, Tarrazú y León Cortés, celebrará el arranque formal de la recolección en la zona de mayor área cafetalera del país; marca el inicio del grueso de la oferta de altura (SHB) de Los Santos para diciembre y enero."
     },
     {
       "id": "n35",
