@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:46:47Z",
+  "updatedAt": "2026-11-20T11:46:53Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,7 +22,7 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, que arrancan cosecha, siguen con días secos, calurosos y ventosos: muy buenos para secar al sol; las ráfagas (hasta 75 km/h) bajarían hacia el fin de semana, pero aún conviene proteger patios y vigilar que el pergamino no se seque disparejo.",
+    "Valle Central y Valle Occidental, que arrancan cosecha, siguen con días secos, calurosos y ventosos: muy buenos para secar al sol; las ráfagas bajan a 30–50 km/h, pero aún conviene proteger patios y vigilar que el pergamino no se seque disparejo.",
     "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona con chubascos de tarde; la época seca llegaría al Pacífico Sur entre el 23 y el 29 de noviembre, así que hasta entonces pide control de humedad y actividad de agua en esos lotes.",
     "Turrialba y la Zona Norte tienen menos lluvia de lo habitual gracias al aire seco, pero el Caribe aún trae lluvias dispersas: el secado ahí sigue más lento y conviene revisar fruta caída.",
     "Los Santos empieza a recoger con lluvias en retirada; los primeros lotes de altura podrían traer buena densidad, aunque el atraso de unos 30 días en la fertilización puede pesar en el rendimiento por fanega.",
@@ -31,10 +31,10 @@
   "avisos": {
     "source": "IMN",
     "asOf": "2026-11-19",
-    "headline": "IMN (19 nov): jueves estable, seco y ventoso en el centro y norte; los alisios irán bajando en la segunda mitad de la semana",
+    "headline": "IMN (pronóstico para el viernes 20 nov): seco y caluroso en casi todo el país; alisios moderados con ráfagas de 30–50 km/h en el Valle Central",
     "items": [
-      "Alisios de 30–60 km/h con ráfagas de hasta 75 km/h en montañas del centro y norte; el IMN prevé que disminuyan gradualmente hacia el fin de semana.",
-      "Ambiente estable y con poca humedad en casi todo el país; lluvias dispersas en la mañana en la Zona Norte y el Caribe, y aguaceros puntuales por la tarde solo en el Pacífico Sur.",
+      "Ráfagas de 30–50 km/h en el Valle Central y zonas montañosas, y de hasta 70 km/h en el norte de Guanacaste; los alisios vienen perdiendo fuerza frente al jueves (hasta 75 km/h).",
+      "Mañanas despejadas salvo nubosidad variable en el Caribe y la Zona Norte; por la tarde, chubascos aislados solo en el Pacífico Sur y sin lluvias importantes en el resto.",
       "Noviembre ya suma más de 23 récords de temperatura máxima; el IMN prevé medias hasta 2 °C sobre lo normal entre noviembre y enero por El Niño.",
       "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020."
     ],
@@ -44,8 +44,8 @@
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "La Nación · Jueves caluroso y ventoso (19 nov)",
-        "url": "https://www.nacion.com/sucesos/costa-rica-tendra-un-jueves-caluroso-y-ventoso/BLWAY27QTFAS7GGEKCP2KK2Y5A/story/"
+        "t": "Diario Extra · Viernes caluroso y con fuertes ráfagas (19 nov)",
+        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-viernes-caluroso-y-con-fuertes-rafagas/"
       },
       {
         "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
