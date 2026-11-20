@@ -1,19 +1,19 @@
 {
- "updatedAt": "2026-11-20T11:47:40Z",
+ "updatedAt": "2026-11-20T19:48:12Z",
  "items": {
   "tc": {
    "label": "Tipo de cambio de referencia BCH",
-   "value": 26.9123,
+   "value": 26.9134,
    "dec": 4,
    "unit": "HNL/USD",
-   "change": -0.0033,
+   "change": 0.0011,
    "chgDec": 4,
-   "asOf": "2026-11-19",
+   "asOf": "2026-11-20",
    "source": "BCH · La Prensa",
-   "url": "https://www.laprensa.hn/economia/honduras-precio-dolar-19-noviembre-bch-tipo-cambio-KO32690684",
+   "url": "https://www.laprensa.hn/economia/honduras-precio-dolar-viernes-20-noviembre-tipo-cambio-MO32699522",
    "liveUrl": "https://www.bch.hn/",
    "liveT": "BCH",
-   "note": "Compra L26,9123 y venta L27,0469 para el jueves 19; baja L0,0033 frente al miércoles 18. Variación interanual del lempira: 2,65 % al 23-oct (La Tribuna)."
+   "note": "Compra L26,9134 y venta L27,0480 para el viernes 20; sube L0,0011 frente al jueves 19. Variación interanual del lempira: 2,65 % al 23-oct (La Tribuna)."
   },
   "expo": {
    "label": "Precio promedio de exportación 2025-26",
