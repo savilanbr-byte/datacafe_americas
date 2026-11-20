@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:47:37Z",
+  "updatedAt": "2026-11-20T19:47:44Z",
   "items": [
     {
       "id": "m38",
@@ -23,6 +23,16 @@
       "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
       "title": "El arábica cae 3,6 % y el robusta 2,3 % por las expectativas de cosechas récord",
       "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 % (mínimo de 2 años y 9 meses), con el USDA previendo 189,7 M sacos mundiales en 2026-27 y Brasil en 71,9 M; los inventarios certificados de ICE siguen en 186.400 sacos (mínimo de 27 años) pero hay 212.960 sacos brasileños en espera de calificar. Un real en mínimo de 19 meses y el robusta barato presionan los precios del café mexicano."
+    },
+    {
+      "id": "n24",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "Barchart · Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
+      "title": "El USDA recorta a 11,5 millones de sacos la exportación de Colombia y el arábica rebota",
+      "summary": "El USDA FAS bajó 6 % su estimado de exportación de Colombia para 2026-27 (11,5 M sacos) y el arábica subió 1,4 % el 19-nov, mientras el robusta tocó un mínimo de 2,75 años; menos lavados colombianos sostiene la demanda de suaves de México y Centroamérica."
     },
     {
       "id": "m39",
@@ -182,19 +192,6 @@
       "url": "https://www.excelsior.com.mx/nacional/cafe-vainilla-cobro-piso-afecta-cosechas-veracruz",
       "title": "Cafetaleros del centro de Veracruz piden seguridad en fincas y centros de acopio por robos y extorsión",
       "summary": "En Coatepec, Teocelo y Cosautlán los productores reportan robo y cobro de piso a compradores durante la cosecha y piden vigilancia en fincas y puntos de compra; para el comprador implica más riesgo y costo en el traslado de cereza y pergamino."
-    },
-    {
-      "id": "m34",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Producción",
-      "date": "2026-11-07",
-      "source": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/se-desploma-el-precio-del-cafe-en-cordoba-pagan-hasta-11-pesos-el-kilo-de-cereza/",
-      "title": "En Córdoba la cosecha arranca lenta y la cereza se paga a 11–12 pesos",
-      "summary": "Productores de la zona de Córdoba reciben 11–12 MXN/kg de cereza, cerca de la mitad de los hasta 22 pesos del ciclo pasado, y pagan unos 6 pesos por kilo a los cortadores; el exceso de lluvia retrasó la maduración. Hay brechas grandes de precio entre zonas de Veracruz."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:47:37Z",
+  "updatedAt": "2026-11-20T19:47:44Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -30,16 +30,16 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-19",
-    "headline": "El frente frío 6 sigue estacionario en el oriente del Golfo: el viernes 20 aún hay lluvias fuertes (25–50 mm) en el sur de Veracruz y el este de Guerrero, y chubascos de 5–25 mm en Oaxaca y Chiapas; el norte en Tehuantepec baja a 50–70 km/h (aviso 646, 19-nov).",
+    "asOf": "2026-11-20",
+    "headline": "El frente frío 6 sigue estacionario en el oriente del Golfo con un canal de baja presión en el sureste: el viernes 20 hay lluvias fuertes (25–50 mm) en el sur de Veracruz y el este de Guerrero y chubascos en Oaxaca y Chiapas; el frente frío 8 avanza por el noroeste sin afectar las zonas cafeteras (aviso 647, 20-nov).",
     "items": [
       "Viernes 20: 25 a 50 mm en el sur de Veracruz y el este de Guerrero; 5 a 25 mm en Oaxaca y Chiapas; lluvias aisladas (0,1–5 mm) en Puebla e Hidalgo.",
-      "Norte con rachas de 60 a 80 km/h en el istmo y golfo de Tehuantepec el jueves 19 y de 50 a 70 km/h el viernes 20; en Veracruz, rachas de 30 a 50 km/h.",
+      "Norte con rachas de 50 a 70 km/h en el istmo y golfo de Tehuantepec y de 30 a 50 km/h en Veracruz el viernes 20.",
       "Mínimas de 0 a 5 °C en las sierras de Veracruz, Puebla, Oaxaca, Hidalgo y San Luis Potosí; sin heladas bajo 0 °C en zonas cafeteras. Calor de 35 a 40 °C en las costas de Oaxaca, Chiapas y Guerrero."
     ],
     "links": [
       {
-        "t": "SMN · pronóstico meteorológico general (aviso 646, 19-nov)",
+        "t": "SMN · pronóstico meteorológico general (aviso 647, 20-nov)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-meteorologico-general"
       },
       {
