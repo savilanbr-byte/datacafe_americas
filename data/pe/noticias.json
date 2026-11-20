@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:47:59Z",
+  "updatedAt": "2026-11-20T19:47:11Z",
   "items": [
     {
       "id": "n22",
@@ -86,6 +86,19 @@
       "url": "https://ahora.com.pe/policiales/villa-rica-dos-dias-cultura-cafetalera",
       "title": "Villa Rica realiza el 21 y 22 de noviembre un encuentro de tostado y catas de café",
       "summary": "Devida y Moali organizan competencias de tostado, catas demostrativas y un torneo escolar de filtrados en Villa Rica (Oxapampa), distrito con más de 6.000 ha de café dentro de la reserva de biosfera BIOAY."
+    },
+    {
+      "id": "p40",
+      "scope": "pe",
+      "regiones": [
+        "piura"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-11-17",
+      "source": "Agraria",
+      "url": "https://www.agraria.pe/noticias/piura-entregaran-mas-de-10-mil-plantones-de-cafe-a-familias--43487",
+      "title": "Piura entregará más de 10 mil plantones de café Catimor a 25 familias de Ayabaca",
+      "summary": "La Dirección Regional de Agricultura de Piura repartirá más de 10.000 plantones de la variedad Catimor a 25 familias del caserío Las Vegas (Sícchez, Ayabaca) para sembrar unas 5 hectáreas, con escuelas de campo en vivero, abonamiento y control de plagas. Es renovación a pequeña escala: no cambia la oferta de la campaña 2027."
     },
     {
       "id": "p33",
@@ -189,16 +202,6 @@
       "url": "https://www.agroperu.pe/cajamarca-conquista-por-segundo-ano-consecutivo-el-primer-lugar-de-la-taza-de-excelencia-peru-2026/",
       "title": "Un geisha de Chirinos (San Ignacio) gana la Taza de Excelencia Perú 2026",
       "summary": "Fidel Huancas (Finca La Esperanza, Cajamarca) ganó con 91,71 puntos, seguido por un geisha de Cholón, Huánuco (91,45), y otro de Jaén (90,93); 30 lotes superaron los 87 puntos y cinco pasaron de 90. La subasta internacional será el 8 de diciembre: oportunidad para comprar microlotes de alto puntaje del norte y la selva central."
-    },
-    {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Comunicaffe · Cepea",
-      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
-      "title": "Cepea: la cosecha 2027/28 de Brasil arranca bien, pero el calor de El Niño preocupa",
-      "summary": "La floración fue la esperada y el cuajado es bueno en el sur de Minas, Mogiana y el Cerrado, aunque es un año de bienalidad negativa y el calor podría provocar aborto de flores; Rondônia sufrió casi un mes seco y ataques tempranos de broca. El mercado espera una cosecha grande pero no récord, lo que presiona la bolsa."
     }
   ]
 }
