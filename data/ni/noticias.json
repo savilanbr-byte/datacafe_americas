@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:47:22Z",
+  "updatedAt": "2026-11-20T11:47:04Z",
   "items": [
     {
       "id": "ni5",
@@ -138,16 +138,6 @@
       "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre de 2026 (+28,4 %), el mayor volumen mensual desde 1990; el robusta casi se duplicó (897.081 sacos). La llegada de café brasileño presiona los precios de NY en plena cosecha centroamericana."
     },
     {
-      "id": "n27",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Barchart (Yahoo Finance)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-      "title": "El arábica sube a máximo de 2 semanas con inventarios de ICE en mínimo de 27 años; el robusta cae a mínimo de 2,75 años",
-      "summary": "El 17-nov el arábica de diciembre subió 5,90 ¢/lb (+2,1 %) y el robusta de enero bajó US$73/t (−2,3 %); los inventarios certificados de arábica cayeron a 186.414 sacos (mínimo en 27 años), aunque 212.959 sacos de Brasil esperan clasificación y el real está en mínimo de 19 meses. La escasez de arábica certificado sostiene la demanda de lavados como el nicaragüense, pero el café brasileño por certificar puede frenar el alza."
-    },
-    {
       "id": "n28",
       "scope": "mundo",
       "tag": "Producción",
@@ -156,6 +146,16 @@
       "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
       "title": "Vietnam: la cosecha de robusta avanza lenta y los volúmenes grandes llegarían en diciembre",
       "summary": "Los productores de las Tierras Altas Centrales vendían a 83.200–83.800 dongs por kilo (US$3,24–3,26), casi sin cambios; el robusta de enero cerró el 11-nov en US$3.245/t y los exportadores ofrecían el grado 2 con prima de US$40–50/t. La llegada de la cosecha vietnamita en diciembre tiende a presionar el robusta, con poco efecto directo sobre los arábicas lavados de Nicaragua."
+    },
+    {
+      "id": "n29",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "UkrAgroConsult (Barchart)",
+      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
+      "title": "El arábica cae 3,6 % y el robusta toca mínimo de casi 3 años ante una cosecha mundial récord",
+      "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 %, presionados por la previsión del USDA de una producción mundial récord de 189,7 M de sacos en 2026-27 (Brasil 71,9 M, +14 %) y por más exportaciones de Vietnam (+61 % en octubre). Los inventarios certificados de arábica siguen en mínimo de 27 años (186.400 sacos), lo que da algo de soporte a los lavados centroamericanos como el nicaragüense frente a un mercado bajista."
     }
   ]
 }
