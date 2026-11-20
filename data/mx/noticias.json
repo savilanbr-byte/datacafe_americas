@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:47:09Z",
+  "updatedAt": "2026-11-20T11:47:37Z",
   "items": [
     {
       "id": "m38",
@@ -23,6 +23,19 @@
       "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
       "title": "El arábica cae 3,6 % y el robusta 2,3 % por las expectativas de cosechas récord",
       "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 % (mínimo de 2 años y 9 meses), con el USDA previendo 189,7 M sacos mundiales en 2026-27 y Brasil en 71,9 M; los inventarios certificados de ICE siguen en 186.400 sacos (mínimo de 27 años) pero hay 212.960 sacos brasileños en espera de calificar. Un real en mínimo de 19 meses y el robusta barato presionan los precios del café mexicano."
+    },
+    {
+      "id": "m39",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-18",
+      "source": "Es Diario",
+      "url": "https://esdiario.com.mx/cafetaleros-marcharan-en-tapachula-por-precios-justos/",
+      "title": "Cafetaleros del Soconusco marcharán en Tapachula el 23 de noviembre por precios justos",
+      "summary": "Productores de Unión Juárez, Cacahoatán, Tuxtla Chico, Tapachula y Mapastepec dicen recibir unos 43 pesos por kilo, frente a cerca de 60 hace dos o tres años, y culpan a los intermediarios; la protesta puede tensar las compras en el arranque de la cosecha de la Costa-Sierra."
     },
     {
       "id": "n22",
@@ -182,28 +195,6 @@
       "url": "https://www.elbuentono.com.mx/se-desploma-el-precio-del-cafe-en-cordoba-pagan-hasta-11-pesos-el-kilo-de-cereza/",
       "title": "En Córdoba la cosecha arranca lenta y la cereza se paga a 11–12 pesos",
       "summary": "Productores de la zona de Córdoba reciben 11–12 MXN/kg de cereza, cerca de la mitad de los hasta 22 pesos del ciclo pasado, y pagan unos 6 pesos por kilo a los cortadores; el exceso de lluvia retrasó la maduración. Hay brechas grandes de precio entre zonas de Veracruz."
-    },
-    {
-      "id": "m20",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos",
-        "veracruz",
-        "puebla",
-        "huasteca",
-        "oaxaca",
-        "guerrero",
-        "robusta-chiapas",
-        "robusta-golfo"
-      ],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae · Sucafina/Reuters",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Sucafina prevé una caída de 9,3 % en la cosecha de Centroamérica y México en 2026-27",
-      "summary": "La comercializadora estima menos de 18 millones de sacos de 60 kg (frente a 19,68 millones el ciclo pasado), con México y Honduras entre las mayores bajas por el clima adverso y el ciclo bienal; advierte dudas sobre la calidad. Para el comprador: menor oferta y lotes más irregulares."
     }
   ]
 }
