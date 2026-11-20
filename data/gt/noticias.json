@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:47:25Z",
+  "updatedAt": "2026-11-20T11:48:18Z",
   "items": [
     {
       "id": "n24",
@@ -108,6 +108,17 @@
       "url": "https://prensa-latina.cu/2026/11/11/continuaran-bajas-temperaturas-en-distintas-regiones-de-guatemala",
       "title": "Mínimas de 5 °C en Huehuetenango y lluvias por la tarde en la Bocacosta",
       "summary": "El INSIVUMEH registró 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; prevé mínimas de 3–5 °C en los altiplanos, lluvias dispersas con tormenta en la Bocacosta y dos frentes fríos este mes. En San Marcos, que ya cosecha, la lluvia de la tarde complica el secado."
+    },
+    {
+      "id": "g24",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-10",
+      "source": "La Hora",
+      "url": "https://lahora.gt/lh-economia/esmith/2026/11/10/el-tiempo-avanza-y-cacif-pide-cumplir-compromisos-del-acuerdo-comercial-con-ee-uu-now/",
+      "title": "Acuerdo comercial con EE. UU.: Guatemala activa desde el 16-nov controles aduaneros contra trabajo forzoso",
+      "summary": "El Gobierno tiene 145 acciones en 18 instituciones para cumplir el Acuerdo de Comercio Recíproco; según MINECO, el 75,8 % de lo que Guatemala exporta a EE. UU. ya entra con arancel cero, y desde el 16-nov rigen los controles aduaneros del Acuerdo Ministerial 377-2026 ligados a la lista de entidades con trabajo forzoso. Para el café, conviene pedir a los proveedores evidencia de condiciones laborales en el corte."
     },
     {
       "id": "g17",
