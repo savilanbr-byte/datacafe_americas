@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "w2",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Divisas",
+      "date": "2026-11-20",
+      "source": "Noticias Caracol",
+      "url": "https://www.noticiascaracol.com/economia/precio-del-dolar-en-colombia-hoy-20-de-noviembre-de-2026-trm-ya-supera-los-3-400-so35",
+      "title": "Colombia: la TRM salta a $3.415,10, máximo en varios meses",
+      "summary": "La tasa oficial subió $88,14 (2,65 %) frente al jueves y acumula unos $113 desde el 13 de noviembre. Un peso más débil mejora el ingreso en pesos del caficultor y puede sostener el precio interno aun con la bolsa a la baja."
+    },
+    {
       "id": "k8",
       "scope": "mundo",
       "tag": "Mercado",
@@ -9,17 +20,6 @@
       "url": "https://tapchicongthuong.vn/gia-ca-phe-hom-nay-20-11--nguon-cung-ca-phe-gia-tang--dong-real-suy-yeu-gay-ap-luc-len-gia-robusta-567734.htm",
       "title": "Se acumulan 248.175 sacos de café brasileño por clasificar en la ICE",
       "summary": "Es el máximo en unos 3,75 años (212.959 el 17-nov). Si se certifican en una o dos semanas, los inventarios saldrían del mínimo de 27 años y el arábica perdería parte de su soporte."
-    },
-    {
-      "id": "w1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Divisas",
-      "date": "2026-11-19",
-      "source": "Semana",
-      "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-mas-caro-tras-aumento-de-100-pesos-en-su-valor-la-moneda-supero-la-barrera-de-los-3400-pesos-este-19-de-noviembre/202654/",
-      "title": "Colombia: el dólar cierra en $3.415, $89 por encima de la TRM",
-      "summary": "El peso colombiano se debilitó el jueves 19 de noviembre: el dólar tocó un máximo de $3.469 y cerró en $3.415 frente a una TRM de $3.326,96. Un peso más débil eleva el precio interno en pesos y puede animar las ventas de los caficultores, lo que abre algo de oferta para compradores en dólares."
     },
     {
       "id": "u1",
@@ -246,29 +246,7 @@
       "url": "https://www.comunicaffe.com/coffee-futures-first-lots-traded-under-the-ice-arabicas-new-metric-contract/",
       "title": "Debuta el contrato métrico de arábica de la ICE con 48 lotes negociados",
       "summary": "El vencimiento septiembre 2028 se negoció entre 5.724 y 5.737 USD/t en lotes de 10 t; marzo 2028 será el último contrato C. Los contratos a precio diferido tendrán que migrar a USD/t."
-    },
-    {
-      "id": "k4",
-      "scope": "am",
-      "pais": "El Salvador",
-      "tag": "Exportaciones",
-      "date": "2026-11-09",
-      "source": "ContraPunto · BCR",
-      "url": "https://www.contrapunto.com.sv/el-salvador-exporta-181-4-millones-en-cafe-y-alcanza-su-mejor-resultado-en-13-anos/",
-      "title": "El Salvador factura USD 181,4 millones por café a septiembre, máximo en 13 años",
-      "summary": "Exportó más de 553.300 quintales a un promedio de USD 327,8/qq, 15,3 % más en valor que en 2025; EE. UU. compró USD 106,9 millones. Para 2026-27 los cafetaleros proyectan solo unos 750 mil quintales, así que habrá poca oferta."
-    },
-    {
-      "id": "k2",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Agronegocios · FNC",
-      "url": "https://www.agronegocios.co/agricultura/produccion-cafetera-con-corte-a-octubre-de-2026-4519174",
-      "title": "Colombia produce 1,114 millones de sacos en octubre, 8 % menos",
-      "summary": "La producción de los últimos doce meses baja 15 %, a 12,56 millones de sacos, y las exportaciones de 12 meses suman 11,85 millones (−11 %), aunque las de octubre subieron 6 %. La oferta colombiana sigue corta al empezar la cosecha principal."
     }
   ],
-  "updatedAt": "2026-11-20T12:30:00Z"
+  "updatedAt": "2026-11-20T19:55:00Z"
 }
