@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:48:18Z",
+  "updatedAt": "2026-11-20T19:47:33Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,24 +28,28 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Las regiones que cosechan ahora o empiezan (Cobán, San Marcos, Fraijanes, Nuevo Oriente) tendrán lluvias dispersas por la tarde en el Norte, la Bocacosta, el Suroccidente y el Oriente toda la semana del 16 al 20-nov: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
-    "Con el viento norte se esperan mínimas de 3–5 °C en los altiplanos y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
+    "Cobán, San Marcos, Fraijanes y Nuevo Oriente cosechan ahora o empiezan, con lluvias dispersas este fin de semana y un frente frío el 25-nov que traería más lluvia al Norte (Alta Verapaz): vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
+    "Siguen mínimas de 2–4 °C en los altiplanos y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; los mayores déficits se dieron en Chiquimula, Santa Rosa, Jutiapa y Sololá, y Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-19",
-    "headline": "Semana del 16 al 20 de noviembre: días cálidos, noches frías (3–5 °C en el Altiplano) y lluvias dispersas por la tarde en el Norte, Caribe, Bocacosta y Suroccidente",
+    "asOf": "2026-11-20",
+    "headline": "Fin de semana del 21-22 nov: días cálidos, lluvias dispersas en todo el país y mínimas de 2–4 °C en el Altiplano; un frente frío se acercaría el miércoles 25-nov",
     "items": [
-      "INSIVUMEH (pronóstico semanal 16–20 nov): ingreso de humedad desde ambos litorales con lluvias dispersas por la tarde y noche en Petén, Alta Verapaz, la Franja Transversal del Norte, el Caribe, la Bocacosta y el Suroccidente; en el Oriente, lluvias con actividad eléctrica en zonas montañosas.",
-      "INSIVUMEH (18-nov): el frío más intenso será en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; ya se registraron 5,0 °C en San Pedro Necta (11-nov). La temporada traería 16 frentes fríos.",
-      "INSIVUMEH (19-nov): el sistema de alta presión empieza a debilitarse; lluvias o lloviznas dispersas en la Franja Transversal del Norte, Izabal y el sur de Petén, y de día ambiente cálido y soleado en el resto (máximas de 33–36 °C en el sur y hasta 35 °C en los valles de Oriente), con noches frías en el Altiplano."
+      "INSIVUMEH (20-nov): para el 21 y 22 de noviembre, nublados parciales y ambiente cálido, con lloviznas o lluvias dispersas con actividad eléctrica por la humedad de ambos litorales; neblina en la madrugada y la noche. Máximas de 24–29 °C en los altiplanos y 33–36 °C en el Pacífico, el Motagua y los valles de Oriente.",
+      "INSIVUMEH (20-nov): un frente frío se acercaría el miércoles 25-nov; si mantiene su trayectoria aumentará la nubosidad y las lluvias en el Norte (Alta Verapaz, Franja Transversal del Norte) y el Caribe.",
+      "INSIVUMEH (18-nov): el frío más intenso sigue en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; la temporada traería 16 frentes fríos."
     ],
     "links": [
       {
         "t": "INSIVUMEH",
         "url": "https://insivumeh.gob.gt/"
+      },
+      {
+        "t": "Fin de semana y frente frío (Prensa Libre, 20-nov)",
+        "url": "https://www.prensalibre.com/guatemala/comunitario/como-estara-el-clima-en-guatemala-este-fin-de-semana-y-cuando-se-acercara-un-frente-frio-breaking/"
       },
       {
         "t": "Pronóstico 16–20 nov (Radio Sonora)",

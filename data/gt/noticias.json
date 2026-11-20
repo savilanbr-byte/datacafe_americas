@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-11-20T11:48:18Z",
+  "updatedAt": "2026-11-20T19:47:33Z",
   "items": [
+    {
+      "id": "g25",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-20",
+      "source": "Prensa Libre · INSIVUMEH",
+      "url": "https://www.prensalibre.com/guatemala/comunitario/como-estara-el-clima-en-guatemala-este-fin-de-semana-y-cuando-se-acercara-un-frente-frio-breaking/",
+      "title": "INSIVUMEH: fin de semana con lloviznas dispersas y frente frío el miércoles 25-nov",
+      "summary": "Para el 21 y 22 de noviembre se esperan días cálidos, lluvias dispersas en todo el país y mínimas de 2–4 °C en los altiplanos central y occidental; un frente frío se acercaría el 25-nov con más lluvia en el Norte y el Caribe. Para quien compra: más humedad en Cobán justo en plena cosecha, atento al secado del pergamino."
+    },
+    {
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40449780/robusta-coffee-falls-to-2-12-year-low-cocoa-climbs",
+      "title": "Robusta cae a mínimo de 2 años y medio con la cosecha de Vietnam y el real débil",
+      "summary": "El 19-nov la robusta en ICE tocó US$2.972 por tonelada, su nivel más bajo en dos años y medio, por la llegada de grano nuevo de Vietnam y un real brasileño débil que alienta las ventas de Brasil; el arábica subió 0,9 % a US$2,779 por libra. La presión bajista de la robusta pesa también sobre los diferenciales de los lavados centroamericanos."
+    },
     {
       "id": "n24",
       "scope": "mundo",
@@ -10,35 +31,6 @@
       "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
       "title": "Arábica cae 3,6 % y robusta toca mínimo de 2 años y 9 meses por la oferta récord",
       "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha mundial récord de 189,7 M de sacos que proyecta el USDA (Brasil 71,9 M, +14 %) y por el real en mínimo de 19 meses; los inventarios certificados de arábica (186.400 sacos) siguen en su nivel más bajo en 27 años. Para Guatemala, un C más bajo abarata el café de la nueva cosecha, aunque los diferenciales de origen suave siguen firmes."
-    },
-    {
-      "id": "n22",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Barchart · Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-      "title": "Arábica sube 2,1 % a máximo de dos semanas; robusta toca mínimo de 2,75 años",
-      "summary": "El 17-nov el arábica de diciembre subió 5,90 centavos (+2,1 %) con los inventarios certificados de ICE en 186.414 sacos, mínimo de 27 años, aunque hay 212.959 sacos brasileños esperando clasificación. La robusta de enero cayó 2,3 % por la mayor oferta de Vietnam y el real en mínimo de 19 meses."
-    },
-    {
-      "id": "g22",
-      "scope": "gt",
-      "regiones": [
-        "coban",
-        "san-marcos",
-        "huehuetenango",
-        "atitlan",
-        "acatenango",
-        "antigua",
-        "nuevo-oriente"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-16",
-      "source": "Radio Sonora · INSIVUMEH",
-      "url": "https://www.sonora.com.gt/asi-estara-el-clima-en-guatemala-del-16-al-20-de-noviembre-de-2026-segun-el-insivumeh/",
-      "title": "INSIVUMEH: semana del 16 al 20-nov con noches de 3–5 °C en el Altiplano y lluvias por la tarde",
-      "summary": "El pronóstico semanal prevé mínimas de 3 a 5 °C en el Altiplano Central y Occidental, neblina y lluvias dispersas por la tarde y noche en Alta Verapaz, el Norte, el Caribe, la Bocacosta y el Suroccidente, con tormentas en zonas montañosas del Oriente. En Cobán, San Marcos y Nuevo Oriente, que ya cosechan, la lluvia de la tarde sigue frenando el secado en patio."
     },
     {
       "id": "g23",
