@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T19:47:07Z",
+ "updatedAt": "2026-11-20T11:47:40Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -28,19 +28,19 @@
  },
  "impactos": [
   "El Niño fuerte (+2,5 °C en Niño 3.4) sigue recortando lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "Las lluvias del jueves 19 se concentran en el norte y el oriente: en zonas de Agalta (Yoro, Olancho) y El Paraíso el secado al sol puede interrumpirse, así que pide la humedad del grano al recibir los lotes.",
-  "En el occidente y el centro (Copán, Opalaca, Montecillos, Comayagua) solo se esperan lluvias aisladas y mínimas de 16 °C: buenas condiciones para secar el pergamino donde arranca el corte en las zonas bajas.",
+  "El viernes 20 las lloviznas se concentran en el norte y el oriente (Yoro, Olancho, Santa Bárbara y algo de El Paraíso): en Agalta y parte de Opalaca el secado al sol puede interrumpirse, así que pide la humedad del grano al recibir lotes.",
+  "En Montecillos (La Paz) y el sur de Copán (Ocotepeque) se prevé tiempo seco y noches frescas (mínimas de 14 °C en occidente): buenas condiciones para secar el pergamino donde avanza el corte en las zonas bajas.",
   "Con calor y poca lluvia la fruta madura de golpe; si faltan recolectores sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
   "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-19",
-  "headline": "CENAOS prevé lluvias de débiles a moderadas en el norte, noroccidente y oriente este jueves 19 por una vaguada prefrontal; en occidente y centro, solo lluvias aisladas",
+  "asOf": "2026-11-20",
+  "headline": "CENAOS prevé lluvias débiles y dispersas en el norte y el oriente este viernes 20 por el viento del norte y noreste; el sur y el suroccidente siguen secos y cálidos",
   "items": [
-   "Jueves 19: chubascos de débiles a moderados en el norte, noroccidente y oriente por la vaguada prefrontal y la humedad del Caribe; lluvias débiles y aisladas en el occidente y el centro.",
-   "Temperaturas: occidente 27/16 °C (la zona más fresca), centro 30/22 °C, oriente 32/22 °C y sur 36/25 °C.",
-   "El 17-nov COPECO declaró alerta verde de 48 horas en Cortés y Atlántida; CENAOS no prevé frentes fríos esta semana."
+   "Viernes 20: lluvias dispersas, lloviznas y chubascos aislados en Atlántida, Colón, Cortés, Gracias a Dios, Islas de la Bahía, Olancho, Santa Bárbara y Yoro; lloviznas débiles posibles en Francisco Morazán, Comayagua y El Paraíso, y chubascos ligeros en Copán.",
+   "Mayormente seco en La Paz, Lempira, Ocotepeque, Choluteca y Valle.",
+   "Temperaturas: occidente 27/14 °C (La Esperanza 20/14 °C), central 29/19 °C, Comayagua 30/21 °C, oriente 32/18 °C y sur 37/24 °C."
   ],
   "links": [
    {
@@ -49,11 +49,11 @@
    },
    {
     "t": "El Heraldo (19-nov)",
-    "url": "https://www.elheraldo.hn/honduras/lluvias-afectaran-norte-oriente-honduras-jueves-19-noviembre-MP32689317"
+    "url": "https://www.elheraldo.hn/honduras/viento-norte-dejara-lluvias-debiles-varias-regiones-honduras-viernes-20-noviembre-DO32696959"
    },
    {
-    "t": "Once Noticias (17-nov)",
-    "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/"
+    "t": "Radio HRN (19-nov)",
+    "url": "https://www.radiohrn.hn/llovera-este-viernes-en-honduras-conoce-las-zonas-que-tendran-precipitaciones-2026-11-19"
    }
   ]
  },

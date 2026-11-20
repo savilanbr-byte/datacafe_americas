@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T19:47:07Z",
+ "updatedAt": "2026-11-20T11:47:40Z",
  "series": {
   "kc1": {
    "points": [
@@ -182,6 +182,10 @@
     [
      "2026-11-18",
      280.95
+    ],
+    [
+     "2026-11-19",
+     282.05
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -369,6 +373,10 @@
     [
      "2026-11-18",
      3019.0
+    ],
+    [
+     "2026-11-19",
+     2977.0
     ]
    ],
    "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
