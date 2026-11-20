@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:47:18Z",
+  "updatedAt": "2026-11-20T11:48:58Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -27,19 +27,19 @@
     "period": ""
   },
   "impactos": [
-    "Minas y São Paulo están en pleno cuajado (pegamento) de la safra 2027-28: la lluvia de esta semana en la Zona da Mata y el centro de Minas ayuda, pero las floradas desparejas que reporta Cooxupé (−10 % del potencial) anticipan una cosecha 2027 de maduración irregular y calidad variable.",
+    "Minas y São Paulo están en pleno cuajado (pegamento) de la safra 2027-28: Cooxupé calcula −10 % del potencial y Minasul habla de caída de frutos por las lluvias récord de septiembre y octubre en el Sul de Minas; espera una cosecha 2027 menor, de maduración irregular y calidad variable.",
     "En las montañas del Espírito Santo los más de 150 mm previstos favorecen el arábica de altura; en el norte capixaba, zona de conilon, caerían menos de 30 mm y el USDA ya recortó el conilon 2026-27 a 23,3 M de sacas por el clima del ES: vigila el cuajado del conilon para 2027.",
     "En el oeste y el Planalto de Bahia la lluvia abundante (hasta 150 mm) llega con riesgo de tormentas severas y granizo; en Rondônia la semana sería casi seca, lo que retrasa la recuperación tras un mes seco.",
-    "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027, el calor en el llenado del grano (enero a abril) será el riesgo de precio de la próxima cosecha; hoy la oferta disponible es amplia (Conab 67,6 M y USDA 72,5 M de sacas en 2026) y el dólar en R$5,87 (máximo en 19 meses) favorece comprar en dólares, con los diferenciales FOB como variable a negociar."
+    "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027, el clima en el llenado del grano (enero a abril) será el riesgo de precio de la próxima cosecha; hoy la oferta disponible es amplia (Conab 67,6 M y USDA 72,5 M de sacas en 2026) y el dólar en R$5,93 (máximo en 19 meses) favorece comprar en dólares, con los diferenciales FOB como variable a negociar."
   ],
   "avisos": {
-    "source": "INMET · Reuters/USDA · Cooxupé",
-    "asOf": "2026-11-16",
+    "source": "INMET · Reuters/USDA · Minasul",
+    "asOf": "2026-11-18",
     "headline": "Semana húmeda en las montañas del ES, la Zona da Mata y el oeste de Bahia; poca lluvia en el norte capixaba y Rondônia, en plena fase de cuajado (pegamento)",
     "items": [
       "INMET (16-nov, semana 16–23 nov): más de 150 mm en la región serrana y el Caparaó del Espírito Santo, 70–100 mm en la Zona da Mata y 50–80 mm en el centro de Minas; menos de 30 mm en el litoral norte del ES.",
       "INMET: en Bahia, tormentas severas y hasta 150 mm en el oeste y suroeste, unos 100 mm en el centro-sur y sur y 60–80 mm en la costa hasta el ES; en Rondônia, acumulados casi nulos.",
-      "USDA (17-nov): la floración temprana favorece la safra 2027-28, pero será año de baja del arábica y preocupa un El Niño muy fuerte con sequía y calor en el llenado del grano; Cooxupé ya estimó una pérdida de 10 % del potencial."
+      "USDA (17-nov): la floración temprana favorece la safra 2027-28, pero será año de baja del arábica; Cooxupé estima una pérdida de 10 % del potencial y Minasul (18-nov) dice que las lluvias récord de septiembre y octubre en Varginha hicieron caer frutos, sin cuantificar aún el daño."
     ],
     "links": [
       {
@@ -53,6 +53,10 @@
       {
         "t": "Notícias Agrícolas · Cooxupé",
         "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
+      },
+      {
+        "t": "Sputnik · Minasul",
+        "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas"
       },
       {
         "t": "INMET · noviembre",

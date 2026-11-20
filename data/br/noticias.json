@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-19T19:47:18Z",
+  "updatedAt": "2026-11-20T11:48:58Z",
   "items": [
+    {
+      "id": "n39",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://www.brecorder.com/news/40449781/vietnam-coffee-prices-slide",
+      "title": "Vietnam: el precio al productor cae 10 % y el robusta toca su mínimo desde enero de 2024",
+      "summary": "Con la cosecha en marcha, los caficultores de las Tierras Altas Centrales vendieron a 74.200–75.000 dong/kg, frente a 83.200–83.800 la semana anterior; el robusta de enero cerró en US$3.019/t (−2 %) el 18-nov y bajó a US$2.972 el 20-nov. El real débil, que empuja las exportaciones de Brasil, suma presión a la oferta."
+    },
+    {
+      "id": "b59",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-19",
+      "source": "CEPEA · Cotação do Café",
+      "url": "https://cotacaodocafe.com/historico/",
+      "title": "CEPEA: el arábica sube 1,6 % a R$1.709 la saca con el dólar en R$5,93; el conilon baja a R$947",
+      "summary": "El indicador del arábica (tipo 6 bebida dura) pasó de R$1.682,78 a R$1.709,06 el 19-nov, mientras el conilon (tipo 6, criba 13) cayó 1,1 % a R$947,36, cuarta baja seguida. En dólares el arábica físico queda cerca de US$288 por saca: el real débil abarata el café brasileño para quien compra en dólares."
+    },
+    {
+      "id": "b60",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-19",
+      "source": "Reuters (Folha de Curitiba)",
+      "url": "https://folhadecuritiba.com.br/dolar-hoje-fechamento-19-novembro-2026/",
+      "title": "El dólar cierra en R$5,93 (+1,1 %), sexta alza seguida pese a la intervención del Banco Central",
+      "summary": "El dólar comercial terminó el 19-nov en R$5,9323, el cierre más alto desde abril de 2025, porque el ajuste fiscal aprobado en el Senado no convenció al mercado; una subasta de US$1.000 M del BC lo bajó solo por momentos. Un real tan débil estimula las ventas del productor y la exportación, y presiona las bolsas a la baja."
+    },
     {
       "id": "n38",
       "scope": "mundo",
@@ -12,17 +44,17 @@
       "summary": "El 18-nov el arábica de diciembre perdió 3,59 % y el robusta de enero 2,25 %, por la expectativa de una cosecha mundial récord de 189,7 M de sacas (USDA) y más envíos de Brasil y Vietnam; hay 212.960 sacas de café brasileño esperando clasificación en ICE, aunque el inventario certificado sigue en 186.400 sacas, mínimo de 27 años. El riesgo de El Niño en Brasil y Vietnam es lo que podría frenar la baja."
     },
     {
-      "id": "b52",
+      "id": "b61",
       "scope": "br",
       "regiones": [
         "sul-de-minas"
       ],
-      "tag": "Precios",
+      "tag": "Clima",
       "date": "2026-11-18",
-      "source": "Três Pontas Studio Live (CEPEA)",
-      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-registra-valorizacao-nesta-quarta-feira/",
-      "title": "CEPEA: el arábica sube a R$1.688 la saca; el conilon cae a R$960",
-      "summary": "El indicador del arábica ganó 1,14 % el 17-nov y el del conilon perdió 0,91 %; en el Sul de Minas Cooxupé pagó R$1.811 (+1,97 %) en Guaxupé y Coopercam R$1.776 en Campos Gerais, aunque Minasul bajó a R$1.620 en Varginha. La brecha entre arábica y conilon se amplía a más de R$700 por saca."
+      "source": "Sputnik Brasil (Tribuna do Sertão)",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas",
+      "title": "Minasul: el exceso de lluvia de El Niño compromete la floración (florada) de la safra 2027 en el Sul de Minas",
+      "summary": "El presidente de la cooperativa Minasul dice que septiembre y octubre fueron los meses más lluviosos en 40 años de registros en Varginha y que la lluvia y el frío hacen que la planta bote frutos; la pérdida aún no está cuantificada. Suma a la idea de una cosecha 2027 menor (año de baja) y desigual en calidad."
     },
     {
       "id": "n37",
@@ -49,17 +81,6 @@
       "url": "https://safras.com.br/com-dolar-e-ny-em-direcoes-opostas-brasil-deve-ter-dia-de-poucos-negocios-para-o-cafe",
       "title": "El físico sube en Minas: arábica del Cerrado a R$1.800 la saca; el conilon se mueve poco",
       "summary": "El 17-nov el arábica bebida dura del Cerrado Mineiro pasó a R$1.800–1.805 la saca y el bebida boa del Sul de Minas a R$1.790–1.795 (+R$40), mientras el conilon tipo 7 en Vitória quedó cerca de R$980. Para el 18-nov se esperaban pocos negocios, con Nueva York a la baja y el dólar al alza; el productor vende solo lo necesario."
-    },
-    {
-      "id": "b58",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-18",
-      "source": "Reuters (Antena 1)",
-      "url": "https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-alta-de-148-a-r58677-na-venda",
-      "title": "El dólar cierra en R$5,8677 (+1,48 %), su nivel más alto en 19 meses",
-      "summary": "Quinta alza seguida del dólar comercial, que acumula +17,6 % desde la reelección del 25-oct, por dudas sobre el ajuste fiscal tras el aplazamiento de la votación en el Senado; la PTAX de venta quedó en R$5,8102. El real débil sostiene los precios en reales y abarata el café brasileño en dólares para el comprador."
     },
     {
       "id": "b50",
@@ -146,16 +167,6 @@
       "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
     },
     {
-      "id": "n33",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "Reuters (Business Recorder)",
-      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
-      "title": "Vietnam: la cosecha de robusta avanza lenta y los precios se estabilizan",
-      "summary": "En las Tierras Altas Centrales el robusta se paga 83.200–83.800 dong/kg (US$3,24–3,26), casi igual que la semana anterior; los volúmenes grandes no llegarían hasta diciembre. El robusta de enero cerró en US$3.245/t y el grado 2 se ofrece con primas de US$40–50 sobre el contrato."
-    },
-    {
       "id": "b40",
       "scope": "br",
       "regiones": [],
@@ -176,17 +187,6 @@
       "url": "https://br.investing.com/news/commodities-news/exportacao-de-cafe-do-brasil-supera-5-mi-sacas-em-outubro-e-atinge-recorde-diz-cecafe-2124218",
       "title": "Cecafé: Brasil exportó un récord de 5,33 M de sacas en octubre, 28,4 % más",
       "summary": "El arábica sumó 4,12 M de sacas (máximo para cualquier mes) y el conilon 897.000, casi el doble que hace un año; los ingresos fueron US$1.786 M y los envíos a EE. UU. subieron 119 % tras retirarse por completo el arancel. Con 34,5 M de sacas en enero–octubre, el flujo de oferta brasileña sigue fuerte y presiona los diferenciales."
-    },
-    {
-      "id": "b34",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Regulación",
-      "date": "2026-11-11",
-      "source": "Conexão Safra",
-      "url": "https://conexaosafra.com/cafeicultura/cafe-brasileiro-na-europa-estudo-inedito-analisa-novas-regras-e-acordo-comercial/",
-      "title": "Estudio sobre el café Brasil–Alemania analiza el EUDR y el acuerdo UE–Mercosur",
-      "summary": "El Diálogo Agropolítico Brasil–Alemania presenta el 12-nov, en la Semana Internacional del Café de Belo Horizonte, un estudio sobre cómo el reglamento europeo contra la deforestación (EUDR) y el acuerdo UE–Mercosur afectan la competitividad, los costos de cumplimiento y el abastecimiento. Clave para quien compra café brasileño con destino a Europa: la trazabilidad será exigida."
     },
     {
       "id": "b38",
@@ -212,17 +212,6 @@
       "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
       "title": "OIC: en octubre el arábica subió y el robusta bajó; inventarios certificados en polos opuestos",
       "summary": "El precio compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); los Naturales Brasileños subieron 1,5 % a 294,49 ¢/lb y los robustas cayeron 2 %. Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacas (mínimo desde 2002), mientras los de robusta en Londres subieron 29,9 % a 1,13 M."
-    },
-    {
-      "id": "b56",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Logística",
-      "date": "2026-11-11",
-      "source": "Agrolink (Cecafé)",
-      "url": "https://www.agrolink.com.br/noticias/porto-de-santos-responde-por-70-9--das-exportacoes-brasileiras-de-cafe_520897.html",
-      "title": "Santos despacha el 70,9 % del café exportado por Brasil en 2026",
-      "summary": "Según Cecafé, entre enero y octubre salieron por Santos 24,4 M de sacas y por Río de Janeiro 8,7 M (25,2 %); Paranaguá movió unas 339.000. La concentración en Santos hace que cualquier congestión allí pese en los plazos de embarque."
     }
   ]
 }
