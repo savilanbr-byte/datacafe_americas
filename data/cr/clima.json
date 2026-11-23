@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:47:19Z",
+  "updatedAt": "2026-11-23T11:49:32Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,38 +22,33 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, que arrancan cosecha, siguen con días secos, calurosos y ventosos: muy buenos para secar al sol; las ráfagas bajan a 30–50 km/h, pero aún conviene proteger patios y vigilar que el pergamino no se seque disparejo.",
-    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona con chubascos de tarde; la época seca llegaría al Pacífico Sur entre el 23 y el 29 de noviembre, así que hasta entonces pide control de humedad y actividad de agua en esos lotes.",
-    "Turrialba y la Zona Norte tienen menos lluvia de lo habitual gracias al aire seco, pero el Caribe aún trae lluvias dispersas: el secado ahí sigue más lento y conviene revisar fruta caída.",
-    "Los Santos empieza a recoger con lluvias en retirada; los primeros lotes de altura podrían traer buena densidad, aunque el atraso de unos 30 días en la fertilización puede pesar en el rendimiento por fanega.",
-    "Con récords de calor y El Niño de fuerte a muy fuerte hasta ene–mar 2027, sube el riesgo de broca y de estrés en las floraciones de 2027-28; el ICAFE ya recorta 10–15 % sus estimaciones, así que pide análisis físico antes de fijar volúmenes."
+    "Valle Central y Valle Occidental, que arrancan su pico de recolección, siguen con mañanas despejadas y época seca consolidada: buen momento para secar al sol, aunque las ráfagas en el Valle Central piden proteger patios hasta que bajen el fin de semana.",
+    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona que mantiene chubascos de tarde y aguaceros aislados en montaña; conviene exigir control de humedad y actividad de agua en esos lotes hasta que entre la época seca.",
+    "Turrialba y la Zona Norte tienen lluvias cortas de mañana y algo de noche: el secado al sol sigue más lento que en el Valle Central y vale revisar fruta caída y sobremaduración.",
+    "Los Santos abre formalmente su cosecha a inicios de diciembre con tiempo seco y estable, favorable para lotes de altura densos; el atraso de unos 30 días en la fertilización que reportó el ICAFE puede pesar en el rendimiento por fanega.",
+    "Con El Niño de fuerte a muy fuerte hasta ene–mar 2027 y máximas de 32–37 °C, sube el riesgo de broca y de estrés en las floraciones de 2027-28; pide análisis físico antes de fijar volúmenes de la cosecha 2026-27."
   ],
   "avisos": {
     "source": "IMN",
-    "asOf": "2026-11-19",
-    "headline": "IMN (pronóstico para el viernes 20 nov): seco y caluroso en casi todo el país; alisios moderados con ráfagas de 30–50 km/h en el Valle Central",
+    "asOf": "2026-11-21",
+    "headline": "IMN: se mantienen las condiciones estables y secas de la segunda quincena de noviembre; solo el Pacífico Sur conserva chubascos por la tarde",
     "items": [
-      "Ráfagas de 30–50 km/h en el Valle Central y zonas montañosas, y de hasta 70 km/h en el norte de Guanacaste; los alisios vienen perdiendo fuerza frente al jueves (hasta 75 km/h).",
-      "Mañanas despejadas salvo nubosidad variable en el Caribe y la Zona Norte; por la tarde, chubascos aislados solo en el Pacífico Sur y sin lluvias importantes en el resto.",
-      "Noviembre ya suma más de 23 récords de temperatura máxima; el IMN prevé medias hasta 2 °C sobre lo normal entre noviembre y enero por El Niño.",
-      "Octubre cerró con déficit de lluvia en todas las regiones (de 7,9 % a 52,6 %), el más seco desde 2020."
+      "Tendencia del 19 al 25 de noviembre: mañanas despejadas en el Pacífico y el Valle Central; chubascos dispersos por la tarde al oeste del Valle Central y en el Pacífico Central, y más frecuentes en el Pacífico Sur, con aguaceros aislados en sus montañas el fin de semana.",
+      "Alisios con ráfagas moderadas en Guanacaste y el Valle Central que bajan el fin de semana; Caribe y Zona Norte con nubosidad parcial y lluvias cortas por la mañana.",
+      "Calor: máximas previstas de 32 °C en el Valle Central, 34 °C en el Pacífico Sur, 35 °C en la Zona Norte y 37 °C en el Pacífico Norte; el sábado 21, Golfito llegó a 34,4 °C y Alajuela a 30,2 °C."
     ],
     "links": [
       {
-        "t": "IMN · tendencia semanal",
+        "t": "IMN · tendencia semanal (19–25 nov)",
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "Diario Extra · Viernes caluroso y con fuertes ráfagas (19 nov)",
-        "url": "https://www.diarioextra.com/noticia/clima-costa-rica-viernes-caluroso-y-con-fuertes-rafagas/"
+        "t": "La Nación · Sábado caluroso y ventoso; solo una región con lluvia (21 nov)",
+        "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/"
       },
       {
         "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
         "url": "https://observador.cr/noviembre-rompe-mas-de-23-records-de-calor-en-costa-rica-y-el-imn-advierte-que-podrian-venir-mas/"
-      },
-      {
-        "t": "CRHoy · Octubre, el más seco desde 2020",
-        "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/"
       }
     ]
   },

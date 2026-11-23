@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-20T19:47:19Z",
+  "updatedAt": "2026-11-23T11:49:32Z",
   "items": [
+    {
+      "id": "n49",
+      "scope": "cr",
+      "regiones": [
+        "perez-zeledon",
+        "coto-brus",
+        "valle-central"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-21",
+      "source": "La Nación · IMN",
+      "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/",
+      "title": "IMN: se consolida la época seca y solo el Pacífico Sur mantiene lluvias por la tarde",
+      "summary": "Para el sábado 21 el IMN previó ambiente seco y estable en casi todo el país, con máximas de 35,5 °C en Puntarenas, 34,4 °C en Golfito y 30,2 °C en Alajuela. Favorece el secado en el Valle Central, mientras que en la zona sur la humedad sigue siendo el punto a vigilar en los lotes recién beneficiados."
+    },
     {
       "id": "n46",
       "scope": "mundo",
@@ -12,14 +27,24 @@
       "summary": "Con la cosecha vietnamita en marcha y el real brasileño débil, el robusta de enero cerró en US$3.019/t (−2 %) el miércoles y los precios internos bajaron unos 9.000 dong por kg en una semana; un robusta más barato resta soporte a los blends y presiona los diferenciales de arábicas comerciales."
     },
     {
-      "id": "n44",
+      "id": "n48",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-18",
-      "source": "Reuters · Business Recorder",
-      "url": "https://brecorder.com/news/40449415/robusta-coffee-hits-2-12-year-low?v=1hFrQl6aJDZbQxyRJRS3nAce",
-      "title": "El robusta toca mínimos de dos años y medio por la llegada de la cosecha vietnamita; el arábica se sostiene",
-      "summary": "El robusta de Londres cayó 2,45 % a US$3.067/t tras tocar US$3.050, mientras el arábica subió 0,95 % a 277,75 ¢/lb apoyado en inventarios certificados en mínimos de 27 años. La brecha entre ambos sigue amplia, así que los lavados centroamericanos como el de Costa Rica conservan su prima frente a los robustas."
+      "date": "2026-11-20",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-11-20-26/",
+      "title": "El arábica cae a 268,50 ¢/lb y los inventarios certificados de ICE suben a 225.000 sacos; el robusta, en mínimos desde febrero de 2024",
+      "summary": "El contrato de marzo cerró el viernes 20 en 268,50 ¢/lb (−7,50 en el día y −5,00 en la semana) y el robusta de enero en US$2.881/t; hay 225.219 sacos certificados y 251.230 en espera de clasificación. El aumento de existencias en ICE quita soporte al precio base de NY con el que se negocia la cosecha tica 2026-27."
+    },
+    {
+      "id": "n47",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-19",
+      "source": "Daily Coffee News · USDA",
+      "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+      "title": "El USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 millones de sacos, pero con arábica de menor calidad",
+      "summary": "El arábica sube 29,5 % a 49,2 millones de sacos y el robusta cae 6,8 % a 23,3 millones; las exportaciones llegarían a un récord de 49,1 millones, aunque las lluvias tardías bajaron la calidad en Minas Gerais y los inventarios finales caen a 3,4 millones. Más arábica brasileño presiona el diferencial de los lavados centroamericanos, pero la escasez de calidades altas sostiene las primas de Costa Rica."
     },
     {
       "id": "n41",
@@ -30,22 +55,6 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
       "title": "El arábica sube 2,1 % a máximos de dos semanas con inventarios ICE en mínimos de 27 años; el robusta cae a mínimos de casi tres años",
       "summary": "El contrato de diciembre ganó 5,90 ¢/lb (+2,1 %) porque las existencias certificadas bajaron a 186.414 sacos, aunque hay 212.959 sacos brasileños en espera de clasificación; el robusta de enero cayó 2,3 % ante la previsión de 2,1 Mt para Vietnam (+5 %) y exportaciones vietnamitas de octubre +61 %. Con el real en mínimos de 19 meses y Brasil exportando 23 % más, el rebote de NY puede ser corto: conviene fijar por tramos los lavados de Costa Rica."
-    },
-    {
-      "id": "n37",
-      "scope": "cr",
-      "regiones": [
-        "valle-central",
-        "valle-occidental",
-        "turrialba",
-        "zona-norte"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-16",
-      "source": "Diario Extra · IMN",
-      "url": "https://www.diarioextra.com/noticia/clima-costa-rica-semana-empezara-con-lluvias-esto-dice-el-imn/",
-      "title": "IMN: semana con poca nubosidad en el Pacífico y alisios fuertes, con lluvias en el Caribe desde mitad de semana",
-      "summary": "El IMN prevé ráfagas de 20–50 km/h en el Valle Central y de 50–80 km/h en montañas, condiciones estables en la vertiente del Pacífico y lluvias en el Caribe y la Zona Norte, sobre todo desde el miércoles. Buena semana para secar al sol en Valle Central y Occidental; en Turrialba y Zona Norte el secado seguirá lento."
     },
     {
       "id": "n45",
@@ -70,16 +79,6 @@
       "url": "https://www.nacion.com/economia/costa-rica-produce-la-mitad-del-cafe-que-cosechaba/XF6QPN6Z4RCZBEMOFV6UYZPCBM/story/",
       "title": "Costa Rica cosecha la mitad del café que hace 27 años: 1,59 millones de fanegas en 2025-26",
       "summary": "Según datos del ICAFE, la cosecha cayó 51,4 % desde 1998-99 (3,28 millones de fanegas); Turrialba (−83,9 %) y Zona Norte (−80,3 %) son las más golpeadas y Los Santos (−38,9 %) la que mejor resiste, con 35 % del área. El costo por fanega subió a ₡105.267 en 2024-25: la oferta exportable seguirá concentrada en Los Santos y el Valle Occidental y los productores necesitan precios altos para cubrir costos."
-    },
-    {
-      "id": "n36",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-14",
-      "source": "World Coffee Index",
-      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
-      "title": "Arábica cierra la semana cerca de 274 ¢/lb (−2,2 %) y los inventarios certificados suben a más de 241.000 sacos",
-      "summary": "El arábica de diciembre tocó 262,15 ¢/lb el miércoles, rebotó 4,16 % con el vencimiento de opciones y terminó la semana cerca de 274 ¢/lb; el robusta de enero quedó en unos US$3.207/t, cerca de mínimos de dos años y medio, y hay más de 100.000 sacos en espera de clasificación en ICE. Más inventario certificado resta presión alcista al contrato de diciembre, cuyo primer aviso es el 19 de noviembre."
     },
     {
       "id": "n39",
@@ -137,37 +136,6 @@
       "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/",
       "title": "IMN fija el calendario de la época seca: Valle Central esta semana, Pacífico Sur a fines de noviembre",
       "summary": "El IMN prevé que la época seca se establezca en el Pacífico Norte y el Valle Central entre el 9 y el 15 de noviembre, en el Pacífico Central del 16 al 22 y en el Pacífico Sur del 23 al 29; Caribe y Zona Norte oriental no tienen época seca definida. Para compras, el secado al sol mejora primero en Valle Central y Occidental, mientras que en Pérez Zeledón y Coto Brus la humedad sigue siendo un riesgo dos semanas más."
-    },
-    {
-      "id": "n21",
-      "scope": "cr",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-11-06",
-      "source": "CRHoy",
-      "url": "https://crhoy.com/nacionales/octubre-cerro-como-el-mas-seco-desde-2020-en-todo-el-pais/",
-      "title": "Octubre cerró como el más seco desde 2020 en todo el país",
-      "summary": "El IMN registró déficit de lluvia en todas las regiones (7,9 %–52,6 %) y de enero a septiembre 20–43 % menos en el Pacífico y el Valle Central. Para comprar: la sequía favorece el secado pero eleva el riesgo de broca y de estrés en las floraciones de 2027-28."
-    },
-    {
-      "id": "n30",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Comunicaffe · Cepea",
-      "url": "https://www.comunicaffe.com/brazils-2027-28-crop-starts-positively-but-weather-remains-a-concern-says-cepea/",
-      "title": "Cepea: la cosecha 2027-28 de Brasil arranca bien, pero el calor de El Niño amenaza el cuajado",
-      "summary": "Las floraciones fueron satisfactorias en Espírito Santo y el Cerrado Mineiro (cuajado se confirmará en diciembre), mientras en Rondônia la sequía trajo broca temprana; el mercado espera una cosecha grande, aunque no récord, en año de baja bienal. El riesgo de aborto floral por calor es el principal factor alcista para 2027."
-    },
-    {
-      "id": "n32",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae · Sucafina (Reuters)",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Sucafina prevé que la cosecha de Centroamérica y México caiga 9,3 %, a menos de 18 millones de sacos",
-      "summary": "La comercializadora estima la cosecha 2026-27 de la región por debajo de 18 millones de sacos de 60 kg (19,68 millones en 2025-26) por sequía y ciclo bajo del arábica; Honduras y México, los más golpeados. Menos oferta de lavados centroamericanos sostiene los diferenciales que pueden pedir los beneficios ticos."
     }
   ]
 }

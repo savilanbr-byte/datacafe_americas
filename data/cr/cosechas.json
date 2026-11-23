@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:47:14Z",
+  "updatedAt": "2026-11-23T11:49:32Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -138,6 +138,33 @@
     }
   },
   "reportes": [
+    {
+      "id": "r11",
+      "fecha": "2026-11-21",
+      "region": "perez-zeledon",
+      "tipo": "noticia",
+      "texto": "IMN: el 21-nov solo el Pacífico Sur tuvo posibilidad de lluvia por la tarde (Golfito hasta 34,4 °C), mientras el resto del país consolidaba la época seca.",
+      "fuente": "La Nación · IMN",
+      "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/"
+    },
+    {
+      "id": "r12",
+      "fecha": "2026-11-21",
+      "region": "valle-central",
+      "tipo": "noticia",
+      "texto": "IMN: ambiente seco y estable propio de la estación seca, con máximas de 30,2 °C en Alajuela y 28,3 °C en San José; buenas condiciones para secar al sol.",
+      "fuente": "La Nación · IMN",
+      "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/"
+    },
+    {
+      "id": "r13",
+      "fecha": "2026-11-16",
+      "region": "los-santos",
+      "tipo": "noticia",
+      "texto": "CoopeDota celebrará la apertura de la cosecha 2026-27 de Los Santos del 4 al 6 de diciembre en Santa María de Dota, con productores de Dota, Tarrazú y León Cortés.",
+      "fuente": "La Fatfluencer",
+      "url": "https://lafatfluencer.com/2026/11/16/cosecha-cafe-coopedota-los-santos-2026/"
+    },
     {
       "id": "r10",
       "fecha": "2026-11-15",
