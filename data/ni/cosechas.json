@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:50:00Z",
+  "updatedAt": "2026-11-23T11:48:56Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -154,6 +154,15 @@
       "texto": "Estelí, Madriz y Nueva Segovia proyectan más de 585.000 quintales en la cosecha 2026-27, en más de 57.000 manzanas y con más de 4.000 productores.",
       "fuente": "Canal 4",
       "url": "https://www.canal4.com.ni/zonas-cafetaleras-de-esteli-madriz-y-nueva-segovia-bajo-resguardo-del-ejercito-de-nicaragua/"
+    },
+    {
+      "id": "n7",
+      "fecha": "2026-11-15",
+      "region": "meseta",
+      "tipo": "noticia",
+      "texto": "200 militares custodian la cosecha 2026-27 y el traslado de los pagos a cortadores en 8 municipios de Managua, entre ellos El Crucero, Ticuantepe y San Rafael del Sur.",
+      "fuente": "Radio Nicaragua",
+      "url": "https://radionicaragua.com.ni/200-efectivos-garantizaran-la-seguridad-de-la-cosecha-cafetalera-en-managua/"
     }
   ]
 }
