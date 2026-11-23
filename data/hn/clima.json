@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T19:48:12Z",
+ "updatedAt": "2026-11-23T11:50:38Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -27,20 +27,20 @@
   "period": ""
  },
  "impactos": [
-  "El Niño fuerte (+2,5 °C en Niño 3.4) sigue recortando lluvias en el corredor seco: los exportadores reportan más daño en cafetales bajos (800–1.100 m) que en los altos con sombra. Espera más defectos y grano pequeño en lotes de bajío.",
-  "El viernes 20 las lloviznas se concentran en el norte y el oriente (Yoro, Olancho, Santa Bárbara y algo de El Paraíso): en Agalta y parte de Opalaca el secado al sol puede interrumpirse, así que pide la humedad del grano al recibir lotes.",
-  "En Montecillos (La Paz) y el sur de Copán (Ocotepeque) se prevé tiempo seco y noches frescas (mínimas de 14 °C en occidente): buenas condiciones para secar el pergamino donde avanza el corte en las zonas bajas.",
-  "Con calor y poca lluvia la fruta madura de golpe; si faltan recolectores sube el riesgo de café sobremaduro o caído: revisa la calidad de los primeros lotes.",
-  "Una época seca larga favorece el secado, pero puede estresar la floración de 2027-28 en las zonas bajas."
+  "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene la época seca: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío que salen ahora.",
+  "Con fin de semana seco y lluvias de apenas 2–5 mm, Copán, Opalaca y Montecillos tienen buenas condiciones para secar al sol el pergamino de las zonas bajas y medias que ya se cortan.",
+  "Sin frentes fríos y con temperaturas sobre lo normal, la fruta puede madurar de golpe antes del pico de cosecha (20-dic a 20-feb): si faltan recolectores sube el riesgo de café sobremaduro o caído; revisa la calidad de los primeros lotes.",
+  "En Agalta y el oriente (Olancho, El Paraíso) las lloviznas por humedad del Caribe pueden interrumpir el secado: pide la humedad del grano al recibir.",
+  "Una sequía prolongada favorece el beneficio seco pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-20",
-  "headline": "CENAOS prevé lluvias débiles y dispersas en el norte y el oriente este viernes 20 por el viento del norte y noreste; el sur y el suroccidente siguen secos y cálidos",
+  "asOf": "2026-11-22",
+  "headline": "CENAOS prevé un fin de semana mayormente seco con lluvias débiles y aisladas por la tarde en el norte, centro y suroccidente; no hay frente frío en camino",
   "items": [
-   "Viernes 20: lluvias dispersas, lloviznas y chubascos aislados en Atlántida, Colón, Cortés, Gracias a Dios, Islas de la Bahía, Olancho, Santa Bárbara y Yoro; lloviznas débiles posibles en Francisco Morazán, Comayagua y El Paraíso, y chubascos ligeros en Copán.",
-   "Mayormente seco en La Paz, Lempira, Ocotepeque, Choluteca y Valle.",
-   "Temperaturas: occidente 27/14 °C (La Esperanza 20/14 °C), central 29/19 °C, Comayagua 30/21 °C, oriente 32/18 °C y sur 37/24 °C."
+   "Domingo 22: mañanas secas; por la tarde, lluvias y chubascos débiles y aislados en sectores del norte, centro y suroccidente, con acumulados de 2 a 5 mm.",
+   "Sin frente frío por ahora: «De momento no hay ninguna aproximación de frente frío» (Jeffrey Flores, CENAOS); el sur sigue seco.",
+   "Temperaturas del domingo: Intibucá 25/12 °C, Copán 29/20 °C, La Paz 31/20 °C, Comayagua 31/21 °C, El Paraíso 30/19 °C, Olancho 32/21 °C, Yoro 30/18 °C."
   ],
   "links": [
    {
@@ -48,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "El Heraldo (19-nov)",
-    "url": "https://www.elheraldo.hn/honduras/viento-norte-dejara-lluvias-debiles-varias-regiones-honduras-viernes-20-noviembre-DO32696959"
+    "t": "Radio HRN (22-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22"
    },
    {
-    "t": "Radio HRN (19-nov)",
-    "url": "https://www.radiohrn.hn/llovera-este-viernes-en-honduras-conoce-las-zonas-que-tendran-precipitaciones-2026-11-19"
+    "t": "Radio HRN (20-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-en-honduras-ingresara-algun-frente-frio-pronostico-cenaos-2026-11-20"
    }
   ]
  },

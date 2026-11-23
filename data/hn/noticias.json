@@ -1,6 +1,42 @@
 {
- "updatedAt": "2026-11-20T19:48:12Z",
+ "updatedAt": "2026-11-23T11:50:38Z",
  "items": [
+  {
+   "id": "h25",
+   "scope": "hn",
+   "regiones": [
+    "opalaca",
+    "copan",
+    "montecillos"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-22",
+   "source": "Radio HRN · CENAOS",
+   "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22",
+   "title": "CENAOS prevé un fin de semana mayormente seco, sin frente frío a la vista",
+   "summary": "Para el domingo 22 se esperan mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente, con acumulados de 2 a 5 mm; Intibucá registra la mínima más baja (12 °C) y CENAOS descarta por ahora la llegada de un frente frío. Buen tiempo para secar pergamino en el occidente."
+  },
+  {
+   "id": "h24",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Cafés especiales",
+   "date": "2026-11-21",
+   "source": "El Español",
+   "url": "https://www.elespanol.com/viajes/cocinillas-gastro/actualidad-gastronomica/20261121/mejor-cafe-mundo-llega-honduras-elegido-roma-cientos-candidatos/1003744467005_0.html",
+   "title": "Un café hondureño de Finca Piedra Parada gana el «Best of the Best» del premio Ernesto Illy",
+   "summary": "Denis Rolando, de Finca Piedra Parada, ganó en Roma el máximo galardón del Ernesto Illy International Coffee Award 2026 entre 27 finalistas de nueve países, con lotes de la cosecha 2025-26. Refuerza la visibilidad de los microlotes hondureños de alta gama ante tostadores y compradores de especiales."
+  },
+  {
+   "id": "n29",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-20",
+   "source": "Barchart (TradingView)",
+   "url": "https://www.tradingview.com/news/barchart:c265a50d4094b:0-coffee-prices-fall-on-expectations-of-abundant-supplies/",
+   "title": "El arábica cae 2,7 % y la robusta toca su menor nivel en 2,75 años",
+   "summary": "El viernes 20 el arábica de marzo bajó 7,50 ¢/lb (−2,72 %) y la robusta de enero 97 US$/t (−3,26 %); en ICE esperan clasificación 251.230 sacos, la mayor cifra en 3,75 años, y los fondos suman 24.069 contratos netos vendidos en robusta, el máximo en casi cuatro años. Vietnam exportó 1,57 M t de enero a octubre (+18,8 %): la bolsa más baja recorta el precio de referencia del pergamino hondureño en pleno arranque del corte."
+  },
   {
    "id": "n28",
    "scope": "mundo",
@@ -10,16 +46,6 @@
    "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
    "title": "El arábica rebota tras el recorte del USDA a las exportaciones de Colombia; la robusta sigue en mínimos",
    "summary": "El USDA bajó a 11,5 M de sacos las exportaciones colombianas 2026-27 (−6 %) y el arábica de marzo subió 1,4 %, mientras la robusta de enero cayó 1,7 % a su menor nivel en 2,75 años por la cosecha de Vietnam y el real brasileño en mínimos de 19 meses. Los inventarios certificados de arábica en ICE (186.414 sacos) están en su nivel más bajo en 27 años, lo que sostiene los diferenciales de los lavados centroamericanos como el hondureño."
-  },
-  {
-   "id": "n26",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-19",
-   "source": "UkrAgroConsult · Barchart",
-   "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
-   "title": "El arábica cae 3,6 % y la robusta toca su mínimo en 2 años y 9 meses",
-   "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 % ante la expectativa de cosechas y exportaciones récord de Brasil y Vietnam; las existencias certificadas de arábica en ICE siguen en mínimos de 27 años (186.400 sacos). Una bolsa más baja recorta el precio del pergamino en Honduras al inicio del corte."
   },
   {
    "id": "h22",
@@ -44,17 +70,6 @@
    "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
    "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
    "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
-  },
-  {
-   "id": "h23",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Insumos",
-   "date": "2026-11-13",
-   "source": "El Informativo · SAG",
-   "url": "https://www.elinformativo.hn/archivos/136200",
-   "title": "La SAG termina de entregar fertilizante a 83.777 caficultores y georreferenciará 400.000 manzanas",
-   "summary": "La SAG cerró el reparto de 327.333 quintales de fertilizante a pequeños y medianos productores de todo el país y avanza en georreferenciar unas 400.000 manzanas de café. Más fincas con mapa ayudan a vender lotes trazables a Europa bajo el EUDR."
   },
   {
    "id": "n20",
@@ -118,29 +133,6 @@
    "url": "https://www.comunicaffe.com/international-coffee-week-2026-brazil/",
    "title": "Producción mundial récord de 189,7 M de sacos y Brasil con 67,6 M, según USDA y Conab",
    "summary": "El USDA prevé 189,7 M de sacos de 60 kg en 2026-27 (+6 %) y la Conab 67,6 M para Brasil (+19,6 %). Más oferta mundial presiona la bolsa y el precio de referencia del café hondureño."
-  },
-  {
-   "id": "h9",
-   "scope": "hn",
-   "tag": "Clima",
-   "date": "2026-11-08",
-   "source": "Radio HRN · COPECO",
-   "url": "https://www.radiohrn.hn/copeco-advierte-por-lluvias-durante-48-horas-en-honduras-2026-11-08",
-   "title": "COPECO alerta por lluvias intensas el 8 y 9 de noviembre, con más riesgo en El Paraíso",
-   "summary": "Las lluvias más fuertes se esperan en el oriente, centro y sur, sobre todo en El Paraíso, Choluteca y Valle, con posibles deslizamientos y crecidas. Para el comprador: puede frenar el secado del pergamino y el transporte desde las zonas de El Paraíso.",
-   "regiones": [
-    "el-paraiso"
-   ]
-  },
-  {
-   "id": "n27",
-   "scope": "mundo",
-   "tag": "Producción",
-   "date": "2026-11-06",
-   "source": "Infobae · Reuters (Sucafina)",
-   "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-   "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 %, con Honduras entre las mayores bajas",
-   "summary": "La comercializadora Sucafina prevé que la región produzca menos de 18 millones de sacos de 60 kg en 2026-27, una caída de 9,3 %, y ubica a Honduras y México entre los países con las mayores bajas. Menos oferta regional puede sostener los diferenciales del café hondureño pese a la caída de la bolsa."
   }
  ]
 }

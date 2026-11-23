@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T19:48:12Z",
+ "updatedAt": "2026-11-23T11:50:38Z",
  "series": {
   "kc1": {
    "points": [
@@ -186,6 +186,10 @@
     [
      "2026-11-19",
      282.05
+    ],
+    [
+     "2026-11-20",
+     274.85
     ]
    ],
    "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
