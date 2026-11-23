@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:47:33Z",
+  "updatedAt": "2026-11-23T11:48:46Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,17 +28,17 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Cobán, San Marcos, Fraijanes y Nuevo Oriente cosechan ahora o empiezan, con lluvias dispersas este fin de semana y un frente frío el 25-nov que traería más lluvia al Norte (Alta Verapaz): vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
-    "Siguen mínimas de 2–4 °C en los altiplanos y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
+    "Cobán, San Marcos, Fraijanes y Nuevo Oriente cosechan ahora o empiezan, con lluvias dispersas por la tarde en el Norte, la Bocacosta y Occidente y un frente frío el 25-nov que traería más lluvia a Alta Verapaz: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
+    "Siguen mínimas de 4–6 °C en el Altiplano occidental y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; los mayores déficits se dieron en Chiquimula, Santa Rosa, Jutiapa y Sololá, y Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-20",
-    "headline": "Fin de semana del 21-22 nov: días cálidos, lluvias dispersas en todo el país y mínimas de 2–4 °C en el Altiplano; un frente frío se acercaría el miércoles 25-nov",
+    "asOf": "2026-11-22",
+    "headline": "Lunes 23-nov: neblina al amanecer, lluvias dispersas por la tarde en el Norte, el Caribe, la Bocacosta y Occidente, y mínimas de 4–6 °C en el Altiplano; un frente frío se acercaría el miércoles 25-nov",
     "items": [
-      "INSIVUMEH (20-nov): para el 21 y 22 de noviembre, nublados parciales y ambiente cálido, con lloviznas o lluvias dispersas con actividad eléctrica por la humedad de ambos litorales; neblina en la madrugada y la noche. Máximas de 24–29 °C en los altiplanos y 33–36 °C en el Pacífico, el Motagua y los valles de Oriente.",
+      "INSIVUMEH (22-nov): para el lunes 23, neblina en valles y montañas al amanecer y lloviznas o lluvias dispersas por la tarde y la noche, sobre todo en el Norte, la Franja Transversal del Norte, el Caribe, la Bocacosta y Occidente. Mínimas de 4–6 °C en el Altiplano occidental (Todos Santos, Huehuetenango) y máximas de 32–34 °C en Escuintla.",
       "INSIVUMEH (20-nov): un frente frío se acercaría el miércoles 25-nov; si mantiene su trayectoria aumentará la nubosidad y las lluvias en el Norte (Alta Verapaz, Franja Transversal del Norte) y el Caribe.",
       "INSIVUMEH (18-nov): el frío más intenso sigue en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; la temporada traería 16 frentes fríos."
     ],
@@ -46,6 +46,10 @@
       {
         "t": "INSIVUMEH",
         "url": "https://insivumeh.gob.gt/"
+      },
+      {
+        "t": "Pronóstico del 23-nov (Prensa Libre, 22-nov)",
+        "url": "https://www.prensalibre.com/ahora/ciudades/guatemala-ciudades/insivumeh-pronostica-lluvias-dispersas-en-varias-regiones-de-guatemala-y-temperaturas-de-hasta-34-c-para-el-23-de-noviembre/"
       },
       {
         "t": "Fin de semana y frente frío (Prensa Libre, 20-nov)",

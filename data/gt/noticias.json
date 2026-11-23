@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-20T19:47:33Z",
+  "updatedAt": "2026-11-23T11:48:46Z",
   "items": [
+    {
+      "id": "g26",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-21",
+      "source": "Prensa Libre · Banguat",
+      "url": "https://www.prensalibre.com/economia/por-que-el-cafe-desplazo-al-vestuario-en-las-exportaciones-de-guatemala-banguat-y-empresarios-explican-las-razones/",
+      "title": "Banguat: el café ya es el primer producto de exportación de Guatemala en 2026",
+      "summary": "De enero a septiembre de 2026 el café generó US$1.329,2 M (+10,8 % interanual), por encima del vestuario y ya más que todo 2025 (US$1.307,4 M); el volumen subió 17,3 % y el precio medio bajó 5,6 %. Para el comprador: más volumen embarcado a precio medio menor confirma que el mercado guatemalteco se está ajustando a la baja."
+    },
     {
       "id": "g25",
       "scope": "gt",
@@ -31,6 +42,17 @@
       "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
       "title": "Arábica cae 3,6 % y robusta toca mínimo de 2 años y 9 meses por la oferta récord",
       "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha mundial récord de 189,7 M de sacos que proyecta el USDA (Brasil 71,9 M, +14 %) y por el real en mínimo de 19 meses; los inventarios certificados de arábica (186.400 sacos) siguen en su nivel más bajo en 27 años. Para Guatemala, un C más bajo abarata el café de la nueva cosecha, aunque los diferenciales de origen suave siguen firmes."
+    },
+    {
+      "id": "g27",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Cafés especiales",
+      "date": "2026-11-16",
+      "source": "Anacafé",
+      "url": "https://www.anacafe.org/taiwan-international-coffee-show-2026/",
+      "title": "20 productores guatemaltecos venden su café en el Taiwan International Coffee Show",
+      "summary": "Guatemalan Coffees y LACTO montaron un stand en Taipéi (13–16 nov) con 20 productores que trataron directamente con compradores de más de 70 países; Taiwán estuvo entre los diez principales destinos del café guatemalteco en 2025-26. Señal de demanda asiática firme por microlotes de especialidad."
     },
     {
       "id": "g23",
@@ -128,31 +150,6 @@
       "url": "https://emisorasunidas.com/nacional/2026/11/09/bajas-temperaturas-frio-noviembre-departamentos-guatemala/",
       "title": "INSIVUMEH: frío intenso en noviembre en el Altiplano y 16 frentes fríos en la temporada",
       "summary": "Para noviembre prevé mínimas de 10–14 °C, con valores cercanos a 0 °C en Huehuetenango, San Marcos, Quetzaltenango, Sololá, Chimaltenango y Sacatepéquez; la temporada 2026-27 tendría 16 frentes fríos (2 en noviembre, 4 en diciembre y 4 en enero). Conviene preguntar por daños de helada en fruta y brotes en las fincas más altas."
-    },
-    {
-      "id": "g16",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-06",
-      "source": "Somos Guate · CONRED/INSIVUMEH",
-      "url": "https://www.somosguate.com/conred-declara-alerta-institucional-ante-el-ingreso-del-primer-frente-frio-de-la-temporada/",
-      "title": "Primer frente frío de noviembre trae heladas al Altiplano Occidental",
-      "summary": "CONRED declaró alerta institucional por el primer frente frío del mes, con vientos del norte y heladas meteorológicas en las zonas altas de Huehuetenango, San Marcos, Quetzaltenango y Totonicapán. Para el comprador: conviene preguntar por daños en fruta y brotes en las fincas más altas de Huehuetenango y San Marcos."
-    },
-    {
-      "id": "g13",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae · Reuters · Sucafina",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
-      "summary": "La comercializadora proyecta menos de 18 M de sacos (frente a 19,68 M en 2025-26); Guatemala baja menos que Honduras y México, con exportación de 3,8 M de quintales y precio de US$275–300. Menos oferta regional: conviene asegurar volumen temprano."
     }
   ]
 }

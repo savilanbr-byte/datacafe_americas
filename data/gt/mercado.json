@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-20T19:47:33Z",
+  "updatedAt": "2026-11-23T11:48:46Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio de referencia Banguat",
-      "value": 7.6478,
+      "value": 7.6406,
       "dec": 4,
       "unit": "GTQ/USD",
-      "asOf": "2026-11-20",
+      "asOf": "2026-11-23",
       "source": "Banguat",
       "url": "https://www.banguat.gob.gt/tipo_cambio/",
       "liveUrl": "https://www.banguat.gob.gt/",
       "liveT": "Banguat",
-      "note": "Banguat: Q7,64781 por dólar vigente el 20-nov (Q7,64682 el 19-nov). En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
-      "change": 0.001,
+      "note": "Banguat: Q7,64059 por dólar vigente el lunes 23-nov (Q7,64781 el 20-nov). En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
+      "change": -0.0072,
       "chgDec": 4
     },
     "expo": {
@@ -46,7 +46,7 @@
       "asOf": "2026-10-13",
       "source": "Anacafé · PYME Noticias",
       "url": "https://www.pymenoticias.com/post/guatemala-exportaciones-cafe-cosecha-anacafe",
-      "note": "Octubre 2025 a septiembre 2026. El volumen subió 15 % y el valor 12 %: el precio medio fue menor que en 2024-25. Anacafé aún no publica el promedio de registro oficial de 2025-26."
+      "note": "Octubre 2025 a septiembre 2026. El volumen subió 15 % y el valor 12 %: el precio medio fue menor que en 2024-25. Según el Banguat, de enero a septiembre de 2026 el café generó US$1.329,2 M (+10,8 %, volumen +17,3 %, precio medio −5,6 %) y pasó a ser el primer producto de exportación (Prensa Libre, 21-nov). Anacafé aún no publica el promedio de registro oficial de 2025-26."
     },
     "est": {
       "label": "Estimación cosecha 2026-27",
