@@ -27,34 +27,34 @@
     "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
   },
   "fx": {
-    "asOf": "2026-11-20",
+    "asOf": "2026-11-23",
     "base": "USD",
     "rates": {
-      "BRL": 5.8932,
-      "COP": 3345.392865,
-      "MXN": 19.029289,
-      "GTQ": 7.639029,
-      "HNL": 26.861412,
-      "NIO": 36.774705,
-      "CRC": 445.219542,
-      "VES": 918.7662,
-      "PEN": 3.42988,
-      "BOB": 11.727068
+      "BRL": 5.945309,
+      "COP": 3437.41712,
+      "MXN": 19.113379,
+      "GTQ": 7.63739,
+      "HNL": 26.861394,
+      "NIO": 36.750173,
+      "CRC": 447.588816,
+      "VES": 919.8227,
+      "PEN": 3.442586,
+      "BOB": 11.723917
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
   },
   "items": {
     "cot": {
-      "asOf": "2026-11-10",
-      "change": -3800,
+      "asOf": "2026-11-17",
+      "change": -1909,
       "dec": 0,
       "label": "Fondos (managed money) neto",
-      "note": "Largos 32.213 · cortos 21.281. Neto comprado, baja por tercera semana.",
+      "note": "Largos 29.982 · cortos 20.959. Neto comprado, baja por cuarta semana.",
       "source": "CFTC COT",
       "unit": "contratos",
       "url": "https://www.cftc.gov/dea/futures/ag_lf.htm",
-      "value": 10932
+      "value": 9023
     },
     "expoBR": {
       "asOf": "2026-10-31",
@@ -78,15 +78,15 @@
       "value": 131.41
     },
     "icestocks": {
-      "asOf": "2026-11-17",
+      "asOf": "2026-11-20",
       "dec": 0,
       "label": "Inventarios certificados ICE",
-      "note": "Martes 17-nov: +8.109 sacos sobre el mínimo desde 1999 (186.414 el 16-nov). Pendientes de clasificación de Brasil: 248.175 sacos al 19-nov, máximo en 3,75 años",
-      "source": "Doanh nghiệp Hội nhập · ICE",
+      "note": "Viernes 20-nov: +13.898 sacos en la semana, rebote desde el mínimo desde 1999 (186.414 el 16-nov). Pendientes de clasificación: 251.230 sacos (máximo en ~3,75 años); Brasil aporta 101.828 de los certificados",
+      "source": "Mark to Market (Substack) · ICE",
       "unit": "sacos",
-      "url": "https://doanhnghiephoinhap.vn/ca-phe-the-gioi-trai-chieu-arabica-tang-gia-robusta-giam-phien-thu-8-lien-tiep-154611.html",
-      "value": 194523,
-      "change": 8109,
+      "url": "https://thomasraad.substack.com/p/mark-to-market-018-w47",
+      "value": 225219,
+      "change": 13898,
       "chgDec": 0
     },
     "icoBN": {
@@ -264,5 +264,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-20T19:55:00Z"
+  "updatedAt": "2026-11-23T12:02:11Z"
 }

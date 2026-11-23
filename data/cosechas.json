@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T12:05:00Z",
+  "updatedAt": "2026-11-23T12:02:11Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -175,10 +175,10 @@
     "brasil-arabica": {
       "ajusteSemanas": 0,
       "volumen": "alto",
-      "resumen": "Cosecha 2026 terminada y alta (Conab 48,21 M sacos de arábica). Para 2027, Cepea ve buen cuajado en Sur de Minas y Mogiana, pero Cooxupé estima un 10 % menos de potencial por floraciones irregulares.",
-      "fecha": "2026-11-11",
-      "fuente": "Notícias Agrícolas · Cooxupé / Cepea",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
+      "resumen": "Cosecha 2026 terminada y alta (Conab 48,21 M sacos de arábica). Para 2027 la floración se adelantó un mes en Sul de Minas y Mogiana (recolección podría empezar en mayo), pero Cooxupé estima 10 % menos de potencial por floraciones irregulares.",
+      "fecha": "2026-11-13",
+      "fuente": "Portal do Agronegócio · Cooxupé",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-2027-florada-antecipada-exige-atencao-a-nutricao-e-ao-pegamento-dos-frutos"
     },
     "brasil-conilon": {
       "ajusteSemanas": 0,
@@ -215,10 +215,10 @@
     "mexico": {
       "ajusteSemanas": 0,
       "volumen": "bajo",
-      "resumen": "Compras de la cosecha 2026-27 en marcha en Veracruz (cereza a 14,20–16,10 pesos/kg al 12-nov); en Chiapas se admite menor producción por lluvias tardías y maduración irregular.",
-      "fecha": "2026-11-13",
-      "fuente": "El Buen Tono",
-      "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
+      "resumen": "Cosecha 2026-27 en marcha: en Veracruz la cereza se pagaba a 14,20–16,10 pesos/kg al 12-nov; en la Costa-Sierra de Chiapas el corte arrancó con un volumen de apenas 60 % del año pasado por sequía y falta de cortadores.",
+      "fecha": "2026-11-18",
+      "fuente": "Cuarto Poder · AMECAFÉ",
+      "url": "https://www.cuartopoder.mx/chiapas/caera-cosecha-de-cafe-a-un-40-/598493"
     },
     "colombia": {
       "ajusteSemanas": 3,
@@ -247,13 +247,49 @@
     "venezuela": {
       "ajusteSemanas": 0,
       "volumen": null,
-      "resumen": "El ministro de Agricultura estima +15% en la cosecha 2026-27 (cifra oficial, sin base precisada).",
-      "fecha": "2026-10-23",
-      "fuente": "AVN",
-      "url": "https://avn.info.ve/lopez-estima-crecimiento-del-15-en-la-cosecha-de-cafe-venezolano-para-el-periodo-2026-2027/"
+      "resumen": "El ministro de Agricultura estima +15 % en la cosecha 2026-27; su comercialización ya suma 1.770 t exportadas (último envío de 57 t a Turquía).",
+      "fecha": "2026-11-21",
+      "fuente": "Diario El Oriental",
+      "url": "https://diarioeloriental.com/venezuela-alcanza-1-770-toneladas-de-cafe-exportadas-desde-lara/"
     }
   },
   "reportes": [
+    {
+      "id": "a23",
+      "fecha": "2026-11-22",
+      "region": "colombia",
+      "tipo": "noticia",
+      "texto": "El USDA FAS proyecta 13,4 M de sacos para 2026/27 (+5,9 %) y exportaciones de 12,6 M, tras 12,65 M producidos en 2025/26, con El Niño como riesgo para la floración.",
+      "fuente": "Coffee Geography · USDA FAS",
+      "url": "https://coffeegeography.com/2026/11/22/colombia-coffee-output-and-exports-poised-for-rebound-in-2026-27/"
+    },
+    {
+      "id": "a25",
+      "fecha": "2026-11-21",
+      "region": "venezuela",
+      "tipo": "noticia",
+      "texto": "La comercialización de la cosecha 2026-27 suma 1.770 toneladas exportadas, la última de 57 toneladas desde Lara a Turquía.",
+      "fuente": "Diario El Oriental",
+      "url": "https://diarioeloriental.com/venezuela-alcanza-1-770-toneladas-de-cafe-exportadas-desde-lara/"
+    },
+    {
+      "id": "a24",
+      "fecha": "2026-11-20",
+      "region": "peru",
+      "tipo": "noticia",
+      "texto": "Al 18 de noviembre las exportaciones de café caen 18,5 % en valor (US$ 293 M menos) y se proyecta cerrar 2026 con unas 219 mil toneladas (−11,2 %).",
+      "fuente": "FreshFruit",
+      "url": "https://freshfruit.pe/2026/11/20/agroexportaciones-al-18-de-noviembre-el-arandano-cae-a-la-mitad-y-la-uva-toma-la-posta/"
+    },
+    {
+      "id": "a21",
+      "fecha": "2026-11-18",
+      "region": "mexico",
+      "tipo": "noticia",
+      "texto": "AMECAFÉ: el corte ya arrancó en la Costa-Sierra de Chiapas, pero el volumen llegaría solo al 60 % del año pasado por la sequía y la falta de cortadores; el estado produce unos 1,5 millones de quintales.",
+      "fuente": "Cuarto Poder · AMECAFÉ",
+      "url": "https://www.cuartopoder.mx/chiapas/caera-cosecha-de-cafe-a-un-40-/598493"
+    },
     {
       "id": "a16",
       "fecha": "2026-11-15",
@@ -271,6 +307,15 @@
       "texto": "En las Altas Montañas de Veracruz la cereza de la cosecha 2026-27 se pagaba entre 14,20 y 16,10 pesos/kg al 12 de noviembre, con promedio de 15,40 pesos/kg en Huatusco-Ixhuatlán.",
       "fuente": "El Buen Tono",
       "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
+    },
+    {
+      "id": "a22",
+      "fecha": "2026-11-13",
+      "region": "brasil-arabica",
+      "tipo": "noticia",
+      "texto": "La primera gran floración en Sul de Minas y Alta Mogiana llegó en septiembre, cerca de un mes antes de lo habitual, por lo que la recolección de arábica 2027 podría empezar hacia mayo; el Inmet prevé calor sobre la media.",
+      "fuente": "Portal do Agronegócio · Inmet",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-2027-florada-antecipada-exige-atencao-a-nutricao-e-ao-pegamento-dos-frutos"
     },
     {
       "id": "a18",
