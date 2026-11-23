@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-23T11:48:46Z",
+  "updatedAt": "2026-11-23T19:47:00Z",
   "items": [
+    {
+      "id": "g28",
+      "scope": "gt",
+      "regiones": [
+        "coban"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-23",
+      "source": "Guatemala.com · INSIVUMEH",
+      "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-23-al-27-noviembre-2026",
+      "title": "INSIVUMEH: el primer frente frío llegaría el 25-nov con lluvias en Alta Verapaz y el Caribe",
+      "summary": "Para el 23 al 27 de noviembre, el INSIVUMEH prevé el primer frente frío del año cerca del miércoles 25, con lluvias de tarde y noche en Alta Verapaz y el Norte, y mínimas de 3–5 °C en el Altiplano. Para quien compra en Cobán, más lluvia en plena cosecha complica el secado: conviene pedir la humedad del pergamino."
+    },
     {
       "id": "g26",
       "scope": "gt",
@@ -11,17 +24,6 @@
       "url": "https://www.prensalibre.com/economia/por-que-el-cafe-desplazo-al-vestuario-en-las-exportaciones-de-guatemala-banguat-y-empresarios-explican-las-razones/",
       "title": "Banguat: el café ya es el primer producto de exportación de Guatemala en 2026",
       "summary": "De enero a septiembre de 2026 el café generó US$1.329,2 M (+10,8 % interanual), por encima del vestuario y ya más que todo 2025 (US$1.307,4 M); el volumen subió 17,3 % y el precio medio bajó 5,6 %. Para el comprador: más volumen embarcado a precio medio menor confirma que el mercado guatemalteco se está ajustando a la baja."
-    },
-    {
-      "id": "g25",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-11-20",
-      "source": "Prensa Libre · INSIVUMEH",
-      "url": "https://www.prensalibre.com/guatemala/comunitario/como-estara-el-clima-en-guatemala-este-fin-de-semana-y-cuando-se-acercara-un-frente-frio-breaking/",
-      "title": "INSIVUMEH: fin de semana con lloviznas dispersas y frente frío el miércoles 25-nov",
-      "summary": "Para el 21 y 22 de noviembre se esperan días cálidos, lluvias dispersas en todo el país y mínimas de 2–4 °C en los altiplanos central y occidental; un frente frío se acercaría el 25-nov con más lluvia en el Norte y el Caribe. Para quien compra: más humedad en Cobán justo en plena cosecha, atento al secado del pergamino."
     },
     {
       "id": "n25",

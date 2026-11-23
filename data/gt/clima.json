@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:48:46Z",
+  "updatedAt": "2026-11-23T19:47:00Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -28,24 +28,28 @@
   },
   "impactos": [
     "Con El Niño fuerte, Anacafé recortó la exportación esperada de 2026-27 de 4,2 a 3,8 M de quintales oro y se habla de US$275–300 por quintal: confirma volúmenes y precios antes de comprometer ventas a futuro.",
-    "Cobán, San Marcos, Fraijanes y Nuevo Oriente cosechan ahora o empiezan, con lluvias dispersas por la tarde en el Norte, la Bocacosta y Occidente y un frente frío el 25-nov que traería más lluvia a Alta Verapaz: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
-    "Siguen mínimas de 4–6 °C en el Altiplano occidental y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
+    "Cobán, San Marcos, Fraijanes y Nuevo Oriente cosechan ahora o empiezan; el primer frente frío (cerca del 25-nov) traería lluvias de tarde y noche a Alta Verapaz y lluvias dispersas a la Bocacosta: vigila secado en patio, fruta caída y sobremadurez, y pide humedad del pergamino al recibir.",
+    "Siguen mínimas de 3–5 °C en el Altiplano central y occidental y el INSIVUMEH no descarta valores cercanos a 0 °C en algunas localidades: pregunta por daños de helada en fincas de más de 1.800 m en Huehuetenango, San Marcos, Atitlán y Acatenango.",
     "Las tardías (Huehuetenango, Antigua, Acatenango; cosecha de enero a abril) dependen de que el déficit de lluvia de 2026 no afecte el llenado del grano; los mayores déficits se dieron en Chiquimula, Santa Rosa, Jutiapa y Sololá, y Anacafé advirtió pérdidas de 5–15 % si persiste.",
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
     "source": "INSIVUMEH",
-    "asOf": "2026-11-22",
-    "headline": "Lunes 23-nov: neblina al amanecer, lluvias dispersas por la tarde en el Norte, el Caribe, la Bocacosta y Occidente, y mínimas de 4–6 °C en el Altiplano; un frente frío se acercaría el miércoles 25-nov",
+    "asOf": "2026-11-23",
+    "headline": "Semana 23–27 nov: el primer frente frío de la temporada llegaría cerca del miércoles 25 con más nubosidad y lluvias en el Norte, Alta Verapaz y el Caribe; mínimas de 3–5 °C en el Altiplano",
     "items": [
-      "INSIVUMEH (22-nov): para el lunes 23, neblina en valles y montañas al amanecer y lloviznas o lluvias dispersas por la tarde y la noche, sobre todo en el Norte, la Franja Transversal del Norte, el Caribe, la Bocacosta y Occidente. Mínimas de 4–6 °C en el Altiplano occidental (Todos Santos, Huehuetenango) y máximas de 32–34 °C en Escuintla.",
-      "INSIVUMEH (20-nov): un frente frío se acercaría el miércoles 25-nov; si mantiene su trayectoria aumentará la nubosidad y las lluvias en el Norte (Alta Verapaz, Franja Transversal del Norte) y el Caribe.",
+      "INSIVUMEH (23-nov): el primer frente frío del año llegaría cerca del miércoles 25-nov; desde ese día habría lloviznas o lluvias con tormentas por la tarde y la noche en Alta Verapaz, la Franja Transversal del Norte y el Caribe, donde bajarán las máximas (Alta Verapaz: 26–34 °C).",
+      "INSIVUMEH (23-nov): mínimas de 3–5 °C de madrugada en el Altiplano central y occidental; en la Meseta central, niebla por la mañana y lluvias dispersas por la tarde; en el Pacífico, lluvias dispersas con actividad eléctrica sobre todo en la Bocacosta y el Suroccidente.",
       "INSIVUMEH (18-nov): el frío más intenso sigue en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; la temporada traería 16 frentes fríos."
     ],
     "links": [
       {
         "t": "INSIVUMEH",
         "url": "https://insivumeh.gob.gt/"
+      },
+      {
+        "t": "Pronóstico 23–27 nov (Guatemala.com, 23-nov)",
+        "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-23-al-27-noviembre-2026"
       },
       {
         "t": "Pronóstico del 23-nov (Prensa Libre, 22-nov)",
