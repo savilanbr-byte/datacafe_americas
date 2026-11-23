@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:48:54Z",
+  "updatedAt": "2026-11-23T19:46:36Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -30,17 +30,17 @@
     "El MARN prevé que 2026 cierre como el año más seco en 56 años (déficit cercano al 32 %), con cuatro sequías meteorológicas: respalda las estimaciones de una cosecha 2026-27 menor (750–800 mil quintales según la Asociación Cafetalera). Conviene asegurar con tiempo los volúmenes de lotes de altura.",
     "La época seca (desde el 9 de noviembre) favorece la corta y el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Cacahuatique, Chichontepec y El Bálsamo-Quezaltepec, que está en plena cosecha.",
     "Los vientos nortes del 25 al 27 de noviembre (ráfagas de 30 a 45 km/h) pueden botar fruta madura en las partes altas y expuestas de Apaneca-Ilamatepec y Alotepec-Metapán, donde la corta del SHG apenas empieza; vale preguntar al proveedor por pérdidas de fruta.",
-    "Aún hay lluvias puntuales de tarde y noche en el oriente y la zona paracentral (Morazán, San Miguel, Usulután y San Vicente): pueden interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
+    "La vaguada prefrontal del martes 24 traerá lluvias y tormentas de tarde y noche en casi todas las cordilleras (Apaneca-Ilamatepec, El Bálsamo, Tecapa-Chinameca, Morazán y San Vicente): puede interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
     "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración en las zonas altas puede adelantarse y dar grano más pequeño y menos denso."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-22",
-    "headline": "MARN: vientos nortes del 25 al 27 de noviembre con ráfagas de 30 a 45 km/h; tardes calurosas y lluvias solo puntuales",
+    "asOf": "2026-11-23",
+    "headline": "MARN: vaguada prefrontal trae lluvias y tormentas el martes 24 en las cordilleras; vientos nortes del 25 al 27 de noviembre",
     "items": [
-      "Domingo 22: mañana sin lluvias; por la tarde, lluvias breves en Apaneca-Ilamatepec, Tecapa-Chinameca y la franja norte (sobre todo Morazán), y de noche lluvias puntuales en San Miguel, San Vicente, Cabañas, Usulután y Cuscatlán.",
-      "Del miércoles 25 a la madrugada del viernes 27, vientos nortes débiles a moderados (10–22 km/h, ráfagas de 30 a 45 km/h) por una alta presión al sureste de EE. UU.; noches y madrugadas más frescas.",
-      "Tardes calurosas: máximas de hasta 38 °C en el oriente y 33 °C en San Salvador y Santa Ana. El MARN prevé cerrar 2026 como el año más seco en 56 años, con un déficit de lluvia cercano al 32 %."
+      "Lunes 23: lluvias breves y puntuales por la tarde al norte de Chalatenango y Morazán y de noche en San Salvador, Chalatenango, Cabañas, San Vicente, La Paz, Usulután y la costa de La Libertad; viento del noreste de 10 a 20 km/h (ráfagas de 30 km/h).",
+      "Martes 24: una vaguada prefrontal favorece lluvias y tormentas por la tarde y noche en Apaneca-Ilamatepec, El Bálsamo, Tecapa-Chinameca, Chalatenango, Morazán, San Miguel, San Vicente y Santa Ana; máximas de 30 °C en San Salvador y 35 °C en San Miguel.",
+      "Del miércoles 25 a la madrugada del viernes 27, vientos nortes débiles a moderados (10–22 km/h, ráfagas de 30 a 45 km/h) y madrugadas más frescas. El MARN prevé cerrar 2026 como el año más seco en 56 años (déficit cercano al 32 %)."
     ],
     "links": [
       {
