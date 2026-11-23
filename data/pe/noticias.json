@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-23T11:50:08Z",
+  "updatedAt": "2026-11-23T19:47:35Z",
   "items": [
+    {
+      "id": "p43",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-20",
+      "source": "Fresh Fruit",
+      "url": "https://freshfruit.pe/2026/11/20/agroexportaciones-al-18-de-noviembre-el-arandano-cae-a-la-mitad-y-la-uva-toma-la-posta/",
+      "title": "Exportaciones de café caen US$ 293 millones (−18,5 %) al 18 de noviembre por menos volumen y menor precio",
+      "summary": "Del 1 de enero al 18 de noviembre de 2026 el café exportado vale US$ 293 millones menos que un año antes (−18,5 %), con 344 empresas exportadoras (34 más) y Perales Huancaruna a la cabeza (US$ 137 M, −26 %). Fresh Fruit proyecta cerrar 2026 con unas 219 mil t (−11,2 %) y US$ 1.472 M (−20,5 %): menos café disponible para los últimos embarques del año."
+    },
     {
       "id": "p42",
       "scope": "pe",
