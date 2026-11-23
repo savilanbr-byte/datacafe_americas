@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:49:04Z",
+  "updatedAt": "2026-11-23T19:48:04Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio FIX",
@@ -93,6 +93,10 @@
         [
           "2026-11-20",
           19.0228
+        ],
+        [
+          "2026-11-23",
+          19.1648
         ]
       ],
       "note": "FIX de Banxico. La serie arranca el 20-oct-2026 y suma un dato por actualización.",

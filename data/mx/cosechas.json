@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:49:04Z",
+  "updatedAt": "2026-11-23T19:48:04Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -143,10 +143,10 @@
     "robusta-chiapas": {
       "ajusteSemanas": 0,
       "volumen": null,
-      "resumen": "El corte de robusta avanza en el Soconusco con el kilo a 37 pesos (50 el año pasado); los productores marchan el 23-nov y llaman a no vender hasta que Nestlé pague un precio justo.",
-      "fecha": "2026-11-22",
-      "fuente": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/"
+      "resumen": "El corte de robusta avanza en el Soconusco; los productores marcharon en Tapachula el 23-nov contra Nestlé (pagos citados de 37 a 43 MXN/kg, frente a 50 el año pasado) y piden un mínimo de 55 MXN/kg.",
+      "fecha": "2026-11-23",
+      "fuente": "Cadena Política",
+      "url": "https://cadenapolitica.com/2026/11/23/cafeticultores-de-chiapas-protestan-contra-nestle/"
     }
   },
   "reportes": [
@@ -266,6 +266,15 @@
       "texto": "Productores de robusta del Soconusco reciben 37 pesos por kilo (50 el año pasado) y marchan en Tapachula el 23-nov contra Nestlé.",
       "fuente": "El Sol del Soconusco",
       "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/"
+    },
+    {
+      "id": "r14",
+      "fecha": "2026-11-23",
+      "region": "robusta-chiapas",
+      "tipo": "noticia",
+      "texto": "Cafetaleros del Soconusco marcharon en Tapachula contra Nestlé: dicen recibir 43 MXN/kg y piden un mínimo de 55.",
+      "fuente": "Cadena Política",
+      "url": "https://cadenapolitica.com/2026/11/23/cafeticultores-de-chiapas-protestan-contra-nestle/"
     }
   ]
 }
