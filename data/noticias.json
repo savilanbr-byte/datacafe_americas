@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:02:11Z",
+  "updatedAt": "2026-11-23T19:47:25Z",
   "items": [
     {
       "id": "nv1",
@@ -13,16 +13,6 @@
       "summary": "El indicador Cepea/Esalq del arábica cerró el 19/11 en R$ 1.709,06 por saca de 60 kg (+1,56% en el día, +6,93% en el mes; US$ 288,81), mientras el robusta cayó 1,08% a R$ 947,36. El real débil sostiene los precios internos aunque Nueva York baje, lo que limita los descuentos que ofrece el productor brasileño."
     },
     {
-      "id": "nv4",
-      "scope": "mundo",
-      "tag": "Divisas",
-      "date": "2026-11-23",
-      "source": "The Rio Times · datos de mercado/Polymarket",
-      "url": "https://www.riotimesonline.com/global-economy-briefing-november-23-2026/",
-      "title": "Dólar se fortalece ante monedas latinoamericanas mientras el mercado apuesta por alza de la Fed en diciembre",
-      "summary": "Al cierre del viernes 20/11 el dólar subió frente a toda la región: real 5,949 (+0,24%), peso mexicano 19,1625 (+0,41%) y peso colombiano 3.429 (+2,14%), con el DXY en 103,807; todos los escenarios principales en Polymarket parten de una subida de tasas de la Fed en diciembre. Monedas de origen débiles abaratan el café en dólares y animan ventas de productores."
-    },
-    {
       "id": "nv5",
       "scope": "am",
       "pais": "Colombia",
@@ -32,6 +22,16 @@
       "url": "https://elcomercio.pe/mag/respuestas/co/precio-del-dolar-en-colombia-hoy-lunes-23-de-noviembre-2026-trm-tipo-de-cambio-usd-a-cop-compra-y-venta-nnda-nnrt-noticia/",
       "title": "TRM en Colombia sube a $3.461,92 por dólar",
       "summary": "La TRM vigente para el lunes 23 de noviembre es de $3.461,92 pesos por dólar, frente a $3.415,10 del viernes 20. Un peso más débil eleva el precio interno en pesos para el caficultor y puede mejorar la competitividad de las ofertas de café colombiano en dólares."
+    },
+    {
+      "id": "t1",
+      "scope": "mundo",
+      "tag": "Precios",
+      "date": "2026-11-22",
+      "source": "CMB News",
+      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
+      "title": "Vietnam: el robusta en finca baja a 71.200–72.000 VND/kg con el pico de cosecha",
+      "summary": "El precio interno en las Tierras Altas Centrales cayó desde más de 83.000 VND/kg a mediados de noviembre, mientras Londres tocó mínimos de tres años (~USD 2.881/t) y Vietnam embarcó unas 108.800 t en octubre (+50 % anual). Más oferta asiática presiona al robusta y al diferencial frente a los conilon de Brasil."
     },
     {
       "id": "nv7",
@@ -76,6 +76,17 @@
       "url": "https://diarioeloriental.com/venezuela-alcanza-1-770-toneladas-de-cafe-exportadas-desde-lara/",
       "title": "Venezuela suma 1.770 toneladas de café exportadas con envío a Turquía",
       "summary": "Con un despacho de 57 toneladas de grano verde desde Lara hacia Turquía, Venezuela acumula 1.770 toneladas de café exportadas dentro de la comercialización de la cosecha 2026-2027. Confirma que el país ya vuelve a vender café verde al exterior, aunque en volúmenes todavía pequeños."
+    },
+    {
+      "id": "t2",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Regulación",
+      "date": "2026-11-20",
+      "source": "TV Sim Brasil",
+      "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/20/brasil-pede-painel-omc-tarifaco-eua",
+      "title": "Brasil pide un panel en la OMC contra los aranceles de 25 % y 12,5 % de EE. UU.",
+      "summary": "El pedido entra en la agenda del Órgano de Solución de Diferencias el 24 de noviembre; el café está excluido del arancel de 25 %, y la nota no aclara su situación frente al de 12,5 %. Conviene seguirlo por su efecto en el acceso del café brasileño al mercado estadounidense."
     },
     {
       "id": "k1",
@@ -129,16 +140,6 @@
       "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/",
       "title": "Chiapas: AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra",
       "summary": "La región pasaría de cerca de 1,5 millones a 900 mil quintales en 2026-27 por lluvias irregulares y escasez de cortadores. Menos oferta chiapaneca implica más competencia por lotes: conviene cerrar contratos temprano."
-    },
-    {
-      "id": "p5",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-18",
-      "source": "Dân trí · VICOFA",
-      "url": "https://dantri.com.vn/kinh-doanh/gia-ca-phe-roi-khoi-moc-80000-dongkg-nong-dan-giu-hang-cho-gia-20261118152626164.htm",
-      "title": "Vietnam: el café interno cae bajo 80.000 VND/kg y VICOFA prevé 2,2 millones de toneladas",
-      "summary": "En Đắk Lắk el grano ronda 77.000 VND/kg, 7.500 menos que a inicios de mes; VICOFA estima 2,2 Mt para 2026/27 (2,1 Mt de robusta, +5 %) con el grueso de la cosecha a fines de noviembre. Los exportadores ofrecen diferenciales de unos +100 USD/t sobre Londres hasta mayo de 2027."
     },
     {
       "id": "nv16",
