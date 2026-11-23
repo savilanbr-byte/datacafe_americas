@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-20T19:47:33Z",
+  "updatedAt": "2026-11-23T11:50:52Z",
   "items": [
+    {
+      "id": "b62",
+      "scope": "br",
+      "regiones": [
+        "mogiana"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-21",
+      "source": "TV Sim Brasil",
+      "url": "https://tvsimbrasil.com.br/sp/sao-paulo/viagem-gastronomia/noticia/2026/11/21/sao-paulo-premia-50-melhores-cafes-300-anos",
+      "title": "São Paulo premia el 27-nov los 50 mejores cafés de su 25.º concurso estatal de calidad",
+      "summary": "La Secretaría de Agricultura paulista (CATI) elegirá 40 arábicas (natural, cereza descascarado, fermentado y orgánico) y 10 canéforas entre 395 muestras de 80 municipios, con productores de Franca, Pedregulho y Altinópolis (Alta Mogiana). Es una vitrina útil para ubicar lotes de calidad de la cosecha 2026 en São Paulo."
+    },
     {
       "id": "n39",
       "scope": "mundo",
@@ -167,51 +180,14 @@
       "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
     },
     {
-      "id": "b40",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Agricultura",
-      "date": "2026-11-12",
-      "source": "CNA/Senar Campo Futuro · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html",
-      "title": "Campo Futuro: el caficultor cierra 2026 con márgenes estrechos y 2027 podría ser peor",
-      "summary": "De 14 fincas modelo, solo 8 cubren el costo total; el arábica semimecanizado gana apenas R$33 por saca (costo R$1.321 vs precio R$1.354) y el conilon vende a R$932, por debajo de su costo total de R$1.059. Con 10 % menos de precio en 2027 solo 3 modelos serían rentables, lo que puede frenar las ventas a precios bajos."
-    },
-    {
-      "id": "b37",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-11",
-      "source": "Cecafé · Reuters (Investing.com)",
-      "url": "https://br.investing.com/news/commodities-news/exportacao-de-cafe-do-brasil-supera-5-mi-sacas-em-outubro-e-atinge-recorde-diz-cecafe-2124218",
-      "title": "Cecafé: Brasil exportó un récord de 5,33 M de sacas en octubre, 28,4 % más",
-      "summary": "El arábica sumó 4,12 M de sacas (máximo para cualquier mes) y el conilon 897.000, casi el doble que hace un año; los ingresos fueron US$1.786 M y los envíos a EE. UU. subieron 119 % tras retirarse por completo el arancel. Con 34,5 M de sacas en enero–octubre, el flujo de oferta brasileña sigue fuerte y presiona los diferenciales."
-    },
-    {
-      "id": "b38",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "mogiana",
-        "cerrado-mineiro"
-      ],
-      "tag": "Producción",
-      "date": "2026-11-11",
-      "source": "Agência Safras · Notícias Agrícolas",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html",
-      "title": "Cooxupé calcula una pérdida de 10 % del potencial de la safra 2027",
-      "summary": "El presidente de la mayor cooperativa del país dijo en la Semana Internacional del Café que El Niño dejó floradas muy desparejas y que la safra 2027 —ya menor por el ciclo bienal— tendría calidad muy afectada; advirtió que la merma podría crecer. Señal alcista para el arábica de Minas y São Paulo de 2027."
-    },
-    {
-      "id": "n31",
+      "id": "n40",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "Tea & Coffee Trade Journal (OIC)",
-      "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
-      "title": "OIC: en octubre el arábica subió y el robusta bajó; inventarios certificados en polos opuestos",
-      "summary": "El precio compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); los Naturales Brasileños subieron 1,5 % a 294,49 ¢/lb y los robustas cayeron 2 %. Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacas (mínimo desde 2002), mientras los de robusta en Londres subieron 29,9 % a 1,13 M."
+      "date": "2026-11-13",
+      "source": "Perfect Daily Grind",
+      "url": "https://perfectdailygrind.com/2026/11/coffee-news-recap-13-november-2026/",
+      "title": "ICE estrena el contrato métrico de arábica: primeros 48 lotes a unos US$5.730 la tonelada",
+      "summary": "El 10-nov se negociaron los primeros 48 lotes del nuevo contrato de arábica de 10 toneladas, con vencimiento en septiembre de 2028, entre US$5.724 y 5.737 por tonelada; el contrato 'C' de 1882 se retirará y su último vencimiento será marzo de 2028. Conviene ir ajustando las fórmulas de precio de los contratos de largo plazo."
     }
   ]
 }

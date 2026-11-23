@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:47:32Z",
+  "updatedAt": "2026-11-23T11:50:52Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -141,10 +141,10 @@
     "sul-de-minas": {
       "ajusteSemanas": 0,
       "volumen": "bajo",
-      "resumen": "Cooxupé estima una pérdida inicial de 10 % del potencial de la safra 2027 (año de baja del ciclo bienal) por El Niño; floradas muy desparejas y calidad en riesgo.",
-      "fecha": "2026-11-11",
-      "fuente": "Cooxupé · Agência Safras",
-      "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html"
+      "resumen": "Cooxupé estima −10 % del potencial de la safra 2027 (año de baja) y Minasul (18-nov) reporta caída de frutos por las lluvias récord de septiembre y octubre en Varginha; floradas desparejas y calidad en riesgo.",
+      "fecha": "2026-11-18",
+      "fuente": "Minasul · Sputnik Brasil",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas"
     },
     "cerrado-mineiro": {
       "ajusteSemanas": 0,
@@ -180,6 +180,42 @@
     }
   },
   "reportes": [
+    {
+      "id": "b11",
+      "fecha": "2026-11-18",
+      "region": "sul-de-minas",
+      "tipo": "noticia",
+      "texto": "Minasul: septiembre y octubre fueron los meses más lluviosos en 40 años en Varginha y la planta está botando frutos de la safra 2027; la pérdida aún no se cuantifica.",
+      "fuente": "Sputnik Brasil (Tribuna do Sertão)",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas"
+    },
+    {
+      "id": "b12",
+      "fecha": "2026-11-17",
+      "region": "conilon-es",
+      "tipo": "noticia",
+      "texto": "El agregado del USDA bajó el conilon 2026-27 a 23,3 M de sacas (desde 24,4 M) por el mal clima en el Espírito Santo y ve floradas tempranas prometedoras para 2027-28.",
+      "fuente": "Reuters (Investing.com)",
+      "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325"
+    },
+    {
+      "id": "b13",
+      "fecha": "2026-11-16",
+      "region": "montanhas-es",
+      "tipo": "noticia",
+      "texto": "INMET: más de 150 mm previstos en la región serrana y el Caparaó del ES en la semana del 16 al 23-nov, contra menos de 30 mm en el litoral norte (conilon).",
+      "fuente": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-16-a-23-de-novembro-de-2026"
+    },
+    {
+      "id": "b14",
+      "fecha": "2026-11-16",
+      "region": "oeste-bahia",
+      "tipo": "noticia",
+      "texto": "INMET: hasta 150 mm con tormentas severas en el oeste y suroeste de Bahia en la semana del 16 al 23-nov.",
+      "fuente": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-16-a-23-de-novembro-de-2026"
+    },
     {
       "id": "b10",
       "fecha": "2026-11-13",
