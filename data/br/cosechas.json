@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:50:52Z",
+  "updatedAt": "2026-11-23T19:50:11Z",
   "temporada": "2027-28 (floradas)",
   "fuente": "Conab",
   "url": "https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/safras/safra-de-cafe/3o-levantamento-de-cafe-safra-2026/boletim-de-safras-cafe-set_26.pdf",
@@ -180,6 +180,15 @@
     }
   },
   "reportes": [
+    {
+      "id": "b15",
+      "fecha": "2026-11-23",
+      "region": "conilon-es",
+      "tipo": "noticia",
+      "texto": "INMET avisa tormentas en el norte y noroeste del ES del 23 al 29-nov, con hasta 50 mm en el día, posible granizo y 34–36 °C el miércoles, en plena fase de cuajado del conilon 2027.",
+      "fuente": "Rede Notícia ES",
+      "url": "https://redenoticia.es/norte-e-noroeste-do-es-terao-semana-de-calor-chuvas-e-risco-de-temporais-alerta-inmet/"
+    },
     {
       "id": "b11",
       "fecha": "2026-11-18",

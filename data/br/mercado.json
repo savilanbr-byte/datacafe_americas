@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:50:52Z",
+  "updatedAt": "2026-11-23T19:50:11Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.8889,
+      "value": 5.9708,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-23",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-17-2026'&@dataFinalCotacao='11-19-2026'&$format=json",
-      "note": "PTAX de venta del 19-nov: +1,35 % frente a R$5,8102 del 18-nov, sexta alza seguida y nivel más alto desde abril de 2025. El 20-nov es feriado nacional (Consciência Negra): no hay PTAX ese día.",
-      "change": 0.0787,
-      "changePct": 1.35,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-18-2026'&@dataFinalCotacao='11-23-2026'&$format=json",
+      "note": "PTAX de venta del 23-nov (boletín de las 13:06): +1,39 % frente a R$5,8889 del 19-nov (el 20-nov fue feriado), máximo desde abril de 2025; en la mañana el dólar tocó R$6 a la espera del voto del ajuste fiscal en la Cámara.",
+      "change": 0.0819,
+      "changePct": 1.39,
       "chgDec": 4
     },
     "cepeaA": {

@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-11-23T11:50:52Z",
+  "updatedAt": "2026-11-23T19:50:11Z",
   "items": [
+    {
+      "id": "b63",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-23",
+      "source": "O Povo",
+      "url": "https://www.opovo.com.br/noticias/economia/2026/11/23/dolar-volta-a-subir-por-cautela-fiscal-e-com-ajuste-externo.html",
+      "title": "El dólar toca R$6 por primera vez desde abril de 2025 antes del voto del ajuste fiscal en la Cámara",
+      "summary": "Tras el feriado del 20-nov, el dólar llegó a R$6,00 en la mañana del 23-nov por la cautela con el paquete fiscal que votaba la Cámara, la demora en el nuevo equipo económico de Lula y el dólar fuerte en el exterior; la PTAX del día quedó en R$5,9708 (+1,4 %). Un real así de débil sube el precio en reales y anima las ventas del productor, lo que tiende a abaratar el café en dólares."
+    },
+    {
+      "id": "b64",
+      "scope": "br",
+      "regiones": [
+        "conilon-es"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-23",
+      "source": "Rede Notícia ES",
+      "url": "https://redenoticia.es/norte-e-noroeste-do-es-terao-semana-de-calor-chuvas-e-risco-de-temporais-alerta-inmet/",
+      "title": "INMET avisa tormentas y calor de hasta 36 °C en el norte y noroeste del Espírito Santo, zona de conilon",
+      "summary": "Para la semana del 23 al 29-nov, el INMET prevé aguaceros de 20–30 mm por hora (hasta 50 mm en el día), vientos de 40–60 km/h y posible granizo en Nova Venécia, São Mateus, Barra de São Francisco y alrededores, con 34–36 °C el miércoles. La lluvia ayuda al cuajado (pegamento) del conilon 2027, pero el calor y el granizo son riesgo puntual."
+    },
     {
       "id": "b62",
       "scope": "br",
@@ -34,17 +58,6 @@
       "url": "https://cotacaodocafe.com/historico/",
       "title": "CEPEA: el arábica sube 1,6 % a R$1.709 la saca con el dólar en R$5,93; el conilon baja a R$947",
       "summary": "El indicador del arábica (tipo 6 bebida dura) pasó de R$1.682,78 a R$1.709,06 el 19-nov, mientras el conilon (tipo 6, criba 13) cayó 1,1 % a R$947,36, cuarta baja seguida. En dólares el arábica físico queda cerca de US$288 por saca: el real débil abarata el café brasileño para quien compra en dólares."
-    },
-    {
-      "id": "b60",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-19",
-      "source": "Reuters (Folha de Curitiba)",
-      "url": "https://folhadecuritiba.com.br/dolar-hoje-fechamento-19-novembro-2026/",
-      "title": "El dólar cierra en R$5,93 (+1,1 %), sexta alza seguida pese a la intervención del Banco Central",
-      "summary": "El dólar comercial terminó el 19-nov en R$5,9323, el cierre más alto desde abril de 2025, porque el ajuste fiscal aprobado en el Senado no convenció al mercado; una subasta de US$1.000 M del BC lo bajó solo por momentos. Un real tan débil estimula las ventas del productor y la exportación, y presiona las bolsas a la baja."
     },
     {
       "id": "n38",
