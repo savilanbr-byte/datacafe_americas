@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:48:35Z",
+  "updatedAt": "2026-11-23T11:49:04Z",
   "temporada": "2026-27",
   "regiones": [
     {
@@ -135,18 +135,18 @@
     "chiapas-soconusco": {
       "ajusteSemanas": 0,
       "volumen": "bajo",
-      "resumen": "La sequía prolongada causa maduración despareja y una producción menor en el Soconusco y la Costa, sin cifra oficial aún.",
-      "fecha": "2026-11-05",
-      "fuente": "Portavoz Chiapas",
-      "url": "https://portavozchiapas.com.mx/2026/11/05/sequia-extrema-amenaza-la-cosecha-de-cafe-2026-2027/"
+      "resumen": "AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra (unos 900 mil quintales frente a 1,5 millones) por la sequía, que causó maduración despareja, y la falta de cortadores.",
+      "fecha": "2026-11-19",
+      "fuente": "Revista Flow · AMECAFÉ",
+      "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/"
     },
     "robusta-chiapas": {
       "ajusteSemanas": 0,
       "volumen": null,
-      "resumen": "El corte de robusta arrancó a inicios de noviembre en el Soconusco con el kilo a 27 pesos, casi la mitad que el año pasado.",
-      "fecha": "2026-11-08",
+      "resumen": "El corte de robusta avanza en el Soconusco con el kilo a 37 pesos (50 el año pasado); los productores marchan el 23-nov y llaman a no vender hasta que Nestlé pague un precio justo.",
+      "fecha": "2026-11-22",
       "fuente": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/"
+      "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/"
     }
   },
   "reportes": [
@@ -248,6 +248,24 @@
       "texto": "Con el corte en marcha en Huatusco y las Altas Montañas, la cereza se pagaba a 14,20–16,10 MXN/kg el 12-nov (promedio de 15,40 en Huatusco–Ixhuatlán).",
       "fuente": "El Buen Tono",
       "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/"
+    },
+    {
+      "id": "r12",
+      "fecha": "2026-11-19",
+      "region": "chiapas-soconusco",
+      "tipo": "noticia",
+      "texto": "AMECAFÉ prevé que la cosecha 2026-27 de la Costa-Sierra de Chiapas caiga hasta 40 %, de unos 1,5 millones a 900 mil quintales, por sequía y falta de cortadores.",
+      "fuente": "Revista Flow · AMECAFÉ",
+      "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/"
+    },
+    {
+      "id": "r13",
+      "fecha": "2026-11-22",
+      "region": "robusta-chiapas",
+      "tipo": "noticia",
+      "texto": "Productores de robusta del Soconusco reciben 37 pesos por kilo (50 el año pasado) y marchan en Tapachula el 23-nov contra Nestlé.",
+      "fuente": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/"
     }
   ]
 }

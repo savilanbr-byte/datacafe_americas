@@ -1,6 +1,48 @@
 {
-  "updatedAt": "2026-11-20T19:47:44Z",
+  "updatedAt": "2026-11-23T11:49:04Z",
   "items": [
+    {
+      "id": "m40",
+      "scope": "mx",
+      "regiones": [
+        "robusta-chiapas",
+        "chiapas-soconusco"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-22",
+      "source": "El Sol del Soconusco",
+      "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/",
+      "title": "Productores de robusta del Soconusco marchan en Tapachula contra el precio que paga Nestlé",
+      "summary": "Unos mil productores de más de 26 ejidos marchan el lunes 23 para exigir a Nestlé un precio justo: el kilo de robusta bajó de 50 pesos el año pasado a 37, y dicen que la empresa no ha negociado; cafetaleros de Veracruz, Oaxaca y Puebla evalúan sumarse a un frente nacional. La protesta y el llamado a no vender pueden frenar las compras de robusta en el arranque de la cosecha."
+    },
+    {
+      "id": "m41",
+      "scope": "mx",
+      "regiones": [
+        "veracruz",
+        "puebla",
+        "huasteca",
+        "chiapas-altos",
+        "oaxaca",
+        "robusta-golfo"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-22",
+      "source": "El Financiero · SMN",
+      "url": "https://www.elfinanciero.com.mx/nacional/2026/11/22/frente-frio-8-congela-a-mexico-que-estados-preven-hasta-10-grados-a-partir-de-este-lunes/",
+      "title": "Frente frío 8: hasta 150 mm en el centro de Veracruz y norte con rachas de 70 km/h",
+      "summary": "El SMN prevé para el lunes 23 de 75 a 150 mm en el norte y centro de Veracruz, 50–75 mm en el norte y este de Puebla, el este de San Luis Potosí y el norte de Chiapas, y 25–50 mm en Oaxaca e Hidalgo, con mínimas de 0–5 °C en las sierras. Otra semana de corte y secado complicada en el Golfo, justo tras el frente 6."
+    },
+    {
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Barchart · TradingView",
+      "url": "https://www.tradingview.com/news/barchart:c265a50d4094b:0-coffee-prices-fall-on-expectations-of-abundant-supplies/",
+      "title": "El robusta cae 3,3 % a un mínimo de 2,75 años y Conab sube la cosecha de Brasil a 67,6 M sacos",
+      "summary": "El viernes 20 el arábica de marzo bajó 7,50 ¢/lb (−2,72 %) y el robusta de enero 97 USD/t (−3,26 %), después de que Conab elevara su estimado de Brasil 2026 a 67,6 M sacos (arábica +34,8 %); los fondos llevan su posición corta en robusta al máximo de casi 4 años y hay 251 230 sacos esperando clasificación en ICE. Presión adicional sobre el precio en pesos del café mexicano, sobre todo del robusta."
+    },
     {
       "id": "m38",
       "scope": "mx",
@@ -33,19 +75,6 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
       "title": "El USDA recorta a 11,5 millones de sacos la exportación de Colombia y el arábica rebota",
       "summary": "El USDA FAS bajó 6 % su estimado de exportación de Colombia para 2026-27 (11,5 M sacos) y el arábica subió 1,4 % el 19-nov, mientras el robusta tocó un mínimo de 2,75 años; menos lavados colombianos sostiene la demanda de suaves de México y Centroamérica."
-    },
-    {
-      "id": "m39",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-18",
-      "source": "Es Diario",
-      "url": "https://esdiario.com.mx/cafetaleros-marcharan-en-tapachula-por-precios-justos/",
-      "title": "Cafetaleros del Soconusco marcharán en Tapachula el 23 de noviembre por precios justos",
-      "summary": "Productores de Unión Juárez, Cacahoatán, Tuxtla Chico, Tapachula y Mapastepec dicen recibir unos 43 pesos por kilo, frente a cerca de 60 hace dos o tres años, y culpan a los intermediarios; la protesta puede tensar las compras en el arranque de la cosecha de la Costa-Sierra."
     },
     {
       "id": "n22",
@@ -152,46 +181,6 @@
       "url": "https://alertachiapas.com/2026/11/09/tuxtla-expo-cafe-13-regiones-dia-del-cafe-chiapaneco/",
       "title": "Expo de café de 13 regiones de Chiapas en Tuxtla el 20 y 21 de noviembre",
       "summary": "Productores de las 13 regiones cafetaleras de Chiapas (más de 180 mil en el estado) exponen el 20 y 21 de noviembre en el Parque Bicentenario de Tuxtla, antes del Día del Café Chiapaneco (24-nov) y del Chiapas Coffee Summit en Tapachula; ocasión para conocer lotes de la nueva cosecha."
-    },
-    {
-      "id": "m25",
-      "scope": "mx",
-      "regiones": [
-        "robusta-chiapas",
-        "chiapas-soconusco"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-08",
-      "source": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/11/08/inicia-la-cosecha-de-cafe-robusta-con-la-caida-de-casi-el-45-en-el-precio/",
-      "title": "Arranca el corte de robusta en el Soconusco con el precio a 27 pesos por kilo",
-      "summary": "El robusta se paga a 27 MXN/kg frente a 50 del año pasado, una caída de cerca de 45 %; un productor de Tapachula dice que no cubre costos. La zona tiene unos 35 000 pequeños productores, lo que apunta a oferta local barata y a presión sobre el robusta mexicano."
-    },
-    {
-      "id": "m26",
-      "scope": "mx",
-      "regiones": [
-        "puebla"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-08",
-      "source": "Reto Diario",
-      "url": "https://retodiario.com/gobierno/2026/11/08/impulso-gobierno-de-puebla-produccion-de-cafe-pagaron-hasta-120-pesos-por-kilo-y-preparan-exportacion-a-ee-uu",
-      "title": "Puebla reporta compras de pergamino hasta en 120 pesos por kilo en la Sierra Norte",
-      "summary": "La Secretaría de Agricultura de Puebla dijo en Amixtlán que el pergamino se compró hasta en 120 MXN/kg dentro de su estrategia estatal y que prepara envíos de café soluble poblano a EE. UU.; la región Interserrana tiene 9 mil hectáreas de café."
-    },
-    {
-      "id": "m27",
-      "scope": "mx",
-      "regiones": [
-        "veracruz"
-      ],
-      "tag": "Logística",
-      "date": "2026-11-08",
-      "source": "Excélsior",
-      "url": "https://www.excelsior.com.mx/nacional/cafe-vainilla-cobro-piso-afecta-cosechas-veracruz",
-      "title": "Cafetaleros del centro de Veracruz piden seguridad en fincas y centros de acopio por robos y extorsión",
-      "summary": "En Coatepec, Teocelo y Cosautlán los productores reportan robo y cobro de piso a compradores durante la cosecha y piden vigilancia en fincas y puntos de compra; para el comprador implica más riesgo y costo en el traslado de cereza y pergamino."
     }
   ]
 }
