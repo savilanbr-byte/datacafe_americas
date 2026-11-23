@@ -1,6 +1,37 @@
 {
-  "updatedAt": "2026-11-20T19:47:11Z",
+  "updatedAt": "2026-11-23T11:50:08Z",
   "items": [
+    {
+      "id": "p42",
+      "scope": "pe",
+      "regiones": [
+        "amazonas",
+        "ayacucho",
+        "cajamarca",
+        "cusco",
+        "huanuco",
+        "junin",
+        "pasco",
+        "puno",
+        "san-martin"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-21",
+      "source": "El Comercio · SENAMHI",
+      "url": "https://elcomercio.pe/peru/lluvias-calor-extremo-y-oleaje-anomalo-en-regiones-peru-por-el-nino-en-vivo-ultimas-noticias-pronosticos-y-alertas-del-senamhi-lbposting-noticia/",
+      "title": "SENAMHI activa alerta roja por calor en toda la selva del 22 al 24 de noviembre",
+      "summary": "El aviso 480 (rojo) prevé máximas de 31–39 °C en la selva norte, 31–38 °C en la selva central y 31–37 °C en la selva sur, con ráfagas cercanas a 45 km/h y chubascos aislados, en nueve departamentos cafeteros; en la sierra siguen lluvias de 5–45 mm diarios en el norte. Un segundo golpe de calor en plena floración eleva el riesgo de mal cuajado para la campaña 2027."
+    },
+    {
+      "id": "n23",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40449780/robusta-coffee-falls-to-2-12-year-low-cocoa-climbs",
+      "title": "La robusta cae a su menor nivel en dos años y medio con la cosecha de Vietnam y el real débil",
+      "summary": "El 20 de noviembre la robusta tocó US$2.972 por tonelada y operaba en US$2.993 (−0,9 %) por la llegada de café nuevo de Vietnam y un real que alienta las ventas de Brasil; el arábica subía 0,9 % a 277,90 ¢/lb. La brecha arábica–robusta sigue muy amplia, lo que favorece mezclas con menos arábica lavado."
+    },
     {
       "id": "n22",
       "scope": "mundo",
@@ -42,63 +73,15 @@
       "summary": "La jornada en Alto Inambari es parte de una intervención de más de S/3,5 millones que atiende a 1.156 familias en 53 caseríos de cuatro distritos de Sandia, entre ellos San Juan del Oro, para subir la oferta de cafés especiales."
     },
     {
-      "id": "p35",
+      "id": "p41",
       "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "piura",
-        "junin",
-        "pasco",
-        "huanuco",
-        "ayacucho"
-      ],
-      "tag": "Clima",
+      "regiones": [],
+      "tag": "Exportaciones",
       "date": "2026-11-17",
-      "source": "La República · SENAMHI",
-      "url": "https://larepublica.pe/sociedad/2026/11/17/senamhi-advierte-lluvias-de-hasta-50-mm-por-dia-en-la-costa-norte-y-sierra-desde-este-miercoles-18-de-noviembre-811869",
-      "title": "SENAMHI prevé lluvias moderadas a fuertes en la sierra del 18 al 20 de noviembre",
-      "summary": "Se esperan 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y unos 20 mm en la sierra sur, con Cajamarca, Piura, Junín, Pasco, Huánuco y Ayacucho entre las zonas con posible afectación. Más humedad en plena floración y cuajado eleva el riesgo de roya y puede complicar el acopio de los últimos lotes."
-    },
-    {
-      "id": "p34",
-      "scope": "pe",
-      "regiones": [
-        "huanuco",
-        "junin",
-        "pasco"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-17",
-      "source": "Ahora · SENAMHI",
-      "url": "https://ahora.com.pe/regional/senamhi-preve-hasta-35-c-en-puerto-inca-y-radiacion-uv-de-15-en-huanuco",
-      "title": "SENAMHI: alerta roja por calor en la selva hasta el 18 de noviembre, con vientos fuertes y lluvias en Huánuco",
-      "summary": "El aviso 469 (rojo) prevé de 28 a 37 °C en la selva central del 16 al 18 de noviembre; el 468 anuncia ráfagas de más de 55 km/h en Tingo María y Leoncio Prado, y el aviso regional 320 de 5 a 45 mm diarios en 11 provincias de Huánuco. El calor con lluvias intermitentes en plena floración puede afectar el cuajado de la campaña 2027 en la selva central."
-    },
-    {
-      "id": "p38",
-      "scope": "pe",
-      "regiones": [
-        "pasco"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-17",
-      "source": "Ahora · Devida",
-      "url": "https://ahora.com.pe/policiales/villa-rica-dos-dias-cultura-cafetalera",
-      "title": "Villa Rica realiza el 21 y 22 de noviembre un encuentro de tostado y catas de café",
-      "summary": "Devida y Moali organizan competencias de tostado, catas demostrativas y un torneo escolar de filtrados en Villa Rica (Oxapampa), distrito con más de 6.000 ha de café dentro de la reserva de biosfera BIOAY."
-    },
-    {
-      "id": "p40",
-      "scope": "pe",
-      "regiones": [
-        "piura"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-17",
-      "source": "Agraria",
-      "url": "https://www.agraria.pe/noticias/piura-entregaran-mas-de-10-mil-plantones-de-cafe-a-familias--43487",
-      "title": "Piura entregará más de 10 mil plantones de café Catimor a 25 familias de Ayabaca",
-      "summary": "La Dirección Regional de Agricultura de Piura repartirá más de 10.000 plantones de la variedad Catimor a 25 familias del caserío Las Vegas (Sícchez, Ayabaca) para sembrar unas 5 hectáreas, con escuelas de campo en vivero, abonamiento y control de plagas. Es renovación a pequeña escala: no cambia la oferta de la campaña 2027."
+      "source": "Energiminas · INEI",
+      "url": "https://energiminas.com/2026/11/17/inei-exportaciones-tradicionales-cayeron-11-en-setiembre/",
+      "title": "INEI: el volumen de café exportado cayó 11,4 % en septiembre de 2026",
+      "summary": "Según el INEI, la exportación agrícola tradicional bajó 10,6 % en septiembre frente al mismo mes de 2025 por los menores envíos de café (−11,4 % en volumen). Confirma que la menor cosecha 2026 (220–230 mil t según la JNC) ya se nota en los embarques y deja poco café disponible hasta marzo."
     },
     {
       "id": "p33",
@@ -147,14 +130,14 @@
       "summary": "El comunicado N.° 20-2026 (13-nov) prevé de noviembre a enero lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía (inferiores en la zona del Titicaca). Para la campaña 2027 implica riesgo de roya y problemas de transporte en el norte, y posible déficit hídrico en la floración de la selva central y el sur (Cusco y Puno)."
     },
     {
-      "id": "n20",
+      "id": "n24",
       "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40448624/vietnam-coffee-prices-steady-as-harvest-progresses-slowly",
-      "title": "Vietnam: la cosecha de robusta avanza lento y los precios internos se mantienen",
-      "summary": "Los productores de las Tierras Altas Centrales vendieron a 83.200–83.800 dong por kg (US$3,24–3,26), casi igual que la semana previa, porque el café nuevo aún no llega en volumen; la robusta de enero cerró en US$3.245 por tonelada. Cuando la cosecha vietnamita se acelere, presionará a la robusta y a los cafés de menor calidad."
+      "tag": "Regulación",
+      "date": "2026-11-12",
+      "source": "AJP",
+      "url": "https://www.ajupress.com/view/20261112032842647",
+      "title": "El reglamento europeo contra la deforestación (EUDR) rige desde el 30 de diciembre para grandes y medianos operadores",
+      "summary": "Tras dos postergaciones, el café que entre a la UE deberá probar que no viene de tierras deforestadas después del 31 de diciembre de 2020; las micro y pequeñas empresas tienen hasta el 30 de junio de 2027 y las multas llegan al menos al 4 % de la facturación en la UE. Perú es de riesgo estándar (3 % de inspecciones): los lotes para Europa necesitan la geolocalización de cada parcela."
     },
     {
       "id": "p30",

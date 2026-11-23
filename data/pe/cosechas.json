@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:47:47Z",
+  "updatedAt": "2026-11-23T11:50:08Z",
   "temporada": "2026",
   "fuente": "Gestión · Agraria",
   "url": "https://gestion.pe/economia/cafe-se-tomaria-frio-exportaciones-peruanas-se-alejarian-de-un-record-en-2026-noticia/",
@@ -208,6 +208,24 @@
     }
   },
   "reportes": [
+    {
+      "id": "p9",
+      "fecha": "2026-11-21",
+      "region": "Perú",
+      "tipo": "noticia",
+      "texto": "SENAMHI activa alerta roja (aviso 480) por calor de 31–39 °C en toda la selva del 22 al 24 de noviembre, la segunda ola de calor del mes en plena floración de la campaña 2027.",
+      "fuente": "El Comercio · SENAMHI",
+      "url": "https://elcomercio.pe/peru/lluvias-calor-extremo-y-oleaje-anomalo-en-regiones-peru-por-el-nino-en-vivo-ultimas-noticias-pronosticos-y-alertas-del-senamhi-lbposting-noticia/"
+    },
+    {
+      "id": "p8",
+      "fecha": "2026-11-17",
+      "region": "Perú",
+      "tipo": "noticia",
+      "texto": "El INEI informa que el volumen de café exportado cayó 11,4 % en septiembre de 2026 frente a septiembre de 2025, reflejo de la menor cosecha.",
+      "fuente": "Energiminas · INEI",
+      "url": "https://energiminas.com/2026/11/17/inei-exportaciones-tradicionales-cayeron-11-en-setiembre/"
+    },
     {
       "id": "p7",
       "fecha": "2026-11-16",

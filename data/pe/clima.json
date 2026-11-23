@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:47:11Z",
+  "updatedAt": "2026-11-23T11:50:08Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -21,49 +21,45 @@
     "status": "El Niño · fuerte a muy fuerte",
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
-  "forecastSource": {
-    "name": "MET Norway · Yr",
-    "url": "https://www.yr.no/",
-    "period": ""
-  },
   "impactos": [
     "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
-    "Tras el calor de 28–37 °C y los vientos fuertes en la selva (avisos 469 y 468, hasta el 18-nov), vuelven las lluvias moderadas a fuertes a la sierra del 18 al 20 de noviembre (5–45 mm/día en la sierra norte). El ENFEN (13-nov) espera lluvias normales o menores en la Amazonía y la sierra centro y suroriental hasta enero: vigila el cuajado en Huánuco, Junín, Pasco, Cusco y Puno.",
-    "Las lluvias de El Niño costero en la costa norte y la sierra norte pueden dificultar el transporte y el acopio desde Huancabamba, Jaén y San Ignacio hacia Paita.",
-    "Más humedad y calor elevan el riesgo de roya; en Cajamarca, un gremio local estima (12-nov) que lluvias y roya podrían afectar hasta 60 % de los cafetales. La sanidad de este ciclo definirá la campaña 2027.",
-    "La JNC proyecta 220–230 mil t para 2026 (−18 a −22 %): con menos café y exportadoras compitiendo por lotes, los diferenciales en origen tienden a mantenerse firmes aunque la bolsa de NY caiga (−3,6 % el 18-nov)."
+    "La selva vuelve a la alerta roja por calor (aviso 480, 31–39 °C del 22 al 24 de noviembre) tras la del 16 al 18: dos olas de calor seguidas en plena floración pueden causar aborto de flores y mal cuajado en San Martín, Amazonas, la selva central, Cusco y Puno.",
+    "El ENFEN (13-nov) espera lluvias normales o menores en la Amazonía y la sierra centro y suroriental hasta enero; si el calor sigue sin lluvias suficientes, crece el riesgo de déficit hídrico en Junín, Pasco, Huánuco, Cusco y Puno.",
+    "En el norte, las lluvias de El Niño costero (5–45 mm/día en la sierra norte) y la humedad elevan el riesgo de roya y pueden dificultar el transporte desde Huancabamba, Jaén y San Ignacio hacia Paita; un gremio de Cajamarca estima que hasta 60 % de los cafetales podría afectarse.",
+    "Con una campaña 2026 corta (220–230 mil t según la JNC; volumen exportado −11,4 % en septiembre según el INEI) y señales de riesgo para 2027, los diferenciales en origen tienden a mantenerse firmes aunque la bolsa de NY esté baja."
   ],
   "avisos": {
     "source": "SENAMHI · ENFEN",
-    "asOf": "2026-11-17",
-    "headline": "SENAMHI: lluvias de moderada a fuerte intensidad en la sierra del 18 al 20 de noviembre, tras la alerta roja por calor en la selva (28–37 °C) hasta el 18; ENFEN (comunicado 20-2026) mantiene El Niño costero extraordinario hasta febrero de 2027",
+    "asOf": "2026-11-21",
+    "headline": "SENAMHI: alerta roja por calor en toda la selva del 22 al 24 de noviembre (aviso 480, hasta 39 °C), con lluvias en la sierra; ENFEN (comunicado 20-2026) mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
-      "SENAMHI (pronóstico del 17-nov): del 18 al 20 de noviembre, lluvias de moderada a fuerte intensidad con 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y cerca de 20 mm en la sierra sur; entre los departamentos con posible afectación están Cajamarca, Piura, Junín, Pasco, Huánuco y Ayacucho.",
-      "SENAMHI (aviso 469, rojo): aumento de la temperatura diurna en la selva del lunes 16 al miércoles 18 de noviembre, con 28–37 °C en la selva central; el aviso 468 (naranja) prevé ráfagas de más de 55 km/h, entre otros en Tingo María.",
-      "ENFEN (comunicado N.° 20-2026, 13-nov): El Niño costero extraordinario hasta febrero de 2027 y debilitamiento gradual hasta julio; de noviembre a enero, lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía (inferiores en el Titicaca)."
+      "SENAMHI (aviso 480, rojo): incremento de la temperatura diurna del domingo 22 al martes 24 de noviembre, con máximas de 31–39 °C en la selva norte, 31–38 °C en la selva central y 31–37 °C en la selva sur, noches cálidas, ráfagas cercanas a 45 km/h y chubascos; incluye Amazonas, Ayacucho, Cajamarca, Cusco, Huánuco, Junín, Pasco, Puno y San Martín.",
+      "SENAMHI (21-nov): lluvias en la sierra hasta el lunes 23, con 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y cerca de 20 mm en la sierra sur, granizo sobre 2.900 m y lluvias ligeras a moderadas en la selva alta.",
+      "ENFEN (comunicado N.° 20-2026, 13-nov): El Niño costero extraordinario hasta febrero de 2027 y debilitamiento gradual hasta julio; de noviembre a enero, lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía."
     ],
     "links": [
       {
-        "t": "SENAMHI · La República (17-nov)",
-        "url": "https://larepublica.pe/sociedad/2026/11/17/senamhi-advierte-lluvias-de-hasta-50-mm-por-dia-en-la-costa-norte-y-sierra-desde-este-miercoles-18-de-noviembre-811869"
+        "t": "SENAMHI · El Comercio (21-nov)",
+        "url": "https://elcomercio.pe/peru/lluvias-calor-extremo-y-oleaje-anomalo-en-regiones-peru-por-el-nino-en-vivo-ultimas-noticias-pronosticos-y-alertas-del-senamhi-lbposting-noticia/"
       },
       {
-        "t": "SENAMHI · Ahora (17-nov)",
-        "url": "https://ahora.com.pe/regional/senamhi-preve-hasta-35-c-en-puerto-inca-y-radiacion-uv-de-15-en-huanuco"
+        "t": "SENAMHI · La República (17-nov)",
+        "url": "https://larepublica.pe/sociedad/2026/11/17/senamhi-advierte-lluvias-de-hasta-50-mm-por-dia-en-la-costa-norte-y-sierra-desde-este-miercoles-18-de-noviembre-811869"
       },
       {
         "t": "ENFEN · Andina (14-nov)",
         "url": "https://andina.pe/agencia/noticia-enfen-nino-costero-extraordinario-continuaria-hasta-inicios-invierno-2027-1099939.aspx"
       },
       {
-        "t": "SENAMHI · DSN (14-nov)",
-        "url": "https://dsn.pe/clima-en-peru-hoy-14-de-noviembre-senamhi-activa-alerta-roja-por-lluvias-de-hasta-80-mm-y-calor-de-37-c/"
-      },
-      {
-        "t": "SENAMHI · Inforegión (11-nov)",
-        "url": "https://inforegion.pe/huanuco-soportara-temperaturas-de-hasta-38-c-en-la-selva-y-senamhi-advierte-lluvias-de-moderada-a-fuerte-intensidad-desde-el-15-de-noviembre/"
+        "t": "SENAMHI · Avisos",
+        "url": "https://www.senamhi.gob.pe/?p=aviso-meteorologico"
       }
     ]
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "url": "https://www.yr.no/",
+    "period": ""
   },
   "regions": [
     {
