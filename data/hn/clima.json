@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T11:50:38Z",
+ "updatedAt": "2026-11-23T19:48:32Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -28,19 +28,19 @@
  },
  "impactos": [
   "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene la época seca: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío que salen ahora.",
-  "Con fin de semana seco y lluvias de apenas 2–5 mm, Copán, Opalaca y Montecillos tienen buenas condiciones para secar al sol el pergamino de las zonas bajas y medias que ya se cortan.",
-  "Sin frentes fríos y con temperaturas sobre lo normal, la fruta puede madurar de golpe antes del pico de cosecha (20-dic a 20-feb): si faltan recolectores sube el riesgo de café sobremaduro o caído; revisa la calidad de los primeros lotes.",
-  "En Agalta y el oriente (Olancho, El Paraíso) las lloviznas por humedad del Caribe pueden interrumpir el secado: pide la humedad del grano al recibir.",
+  "Con mañanas secas y solo chubascos débiles y aislados por la tarde, Copán, Opalaca y Montecillos mantienen buenas condiciones para secar al sol el pergamino de las zonas bajas y medias que ya se cortan.",
+  "Sin frentes fríos hasta diciembre (CENAOS espera uno o dos) y con temperaturas sobre lo normal, la fruta puede madurar de golpe antes del pico de cosecha (20-dic a 20-feb): si faltan recolectores sube el riesgo de café sobremaduro o caído; revisa la calidad de los primeros lotes.",
+  "En Agalta y el oriente (Olancho, El Paraíso) las lluvias de la tarde por humedad del Caribe, y en diciembre los frentes fríos, pueden interrumpir el secado: pide la humedad del grano al recibir.",
   "Una sequía prolongada favorece el beneficio seco pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-22",
-  "headline": "CENAOS prevé un fin de semana mayormente seco con lluvias débiles y aisladas por la tarde en el norte, centro y suroccidente; no hay frente frío en camino",
+  "asOf": "2026-11-23",
+  "headline": "COPECO prevé un lunes con mañana seca y chubascos débiles por la tarde; CENAOS espera uno o dos frentes fríos en diciembre",
   "items": [
-   "Domingo 22: mañanas secas; por la tarde, lluvias y chubascos débiles y aislados en sectores del norte, centro y suroccidente, con acumulados de 2 a 5 mm.",
-   "Sin frente frío por ahora: «De momento no hay ninguna aproximación de frente frío» (Jeffrey Flores, CENAOS); el sur sigue seco.",
-   "Temperaturas del domingo: Intibucá 25/12 °C, Copán 29/20 °C, La Paz 31/20 °C, Comayagua 31/21 °C, El Paraíso 30/19 °C, Olancho 32/21 °C, Yoro 30/18 °C."
+   "Lunes 23: condiciones mayormente secas por la mañana; por la tarde, la humedad del Caribe favorece lluvias y chubascos débiles y aislados en el norte, centro y suroccidente.",
+   "Diciembre: CENAOS (Mario Centeno) estima uno o dos frentes fríos, con lluvias más intensas sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía.",
+   "Noviembre sigue como mes de transición, con lluvias cada vez más aisladas y acumulados bajos; la temporada ciclónica cierra el 30 de noviembre."
   ],
   "links": [
    {
@@ -48,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Radio HRN (22-nov)",
-    "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22"
+    "t": "Once Noticias (23-nov)",
+    "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/"
    },
    {
-    "t": "Radio HRN (20-nov)",
-    "url": "https://www.radiohrn.hn/lluvias-en-honduras-ingresara-algun-frente-frio-pronostico-cenaos-2026-11-20"
+    "t": "Radio HRN (22-nov)",
+    "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22"
    }
   ]
  },

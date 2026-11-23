@@ -1,20 +1,16 @@
 {
- "updatedAt": "2026-11-23T11:50:38Z",
+ "updatedAt": "2026-11-23T19:48:32Z",
  "items": [
   {
-   "id": "h25",
+   "id": "h26",
    "scope": "hn",
-   "regiones": [
-    "opalaca",
-    "copan",
-    "montecillos"
-   ],
+   "regiones": [],
    "tag": "Clima",
-   "date": "2026-11-22",
-   "source": "Radio HRN · CENAOS",
-   "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22",
-   "title": "CENAOS prevé un fin de semana mayormente seco, sin frente frío a la vista",
-   "summary": "Para el domingo 22 se esperan mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente, con acumulados de 2 a 5 mm; Intibucá registra la mínima más baja (12 °C) y CENAOS descarta por ahora la llegada de un frente frío. Buen tiempo para secar pergamino en el occidente."
+   "date": "2026-11-23",
+   "source": "Once Noticias · CENAOS",
+   "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/",
+   "title": "CENAOS espera uno o dos frentes fríos en diciembre; el lunes arranca seco",
+   "summary": "Para el lunes 23 COPECO prevé mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente; CENAOS estima que en diciembre entrarán uno o dos frentes fríos, con más lluvia sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía. Las zonas cafetaleras siguen con buen tiempo para secar pergamino hasta que llegue el primer frente."
   },
   {
    "id": "h24",
@@ -70,6 +66,17 @@
    "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
    "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
    "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
+  },
+  {
+   "id": "h27",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Agricultura",
+   "date": "2026-11-13",
+   "source": "TNH",
+   "url": "https://tnh.gob.hn/television/honduras-y-guatemala-impulsan-acuerdo-para-garantizar-derechos-de-trabajadores-durante-la-cosecha-de-cafe",
+   "title": "Honduras y Guatemala preparan un acuerdo para los recolectores guatemaltecos del café",
+   "summary": "En la mesa bilateral de movilidad laboral de Esquipulas ambos países avanzaron un acuerdo, aún en preparación, para ordenar la contratación de los miles de cortadores guatemaltecos que llegan a los departamentos fronterizos de octubre a abril, hoy con tratos verbales sobre pago, comida y alojamiento (OIM). Puede formalizar la mano de obra en las fincas del occidente en plena cosecha."
   },
   {
    "id": "n20",

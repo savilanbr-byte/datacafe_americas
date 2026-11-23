@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T11:50:38Z",
+ "updatedAt": "2026-11-23T19:48:32Z",
  "temporada": "2026-27",
  "fuente": "Mercanta",
  "url": "https://coffeehunter.com/our-origins/honduras/",
@@ -104,6 +104,15 @@
    "texto": "El corte 2026-27 arrancó el 1 de octubre en zonas bajas y medias de Copán, Santa Bárbara y Comayagua; las partes altas entran a fines de 2026 y el pico se espera del 20-dic al 20-feb, con volúmenes iniciales aún limitados y una exportación prevista de unos 7 M de quintales.",
    "fuente": "Eleva Finca",
    "url": "https://www.elevafinca.com/post/honduras-2026-27-coffee-availability"
+  },
+  {
+   "id": "h6",
+   "fecha": "2026-11-13",
+   "region": "Honduras",
+   "tipo": "noticia",
+   "texto": "Honduras y Guatemala preparan un acuerdo para ordenar la contratación de los miles de recolectores guatemaltecos que llegan a las fincas fronterizas de octubre a abril.",
+   "fuente": "TNH",
+   "url": "https://tnh.gob.hn/television/honduras-y-guatemala-impulsan-acuerdo-para-garantizar-derechos-de-trabajadores-durante-la-cosecha-de-cafe"
   },
   {
    "id": "h1",
