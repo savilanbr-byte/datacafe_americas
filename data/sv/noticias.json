@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-11-20T19:47:29Z",
+  "updatedAt": "2026-11-23T11:48:54Z",
   "items": [
+    {
+      "id": "n30",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-22",
+      "source": "Reuters · Business Recorder",
+      "url": "https://brecorder.com/news/40450161/robusta-coffee-hits-3-year-low",
+      "title": "La robusta cae a su mínimo en tres años y pierde cerca de 10 % en la semana; el arábica baja a US$2,71/lb",
+      "summary": "La robusta de ICE bajó 3,3 % a US$2.879/t, tras tocar US$2.854, por el avance de la cosecha en Vietnam y un real brasileño en su nivel más débil desde abril de 2025, que impulsa las exportaciones de Brasil; el arábica cedió 2 % a US$2,708/lb. Una bolsa a la baja abarata la fijación de precio de los contratos salvadoreños del ciclo 2026-27."
+    },
+    {
+      "id": "s20",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Eventos",
+      "date": "2026-11-22",
+      "source": "Diario El Salvador",
+      "url": "https://diarioelsalvador.com/dedinero/el-salvador-ya-tiene-a-sus-campeones-en-barismo-y-metodos/879157",
+      "title": "El ISC corona a los campeones nacionales de barismo y métodos que irán a Japón y Colombia",
+      "summary": "Óscar Zuleta (barismo) competirá en el Campeonato Mundial de Baristas en Japón en abril de 2027 y Bryan Martínez Coca (métodos) en la Copa Mundial de Métodos de Filtrado en Colombia en septiembre de 2027; compitieron 22 participantes en la 18.ª y 8.ª edición. Es promoción de origen; no trae datos de volúmenes ni precios."
+    },
+    {
+      "id": "s21",
+      "scope": "sv",
+      "regiones": [
+        "apaneca-ilamatepec",
+        "alotepec-metapan"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-22",
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/noticias/nacional/vientos-nortes-desde-miercoles/1305265/2026/",
+      "title": "El MARN anuncia vientos nortes del 25 al 27 de noviembre con ráfagas de hasta 45 km/h",
+      "summary": "Una alta presión al sureste de EE. UU. traerá vientos débiles a moderados (10–22 km/h, ráfagas de 30 a 45 km/h) y madrugadas más frescas, con tardes de hasta 38 °C en el oriente. Para el comprador: riesgo de caída de fruta madura en las zonas altas y expuestas del occidente y el norte, donde empieza la corta."
+    },
     {
       "id": "n28",
       "scope": "mundo",
@@ -10,6 +45,17 @@
       "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
       "title": "El arábica de diciembre cae 3,6 % y la robusta toca su mínimo en casi tres años; los inventarios certificados bajan a 186.400 sacos",
       "summary": "El 18 de noviembre el arábica de diciembre perdió 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha récord que prevé el USDA (189,7 millones de sacos; Brasil 71,9 millones) y por las exportaciones de octubre de Brasil (+23 %) y Vietnam (+61 %). Los inventarios certificados de arábica en ICE cayeron a 186.400 sacos, mínimo de 27 años, aunque hay 212.960 sacos brasileños esperando clasificación."
+    },
+    {
+      "id": "s22",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-18",
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/noticias/nacional/sequia-record-fenomeno-nino/1304715/2026/",
+      "title": "MARN: 2026 cerraría como el año más seco en 56 años, con un déficit de lluvia cercano al 32 %",
+      "summary": "El país registró cuatro sequías meteorológicas y el agosto más seco desde que hay registros; el déficit supera al de 1972 y el MARN advierte efectos en la agricultura hasta 2027 por la baja humedad del suelo. Refuerza la expectativa de una cosecha 2026-27 menor y de menos oferta exportable."
     },
     {
       "id": "n26",
@@ -30,16 +76,6 @@
       "url": "https://bloomberglinea.com/mercados/que-pasara-con-el-precio-del-cafe-en-2027-las-senales-que-anticipan-una-fuerte-caida",
       "title": "Citi prevé el arábica en US$2,25/lb a 12 meses por un superávit mundial de 8,3 millones de sacos",
       "summary": "Con el arábica en US$2,74/lb, Citi espera US$2,75 al cierre de 2026, US$2,50 en el primer trimestre de 2027 y US$2,25 después; ve a El Niño como el principal riesgo alcista. Para quien compra café salvadoreño, anticipa una bolsa más baja al fijar precio de los embarques del ciclo 2026-27."
-    },
-    {
-      "id": "n27",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-14",
-      "source": "World Coffee Index",
-      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
-      "title": "El arábica cierra la semana en 273,94 ¢/lb tras tocar un mínimo de seis semanas; la robusta, cerca de su piso de 2,5 años",
-      "summary": "El arábica de diciembre bajó 2,16 % en la semana, con un mínimo de 262,15 ¢ el miércoles y un rebote de 4,16 % el jueves; la robusta de enero cerró en 3.207 US$/t (−1,93 %). El indicador de los Suaves Colombianos de la OIC quedó en 339,70 ¢/lb y el compuesto en 249,09 ¢/lb, mientras Brasil reporta buen cuajado para 2027-28."
     },
     {
       "id": "s19",
@@ -96,43 +132,6 @@
       "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
       "title": "Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar en los K-Coffee Awards de Corea",
       "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
-    },
-    {
-      "id": "s17",
-      "scope": "sv",
-      "regiones": [
-        "tecapa-chinameca",
-        "cacahuatique",
-        "chichontepec"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-06",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/el-salvador/2026/11/06/autoridades-advierten-sobre-lluvias-intensas-en-la-costa-y-el-oriente-salvadoreno-durante-el-fin-de-semana/",
-      "title": "MARN avisa lluvias intensas en la costa y el oriente durante el fin de semana",
-      "summary": "Una baja presión frente a Centroamérica (60 % de probabilidad de ciclón en siete días, según el NHC) traería lluvias intensas a la costa y el oriente hasta el 9 de noviembre, junto con vientos nortes débiles en el occidente. Para el comprador: riesgo de retrasos en el secado y en la calidad del pergamino temprano del oriente."
-    },
-    {
-      "id": "s14",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Producción",
-      "date": "2026-11-06",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
-      "title": "Dos estimaciones distan 200 mil quintales para la cosecha salvadoreña 2026-27",
-      "summary": "La Asociación Cafetalera proyecta 750 mil quintales y la Mesa Agropecuaria 950 mil; ambas quedan bajo los 963.650 quintales oro uva de 2025-26 según el ISC. Para un comprador, la oferta exportable de El Salvador será menor o, en el mejor caso, similar a la del ciclo pasado."
-    },
-    {
-      "id": "s13",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-05",
-      "source": "Infobae (EFE)",
-      "url": "https://www.infobae.com/america/agencias/2026/11/05/ingresos-de-exportaciones-de-cafe-salvadoreno-crecieron-12-al-cierre-de-ciclo-2025-2026/",
-      "title": "Cierra el ciclo 2025-26: divisas por café suben 12 % a US$196 millones con volumen casi igual",
-      "summary": "De octubre a septiembre se exportaron 607.908 quintales oro (+0,33 %) por más de US$196,05 M, según el ISC; el café oro aportó US$189,57 M, es decir, unos US$312 por quintal. Norteamérica compró el 64 %, lo que confirma un año de mejores precios más que de más volumen."
     }
   ]
 }
