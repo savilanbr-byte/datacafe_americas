@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2026-11-23T19:47:35Z",
+  "updatedAt": "2026-11-24T11:47:40Z",
   "items": [
     {
-      "id": "p43",
-      "scope": "pe",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-20",
-      "source": "Fresh Fruit",
-      "url": "https://freshfruit.pe/2026/11/20/agroexportaciones-al-18-de-noviembre-el-arandano-cae-a-la-mitad-y-la-uva-toma-la-posta/",
-      "title": "Exportaciones de café caen US$ 293 millones (−18,5 %) al 18 de noviembre por menos volumen y menor precio",
-      "summary": "Del 1 de enero al 18 de noviembre de 2026 el café exportado vale US$ 293 millones menos que un año antes (−18,5 %), con 344 empresas exportadoras (34 más) y Perales Huancaruna a la cabeza (US$ 137 M, −26 %). Fresh Fruit proyecta cerrar 2026 con unas 219 mil t (−11,2 %) y US$ 1.472 M (−20,5 %): menos café disponible para los últimos embarques del año."
+      "id": "n25",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
+      "title": "La robusta se estabiliza tras tocar su mínimo de tres años; el arábica rebota 1,8 %",
+      "summary": "El lunes 23 la robusta en Londres quedó cerca de US$2.882 por tonelada tras el mínimo de tres años de US$2.854 del viernes, con llegadas lentas de la cosecha de Vietnam y costos de recolección más altos; el arábica subió 1,8 % a US$2,7325 por libra tras perder 1,8 % la semana previa. Una bolsa baja presiona el precio base del café peruano aunque los diferenciales sigan firmes."
     },
     {
       "id": "p42",
@@ -34,14 +33,15 @@
       "summary": "El aviso 480 (rojo) prevé máximas de 31–39 °C en la selva norte, 31–38 °C en la selva central y 31–37 °C en la selva sur, con ráfagas cercanas a 45 km/h y chubascos aislados, en nueve departamentos cafeteros; en la sierra siguen lluvias de 5–45 mm diarios en el norte. Un segundo golpe de calor en plena floración eleva el riesgo de mal cuajado para la campaña 2027."
     },
     {
-      "id": "n23",
-      "scope": "mundo",
-      "tag": "Mercado",
+      "id": "p43",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Exportaciones",
       "date": "2026-11-20",
-      "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40449780/robusta-coffee-falls-to-2-12-year-low-cocoa-climbs",
-      "title": "La robusta cae a su menor nivel en dos años y medio con la cosecha de Vietnam y el real débil",
-      "summary": "El 20 de noviembre la robusta tocó US$2.972 por tonelada y operaba en US$2.993 (−0,9 %) por la llegada de café nuevo de Vietnam y un real que alienta las ventas de Brasil; el arábica subía 0,9 % a 277,90 ¢/lb. La brecha arábica–robusta sigue muy amplia, lo que favorece mezclas con menos arábica lavado."
+      "source": "Fresh Fruit",
+      "url": "https://freshfruit.pe/2026/11/20/agroexportaciones-al-18-de-noviembre-el-arandano-cae-a-la-mitad-y-la-uva-toma-la-posta/",
+      "title": "Exportaciones de café caen US$ 293 millones (−18,5 %) al 18 de noviembre por menos volumen y menor precio",
+      "summary": "Del 1 de enero al 18 de noviembre de 2026 el café exportado vale US$ 293 millones menos que un año antes (−18,5 %), con 344 empresas exportadoras (34 más) y Perales Huancaruna a la cabeza (US$ 137 M, −26 %). Fresh Fruit proyecta cerrar 2026 con unas 219 mil t (−11,2 %) y US$ 1.472 M (−20,5 %): menos café disponible para los últimos embarques del año."
     },
     {
       "id": "n22",
@@ -93,6 +93,19 @@
       "url": "https://energiminas.com/2026/11/17/inei-exportaciones-tradicionales-cayeron-11-en-setiembre/",
       "title": "INEI: el volumen de café exportado cayó 11,4 % en septiembre de 2026",
       "summary": "Según el INEI, la exportación agrícola tradicional bajó 10,6 % en septiembre frente al mismo mes de 2025 por los menores envíos de café (−11,4 % en volumen). Confirma que la menor cosecha 2026 (220–230 mil t según la JNC) ya se nota en los embarques y deja poco café disponible hasta marzo."
+    },
+    {
+      "id": "p44",
+      "scope": "pe",
+      "regiones": [
+        "piura"
+      ],
+      "tag": "Agricultura",
+      "date": "2026-11-17",
+      "source": "Agraria · Gore Piura",
+      "url": "https://agraria.pe/noticias/piura-entregaran-mas-de-10-mil-plantones-de-cafe-a-familias--43487",
+      "title": "Piura entregará más de 10 mil plantones de café Catimor a familias de Ayabaca",
+      "summary": "La Dirección Regional de Agricultura de Piura destinará más de 10 mil plantones de la variedad Catimor a 25 familias del caserío Las Vegas (Sícchez, Ayabaca) para renovar unas cinco hectáreas. Es una renovación pequeña: no cambia la oferta de la sierra piurana en el corto plazo."
     },
     {
       "id": "p33",
@@ -182,20 +195,6 @@
       "url": "https://bpmoney.com.br/agro/brasil-recorde-exportacao-cafe-53-milhoes-sacas-outubro/",
       "title": "Brasil exporta un récord de 5,3 millones de sacos en octubre",
       "summary": "Según Cecafé, los envíos de octubre de 2026 subieron 28,4 % interanual y facturaron US$1.786 M; a EE. UU. crecieron 119 % tras el fin de los aranceles adicionales. De enero a octubre suman 34,48 millones de sacos (+3,5 %) con precio medio de US$345,64 por saco (−9,5 %): más competencia brasileña en el mercado estadounidense, primer destino del café peruano."
-    },
-    {
-      "id": "p25",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca",
-        "huanuco"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-09",
-      "source": "Agro Perú · Alliance for Coffee Excellence",
-      "url": "https://www.agroperu.pe/cajamarca-conquista-por-segundo-ano-consecutivo-el-primer-lugar-de-la-taza-de-excelencia-peru-2026/",
-      "title": "Un geisha de Chirinos (San Ignacio) gana la Taza de Excelencia Perú 2026",
-      "summary": "Fidel Huancas (Finca La Esperanza, Cajamarca) ganó con 91,71 puntos, seguido por un geisha de Cholón, Huánuco (91,45), y otro de Jaén (90,93); 30 lotes superaron los 87 puntos y cinco pasaron de 90. La subasta internacional será el 8 de diciembre: oportunidad para comprar microlotes de alto puntaje del norte y la selva central."
     }
   ]
 }
