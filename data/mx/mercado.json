@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-24T11:47:30Z",
+  "updatedAt": "2026-11-24T19:50:00Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
-      "value": 19.1648,
+      "value": 19.3668,
       "dec": 4,
       "unit": "MXN/USD",
-      "change": 0.142,
+      "change": 0.202,
       "chgDec": 4,
-      "asOf": "2026-11-23",
+      "asOf": "2026-11-24",
       "source": "Banxico",
       "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveT": "Banxico",
-      "note": "El 19-nov el peso se debilitó 1,9 % (19,03 por dólar) y el 23-nov siguió en 19,16: por el mismo precio en dólares, el productor recibe más pesos, lo que amortigua la baja del KC."
+      "note": "El 24-nov el FIX subió 1,1 % a 19,37 pesos por dólar, el peso más débil en más de un año (cayó 3,3 % la semana pasada ante un posible alza de la Fed): con el mismo precio en Nueva York, el productor recibe más pesos, lo que amortigua la baja del KC."
     },
     "difRef": {
       "label": "Diferencial de referencia · Veracruz",

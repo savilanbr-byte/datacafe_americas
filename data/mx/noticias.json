@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:47:30Z",
+  "updatedAt": "2026-11-24T19:50:00Z",
   "items": [
     {
       "id": "m43",
@@ -14,6 +14,17 @@
       "url": "https://www.jornada.com.mx/2026/11/24/estados/024n1est",
       "title": "Cafetaleros de la Costa, Sierra y Frontera de Chiapas marchan en Tapachula contra los precios de Nestlé",
       "summary": "Productores de al menos 20 municipios (unas 165 mil familias, según los organizadores) reclaman que Nestlé paga 43 pesos por kilo y piden 55 MXN/kg y una mesa con el gobierno de Chiapas; la empresa responde que su plan de compras 2026-27 paga por encima de Londres y Nueva York y que comprará más volumen que el año pasado. Para el comprador: tensión en el precio del robusta y del arábica del Soconusco en plena cosecha."
+    },
+    {
+      "id": "m44",
+      "scope": "mx",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-23",
+      "source": "Investing.com México",
+      "url": "https://mx.investing.com/news/forex-news/precio-del-dolar-hoy-peso-mexicano-celebra-regreso-de-huang-a-nvidia-por-que-3860091",
+      "title": "El peso cae 3,3 % en una semana y toca su nivel más débil desde junio de 2025",
+      "summary": "El dólar llegó a 19,26 pesos el 23-nov tras la mayor caída semanal del peso desde marzo, ante la apuesta de que la Fed suba la tasa al menos 25 puntos el 9 de diciembre; el real brasileño también se debilitó a 6,00 por dólar. Un peso más débil sube el precio en pesos al productor y abarata el café mexicano en dólares para el comprador."
     },
     {
       "id": "m41",
@@ -34,6 +45,16 @@
       "summary": "El SMN prevé para el lunes 23 de 75 a 150 mm en el norte y centro de Veracruz, 50–75 mm en el norte y este de Puebla, el este de San Luis Potosí y el norte de Chiapas, y 25–50 mm en Oaxaca e Hidalgo, con mínimas de 0–5 °C en las sierras. Otra semana de corte y secado complicada en el Golfo, justo tras el frente 6."
     },
     {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-22",
+      "source": "CMB News",
+      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
+      "title": "Vietnam: el robusta en finca baja a 71.200–72.000 VND/kg con el pico de cosecha",
+      "summary": "El precio en las Tierras Altas Centrales cayó desde más de 83.000 VND/kg a mediados de noviembre, mientras Londres bajó casi 10 % en la semana a un mínimo de tres años (~2.881 USD/t) y Vietnam exportó unas 108.800 t en octubre (+50 %). Más robusta asiático presiona el precio que la industria soluble paga por el robusta mexicano."
+    },
+    {
       "id": "n25",
       "scope": "mundo",
       "tag": "Mercado",
@@ -42,6 +63,16 @@
       "url": "https://www.tradingview.com/news/barchart:c265a50d4094b:0-coffee-prices-fall-on-expectations-of-abundant-supplies/",
       "title": "El robusta cae 3,3 % a un mínimo de 2,75 años y Conab sube la cosecha de Brasil a 67,6 M sacos",
       "summary": "El viernes 20 el arábica de marzo bajó 7,50 ¢/lb (−2,72 %) y el robusta de enero 97 USD/t (−3,26 %), después de que Conab elevara su estimado de Brasil 2026 a 67,6 M sacos (arábica +34,8 %); los fondos llevan su posición corta en robusta al máximo de casi 4 años y hay 251 230 sacos esperando clasificación en ICE. Presión adicional sobre el precio en pesos del café mexicano, sobre todo del robusta."
+    },
+    {
+      "id": "n27",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-20",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-11-20-26/",
+      "title": "El arábica de marzo cierra en 268,50 ¢/lb y los inventarios certificados de ICE suben a 225.219 sacos",
+      "summary": "El viernes 20 el arábica de marzo perdió 750 puntos (−500 en la semana), con 251.230 sacos más pendientes de clasificar en ICE; el robusta de enero cerró en 2.881 USD/t. El repunte de inventarios aleja la estrechez de corto plazo y favorece al comprador al fijar café mexicano."
     },
     {
       "id": "m38",
@@ -57,16 +88,6 @@
       "summary": "Según Rigoberto Galindo (AMECAFÉ), la sequía y la falta de cortadores llevarían la cosecha 2026-27 de la Costa-Sierra de Chiapas de unos 1,5 millones a 900 mil quintales. Menos oferta del Soconusco y la Sierra puede encarecer el pergamino de la región y complicar el cumplimiento de contratos."
     },
     {
-      "id": "n23",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-19",
-      "source": "UkrAgroConsult · Barchart",
-      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
-      "title": "El arábica cae 3,6 % y el robusta 2,3 % por las expectativas de cosechas récord",
-      "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 % (mínimo de 2 años y 9 meses), con el USDA previendo 189,7 M sacos mundiales en 2026-27 y Brasil en 71,9 M; los inventarios certificados de ICE siguen en 186.400 sacos (mínimo de 27 años) pero hay 212.960 sacos brasileños en espera de calificar. Un real en mínimo de 19 meses y el robusta barato presionan los precios del café mexicano."
-    },
-    {
       "id": "n24",
       "scope": "mundo",
       "tag": "Mercado",
@@ -75,16 +96,6 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
       "title": "El USDA recorta a 11,5 millones de sacos la exportación de Colombia y el arábica rebota",
       "summary": "El USDA FAS bajó 6 % su estimado de exportación de Colombia para 2026-27 (11,5 M sacos) y el arábica subió 1,4 % el 19-nov, mientras el robusta tocó un mínimo de 2,75 años; menos lavados colombianos sostiene la demanda de suaves de México y Centroamérica."
-    },
-    {
-      "id": "n22",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Barchart",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-      "title": "El arábica sube 2,1 % con inventarios de ICE en mínimo de 27 años; el robusta toca mínimo de 2,75 años",
-      "summary": "El arábica de diciembre ganó 5,90 ¢/lb (+2,10 %) el martes 17, con los inventarios certificados de ICE en 186 414 sacos (mínimo de 27 años) aunque hay 212 959 sacos de Brasil pendientes de clasificación; el robusta de enero cayó 73 USD/t (−2,32 %) porque VICOFA prevé 2,1 Mt en Vietnam (+5 %) y el real brasileño tocó un mínimo de 19 meses. La brecha arábica–robusta se abre, lo que favorece al soluble hecho con robusta importado frente a la cereza mexicana."
     },
     {
       "id": "m36",
@@ -130,16 +141,6 @@
       "url": "https://www.razon.com.mx/mexico/2026/11/15/frente-frio-6-pronostican-lluvias-bajas-temperaturas-y-viento-para-el-16-de-noviembre/",
       "title": "Frente frío 6: hasta 150 mm en Veracruz, Puebla y Oaxaca el lunes 16",
       "summary": "El SMN prevé 75–150 mm en el norte y centro de Veracruz, el norte de Puebla y el norte de Oaxaca, 50–75 mm en la Huasteca y el este de Chiapas, y mínimas de 0–5 °C en las sierras; el martes 17 sigue lloviendo fuerte en el sureste. Más días de corte y secado perdidos en plena cosecha."
-    },
-    {
-      "id": "n21",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-14",
-      "source": "World Coffee Index",
-      "url": "https://www.worldcoffeeindex.com/article/coffee-week-2026-11-14/",
-      "title": "El arábica cierra la semana casi sin cambios y el robusta sigue cerca de mínimos de 2,5 años",
-      "summary": "El arábica tocó 262,15 ¢/lb el miércoles, saltó a 280,20 el jueves y cerró el viernes cerca de 274, mientras los cafés pendientes de clasificación en ICE superaron 100 000 sacos y los certificados llegaron a su nivel más alto desde mediados de octubre; el indicador Otros Suaves de la OIC subió levemente. Más inventarios limitan los rebotes de la referencia del café mexicano."
     },
     {
       "id": "m33",
