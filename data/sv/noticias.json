@@ -1,15 +1,40 @@
 {
-  "updatedAt": "2026-11-23T19:46:36Z",
+  "updatedAt": "2026-11-24T11:47:46Z",
   "items": [
     {
-      "id": "n30",
+      "id": "n31",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-22",
+      "date": "2026-11-24",
       "source": "Reuters · Business Recorder",
-      "url": "https://brecorder.com/news/40450161/robusta-coffee-hits-3-year-low",
-      "title": "La robusta cae a su mínimo en tres años y pierde cerca de 10 % en la semana; el arábica baja a US$2,71/lb",
-      "summary": "La robusta de ICE bajó 3,3 % a US$2.879/t, tras tocar US$2.854, por el avance de la cosecha en Vietnam y un real brasileño en su nivel más débil desde abril de 2025, que impulsa las exportaciones de Brasil; el arábica cedió 2 % a US$2,708/lb. Una bolsa a la baja abarata la fijación de precio de los contratos salvadoreños del ciclo 2026-27."
+      "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
+      "title": "La robusta se estabiliza en US$2.882/t tras su mínimo de tres años; Vietnam cosecha mucho pero vende despacio",
+      "summary": "La robusta de ICE quedó casi sin cambios tras tocar US$2.854/t el viernes, sostenida por inventarios certificados en su nivel más bajo en más de un mes; en Vietnam la llegada de café nuevo es lenta y los costos de recolección suben."
+    },
+    {
+      "id": "s23",
+      "scope": "sv",
+      "regiones": [
+        "apaneca-ilamatepec",
+        "alotepec-metapan"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-23",
+      "source": "El Diario de Hoy (MARN)",
+      "url": "https://www.elsalvador.com/noticias/nacional/clima-pronostico-vientos-nortes/1305566/2026/",
+      "title": "MARN eleva el aviso: vientos nortes con ráfagas de 35 a 60 km/h del 25 al 28 de noviembre",
+      "summary": "El informe especial del MARN prevé nortes de 15 a 25 km/h con ráfagas de hasta 60 km/h en las zonas altas del norte, occidente y oriente, precedidos de lluvias y tormentas en Apaneca-Ilamatepec y la zona central. Riesgo de fruta caída en fincas altas que empiezan la corta."
+    },
+    {
+      "id": "s24",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Agricultura",
+      "date": "2026-11-23",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/el-salvador/2026/11/24/presupuesto-estatal-de-agricultura-de-2027-buscara-ampliar-la-produccion-nacional-el-riego-y-la-ayuda-climatica-en-el-salvador/",
+      "title": "El MAG pide US$189,2 millones para 2027 e incluye la caficultura en su programa de aumento de la producción",
+      "summary": "El presupuesto agrícola de 2027 incluye recursos para el café dentro del programa de Aumento de la Producción, sin detallar el monto; el MAG reporta 7.400 caficultores atendidos y una cosecha 2025-26 de 964.017 quintales (+12,28 %)."
     },
     {
       "id": "s20",
@@ -21,20 +46,6 @@
       "url": "https://diarioelsalvador.com/dedinero/el-salvador-ya-tiene-a-sus-campeones-en-barismo-y-metodos/879157",
       "title": "El ISC corona a los campeones nacionales de barismo y métodos que irán a Japón y Colombia",
       "summary": "Óscar Zuleta (barismo) competirá en el Campeonato Mundial de Baristas en Japón en abril de 2027 y Bryan Martínez Coca (métodos) en la Copa Mundial de Métodos de Filtrado en Colombia en septiembre de 2027; compitieron 22 participantes en la 18.ª y 8.ª edición. Es promoción de origen; no trae datos de volúmenes ni precios."
-    },
-    {
-      "id": "s21",
-      "scope": "sv",
-      "regiones": [
-        "apaneca-ilamatepec",
-        "alotepec-metapan"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-22",
-      "source": "El Diario de Hoy",
-      "url": "https://www.elsalvador.com/noticias/nacional/vientos-nortes-desde-miercoles/1305265/2026/",
-      "title": "El MARN anuncia vientos nortes del 25 al 27 de noviembre con ráfagas de hasta 45 km/h",
-      "summary": "Una alta presión al sureste de EE. UU. traerá vientos débiles a moderados (10–22 km/h, ráfagas de 30 a 45 km/h) y madrugadas más frescas, con tardes de hasta 38 °C en el oriente. Para el comprador: riesgo de caída de fruta madura en las zonas altas y expuestas del occidente y el norte, donde empieza la corta."
     },
     {
       "id": "n28",
@@ -110,17 +121,6 @@
       "summary": "Según el informe de octubre de la OIC, el mundo exportó 142,39 millones de sacos en 2025-26 y la región de Centroamérica, México y el Caribe subió 4,6 % a 16,01 millones. Los inventarios de robusta en Londres crecieron 29,9 % a 1,13 millones de sacos, mientras los de arábica en EE. UU. cerraron octubre en su menor nivel desde 2002."
     },
     {
-      "id": "s16",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-09",
-      "source": "Prensa Latina (BCR)",
-      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
-      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
-      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
-    },
-    {
       "id": "s15",
       "scope": "sv",
       "regiones": [
@@ -132,6 +132,28 @@
       "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
       "title": "Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar en los K-Coffee Awards de Corea",
       "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
+    },
+    {
+      "id": "s16",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-09",
+      "source": "Prensa Latina (BCR)",
+      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
+      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
+      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
+    },
+    {
+      "id": "s25",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-06",
+      "source": "Infobae (ISC)",
+      "url": "https://www.infobae.com/el-salvador/2026/11/06/exportaciones-de-cafe-de-el-salvador-generan-usd-19605-millones-un-12-mas/",
+      "title": "ISC: el ciclo 2025-26 cierra con US$196,05 millones en exportaciones de café, 12 % más",
+      "summary": "Se exportaron 607.908 quintales oro (+0,33 %), con US$189,57 millones de café oro, US$4,13 millones de soluble y US$2,33 millones de tostado; Norteamérica compró el 64 % y Europa el 16,9 %. El alza vino del precio, no del volumen."
     }
   ]
 }

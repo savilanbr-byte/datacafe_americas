@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:46:36Z",
+  "updatedAt": "2026-11-24T11:47:46Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -27,20 +27,19 @@
     "period": ""
   },
   "impactos": [
-    "El MARN prevé que 2026 cierre como el año más seco en 56 años (déficit cercano al 32 %), con cuatro sequías meteorológicas: respalda las estimaciones de una cosecha 2026-27 menor (750–800 mil quintales según la Asociación Cafetalera). Conviene asegurar con tiempo los volúmenes de lotes de altura.",
-    "La época seca (desde el 9 de noviembre) favorece la corta y el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Cacahuatique, Chichontepec y El Bálsamo-Quezaltepec, que está en plena cosecha.",
-    "Los vientos nortes del 25 al 27 de noviembre (ráfagas de 30 a 45 km/h) pueden botar fruta madura en las partes altas y expuestas de Apaneca-Ilamatepec y Alotepec-Metapán, donde la corta del SHG apenas empieza; vale preguntar al proveedor por pérdidas de fruta.",
-    "La vaguada prefrontal del martes 24 traerá lluvias y tormentas de tarde y noche en casi todas las cordilleras (Apaneca-Ilamatepec, El Bálsamo, Tecapa-Chinameca, Morazán y San Vicente): puede interrumpir el secado en patio, así que conviene revisar la humedad del pergamino antes de cerrar lotes tempranos.",
-    "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración en las zonas altas puede adelantarse y dar grano más pequeño y menos denso."
+    "Los vientos nortes del 25 al 28 de noviembre, con ráfagas de 35 a 60 km/h en zonas altas, pueden botar fruta madura en Apaneca-Ilamatepec, Alotepec-Metapán y la parte alta de Cacahuatique, donde la corta del estricta altura (SHG) apenas arranca: conviene preguntar al proveedor por fruta caída y su efecto en volumen.",
+    "Las lluvias y tormentas de tarde del 24 y 25 de noviembre en Apaneca-Ilamatepec, la zona central y el oriente pueden interrumpir el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Chichontepec y El Bálsamo-Quezaltepec: revisa la humedad del pergamino antes de cerrar lotes tempranos.",
+    "El MARN prevé que 2026 cierre como el año más seco en 56 años (déficit cercano al 32 %), lo que respalda una cosecha 2026-27 menor (750–800 mil quintales según la Asociación Cafetalera): conviene asegurar con tiempo los lotes de altura.",
+    "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración en zonas altas puede adelantarse y dar grano más pequeño y menos denso; vale pedir análisis de criba y densidad en las primeras muestras."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-23",
-    "headline": "MARN: vaguada prefrontal trae lluvias y tormentas el martes 24 en las cordilleras; vientos nortes del 25 al 27 de noviembre",
+    "asOf": "2026-11-24",
+    "headline": "MARN emite informe especial: vientos nortes con ráfagas de 35 a 60 km/h desde la tarde del miércoles 25 hasta el sábado 28 de noviembre, sobre todo en zonas altas",
     "items": [
-      "Lunes 23: lluvias breves y puntuales por la tarde al norte de Chalatenango y Morazán y de noche en San Salvador, Chalatenango, Cabañas, San Vicente, La Paz, Usulután y la costa de La Libertad; viento del noreste de 10 a 20 km/h (ráfagas de 30 km/h).",
-      "Martes 24: una vaguada prefrontal favorece lluvias y tormentas por la tarde y noche en Apaneca-Ilamatepec, El Bálsamo, Tecapa-Chinameca, Chalatenango, Morazán, San Miguel, San Vicente y Santa Ana; máximas de 30 °C en San Salvador y 35 °C en San Miguel.",
-      "Del miércoles 25 a la madrugada del viernes 27, vientos nortes débiles a moderados (10–22 km/h, ráfagas de 30 a 45 km/h) y madrugadas más frescas. El MARN prevé cerrar 2026 como el año más seco en 56 años (déficit cercano al 32 %)."
+      "Martes 24: calor, con lluvias y tormentas puntuales por la tarde (incluida la cordillera Apaneca-Ilamatepec y el Área Metropolitana) y de noche en la zona central, Usulután y San Miguel; máximas de 30 °C en Santa Ana y 38 °C en San Miguel.",
+      "Miércoles 25: lluvias y tormentas de tarde y noche en las zonas central y oriental, Apaneca-Ilamatepec y Santa Ana, algunas de fuerte intensidad; desde la tarde entran los vientos nortes (15–25 km/h, ráfagas de 35 a 60 km/h).",
+      "Del 25 al 28 de noviembre los nortes afectarán sobre todo las zonas altas del norte, occidente y oriente, con noches y madrugadas frescas. El MARN prevé cerrar 2026 como el año más seco en 56 años (déficit cercano al 32 %)."
     ],
     "links": [
       {
@@ -48,12 +47,8 @@
         "url": "https://www.snet.gob.sv/ver/meteorologia/pronostico/48+horas/"
       },
       {
-        "t": "El Diario de Hoy · vientos nortes desde el miércoles",
-        "url": "https://www.elsalvador.com/noticias/nacional/vientos-nortes-desde-miercoles/1305265/2026/"
-      },
-      {
-        "t": "Infobae · cuándo llegan los vientos nortes",
-        "url": "https://www.infobae.com/el-salvador/2026/11/22/las-altas-temperaturas-daran-paso-a-los-vientos-nortes-en-el-salvador-cuando-iniciaran/"
+        "t": "El Diario de Hoy · nortes con ráfagas de 60 km/h",
+        "url": "https://www.elsalvador.com/noticias/nacional/clima-pronostico-vientos-nortes/1305566/2026/"
       },
       {
         "t": "El Diario de Hoy · 2026, el año más seco en 56 años",
