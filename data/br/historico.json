@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:48:30Z",
+  "updatedAt": "2026-11-24T19:47:45Z",
   "series": {
     "tc": {
       "label": "Dólar en reales",
@@ -1255,6 +1255,10 @@
         [
           "2026-11-23",
           2851.0
+        ],
+        [
+          "2026-11-24",
+          2834.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",

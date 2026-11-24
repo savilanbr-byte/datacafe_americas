@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-11-24T11:48:30Z",
+  "updatedAt": "2026-11-24T19:47:45Z",
   "items": [
+    {
+      "id": "b66",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "cerrado-mineiro",
+        "matas-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-24",
+      "source": "Portal do Agronegócio",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-1-6-em-nova-york-e-mercado-brasileiro-deve-ter-poucos-negocios",
+      "title": "Pocos negocios en el físico: el arábica cae 1,6 % en Nueva York y el conilon pierde R$10 en Vitória",
+      "summary": "Con el marzo de la ICE en 263,45 ¢/lb, el arábica del Sul de Minas (bebida buena) se ofrece a R$1.760–1.765 la saca y el del Cerrado (bebida dura) a R$1.770–1.775; en la Zona da Mata el rio tipo 7 bajó a R$1.170–1.175 y el conilon tipo 7 en Vitória a R$940–945. Los productores retienen ventas esperando mejores ofertas."
+    },
+    {
+      "id": "b67",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-24",
+      "source": "BCB · ISTOÉ Dinheiro",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-24-11-2026-pec-despesas-obrigatorias",
+      "title": "El dólar baja de R$5,90 y la PTAX cae 1,9 % tras el anuncio de una PEC de gasto",
+      "summary": "Un día después de superar R$6 durante el voto del ajuste fiscal, el dólar cedió cuando se supo que Lula autorizó enviar al Congreso una enmienda constitucional (PEC) para limitar el gasto obligatorio; la PTAX de venta del Banco Central quedó en R$5,8573 (−1,9 %). Un real más firme encarece el café brasileño en dólares y puede frenar las ventas del productor."
+    },
+    {
+      "id": "b68",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-24",
+      "source": "CoffeeTalk (Valor International)",
+      "url": "https://coffeetalk.com/daily-dose/from-origin/11-2026/111440/",
+      "title": "Cooxupé y Cocatrel esperan menos café en 2027 y los costos aprietan al productor",
+      "summary": "Cooxupé prevé una caída de 10 % (unos 7 M de sacas) por el ciclo bienal y El Niño, y Cocatrel de 5–10 % (≈1,9 M frente a 2,2 M); según Campo Futuro, el arábica mecanizado cuesta R$1.237 la saca frente a un precio de R$1.594 y el conilon R$1.059 frente a R$932, es decir, hoy a pérdida. Menor oferta y márgenes estrechos sostienen los precios internos de la safra 2027."
+    },
+    {
+      "id": "n42",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Bloomberg (InvestNews)",
+      "url": "https://investnews.com.br/economia/cafe-arabica-alta-estoques-28-anos",
+      "title": "Los inventarios certificados de arábica saltan 19 % y el precio toca un mínimo de cinco meses",
+      "summary": "Los stocks certificados de la ICE subieron a más de 268.000 sacas, la mayor alta diaria desde 1998, con unas 250.000 sacas más esperando clasificación y 80 % de aprobación; el arábica llegó a caer 2,2 %. Se diluye el apretón de corto plazo y llega a Europa la cosecha récord de Brasil."
+    },
     {
       "id": "n41",
       "scope": "mundo",
@@ -34,17 +84,6 @@
       "url": "https://cotacaodocafe.com/historico/",
       "title": "CEPEA: el arábica cede 0,95 % a R$1.693 la saca y el conilon baja por quinta vez, a R$936",
       "summary": "El indicador del arábica (tipo 6 bebida dura) quedó en R$1.692,77 el 23-nov tras el alza del 19-nov, y el del conilon cayó 1,24 % a R$935,58, −3,8 % desde el 13-nov. Con el dólar en R$5,92, el arábica sale a unos US$286 por saca y el conilon a unos US$158: el conilon brasileño se abarata en dólares."
-    },
-    {
-      "id": "b65",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-23",
-      "source": "Jovem Pan",
-      "url": "https://jovempan.com.br/economia/em-meio-a-votacao-do-ajuste-fiscal-dolar-fecha-a-r-592-apos-bater-r-6-durante-o-dia/",
-      "title": "El dólar pasa de R$6 durante el voto del ajuste fiscal y cierra en R$5,92",
-      "summary": "El 23-nov el dólar abrió en R$5,98, superó R$6 en la mañana y cerró con baja de 0,14 % a R$5,92, mientras la Cámara votaba el paquete fiscal y circulaban nombres afines al mercado para la directoria del Banco Central. Un real tan débil estimula las ventas del productor y mejora el precio en dólares para el comprador."
     },
     {
       "id": "b62",
@@ -103,22 +142,6 @@
       "summary": "Los envíos de octubre valieron US$501,2 M (+22,9 %) a un precio medio de US$4.606/t; en enero–octubre sumaron 1,56 M t (+18,5 %) y US$7.080 M (−5,2 %). Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, que empieza a fines de noviembre: más robusta compitiendo con el conilon brasileño."
     },
     {
-      "id": "b55",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro",
-        "matas-de-minas",
-        "conilon-es"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-18",
-      "source": "Safras & Mercado",
-      "url": "https://safras.com.br/com-dolar-e-ny-em-direcoes-opostas-brasil-deve-ter-dia-de-poucos-negocios-para-o-cafe",
-      "title": "El físico sube en Minas: arábica del Cerrado a R$1.800 la saca; el conilon se mueve poco",
-      "summary": "El 17-nov el arábica bebida dura del Cerrado Mineiro pasó a R$1.800–1.805 la saca y el bebida boa del Sul de Minas a R$1.790–1.795 (+R$40), mientras el conilon tipo 7 en Vitória quedó cerca de R$980. Para el 18-nov se esperaban pocos negocios, con Nueva York a la baja y el dólar al alza; el productor vende solo lo necesario."
-    },
-    {
       "id": "b50",
       "scope": "br",
       "regiones": [
@@ -130,16 +153,6 @@
       "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325",
       "title": "El agregado del USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 M de sacas",
       "summary": "Subió el arábica a 49,2 M de sacas (desde 47,5 M; +29,5 % anual) y bajó el conilon a 23,3 M (desde 24,4 M) por el mal clima en el Espírito Santo; las exportaciones se mantienen en 49 M de sacas (+26 %). Para 2027-28 ve floradas tempranas prometedoras, pero será año de baja del ciclo bienal del arábica y preocupa El Niño."
-    },
-    {
-      "id": "n36",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Safras & Mercado",
-      "url": "https://safras.com.br/cafe-fecha-em-forte-alta-em-ny-com-estoques-certificados-nos-menores-niveis-em-27-anos",
-      "title": "Inventarios certificados de arábica en mínimos de 27 años, pero hay casi 197.000 sacas brasileñas en fila",
-      "summary": "Las existencias certificadas de la ICE bajaron a 186.414 sacas el lunes 16, mientras 196.852 sacas brasileñas esperan clasificación, la mayor cifra en tres años y nueve meses; el marzo cerró en 281,40 ¢/lb (+6,50 ¢). Si ese café se aprueba, los inventarios se recuperarían y limitarían las alzas."
     },
     {
       "id": "b46",
