@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:48:32Z",
+ "updatedAt": "2026-11-24T11:48:02Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -27,20 +27,20 @@
   "period": ""
  },
  "impactos": [
-  "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene la época seca: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío que salen ahora.",
-  "Con mañanas secas y solo chubascos débiles y aislados por la tarde, Copán, Opalaca y Montecillos mantienen buenas condiciones para secar al sol el pergamino de las zonas bajas y medias que ya se cortan.",
+  "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene un fin de año más seco y cálido de lo normal: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío que salen ahora.",
+  "La vaguada prefrontal de este martes trae lluvias y tormentas a Copán, Opalaca, Montecillos y Comayagua: puede interrumpir el secado al sol del pergamino de las zonas bajas y medias que ya se cortan; pide la humedad del grano al recibir y evita lotes rehumedecidos.",
   "Sin frentes fríos hasta diciembre (CENAOS espera uno o dos) y con temperaturas sobre lo normal, la fruta puede madurar de golpe antes del pico de cosecha (20-dic a 20-feb): si faltan recolectores sube el riesgo de café sobremaduro o caído; revisa la calidad de los primeros lotes.",
-  "En Agalta y el oriente (Olancho, El Paraíso) las lluvias de la tarde por humedad del Caribe, y en diciembre los frentes fríos, pueden interrumpir el secado: pide la humedad del grano al recibir.",
+  "En Agalta y el oriente (Olancho, El Paraíso) las lluvias débiles por humedad del Caribe, y en diciembre los frentes fríos, pueden alargar el secado de los primeros lotes.",
   "Una sequía prolongada favorece el beneficio seco pero puede estresar la floración de 2027-28 en las zonas bajas."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-23",
-  "headline": "COPECO prevé un lunes con mañana seca y chubascos débiles por la tarde; CENAOS espera uno o dos frentes fríos en diciembre",
+  "asOf": "2026-11-24",
+  "headline": "COPECO: una vaguada prefrontal sobre el occidente trae lluvias y chubascos el martes 24; CENAOS espera uno o dos frentes fríos en diciembre",
   "items": [
-   "Lunes 23: condiciones mayormente secas por la mañana; por la tarde, la humedad del Caribe favorece lluvias y chubascos débiles y aislados en el norte, centro y suroccidente.",
-   "Diciembre: CENAOS (Mario Centeno) estima uno o dos frentes fríos, con lluvias más intensas sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía.",
-   "Noviembre sigue como mes de transición, con lluvias cada vez más aisladas y acumulados bajos; la temporada ciclónica cierra el 30 de noviembre."
+   "Martes 24: lluvias débiles a moderadas con actividad eléctrica aislada en el occidente, noroccidente y norte (Copán, Ocotepeque, Santa Bárbara, Lempira, Intibucá, La Paz, Comayagua, Cortés, Yoro, Atlántida, Colón); centro y oriente con lluvias débiles y aisladas.",
+   "Sur (Choluteca y Valle) seco y caluroso, hasta 35 °C; La Esperanza con mínima de 16 °C y Tegucigalpa entre 17 y 27 °C.",
+   "Diciembre: CENAOS estima uno o dos frentes fríos, con lluvias más intensas en el litoral Caribe; la temporada ciclónica cierra el 30 de noviembre."
   ],
   "links": [
    {
@@ -48,12 +48,12 @@
     "url": "https://copeco.gob.hn/"
    },
    {
-    "t": "Once Noticias (23-nov)",
-    "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/"
+    "t": "Radio HRN (23-nov)",
+    "url": "https://www.radiohrn.hn/clima-honduras-pronostico-lluvias-martes-24-noviembre-2026-2026-11-23"
    },
    {
-    "t": "Radio HRN (22-nov)",
-    "url": "https://www.radiohrn.hn/lluvias-y-temperaturas-en-honduras-pronostico-clima-cenaos-copeco-2026-11-22"
+    "t": "Once Noticias (23-nov)",
+    "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/"
    }
   ]
  },

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:48:32Z",
+ "updatedAt": "2026-11-24T11:48:02Z",
  "items": [
   {
    "id": "h26",
@@ -11,6 +11,23 @@
    "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/",
    "title": "CENAOS espera uno o dos frentes fríos en diciembre; el lunes arranca seco",
    "summary": "Para el lunes 23 COPECO prevé mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente; CENAOS estima que en diciembre entrarán uno o dos frentes fríos, con más lluvia sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía. Las zonas cafetaleras siguen con buen tiempo para secar pergamino hasta que llegue el primer frente."
+  },
+  {
+   "id": "h29",
+   "scope": "hn",
+   "regiones": [
+    "copan",
+    "opalaca",
+    "montecillos",
+    "comayagua",
+    "agalta"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-23",
+   "source": "Radio HRN · COPECO",
+   "url": "https://www.radiohrn.hn/clima-honduras-pronostico-lluvias-martes-24-noviembre-2026-2026-11-23",
+   "title": "Vaguada prefrontal trae lluvias al occidente y norte este martes",
+   "summary": "COPECO prevé para el martes 24 lluvias débiles a moderadas, con actividad eléctrica aislada, en Copán, Ocotepeque, Santa Bárbara, Lempira, Intibucá, La Paz, Comayagua y Yoro; el centro y oriente, con lluvias débiles y aisladas, y el sur seco (hasta 35 °C). La Esperanza tendría mínima de 16 °C. Puede frenar el secado al sol del pergamino en el occidente."
   },
   {
    "id": "h24",
@@ -42,6 +59,17 @@
    "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
    "title": "El arábica rebota tras el recorte del USDA a las exportaciones de Colombia; la robusta sigue en mínimos",
    "summary": "El USDA bajó a 11,5 M de sacos las exportaciones colombianas 2026-27 (−6 %) y el arábica de marzo subió 1,4 %, mientras la robusta de enero cayó 1,7 % a su menor nivel en 2,75 años por la cosecha de Vietnam y el real brasileño en mínimos de 19 meses. Los inventarios certificados de arábica en ICE (186.414 sacos) están en su nivel más bajo en 27 años, lo que sostiene los diferenciales de los lavados centroamericanos como el hondureño."
+  },
+  {
+   "id": "h28",
+   "scope": "hn",
+   "regiones": [],
+   "tag": "Exportaciones",
+   "date": "2026-11-19",
+   "source": "Revista EyN · BCH",
+   "url": "https://www.revistaeyn.com/centroamericaymundo/exportaciones-de-honduras-crecieron-76-a-septiembre-impulsadas-por-el-cafe-AO32691881",
+   "title": "BCH: el café sigue al frente de las exportaciones a septiembre, con más volumen y menos precio",
+   "summary": "A septiembre de 2026 el café sumó US$2.089,4 millones (35,4 % de las mercancías generales), US$27,2 millones menos que en 2025: el volumen creció 14,7 % pero el precio promedio cayó 13,9 %. Destinos principales: EE. UU., Alemania y Bélgica; confirma que el ingreso por quintal viene a la baja al arrancar 2026-27."
   },
   {
    "id": "h22",
@@ -108,38 +136,6 @@
    "url": "https://www.elheraldo.hn/economia/liberalizacion-mercado-divisas-tardara-18-24-meses-honduras-DH32606353",
    "title": "El BCH liberalizará el mercado de divisas en 18 a 24 meses y espera los dólares del café",
    "summary": "El mercado interbancario arrancaría a inicios de 2027: bancos y casas de cambio retendrán el 10 % de los dólares que compren y trasladarán el 90 % al BCH. El banco espera la entrada de divisas por exportaciones de café, que suele empezar en noviembre, para reforzar reservas antes del cambio."
-  },
-  {
-   "id": "h11",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-11-09",
-   "source": "La Prensa",
-   "url": "https://www.laprensa.hn/economia/presidente-bch-retos-economicos-honduras-2027-DB32556713",
-   "title": "BCH: la inflación ronda el 7 % y El Niño le suma medio punto",
-   "summary": "El presidente del BCH, Roberto Lagos, dice que la inflación está cerca del 7 % (meta 4–5 %) y volvería al rango hacia mayo–junio de 2027; el banco sube la tasa de política para frenar el deslizamiento del lempira. Las remesas crecen alrededor de 11,5 % en 2026."
-  },
-  {
-   "id": "h14",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-11-09",
-   "source": "Tunota · CENAOS",
-   "url": "https://www.tunota.com/honduras-hoy/honduras-frente-frio-clima-navidad-2026-11-09",
-   "title": "CENAOS prevé una temporada fría atípica por El Niño",
-   "summary": "Habrá menos frentes fríos, lluvias aisladas en el corredor seco el resto de noviembre y diciembre–enero 1–2 °C sobre lo normal, según CENAOS. Favorece el secado del café, pero puede acelerar la maduración y presionar la mano de obra."
-  },
-  {
-   "id": "n19",
-   "scope": "mundo",
-   "tag": "Producción",
-   "date": "2026-11-09",
-   "source": "Comunicaffe",
-   "url": "https://www.comunicaffe.com/international-coffee-week-2026-brazil/",
-   "title": "Producción mundial récord de 189,7 M de sacos y Brasil con 67,6 M, según USDA y Conab",
-   "summary": "El USDA prevé 189,7 M de sacos de 60 kg en 2026-27 (+6 %) y la Conab 67,6 M para Brasil (+19,6 %). Más oferta mundial presiona la bolsa y el precio de referencia del café hondureño."
   }
  ]
 }
