@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:46:46Z",
+  "updatedAt": "2026-11-24T19:46:58Z",
   "items": [
     {
       "id": "ni9",
@@ -126,6 +126,16 @@
       "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
       "title": "El robusta se estabiliza cerca de su mínimo de tres años y el arábica rebota 1,8 %",
       "summary": "El robusta de Londres rondó US$2.882 por tonelada, apenas sobre el mínimo de tres años de US$2.854 del viernes, con los inventarios certificados de ICE en su nivel más bajo en más de un mes; el arábica subió 1,8 % a US$2,7325 por libra. Vietnam cosecha una cosecha grande pero con llegadas lentas y costos de recolección más altos; para Nicaragua, un NY más estable da algo de margen a los contratos a precio por fijar."
+    },
+    {
+      "id": "n34",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "InvestNews (Bloomberg)",
+      "url": "https://investnews.com.br/economia/cafe-arabica-alta-estoques-28-anos",
+      "title": "El arábica toca mínimo de cinco meses tras el mayor salto diario de inventarios ICE desde 1998",
+      "summary": "El 24-nov el contrato más negociado de arábica llegó a caer 2,2 % luego de que los inventarios certificados de ICE subieran 19 % a más de 268.000 sacos (quinta alza seguida), con casi 250.000 sacos más esperando certificación. Se diluye el soporte que daban los inventarios mínimos: para comprar café nicaragüense, más presión bajista en NY en plena cosecha."
     }
   ]
 }
