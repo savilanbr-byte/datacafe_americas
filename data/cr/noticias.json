@@ -1,30 +1,41 @@
 {
-  "updatedAt": "2026-11-23T19:45:33Z",
+  "updatedAt": "2026-11-24T11:48:06Z",
   "items": [
     {
-      "id": "n49",
+      "id": "n50",
       "scope": "cr",
       "regiones": [
+        "zona-norte",
         "perez-zeledon",
         "coto-brus",
         "valle-central"
       ],
       "tag": "Clima",
-      "date": "2026-11-21",
-      "source": "La Nación · IMN",
-      "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/",
-      "title": "IMN: se consolida la época seca y solo el Pacífico Sur mantiene lluvias por la tarde",
-      "summary": "Para el sábado 21 el IMN previó ambiente seco y estable en casi todo el país, con máximas de 35,5 °C en Puntarenas, 34,4 °C en Golfito y 30,2 °C en Alajuela. Favorece el secado en el Valle Central, mientras que en la zona sur la humedad sigue siendo el punto a vigilar en los lotes recién beneficiados."
+      "date": "2026-11-23",
+      "source": "El Observador · IMN",
+      "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/",
+      "title": "IMN: semana caliente y casi sin lluvia; solo el Pacífico Sur conserva chubascos cortos por la tarde",
+      "summary": "El lunes 23 Liberia llegó a 35,4 °C y Alajuela a 30,7 °C; el IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte. Buen secado al sol en el Valle Central; en Pérez Zeledón y Coto Brus aún conviene vigilar la humedad de los lotes."
     },
     {
-      "id": "n46",
+      "id": "n52",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "source": "Reuters · Business Recorder",
-      "url": "https://www.brecorder.com/news/40449781/vietnam-coffee-prices-slide",
-      "title": "Vietnam: el robusta en finca cae a 74.200–75.000 VND/kg y Londres toca mínimos desde enero de 2024",
-      "summary": "Con la cosecha vietnamita en marcha y el real brasileño débil, el robusta de enero cerró en US$3.019/t (−2 %) el miércoles y los precios internos bajaron unos 9.000 dong por kg en una semana; un robusta más barato resta soporte a los blends y presiona los diferenciales de arábicas comerciales."
+      "url": "https://brecorder.com/news/40450161/robusta-coffee-hits-3-year-low",
+      "title": "El robusta toca mínimos de tres años y pierde cerca de 10 % en la semana por la cosecha de Vietnam",
+      "summary": "El robusta de ICE cayó 3,3 % a US$2.879/t (mínimo de US$2.854) y el arábica 2 % a 270,80 ¢/lb; el real en su nivel más débil desde abril de 2025 empuja las ventas de Brasil. Un mercado bajista abarata la referencia NY para fijar contratos de café costarricense."
+    },
+    {
+      "id": "n53",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-21",
+      "source": "Global Agriculture",
+      "url": "https://www.global-agriculture.com/global-agriculture/brazils-coffee-export-surge-and-weak-real-pull-global-prices-in-opposite-directions/",
+      "title": "Brasil exporta 23 % más café en octubre y el real cerca de mínimos de 19 meses alienta más ventas",
+      "summary": "Brasil embarcó 287.000 t en octubre; Vietnam subió 61 % sus exportaciones y proyecta 2,1 millones de t de robusta en 2026-27. Más oferta de origen competidor pesa sobre los diferenciales de lavados centroamericanos."
     },
     {
       "id": "n48",
@@ -37,6 +48,17 @@
       "summary": "El contrato de marzo cerró el viernes 20 en 268,50 ¢/lb (−7,50 en el día y −5,00 en la semana) y el robusta de enero en US$2.881/t; hay 225.219 sacos certificados y 251.230 en espera de clasificación. El aumento de existencias en ICE quita soporte al precio base de NY con el que se negocia la cosecha tica 2026-27."
     },
     {
+      "id": "n51",
+      "scope": "cr",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-20",
+      "source": "Infobae · UNED",
+      "url": "https://www.infobae.com/costa-rica/2026/11/20/dolar-por-debajo-de-450-y-tasas-de-interes-estables-uned-anticipa-como-cerrara-la-economia-de-costa-rica-en-2026/",
+      "title": "La UNED prevé que el dólar cierre 2026 por debajo de ₡450 por la oferta estacional de divisas",
+      "summary": "Con la referencia del BCCR en ₡442,56 (compra) y ₡448,34 (venta), la UNED anticipa un colón fuerte a fin de año, lo que reduce los colones que recibe el productor y presiona la liquidación de la cosecha 2026-27."
+    },
+    {
       "id": "n47",
       "scope": "mundo",
       "tag": "Producción",
@@ -45,16 +67,6 @@
       "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
       "title": "El USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 millones de sacos, pero con arábica de menor calidad",
       "summary": "El arábica sube 29,5 % a 49,2 millones de sacos y el robusta cae 6,8 % a 23,3 millones; las exportaciones llegarían a un récord de 49,1 millones, aunque las lluvias tardías bajaron la calidad en Minas Gerais y los inventarios finales caen a 3,4 millones. Más arábica brasileño presiona el diferencial de los lavados centroamericanos, pero la escasez de calidades altas sostiene las primas de Costa Rica."
-    },
-    {
-      "id": "n41",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-17",
-      "source": "Barchart · Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-settles-higher-shrinking-192133756.html",
-      "title": "El arábica sube 2,1 % a máximos de dos semanas con inventarios ICE en mínimos de 27 años; el robusta cae a mínimos de casi tres años",
-      "summary": "El contrato de diciembre ganó 5,90 ¢/lb (+2,1 %) porque las existencias certificadas bajaron a 186.414 sacos, aunque hay 212.959 sacos brasileños en espera de clasificación; el robusta de enero cayó 2,3 % ante la previsión de 2,1 Mt para Vietnam (+5 %) y exportaciones vietnamitas de octubre +61 %. Con el real en mínimos de 19 meses y Brasil exportando 23 % más, el rebote de NY puede ser corto: conviene fijar por tramos los lavados de Costa Rica."
     },
     {
       "id": "n45",
@@ -118,24 +130,6 @@
       "url": "https://www.tvsur.co.cr/noticias/perez-zeledon-fue-sede-del-exporta-cafe-tour-para-impulsar-la-exportacion-del-grano-de-oro/",
       "title": "Procomer y el ICAFE llevan el «Exporta Café Tour» a Rivas de Pérez Zeledón",
       "summary": "Procomer, el ICAFE, Esencial Costa Rica y la Feria del Café capacitaron a productores de la zona sur sobre el mercado internacional y los trámites para exportar. Apunta a más microbeneficios de Pérez Zeledón vendiendo directo, una vía para conseguir lotes trazables de la región."
-    },
-    {
-      "id": "n26",
-      "scope": "cr",
-      "regiones": [
-        "valle-central",
-        "valle-occidental",
-        "los-santos",
-        "perez-zeledon",
-        "coto-brus",
-        "zona-norte"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-09",
-      "source": "El Observador · IMN",
-      "url": "https://observador.cr/cuando-dejara-de-llover-en-costa-rica-imn-anuncia-llegada-de-la-epoca-seca-a-varias-regiones/",
-      "title": "IMN fija el calendario de la época seca: Valle Central esta semana, Pacífico Sur a fines de noviembre",
-      "summary": "El IMN prevé que la época seca se establezca en el Pacífico Norte y el Valle Central entre el 9 y el 15 de noviembre, en el Pacífico Central del 16 al 22 y en el Pacífico Sur del 23 al 29; Caribe y Zona Norte oriental no tienen época seca definida. Para compras, el secado al sol mejora primero en Valle Central y Occidental, mientras que en Pérez Zeledón y Coto Brus la humedad sigue siendo un riesgo dos semanas más."
     }
   ]
 }

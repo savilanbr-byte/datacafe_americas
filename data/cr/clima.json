@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:45:33Z",
+  "updatedAt": "2026-11-24T11:48:06Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,29 +22,29 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, que arrancan su pico de recolección, siguen con mañanas despejadas y época seca consolidada: buen momento para secar al sol, aunque las ráfagas en el Valle Central piden proteger patios hasta que bajen el fin de semana.",
-    "Pérez Zeledón y Coto Brus, en plena recolección, son la única zona que mantiene chubascos de tarde y aguaceros aislados en montaña; conviene exigir control de humedad y actividad de agua en esos lotes hasta que entre la época seca.",
-    "Turrialba y la Zona Norte tienen lluvias cortas de mañana y algo de noche: el secado al sol sigue más lento que en el Valle Central y vale revisar fruta caída y sobremaduración.",
-    "Los Santos abre formalmente su cosecha a inicios de diciembre con tiempo seco y estable, favorable para lotes de altura densos; el atraso de unos 30 días en la fertilización que reportó el ICAFE puede pesar en el rendimiento por fanega.",
-    "Con El Niño de fuerte a muy fuerte hasta ene–mar 2027 y máximas de 32–37 °C, sube el riesgo de broca y de estrés en las floraciones de 2027-28; pide análisis físico antes de fijar volúmenes de la cosecha 2026-27."
+    "Valle Central y Valle Occidental, en el arranque de su pico de recolección, tienen semana seca y cálida (máx. ~31 °C): buen momento para secar al sol y acelerar la entrega de lotes; los alisios pueden traer ráfagas en patios expuestos.",
+    "Pérez Zeledón y Coto Brus, en plena recolección, solo tienen chubascos aislados por la tarde: el secado mejora, pero conviene seguir pidiendo control de humedad y actividad de agua en los lotes de la zona sur.",
+    "Turrialba y la Zona Norte pueden recibir lluvias ocasionales de montaña a fin de semana con el refuerzo de los alisios: el secado sigue más lento y vale revisar fruta caída y sobremaduración.",
+    "Los Santos abre formalmente su cosecha del 4 al 6 de diciembre con tiempo seco y estable, favorable para lotes de altura densos.",
+    "Con El Niño de fuerte a muy fuerte hasta ene–mar 2027, una época seca más cálida y posibles déficits de lluvia en el Caribe y el este de la Zona Norte, sube el riesgo de broca y de estrés en las floraciones de 2027-28; pide análisis físico antes de fijar volúmenes."
   ],
   "avisos": {
     "source": "IMN",
-    "asOf": "2026-11-21",
-    "headline": "IMN: se mantienen las condiciones estables y secas de la segunda quincena de noviembre; solo el Pacífico Sur conserva chubascos por la tarde",
+    "asOf": "2026-11-24",
+    "headline": "IMN: del 26 al 30 de noviembre sigue el aire seco y estable; pocas lluvias salvo montañas del Caribe y la Zona Norte",
     "items": [
-      "Tendencia del 19 al 25 de noviembre: mañanas despejadas en el Pacífico y el Valle Central; chubascos dispersos por la tarde al oeste del Valle Central y en el Pacífico Central, y más frecuentes en el Pacífico Sur, con aguaceros aislados en sus montañas el fin de semana.",
-      "Alisios con ráfagas moderadas en Guanacaste y el Valle Central que bajan el fin de semana; Caribe y Zona Norte con nubosidad parcial y lluvias cortas por la mañana.",
-      "Calor: máximas previstas de 32 °C en el Valle Central, 34 °C en el Pacífico Sur, 35 °C en la Zona Norte y 37 °C en el Pacífico Norte; el sábado 21, Golfito llegó a 34,4 °C y Alajuela a 30,2 °C."
+      "Tendencia 26–30 nov: pocas lluvias en el Valle Central (máx. 31 °C, mín. 17 °C) y el Pacífico Norte (máx. 36 °C); chubascos aislados de tarde en el Pacífico Central y Sur (Pacífico Sur: máx. 31 °C, mín. 12 °C).",
+      "Un frente al norte de Centroamérica no afecta directamente al país, pero puede reforzar los alisios y aumentar la humedad y las lluvias ocasionales en montañas del Caribe y la Zona Norte en la segunda mitad de la semana.",
+      "El 23 de noviembre Liberia marcó 35,4 °C y Alajuela 30,7 °C; el IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte."
     ],
     "links": [
       {
-        "t": "IMN · tendencia semanal (19–25 nov)",
+        "t": "IMN · tendencia semanal (26–30 nov)",
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "La Nación · Sábado caluroso y ventoso; solo una región con lluvia (21 nov)",
-        "url": "https://www.nacion.com/sucesos/imn-pronostica-un-sabado-caluroso-y-ventoso-en/7EWG32BRMFGURGRPYKBKX4YZLA/story/"
+        "t": "El Observador · Lunes caluroso y con pocas lluvias (23 nov)",
+        "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/"
       },
       {
         "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
