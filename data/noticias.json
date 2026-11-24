@@ -1,27 +1,49 @@
 {
-  "updatedAt": "2026-11-23T19:47:25Z",
+  "updatedAt": "2026-11-24T11:49:31Z",
   "items": [
     {
-      "id": "nv1",
+      "id": "d1",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Precios",
+      "date": "2026-11-24",
+      "source": "La Jornada",
+      "url": "https://www.jornada.com.mx/2026/11/24/estados/024n1est",
+      "title": "Cafeticultores de Chiapas marchan en Tapachula contra los 43 pesos por kilo que paga Nestlé",
+      "summary": "Productores de unos 20 municipios de la Costa, Sierra y Frontera (165.000 familias, según sus líderes) piden una mesa con el gobierno estatal y un precio de 55 pesos/kg; Nestlé responde que su plan de compra 2026-27 paga por encima de Londres y Nueva York y prevé comprar más volumen que el año pasado. Señal de tensión en el precio al productor del robusta del Soconusco."
+    },
+    {
+      "id": "d4",
       "scope": "am",
       "pais": "Brasil",
       "tag": "Precios",
-      "date": "2026-11-23",
-      "source": "Conexão Itajubá · Cepea/Esalq",
-      "url": "https://www.conexaoitajuba.com.br/noticia/cafe-arabica-sobe-155-e-saca-chega-a-r-170906-em-sao-paulo-mwsxrg73",
-      "title": "Indicador Cepea del arábica sube a R$ 1.709,06 por saca",
-      "summary": "El indicador Cepea/Esalq del arábica cerró el 19/11 en R$ 1.709,06 por saca de 60 kg (+1,56% en el día, +6,93% en el mes; US$ 288,81), mientras el robusta cayó 1,08% a R$ 947,36. El real débil sostiene los precios internos aunque Nueva York baje, lo que limita los descuentos que ofrece el productor brasileño."
+      "date": "2026-11-24",
+      "source": "Três Pontas Stúdio Live · Cepea",
+      "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-encerra-segunda-feira-com-queda-nos-precos-do-arabica-e-do-conilon/",
+      "title": "Brasil: arábica y conilon bajan en el mercado interno el lunes",
+      "summary": "Según los indicadores Cepea, la saca de 60 kg de arábica quedó en R$ 1.692,77 (−0,95 %) y la de conilon en R$ 935,58 (−1,24 %) el 23 de noviembre. La caída en reales es menor que en Nueva York porque el dólar sube frente al real."
     },
     {
-      "id": "nv5",
+      "id": "d2",
       "scope": "am",
       "pais": "Colombia",
       "tag": "Divisas",
       "date": "2026-11-23",
-      "source": "Mag El Comercio · Banco de la República",
-      "url": "https://elcomercio.pe/mag/respuestas/co/precio-del-dolar-en-colombia-hoy-lunes-23-de-noviembre-2026-trm-tipo-de-cambio-usd-a-cop-compra-y-venta-nnda-nnrt-noticia/",
-      "title": "TRM en Colombia sube a $3.461,92 por dólar",
-      "summary": "La TRM vigente para el lunes 23 de noviembre es de $3.461,92 pesos por dólar, frente a $3.415,10 del viernes 20. Un peso más débil eleva el precio interno en pesos para el caficultor y puede mejorar la competitividad de las ofertas de café colombiano en dólares."
+      "source": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/11/23/dolar-hoy-en-colombia-cotizacion-de-cierre-del-23-de-noviembre/",
+      "title": "El dólar cierra por encima de $3.500 en Colombia tras subir más de $220 en una semana",
+      "summary": "El cierre promedio del lunes fue $3.506,54 (TRM $3.461,92), con cuatro alzas seguidas y +5,9 % semanal por apuestas de alza de tasas de la Fed, petróleo bajo, dudas fiscales y un recorte de 6 % en las exportaciones de café proyectadas. Un peso más débil sube el precio interno en pesos y mejora el margen del exportador."
+    },
+    {
+      "id": "d3",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Divisas",
+      "date": "2026-11-23",
+      "source": "Investing.com México",
+      "url": "https://mx.investing.com/news/forex-news/precio-del-dolar-hoy-peso-mexicano-celebra-regreso-de-huang-a-nvidia-por-que-3860091",
+      "title": "El peso mexicano toca su nivel más débil desde junio de 2025",
+      "summary": "El dólar llegó a 19,26 pesos el lunes antes de bajar a cerca de 19,14, tras una caída semanal del peso de 3,29 %; el mercado anticipa un alza de 25 puntos de la Fed el 9 de diciembre y el real brasileño está en su nivel más débil desde abril de 2025. Monedas débiles en México y Brasil abaratan el café de esos orígenes en dólares."
     },
     {
       "id": "t1",
@@ -32,17 +54,6 @@
       "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
       "title": "Vietnam: el robusta en finca baja a 71.200–72.000 VND/kg con el pico de cosecha",
       "summary": "El precio interno en las Tierras Altas Centrales cayó desde más de 83.000 VND/kg a mediados de noviembre, mientras Londres tocó mínimos de tres años (~USD 2.881/t) y Vietnam embarcó unas 108.800 t en octubre (+50 % anual). Más oferta asiática presiona al robusta y al diferencial frente a los conilon de Brasil."
-    },
-    {
-      "id": "nv7",
-      "scope": "am",
-      "pais": "México",
-      "tag": "Precios",
-      "date": "2026-11-22",
-      "source": "El Sol del Soconusco",
-      "url": "https://www.elsoldelsoconusco.com/2026/11/22/marcharan-productores-de-cafe-para-pedir-al-gobierno-intervenga-y-trasnacionales-paguen-precios-justos/",
-      "title": "Robusta del Soconusco cae a 37 pesos por kilo y productores marchan contra Nestlé",
-      "summary": "Unos 1,000 productores de robusta de más de 26 ejidos y cantones del Soconusco marchan el 23 de noviembre en Tapachula porque el kilo se paga a 37 pesos, frente a 50 pesos el año pasado, y piden al gobierno mediar con Nestlé, su principal comprador. Para el comprador, el robusta chiapaneco sale más barato al arrancar la cosecha, pero hay riesgo de tensión social y de que los productores retengan su café."
     },
     {
       "id": "nv11",
@@ -216,61 +227,6 @@
       "url": "https://www.bcnoticias.com.co/cosecha-cafetera-en-caldas-tendra-su-pico-en-diciembre-y-buscan-recolectores-en-cauca-y-narino/",
       "title": "Caldas: el pico de la cosecha se corre a la segunda semana de diciembre",
       "summary": "El Comité de Caldas espera el pico de recolección entre el 7 y el 13 de diciembre, cuando antes llegaba entre fines de septiembre e inicios de octubre; faltan recolectores y se paga en promedio $1.348 por kilo de cereza. El café nuevo de la cosecha principal llegará más tarde a los puertos."
-    },
-    {
-      "id": "nv2",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Producción",
-      "date": "2026-11-13",
-      "source": "SAFRAS & Mercado · Agência Safras",
-      "url": "https://safras.com.br/sic-debate-perspectivas-para-proxima-safra-brasileira-de-cafe",
-      "title": "Cooxupé estima quiebra inicial de 10% en el potencial de la cosecha 2027",
-      "summary": "En la Semana Internacional do Café, el presidente de Cooxupé, Carlos Augusto Rodrigues de Melo, situó la quiebra inicial en 10% del potencial productivo de 2027 en su área, con una cosecha muy desuniforme por varias floraciones y calidad afectada; Minasul también prevé una cosecha menor y Cecafé dice que es pronto para garantizarla. Señal de oferta de arábica más ajustada para 2027/28 que conviene considerar en coberturas a plazo."
-    },
-    {
-      "id": "nv3",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Clima",
-      "date": "2026-11-13",
-      "source": "Portal do Agronegócio · Reuters/Inmet",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-2027-florada-antecipada-exige-atencao-a-nutricao-e-ao-pegamento-dos-frutos",
-      "title": "Floración adelantada en Sul de Minas y Alta Mogiana: cosecha de arábica 2027 podría empezar en mayo",
-      "summary": "La primera gran floración ocurrió en septiembre, cerca de un mes antes de lo habitual, en la Alta Mogiana y el Sul de Minas, por lo que la recolección de arábica 2027 podría iniciar hacia mayo; el Inmet prevé calor sobre la media que amenaza el cuajado. Podría adelantar la llegada de café nuevo, pero el riesgo de pegamento irregular añade incertidumbre de volumen y calidad."
-    },
-    {
-      "id": "nv6",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Logística",
-      "date": "2026-11-13",
-      "source": "MundoMaritimo · MinTransporte Colombia",
-      "url": "https://www.mundomaritimo.cl/noticias/puerto-de-buenaventura-colombia-acumulacion-de-110000-contenedores-vacios-genera-congestion-logistica",
-      "title": "Buenaventura acumula 110.000 contenedores vacíos y se congestiona",
-      "summary": "El Ministerio de Transporte reportó unos 110.000 contenedores vacíos acumulados en Buenaventura (por cada cuatro que entran sale uno), puerto que mueve cerca del 42% del comercio exterior colombiano, sin cronograma aún para retirarlos. Al ser la principal salida del café colombiano, conviene prever demoras en despachos y holgura en fechas de embarque."
-    },
-    {
-      "id": "nv9",
-      "scope": "am",
-      "pais": "Honduras",
-      "tag": "Insumos",
-      "date": "2026-11-13",
-      "source": "El Informativo",
-      "url": "https://www.elinformativo.hn/archivos/136200",
-      "title": "SAG termina de entregar 327,333 quintales de fertilizante a 83,777 caficultores hondureños",
-      "summary": "La SAG terminó de entregar 327,333 quintales de fertilizante a 83,777 productores con menos de 200 quintales de producción, transfirió 100 millones al IHCAFE para investigación y avanza en georreferenciar unas 400 mil manzanas para la EUDR. Con fincas ya fertilizadas, los pequeños productores pueden sostener rendimientos en una cosecha 2026-2027 que se pronostica en cerca de 7 millones de quintales, y se facilita la trazabilidad para enviar a la UE, que recibe más del 50% del café hondureño."
-    },
-    {
-      "id": "nv10",
-      "scope": "am",
-      "pais": "Costa Rica",
-      "tag": "Cafés especiales",
-      "date": "2026-11-13",
-      "source": "Delfino.cr",
-      "url": "https://delfino.cr/2026/11/cafe-de-tablon-obtiene-marca-colectiva-tras-un-siglo-de-tradicion-cafetalera",
-      "title": "Café de Tablón (El Guarco) obtiene la primera marca colectiva de café de Costa Rica",
-      "summary": "El Registro Nacional inscribió la marca colectiva 'Café de Tablón' (registro 422394, clase de Niza 30, vigente desde el 11 de noviembre), que agrupa a más de 200 familias de El Guarco, Cartago; en su cosecha trabajan más de 2,500 personas de Nicaragua y Panamá. Ofrece a los compradores un origen protegido y trazable para diferenciar lotes de esa zona."
     }
   ]
 }

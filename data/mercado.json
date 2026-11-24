@@ -1,11 +1,9 @@
 {
   "curve": {
     "asOf": "2026-11-23",
+    "source": "Investing.com",
+    "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
     "points": [
-      {
-        "contract": "Dic-26",
-        "value": 274.35
-      },
       {
         "contract": "Mar-27",
         "value": 267.75
@@ -21,25 +19,27 @@
       {
         "contract": "Sep-27",
         "value": 252.15
+      },
+      {
+        "contract": "Dic-27",
+        "value": 247.65
       }
-    ],
-    "source": "Investing.com",
-    "url": "https://www.investing.com/commodities/us-coffee-c-contracts"
+    ]
   },
   "fx": {
-    "asOf": "2026-11-23",
+    "asOf": "2026-11-24",
     "base": "USD",
     "rates": {
-      "BRL": 5.945309,
-      "COP": 3437.41712,
-      "MXN": 19.113379,
-      "GTQ": 7.63739,
-      "HNL": 26.861394,
-      "NIO": 36.750173,
-      "CRC": 447.588816,
+      "BRL": 5.958461,
+      "COP": 3498.224647,
+      "MXN": 19.184157,
+      "GTQ": 7.65602,
+      "HNL": 26.912355,
+      "NIO": 36.845277,
+      "CRC": 447.836011,
       "VES": 919.8227,
-      "PEN": 3.442586,
-      "BOB": 11.723917
+      "PEN": 3.456345,
+      "BOB": 11.736523
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -140,56 +140,55 @@
       "value": 164.19
     },
     "kc1": {
-      "asOf": "2026-11-23",
-      "change": -0.5,
-      "chgDec": 2,
-      "contract": "Dic-26",
-      "dec": 2,
-      "label": "KC C1",
-      "note": "Cierre del 23-nov (página de contratos de Investing)",
       "source": "Investing.com",
       "unit": "¢/lb",
-      "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 274.35
+      "dec": 2,
+      "chgDec": 2,
+      "asOf": "2026-11-23",
+      "label": "KC C1",
+      "contract": "Mar-27",
+      "value": 267.75,
+      "change": -0.75,
+      "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
+      "note": "Cierre del 23-nov. Investing pasó el contrato frente a Mar-27; Dic-26 (en periodo de entrega) cerró en 274,35"
     },
     "kc2": {
-      "asOf": "2026-11-23",
-      "chgDec": 2,
-      "contract": "Mar-27",
-      "dec": 2,
-      "label": "KC C2",
-      "note": "Cierre del 23-nov (página de contratos de Investing)",
       "source": "Investing.com",
       "unit": "¢/lb",
+      "dec": 2,
+      "chgDec": 2,
+      "asOf": "2026-11-23",
+      "label": "KC C2",
+      "contract": "May-27",
+      "value": 261.15,
+      "change": -0.95,
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 267.75,
-      "change": -0.75
+      "note": "Cierre del 23-nov (página de contratos de Investing)"
     },
     "kc3": {
-      "asOf": "2026-11-23",
-      "chgDec": 2,
-      "contract": "May-27",
-      "dec": 2,
-      "label": "KC C3",
-      "note": "Cierre del 23-nov (página de contratos de Investing)",
       "source": "Investing.com",
       "unit": "¢/lb",
+      "dec": 2,
+      "chgDec": 2,
+      "asOf": "2026-11-23",
+      "label": "KC C3",
+      "contract": "Jul-27",
+      "value": 256.05,
+      "change": -1.1,
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 261.15,
-      "change": -0.95
+      "note": "Cierre del 23-nov (página de contratos de Investing)"
     },
     "kc4": {
-      "asOf": "2026-11-23",
-      "chgDec": 2,
-      "contract": "Jul-27",
-      "dec": 2,
-      "label": "KC C4",
-      "note": "Cierre del 23-nov (página de contratos de Investing)",
       "source": "Investing.com",
       "unit": "¢/lb",
+      "dec": 2,
+      "chgDec": 2,
+      "asOf": "2026-11-23",
+      "label": "KC C4",
+      "contract": "Sep-27",
+      "value": 252.15,
       "url": "https://www.investing.com/commodities/us-coffee-c-contracts",
-      "value": 256.05,
-      "change": -1.1
+      "note": "Cierre del 23-nov (página de contratos de Investing)"
     },
     "prodMundo": {
       "asOf": "2026-07-02",
@@ -203,16 +202,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-23",
-      "change": -40.0,
-      "changePct": -1.38,
+      "asOf": "2026-11-24",
+      "change": -17.0,
+      "changePct": -0.6,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 2851.0
+      "value": 2834.0,
+      "note": "Intradía (06:31); cierre del 23-nov: 2.851"
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -264,5 +264,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-23T19:47:25Z"
+  "updatedAt": "2026-11-24T11:49:31Z"
 }

@@ -22,20 +22,20 @@
   },
   "forecastSource": {
     "name": "MET Norway · Yr",
-    "period": "24 al 30 de noviembre",
+    "period": "25 de noviembre al 1 de diciembre",
     "url": "https://www.yr.no/"
   },
   "impactos": [
-    "México y Centroamérica: semana con poca lluvia en Matagalpa (~5 mm), Tarrazú (~8 mm), Tapachula (~9 mm), Santa Ana (~14 mm) y Antigua (~15 mm); algo más en Boquete (~16 mm) y Marcala (~20 mm en 5 días). Buenas condiciones para el corte y el secado en plena cosecha, que El Niño ya recorta en Chiapas, Costa Rica y El Salvador.",
-    "Colombia y Venezuela: Chinchiná tendrá lluvia los 7 días (~82 mm, el doble que la semana pasada) justo antes del pico de la cosecha principal en Caldas, previsto para diciembre: espera demoras en la recolección y revisa la humedad del pergamino; Boconó recibe unos 12 mm.",
-    "Perú, Ecuador y Bolivia: lluvia diaria y abundante en Loja (~105 mm), Caranavi (~99 mm) y Jaén (~82 mm), en floración y llenado del grano de la próxima cosecha; con El Niño fuerte a muy fuerte, vigila lluvias intensas en la costa norte de Perú y Ecuador y posibles cortes de vías hacia Paita y Guayaquil.",
-    "Brasil: Varginha acumularía ~127 mm en 7 días de lluvia, favorable para el cuajado de la cosecha 2027/28 tras las floraciones irregulares, aunque con riesgo de caída de frutos si llega con tormentas; en Linhares se esperan ~25 mm en 4 días, suficientes para el conilon de Espírito Santo.",
-    "Calidad: el tiempo seco y caluroso en buena parte de Centroamérica favorece el secado pero también la broca y los defectos, mientras que las lluvias persistentes en el Eje Cafetero, el sur de Ecuador, Jaén y los Yungas de Bolivia obligan a revisar humedad y taza de los lotes antes de cerrar compras."
+    "México y Centroamérica: semana casi seca en Matagalpa (~1 mm), Tapachula (~6 mm), Tarrazú (~7 mm), Santa Ana (~8 mm) y Antigua (~11 mm); algo más en Boquete (~20 mm) y Marcala (~23 mm en 4 días). Buen tiempo para cortar y secar en plena cosecha, aunque El Niño ya recorta volúmenes en Chiapas, Guatemala, Costa Rica y El Salvador: asegura cupos temprano.",
+    "Colombia y Venezuela: Chinchiná tendrá lluvia los 7 días (~95 mm) a pocas semanas del pico de la cosecha principal en Caldas (segunda semana de diciembre): espera demoras en la recolección y revisa la humedad del pergamino; Boconó recibe unos 16 mm.",
+    "Perú, Ecuador y Bolivia: lluvia diaria en Caranavi (~110 mm), Jaén (~80 mm) y Loja (~74 mm), en floración y llenado del grano de la próxima cosecha; con El Niño fuerte a muy fuerte, vigila lluvias intensas en la costa norte de Perú y Ecuador y posibles cortes de vías hacia Paita y Guayaquil.",
+    "Brasil: Varginha acumularía ~130 mm en 6 días de lluvia, favorable para el cuajado de la cosecha de arábica 2027/28 tras la floración adelantada, con riesgo de caída de frutos si llega en tormentas; Linhares tendría apenas ~6 mm, una semana seca y calurosa (32 °C) para el conilon de Espírito Santo.",
+    "Calidad: el tiempo seco en Centroamérica favorece el secado pero también la broca y los defectos por sobresecado al sol, mientras que las lluvias persistentes en el Eje Cafetero, el sur de Ecuador, Jaén y los Yungas obligan a revisar humedad y taza de los lotes antes de cerrar compras."
   ],
   "regions": [
     {
       "dept": "México",
-      "p7": 9.2,
+      "p7": 5.6,
       "place": "Tapachula, Chiapas",
       "region": "mexico",
       "tmax": 32,
@@ -43,31 +43,31 @@
     },
     {
       "dept": "Guatemala",
-      "p7": 14.8,
+      "p7": 11.0,
       "place": "Antigua",
       "region": "guatemala",
-      "tmax": 25,
-      "tmin": 15
+      "tmax": 24,
+      "tmin": 14
     },
     {
       "dept": "Honduras",
-      "p7": 20.4,
+      "p7": 22.9,
       "place": "Marcala, La Paz",
       "region": "honduras",
       "tmax": 24,
-      "tmin": 16
+      "tmin": 15
     },
     {
       "dept": "El Salvador",
-      "p7": 13.6,
+      "p7": 7.9,
       "place": "Santa Ana",
       "region": "el-salvador",
-      "tmax": 30,
+      "tmax": 31,
       "tmin": 21
     },
     {
       "dept": "Nicaragua",
-      "p7": 5.2,
+      "p7": 0.8,
       "place": "Matagalpa",
       "region": "nicaragua",
       "tmax": 29,
@@ -75,7 +75,7 @@
     },
     {
       "dept": "Costa Rica",
-      "p7": 8.1,
+      "p7": 7.0,
       "place": "San Marcos de Tarrazú",
       "region": "costa-rica",
       "tmax": 25,
@@ -83,23 +83,23 @@
     },
     {
       "dept": "Panamá",
-      "p7": 15.7,
+      "p7": 19.8,
       "place": "Boquete, Chiriquí",
       "region": "panama",
+      "tmax": 25,
+      "tmin": 19
+    },
+    {
+      "dept": "Colombia",
+      "p7": 94.5,
+      "place": "Chinchiná, Caldas",
+      "region": "colombia",
       "tmax": 25,
       "tmin": 18
     },
     {
-      "dept": "Colombia",
-      "p7": 82.2,
-      "place": "Chinchiná, Caldas",
-      "region": "colombia",
-      "tmax": 26,
-      "tmin": 18
-    },
-    {
       "dept": "Venezuela",
-      "p7": 12.1,
+      "p7": 15.6,
       "place": "Boconó, Trujillo",
       "region": "venezuela",
       "tmax": 26,
@@ -107,7 +107,7 @@
     },
     {
       "dept": "Ecuador",
-      "p7": 104.5,
+      "p7": 73.5,
       "place": "Loja",
       "region": "ecuador",
       "tmax": 22,
@@ -115,7 +115,7 @@
     },
     {
       "dept": "Perú",
-      "p7": 81.7,
+      "p7": 80.2,
       "place": "Jaén, Cajamarca",
       "region": "peru",
       "tmax": 29,
@@ -123,7 +123,7 @@
     },
     {
       "dept": "Bolivia",
-      "p7": 98.8,
+      "p7": 109.9,
       "place": "Caranavi, La Paz",
       "region": "bolivia",
       "tmax": 28,
@@ -131,20 +131,20 @@
     },
     {
       "dept": "Brasil",
-      "p7": 126.8,
+      "p7": 129.6,
       "place": "Varginha, Sul de Minas",
       "region": "brasil-arabica",
-      "tmax": 25,
+      "tmax": 24,
       "tmin": 19
     },
     {
       "dept": "Brasil",
-      "p7": 25.3,
+      "p7": 6.3,
       "place": "Linhares, Espírito Santo",
       "region": "brasil-conilon",
       "tmax": 32,
       "tmin": 24
     }
   ],
-  "updatedAt": "2026-11-23T19:47:25Z"
+  "updatedAt": "2026-11-24T11:49:31Z"
 }
