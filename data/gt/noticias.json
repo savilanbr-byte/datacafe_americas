@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-24T11:47:50Z",
+  "updatedAt": "2026-11-24T19:48:08Z",
   "items": [
+    {
+      "id": "g29",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Industria",
+      "date": "2026-11-24",
+      "source": "Anacafé",
+      "url": "https://www.anacafe.org/eligen-a-nuevo-presidente-y-vicepresidente-para-la-junta-directiva-de-anacafé/",
+      "title": "Anacafé elige a Gerardo Flores Castañeda como nuevo presidente",
+      "summary": "La Junta General de Anacafé (24-nov) eligió a Gerardo Flores Castañeda como presidente y a Adolfo Boppel Archila como vicepresidente por dos años, en relevo de Andrés Destarac; la nueva directiva promete unidades productivas más rentables y seguir con riego, fertirriego y materiales genéticos de robusta. Para el comprador, cambia el interlocutor gremial en plena cosecha 2026-27."
+    },
     {
       "id": "g28",
       "scope": "gt",
