@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-24T11:48:06Z",
+  "updatedAt": "2026-11-24T19:46:24Z",
   "items": [
+    {
+      "id": "n52",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Reuters · Business Recorder",
+      "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
+      "title": "El robusta se estabiliza cerca de su mínimo de tres años; el arábica rebota 1,8 %",
+      "summary": "El robusta de ICE se mantenía en US$2.882/t tras marcar el viernes un mínimo de tres años de US$2.854, con llegadas lentas de la cosecha vietnamita y existencias certificadas en su nivel más bajo en más de un mes; el arábica subía 1,8 % a 273,25 ¢/lb. Un robusta barato sigue presionando los diferenciales de los arábicas lavados como los de Costa Rica."
+    },
     {
       "id": "n50",
       "scope": "cr",
@@ -16,16 +26,6 @@
       "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/",
       "title": "IMN: semana caliente y casi sin lluvia; solo el Pacífico Sur conserva chubascos cortos por la tarde",
       "summary": "El lunes 23 Liberia llegó a 35,4 °C y Alajuela a 30,7 °C; el IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte. Buen secado al sol en el Valle Central; en Pérez Zeledón y Coto Brus aún conviene vigilar la humedad de los lotes."
-    },
-    {
-      "id": "n52",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-22",
-      "source": "Reuters · Business Recorder",
-      "url": "https://brecorder.com/news/40450161/robusta-coffee-hits-3-year-low",
-      "title": "El robusta toca mínimos de tres años y pierde cerca de 10 % en la semana por la cosecha de Vietnam",
-      "summary": "El robusta de ICE cayó 3,3 % a US$2.879/t (mínimo de US$2.854) y el arábica 2 % a 270,80 ¢/lb; el real en su nivel más débil desde abril de 2025 empuja las ventas de Brasil. Un mercado bajista abarata la referencia NY para fijar contratos de café costarricense."
     },
     {
       "id": "n53",
