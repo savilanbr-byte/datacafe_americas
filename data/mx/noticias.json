@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-23T19:48:04Z",
+  "updatedAt": "2026-11-24T11:47:30Z",
   "items": [
     {
-      "id": "m42",
+      "id": "m43",
       "scope": "mx",
       "regiones": [
-        "robusta-chiapas",
-        "chiapas-soconusco"
+        "chiapas-soconusco",
+        "robusta-chiapas"
       ],
       "tag": "Precios",
-      "date": "2026-11-23",
-      "source": "Cadena Política",
-      "url": "https://cadenapolitica.com/2026/11/23/cafeticultores-de-chiapas-protestan-contra-nestle/",
-      "title": "Cafetaleros del Soconusco marchan en Tapachula y piden a Nestlé 55 pesos por kilo",
-      "summary": "Productores de al menos 20 municipios marcharon el lunes 23 contra Nestlé, que según ellos paga 43 pesos por kilo de café, y exigen un mínimo de 55 MXN/kg y una mesa de negociación convocada por el gobierno de Chiapas; la empresa no ha respondido. El conflicto puede retrasar la venta de robusta del Soconusco en plena cosecha."
+      "date": "2026-11-24",
+      "source": "La Jornada",
+      "url": "https://www.jornada.com.mx/2026/11/24/estados/024n1est",
+      "title": "Cafetaleros de la Costa, Sierra y Frontera de Chiapas marchan en Tapachula contra los precios de Nestlé",
+      "summary": "Productores de al menos 20 municipios (unas 165 mil familias, según los organizadores) reclaman que Nestlé paga 43 pesos por kilo y piden 55 MXN/kg y una mesa con el gobierno de Chiapas; la empresa responde que su plan de compras 2026-27 paga por encima de Londres y Nueva York y que comprará más volumen que el año pasado. Para el comprador: tensión en el precio del robusta y del arábica del Soconusco en plena cosecha."
     },
     {
       "id": "m41",
@@ -153,34 +153,6 @@
       "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/",
       "title": "La cereza sube hasta 16,10 pesos por kilo en Huatusco y las Altas Montañas",
       "summary": "El jueves 12 se pagaba de 14,20 MXN/kg (Rincón Toningo, Tlaltetela) a 15,80–16,10 (Capulapa, Huatusco), con Boca del Monte y Totutla en 16 y FICUS comprando a 15,60 en Sábanas; el monitoreo de la Comisión de Seguimiento de Precios pone el promedio de Huatusco–Ixhuatlán en 15,40. Los precios ya rozan el mínimo de 16 que pide la CNOC."
-    },
-    {
-      "id": "m24",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-09",
-      "source": "Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/11/09/tapachula-cumbre-cafe-chiapas-coffee-summit-gratis/",
-      "title": "Chiapas Coffee Summit en Tapachula del 23 al 28 de noviembre",
-      "summary": "La primera cumbre internacional del café en Chiapas reunirá a unos 15 compradores de España, Francia, Austria, EE. UU., Alemania y Costa Rica, con catas, presentación de la oferta exportable (25 y 26) y visitas a fincas (27 y 28); el gobierno estatal espera unos 60 millones de pesos en ventas. Oportunidad para conocer lotes de Chiapas."
-    },
-    {
-      "id": "m28",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "chiapas-frailesca",
-        "chiapas-altos"
-      ],
-      "tag": "Eventos",
-      "date": "2026-11-09",
-      "source": "Alerta Chiapas",
-      "url": "https://alertachiapas.com/2026/11/09/tuxtla-expo-cafe-13-regiones-dia-del-cafe-chiapaneco/",
-      "title": "Expo de café de 13 regiones de Chiapas en Tuxtla el 20 y 21 de noviembre",
-      "summary": "Productores de las 13 regiones cafetaleras de Chiapas (más de 180 mil en el estado) exponen el 20 y 21 de noviembre en el Parque Bicentenario de Tuxtla, antes del Día del Café Chiapaneco (24-nov) y del Chiapas Coffee Summit en Tapachula; ocasión para conocer lotes de la nueva cosecha."
     }
   ]
 }
