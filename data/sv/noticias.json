@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-24T11:47:46Z",
+  "updatedAt": "2026-11-24T19:46:23Z",
   "items": [
+    {
+      "id": "n32",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Bloomberg · InvestNews",
+      "url": "https://investnews.com.br/economia/cafe-arabica-alta-estoques-28-anos",
+      "title": "El arábica cae a su mínimo en cinco meses tras el mayor salto diario de los inventarios certificados desde 1998",
+      "summary": "Los inventarios certificados de la ICE subieron 19 % tras el cierre del lunes 23, a más de 268 mil sacos (quinta alza seguida), con casi 250 mil sacos más esperando clasificación; el contrato más negociado llegó a caer 2,2 %. Más café disponible en Nueva York resta presión a los diferenciales y da margen para negociar precios en El Salvador."
+    },
     {
       "id": "n31",
       "scope": "mundo",
@@ -46,16 +56,6 @@
       "url": "https://diarioelsalvador.com/dedinero/el-salvador-ya-tiene-a-sus-campeones-en-barismo-y-metodos/879157",
       "title": "El ISC corona a los campeones nacionales de barismo y métodos que irán a Japón y Colombia",
       "summary": "Óscar Zuleta (barismo) competirá en el Campeonato Mundial de Baristas en Japón en abril de 2027 y Bryan Martínez Coca (métodos) en la Copa Mundial de Métodos de Filtrado en Colombia en septiembre de 2027; compitieron 22 participantes en la 18.ª y 8.ª edición. Es promoción de origen; no trae datos de volúmenes ni precios."
-    },
-    {
-      "id": "n28",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-19",
-      "source": "UkrAgroConsult",
-      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
-      "title": "El arábica de diciembre cae 3,6 % y la robusta toca su mínimo en casi tres años; los inventarios certificados bajan a 186.400 sacos",
-      "summary": "El 18 de noviembre el arábica de diciembre perdió 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha récord que prevé el USDA (189,7 millones de sacos; Brasil 71,9 millones) y por las exportaciones de octubre de Brasil (+23 %) y Vietnam (+61 %). Los inventarios certificados de arábica en ICE cayeron a 186.400 sacos, mínimo de 27 años, aunque hay 212.960 sacos brasileños esperando clasificación."
     },
     {
       "id": "s22",
