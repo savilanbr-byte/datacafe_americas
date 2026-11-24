@@ -1,26 +1,6 @@
 {
-  "updatedAt": "2026-11-23T19:48:49Z",
+  "updatedAt": "2026-11-24T11:46:46Z",
   "items": [
-    {
-      "id": "ni5",
-      "scope": "ni",
-      "regiones": [
-        "jinotega",
-        "matagalpa",
-        "nueva-segovia",
-        "madriz",
-        "esteli",
-        "boaco",
-        "meseta",
-        "caribe-sur"
-      ],
-      "tag": "Producción",
-      "date": "2026-10-24",
-      "source": "Canal 4",
-      "url": "https://www.canal4.com.ni/nicaragua-inicia-plan-de-proteccion-y-seguridad-de-la-cosecha-cafetalera-2026-2027/",
-      "title": "Arranca el plan de seguridad de la cosecha 2026-27 con más de 3.000 militares",
-      "summary": "El Ejército y la Policía cubrirán Matagalpa, Jinotega, Estelí, Madriz, Nueva Segovia, Managua, Boaco, Carazo, Nueva Guinea y Ticuantepe; el acto central en Jinotega reunió a más de 4.000 personas. Es la señal oficial de que la recolección 2026-27 (proyectada en más de 3 M de quintales) está por empezar."
-    },
     {
       "id": "ni9",
       "scope": "ni",
@@ -108,16 +88,6 @@
       "summary": "Para la semana del 23 de noviembre el INETER prevé máximas de 31–34 °C en el Norte y Centro y de 34–36 °C en el Pacífico, casi sin lluvia salvo en el Caribe y con vientos de 10–25 km/h. El tiempo seco ayuda al secado del pergamino en Jinotega y Matagalpa, pero el calor sigue apurando la maduración en fincas con pocos cortadores."
     },
     {
-      "id": "n19",
-      "scope": "mundo",
-      "tag": "Regulación",
-      "date": "2026-11-09",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/11/09/vietnam-cheap-coffee-sustainability-eu-rules/",
-      "title": "Nestlé Vietnam: el café barato perderá atractivo en Europa con el reglamento antideforestación",
-      "summary": "El EUDR se aplica a la mayoría de empresas desde el 30 de diciembre de 2026 (las pequeñas, en 2027); Europa consume cerca del 24 % del café mundial. Para lotes de Nicaragua con destino a la UE, la geolocalización y trazabilidad de fincas pasa a ser requisito de compra."
-    },
-    {
       "id": "n24",
       "scope": "mundo",
       "tag": "Mercado",
@@ -148,14 +118,14 @@
       "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y el robusta de enero 2,25 %, presionados por la previsión del USDA de una producción mundial récord de 189,7 M de sacos en 2026-27 (Brasil 71,9 M, +14 %) y por más exportaciones de Vietnam (+61 % en octubre). Los inventarios certificados de arábica siguen en mínimo de 27 años (186.400 sacos), lo que da algo de soporte a los lavados centroamericanos como el nicaragüense frente a un mercado bajista."
     },
     {
-      "id": "n31",
+      "id": "n33",
       "scope": "mundo",
       "tag": "Mercado",
-      "date": "2026-11-22",
+      "date": "2026-11-24",
       "source": "Business Recorder (Reuters)",
-      "url": "https://www.brecorder.com/news/40450161/robusta-coffee-hits-3-year-low",
-      "title": "El robusta toca mínimo de tres años y cierra la semana con una caída cercana al 10 %",
-      "summary": "El robusta de ICE cayó 3,3 % a US$2.879 por tonelada el 20 de noviembre, tras tocar US$2.854 (mínimo de tres años), por el avance de la cosecha de Vietnam y un real brasileño en su nivel más bajo desde abril de 2025 que impulsa las ventas de Brasil; el arábica bajó 2 % a 270,8 ¢/lb. Un mercado bajista en plena cosecha centroamericana presiona los precios de contratos nuevos para el café de Nicaragua."
+      "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
+      "title": "El robusta se estabiliza cerca de su mínimo de tres años y el arábica rebota 1,8 %",
+      "summary": "El robusta de Londres rondó US$2.882 por tonelada, apenas sobre el mínimo de tres años de US$2.854 del viernes, con los inventarios certificados de ICE en su nivel más bajo en más de un mes; el arábica subió 1,8 % a US$2,7325 por libra. Vietnam cosecha una cosecha grande pero con llegadas lentas y costos de recolección más altos; para Nicaragua, un NY más estable da algo de margen a los contratos a precio por fijar."
     }
   ]
 }
