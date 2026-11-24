@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:47:40Z",
+  "updatedAt": "2026-11-24T19:47:22Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -25,19 +25,23 @@
     "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
     "La selva vuelve a la alerta roja por calor (aviso 480, 31–39 °C del 22 al 24 de noviembre) tras la del 16 al 18: dos olas de calor seguidas en plena floración pueden causar aborto de flores y mal cuajado en San Martín, Amazonas, la selva central, Cusco y Puno.",
     "El ENFEN (13-nov) espera lluvias normales o menores en la Amazonía y la sierra centro y suroriental hasta enero; si el calor sigue sin lluvias suficientes, crece el riesgo de déficit hídrico en Junín, Pasco, Huánuco, Cusco y Puno.",
-    "En el norte, las lluvias de El Niño costero (5–45 mm/día en la sierra norte) y la humedad elevan el riesgo de roya y pueden dificultar el transporte desde Huancabamba, Jaén y San Ignacio hacia Paita; un gremio de Cajamarca estima que hasta 60 % de los cafetales podría afectarse.",
+    "En el norte, las lluvias de El Niño costero (aviso 481: hasta 90 mm/día en la costa norte del 24 al 26 de noviembre, con Cajamarca y Piura en alerta) y la humedad elevan el riesgo de roya y pueden cortar vías desde Huancabamba, Jaén y San Ignacio hacia Paita; un gremio de Cajamarca estima que hasta 60 % de los cafetales podría afectarse.",
     "Con una campaña 2026 corta (220–230 mil t según la JNC; volumen exportado −11,4 % en septiembre según el INEI) y señales de riesgo para 2027, los diferenciales en origen tienden a mantenerse firmes aunque la bolsa de NY esté baja."
   ],
   "avisos": {
     "source": "SENAMHI · ENFEN",
-    "asOf": "2026-11-21",
-    "headline": "SENAMHI: alerta roja por calor en toda la selva del 22 al 24 de noviembre (aviso 480, hasta 39 °C), con lluvias en la sierra; ENFEN (comunicado 20-2026) mantiene El Niño costero extraordinario hasta febrero de 2027",
+    "asOf": "2026-11-24",
+    "headline": "SENAMHI: alerta roja por lluvias fuertes a extremas en la costa y la sierra norte del 24 al 26 de noviembre (aviso 481), tras la ola de calor en la selva del 22 al 24; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
+      "SENAMHI (aviso 481, 24-nov): lluvias de fuerte a extrema intensidad del 24 al 26 de noviembre, con 5–90 mm diarios en la costa norte y cerca de 15 mm en la sierra sur; incluye Cajamarca, Piura, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho (no Amazonas ni San Martín).",
       "SENAMHI (aviso 480, rojo): incremento de la temperatura diurna del domingo 22 al martes 24 de noviembre, con máximas de 31–39 °C en la selva norte, 31–38 °C en la selva central y 31–37 °C en la selva sur, noches cálidas, ráfagas cercanas a 45 km/h y chubascos; incluye Amazonas, Ayacucho, Cajamarca, Cusco, Huánuco, Junín, Pasco, Puno y San Martín.",
-      "SENAMHI (21-nov): lluvias en la sierra hasta el lunes 23, con 5–45 mm diarios en la sierra norte, 5–25 mm en la sierra central y cerca de 20 mm en la sierra sur, granizo sobre 2.900 m y lluvias ligeras a moderadas en la selva alta.",
       "ENFEN (comunicado N.° 20-2026, 13-nov): El Niño costero extraordinario hasta febrero de 2027 y debilitamiento gradual hasta julio; de noviembre a enero, lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía."
     ],
     "links": [
+      {
+        "t": "SENAMHI · El Popular (24-nov)",
+        "url": "https://elpopular.pe/actualidad/2026/11/24/senamhi-emite-alerta-roja-en-20-ciudades-de-la-costa-y-sierra-ante-lluvias-extremas-desde-el-24-de-noviembre-revisa-las-zonas-vulnerables-248160"
+      },
       {
         "t": "SENAMHI · El Comercio (21-nov)",
         "url": "https://elcomercio.pe/peru/lluvias-calor-extremo-y-oleaje-anomalo-en-regiones-peru-por-el-nino-en-vivo-ultimas-noticias-pronosticos-y-alertas-del-senamhi-lbposting-noticia/"

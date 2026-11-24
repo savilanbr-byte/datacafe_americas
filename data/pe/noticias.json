@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:47:40Z",
+  "updatedAt": "2026-11-24T19:47:22Z",
   "items": [
     {
       "id": "n25",
@@ -10,6 +10,19 @@
       "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
       "title": "La robusta se estabiliza tras tocar su mínimo de tres años; el arábica rebota 1,8 %",
       "summary": "El lunes 23 la robusta en Londres quedó cerca de US$2.882 por tonelada tras el mínimo de tres años de US$2.854 del viernes, con llegadas lentas de la cosecha de Vietnam y costos de recolección más altos; el arábica subió 1,8 % a US$2,7325 por libra tras perder 1,8 % la semana previa. Una bolsa baja presiona el precio base del café peruano aunque los diferenciales sigan firmes."
+    },
+    {
+      "id": "p45",
+      "scope": "pe",
+      "regiones": [
+        "huanuco"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-23",
+      "source": "Inforegión",
+      "url": "https://inforegion.pe/huanuco-monzon-organizara-su-primera-competencia-de-filtrados-de-cafe-para-impulsar-los-cafes-especiales/",
+      "title": "Monzón (Huánuco) organiza su primera competencia de filtrados de café el 12 de diciembre",
+      "summary": "El valle de Monzón, que lleva ocho años con concursos de calidad, realizará el «Showdown de Filtrados» con S/ 2.500 en premios; Huánuco quedó segundo en Taza de Excelencia Perú 2026. Señal de una oferta de cafés especiales en crecimiento en la zona de Tingo María y Monzón."
     },
     {
       "id": "p42",
@@ -185,16 +198,6 @@
       "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
       "title": "OIC: el indicador compuesto promedió 261,26 ¢/lb en octubre y las exportaciones mundiales 2025/26 subieron 1 %",
       "summary": "Según el informe de octubre de 2026 de la OIC, el precio compuesto bajó 0,3 % frente a septiembre; Otros Suaves (grupo de Perú) promedió 334,99 ¢/lb (+1,7 %) y la robusta 164,19 ¢/lb (−2 %). En el año cafetero 2025/26 se exportaron 142,39 millones de sacos (+1 %), con Brasil −7,3 % y Asia +12,8 %."
-    },
-    {
-      "id": "n18",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-11-11",
-      "source": "BPMoney · Cecafé",
-      "url": "https://bpmoney.com.br/agro/brasil-recorde-exportacao-cafe-53-milhoes-sacas-outubro/",
-      "title": "Brasil exporta un récord de 5,3 millones de sacos en octubre",
-      "summary": "Según Cecafé, los envíos de octubre de 2026 subieron 28,4 % interanual y facturaron US$1.786 M; a EE. UU. crecieron 119 % tras el fin de los aranceles adicionales. De enero a octubre suman 34,48 millones de sacos (+3,5 %) con precio medio de US$345,64 por saco (−9,5 %): más competencia brasileña en el mercado estadounidense, primer destino del café peruano."
     }
   ]
 }
