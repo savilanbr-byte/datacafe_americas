@@ -1,16 +1,15 @@
 {
-  "updatedAt": "2026-11-23T19:50:11Z",
+  "updatedAt": "2026-11-24T11:48:30Z",
   "items": [
     {
-      "id": "b63",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-23",
-      "source": "O Povo",
-      "url": "https://www.opovo.com.br/noticias/economia/2026/11/23/dolar-volta-a-subir-por-cautela-fiscal-e-com-ajuste-externo.html",
-      "title": "El dólar toca R$6 por primera vez desde abril de 2025 antes del voto del ajuste fiscal en la Cámara",
-      "summary": "Tras el feriado del 20-nov, el dólar llegó a R$6,00 en la mañana del 23-nov por la cautela con el paquete fiscal que votaba la Cámara, la demora en el nuevo equipo económico de Lula y el dólar fuerte en el exterior; la PTAX del día quedó en R$5,9708 (+1,4 %). Un real así de débil sube el precio en reales y anima las ventas del productor, lo que tiende a abaratar el café en dólares."
+      "id": "n41",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Reuters (Business Recorder)",
+      "url": "https://brecorder.com/news/40450445/robusta-coffee-end-steadies",
+      "title": "El robusta se estabiliza cerca de US$2.880 tras su mínimo de tres años; Vietnam cosecha despacio",
+      "summary": "El robusta quedó casi sin cambio en US$2.882 la tonelada después de tocar US$2.854 el viernes, apoyado en inventarios certificados en su nivel más bajo en más de un mes; el arábica subió 1,8 % a US$2,7325 la libra. En Vietnam la cosecha, que se espera abundante, llega lenta al mercado y con costos de recolección mucho más altos."
     },
     {
       "id": "b64",
@@ -24,6 +23,28 @@
       "url": "https://redenoticia.es/norte-e-noroeste-do-es-terao-semana-de-calor-chuvas-e-risco-de-temporais-alerta-inmet/",
       "title": "INMET avisa tormentas y calor de hasta 36 °C en el norte y noroeste del Espírito Santo, zona de conilon",
       "summary": "Para la semana del 23 al 29-nov, el INMET prevé aguaceros de 20–30 mm por hora (hasta 50 mm en el día), vientos de 40–60 km/h y posible granizo en Nova Venécia, São Mateus, Barra de São Francisco y alrededores, con 34–36 °C el miércoles. La lluvia ayuda al cuajado (pegamento) del conilon 2027, pero el calor y el granizo son riesgo puntual."
+    },
+    {
+      "id": "b59",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-23",
+      "source": "CEPEA · Cotação do Café",
+      "url": "https://cotacaodocafe.com/historico/",
+      "title": "CEPEA: el arábica cede 0,95 % a R$1.693 la saca y el conilon baja por quinta vez, a R$936",
+      "summary": "El indicador del arábica (tipo 6 bebida dura) quedó en R$1.692,77 el 23-nov tras el alza del 19-nov, y el del conilon cayó 1,24 % a R$935,58, −3,8 % desde el 13-nov. Con el dólar en R$5,92, el arábica sale a unos US$286 por saca y el conilon a unos US$158: el conilon brasileño se abarata en dólares."
+    },
+    {
+      "id": "b65",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-23",
+      "source": "Jovem Pan",
+      "url": "https://jovempan.com.br/economia/em-meio-a-votacao-do-ajuste-fiscal-dolar-fecha-a-r-592-apos-bater-r-6-durante-o-dia/",
+      "title": "El dólar pasa de R$6 durante el voto del ajuste fiscal y cierra en R$5,92",
+      "summary": "El 23-nov el dólar abrió en R$5,98, superó R$6 en la mañana y cerró con baja de 0,14 % a R$5,92, mientras la Cámara votaba el paquete fiscal y circulaban nombres afines al mercado para la directoria del Banco Central. Un real tan débil estimula las ventas del productor y mejora el precio en dólares para el comprador."
     },
     {
       "id": "b62",
@@ -47,17 +68,6 @@
       "url": "https://www.brecorder.com/news/40449781/vietnam-coffee-prices-slide",
       "title": "Vietnam: el precio al productor cae 10 % y el robusta toca su mínimo desde enero de 2024",
       "summary": "Con la cosecha en marcha, los caficultores de las Tierras Altas Centrales vendieron a 74.200–75.000 dong/kg, frente a 83.200–83.800 la semana anterior; el robusta de enero cerró en US$3.019/t (−2 %) el 18-nov y bajó a US$2.972 el 20-nov. El real débil, que empuja las exportaciones de Brasil, suma presión a la oferta."
-    },
-    {
-      "id": "b59",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-11-19",
-      "source": "CEPEA · Cotação do Café",
-      "url": "https://cotacaodocafe.com/historico/",
-      "title": "CEPEA: el arábica sube 1,6 % a R$1.709 la saca con el dólar en R$5,93; el conilon baja a R$947",
-      "summary": "El indicador del arábica (tipo 6 bebida dura) pasó de R$1.682,78 a R$1.709,06 el 19-nov, mientras el conilon (tipo 6, criba 13) cayó 1,1 % a R$947,36, cuarta baja seguida. En dólares el arábica físico queda cerca de US$288 por saca: el real débil abarata el café brasileño para quien compra en dólares."
     },
     {
       "id": "n38",
@@ -191,16 +201,6 @@
       "url": "https://www.manhuacunews.com.br/2026/11/14/cafe-de-iuna-e-campeao-do-coffee-of-the-year-2026-matas-de-minas-tem-tres-entre-os-dez-primeiros/",
       "title": "Coffee of the Year 2026: un arábica de Iúna (ES) es el mejor de Brasil",
       "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
-    },
-    {
-      "id": "n40",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-13",
-      "source": "Perfect Daily Grind",
-      "url": "https://perfectdailygrind.com/2026/11/coffee-news-recap-13-november-2026/",
-      "title": "ICE estrena el contrato métrico de arábica: primeros 48 lotes a unos US$5.730 la tonelada",
-      "summary": "El 10-nov se negociaron los primeros 48 lotes del nuevo contrato de arábica de 10 toneladas, con vencimiento en septiembre de 2028, entre US$5.724 y 5.737 por tonelada; el contrato 'C' de 1882 se retirará y su último vencimiento será marzo de 2028. Conviene ir ajustando las fórmulas de precio de los contratos de largo plazo."
     }
   ]
 }
