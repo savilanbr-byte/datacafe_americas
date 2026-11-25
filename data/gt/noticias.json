@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-24T19:48:08Z",
+  "updatedAt": "2026-11-25T11:47:52Z",
   "items": [
+    {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Bloomberg · Finway",
+      "url": "https://finway.com.ua/en/arabica-futures-fall-as-inventories-rise-19/",
+      "title": "Arábica cae 2 % por el mayor salto de inventarios certificados desde 1998",
+      "summary": "El 24-nov los inventarios de arábica en bodegas de ICE subieron 19 % en un día, a más de 268.000 sacos (quinto día al alza y el mayor aumento diario desde 1998), con otros ~250.000 sacos esperando clasificación, sobre todo café de Brasil; el contrato más activo bajó 2 %. Si se alivia la estrechez de la bolsa, los diferenciales de los lavados centroamericanos podrían ceder en plena cosecha guatemalteca."
+    },
     {
       "id": "g29",
       "scope": "gt",
@@ -35,6 +45,20 @@
       "url": "https://www.prensalibre.com/economia/por-que-el-cafe-desplazo-al-vestuario-en-las-exportaciones-de-guatemala-banguat-y-empresarios-explican-las-razones/",
       "title": "Banguat: el café ya es el primer producto de exportación de Guatemala en 2026",
       "summary": "De enero a septiembre de 2026 el café generó US$1.329,2 M (+10,8 % interanual), por encima del vestuario y ya más que todo 2025 (US$1.307,4 M); el volumen subió 17,3 % y el precio medio bajó 5,6 %. Para el comprador: más volumen embarcado a precio medio menor confirma que el mercado guatemalteco se está ajustando a la baja."
+    },
+    {
+      "id": "g30",
+      "scope": "gt",
+      "regiones": [
+        "huehuetenango",
+        "san-marcos"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-20",
+      "source": "La Hora · MAGA",
+      "url": "https://lahora.gt/nacionales/ypena/2026/11/20/frio-de-hasta-2-grados-amenaza-cultivos-y-animales-en-siete-departamentos-de-guatemala-now/",
+      "title": "MAGA alerta por frío en 81 municipios del occidente, con el café entre los cultivos en riesgo",
+      "summary": "El boletín agroclimático del MAGA (20-nov) señaló 81 municipios de siete departamentos —entre ellos Huehuetenango, San Marcos y Quetzaltenango— expuestos a temperaturas de 2–4 °C, y pidió suspender podas, trasplantes y fertilización nitrogenada en café y otros cultivos. Para el comprador, conviene preguntar por daño de frío en fincas altas de Huehuetenango y San Marcos."
     },
     {
       "id": "n25",
@@ -113,16 +137,6 @@
       "summary": "Según Cecafé, Brasil exportó 5,33 M de sacos en octubre de 2026 (+28,4 %), con 4,12 M de arábica (+21,6 %); de enero a octubre suma 34,48 M (+3,5 %), aún 7,3 M por debajo de 2024. La llegada de la nueva cosecha brasileña presiona la Bolsa de NY y los diferenciales centroamericanos."
     },
     {
-      "id": "n17",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "OIC · The Cooperator News",
-      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
-      "title": "OIC: exportación mundial de café sube 1 % en 2025-26 y se proyecta superávit",
-      "summary": "El mundo exportó 142,39 M de sacos en el año cafetero 2025-26 (+1 %); Centroamérica, el Caribe y México subieron 4,6 % y Brasil cayó 7,3 %. El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %), los inventarios certificados de arábica en EE. UU. quedaron en su menor nivel de fin de octubre desde 2002 y la OIC calcula un superávit de 3 M de sacos."
-    },
-    {
       "id": "g18",
       "scope": "gt",
       "regiones": [
@@ -135,17 +149,6 @@
       "url": "https://prensa-latina.cu/2026/11/11/continuaran-bajas-temperaturas-en-distintas-regiones-de-guatemala",
       "title": "Mínimas de 5 °C en Huehuetenango y lluvias por la tarde en la Bocacosta",
       "summary": "El INSIVUMEH registró 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; prevé mínimas de 3–5 °C en los altiplanos, lluvias dispersas con tormenta en la Bocacosta y dos frentes fríos este mes. En San Marcos, que ya cosecha, la lluvia de la tarde complica el secado."
-    },
-    {
-      "id": "g24",
-      "scope": "gt",
-      "regiones": [],
-      "tag": "Regulación",
-      "date": "2026-11-10",
-      "source": "La Hora",
-      "url": "https://lahora.gt/lh-economia/esmith/2026/11/10/el-tiempo-avanza-y-cacif-pide-cumplir-compromisos-del-acuerdo-comercial-con-ee-uu-now/",
-      "title": "Acuerdo comercial con EE. UU.: Guatemala activa desde el 16-nov controles aduaneros contra trabajo forzoso",
-      "summary": "El Gobierno tiene 145 acciones en 18 instituciones para cumplir el Acuerdo de Comercio Recíproco; según MINECO, el 75,8 % de lo que Guatemala exporta a EE. UU. ya entra con arancel cero, y desde el 16-nov rigen los controles aduaneros del Acuerdo Ministerial 377-2026 ligados a la lista de entidades con trabajo forzoso. Para el café, conviene pedir a los proveedores evidencia de condiciones laborales en el corte."
     }
   ]
 }

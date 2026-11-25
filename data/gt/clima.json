@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:48:08Z",
+  "updatedAt": "2026-11-25T11:47:52Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -34,18 +34,22 @@
     "El calor de El Niño favorece la broca y las lluvias de la tarde reactivan la roya: pide a los proveedores su plan de manejo y revisa el rendimiento de oro por pergamino."
   ],
   "avisos": {
-    "source": "INSIVUMEH",
+    "source": "INSIVUMEH · MAGA",
     "asOf": "2026-11-23",
     "headline": "Semana 23–27 nov: el primer frente frío de la temporada llegaría cerca del miércoles 25 con más nubosidad y lluvias en el Norte, Alta Verapaz y el Caribe; mínimas de 3–5 °C en el Altiplano",
     "items": [
       "INSIVUMEH (23-nov): el primer frente frío del año llegaría cerca del miércoles 25-nov; desde ese día habría lloviznas o lluvias con tormentas por la tarde y la noche en Alta Verapaz, la Franja Transversal del Norte y el Caribe, donde bajarán las máximas (Alta Verapaz: 26–34 °C).",
       "INSIVUMEH (23-nov): mínimas de 3–5 °C de madrugada en el Altiplano central y occidental; en la Meseta central, niebla por la mañana y lluvias dispersas por la tarde; en el Pacífico, lluvias dispersas con actividad eléctrica sobre todo en la Bocacosta y el Suroccidente.",
-      "INSIVUMEH (18-nov): el frío más intenso sigue en Totonicapán, Sacatepéquez, Chimaltenango, Huehuetenango, Sololá, San Marcos y Quetzaltenango, con valores atípicos cercanos a 0 °C en algunas localidades; la temporada traería 16 frentes fríos."
+      "MAGA (20-nov): 81 municipios de siete departamentos del occidente (Huehuetenango, San Marcos, Quetzaltenango, Totonicapán, Quiché) expuestos a 2–4 °C; el café está entre los cultivos en atención y se recomienda suspender podas, trasplantes y fertilización nitrogenada."
     ],
     "links": [
       {
         "t": "INSIVUMEH",
         "url": "https://insivumeh.gob.gt/"
+      },
+      {
+        "t": "MAGA: frío en 81 municipios (La Hora, 20-nov)",
+        "url": "https://lahora.gt/nacionales/ypena/2026/11/20/frio-de-hasta-2-grados-amenaza-cultivos-y-animales-en-siete-departamentos-de-guatemala-now/"
       },
       {
         "t": "Pronóstico 23–27 nov (Guatemala.com, 23-nov)",
