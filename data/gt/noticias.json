@@ -1,6 +1,20 @@
 {
-  "updatedAt": "2026-11-25T11:47:52Z",
+  "updatedAt": "2026-11-25T19:47:57Z",
   "items": [
+    {
+      "id": "g31",
+      "scope": "gt",
+      "regiones": [
+        "coban",
+        "nuevo-oriente"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-25",
+      "source": "Prensa Libre · INSIVUMEH",
+      "url": "https://www.prensalibre.com/guatemala/comunitario/frente-frio-influye-en-guatemala-donde-podria-llover-este-miercoles-25-de-noviembre/",
+      "title": "Llega el efecto del primer frente frío: lluvias intermitentes en el norte, el Caribe y los valles de Oriente",
+      "summary": "El INSIVUMEH prevé para el 25-nov nubosidad y lluvias intermitentes en la Franja Transversal del Norte, el Caribe, los valles de Oriente y el norte del Altiplano central, con lloviznas de tarde y noche en el occidente; el frente no afectaría directamente al país. Para quien compra en Cobán y Nuevo Oriente, que ya cosechan, implica revisar el secado en patio y la humedad del pergamino."
+    },
     {
       "id": "n26",
       "scope": "mundo",
@@ -21,19 +35,6 @@
       "url": "https://www.anacafe.org/eligen-a-nuevo-presidente-y-vicepresidente-para-la-junta-directiva-de-anacafé/",
       "title": "Anacafé elige a Gerardo Flores Castañeda como nuevo presidente",
       "summary": "La Junta General de Anacafé (24-nov) eligió a Gerardo Flores Castañeda como presidente y a Adolfo Boppel Archila como vicepresidente por dos años, en relevo de Andrés Destarac; la nueva directiva promete unidades productivas más rentables y seguir con riego, fertirriego y materiales genéticos de robusta. Para el comprador, cambia el interlocutor gremial en plena cosecha 2026-27."
-    },
-    {
-      "id": "g28",
-      "scope": "gt",
-      "regiones": [
-        "coban"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-23",
-      "source": "Guatemala.com · INSIVUMEH",
-      "url": "https://www.guatemala.com/noticias/comunidad/pronostico-clima-guatemala-23-al-27-noviembre-2026",
-      "title": "INSIVUMEH: el primer frente frío llegaría el 25-nov con lluvias en Alta Verapaz y el Caribe",
-      "summary": "Para el 23 al 27 de noviembre, el INSIVUMEH prevé el primer frente frío del año cerca del miércoles 25, con lluvias de tarde y noche en Alta Verapaz y el Norte, y mínimas de 3–5 °C en el Altiplano. Para quien compra en Cobán, más lluvia en plena cosecha complica el secado: conviene pedir la humedad del pergamino."
     },
     {
       "id": "g26",
