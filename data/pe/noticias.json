@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-24T19:47:22Z",
+  "updatedAt": "2026-11-25T11:47:49Z",
   "items": [
+    {
+      "id": "n26",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Finway · Bloomberg",
+      "url": "https://finway.com.ua/en/arabica-futures-fall-as-inventories-rise-19/",
+      "title": "El arábica cae 2 % por el mayor salto diario de inventarios certificados en ICE desde 1998",
+      "summary": "El 24 de noviembre las existencias certificadas de arábica subieron 19 % en un día, a más de 268.000 sacos (cinco alzas seguidas, tras el mínimo desde 1999 a inicios de mes), con casi 250.000 sacos más en espera de clasificación, y el contrato más activo perdió hasta 2 %. Con el café brasileño llegando a la bolsa, la presión sobre el precio base de NY se suma a la de la cosecha récord de Brasil para fijaciones de café peruano."
+    },
     {
       "id": "n25",
       "scope": "mundo",
@@ -106,19 +116,6 @@
       "url": "https://energiminas.com/2026/11/17/inei-exportaciones-tradicionales-cayeron-11-en-setiembre/",
       "title": "INEI: el volumen de café exportado cayó 11,4 % en septiembre de 2026",
       "summary": "Según el INEI, la exportación agrícola tradicional bajó 10,6 % en septiembre frente al mismo mes de 2025 por los menores envíos de café (−11,4 % en volumen). Confirma que la menor cosecha 2026 (220–230 mil t según la JNC) ya se nota en los embarques y deja poco café disponible hasta marzo."
-    },
-    {
-      "id": "p44",
-      "scope": "pe",
-      "regiones": [
-        "piura"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-17",
-      "source": "Agraria · Gore Piura",
-      "url": "https://agraria.pe/noticias/piura-entregaran-mas-de-10-mil-plantones-de-cafe-a-familias--43487",
-      "title": "Piura entregará más de 10 mil plantones de café Catimor a familias de Ayabaca",
-      "summary": "La Dirección Regional de Agricultura de Piura destinará más de 10 mil plantones de la variedad Catimor a 25 familias del caserío Las Vegas (Sícchez, Ayabaca) para renovar unas cinco hectáreas. Es una renovación pequeña: no cambia la oferta de la sierra piurana en el corto plazo."
     },
     {
       "id": "p33",
