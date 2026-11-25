@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:48:54Z",
+  "updatedAt": "2026-11-25T19:47:10Z",
   "items": [
     {
       "id": "n52",
@@ -30,6 +30,16 @@
       "url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
       "title": "La sequía por El Niño retrasa la cosecha 2026-27 de Nicaragua y reduce la demanda de cortadores",
       "summary": "La maduración va lenta en las zonas productoras; el país prevé unos 3 millones de quintales oro y su precio promedio de exportación bajó de más de US$300 en enero a US$169,10 por quintal en septiembre. Para Costa Rica, que depende en parte de recolectores nicaragüenses, conviene vigilar si el retraso cambia su llegada."
+    },
+    {
+      "id": "n56",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-22",
+      "source": "CMB News",
+      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
+      "title": "Vietnam entra en el pico de su cosecha 2026-27 y el precio en finca del robusta cae a unos 71.500 VND/kg",
+      "summary": "El robusta en finca de Dak Lak bajó de más de 83.000 a cerca de 71.200–72.000 VND/kg en una semana y Vietnam exportó 108.800 t en octubre (+50 % interanual), mientras el robusta de Londres cayó casi 10 % a un mínimo de tres años (~US$2.881/t). Más oferta asiática presiona los blends y resta soporte al arábica lavado centroamericano."
     },
     {
       "id": "n50",
