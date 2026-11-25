@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:47:48Z",
+  "updatedAt": "2026-11-25T11:47:52Z",
   "items": [
     {
       "id": "d1",
@@ -22,6 +22,49 @@
       "url": "https://www.trespontasstudiolive.com.br/cotacao-do-cafe-mercado-encerra-segunda-feira-com-queda-nos-precos-do-arabica-e-do-conilon/",
       "title": "Brasil: arábica y conilon bajan en el mercado interno el lunes",
       "summary": "Según los indicadores Cepea, la saca de 60 kg de arábica quedó en R$ 1.692,77 (−0,95 %) y la de conilon en R$ 935,58 (−1,24 %) el 23 de noviembre. La caída en reales es menor que en Nueva York porque el dólar sube frente al real."
+    },
+    {
+      "id": "k1",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Precios",
+      "date": "2026-11-24",
+      "source": "Federación Nacional de Cafeteros",
+      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
+      "title": "Precio interno del café sube a $2.165.000 por carga pese a la caída en Nueva York",
+      "summary": "La FNC fijó el 24 de noviembre el precio de referencia en $2.165.000 por carga de 125 kg de pergamino seco, frente a $2.150.000 el 20 de noviembre, aun con el contrato C en 262,60 centavos de dólar por libra. La devaluación del peso compensa la baja de la bolsa y sostiene el precio en pesos en plena cosecha."
+    },
+    {
+      "id": "e1",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Exportaciones",
+      "date": "2026-11-24",
+      "source": "Portal do Agronegócio · Secex",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-1-6-em-nova-york-e-mercado-brasileiro-deve-ter-poucos-negocios",
+      "title": "Brasil embarca 2,81 millones de sacas en 13 días hábiles de noviembre, con precio medio 18 % menor",
+      "summary": "Según la Secex, el promedio diario de 216,4 mil sacas supera en 16,3 % al de noviembre de 2025, pero el precio medio de exportación cayó 18,4 % a US$ 345,36 por saca; en el físico, el arábica del Sul de Minas y del Cerrado bajó R$ 10 el lunes 23, a R$ 1.760–1.775 por saca. Flujo exportador firme y precios cediendo dan margen al comprador para negociar diferenciales."
+    },
+    {
+      "id": "e2",
+      "scope": "am",
+      "pais": "Nicaragua",
+      "tag": "Producción",
+      "date": "2026-11-24",
+      "source": "Infobae · La Prensa",
+      "url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
+      "title": "La sequía retrasa la maduración y el corte de la cosecha 2026-2027 en Nicaragua",
+      "summary": "Productores de Matagalpa, Jinotega y Nueva Segovia reportan fincas con grano aún verde y esperan más maduración a inicios de diciembre; los compradores locales pagan 4.500–5.000 córdobas por quintal de pergamino y el gobierno mantiene su proyección de 66 millones de latas de café uva (unos 3 millones de quintales oro). El café nuevo nicaragüense llegará más tarde a embarque."
+    },
+    {
+      "id": "e3",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "ADMISI",
+      "url": "https://admisi.com/cocoa-rally-builds-on-crop-concerns",
+      "title": "Existencias certificadas de arábica en ICE saltan a 268.614 sacos, máximo desde julio",
+      "summary": "El lunes 23 ingresaron 43.395 sacos, todos de origen Brasil, apenas una semana después de que las existencias tocaran su nivel más bajo en 26 años; el contrato de marzo cayó a su mínimo desde el 30 de junio y el robusta de Londres a casi tres años. La llegada de arábica brasileño a bolsa alivia la estrechez de corto plazo y favorece al comprador."
     },
     {
       "id": "d2",
@@ -100,17 +143,6 @@
       "summary": "El pedido entra en la agenda del Órgano de Solución de Diferencias el 24 de noviembre; el café está excluido del arancel de 25 %, y la nota no aclara su situación frente al de 12,5 %. Conviene seguirlo por su efecto en el acceso del café brasileño al mercado estadounidense."
     },
     {
-      "id": "k1",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Precios",
-      "date": "2026-11-20",
-      "source": "Federación Nacional de Cafeteros",
-      "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/03/precio_cafe.pdf",
-      "title": "Precio interno del café baja a $2.150.000 por carga",
-      "summary": "La FNC fijó el 20 de noviembre el precio de referencia en $2.150.000 por carga de 125 kg de pergamino seco, con el contrato C de Nueva York en 268,50 centavos de dólar por libra. La baja sigue al retroceso de la bolsa y pone presión sobre la oferta campesina en plena cosecha."
-    },
-    {
       "id": "nv12",
       "scope": "am",
       "pais": "Perú",
@@ -120,16 +152,6 @@
       "url": "https://freshfruit.pe/2026/11/20/agroexportaciones-al-18-de-noviembre-el-arandano-cae-a-la-mitad-y-la-uva-toma-la-posta/",
       "title": "Exportaciones de café peruano caen 18,5 % al 18 de noviembre",
       "summary": "Entre el 1 de enero y el 18 de noviembre el café peruano exportó US$ 293 millones menos (-18,5 %) que en 2025, con menor volumen y menor precio; FreshFruit proyecta cerrar 2026 con unas 219 mil toneladas (-11,2 %) y US$ 1.472 millones (-20,5 %). Se esperan 25 % menos embarques en el tramo final del año, lo que limita la oferta peruana disponible."
-    },
-    {
-      "id": "nv14",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-20",
-      "source": "StoneX",
-      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-11-20-26/",
-      "title": "Arábica cierra la semana en 268,50 y los certificados suben a 225.219 sacos",
-      "summary": "El viernes 20 de noviembre el arábica de marzo liquidó en 268,50 centavos por libra (-750 puntos en el día, -500 en la semana), con existencias certificadas en ICE de 225.219 sacos y 251.230 sacos pendientes de clasificar. El robusta de enero cerró en 2.881 dólares, niveles de febrero de 2024. El rebote de inventarios aleja la estrechez de corto plazo y favorece al comprador."
     },
     {
       "id": "nv15",
@@ -163,6 +185,17 @@
       "summary": "Fair Trade USA subirá el mínimo del arábica lavado de USD 1,40 a 2,00 por libra (natural a 1,95; robusta lavado a 1,35) para contratos firmados desde el 1 de febrero de 2027, igualando a Fairtrade International, que lo aplica desde el 1 de diciembre de 2026. Con la bolsa cerca de 268 centavos el impacto inmediato es limitado, pero eleva el piso de costo de los cafés certificados si el mercado sigue bajando."
     },
     {
+      "id": "e4",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Clima",
+      "date": "2026-11-18",
+      "source": "Tribuna do Sertão · Sputnik Brasil / Minasul",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas",
+      "title": "Minasul advierte que el exceso de lluvia de El Niño compromete la cosecha 2027 en el Sur de Minas",
+      "summary": "El presidente de la cooperativa señala que septiembre y octubre fueron los meses más lluviosos en 40 años de registros en Varginha, lo que alteró la floración, y el Inmet prevé lluvias por encima de la media de noviembre a enero; las pérdidas aún no se han cuantificado. Es un riesgo adicional para la oferta de arábica brasileño en 2027, año de baja bienal."
+    },
+    {
       "id": "p1",
       "scope": "am",
       "pais": "Brasil",
@@ -183,17 +216,6 @@
       "url": "https://www.elcomercio.com/actualidad/negocios/caficultor-zaruma-vendio-libra-cafe-105-dolares-rompio-record-taza-dorada/",
       "title": "Taza Dorada 2026: un lote de Zaruma se vende al récord de USD 105 por libra",
       "summary": "El ganador del concurso de ANECAFÉ, un sidra honey de doble fermentación de El Oro con 90,17 puntos, se subastó a USD 105/lb (récord previo USD 100) y se enviará a EE. UU., Corea del Sur y Taiwán. Los microlotes ecuatorianos de alta puntuación siguen ganando precio."
-    },
-    {
-      "id": "k5",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Exportaciones",
-      "date": "2026-11-17",
-      "source": "CaféPoint · Boletim Carvalhaes / Cecafé",
-      "url": "https://www.cafepoint.com.br/noticias/giro-de-noticias/boletim-carvalhaes-exportacoes-recordes-e-estoques-baixos-marcam-mercado-de-cafe-242955/",
-      "title": "Brasil: los embarques de noviembre van más lentos que en el récord de octubre",
-      "summary": "Al día 13 se habían embarcado 1.224.016 sacas (987.937 de arábica), frente a 1.645.592 a la misma fecha de octubre, y los certificados de origen sumaban 1.840.269. Los productores venden lo justo, de modo que la oferta física se modera."
     },
     {
       "id": "l1",
