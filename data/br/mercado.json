@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:50:27Z",
+  "updatedAt": "2026-11-25T19:46:56Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.8573,
+      "value": 5.8825,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-24",
+      "asOf": "2026-11-25",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-20-2026'&@dataFinalCotacao='11-24-2026'&$format=json",
-      "note": "PTAX de venta del 24-nov (boletín de las 13:07): −1,90 % frente a R$5,9708 del 23-nov; el dólar cayó por debajo de R$5,90 tras conocerse que el Gobierno enviará al Congreso una PEC para frenar el gasto obligatorio.",
-      "change": -0.1135,
-      "changePct": -1.9,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-23-2026'&@dataFinalCotacao='11-25-2026'&$format=json",
+      "note": "PTAX de venta del 25-nov (boletín de las 13:02): +0,43 % frente a R$5,8573 del 24-nov, un rebote parcial tras la caída de 1,9 % por el anuncio de la PEC de gasto.",
+      "change": 0.0252,
+      "changePct": 0.43,
       "chgDec": 4
     },
     "cepeaA": {

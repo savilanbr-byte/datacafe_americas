@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-25T11:50:27Z",
+  "updatedAt": "2026-11-25T19:46:56Z",
   "items": [
+    {
+      "id": "b73",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Portal do Agronegócio",
+      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-em-nova-york-com-estoques-em-alta-e-dolar-sustenta-precos-no-brasil",
+      "title": "El arábica sigue cayendo en Nueva York con más inventarios certificados; el dólar sostiene el precio en reales",
+      "summary": "El marzo-27 bajaba a 260,45 ¢/lb el 25-nov y los inventarios certificados de la ICE subieron 44 % en una semana, a 268.614 sacas (145.223 de origen Brasil, máximo en 15 meses), con otras 246.182 en clasificación. Para el comprador, la presión sobre el arábica brasileño en la bolsa abre espacio para negociar, aunque el dólar fuerte frena la baja del físico en reales."
+    },
     {
       "id": "b71",
       "scope": "br",
@@ -13,22 +24,6 @@
       "url": "https://www.cidadeacidade.com.br/noticia/cafes-campeoes-do-14-premio-regiao-do-cerrado-mineiro-serao-ofertados-em-leilao-on-line-nos-dias-25-e-26-de-novembro",
       "title": "Subasta en línea de los campeones del 14.º Premio Región del Cerrado Mineiro, 25 y 26 de noviembre",
       "summary": "Se ofrecen nueve lotes (los tres primeros de las categorías natural, cereza descascarado y fermentado, cada uno de dos sacos de 30 kg) en la plataforma Coffee Chain con Expocacer; el concurso tuvo 920 muestras. La puja cierra el 26-nov a las 16:00 de Brasilia."
-    },
-    {
-      "id": "b66",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro",
-        "matas-de-minas",
-        "conilon-es"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-24",
-      "source": "Portal do Agronegócio",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-1-6-em-nova-york-e-mercado-brasileiro-deve-ter-poucos-negocios",
-      "title": "Pocos negocios en el físico: el arábica cae 1,6 % en Nueva York y el conilon pierde R$10 en Vitória",
-      "summary": "Con el marzo de la ICE en 263,45 ¢/lb, el arábica del Sul de Minas (bebida buena) se ofrece a R$1.760–1.765 la saca y el del Cerrado (bebida dura) a R$1.770–1.775; en la Zona da Mata el rio tipo 7 bajó a R$1.170–1.175 y el conilon tipo 7 en Vitória a R$940–945. Los productores retienen ventas esperando mejores ofertas."
     },
     {
       "id": "b67",
