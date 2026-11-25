@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-25T12:05:00Z",
+  "updatedAt": "2026-11-25T19:46:58Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
-      "value": 19.3668,
+      "value": 19.704,
       "dec": 4,
       "unit": "MXN/USD",
-      "change": 0.202,
+      "change": 0.3372,
       "chgDec": 4,
-      "asOf": "2026-11-24",
+      "asOf": "2026-11-25",
       "source": "Banxico",
       "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveT": "Banxico",
-      "note": "El 24-nov el FIX subió 1,1 % a 19,37 pesos por dólar, el peso más débil en más de un año (cayó 3,3 % la semana pasada ante un posible alza de la Fed): con el mismo precio en Nueva York, el productor recibe más pesos, lo que amortigua la baja del KC."
+      "note": "El 25-nov el FIX saltó 1,7 % a 19,70 pesos por dólar (+3,5 % desde el 19-nov), el peso más débil en más de un año: con el mismo precio en Nueva York el productor recibe más pesos, lo que compensa parte de la caída del KC a mínimos de cinco meses."
     },
     "difRef": {
       "label": "Diferencial de referencia · Veracruz",
@@ -32,7 +32,7 @@
       "asOf": "2026-11-12",
       "source": "El Buen Tono",
       "url": "https://www.elbuentono.com.mx/cafe-cereza-alcanza-los-16-10-pesos-por-kilo-en-las-altas-montanas/",
-      "note": "El 12-nov se pagaba de 14,20 (Rincón Toningo, Tlaltetela) a 15,80–16,10 (Capulapa, Huatusco), con Boca del Monte y Totutla en 16 e Ixhuatlán en 15; el monitoreo de la Comisión de Seguimiento de Precios ubica el promedio de Huatusco–Ixhuatlán en 15,40 (13-nov). La CNOC pide un mínimo de 16; en Córdoba a los cortadores se les paga unos 6 pesos por kilo (7-nov). En el Soconusco, productores de robusta dicen recibir 37 MXN/kg frente a 50 el año pasado (22-nov; a inicios de noviembre se citaban 27) y marcharon en Tapachula el 23-nov: piden a Nestlé un mínimo de 55 MXN/kg (la prensa cita pagos de 37 a 43); productores de arábica de la zona hablan de unos 43 MXN/kg frente a ~60 hace 2–3 años (18-nov)."
+      "note": "El 12-nov se pagaba de 14,20 (Rincón Toningo, Tlaltetela) a 15,80–16,10 (Capulapa, Huatusco), con Boca del Monte y Totutla en 16 e Ixhuatlán en 15; el monitoreo de la Comisión de Seguimiento de Precios ubica el promedio de Huatusco–Ixhuatlán en 15,40 (13-nov). La CNOC pide un mínimo de 16; en Córdoba a los cortadores se les paga unos 6 pesos por kilo (7-nov). En el Soconusco, productores de robusta dicen recibir 37 MXN/kg frente a 50 el año pasado (22-nov; a inicios de noviembre se citaban 27) y marcharon en Tapachula el 23-nov: piden a Nestlé un mínimo de 55 MXN/kg (la prensa cita pagos de 37 a 43); productores de arábica de la zona hablan de unos 43 MXN/kg frente a ~60 hace 2–3 años (18-nov). El 25-nov la presidenta Sheinbaum dijo estar de acuerdo con pagar 50–60 MXN/kg y pidió a la SADER intervenir en la negociación con Nestlé."
     },
     "expo": {
       "label": "Otros Suaves (OIC) · octubre",
