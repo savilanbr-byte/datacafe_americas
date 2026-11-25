@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:50:00Z",
+  "updatedAt": "2026-11-25T12:05:00Z",
   "items": [
     {
       "id": "m43",
@@ -14,6 +14,30 @@
       "url": "https://www.jornada.com.mx/2026/11/24/estados/024n1est",
       "title": "Cafetaleros de la Costa, Sierra y Frontera de Chiapas marchan en Tapachula contra los precios de Nestlé",
       "summary": "Productores de al menos 20 municipios (unas 165 mil familias, según los organizadores) reclaman que Nestlé paga 43 pesos por kilo y piden 55 MXN/kg y una mesa con el gobierno de Chiapas; la empresa responde que su plan de compras 2026-27 paga por encima de Londres y Nueva York y que comprará más volumen que el año pasado. Para el comprador: tensión en el precio del robusta y del arábica del Soconusco en plena cosecha."
+    },
+    {
+      "id": "m45",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "robusta-chiapas"
+      ],
+      "tag": "Industria",
+      "date": "2026-11-24",
+      "source": "Expansión",
+      "url": "https://expansion.mx/empresas/2026/11/24/nestle-precios-cafe-mexico-productores-chiapas",
+      "title": "Nestlé promete pagar sobre las bolsas en 2026-27, pero sin dar cifras a los productores de Chiapas",
+      "summary": "Tras la marcha en Tapachula, Nestlé México dijo que comprará más café que el ciclo pasado y pagará el robusta y el arábica verde por encima de Londres y Nueva York, sin decir cuánto; los productores reciben unos 43 MXN/kg, dicen que les cuesta 45 y piden 55. Sin precio claro, espera retención de café y tensión en las compras del Soconusco."
+    },
+    {
+      "id": "n28",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/coffee",
+      "title": "El arábica cae a su nivel más bajo en 22 semanas",
+      "summary": "El café arábica bajó a unos 261,85 ¢/lb el 24-nov, mínimo desde junio, con una caída de 12,8 % en cuatro semanas ante la perspectiva de una cosecha de Brasil de 72,5 M sacos (USDA). Una bolsa más baja recorta el precio en pesos que pueden ofrecer los compradores en México, aunque el peso débil lo amortigua."
     },
     {
       "id": "m44",
