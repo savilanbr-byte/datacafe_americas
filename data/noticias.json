@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-25T11:47:52Z",
+  "updatedAt": "2026-11-25T19:47:22Z",
   "items": [
     {
-      "id": "d1",
+      "id": "m25a",
       "scope": "am",
       "pais": "México",
       "tag": "Precios",
-      "date": "2026-11-24",
-      "source": "La Jornada",
-      "url": "https://www.jornada.com.mx/2026/11/24/estados/024n1est",
-      "title": "Cafeticultores de Chiapas marchan en Tapachula contra los 43 pesos por kilo que paga Nestlé",
-      "summary": "Productores de unos 20 municipios de la Costa, Sierra y Frontera (165.000 familias, según sus líderes) piden una mesa con el gobierno estatal y un precio de 55 pesos/kg; Nestlé responde que su plan de compra 2026-27 paga por encima de Londres y Nueva York y prevé comprar más volumen que el año pasado. Señal de tensión en el precio al productor del robusta del Soconusco."
+      "date": "2026-11-25",
+      "source": "El Informador",
+      "url": "https://www.informador.mx/mexico/sheinbaum-exige-a-nestle-pagar-mejor-el-cafe-de-chiapas-y-eliminar-intermediarios-20261125-0058.html",
+      "title": "Sheinbaum respalda a los cafeticultores de Chiapas y pide a Nestlé comprar sin intermediarios",
+      "summary": "Tras las protestas en Tapachula por un pago de 43 pesos por kilo (los productores piden 50–60 pesos; unas 165 mil familias afectadas), la presidenta ordenó a Agricultura acompañar la negociación con Nestlé, que dice que pagará por encima de las bolsas en 2026-27. Presión al alza sobre el precio al productor en la Costa-Sierra de Chiapas."
     },
     {
       "id": "d4",
