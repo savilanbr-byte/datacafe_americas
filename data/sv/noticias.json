@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-24T19:46:23Z",
+  "updatedAt": "2026-11-25T11:47:41Z",
   "items": [
+    {
+      "id": "s26",
+      "scope": "sv",
+      "regiones": [
+        "apaneca-ilamatepec",
+        "el-balsamo-quezaltepec",
+        "alotepec-metapan",
+        "tecapa-chinameca",
+        "cacahuatique"
+      ],
+      "tag": "Exportaciones",
+      "date": "2026-11-24",
+      "source": "El Diario de Hoy",
+      "url": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/cafe-salvadoreno-nuevos-mercados-mexico/1305732/2026/",
+      "title": "El ISC y el consulado en Tapachula presentan café salvadoreño a compradores de Chiapas",
+      "summary": "Se mostraron variedades Pacamara, Pacas, Cuscatleco e Ilamatepec de cinco cordilleras; aún no hay contratos, pero se prepara una misión de compradores mexicanos a El Salvador, lo que podría sumar competencia por los lotes de altura."
+    },
     {
       "id": "n32",
       "scope": "mundo",
@@ -119,41 +136,6 @@
       "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
       "title": "OIC: exportaciones mundiales de café suben 1 % en 2025-26; el precio indicativo promedia 261,26 ¢/lb en octubre",
       "summary": "Según el informe de octubre de la OIC, el mundo exportó 142,39 millones de sacos en 2025-26 y la región de Centroamérica, México y el Caribe subió 4,6 % a 16,01 millones. Los inventarios de robusta en Londres crecieron 29,9 % a 1,13 millones de sacos, mientras los de arábica en EE. UU. cerraron octubre en su menor nivel desde 2002."
-    },
-    {
-      "id": "s15",
-      "scope": "sv",
-      "regiones": [
-        "tecapa-chinameca"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-09",
-      "source": "El Diario de Hoy",
-      "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
-      "title": "Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar en los K-Coffee Awards de Corea",
-      "summary": "En la categoría de procesos no lavados, el Geisha honey de Usulután ganó en Corea del Sur; un Pacamara honey de Tecapa-Chinameca quedó en el top 10. El ISC apoyó la presencia salvadoreña en la feria de Daegu, con más de 41.000 visitantes: vitrina útil para compradores de microlotes."
-    },
-    {
-      "id": "s16",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-09",
-      "source": "Prensa Latina (BCR)",
-      "url": "https://www.prensa-latina.cu/2026/11/09/exportaciones-de-cafe-salvadoreno-anotan-maximos-de-13-anos/",
-      "title": "Exportaciones de café de enero a septiembre suman US$181,4 millones, el mejor registro en 13 años",
-      "summary": "Según el BCR, se vendieron más de 553.300 quintales a un precio medio de US$327,8 por quintal (+15,3 % en valor); Estados Unidos compró US$106,9 M, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Confirma que el repunte viene del precio y que EE. UU. sigue siendo el mercado clave."
-    },
-    {
-      "id": "s25",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-06",
-      "source": "Infobae (ISC)",
-      "url": "https://www.infobae.com/el-salvador/2026/11/06/exportaciones-de-cafe-de-el-salvador-generan-usd-19605-millones-un-12-mas/",
-      "title": "ISC: el ciclo 2025-26 cierra con US$196,05 millones en exportaciones de café, 12 % más",
-      "summary": "Se exportaron 607.908 quintales oro (+0,33 %), con US$189,57 millones de café oro, US$4,13 millones de soluble y US$2,33 millones de tostado; Norteamérica compró el 64 % y Europa el 16,9 %. El alza vino del precio, no del volumen."
     }
   ]
 }
