@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-24T19:47:45Z",
+  "updatedAt": "2026-11-25T11:50:27Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
-      "value": 5.924,
+      "value": 5.9085,
       "dec": 4,
       "unit": "BRL/USD",
-      "change": -0.0083,
-      "changePct": -0.14,
+      "change": -0.0155,
+      "changePct": -0.26,
       "chgDec": 4,
-      "asOf": "2026-11-23",
-      "source": "Jovem Pan",
-      "url": "https://jovempan.com.br/economia/em-meio-a-votacao-do-ajuste-fiscal-dolar-fecha-a-r-592-apos-bater-r-6-durante-o-dia/",
+      "asOf": "2026-11-24",
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24112026/",
       "liveUrl": "https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",
       "liveT": "Banco Central",
-      "note": "Cierre de R$5,92 con baja de 0,14 % (valor de 4 decimales calculado sobre el cierre del 19-nov); en la mañana superó R$6 por primera vez desde abril de 2025 por el voto del ajuste fiscal en la Cámara, y se moderó con versiones de nombres afines al mercado para la directoria del Banco Central."
+      "note": "Cierre de R$5,9085; llegó a R$5,80 en el día cuando se supo que Lula autorizó enviar al Congreso una PEC para limitar el gasto obligatorio, pero devolvió buena parte de la baja (InfoMoney reporta −0,35 % frente a su propio cierre previo)."
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
@@ -31,33 +31,33 @@
     },
     "cepeaA": {
       "label": "Indicador CEPEA/ESALQ · arábica",
-      "value": 1692.77,
+      "value": 1679.04,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -0.95,
-      "asOf": "2026-11-23",
-      "fx": 5.924,
-      "fxSrc": "dólar comercial del 23-nov (cierre)",
+      "changePct": -0.81,
+      "asOf": "2026-11-24",
+      "fx": 5.9085,
+      "fxSrc": "dólar comercial del 24-nov (cierre)",
       "source": "CEPEA · Cotação do Café",
       "url": "https://cotacaodocafe.com/historico/",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Bajó 0,95 % el 23-nov tras subir 1,56 % el 19-nov (el 20-nov fue feriado); sigue cerca de máximos del mes por el dólar alto en reales."
+      "note": "Tipo 6 bebida dura, bica corrida, puesto en São Paulo. Segunda baja seguida (−0,81 % el 24-nov, −1,8 % desde el máximo del 19-nov) con el arábica de Nueva York en mínimos de cinco meses; equivale a unos US$284 por saca."
     },
     "cepeaR": {
       "label": "Indicador CEPEA/ESALQ · robusta (conilon)",
-      "value": 935.58,
+      "value": 905.45,
       "dec": 2,
       "unit": "BRL/saca",
-      "changePct": -1.24,
-      "asOf": "2026-11-23",
-      "fx": 5.924,
-      "fxSrc": "dólar comercial del 23-nov (cierre)",
+      "changePct": -3.22,
+      "asOf": "2026-11-24",
+      "fx": 5.9085,
+      "fxSrc": "dólar comercial del 24-nov (cierre)",
       "source": "CEPEA · Cotação do Café",
       "url": "https://cotacaodocafe.com/historico/",
       "liveUrl": "https://www.cepea.org.br/br/indicador/cafe.aspx",
       "liveT": "CEPEA",
-      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Quinta baja seguida (−1,24 % el 23-nov; −3,8 % frente al 13-nov) con el robusta de Londres en mínimos de tres años por la cosecha de Vietnam."
+      "note": "Tipo 6, criba 13 arriba, puesto en Espírito Santo. Sexta baja seguida y la mayor del mes (−3,22 % el 24-nov; −6,9 % frente al 13-nov) con el robusta de Londres en mínimos de casi tres años; unos US$153 por saca."
     },
     "prod": {
       "label": "Cosecha 2026 (Conab)",

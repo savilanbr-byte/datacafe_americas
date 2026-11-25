@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:47:45Z",
+  "updatedAt": "2026-11-25T11:50:27Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -27,32 +27,28 @@
     "period": ""
   },
   "impactos": [
-    "Minas y São Paulo están en pleno cuajado (pegamento) de la safra 2027-28: Cooxupé calcula −10 % del potencial y Minasul habla de caída de frutos por las lluvias récord de septiembre y octubre en el Sul de Minas; espera una cosecha 2027 menor, de maduración irregular y calidad variable.",
-    "En el norte capixaba, zona de conilon, llegan por fin tormentas (hasta 50 mm en el día) pero con calor de 34–36 °C y riesgo de granizo; el USDA ya recortó el conilon 2026-27 a 23,3 M de sacas por el clima del ES: vigila el cuajado del conilon para 2027. En las montañas del ES la lluvia abundante favorece el arábica de altura.",
-    "En el oeste y el Planalto de Bahia la lluvia abundante (hasta 150 mm) llega con riesgo de tormentas severas y granizo; en Rondônia la semana sería casi seca, lo que retrasa la recuperación tras un mes seco.",
-    "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027, el clima en el llenado del grano (enero a abril) será el riesgo de precio de la próxima cosecha; hoy la oferta disponible es amplia (Conab 67,6 M y USDA 72,5 M de sacas en 2026) y el dólar, que pasó de R$6 el 23-nov (máximo en 19 meses) y volvió a R$5,86 en la PTAX del 24-nov, favorece comprar en dólares, con los diferenciales FOB como variable a negociar."
+    "Minas y São Paulo siguen en pleno cuajado (pegamento) de la safra 2027-28 con más lluvia (hasta 100 mm esta semana) y calor sobre lo normal: Cooxupé calcula −10 % del potencial y Minasul habla de caída de frutos en el Sul de Minas; la floración adelantada apunta a una cosecha 2027 que podría empezar en mayo, desuniforme y de calidad variable.",
+    "En el norte capixaba, zona de conilon, la lluvia sigue siendo escasa y llega en tormentas con calor de 34–36 °C: mal escenario para el cuajado del conilon 2027 tras una safra 2026 que ya cayó 14 % en el ES; en las montañas del ES la lluvia favorece el arábica de altura.",
+    "En Bahia llueve menos que la semana pasada (~60 mm en el Planalto, ~30 mm en el litoral sur) y Rondônia recibe por fin 30–70 mm, alivio para el robusta amazónico tras un mes seco.",
+    "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027, el clima del llenado del grano (enero a abril) será el riesgo de precio de la próxima cosecha; hoy sobra oferta (Conab 67,6 M y USDA 72,5 M de sacas en 2026), el conilon cae a ~US$153 la saca y el dólar ronda R$5,91: buen momento para cubrir conilon y negociar diferenciales del arábica."
   ],
   "avisos": {
-    "source": "INMET · Reuters/USDA · Minasul",
+    "source": "INMET · Rede Notícia ES · Cooxupé/Minasul",
     "asOf": "2026-11-23",
-    "headline": "Tormentas y calor de hasta 36 °C en el norte capixaba (conilon) esta semana; Minas sigue en pleno cuajado (pegamento) tras una primavera muy lluviosa",
+    "headline": "INMET: hasta 100 mm en el Sul de Minas, la Zona da Mata y la Mogiana en la semana del 23 al 30-nov; el norte de Minas y del ES (conilon) con poca lluvia y tormentas aisladas",
     "items": [
-      "INMET (23-nov): avisos de tormenta para el norte y noroeste del Espírito Santo del 23 al 29-nov, con 20–30 mm por hora (hasta 50 mm en el día), vientos de 40–60 km/h, posible granizo y 34–36 °C el miércoles 25.",
-      "INMET: en Bahia, tormentas severas y hasta 150 mm en el oeste y suroeste, unos 100 mm en el centro-sur y sur y 60–80 mm en la costa hasta el ES; en Rondônia, acumulados casi nulos.",
-      "USDA (17-nov): la floración temprana favorece la safra 2027-28, pero será año de baja del arábica; Cooxupé estima una pérdida de 10 % del potencial y Minasul (18-nov) dice que las lluvias récord de septiembre y octubre en Varginha hicieron caer frutos, sin cuantificar aún el daño."
+      "INMET (informativo n.º 47, 23-nov): la mayor parte del Sudeste acumularía hasta 60 mm en la semana, con franjas de hasta 100 mm en Ribeirão Preto y Campinas (SP), el Sul/Sudoeste de Minas, la Zona da Mata, el Vale do Rio Doce y el sur del Espírito Santo.",
+      "En el norte del ES y de Minas los acumulados serían poco expresivos pero con tormentas localizadas; los avisos para el norte capixaba hablan de 34–36 °C el 25-nov y riesgo de granizo. En Bahia, ~60 mm en el suroeste (Planalto) y ~30 mm en el litoral sur; en Rondônia, de 30 a 70 mm, tras semanas casi secas.",
+      "Cooxupé estima una pérdida de 10 % del potencial de la safra 2027 y Minasul reporta caída de frutos en el Sul de Minas por las lluvias récord de septiembre y octubre; la floración (florada) se adelantó cerca de un mes en la Alta Mogiana y el Sul de Minas."
     ],
     "links": [
       {
+        "t": "INMET · semana 23–30 nov",
+        "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-23-a-30-de-novembro-de-2026"
+      },
+      {
         "t": "Rede Notícia ES · avisos INMET 23-nov",
         "url": "https://redenoticia.es/norte-e-noroeste-do-es-terao-semana-de-calor-chuvas-e-risco-de-temporais-alerta-inmet/"
-      },
-      {
-        "t": "INMET · semana 16–23 nov",
-        "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-16-a-23-de-novembro-de-2026"
-      },
-      {
-        "t": "Reuters · agregado del USDA",
-        "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325"
       },
       {
         "t": "Notícias Agrícolas · Cooxupé",
@@ -63,8 +59,8 @@
         "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas"
       },
       {
-        "t": "INMET · noviembre",
-        "url": "https://portal.inmet.gov.br/noticias/novembro-como-ser%C3%A1-o-clima-no-brasil-5"
+        "t": "Portal do Agronegócio · florada adelantada",
+        "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-2027-florada-antecipada-exige-atencao-a-nutricao-e-ao-pegamento-dos-frutos"
       }
     ]
   },

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-24T19:47:45Z",
+  "updatedAt": "2026-11-25T11:50:27Z",
   "items": [
+    {
+      "id": "b71",
+      "scope": "br",
+      "regiones": [
+        "cerrado-mineiro"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-25",
+      "source": "Cidade a Cidade",
+      "url": "https://www.cidadeacidade.com.br/noticia/cafes-campeoes-do-14-premio-regiao-do-cerrado-mineiro-serao-ofertados-em-leilao-on-line-nos-dias-25-e-26-de-novembro",
+      "title": "Subasta en línea de los campeones del 14.º Premio Región del Cerrado Mineiro, 25 y 26 de noviembre",
+      "summary": "Se ofrecen nueve lotes (los tres primeros de las categorías natural, cereza descascarado y fermentado, cada uno de dos sacos de 30 kg) en la plataforma Coffee Chain con Expocacer; el concurso tuvo 920 muestras. La puja cierra el 26-nov a las 16:00 de Brasilia."
+    },
     {
       "id": "b66",
       "scope": "br",
@@ -62,6 +75,28 @@
       "summary": "El robusta quedó casi sin cambio en US$2.882 la tonelada después de tocar US$2.854 el viernes, apoyado en inventarios certificados en su nivel más bajo en más de un mes; el arábica subió 1,8 % a US$2,7325 la libra. En Vietnam la cosecha, que se espera abundante, llega lenta al mercado y con costos de recolección mucho más altos."
     },
     {
+      "id": "b59",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-24",
+      "source": "CEPEA · Cotação do Café",
+      "url": "https://cotacaodocafe.com/historico/",
+      "title": "CEPEA: el conilon se desploma 3,2 % a R$905 la saca y el arábica cede a R$1.679",
+      "summary": "El indicador del conilon (tipo 6, criba 13 arriba, Espírito Santo) cayó 3,22 % el 24-nov a R$905,45, su sexta baja seguida y −6,9 % desde el 13-nov; el del arábica (tipo 6 bebida dura) bajó 0,81 % a R$1.679,04. Con el dólar en R$5,9085 equivalen a unos US$153 y US$284 por saca: el conilon brasileño está en su nivel más barato en dólares en mucho tiempo."
+    },
+    {
+      "id": "b69",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-24",
+      "source": "Secex (Forbes Agro / Reuters)",
+      "url": "https://forbes.com.br/forbes-agro/2026/11/exportacao-de-milho-do-brasil-em-novembro-ja-se-aproxima-do-total-do-mesmo-mes-de-2025-aponta-secex/",
+      "title": "Secex: Brasil ya embarcó 168.800 t de café verde en tres semanas de noviembre, 16 % más por día",
+      "summary": "Hasta la tercera semana de noviembre se exportaron 168.800 t de café verde (unos 2,8 M de sacas), frente a 212.200 t en todo noviembre de 2025; el promedio diario de casi 13.000 t es 16,3 % mayor. Tras el récord de octubre, el ritmo sigue fuerte y el café nuevo fluye hacia los puertos."
+    },
+    {
       "id": "b64",
       "scope": "br",
       "regiones": [
@@ -75,28 +110,24 @@
       "summary": "Para la semana del 23 al 29-nov, el INMET prevé aguaceros de 20–30 mm por hora (hasta 50 mm en el día), vientos de 40–60 km/h y posible granizo en Nova Venécia, São Mateus, Barra de São Francisco y alrededores, con 34–36 °C el miércoles. La lluvia ayuda al cuajado (pegamento) del conilon 2027, pero el calor y el granizo son riesgo puntual."
     },
     {
-      "id": "b59",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-11-23",
-      "source": "CEPEA · Cotação do Café",
-      "url": "https://cotacaodocafe.com/historico/",
-      "title": "CEPEA: el arábica cede 0,95 % a R$1.693 la saca y el conilon baja por quinta vez, a R$936",
-      "summary": "El indicador del arábica (tipo 6 bebida dura) quedó en R$1.692,77 el 23-nov tras el alza del 19-nov, y el del conilon cayó 1,24 % a R$935,58, −3,8 % desde el 13-nov. Con el dólar en R$5,92, el arábica sale a unos US$286 por saca y el conilon a unos US$158: el conilon brasileño se abarata en dólares."
-    },
-    {
-      "id": "b62",
+      "id": "b72",
       "scope": "br",
       "regiones": [
-        "mogiana"
+        "sul-de-minas",
+        "matas-de-minas",
+        "mogiana",
+        "montanhas-es",
+        "conilon-es",
+        "planalto-bahia",
+        "bahia-atlantico",
+        "rondonia"
       ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-21",
-      "source": "TV Sim Brasil",
-      "url": "https://tvsimbrasil.com.br/sp/sao-paulo/viagem-gastronomia/noticia/2026/11/21/sao-paulo-premia-50-melhores-cafes-300-anos",
-      "title": "São Paulo premia el 27-nov los 50 mejores cafés de su 25.º concurso estatal de calidad",
-      "summary": "La Secretaría de Agricultura paulista (CATI) elegirá 40 arábicas (natural, cereza descascarado, fermentado y orgánico) y 10 canéforas entre 395 muestras de 80 municipios, con productores de Franca, Pedregulho y Altinópolis (Alta Mogiana). Es una vitrina útil para ubicar lotes de calidad de la cosecha 2026 en São Paulo."
+      "tag": "Clima",
+      "date": "2026-11-23",
+      "source": "INMET",
+      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-23-a-30-de-novembro-de-2026",
+      "title": "INMET: hasta 100 mm en el Sul de Minas, la Zona da Mata y la Mogiana del 23 al 30-nov; poca lluvia en el norte del ES",
+      "summary": "El Sudeste acumularía hasta 60 mm en la semana, con franjas de 100 mm en Ribeirão Preto, el Sul de Minas, la Zona da Mata y el sur del ES; el norte de Minas y del ES (conilon) tendría poca lluvia con tormentas aisladas, el suroeste de Bahia ~60 mm y Rondônia 30–70 mm. Buen respaldo al cuajado (pegamento) del arábica; el conilon capixaba sigue con déficit de agua."
     },
     {
       "id": "n39",
@@ -107,6 +138,17 @@
       "url": "https://www.brecorder.com/news/40449781/vietnam-coffee-prices-slide",
       "title": "Vietnam: el precio al productor cae 10 % y el robusta toca su mínimo desde enero de 2024",
       "summary": "Con la cosecha en marcha, los caficultores de las Tierras Altas Centrales vendieron a 74.200–75.000 dong/kg, frente a 83.200–83.800 la semana anterior; el robusta de enero cerró en US$3.019/t (−2 %) el 18-nov y bajó a US$2.972 el 20-nov. El real débil, que empuja las exportaciones de Brasil, suma presión a la oferta."
+    },
+    {
+      "id": "b70",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-20",
+      "source": "Safras & Mercado · Itaú BBA (TV Sim Brasil)",
+      "url": "https://tvsimbrasil.com.br/brasil/agro/noticia/2026/11/20/cafe-arabica-cai-11-por-cento-nova-york-sobe-4-por-cento-brasil",
+      "title": "El arábica cae 11 % en Nueva York en un mes pero sube 4 % en reales por el dólar",
+      "summary": "Entre el 19-oct y el 16-nov el arábica perdió 11 % en Nueva York, pero en Brasil subió 4 % (R$1.669 la saca) porque el dólar se apreció 15 % a R$5,78; el conilon quedó en R$968. Itaú BBA prevé que la mayor oferta mundial limite nuevas alzas en bolsa en los próximos meses, lo que mantiene al productor brasileño con precios en reales todavía atractivos."
     },
     {
       "id": "n38",
@@ -168,25 +210,6 @@
       "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
     },
     {
-      "id": "b51",
-      "scope": "br",
-      "regiones": [
-        "matas-de-minas",
-        "montanhas-es",
-        "oeste-bahia",
-        "planalto-bahia",
-        "bahia-atlantico",
-        "conilon-es",
-        "rondonia"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-16",
-      "source": "INMET",
-      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-16-a-23-de-novembro-de-2026",
-      "title": "INMET: más de 150 mm en las montañas del ES y el oeste de Bahia en la semana del 16 al 23-nov",
-      "summary": "La región serrana y el Caparaó del Espírito Santo podrían superar 150 mm y la Zona da Mata recibir 70–100 mm, mientras el litoral norte del ES (zona de conilon) tendría menos de 30 mm; el oeste y suroeste de Bahia, hasta 150 mm con tormentas severas, y Rondônia casi sin lluvia. Buen respaldo al cuajado (pegamento) del arábica de montaña; el conilon del norte capixaba sigue con poca agua."
-    },
-    {
       "id": "b57",
       "scope": "br",
       "regiones": [
@@ -200,20 +223,6 @@
       "url": "https://diariodocomercio.com.br/agronegocio/regras-europeias-cafe-mineiro/",
       "title": "EUDR: el café de Minas tendrá que probar que cumple la ley laboral para entrar a Europa",
       "summary": "El reglamento europeo contra la deforestación exige desde el 30-dic-2026 (medianas y grandes empresas; pequeñas desde el 30-jun-2027) café sin deforestación posterior a 2020 y producido conforme a la ley del país, incluida la laboral; en la 'lista sucia' del Ministerio de Trabajo hay 19 empleadores de Minas. Para el comprador europeo, la trazabilidad y la debida diligencia laboral del proveedor pasan a ser condición de compra."
-    },
-    {
-      "id": "b48",
-      "scope": "br",
-      "regiones": [
-        "montanhas-es",
-        "matas-de-minas"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-14",
-      "source": "Manhuaçu News",
-      "url": "https://www.manhuacunews.com.br/2026/11/14/cafe-de-iuna-e-campeao-do-coffee-of-the-year-2026-matas-de-minas-tem-tres-entre-os-dez-primeiros/",
-      "title": "Coffee of the Year 2026: un arábica de Iúna (ES) es el mejor de Brasil",
-      "summary": "En la Semana Internacional del Café de Belo Horizonte ganó el lote de Alessandra Dias da Silva (Iúna, ES), seguido por Caparaó (MG) y Divino de São Lourenço (ES); las Matas de Minas metieron cuatro lotes en el top 10 y el mejor canéfora fue de Apuí (AM). La región del Caparaó, entre el ES y Minas, se consolida como origen para microlotes."
     }
   ]
 }
