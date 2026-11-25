@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:47:49Z",
+  "updatedAt": "2026-11-25T19:46:21Z",
   "series": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP",
@@ -129,6 +129,10 @@
         [
           "2026-11-23",
           3.452
+        ],
+        [
+          "2026-11-24",
+          3.477
         ]
       ],
       "note": "Venta interbancaria del BCRP. La serie arranca el 12-oct-2026 y suma un dato por actualización.",
@@ -545,6 +549,10 @@
         [
           "2026-11-24",
           2804.0
+        ],
+        [
+          "2026-11-25",
+          2755.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
