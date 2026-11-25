@@ -27,19 +27,19 @@
     ]
   },
   "fx": {
-    "asOf": "2026-11-24",
+    "asOf": "2026-11-25",
     "base": "USD",
     "rates": {
-      "BRL": 5.958461,
-      "COP": 3498.224647,
-      "MXN": 19.184157,
-      "GTQ": 7.65602,
-      "HNL": 26.912355,
-      "NIO": 36.845277,
-      "CRC": 447.836011,
-      "VES": 919.8227,
-      "PEN": 3.456345,
-      "BOB": 11.736523
+      "BRL": 5.894422,
+      "COP": 3516.051988,
+      "MXN": 19.375508,
+      "GTQ": 7.640445,
+      "HNL": 26.88654,
+      "NIO": 36.725748,
+      "CRC": 446.591147,
+      "VES": 922.5637,
+      "PEN": 3.472691,
+      "BOB": 11.760928
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -78,15 +78,15 @@
       "value": 131.41
     },
     "icestocks": {
-      "asOf": "2026-11-20",
+      "asOf": "2026-11-23",
       "dec": 0,
       "label": "Inventarios certificados ICE",
-      "note": "Viernes 20-nov: +13.898 sacos en la semana, rebote desde el mínimo desde 1999 (186.414 el 16-nov). Pendientes de clasificación: 251.230 sacos (máximo en ~3,75 años); Brasil aporta 101.828 de los certificados",
-      "source": "Mark to Market (Substack) · ICE",
+      "note": "Lunes 23-nov: +43.395 sacos, máximo desde el 29 de julio; todo el aumento es café de origen Brasil. Una semana antes marcaron el mínimo en 26 años (186.414)",
+      "source": "ADM Investor Services",
       "unit": "sacos",
-      "url": "https://thomasraad.substack.com/p/mark-to-market-018-w47",
-      "value": 225219,
-      "change": 13898,
+      "url": "https://admisi.com/cocoa-rally-builds-on-crop-concerns",
+      "value": 268614,
+      "change": 43395,
       "chgDec": 0
     },
     "icoBN": {
@@ -110,14 +110,14 @@
       "value": 357.85
     },
     "icoComp": {
-      "asOf": "2026-11-20",
-      "changePct": -2.3,
+      "asOf": "2026-11-23",
+      "changePct": -0.4,
       "dec": 0,
       "label": "Indicador compuesto OIC",
       "source": "OIC · La República",
       "unit": "¢/lb",
       "url": "https://www.larepublica.co/indicadores-economicos/commodities/cafe",
-      "value": 241
+      "value": 240
     },
     "icoOM": {
       "asOf": "2026-10-31",
@@ -203,17 +203,17 @@
       "value": 189.67
     },
     "robusta": {
-      "asOf": "2026-11-24",
-      "change": -47.0,
-      "changePct": -1.65,
+      "asOf": "2026-11-25",
+      "change": -49.0,
+      "changePct": -1.75,
       "contract": "Ene-27",
       "dec": 0,
       "label": "Robusta Londres (ICE)",
       "source": "Investing.com",
       "unit": "USD/t",
       "url": "https://www.investing.com/commodities/london-coffee",
-      "value": 2804.0,
-      "note": "Cierre del 24-nov; mínimo en casi tres años"
+      "value": 2755.0,
+      "note": "Intradía del 25-nov (06:38); cierre anterior 2.804, mínimo en casi tres años"
     },
     "stocksMundo": {
       "asOf": "2026-07-02",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-24T19:47:48Z"
+  "updatedAt": "2026-11-25T11:47:52Z"
 }
