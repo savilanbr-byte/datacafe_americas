@@ -1,6 +1,23 @@
 {
- "updatedAt": "2026-11-25T11:48:40Z",
+ "updatedAt": "2026-11-25T19:47:00Z",
  "items": [
+  {
+   "id": "h31",
+   "scope": "hn",
+   "regiones": [
+    "opalaca",
+    "agalta",
+    "copan",
+    "comayagua",
+    "el-paraiso"
+   ],
+   "tag": "Clima",
+   "date": "2026-11-25",
+   "source": "Hondudiario · COPECO",
+   "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/",
+   "title": "Entra el primer frente frío: alerta verde en el norte y hasta 100 mm de lluvia en Santa Bárbara",
+   "summary": "COPECO declaró alerta verde por 48 horas desde el miércoles 25 en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro, y prevé acumulados de hasta 100 mm en Santa Bárbara, 60 mm en Yoro, 20 mm en Olancho y unos 15 mm en Copán, Lempira, Comayagua y El Paraíso, con mínima de 13 °C en Intibucá. Lluvias hasta el viernes en zonas montañosas del norte: frenan el secado al sol del pergamino y pueden dejar lotes con más humedad."
+  },
   {
    "id": "n30",
    "scope": "mundo",
@@ -21,23 +38,6 @@
    "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/",
    "title": "CENAOS espera uno o dos frentes fríos en diciembre; el lunes arranca seco",
    "summary": "Para el lunes 23 COPECO prevé mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente; CENAOS estima que en diciembre entrarán uno o dos frentes fríos, con más lluvia sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía. Las zonas cafetaleras siguen con buen tiempo para secar pergamino hasta que llegue el primer frente."
-  },
-  {
-   "id": "h29",
-   "scope": "hn",
-   "regiones": [
-    "copan",
-    "opalaca",
-    "montecillos",
-    "comayagua",
-    "agalta"
-   ],
-   "tag": "Clima",
-   "date": "2026-11-23",
-   "source": "Radio HRN · COPECO",
-   "url": "https://www.radiohrn.hn/clima-honduras-pronostico-lluvias-martes-24-noviembre-2026-2026-11-23",
-   "title": "Vaguada prefrontal trae lluvias al occidente y norte este martes",
-   "summary": "COPECO prevé para el martes 24 lluvias débiles a moderadas, con actividad eléctrica aislada, en Copán, Ocotepeque, Santa Bárbara, Lempira, Intibucá, La Paz, Comayagua y Yoro; el centro y oriente, con lluvias débiles y aisladas, y el sur seco (hasta 35 °C). La Esperanza tendría mínima de 16 °C. Puede frenar el secado al sol del pergamino en el occidente."
   },
   {
    "id": "h24",
