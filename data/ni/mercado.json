@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:46:58Z",
+  "updatedAt": "2026-11-25T11:47:44Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio oficial del BCN",
@@ -14,15 +14,16 @@
       "note": "Deslizamiento de 0 % en 2026: el mismo valor todo el año."
     },
     "expo": {
-      "label": "Precio promedio de exportación 2024-25",
-      "value": 274.6,
+      "label": "Precio promedio de exportación 2026 (ene–sep)",
+      "value": 285.6,
       "dec": 2,
       "unit": "USD/quintal",
-      "changePct": 42.1,
-      "asOf": "2025-12-30",
-      "source": "BCN · Agrolatam",
-      "url": "https://www.agrolatam.com/agricultura-latam/nicaragua-cosecha-cafe-amenazas-escasez-mano-obra-cisa/",
-      "note": "2023-24: US$193,30. En el año 2025 fue US$272,5; el BCN proyecta US$294 para el ciclo actual y hoy ronda los US$300."
+      "changePct": 4.8,
+      "chgDec": 1,
+      "asOf": "2026-11-24",
+      "source": "BCN · Agrolatam (La Prensa)",
+      "url": "https://www.agrolatam.com/agricultura-latam/la-sequia-retrasa-la-cosecha-de-cafe-en-nicaragua-y-preocupa-a-miles-de-productores/",
+      "note": "Año calendario: enero a septiembre de 2026. changePct frente al promedio de todo 2025 (US$272,50). Más de US$300 en enero y febrero, US$220,70 en julio y US$169,10 en septiembre, según el BCN: el precio viene bajando. El promedio del año cafetero 2024-25 fue US$274,60."
     },
     "expoValor": {
       "label": "Exportaciones de 2026 a septiembre",

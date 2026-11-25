@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:46:58Z",
+  "updatedAt": "2026-11-25T11:47:44Z",
   "items": [
     {
       "id": "ni9",
@@ -86,6 +86,23 @@
       "url": "https://despacho505.com/nacionales/71516-calor-36-grados-pocas-lluvias-madrugadas-frescas-semana-nicaragua/",
       "title": "INETER: semana calurosa y seca, con máximas de hasta 36 °C y madrugadas más frescas",
       "summary": "Para la semana del 23 de noviembre el INETER prevé máximas de 31–34 °C en el Norte y Centro y de 34–36 °C en el Pacífico, casi sin lluvia salvo en el Caribe y con vientos de 10–25 km/h. El tiempo seco ayuda al secado del pergamino en Jinotega y Matagalpa, pero el calor sigue apurando la maduración en fincas con pocos cortadores."
+    },
+    {
+      "id": "ni35",
+      "scope": "ni",
+      "regiones": [
+        "jinotega",
+        "matagalpa",
+        "nueva-segovia",
+        "madriz",
+        "esteli"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-24",
+      "source": "Infobae (La Prensa)",
+      "url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
+      "title": "La sequía retrasa la cosecha 2026-27 y el precio de exportación baja a US$169 por quintal en septiembre",
+      "summary": "Productores de Las Segovias, Matagalpa y Jinotega reportan fincas aún con grano verde y esperan el corte pleno a inicios de diciembre; por ahora hay menos demanda de cortadores (C$100–120 por lata más comida) y temor a la antracnosis. Según el BCN, el precio promedio de exportación de enero a septiembre de 2026 fue US$285,60 por quintal, pero cayó a US$220,70 en julio y US$169,10 en septiembre; los acopiadores pagan C$4.500–5.000 por quintal pergamino."
     },
     {
       "id": "n24",
