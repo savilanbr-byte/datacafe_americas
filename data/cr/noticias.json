@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:46:24Z",
+  "updatedAt": "2026-11-25T11:48:54Z",
   "items": [
     {
       "id": "n52",
@@ -10,6 +10,26 @@
       "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
       "title": "El robusta se estabiliza cerca de su mínimo de tres años; el arábica rebota 1,8 %",
       "summary": "El robusta de ICE se mantenía en US$2.882/t tras marcar el viernes un mínimo de tres años de US$2.854, con llegadas lentas de la cosecha vietnamita y existencias certificadas en su nivel más bajo en más de un mes; el arábica subía 1,8 % a 273,25 ¢/lb. Un robusta barato sigue presionando los diferenciales de los arábicas lavados como los de Costa Rica."
+    },
+    {
+      "id": "n54",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-24",
+      "source": "Briefs · ICE",
+      "url": "https://www.briefs.co/news/coffee-futures-slip-after-big-spike-in-exchange-stockpiles/",
+      "title": "Los inventarios certificados de arábica en ICE saltan 19 % en un día, a más de 268.000 sacos",
+      "summary": "Es el mayor aumento diario desde 1998 y el quinto alza seguida; unos 250.000 sacos, casi todos de Brasil, esperan clasificación y el arábica cayó hasta 2,2 % a mínimos de cinco meses. Más café certificable presiona el precio base de NY y abre espacio para negociar diferenciales en Costa Rica."
+    },
+    {
+      "id": "n55",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-24",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
+      "title": "La sequía por El Niño retrasa la cosecha 2026-27 de Nicaragua y reduce la demanda de cortadores",
+      "summary": "La maduración va lenta en las zonas productoras; el país prevé unos 3 millones de quintales oro y su precio promedio de exportación bajó de más de US$300 en enero a US$169,10 por quintal en septiembre. Para Costa Rica, que depende en parte de recolectores nicaragüenses, conviene vigilar si el retraso cambia su llegada."
     },
     {
       "id": "n50",
@@ -36,16 +56,6 @@
       "url": "https://www.global-agriculture.com/global-agriculture/brazils-coffee-export-surge-and-weak-real-pull-global-prices-in-opposite-directions/",
       "title": "Brasil exporta 23 % más café en octubre y el real cerca de mínimos de 19 meses alienta más ventas",
       "summary": "Brasil embarcó 287.000 t en octubre; Vietnam subió 61 % sus exportaciones y proyecta 2,1 millones de t de robusta en 2026-27. Más oferta de origen competidor pesa sobre los diferenciales de lavados centroamericanos."
-    },
-    {
-      "id": "n48",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-20",
-      "source": "StoneX",
-      "url": "https://www.stonex.com/en-us/insights/daily-coffee-report-11-20-26/",
-      "title": "El arábica cae a 268,50 ¢/lb y los inventarios certificados de ICE suben a 225.000 sacos; el robusta, en mínimos desde febrero de 2024",
-      "summary": "El contrato de marzo cerró el viernes 20 en 268,50 ¢/lb (−7,50 en el día y −5,00 en la semana) y el robusta de enero en US$2.881/t; hay 225.219 sacos certificados y 251.230 en espera de clasificación. El aumento de existencias en ICE quita soporte al precio base de NY con el que se negocia la cosecha tica 2026-27."
     },
     {
       "id": "n51",
