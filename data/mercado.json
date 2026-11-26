@@ -27,19 +27,19 @@
     ]
   },
   "fx": {
-    "asOf": "2026-11-25",
+    "asOf": "2026-11-26",
     "base": "USD",
     "rates": {
-      "BRL": 5.894422,
-      "COP": 3516.051988,
-      "MXN": 19.375508,
-      "GTQ": 7.640445,
-      "HNL": 26.88654,
-      "NIO": 36.725748,
-      "CRC": 446.591147,
-      "VES": 922.5637,
-      "PEN": 3.472691,
-      "BOB": 11.760928
+      "BRL": 5.884106,
+      "COP": 3604.230999,
+      "MXN": 19.640737,
+      "GTQ": 7.639618,
+      "HNL": 26.872757,
+      "NIO": 36.769722,
+      "CRC": 443.966094,
+      "VES": 924.3534,
+      "PEN": 3.48104,
+      "BOB": 11.781791
     },
     "source": "ExchangeRate-API",
     "url": "https://open.er-api.com/v6/latest/USD"
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-26T11:50:03Z"
+  "updatedAt": "2026-11-26T19:47:00Z"
 }
