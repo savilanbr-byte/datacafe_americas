@@ -150,7 +150,7 @@
       "value": 270.0,
       "change": 7.4,
       "url": "https://www.investing.com/commodities/us-coffee-c-historical-data",
-      "note": "Liquidación del 25-nov (página de contratos de Investing); la página histórica marcó 268,55. Dic-26 en período de entrega: 275,65."
+      "note": "Liquidación del 25-nov (página de contratos de Investing); la página histórica marcó 268,55. Dic-26 en período de entrega: 275,65. El 26-nov ICE EE. UU. no opera por Acción de Gracias."
     },
     "kc2": {
       "source": "Investing.com",
@@ -265,5 +265,5 @@
     "unit": "M sacos",
     "url": "https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf"
   },
-  "updatedAt": "2026-11-25T19:47:22Z"
+  "updatedAt": "2026-11-26T11:50:03Z"
 }

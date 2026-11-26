@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:47:22Z",
+  "updatedAt": "2026-11-26T11:50:03Z",
   "items": [
     {
       "id": "m25a",
@@ -11,6 +11,59 @@
       "url": "https://www.informador.mx/mexico/sheinbaum-exige-a-nestle-pagar-mejor-el-cafe-de-chiapas-y-eliminar-intermediarios-20261125-0058.html",
       "title": "Sheinbaum respalda a los cafeticultores de Chiapas y pide a Nestlé comprar sin intermediarios",
       "summary": "Tras las protestas en Tapachula por un pago de 43 pesos por kilo (los productores piden 50–60 pesos; unas 165 mil familias afectadas), la presidenta ordenó a Agricultura acompañar la negociación con Nestlé, que dice que pagará por encima de las bolsas en 2026-27. Presión al alza sobre el precio al productor en la Costa-Sierra de Chiapas."
+    },
+    {
+      "id": "n26a",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Precios",
+      "date": "2026-11-25",
+      "source": "Alerta Chiapas · OIC",
+      "url": "https://alertachiapas.com/2026/11/25/chiapas-cafe-precio-kilo-oic-octubre/",
+      "title": "El café verde de Chiapas vale 28 pesos menos por kilo que hace un año",
+      "summary": "Con el grupo Otros Suaves de la OIC en 334,99 ¢/lb en octubre (−17 % anual), el café verde chiapaneco ronda 135,90 pesos por kilo frente a 163,97 hace un año, justo cuando arranca la venta de la cosecha 2026-2027. Durante la Cumbre del Café de Chiapas en Tapachula (23 al 28 de noviembre) hay 15 compradores de seis países: buena ventana para negociar origen."
+    },
+    {
+      "id": "n26c",
+      "scope": "mundo",
+      "tag": "Exportaciones",
+      "date": "2026-11-25",
+      "source": "Coffee Geography · Vicofa",
+      "url": "https://coffeegeography.com/2026/11/25/vietnams-coffee-exports-surpass-6-billion-in-eight-months/",
+      "title": "Vietnam exporta casi 1,7 millones de toneladas de café, pero factura 11 % menos",
+      "summary": "En ocho meses de 2026 los envíos vietnamitas subieron más de 10 % en volumen pero el valor cayó 11,2 % por precios más bajos; el robusta suma 1,01 millones de toneladas. Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, lo que mantiene presión sobre el robusta."
+    },
+    {
+      "id": "n26d",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-25",
+      "source": "Daily Coffee News · USDA FAS",
+      "url": "https://dailycoffeenews.com/2026/11/25/indonesia-coffee-production-down-8-2-due-to-weather/",
+      "title": "La producción de café de Indonesia caería 8,2 % por inundaciones y sequía",
+      "summary": "El USDA estima la cosecha indonesia 2026/27 en 11,35 millones de sacos, con el robusta en unos 10 millones (−9,1 %) y el arábica en 1,35 millones. Las exportaciones se proyectan en 7,3 millones de sacos, cerca de 7 % menos que el año anterior."
+    },
+    {
+      "id": "n26e",
+      "scope": "am",
+      "pais": "Colombia",
+      "tag": "Divisas",
+      "date": "2026-11-25",
+      "source": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/mercados/en-la-linea-de-fuego-del-dolar-de-colombia-a-brasil-las-monedas-de-america-latina-que-mas-caen/",
+      "title": "El peso colombiano se hunde 12,7 % en noviembre y el real 7,7 %",
+      "summary": "Ante la posibilidad de que la Fed suba tasas 50 puntos básicos, el peso colombiano es la moneda que más cae de la región en el mes, seguido por el real (−7,7 %) y el peso mexicano (−4,6 %); el sol peruano apenas cede 0,4 %. Un dólar fuerte abarata el café en dólares en esos orígenes y anima a los productores a vender."
+    },
+    {
+      "id": "n26f",
+      "scope": "am",
+      "pais": "Brasil",
+      "tag": "Regulación",
+      "date": "2026-11-25",
+      "source": "Reuters (vía WTVB)",
+      "url": "https://wtvbam.com/2026/11/25/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft/",
+      "title": "EE. UU. propone nuevos aranceles a Brasil y bloquea el panel en la OMC; el café sigue exento",
+      "summary": "La oficina comercial de EE. UU. propone un arancel de 10 % a los aviones brasileños y nuevas tasas al azúcar, sobre los aranceles de 25 % de julio, que mantienen exento al café; el martes Washington bloqueó el panel que Brasil pidió en la OMC. Por ahora no cambia el costo de importar café brasileño a EE. UU., pero la tensión comercial sigue abierta."
     },
     {
       "id": "d4",
@@ -67,15 +120,15 @@
       "summary": "El lunes 23 ingresaron 43.395 sacos, todos de origen Brasil, apenas una semana después de que las existencias tocaran su nivel más bajo en 26 años; el contrato de marzo cayó a su mínimo desde el 30 de junio y el robusta de Londres a casi tres años. La llegada de arábica brasileño a bolsa alivia la estrechez de corto plazo y favorece al comprador."
     },
     {
-      "id": "d2",
+      "id": "n26b",
       "scope": "am",
       "pais": "Colombia",
-      "tag": "Divisas",
-      "date": "2026-11-23",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/colombia/2026/11/23/dolar-hoy-en-colombia-cotizacion-de-cierre-del-23-de-noviembre/",
-      "title": "El dólar cierra por encima de $3.500 en Colombia tras subir más de $220 en una semana",
-      "summary": "El cierre promedio del lunes fue $3.506,54 (TRM $3.461,92), con cuatro alzas seguidas y +5,9 % semanal por apuestas de alza de tasas de la Fed, petróleo bajo, dudas fiscales y un recorte de 6 % en las exportaciones de café proyectadas. Un peso más débil sube el precio interno en pesos y mejora el margen del exportador."
+      "tag": "Exportaciones",
+      "date": "2026-11-24",
+      "source": "Daily Coffee News · USDA FAS",
+      "url": "https://dailycoffeenews.com/2026/11/24/usda-cuts-colombia-coffee-export-forecast-by-760000-bags/",
+      "title": "USDA recorta en 760.000 sacos su pronóstico de exportaciones de Colombia",
+      "summary": "El USDA mantiene la producción colombiana 2026/27 en 13,4 millones de sacos (+5,9 %), pero baja las exportaciones a 12,64 millones y sube los inventarios finales a 918.000 sacos. Advierte que la sequía de El Niño hasta inicios de 2027 es un riesgo para la próxima cosecha."
     },
     {
       "id": "d3",
@@ -99,17 +152,6 @@
       "summary": "El precio interno en las Tierras Altas Centrales cayó desde más de 83.000 VND/kg a mediados de noviembre, mientras Londres tocó mínimos de tres años (~USD 2.881/t) y Vietnam embarcó unas 108.800 t en octubre (+50 % anual). Más oferta asiática presiona al robusta y al diferencial frente a los conilon de Brasil."
     },
     {
-      "id": "nv11",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Producción",
-      "date": "2026-11-22",
-      "source": "Coffee Geography (informe USDA FAS del 18-nov)",
-      "url": "https://coffeegeography.com/2026/11/22/colombia-coffee-output-and-exports-poised-for-rebound-in-2026-27/",
-      "title": "USDA prevé que Colombia recupere producción y exportaciones en 2026/27",
-      "summary": "El USDA FAS proyecta 13,4 millones de sacos de 60 kg para 2026/27 (+5,9 %) y exportaciones de 12,6 millones de sacos (+4,3 %), tras 12,65 millones de sacos producidos en 2025/26. Advierte que un El Niño fuerte podría reducir lluvias hasta inicios de 2027 y afectar la floración, un riesgo para la oferta colombiana del próximo año."
-    },
-    {
       "id": "nv8",
       "scope": "am",
       "pais": "Guatemala",
@@ -130,17 +172,6 @@
       "url": "https://diarioeloriental.com/venezuela-alcanza-1-770-toneladas-de-cafe-exportadas-desde-lara/",
       "title": "Venezuela suma 1.770 toneladas de café exportadas con envío a Turquía",
       "summary": "Con un despacho de 57 toneladas de grano verde desde Lara hacia Turquía, Venezuela acumula 1.770 toneladas de café exportadas dentro de la comercialización de la cosecha 2026-2027. Confirma que el país ya vuelve a vender café verde al exterior, aunque en volúmenes todavía pequeños."
-    },
-    {
-      "id": "t2",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Regulación",
-      "date": "2026-11-20",
-      "source": "TV Sim Brasil",
-      "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/20/brasil-pede-painel-omc-tarifaco-eua",
-      "title": "Brasil pide un panel en la OMC contra los aranceles de 25 % y 12,5 % de EE. UU.",
-      "summary": "El pedido entra en la agenda del Órgano de Solución de Diferencias el 24 de noviembre; el café está excluido del arancel de 25 %, y la nota no aclara su situación frente al de 12,5 %. Conviene seguirlo por su efecto en el acceso del café brasileño al mercado estadounidense."
     },
     {
       "id": "nv12",
@@ -216,39 +247,6 @@
       "url": "https://www.elcomercio.com/actualidad/negocios/caficultor-zaruma-vendio-libra-cafe-105-dolares-rompio-record-taza-dorada/",
       "title": "Taza Dorada 2026: un lote de Zaruma se vende al récord de USD 105 por libra",
       "summary": "El ganador del concurso de ANECAFÉ, un sidra honey de doble fermentación de El Oro con 90,17 puntos, se subastó a USD 105/lb (récord previo USD 100) y se enviará a EE. UU., Corea del Sur y Taiwán. Los microlotes ecuatorianos de alta puntuación siguen ganando precio."
-    },
-    {
-      "id": "l1",
-      "scope": "am",
-      "pais": "Costa Rica",
-      "tag": "Producción",
-      "date": "2026-11-15",
-      "source": "La Nación · ICAFE",
-      "url": "https://www.nacion.com/economia/costa-rica-produce-la-mitad-del-cafe-que-cosechaba/XF6QPN6Z4RCZBEMOFV6UYZPCBM/story/",
-      "title": "Costa Rica produce hoy la mitad del café que cosechaba hace 27 años",
-      "summary": "Con datos del ICAFE, la cosecha 2025-26 se estima en 1.591.850 fanegas frente a 3.278.716 en 1998-99 (−51,4 %), con desplomes en Turrialba (−83,9 %) y Zona Norte (−80,3 %), mientras el costo subió a ¢105.267 por fanega. La oferta tica se concentra cada vez más en Los Santos y el Valle Occidental."
-    },
-    {
-      "id": "l2",
-      "scope": "am",
-      "pais": "Honduras",
-      "tag": "Regulación",
-      "date": "2026-11-15",
-      "source": "Infobae · SAG / IHCAFE",
-      "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
-      "title": "Honduras corre para georreferenciar sus fincas antes de que rija la EUDR",
-      "summary": "La SAG georreferenciará unas 400 mil manzanas de café porque más de la mitad de las exportaciones (7,18 millones de quintales el ciclo pasado) va a la UE, donde la norma aplica desde el 30 de diciembre. Quien compre para Europa debe pedir ya a sus exportadores los datos de trazabilidad de cada lote."
-    },
-    {
-      "id": "l5",
-      "scope": "am",
-      "pais": "Colombia",
-      "tag": "Producción",
-      "date": "2026-11-15",
-      "source": "BC Noticias · Comité de Cafeteros de Caldas",
-      "url": "https://www.bcnoticias.com.co/cosecha-cafetera-en-caldas-tendra-su-pico-en-diciembre-y-buscan-recolectores-en-cauca-y-narino/",
-      "title": "Caldas: el pico de la cosecha se corre a la segunda semana de diciembre",
-      "summary": "El Comité de Caldas espera el pico de recolección entre el 7 y el 13 de diciembre, cuando antes llegaba entre fines de septiembre e inicios de octubre; faltan recolectores y se paga en promedio $1.348 por kilo de cereza. El café nuevo de la cosecha principal llegará más tarde a los puertos."
     }
   ]
 }
