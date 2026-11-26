@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:47:47Z",
+  "updatedAt": "2026-11-26T19:47:10Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -27,19 +27,19 @@
     "period": ""
   },
   "impactos": [
-    "Los vientos nortes del 25 al 27 de noviembre, con ráfagas de hasta 70 km/h en zonas altas según el MARN, pueden botar fruta madura en Apaneca-Ilamatepec, Alotepec-Metapán y la parte alta de Cacahuatique, donde la corta del estricta altura (SHG) apenas arranca: conviene preguntar al proveedor por fruta caída y su efecto en volumen.",
-    "Tras las lluvias de tarde del 25 de noviembre, el MARN prevé días secos y ventosos desde el 26, buenos para el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Chichontepec y El Bálsamo-Quezaltepec; revisa la humedad del pergamino de los lotes que se mojaron esta semana.",
+    "Los vientos nortes del 25 al 27 de noviembre (ráfagas de hasta 70 km/h la noche del 25 y de 40 a 60 km/h el 26, según el MARN) pueden botar fruta madura en Apaneca-Ilamatepec, Alotepec-Metapán y la parte alta de Cacahuatique, donde la corta del estricta altura (SHG) apenas arranca: conviene preguntar al proveedor por fruta caída y su efecto en volumen.",
+    "Tras las lluvias de tarde del 25 de noviembre, el MARN prevé el 26 y 27 cielos despejados, sin lluvia y con nortes que se debilitan el viernes: buenas condiciones para el secado en patio del café de bajío y media altura de Tecapa-Chinameca, Chichontepec y El Bálsamo-Quezaltepec; revisa la humedad del pergamino de los lotes que se mojaron esta semana.",
     "El MARN prevé que 2026 cierre como el año más seco en 56 años (déficit cercano al 32 %), lo que respalda una cosecha 2026-27 menor (750–800 mil quintales según la Asociación Cafetalera): conviene asegurar con tiempo los lotes de altura.",
     "Con El Niño fuerte a muy fuerte hasta ene–mar 2027 (+2,5 °C en Niño 3.4, según NOAA), la maduración en zonas altas puede adelantarse y dar grano más pequeño y menos denso; vale pedir análisis de criba y densidad en las primeras muestras."
   ],
   "avisos": {
     "source": "MARN",
-    "asOf": "2026-11-25",
-    "headline": "MARN: los vientos nortes entran la noche del miércoles 25 con ráfagas de 35 a 70 km/h y siguen el jueves 26 (ráfagas de 35 a 65 km/h); el informe especial los extiende hasta el sábado 28",
+    "asOf": "2026-11-26",
+    "headline": "MARN: siguen los vientos nortes el jueves 26 (ráfagas de 40 a 60 km/h) y se debilitan el viernes 27, que pasa a viento del este por la tarde; sin lluvias ambos días",
     "items": [
-      "Miércoles 25: lluvias y tormentas por la tarde en las cordilleras El Bálsamo y Apaneca-Ilamatepec, el Área Metropolitana y sectores del norte de Chalatenango, Cabañas, Morazán y San Miguel; de noche, lluvias puntuales en Cuscatlán, San Salvador, San Vicente, La Paz y Usulután.",
-      "Desde la noche del 25 ingresan los nortes con velocidades de 10 a 30 km/h y ráfagas de 35 a 70 km/h; el jueves 26 continúan (ráfagas de 35 a 65 km/h) y ya sin lluvias.",
-      "Máximas de 29–30 °C en Santa Ana y San Salvador y de 35–36 °C en San Miguel. Los nortes siguen el viernes 27 y el sábado 28 vuelven los vientos del este; mareas vivas en la costa hasta el domingo 29."
+      "Jueves 26: cielo mayormente despejado, viento del norte de 10 a 30 km/h con ráfagas de 40 a 60 km/h y sin lluvias; leve descenso de la temperatura nocturna por un frente frío en el Caribe.",
+      "Viernes 27: nortes solo en la mañana (ráfagas de 30 a 45 km/h); de la tarde a la noche, viento del este y noreste. Sin lluvias y noches frescas.",
+      "Máximas de 30 °C en Santa Ana y San Salvador (mínimas de 18–20 °C) y de 36 °C en San Miguel."
     ],
     "links": [
       {
@@ -47,8 +47,8 @@
         "url": "https://www.snet.gob.sv/ver/meteorologia/pronostico/48+horas/"
       },
       {
-        "t": "El Diario de Hoy · pronóstico MARN del 25 de noviembre",
-        "url": "https://www.elsalvador.com/noticias/nacional/clima-el-salvador-25-noviembre/1305781/2026/"
+        "t": "Infobae · nortes con ráfagas de hasta 70 km/h (25-nov)",
+        "url": "https://www.infobae.com/el-salvador/2026/11/25/los-vientos-nortes-ingresaran-a-el-salvador-este-miercoles-por-la-noche-con-rafagas-de-hasta-70-kmh/"
       },
       {
         "t": "El Diario de Hoy · 2026, el año más seco en 56 años",
