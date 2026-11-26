@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:47:57Z",
+  "updatedAt": "2026-11-26T11:48:51Z",
   "items": [
     {
       "id": "g31",
@@ -14,6 +14,16 @@
       "url": "https://www.prensalibre.com/guatemala/comunitario/frente-frio-influye-en-guatemala-donde-podria-llover-este-miercoles-25-de-noviembre/",
       "title": "Llega el efecto del primer frente frío: lluvias intermitentes en el norte, el Caribe y los valles de Oriente",
       "summary": "El INSIVUMEH prevé para el 25-nov nubosidad y lluvias intermitentes en la Franja Transversal del Norte, el Caribe, los valles de Oriente y el norte del Altiplano central, con lloviznas de tarde y noche en el occidente; el frente no afectaría directamente al país. Para quien compra en Cobán y Nuevo Oriente, que ya cosechan, implica revisar el secado en patio y la humedad del pergamino."
+    },
+    {
+      "id": "n27",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Barchart · Wisevoter",
+      "url": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
+      "title": "Arábica rebota 2,8 % por lluvias en Minas Gerais; robusta toca mínimo de 3 años",
+      "summary": "El arábica de marzo subió 7,40 ¢/lb (+2,82 %) el 25-nov por cobertura de cortos ante lluvias de hasta 36,9 mm previstas en Minas Gerais, mientras los inventarios certificados de ICE llegaron a 283.036 sacos (máximo de 3,75 meses) y la robusta cayó a mínimo de 3 años. La volatilidad sigue alta: conviene fijar precio por tramos en la cosecha guatemalteca que empieza."
     },
     {
       "id": "n26",
@@ -72,16 +82,6 @@
       "summary": "El 19-nov la robusta en ICE tocó US$2.972 por tonelada, su nivel más bajo en dos años y medio, por la llegada de grano nuevo de Vietnam y un real brasileño débil que alienta las ventas de Brasil; el arábica subió 0,9 % a US$2,779 por libra. La presión bajista de la robusta pesa también sobre los diferenciales de los lavados centroamericanos."
     },
     {
-      "id": "n24",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-19",
-      "source": "UkrAgroConsult · Barchart",
-      "url": "https://ukragroconsult.com/en/news/global-coffee-prices-plunge-amid-expectations-of-record-production/",
-      "title": "Arábica cae 3,6 % y robusta toca mínimo de 2 años y 9 meses por la oferta récord",
-      "summary": "El 18-nov el arábica de diciembre bajó 3,59 % y la robusta de enero 2,25 %, presionados por la cosecha mundial récord de 189,7 M de sacos que proyecta el USDA (Brasil 71,9 M, +14 %) y por el real en mínimo de 19 meses; los inventarios certificados de arábica (186.400 sacos) siguen en su nivel más bajo en 27 años. Para Guatemala, un C más bajo abarata el café de la nueva cosecha, aunque los diferenciales de origen suave siguen firmes."
-    },
-    {
       "id": "g27",
       "scope": "gt",
       "regiones": [],
@@ -136,20 +136,6 @@
       "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
       "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
       "summary": "Según Cecafé, Brasil exportó 5,33 M de sacos en octubre de 2026 (+28,4 %), con 4,12 M de arábica (+21,6 %); de enero a octubre suma 34,48 M (+3,5 %), aún 7,3 M por debajo de 2024. La llegada de la nueva cosecha brasileña presiona la Bolsa de NY y los diferenciales centroamericanos."
-    },
-    {
-      "id": "g18",
-      "scope": "gt",
-      "regiones": [
-        "huehuetenango",
-        "san-marcos"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-11",
-      "source": "Prensa Latina · INSIVUMEH",
-      "url": "https://prensa-latina.cu/2026/11/11/continuaran-bajas-temperaturas-en-distintas-regiones-de-guatemala",
-      "title": "Mínimas de 5 °C en Huehuetenango y lluvias por la tarde en la Bocacosta",
-      "summary": "El INSIVUMEH registró 5,0 °C en San Pedro Necta y 5,2 °C en Todos Santos (Huehuetenango) y 9 °C en San Marcos; prevé mínimas de 3–5 °C en los altiplanos, lluvias dispersas con tormenta en la Bocacosta y dos frentes fríos este mes. En San Marcos, que ya cosecha, la lluvia de la tarde complica el secado."
     }
   ]
 }

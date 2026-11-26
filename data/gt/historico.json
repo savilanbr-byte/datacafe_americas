@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:47:57Z",
+  "updatedAt": "2026-11-26T11:48:51Z",
   "series": {
     "kc1": {
       "points": [
@@ -198,6 +198,10 @@
         [
           "2026-11-24",
           262.6
+        ],
+        [
+          "2026-11-25",
+          270.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de la Bolsa de NY según la OIC (2.ª y 3.ª posición). Desde el 15-sep: cierre diario del contrato frente.",
@@ -404,7 +408,7 @@
         ],
         [
           "2026-11-25",
-          2755.0
+          2796.0
         ]
       ],
       "note": "Hasta agosto: promedio mensual de Londres según la OIC, pasado de ¢/lb a USD/t (×22,0462). Desde el 15-sep: cierre diario; el último punto es intradía.",
@@ -511,6 +515,10 @@
         [
           "2026-11-25",
           7.6478
+        ],
+        [
+          "2026-11-26",
+          7.6453
         ]
       ],
       "note": "Tipo de cambio de referencia del Banguat. La serie arranca el 26-oct-2026 y suma un dato por actualización.",
