@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:46:52Z",
+  "updatedAt": "2026-11-26T11:47:36Z",
   "items": [
     {
       "id": "ni9",
@@ -105,16 +105,6 @@
       "summary": "Productores de Las Segovias, Matagalpa y Jinotega reportan fincas aún con grano verde y esperan el corte pleno a inicios de diciembre; por ahora hay menos demanda de cortadores (C$100–120 por lata más comida) y temor a la antracnosis. Según el BCN, el precio promedio de exportación de enero a septiembre de 2026 fue US$285,60 por quintal, pero cayó a US$220,70 en julio y US$169,10 en septiembre; los acopiadores pagan C$4.500–5.000 por quintal pergamino."
     },
     {
-      "id": "n24",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "Tea & Coffee Trade Journal (OIC)",
-      "url": "https://www.teaandcoffee.net/news/40500/ico-reports-contrasting-arabica-and-robusta-performances-in-october/",
-      "title": "OIC: el arábica de NY sube 1,6 % en octubre y los inventarios certificados tocan mínimos desde 2002",
-      "summary": "El indicador compuesto de la OIC promedió 261,26 ¢/lb en octubre (−0,3 %); el arábica de NY promedió 285,10 ¢/lb (+1,6 %) y el robusta de Londres 152,56 ¢/lb (−1,1 %). Los inventarios certificados de arábica en EE. UU. bajaron a 0,23 M de sacos, el nivel más bajo a fin de mes desde enero de 2002; los Otros Suaves (grupo de Nicaragua) promediaron 334,99 ¢/lb."
-    },
-    {
       "id": "n23",
       "scope": "mundo",
       "tag": "Exportaciones",
@@ -153,6 +143,16 @@
       "url": "https://investnews.com.br/economia/cafe-arabica-alta-estoques-28-anos",
       "title": "El arábica toca mínimo de cinco meses tras el mayor salto diario de inventarios ICE desde 1998",
       "summary": "El 24-nov el contrato más negociado de arábica llegó a caer 2,2 % luego de que los inventarios certificados de ICE subieran 19 % a más de 268.000 sacos (quinta alza seguida), con casi 250.000 sacos más esperando certificación. Se diluye el soporte que daban los inventarios mínimos: para comprar café nicaragüense, más presión bajista en NY en plena cosecha."
+    },
+    {
+      "id": "n36",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Wisevoter (Barchart)",
+      "url": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
+      "title": "El arábica rebota 2,8 % por lluvias en Minas Gerais y el robusta cae a mínimo de tres años",
+      "summary": "El 25-nov el arábica de marzo subió 7,40 ¢ (+2,82 %) desde un mínimo de 5,25 meses por cobertura de cortos ante lluvias de hasta 36,9 mm previstas en Minas Gerais, mientras el robusta tocó un mínimo de tres años. Los inventarios certificados de arábica de ICE subieron a 283.036 sacos (máximo de 3,75 meses) y Vietnam proyecta 2,1 M t de robusta en 2026-27 (+5 %): NY sigue volátil para fijar precio del café nicaragüense."
     }
   ]
 }
