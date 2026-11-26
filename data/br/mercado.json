@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:49:17Z",
+  "updatedAt": "2026-11-26T19:47:25Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.8825,
+      "value": 5.7446,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-23-2026'&@dataFinalCotacao='11-25-2026'&$format=json",
-      "note": "PTAX de venta del 25-nov (boletín de las 13:02): +0,43 % frente a R$5,8573 del 24-nov, un rebote parcial tras la caída de 1,9 % por el anuncio de la PEC de gasto.",
-      "change": 0.0252,
-      "changePct": 0.43,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-24-2026'&@dataFinalCotacao='11-26-2026'&$format=json",
+      "note": "PTAX de venta del 26-nov (boletín de las 13:11): −2,34 % frente a R$5,8825 del 25-nov, por la expectativa de un ministro de Hacienda afín al mercado (Trabuco) y un IPCA-15 de noviembre de 0,22 %, menor a lo esperado.",
+      "change": -0.1379,
+      "changePct": -2.34,
       "chgDec": 4
     },
     "cepeaA": {

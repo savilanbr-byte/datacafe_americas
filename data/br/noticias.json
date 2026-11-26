@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-26T11:49:17Z",
+  "updatedAt": "2026-11-26T19:47:25Z",
   "items": [
     {
-      "id": "b75",
+      "id": "b76",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
-      "date": "2026-11-25",
-      "source": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25112026/",
-      "title": "El dólar cae 1,5 % a R$5,82 por la especulación sobre un ministro de Hacienda afín al mercado",
-      "summary": "El dólar comercial cerró el 25-nov en R$5,8179 (−1,53 %), tercera baja seguida, ante rumores de que el banquero Luiz Carlos Trabuco iría a Hacienda, nuevas medidas fiscales y una subasta de US$2.000 M del Banco Central. Un real más firme sube el precio del café brasileño en dólares y puede frenar las ventas del productor."
+      "date": "2026-11-26",
+      "source": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-cai-a-r-5-73-e-ibovespa-dispara-mais-de-3",
+      "title": "El dólar sigue cayendo y toca R$5,71 por la apuesta a Trabuco en Hacienda y una inflación menor",
+      "summary": "El 26-nov el dólar bajaba 1,4 % a R$5,736 (mínimo de R$5,712) y la PTAX cayó 2,3 % a R$5,7446, tras un IPCA-15 de 0,22 % (se esperaba 0,34 %) y la expectativa de que el banquero Luiz Carlos Trabuco asuma Hacienda; un real más fuerte encarece el café brasileño en dólares y puede frenar las ventas del productor."
     },
     {
       "id": "b74",
