@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-25T19:46:21Z",
+  "updatedAt": "2026-11-26T11:48:17Z",
   "items": [
+    {
+      "id": "p46",
+      "scope": "pe",
+      "regiones": [
+        "cajamarca",
+        "piura",
+        "amazonas",
+        "san-martin",
+        "junin",
+        "pasco",
+        "huanuco",
+        "cusco",
+        "puno",
+        "ayacucho"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-26",
+      "source": "Andina · SENAMHI",
+      "url": "https://andina.pe/agencia/noticia-por-lluvias-moderadas-a-extremas-la-sierra-y-costa-norte-alertan-a-128-provincias-1101487.aspx",
+      "title": "SENAMHI alerta por lluvias de moderadas a extremas en la sierra y la costa norte hasta el 29 de noviembre",
+      "summary": "El viernes 27 se esperan de 5 a 80 mm/día en la costa norte, de 5 a 45 mm en la sierra norte y de 5 a 20 mm en la sierra centro, en 19 departamentos y 128 provincias, entre ellos los diez cafeteros. Para el comprador: más humedad y riesgo de roya en el norte, y posibles cortes de vías hacia Paita para el café que aún se embarca."
+    },
+    {
+      "id": "n27",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Wisevoter · Barchart",
+      "url": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
+      "title": "El arábica rebota 2,8 % desde su mínimo de cinco meses por compras de cobertura y lluvias en Brasil",
+      "summary": "El marzo de arábica en ICE subió 7,40 ¢/lb (+2,82 %) el 25 de noviembre ante pronósticos de hasta 36,9 mm en Minas Gerais, mientras la robusta tocó un mínimo de tres años; los inventarios certificados de arábica llegaron a 283.036 sacos, máximo de 3,75 meses. Vietnam proyecta 2,1 millones de t de robusta en 2026/27 (+5 %)."
+    },
     {
       "id": "n26",
       "scope": "mundo",
@@ -94,19 +126,6 @@
       "summary": "Llegan cooperativas del VRAEM, Tingo María, La Merced, San Juan del Oro y Jaén a la feria en Casa Prado (Miraflores); Devida asiste a 15.222 familias en 15.942 ha de café. Buena ocasión para cerrar lotes de cafés especiales de la campaña 2026 antes de fin de año."
     },
     {
-      "id": "p39",
-      "scope": "pe",
-      "regiones": [
-        "puno"
-      ],
-      "tag": "Agricultura",
-      "date": "2026-11-18",
-      "source": "Agro Perú · Devida",
-      "url": "https://www.agroperu.pe/puno-140-familias-cafetaleras-aprenden-nuevas-tecnicas-para-mejorar-su-produccion/",
-      "title": "Devida capacita a 140 familias cafetaleras de Sandia en abonamiento, encalado y prevención ante El Niño",
-      "summary": "La jornada en Alto Inambari es parte de una intervención de más de S/3,5 millones que atiende a 1.156 familias en 53 caseríos de cuatro distritos de Sandia, entre ellos San Juan del Oro, para subir la oferta de cafés especiales."
-    },
-    {
       "id": "p41",
       "scope": "pe",
       "regiones": [],
@@ -185,16 +204,6 @@
       "url": "https://www.rcrperu.com/fenomeno-de-el-nino-va-a-afectar-los-campos-de-cultivo-de-400-mil-familias-dedicadas-a-la-agricultura-familiar-en-cajamarca/",
       "title": "Gremio de Cajamarca advierte que El Niño podría afectar hasta 60 % de los cafetales de la región",
       "summary": "Juan Carlos Mondragón, expresidente de la Cámara de Comercio de Cajamarca, estima que las lluvias intensas y la roya podrían afectar hasta un 60 % de los campos de café de la región (estimación gremial, no oficial). Es una señal de riesgo para el volumen y la calidad de la campaña 2027 en Jaén y San Ignacio."
-    },
-    {
-      "id": "n15",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-11",
-      "source": "The Cooperator News · OIC",
-      "url": "https://thecooperator.news/global-coffee-exports-rise-1-percent-despite-september-shipment-slump/",
-      "title": "OIC: el indicador compuesto promedió 261,26 ¢/lb en octubre y las exportaciones mundiales 2025/26 subieron 1 %",
-      "summary": "Según el informe de octubre de 2026 de la OIC, el precio compuesto bajó 0,3 % frente a septiembre; Otros Suaves (grupo de Perú) promedió 334,99 ¢/lb (+1,7 %) y la robusta 164,19 ¢/lb (−2 %). En el año cafetero 2025/26 se exportaron 142,39 millones de sacos (+1 %), con Brasil −7,3 % y Asia +12,8 %."
     }
   ]
 }

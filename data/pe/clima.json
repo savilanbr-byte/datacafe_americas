@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:46:21Z",
+  "updatedAt": "2026-11-26T11:48:17Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -24,20 +24,24 @@
   "impactos": [
     "Entre octubre y febrero no hay cosecha principal: pesan las floraciones y el cuajado para la campaña 2027. Lo que queda es café en bodega y embarques hasta diciembre; revisa humedad y almacenamiento de los lotes comprados.",
     "Tras dos alertas rojas por calor diurno en la selva (16–18 y 22–24 de noviembre), el SENAMHI suma peligro extremo por noches cálidas del 25 al 28 de noviembre en los diez departamentos cafeteros: más días de estrés térmico en plena floración elevan el riesgo de aborto de flores y mal cuajado para la campaña 2027.",
-    "El ENFEN (13-nov) espera lluvias normales o menores en la Amazonía y la sierra centro y suroriental hasta enero; si el calor sigue sin lluvias suficientes, crece el riesgo de déficit hídrico en Junín, Pasco, Huánuco, Cusco y Puno.",
-    "En el norte, las lluvias de El Niño costero (aviso 481: hasta 90 mm/día en la costa norte del 24 al 26 de noviembre, con Cajamarca y Piura en alerta) y la humedad elevan el riesgo de roya y pueden cortar vías desde Huancabamba, Jaén y San Ignacio hacia Paita; un gremio de Cajamarca estima que hasta 60 % de los cafetales podría afectarse.",
+    "El ENFEN (13-nov) espera lluvias normales o menores en la Amazonía y la sierra centro y suroriental hasta enero; las lluvias del aviso de fin de mes en la sierra centro (5–20 mm/día) alivian poco, y si el calor sigue crece el riesgo de déficit hídrico en Junín, Pasco, Huánuco, Cusco y Puno.",
+    "En el norte, las lluvias de El Niño costero siguen hasta el 29 de noviembre (hasta 45 mm/día en la sierra norte el 27-nov, con Cajamarca, Piura, Amazonas y San Martín en alerta): la humedad eleva el riesgo de roya y puede cortar vías desde Huancabamba, Jaén y San Ignacio hacia Paita; un gremio de Cajamarca estima que hasta 60 % de los cafetales podría afectarse.",
     "Con una campaña 2026 corta (220–230 mil t según la JNC; volumen exportado −11,4 % en septiembre según el INEI) y señales de riesgo para 2027, los diferenciales en origen tienden a mantenerse firmes aunque la bolsa de NY esté baja."
   ],
   "avisos": {
     "source": "SENAMHI · ENFEN",
-    "asOf": "2026-11-24",
-    "headline": "SENAMHI: peligro extremo por noches cálidas del 25 al 28 de noviembre en 22 departamentos, incluidos los diez cafeteros (aviso 485), mientras siguen las lluvias fuertes en la costa y sierra norte (aviso 481); ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
+    "asOf": "2026-11-26",
+    "headline": "SENAMHI: lluvias de moderada a extrema intensidad en la costa y la sierra hasta el 29 de noviembre en 19 departamentos, incluidos los diez cafeteros, tras el aviso de noches cálidas extremas del 25 al 28 de noviembre; ENFEN mantiene El Niño costero extraordinario hasta febrero de 2027",
     "items": [
+      "SENAMHI (Andina, 26-nov): lluvias de moderada a extrema intensidad con descargas eléctricas y ráfagas de unos 45 km/h hasta el domingo 29 de noviembre; para el viernes 27, 5–80 mm/día en la costa norte, 5–45 mm en la sierra norte y 5–20 mm en la sierra centro. Alcanza a 19 departamentos y 128 provincias, entre ellos Cajamarca, Piura, Amazonas, San Martín, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho.",
       "SENAMHI (aviso 485, emitido el 24-nov): incremento de las temperaturas nocturnas de nivel extremo del miércoles 25 al sábado 28 de noviembre, con ráfagas de viento, en 22 departamentos y 168 provincias; incluye Cajamarca, Piura, Amazonas, San Martín, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho.",
-      "SENAMHI (aviso 481, 24-nov): lluvias de fuerte a extrema intensidad del 24 al 26 de noviembre, con 5–90 mm diarios en la costa norte y cerca de 15 mm en la sierra sur; incluye Cajamarca, Piura, Junín, Pasco, Huánuco, Cusco, Puno y Ayacucho (no Amazonas ni San Martín).",
       "ENFEN (comunicado N.° 20-2026, 13-nov): El Niño costero extraordinario hasta febrero de 2027 y debilitamiento gradual hasta julio; de noviembre a enero, lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía."
     ],
     "links": [
+      {
+        "t": "SENAMHI · Andina (26-nov)",
+        "url": "https://andina.pe/agencia/noticia-por-lluvias-moderadas-a-extremas-la-sierra-y-costa-norte-alertan-a-128-provincias-1101487.aspx"
+      },
       {
         "t": "SENAMHI · Infobae (25-nov)",
         "url": "https://www.infobae.com/peru/2026/11/25/noches-con-calor-extremo-desde-este-miercoles-25-en-lima-y-21-regiones-de-la-costa-y-sierra-senamhi-emite-alerta-roja/"
