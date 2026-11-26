@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T11:46:17Z",
+ "updatedAt": "2026-11-26T19:47:52Z",
  "enso": {
   "asOf": "2026-11-12",
   "facts": [
@@ -27,20 +27,20 @@
   "period": ""
  },
  "impactos": [
-  "Entró el primer frente frío: Santa Bárbara (Opalaca) puede acumular hasta 100 mm y Yoro (Agalta) 60 mm hasta el viernes; en esas zonas el secado al sol del pergamino se interrumpe: pide la humedad del grano al recibir y evita lotes rehumedecidos o con olor a fermento.",
-  "En Copán, Montecillos, Comayagua y El Paraíso la lluvia será débil (10–15 mm) y el descenso de temperatura es breve: el corte de las zonas bajas y medias puede seguir, pero conviene secar en patio techado o secadora.",
+  "El frente frío concentra la lluvia en el norte: Yoro (Agalta) hasta 40 mm y Santa Bárbara (Opalaca) 30 mm este jueves; ahí el secado al sol del pergamino sigue interrumpido: pide la humedad del grano al recibir y evita lotes rehumedecidos o con olor a fermento.",
+  "En Copán, Montecillos, Comayagua y El Paraíso solo habrá lloviznas (3–10 mm) y el frío es breve (12 °C de mínima en Intibucá): el corte de las zonas bajas y medias puede seguir, pero conviene secar en patio techado o secadora.",
   "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene, fuera de estos frentes, un fin de año más seco y cálido de lo normal: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío.",
   "Con la fruta madurando rápido antes del pico de cosecha (20-dic a 20-feb), las lluvias del frente pueden provocar caída de grano maduro donde falten recolectores: revisa la calidad de los primeros lotes.",
   "La humedad de los frentes fríos favorece la roya en las zonas altas y húmedas de Agalta y Opalaca; pregunta por el manejo sanitario de la finca al contratar café 2026-27."
  ],
  "avisos": {
   "source": "COPECO",
-  "asOf": "2026-11-25",
-  "headline": "COPECO: entra el primer frente frío de la temporada; alerta verde por 48 horas en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro desde el miércoles 25",
+  "asOf": "2026-11-26",
+  "headline": "COPECO: el primer frente frío sigue el jueves 26 con lluvias fuertes en el norte y lloviznas en las zonas cafetaleras; alerta verde en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro",
   "items": [
-   "Miércoles 25: lluvias débiles a moderadas con actividad eléctrica en el norte, noroccidente y nororiente por la mañana; por la tarde chubascos dispersos en el centro, oriente y parte del suroccidente, y descenso de temperatura.",
-   "Acumulados estimados: Santa Bárbara hasta 100 mm, Yoro 60 mm, Olancho 20 mm; Copán, Lempira, Comayagua, El Paraíso y Francisco Morazán unos 15 mm; Intibucá, La Paz y Ocotepeque 10 mm. Mínima de 13 °C en Intibucá.",
-   "Jueves 26: el frente avanza lento por el Caribe; lluvias débiles a moderadas en el norte y lloviznas débiles en occidente, centro y oriente con temperaturas más bajas. Viernes 27: los vientos del norte mantienen lluvias en las montañas de Cortés, Atlántida, Colón y sectores de Yoro."
+   "Acumulados del jueves 26: Atlántida y Cortés hasta 100 mm, Colón 60 mm, Yoro 40 mm, Santa Bárbara 30 mm; Francisco Morazán 15 mm; Intibucá y La Paz 10 mm; Lempira, Olancho, Comayagua y Copán 5 mm; Ocotepeque y El Paraíso 3 mm. El sur (Choluteca y Valle) sigue seco.",
+   "Temperaturas más bajas: mínima de 12 °C y máxima de 20 °C en Intibucá; mínimas de 17 °C en El Paraíso y 18 °C en Copán, Lempira y Ocotepeque.",
+   "La alerta verde (boletín 051-2026) rige 48 horas desde el miércoles 25; el frente avanza lento por el Caribe y los vientos del norte mantienen lluvias en las montañas del norte hasta el viernes 27."
   ],
   "links": [
    {
@@ -48,16 +48,16 @@
     "url": "https://copeco.gob.hn/"
    },
    {
+    "t": "Hondudiario (26-nov)",
+    "url": "https://www.hondudiario.com/2026/11/26/frente-frio-dejara-lluvias-y-descenso-de-temperaturas-en-varias-regiones-del-pais/"
+   },
+   {
     "t": "Hondudiario (25-nov)",
     "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/"
    },
    {
-    "t": "Azteca Honduras (25-nov)",
-    "url": "https://aztecahonduras.com/saque-el-paraguas-frente-frio-cambiara-el-clima-en-estas-zonas-de-honduras/"
-   },
-   {
-    "t": "Televicentro (25-nov)",
-    "url": "https://www.televicentro.com/frente-frio-llega-con-fuerza-a-honduras-lluvias-azotaran-estos-departamentos-2026-11-25"
+    "t": "ICN Digital (25-nov)",
+    "url": "https://icndigital.com/copeco-declara-alerta-verde-en-seis-departamentos-del-pais-25-11-2026/"
    }
   ]
  },
