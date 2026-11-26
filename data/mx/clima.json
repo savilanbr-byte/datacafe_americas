@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:49:21Z",
+  "updatedAt": "2026-11-26T19:47:21Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -30,7 +30,7 @@
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-25",
+    "asOf": "2026-11-26",
     "headline": "El frente frío 8 sale hacia la península de Yucatán y el Caribe; el jueves 26 aún deja 25–50 mm en el sur de Veracruz, el este de Oaxaca y el norte y este de Chiapas, con rachas de 90 a 100 km/h en el istmo de Tehuantepec, mientras una vaguada polar forma la primera tormenta invernal en el occidente del país.",
     "items": [
       "Jueves 26: 25 a 50 mm en el sur de Veracruz, el este de Oaxaca, el norte y este de Chiapas y el oeste de Hidalgo; 5 a 25 mm en Puebla y Guerrero.",
@@ -39,7 +39,7 @@
     ],
     "links": [
       {
-        "t": "SMN · pronóstico meteorológico general (aviso 658, 25-nov, 18:00 h)",
+        "t": "SMN · pronóstico meteorológico general (aviso 659, 26-nov, 06:00 h)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-meteorologico-general"
       },
       {

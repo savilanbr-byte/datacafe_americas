@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-26T11:49:21Z",
+  "updatedAt": "2026-11-26T19:47:21Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio FIX de Banxico",
-      "value": 19.704,
+      "value": 19.7203,
       "dec": 4,
       "unit": "MXN/USD",
-      "change": 0.3372,
+      "change": 0.0163,
       "chgDec": 4,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "source": "Banxico",
       "url": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
       "liveUrl": "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do?idioma=sp",
