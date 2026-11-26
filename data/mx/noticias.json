@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-25T19:46:58Z",
+  "updatedAt": "2026-11-26T11:49:21Z",
   "items": [
+    {
+      "id": "n29",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-26",
+      "source": "Reuters · Business Recorder",
+      "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
+      "title": "El robusta toca un mínimo de tres años y el arábica rebota desde su piso de cinco meses",
+      "summary": "El robusta de ICE cayó 1,65 % a 2.742 USD/t tras marcar 2.709, su nivel más bajo en tres años, por el avance de la cosecha en Vietnam; el arábica subió 0,3 % a 263,40 ¢/lb después de tocar 258,65, mínimo de cinco meses. La presión sobre el robusta pesa en lo que la industria soluble paga por la bola y la cereza en Chiapas y el Golfo."
+    },
     {
       "id": "m46",
       "scope": "mx",
@@ -14,6 +24,21 @@
       "url": "https://es-us.noticias.yahoo.com/sheinbaum-ofrece-apoyo-cafeticultores-chiapas-172340493.html",
       "title": "Sheinbaum respalda a los cafetaleros de Chiapas y pide a la SADER mediar con Nestlé",
       "summary": "La presidenta dijo que Nestlé debe pagar lo que piden los productores de la Costa, Sierra y Frontera (50–60 MXN/kg frente a los 43 que reciben, antes 60) y envía funcionarios de la SADER a Chiapas; para quien compra en el Soconusco, una mesa con el gobierno puede fijar un piso de precio y frenar las ventas mientras se negocia."
+    },
+    {
+      "id": "m47",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "chiapas-frailesca",
+        "chiapas-altos"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-25",
+      "source": "Alerta Chiapas · OIC",
+      "url": "https://alertachiapas.com/2026/11/25/chiapas-cafe-precio-kilo-oic-octubre/",
+      "title": "El café de Chiapas vale 28 pesos menos por kilo que hace un año",
+      "summary": "Con el indicador Otros Suaves de la OIC en 334,99 ¢/lb en octubre (−17 % anual, frente a 403,79), el café verde de tipo chiapaneco equivale a unos 135,90 MXN/kg contra 163,97 un año antes, con el peso casi igual en promedio (18,40 por dólar). El peso más débil de noviembre amortigua parte de esa caída para quien compra en pesos."
     },
     {
       "id": "m43",
@@ -42,16 +67,6 @@
       "url": "https://expansion.mx/empresas/2026/11/24/nestle-precios-cafe-mexico-productores-chiapas",
       "title": "Nestlé promete pagar sobre las bolsas en 2026-27, pero sin dar cifras a los productores de Chiapas",
       "summary": "Tras la marcha en Tapachula, Nestlé México dijo que comprará más café que el ciclo pasado y pagará el robusta y el arábica verde por encima de Londres y Nueva York, sin decir cuánto; los productores reciben unos 43 MXN/kg, dicen que les cuesta 45 y piden 55. Sin precio claro, espera retención de café y tensión en las compras del Soconusco."
-    },
-    {
-      "id": "n28",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-24",
-      "source": "Trading Economics",
-      "url": "https://tradingeconomics.com/commodity/coffee",
-      "title": "El arábica cae a su nivel más bajo en 22 semanas",
-      "summary": "El café arábica bajó a unos 261,85 ¢/lb el 24-nov, mínimo desde junio, con una caída de 12,8 % en cuatro semanas ante la perspectiva de una cosecha de Brasil de 72,5 M sacos (USDA). Una bolsa más baja recorta el precio en pesos que pueden ofrecer los compradores en México, aunque el peso débil lo amortigua."
     },
     {
       "id": "m44",
@@ -161,24 +176,6 @@
       "url": "https://alertachiapas.com/2026/11/17/villa-corzo-cafe-especialidad-83-puntos-certificacion-unicach/",
       "title": "Café de Villa Corzo puntúa 82–83 pero buena parte se vende como convencional",
       "summary": "Una tesis de la UNICACH, basada en entrevistas a Oro Verde, Exportadora de Café California y AMSA, encontró que el café de más de 1 200 m en Villa Corzo (Frailesca) alcanza 82–83 puntos, pero de 80 quintales diferenciados a veces solo 40 se pagan como especial por falta de certificación, organización y cuidado en el fermento. Hay lotes de calidad que un comprador puede diferenciar si trabaja la trazabilidad."
-    },
-    {
-      "id": "m35",
-      "scope": "mx",
-      "regiones": [
-        "veracruz",
-        "puebla",
-        "oaxaca",
-        "huasteca",
-        "chiapas-altos",
-        "robusta-golfo"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-15",
-      "source": "La Razón · SMN",
-      "url": "https://www.razon.com.mx/mexico/2026/11/15/frente-frio-6-pronostican-lluvias-bajas-temperaturas-y-viento-para-el-16-de-noviembre/",
-      "title": "Frente frío 6: hasta 150 mm en Veracruz, Puebla y Oaxaca el lunes 16",
-      "summary": "El SMN prevé 75–150 mm en el norte y centro de Veracruz, el norte de Puebla y el norte de Oaxaca, 50–75 mm en la Huasteca y el este de Chiapas, y mínimas de 0–5 °C en las sierras; el martes 17 sigue lloviendo fuerte en el sureste. Más días de corte y secado perdidos en plena cosecha."
     },
     {
       "id": "m33",

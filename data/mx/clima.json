@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:46:58Z",
+  "updatedAt": "2026-11-26T11:49:21Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -23,23 +23,23 @@
   },
   "impactos": [
     "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027 (+2,5 °C en Niño 3.4, NOAA 12-nov), el Pacífico sur sigue más seco: en el Soconusco, la Sierra y Guerrero la sequía dejó maduración despareja y AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra de Chiapas; espera lotes irregulares y menos oferta.",
-    "El frente frío 8 deja este miércoles otro día de lluvia muy fuerte (75–150 mm) en el sur de Veracruz, el noreste de Oaxaca y el norte de Chiapas, incluido el robusta de Tezonapa y Tuxtepec: en plena cosecha implica más fruta caída, días de corte perdidos, secado lento y riesgo de fermento; revisa humedad y defectos del pergamino de estas semanas.",
-    "El norte con rachas de 80 a 100 km/h en el centro y sur de Veracruz puede volver a cerrar el puerto, como pasó el 17-nov; conviene dejar holgura en los embarques de fines de noviembre.",
-    "Las madrugadas de 0 a 5 °C en las sierras de Puebla, Veracruz, Hidalgo y Oaxaca no son heladas dañinas para el cafeto, pero frenan la maduración y la jornada de los cortadores; en la Costa Grande de Guerrero, que inicia su cosecha, siguen el calor (35–40 °C) y la sequía que ya recortaron la fruta.",
-    "Mientras la lluvia frena el corte, la cereza en Huatusco ronda 14–16 MXN/kg y en el Soconusco los productores siguen en pugna con Nestlé (reciben 43 MXN/kg y piden 50–60, con respaldo de Sheinbaum el 25-nov); con el peso en 19,70 por dólar, cuando mejore el tiempo puede haber competencia por la cereza y retención de café en Chiapas."
+    "El frente frío 8 se retira, pero tras varios días de 75–150 mm el sur de Veracruz, el noreste de Oaxaca y el norte de Chiapas (incluido el robusta de Tezonapa y Tuxtepec) todavía reciben 25–50 mm el jueves 26: en plena cosecha implica fruta caída, secado lento y riesgo de fermento; revisa humedad y defectos del pergamino de estas semanas.",
+    "El norte en Veracruz amaina (rachas de 40–60 km/h), lo que debería normalizar el puerto tras los cierres del 17-nov; el istmo de Tehuantepec sigue con rachas de 90–100 km/h.",
+    "Las madrugadas de 0 a 5 °C con posibles heladas en las sierras de Puebla, Veracruz, Hidalgo y Oaxaca frenan la maduración y la jornada de los cortadores; vigila daños en las partes más altas. En la Costa Grande de Guerrero, que se prepara para cosechar en diciembre, siguen el calor (35–40 °C) y la sequía.",
+    "Con mejor tiempo, el corte se acelera mientras la cereza en Huatusco ronda 14–16 MXN/kg y en el Soconusco sigue la pugna con Nestlé (43 MXN/kg frente a 50–60 pedidos, con la SADER enviada a mediar); con el peso en 19,70 por dólar puede haber competencia por la cereza y retención de café en Chiapas."
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-24",
-    "headline": "El frente frío 8 sigue estacionario en el Golfo: este miércoles 25 deja 75–150 mm en el sur de Veracruz, el noreste de Oaxaca y el norte y noroeste de Chiapas, con norte de rachas de 80 a 100 km/h en el centro y sur de Veracruz y el istmo; después se desplaza a la península de Yucatán.",
+    "asOf": "2026-11-25",
+    "headline": "El frente frío 8 sale hacia la península de Yucatán y el Caribe; el jueves 26 aún deja 25–50 mm en el sur de Veracruz, el este de Oaxaca y el norte y este de Chiapas, con rachas de 90 a 100 km/h en el istmo de Tehuantepec, mientras una vaguada polar forma la primera tormenta invernal en el occidente del país.",
     "items": [
-      "Miércoles 25: 75 a 150 mm en el sur de Veracruz, el noreste de Oaxaca y el norte y noroeste de Chiapas; 25 a 50 mm en el sureste de Puebla y 5 a 25 mm en Hidalgo y Guerrero.",
-      "Norte de 60 a 70 km/h con rachas de 80 a 100 km/h en el centro y sur de Veracruz y el istmo de Tehuantepec; rachas de 40 a 60 km/h en Puebla.",
-      "Mínimas de 0 a 5 °C en las sierras de Veracruz, Puebla, Oaxaca e Hidalgo; máximas de 35 a 40 °C en las costas de Oaxaca, Chiapas y Guerrero."
+      "Jueves 26: 25 a 50 mm en el sur de Veracruz, el este de Oaxaca, el norte y este de Chiapas y el oeste de Hidalgo; 5 a 25 mm en Puebla y Guerrero.",
+      "Norte de rachas de 40 a 60 km/h en Veracruz, disminuyendo en el día; de 90 a 100 km/h en el istmo y golfo de Tehuantepec.",
+      "Mínimas de 0 a 5 °C con posibles heladas en las sierras de Veracruz, Puebla, Oaxaca e Hidalgo; máximas de 35 a 40 °C en las costas de Oaxaca, Chiapas y Guerrero."
     ],
     "links": [
       {
-        "t": "SMN · pronóstico meteorológico general (aviso 656, 24-nov, 18:00 h)",
+        "t": "SMN · pronóstico meteorológico general (aviso 658, 25-nov, 18:00 h)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-meteorologico-general"
       },
       {
