@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-25T19:47:10Z",
+  "updatedAt": "2026-11-26T11:55:00Z",
   "items": [
+    {
+      "id": "n57",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Barchart · Wisevoter",
+      "url": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
+      "title": "El arábica rebota 2,8 % por lluvias en Minas Gerais, mientras los inventarios de ICE suben a 283.036 sacos",
+      "summary": "El marzo de arábica subió 7,40 centavos el 25-nov desde un mínimo de 5 meses por cobertura de cortos ante lluvias fuertes en Minas Gerais; los inventarios certificados llegaron a 283.036 sacos (máximo de 3,75 meses) y el robusta tocó un mínimo de 3 años. Más existencias en ICE presionan los diferenciales de los lavados centroamericanos."
+    },
     {
       "id": "n52",
       "scope": "mundo",
@@ -12,16 +22,6 @@
       "summary": "El robusta de ICE se mantenía en US$2.882/t tras marcar el viernes un mínimo de tres años de US$2.854, con llegadas lentas de la cosecha vietnamita y existencias certificadas en su nivel más bajo en más de un mes; el arábica subía 1,8 % a 273,25 ¢/lb. Un robusta barato sigue presionando los diferenciales de los arábicas lavados como los de Costa Rica."
     },
     {
-      "id": "n54",
-      "scope": "mundo",
-      "tag": "Mercado",
-      "date": "2026-11-24",
-      "source": "Briefs · ICE",
-      "url": "https://www.briefs.co/news/coffee-futures-slip-after-big-spike-in-exchange-stockpiles/",
-      "title": "Los inventarios certificados de arábica en ICE saltan 19 % en un día, a más de 268.000 sacos",
-      "summary": "Es el mayor aumento diario desde 1998 y el quinto alza seguida; unos 250.000 sacos, casi todos de Brasil, esperan clasificación y el arábica cayó hasta 2,2 % a mínimos de cinco meses. Más café certificable presiona el precio base de NY y abre espacio para negociar diferenciales en Costa Rica."
-    },
-    {
       "id": "n55",
       "scope": "mundo",
       "tag": "Producción",
@@ -30,16 +30,6 @@
       "url": "https://www.infobae.com/nicaragua/2026/11/24/sequia-retrasa-la-cosecha-de-cafe-2026-2027-en-nicaragua-y-reduce-la-demanda-de-cortadores/",
       "title": "La sequía por El Niño retrasa la cosecha 2026-27 de Nicaragua y reduce la demanda de cortadores",
       "summary": "La maduración va lenta en las zonas productoras; el país prevé unos 3 millones de quintales oro y su precio promedio de exportación bajó de más de US$300 en enero a US$169,10 por quintal en septiembre. Para Costa Rica, que depende en parte de recolectores nicaragüenses, conviene vigilar si el retraso cambia su llegada."
-    },
-    {
-      "id": "n56",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-22",
-      "source": "CMB News",
-      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
-      "title": "Vietnam entra en el pico de su cosecha 2026-27 y el precio en finca del robusta cae a unos 71.500 VND/kg",
-      "summary": "El robusta en finca de Dak Lak bajó de más de 83.000 a cerca de 71.200–72.000 VND/kg en una semana y Vietnam exportó 108.800 t en octubre (+50 % interanual), mientras el robusta de Londres cayó casi 10 % a un mínimo de tres años (~US$2.881/t). Más oferta asiática presiona los blends y resta soporte al arábica lavado centroamericano."
     },
     {
       "id": "n50",
@@ -56,6 +46,16 @@
       "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/",
       "title": "IMN: semana caliente y casi sin lluvia; solo el Pacífico Sur conserva chubascos cortos por la tarde",
       "summary": "El lunes 23 Liberia llegó a 35,4 °C y Alajuela a 30,7 °C; el IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte. Buen secado al sol en el Valle Central; en Pérez Zeledón y Coto Brus aún conviene vigilar la humedad de los lotes."
+    },
+    {
+      "id": "n56",
+      "scope": "mundo",
+      "tag": "Producción",
+      "date": "2026-11-22",
+      "source": "CMB News",
+      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
+      "title": "Vietnam entra en el pico de su cosecha 2026-27 y el precio en finca del robusta cae a unos 71.500 VND/kg",
+      "summary": "El robusta en finca de Dak Lak bajó de más de 83.000 a cerca de 71.200–72.000 VND/kg en una semana y Vietnam exportó 108.800 t en octubre (+50 % interanual), mientras el robusta de Londres cayó casi 10 % a un mínimo de tres años (~US$2.881/t). Más oferta asiática presiona los blends y resta soporte al arábica lavado centroamericano."
     },
     {
       "id": "n53",
