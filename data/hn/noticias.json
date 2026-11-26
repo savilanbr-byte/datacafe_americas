@@ -1,6 +1,26 @@
 {
- "updatedAt": "2026-11-25T19:47:00Z",
+ "updatedAt": "2026-11-26T11:46:17Z",
  "items": [
+  {
+   "id": "n32",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-25",
+   "source": "Barchart (TradingView)",
+   "url": "https://www.tradingview.com/news/barchart:a05e31572094b:0-heavy-rains-in-brazil-boost-arabica-coffee-prices/",
+   "title": "Lluvias fuertes en Brasil levantan el arábica, pero suben las existencias certificadas",
+   "summary": "El arábica de marzo sube 7 puntos (+2,7 %) por lluvias intensas en Brasil, mientras las existencias certificadas en ICE llegan a 272.868 sacos (máximo en 3,75 meses), con 152.903 sacos de café brasileño, y el real toca su nivel más bajo en 1,75 años. Más oferta brasileña en bolsa presiona los diferenciales de los centroamericanos lavados."
+  },
+  {
+   "id": "n31",
+   "scope": "mundo",
+   "tag": "Mercado",
+   "date": "2026-11-25",
+   "source": "Business Recorder · Reuters",
+   "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
+   "title": "La robusta marca su menor nivel en tres años por la cosecha rápida de Vietnam",
+   "summary": "La robusta cayó 1,65 % a US$2.742 por tonelada tras tocar US$2.709, mínimo de tres años, porque la cosecha vietnamita avanza más rápido; el arábica subió 0,3 % a US$2,634 por libra después de tocar un mínimo de cinco meses de US$2,5865. Un arábica cerca de 260–265 ¢/lb deja los precios de exportación de Honduras por debajo del promedio de la cosecha pasada."
+  },
   {
    "id": "h31",
    "scope": "hn",
@@ -17,16 +37,6 @@
    "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/",
    "title": "Entra el primer frente frío: alerta verde en el norte y hasta 100 mm de lluvia en Santa Bárbara",
    "summary": "COPECO declaró alerta verde por 48 horas desde el miércoles 25 en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro, y prevé acumulados de hasta 100 mm en Santa Bárbara, 60 mm en Yoro, 20 mm en Olancho y unos 15 mm en Copán, Lempira, Comayagua y El Paraíso, con mínima de 13 °C en Intibucá. Lluvias hasta el viernes en zonas montañosas del norte: frenan el secado al sol del pergamino y pueden dejar lotes con más humedad."
-  },
-  {
-   "id": "n30",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-24",
-   "source": "Business Recorder · Reuters",
-   "url": "https://www.brecorder.com/news/40450445/robusta-coffee-end-steadies",
-   "title": "Vietnam cosecha una robusta abundante, pero el grano nuevo llega lento y el corte sale más caro",
-   "summary": "La robusta se sostuvo cerca de US$2.882/t tras tocar el viernes su mínimo en tres años (US$2.854); el arábica rebotó 1,8 % a 273,25 ¢/lb. Los tratantes en Vietnam reportan llegadas lentas de café nuevo y costos de recolección mucho más altos, lo que frena por ahora la presión vendedora."
   },
   {
    "id": "h26",
@@ -49,16 +59,6 @@
    "url": "https://www.elespanol.com/viajes/cocinillas-gastro/actualidad-gastronomica/20261121/mejor-cafe-mundo-llega-honduras-elegido-roma-cientos-candidatos/1003744467005_0.html",
    "title": "Un café hondureño de Finca Piedra Parada gana el «Best of the Best» del premio Ernesto Illy",
    "summary": "Denis Rolando, de Finca Piedra Parada, ganó en Roma el máximo galardón del Ernesto Illy International Coffee Award 2026 entre 27 finalistas de nueve países, con lotes de la cosecha 2025-26. Refuerza la visibilidad de los microlotes hondureños de alta gama ante tostadores y compradores de especiales."
-  },
-  {
-   "id": "n29",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-20",
-   "source": "Barchart (TradingView)",
-   "url": "https://www.tradingview.com/news/barchart:c265a50d4094b:0-coffee-prices-fall-on-expectations-of-abundant-supplies/",
-   "title": "El arábica cae 2,7 % y la robusta toca su menor nivel en 2,75 años",
-   "summary": "El viernes 20 el arábica de marzo bajó 7,50 ¢/lb (−2,72 %) y la robusta de enero 97 US$/t (−3,26 %); en ICE esperan clasificación 251.230 sacos, la mayor cifra en 3,75 años, y los fondos suman 24.069 contratos netos vendidos en robusta, el máximo en casi cuatro años. Vietnam exportó 1,57 M t de enero a octubre (+18,8 %): la bolsa más baja recorta el precio de referencia del pergamino hondureño en pleno arranque del corte."
   },
   {
    "id": "n28",
@@ -135,17 +135,6 @@
    "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
    "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
    "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre (+28,4 %), con 4,12 M de arábica (+21,6 %) y 0,90 M de robusta; de enero a octubre suma 34,5 M (+3,5 %). La oferta brasileña presiona la bolsa de NY y con ella los diferenciales del café hondureño."
-  },
-  {
-   "id": "h15",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Divisas",
-   "date": "2026-11-11",
-   "source": "El Heraldo",
-   "url": "https://www.elheraldo.hn/economia/liberalizacion-mercado-divisas-tardara-18-24-meses-honduras-DH32606353",
-   "title": "El BCH liberalizará el mercado de divisas en 18 a 24 meses y espera los dólares del café",
-   "summary": "El mercado interbancario arrancaría a inicios de 2027: bancos y casas de cambio retendrán el 10 % de los dólares que compren y trasladarán el 90 % al BCH. El banco espera la entrada de divisas por exportaciones de café, que suele empezar en noviembre, para reforzar reservas antes del cambio."
   }
  ]
 }
