@@ -1,16 +1,37 @@
 {
-  "updatedAt": "2026-11-25T19:46:56Z",
+  "updatedAt": "2026-11-26T11:49:17Z",
   "items": [
     {
-      "id": "b73",
+      "id": "b75",
       "scope": "br",
       "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-25",
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25112026/",
+      "title": "El dólar cae 1,5 % a R$5,82 por la especulación sobre un ministro de Hacienda afín al mercado",
+      "summary": "El dólar comercial cerró el 25-nov en R$5,8179 (−1,53 %), tercera baja seguida, ante rumores de que el banquero Luiz Carlos Trabuco iría a Hacienda, nuevas medidas fiscales y una subasta de US$2.000 M del Banco Central. Un real más firme sube el precio del café brasileño en dólares y puede frenar las ventas del productor."
+    },
+    {
+      "id": "b74",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-25",
+      "source": "ISTOÉ Dinheiro",
+      "url": "https://istoedinheiro.com.br/trump-tarifas-acucar-aeronaves-brasil",
+      "title": "EE. UU. propone nuevos aranceles al azúcar y los aviones de Brasil; el café no está en la lista",
+      "summary": "La Oficina del Representante Comercial (USTR) propuso un arancel de 10 % a los aviones terminados brasileños y cobros por kilo (US$0,44 a US$0,60) al azúcar fuera de cuota, con comentarios hasta el 30-dic y audiencia el 14-ene-2027. El café no aparece en la propuesta, pero la investigación comercial (Sección 301) sigue abierta: un riesgo a vigilar para contratos con destino a EE. UU."
+    },
+    {
+      "id": "n43",
+      "scope": "mundo",
       "tag": "Mercado",
       "date": "2026-11-25",
-      "source": "Portal do Agronegócio",
-      "url": "https://www.portaldoagronegocio.com.br/agricultura/cafe/noticias/cafe-arabica-cai-em-nova-york-com-estoques-em-alta-e-dolar-sustenta-precos-no-brasil",
-      "title": "El arábica sigue cayendo en Nueva York con más inventarios certificados; el dólar sostiene el precio en reales",
-      "summary": "El marzo-27 bajaba a 260,45 ¢/lb el 25-nov y los inventarios certificados de la ICE subieron 44 % en una semana, a 268.614 sacas (145.223 de origen Brasil, máximo en 15 meses), con otras 246.182 en clasificación. Para el comprador, la presión sobre el arábica brasileño en la bolsa abre espacio para negociar, aunque el dólar fuerte frena la baja del físico en reales."
+      "source": "CNN Brasil (Barchart)",
+      "url": "https://www.cnnbrasil.com.br/agro/cafe-arabica-sobe-282-em-nova-york-e-fecha-a-us-270-por-libra-peso/",
+      "title": "El arábica rebota 2,8 % a 270 ¢/lb por lluvias intensas en Minas; el robusta toca un mínimo de tres años",
+      "summary": "El marzo-27 subió 2,82 % el 25-nov tras su mínimo de cinco meses y medio, por el pronóstico de lluvias fuertes en Minas Gerais los próximos 10 días; los inventarios certificados de arábica llegaron a 283.036 sacas, máximo en casi cuatro meses. En Londres el robusta siguió bajando a su menor nivel en tres años, con stocks de 5.771 lotes."
     },
     {
       "id": "b71",
@@ -26,15 +47,15 @@
       "summary": "Se ofrecen nueve lotes (los tres primeros de las categorías natural, cereza descascarado y fermentado, cada uno de dos sacos de 30 kg) en la plataforma Coffee Chain con Expocacer; el concurso tuvo 920 muestras. La puja cierra el 26-nov a las 16:00 de Brasilia."
     },
     {
-      "id": "b67",
+      "id": "b59",
       "scope": "br",
       "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-24",
-      "source": "BCB · ISTOÉ Dinheiro",
-      "url": "https://istoedinheiro.com.br/dolar-hoje-24-11-2026-pec-despesas-obrigatorias",
-      "title": "El dólar baja de R$5,90 y la PTAX cae 1,9 % tras el anuncio de una PEC de gasto",
-      "summary": "Un día después de superar R$6 durante el voto del ajuste fiscal, el dólar cedió cuando se supo que Lula autorizó enviar al Congreso una enmienda constitucional (PEC) para limitar el gasto obligatorio; la PTAX de venta del Banco Central quedó en R$5,8573 (−1,9 %). Un real más firme encarece el café brasileño en dólares y puede frenar las ventas del productor."
+      "tag": "Precios",
+      "date": "2026-11-25",
+      "source": "CEPEA · Cotação do Café",
+      "url": "https://cotacaodocafe.com/historico/",
+      "title": "CEPEA: el conilon cae otro 3,5 % a R$874 la saca; el arábica se mantiene en R$1.679",
+      "summary": "El indicador del conilon (tipo 6, criba 13 arriba, Espírito Santo) bajó 3,52 % el 25-nov a R$873,54, su séptima baja seguida y −10,2 % desde el 13-nov; el del arábica (tipo 6 bebida dura) quedó en R$1.678,92 (−0,01 %). Con el dólar en R$5,8179 equivalen a unos US$150 y US$289 por saca: el conilon sigue abaratándose en dólares."
     },
     {
       "id": "b68",
@@ -68,17 +89,6 @@
       "url": "https://brecorder.com/news/40450445/robusta-coffee-end-steadies",
       "title": "El robusta se estabiliza cerca de US$2.880 tras su mínimo de tres años; Vietnam cosecha despacio",
       "summary": "El robusta quedó casi sin cambio en US$2.882 la tonelada después de tocar US$2.854 el viernes, apoyado en inventarios certificados en su nivel más bajo en más de un mes; el arábica subió 1,8 % a US$2,7325 la libra. En Vietnam la cosecha, que se espera abundante, llega lenta al mercado y con costos de recolección mucho más altos."
-    },
-    {
-      "id": "b59",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-11-24",
-      "source": "CEPEA · Cotação do Café",
-      "url": "https://cotacaodocafe.com/historico/",
-      "title": "CEPEA: el conilon se desploma 3,2 % a R$905 la saca y el arábica cede a R$1.679",
-      "summary": "El indicador del conilon (tipo 6, criba 13 arriba, Espírito Santo) cayó 3,22 % el 24-nov a R$905,45, su sexta baja seguida y −6,9 % desde el 13-nov; el del arábica (tipo 6 bebida dura) bajó 0,81 % a R$1.679,04. Con el dólar en R$5,9085 equivalen a unos US$153 y US$284 por saca: el conilon brasileño está en su nivel más barato en dólares en mucho tiempo."
     },
     {
       "id": "b69",
@@ -203,21 +213,6 @@
       "url": "https://www.marketscreener.com/news/nestle-brazil-coffee-supplier-faces-hearing-over-labor-abuse-claims--ce785edfda8ff624",
       "title": "Cooabriel, gran cooperativa de conilon y proveedora de Nestlé, va a audiencia por trabajo análogo a la esclavitud",
       "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
-    },
-    {
-      "id": "b57",
-      "scope": "br",
-      "regiones": [
-        "sul-de-minas",
-        "cerrado-mineiro",
-        "matas-de-minas"
-      ],
-      "tag": "Regulación",
-      "date": "2026-11-15",
-      "source": "Diário do Comércio",
-      "url": "https://diariodocomercio.com.br/agronegocio/regras-europeias-cafe-mineiro/",
-      "title": "EUDR: el café de Minas tendrá que probar que cumple la ley laboral para entrar a Europa",
-      "summary": "El reglamento europeo contra la deforestación exige desde el 30-dic-2026 (medianas y grandes empresas; pequeñas desde el 30-jun-2027) café sin deforestación posterior a 2020 y producido conforme a la ley del país, incluida la laboral; en la 'lista sucia' del Ministerio de Trabajo hay 19 empleadores de Minas. Para el comprador europeo, la trazabilidad y la debida diligencia laboral del proveedor pasan a ser condición de compra."
     }
   ]
 }
