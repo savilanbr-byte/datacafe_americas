@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-27T11:49:22Z",
+  "updatedAt": "2026-11-27T19:48:11Z",
   "items": [
+    {
+      "id": "h33",
+      "scope": "hn",
+      "regiones": [
+        "montecillos"
+      ],
+      "tag": "Cafés especiales",
+      "date": "2026-11-27",
+      "source": "Contracorriente",
+      "url": "https://contracorriente.red/2026/11/27/las-mujeres-indigenas-lenca-que-combaten-la-violencia-cultivando-cafe-organico-en-el-occidente-de-honduras",
+      "title": "Comucap, cooperativa de mujeres lencas de La Paz, exporta unas 580 toneladas de café orgánico al año",
+      "summary": "La Coordinadora de Mujeres Campesinas de La Paz (Comucap), con 502 socias y 650 hectáreas en ocho municipios entre Marcala y Chinacla, vende café con certificación orgánica y de comercio justo (desde 2018) a la UE, EE. UU. y México, unos 30 contenedores al año. Es una fuente de lotes certificados de Montecillos con trazabilidad de grupo."
+    },
     {
       "id": "n32",
       "scope": "mundo",
@@ -37,6 +50,17 @@
       "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/",
       "title": "Entra el primer frente frío: alerta verde en el norte y hasta 100 mm de lluvia en Santa Bárbara",
       "summary": "COPECO declaró alerta verde por 48 horas desde el miércoles 25 en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro, y prevé acumulados de hasta 100 mm en Santa Bárbara, 60 mm en Yoro, 20 mm en Olancho y unos 15 mm en Copán, Lempira, Comayagua y El Paraíso, con mínima de 13 °C en Intibucá. Lluvias hasta el viernes en zonas montañosas del norte: frenan el secado al sol del pergamino y pueden dejar lotes con más humedad."
+    },
+    {
+      "id": "h32",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-25",
+      "source": "Revista EyN",
+      "url": "https://www.revistaeyn.com/centroamericaymundo/trump-propone-aranceles-a-14-socios-comerciales-y-caen-los-futuros-de-wall-street-AC32748338",
+      "title": "EE. UU. propone aranceles a 14 socios, con Vietnam al 20 %; Centroamérica queda fuera de esta ronda",
+      "summary": "La USTR propuso aranceles bajo la Sección 301 a 14 economías (China, UE, Japón, Corea del Sur y Vietnam, este al 20 %), que no se aplicarían antes de enero de 2027; Honduras no está en la lista y mantiene el arancel vigente del 10 %. Si se aplica, la robusta vietnamita se encarecería en EE. UU., mientras el café hondureño no cambia de trato."
     },
     {
       "id": "h26",
