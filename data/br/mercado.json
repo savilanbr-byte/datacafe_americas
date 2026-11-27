@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:48:30Z",
+  "updatedAt": "2026-11-27T19:47:51Z",
   "items": {
     "tc": {
       "label": "Dólar comercial (cierre)",
@@ -18,15 +18,15 @@
     },
     "ptax": {
       "label": "Dólar PTAX (venta)",
-      "value": 5.7446,
+      "value": 5.543,
       "dec": 4,
       "unit": "BRL/USD",
-      "asOf": "2026-11-26",
+      "asOf": "2026-11-27",
       "source": "BCB · API Olinda (PTAX)",
-      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-24-2026'&@dataFinalCotacao='11-26-2026'&$format=json",
-      "note": "PTAX de venta del 26-nov (boletín de las 13:11): −2,34 % frente a R$5,8825 del 25-nov, por la expectativa de un ministro de Hacienda afín al mercado (Trabuco) y un IPCA-15 de noviembre de 0,22 %, menor a lo esperado.",
-      "change": -0.1379,
-      "changePct": -2.34,
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='11-25-2026'&@dataFinalCotacao='11-27-2026'&$format=json",
+      "note": "PTAX de venta del 27-nov (boletín de las 13:21): −3,51 % frente a R$5,7446 del 26-nov, después de que el Gobierno confirmó a Luiz Carlos Trabuco como ministro de Hacienda desde 2027, nombre bien visto por el mercado.",
+      "change": -0.2016,
+      "changePct": -3.51,
       "chgDec": 4
     },
     "cepeaA": {

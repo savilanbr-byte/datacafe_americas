@@ -1,16 +1,43 @@
 {
-  "updatedAt": "2026-11-27T11:48:30Z",
+  "updatedAt": "2026-11-27T19:47:51Z",
   "items": [
     {
-      "id": "b77",
+      "id": "b79",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "source": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/",
-      "title": "El dólar cae 1,23 % y cierra en R$5,75 por la apuesta a Trabuco en Hacienda",
-      "summary": "El dólar al contado cerró el 26-nov en R$5,7464 (−1,23 %), cuarta baja seguida, ante la expectativa de que Lula nombre a Luiz Carlos Trabuco, del consejo de Bradesco, como ministro de Hacienda. Un real más fuerte encarece el café brasileño en dólares y frena las ventas del productor."
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27112026/",
+      "title": "El dólar se desploma 3,5 % hacia R$5,54 tras la confirmación de Trabuco en Hacienda",
+      "summary": "El 27-nov el dólar comercial llegó a caer 3,51 %, a unos R$5,54 a media mañana, después de que el Gobierno confirmó que Luiz Carlos Trabuco (Bradesco) será ministro de Hacienda en 2027; la PTAX del día quedó en R$5,5430. Un real más fuerte encarece el café brasileño en dólares y frena las ventas del productor."
+    },
+    {
+      "id": "b80",
+      "scope": "br",
+      "regiones": [
+        "sul-de-minas",
+        "conilon-es"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-27",
+      "source": "Safras & Mercado",
+      "url": "https://safras.com.br/maior-oferta-global-de-cafe-pressiona-bolsas-em-novembro-mas-dolar-e-retracao-dos-produtores-sustentam-mercado-brasileiro/",
+      "title": "Noviembre: las bolsas caen por la mayor oferta mundial, pero el dólar y la retención del productor sostienen el físico",
+      "summary": "En noviembre el arábica de marzo cayó 2,5 % en Nueva York (a 270 ¢/lb) y el robusta de enero 10,8 % en Londres (a US$2.857/t), mientras el dólar subió 5,4 %; el arábica buena bebida del Sul de Minas ganó 2,4 % (R$1.720 la saca) y el conilon tipo 7 en Vitória perdió 7,2 % (R$900). Los productores, sobre todo los de conilon del ES, venden sin prisa; Safras estima la safra 2026-27 en 73,85 M de sacas."
+    },
+    {
+      "id": "b78",
+      "scope": "br",
+      "regiones": [
+        "norte-pioneiro"
+      ],
+      "tag": "Producción",
+      "date": "2026-11-27",
+      "source": "Safras & Mercado (Deral)",
+      "url": "https://safras.com.br/dolar-e-nova-york-em-direcoes-opostas-devem-trazer-cautela-aos-negocios-de-cafe-no-brasil",
+      "title": "Deral: Paraná produce 44.400 t de café en 2025-26, 1 % menos",
+      "summary": "El informe de noviembre del Deral estima la cosecha de café de Paraná en 44.400 t (unas 740.000 sacas), con 25.100 ha (−1 %) y productividad estable de 1.773 kg/ha. En el físico del 26-nov el arábica del Sul de Minas bajó a R$1.720–1.725 y el conilon tipo 7 de Vitória subió a R$900–905 la saca, con pocos negocios."
     },
     {
       "id": "b59",
@@ -177,16 +204,6 @@
       "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas",
       "title": "Minasul: el exceso de lluvia de El Niño compromete la floración (florada) de la safra 2027 en el Sul de Minas",
       "summary": "El presidente de la cooperativa Minasul dice que septiembre y octubre fueron los meses más lluviosos en 40 años de registros en Varginha y que la lluvia y el frío hacen que la planta bote frutos; la pérdida aún no está cuantificada. Suma a la idea de una cosecha 2027 menor (año de baja) y desigual en calidad."
-    },
-    {
-      "id": "n37",
-      "scope": "mundo",
-      "tag": "Exportaciones",
-      "date": "2026-11-18",
-      "source": "VnEconomy (Aduanas de Vietnam)",
-      "url": "https://en.vneconomy.vn/vietnams-coffee-exports-earn-708b-in-10m.htm",
-      "title": "Vietnam exportó 108.800 t de café en octubre, 53 % más, con precios 20 % menores",
-      "summary": "Los envíos de octubre valieron US$501,2 M (+22,9 %) a un precio medio de US$4.606/t; en enero–octubre sumaron 1,56 M t (+18,5 %) y US$7.080 M (−5,2 %). Vicofa espera que el volumen anual crezca 8–10 % con la nueva cosecha, que empieza a fines de noviembre: más robusta compitiendo con el conilon brasileño."
     },
     {
       "id": "b50",
