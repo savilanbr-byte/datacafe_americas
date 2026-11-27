@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:47:47Z",
+  "updatedAt": "2026-11-27T19:47:31Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -23,27 +23,27 @@
   },
   "impactos": [
     "Con El Niño fuerte a muy fuerte hasta el primer trimestre de 2027 (+2,5 °C en Niño 3.4, NOAA 12-nov), el Pacífico sur sigue más seco: en el Soconusco, la Sierra y Guerrero la sequía dejó maduración despareja y AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra de Chiapas; espera lotes irregulares y menos oferta.",
-    "Aunque el frente frío 8 ya salió, el viernes 27 todavía caen 25–50 mm en Veracruz (incluido el robusta de Tezonapa) y el este de Oaxaca, y 50–75 mm en el sur de Puebla: tras una semana de lluvias en plena cosecha, espera fruta caída, secado lento y riesgo de fermento; revisa humedad y defectos del pergamino de estas semanas.",
-    "En la Costa Grande y Atoyac (Guerrero), que se prepara para cosechar en diciembre, se esperan 75–150 mm el viernes 27: alivia la sequía pero puede tirar fruta madura y dañar caminos; vigila el arranque del corte.",
-    "Las madrugadas de 0 a 5 °C con posibles heladas (y aguanieve por arriba de 2.800 m) en las sierras de Puebla, Veracruz, Hidalgo y Oaxaca frenan la maduración y la jornada de los cortadores; vigila daños en las partes más altas.",
-    "En el Soconusco, el pleito con Nestlé (43 MXN/kg frente a 55–60 pedidos, llamado a no venderle y reuniones anunciadas con la SADER) y el peso en 19,72 por dólar pueden traer retención de café y competencia por la cereza en Chiapas."
+    "El viernes 27 caen 25–50 mm en Veracruz (incluido el robusta de Tezonapa) y el este de Oaxaca, y el sábado 28 hasta 75–150 mm en el sur de Puebla y el oeste de Oaxaca: tras una semana de lluvias en plena cosecha, espera fruta caída, secado lento y riesgo de fermento; revisa humedad y defectos del pergamino de estas semanas.",
+    "En la Costa Grande y Atoyac (Guerrero), que se prepara para cosechar en diciembre, la tormenta invernal dejaría 75–150 mm el viernes y 150–250 mm el sábado 28: alivia la sequía pero puede tirar fruta madura, causar deslaves y cortar caminos; vigila el arranque del corte y la salida del café.",
+    "Las madrugadas de −5 a 0 °C en las sierras de Puebla e Hidalgo y de 0 a 5 °C con heladas en las de Veracruz y Oaxaca hasta el martes 1 frenan la maduración y la jornada de los cortadores; vigila daños en las partes más altas de la Sierra Norte y la Huasteca.",
+    "En el Soconusco, el pleito con Nestlé (unos 43 MXN/kg frente a 50–60 pedidos; la titular de la SADER viajó a Chiapas a negociar) y el peso en 19,66 por dólar pueden traer retención de café y competencia por la cereza en Chiapas."
   ],
   "avisos": {
     "source": "SMN · CONAGUA",
-    "asOf": "2026-11-26",
-    "headline": "El frente frío 8 deja de afectar a México, pero su masa de aire ártico mantiene ambiente frío a muy frío en el oriente y centro; para el viernes 27 se esperan 75–150 mm en el oeste y suroeste de Guerrero, 50–75 mm en el centro y sur de Puebla y 25–50 mm en Veracruz y el este de Oaxaca.",
+    "asOf": "2026-11-27",
+    "headline": "La primera tormenta invernal sobre el occidente traerá lluvias torrenciales de 150–250 mm el sábado 28 en la costa, centro y este de Guerrero y de 75–150 mm en el sur de Puebla y el oeste de Oaxaca; las sierras de Puebla e Hidalgo pueden bajar a −5–0 °C y un nuevo frente frío traerá norte a Veracruz el lunes 30.",
     "items": [
-      "Viernes 27: lluvias muy fuertes con puntuales intensas (75 a 150 mm) en el oeste y suroeste de Guerrero; 50 a 75 mm en el centro y sur de Puebla y el sur de Hidalgo; 25 a 50 mm en Veracruz y el este de Oaxaca; 5 a 25 mm en Chiapas.",
-      "Norte con rachas de 90 a 100 km/h en el istmo y golfo de Tehuantepec; en el sur de Veracruz rachas de 40 a 60 km/h.",
-      "Mínimas de 0 a 5 °C con posibles heladas en las sierras de Veracruz, Puebla, Oaxaca e Hidalgo, y posible nieve o aguanieve por arriba de 2.800 m; máximas de 30 a 35 °C en las costas de Oaxaca, Chiapas y Guerrero."
+      "Viernes 27: 75–150 mm en el oeste y suroeste de Guerrero, 50–75 mm en el centro y sur de Puebla y el sur de Hidalgo, 25–50 mm en Veracruz y el este de Oaxaca y 5–25 mm en Chiapas, con norte de 90–100 km/h en el istmo de Tehuantepec.",
+      "Sábado 28: 150–250 mm, puntuales torrenciales, en la costa, centro y este de Guerrero; 75–150 mm en el sur de Puebla y el oeste de Oaxaca; 25–50 mm en el centro de Veracruz. Domingo 29: 50–75 mm en el este de Guerrero y el oeste de Oaxaca.",
+      "Madrugadas de −5 a 0 °C en las sierras de Puebla e Hidalgo y de 0 a 5 °C con heladas en las de Veracruz y Oaxaca hasta el martes; el lunes 30, 25–50 mm en el norte de Chiapas y norte con rachas de 60–80 km/h en Veracruz y el istmo por un nuevo frente frío."
     ],
     "links": [
       {
-        "t": "SMN · pronóstico meteorológico general (aviso 660, 26-nov, 18:00 h)",
+        "t": "SMN · pronóstico meteorológico general (aviso 661, 27-nov, 06:00 h)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-meteorologico-general"
       },
       {
-        "t": "SMN · pronóstico extendido a 96 horas",
+        "t": "SMN · pronóstico extendido a 96 horas (aviso 330, 26-nov, 14:00 h)",
         "url": "https://smn.conagua.gob.mx/es/pronosticos/pronosticossubmenu/pronostico-extendido-a-96-horas"
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:47:47Z",
+  "updatedAt": "2026-11-27T19:47:31Z",
   "items": [
     {
       "id": "n29",
@@ -10,6 +10,20 @@
       "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
       "title": "El robusta toca un mínimo de tres años y el arábica rebota desde su piso de cinco meses",
       "summary": "El robusta de ICE cayó 1,65 % a 2.742 USD/t tras marcar 2.709, su nivel más bajo en tres años, por el avance de la cosecha en Vietnam; el arábica subió 0,3 % a 263,40 ¢/lb después de tocar 258,65, mínimo de cinco meses. La presión sobre el robusta pesa en lo que la industria soluble paga por la bola y la cereza en Chiapas y el Golfo."
+    },
+    {
+      "id": "m49",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "robusta-chiapas"
+      ],
+      "tag": "Precios",
+      "date": "2026-11-27",
+      "source": "La Crónica de Hoy",
+      "url": "https://www.cronica.com.mx/nacional/2026/11/27/gobierno-federal-exige-a-nestle-precios-justos-para-caficultores-de-chiapas/",
+      "title": "La titular de la SADER viaja a Chiapas para negociar con Nestlé precios justos para el café",
+      "summary": "Columba López Gutiérrez se reunirá con productores de la Costa, Sierra y Frontera (unas 165 mil familias) y con Nestlé; los cafeticultores dicen recibir unos 43 MXN/kg y piden 50–60, mientras Sheinbaum propone que Nestlé compre directo y no a los coyotes del Soconusco. Nestlé promete pagar sobre Londres y Nueva York en 2026-27, sin cifra: mientras no haya precio, espera retención de café en el Soconusco."
     },
     {
       "id": "m48",
@@ -24,20 +38,6 @@
       "url": "https://www.zocalo.com.mx/anuncia-nestle-reuniones-con-caficultores-de-chiapas-tras-protestas-por-precios-del-cafe/",
       "title": "Nestlé anuncia reuniones con cafetaleros de Chiapas y el Soconusco llama a no venderle",
       "summary": "Nestlé México dice que se reunirá con productores y autoridades federales y estatales y que en 2026-27 comprará más café mexicano que el ciclo pasado, sin dar precio; los Caficultores del Soconusco, que acusan una baja de 60 a 43 pesos por kilo, llaman a no venderle y a boicotear sus productos. Para un comprador, implica posible retención de café y competencia por el robusta y el arábica de la Costa-Sierra mientras dure la negociación."
-    },
-    {
-      "id": "m46",
-      "scope": "mx",
-      "regiones": [
-        "chiapas-soconusco",
-        "robusta-chiapas"
-      ],
-      "tag": "Precios",
-      "date": "2026-11-25",
-      "source": "El Economista · Yahoo Noticias",
-      "url": "https://es-us.noticias.yahoo.com/sheinbaum-ofrece-apoyo-cafeticultores-chiapas-172340493.html",
-      "title": "Sheinbaum respalda a los cafetaleros de Chiapas y pide a la SADER mediar con Nestlé",
-      "summary": "La presidenta dijo que Nestlé debe pagar lo que piden los productores de la Costa, Sierra y Frontera (50–60 MXN/kg frente a los 43 que reciben, antes 60) y envía funcionarios de la SADER a Chiapas; para quien compra en el Soconusco, una mesa con el gobierno puede fijar un piso de precio y frenar las ventas mientras se negocia."
     },
     {
       "id": "m47",
