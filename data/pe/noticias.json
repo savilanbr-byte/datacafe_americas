@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-26T19:46:58Z",
+  "updatedAt": "2026-11-27T11:48:36Z",
   "items": [
+    {
+      "id": "p47",
+      "scope": "pe",
+      "regiones": [],
+      "tag": "Eventos",
+      "date": "2026-11-26",
+      "source": "Agraria",
+      "url": "https://agraria.pe/noticias/expocafe-busca-promover-la-productividad-y-competitividad-de-43542",
+      "title": "Arranca Expocafé Perú 2026 en Lima con más de 170 expositores y 12 gobiernos regionales",
+      "summary": "La 15.ª edición de la feria de la Cámara Peruana del Café y Cacao va del 26 al 29 de noviembre en Casa Prado (Miraflores), con más de 170 expositores entre organizaciones cafetaleras y mipymes, más de 100 marcas peruanas y unos 12 mil visitantes esperados. Es la última vitrina del año para contactar cooperativas y cerrar lotes de cafés especiales antes de la campaña 2027."
+    },
     {
       "id": "p46",
       "scope": "pe",
@@ -181,29 +192,6 @@
       "url": "https://andina.pe/agencia/noticia-enfen-nino-costero-extraordinario-continuaria-hasta-inicios-invierno-2027-1099939.aspx",
       "title": "ENFEN: El Niño costero seguirá extraordinario hasta febrero de 2027 y se debilitaría recién hacia julio",
       "summary": "El comunicado N.° 20-2026 (13-nov) prevé de noviembre a enero lluvias sobre lo normal en la costa norte y la sierra norte y central occidental, y normales o inferiores en la sierra centro y suroriental y la Amazonía (inferiores en la zona del Titicaca). Para la campaña 2027 implica riesgo de roya y problemas de transporte en el norte, y posible déficit hídrico en la floración de la selva central y el sur (Cusco y Puno)."
-    },
-    {
-      "id": "n24",
-      "scope": "mundo",
-      "tag": "Regulación",
-      "date": "2026-11-12",
-      "source": "AJP",
-      "url": "https://www.ajupress.com/view/20261112032842647",
-      "title": "El reglamento europeo contra la deforestación (EUDR) rige desde el 30 de diciembre para grandes y medianos operadores",
-      "summary": "Tras dos postergaciones, el café que entre a la UE deberá probar que no viene de tierras deforestadas después del 31 de diciembre de 2020; las micro y pequeñas empresas tienen hasta el 30 de junio de 2027 y las multas llegan al menos al 4 % de la facturación en la UE. Perú es de riesgo estándar (3 % de inspecciones): los lotes para Europa necesitan la geolocalización de cada parcela."
-    },
-    {
-      "id": "p30",
-      "scope": "pe",
-      "regiones": [
-        "cajamarca"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-12",
-      "source": "RCR Perú",
-      "url": "https://www.rcrperu.com/fenomeno-de-el-nino-va-a-afectar-los-campos-de-cultivo-de-400-mil-familias-dedicadas-a-la-agricultura-familiar-en-cajamarca/",
-      "title": "Gremio de Cajamarca advierte que El Niño podría afectar hasta 60 % de los cafetales de la región",
-      "summary": "Juan Carlos Mondragón, expresidente de la Cámara de Comercio de Cajamarca, estima que las lluvias intensas y la roya podrían afectar hasta un 60 % de los campos de café de la región (estimación gremial, no oficial). Es una señal de riesgo para el volumen y la calidad de la campaña 2027 en Jaén y San Ignacio."
     }
   ]
 }
