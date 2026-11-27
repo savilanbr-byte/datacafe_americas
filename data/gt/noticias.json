@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:48:18Z",
+  "updatedAt": "2026-11-27T19:50:00Z",
   "items": [
     {
       "id": "g31",
@@ -24,6 +24,17 @@
       "url": "https://wisevoter.com/world/2026/11/25/arabica-coffee-rises-brazil-rain-short-covering",
       "title": "Arábica rebota 2,8 % por lluvias en Minas Gerais; robusta toca mínimo de 3 años",
       "summary": "El arábica de marzo subió 7,40 ¢/lb (+2,82 %) el 25-nov por cobertura de cortos ante lluvias de hasta 36,9 mm previstas en Minas Gerais, mientras los inventarios certificados de ICE llegaron a 283.036 sacos (máximo de 3,75 meses) y la robusta cayó a mínimo de 3 años. La volatilidad sigue alta: conviene fijar precio por tramos en la cosecha guatemalteca que empieza."
+    },
+    {
+      "id": "g32",
+      "scope": "gt",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-25",
+      "source": "La Hora · USTR",
+      "url": "https://lahora.gt/lh-economia/mherrera/2026/11/25/este-es-el-listado-de-paises-a-los-que-ee-uu-propone-aplicar-nuevos-aranceles-guatemala-no-figura/",
+      "title": "Guatemala queda fuera de los nuevos aranceles que propone EE. UU. a 14 economías",
+      "summary": "La USTR propuso el 25-nov aranceles de hasta 35 % a 14 economías por sobrecapacidad manufacturera (Vietnam hasta 35 %, India 25 %, China 20 %, UE y Japón 15 %); Guatemala no figura y las tasas son propuestas, con comentarios hasta el 5-ene-2027. Para el exportador guatemalteco no cambia el acceso actual al mercado de EE. UU., su principal destino."
     },
     {
       "id": "n26",
@@ -114,18 +125,15 @@
       "summary": "Los caficultores del Altiplano Central vendieron a 83.200–83.800 dong/kg (US$3,24–3,26) y los operadores no esperan volúmenes grandes hasta diciembre; el robusta de enero cerró en US$3.245/t. La presión de oferta vietnamita llegaría justo cuando arranca la cosecha guatemalteca."
     },
     {
-      "id": "g19",
+      "id": "g33",
       "scope": "gt",
-      "regiones": [
-        "antigua",
-        "fraijanes"
-      ],
-      "tag": "Clima",
-      "date": "2026-11-12",
-      "source": "Prensa Libre · INSIVUMEH",
-      "url": "https://www.prensalibre.com/guatemala/comunitario/lluvias-inesperadas-en-noviembre-dejan-calles-inundadas-lodo-y-piedras-en-carreteras-de-guatemala-breaking/",
-      "title": "Aguaceros fuera de temporada inundan Antigua y dejan lodo en la Interamericana",
-      "summary": "El 12 de noviembre lluvias fuertes inundaron calles de Antigua Guatemala, arrastraron lodo y piedras a la Interamericana en Sacatepéquez y afectaron la capital y Villa Canales; el INSIVUMEH prevé viento del sur y más calor desde el 13-nov. Para quien compra, son días malos para secar en patio en zonas tempranas: conviene revisar humedad del pergamino."
+      "regiones": [],
+      "tag": "Producción",
+      "date": "2026-11-06",
+      "source": "Infobae · Sucafina",
+      "url": "https://www.infobae.com/honduras/2026/11/06/la-cosecha-de-cafe-de-centroamerica-y-mexico-caeria-93-hasta-menos-de-18-millones-de-sacos/",
+      "title": "Sucafina: la cosecha de Centroamérica y México caería 9,3 % en 2026-27",
+      "summary": "La comercializadora prevé menos de 18 M de sacos de 60 kg en la región para 2026-27 (19,68 M en 2025-26) por sequía y calor en el primer semestre, plagas y el año bajo del ciclo bienal; Guatemala caería menos que Honduras y México. Coincide con la proyección de Anacafé de 3,8 M de quintales oro exportables: anticipa menos oferta de lavados centroamericanos."
     }
   ]
 }
