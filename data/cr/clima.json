@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T11:48:13Z",
+  "updatedAt": "2026-11-27T19:47:35Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,24 +22,24 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, en el arranque de su pico de recolección, siguen con tiempo seco y cálido (máx. ~31 °C): buen momento para secar al sol y acelerar entregas, aunque las ráfagas del empuje frío #5 (40–70 km/h en cordilleras) exigen proteger patios y camas africanas expuestas.",
-    "Pérez Zeledón y Coto Brus, en plena recolección, solo tienen chubascos aislados por la tarde: el secado mejora, pero conviene seguir pidiendo control de humedad y actividad de agua en los lotes de la zona sur.",
-    "Turrialba y la Zona Norte reciben lluvias dispersas de montaña y viento fuerte con el empuje frío #5: el secado sigue más lento y conviene revisar fruta caída por viento y sobremaduración.",
+    "Valle Central y Valle Occidental, en el arranque de su pico de recolección, siguen secos con noches más frescas (máx. ~29 °C, mín. ~10 °C): buen momento para secar al sol y acelerar entregas, aunque las ráfagas del empuje frío #5 en cordilleras exigen proteger patios y camas africanas expuestas.",
+    "Pérez Zeledón y Coto Brus, en plena recolección, siguen con tiempo estable y poca lluvia: el secado mejora, pero conviene seguir pidiendo control de humedad y actividad de agua en los lotes de la zona sur.",
+    "Turrialba y la Zona Norte tendrán un fin de semana nublado con lluvias ocasionales y viento fuerte: el secado sigue más lento y conviene revisar fruta caída por viento y sobremaduración.",
     "Los Santos abre formalmente su cosecha del 4 al 6 de diciembre con tiempo seco y estable, favorable para lotes de altura densos.",
     "Con El Niño de fuerte a muy fuerte hasta ene–mar 2027, una época seca más cálida y posibles déficits de lluvia en el Caribe y el este de la Zona Norte, sube el riesgo de broca y de estrés en las floraciones de 2027-28; pide análisis físico antes de fijar volúmenes."
   ],
   "avisos": {
     "source": "IMN",
     "asOf": "2026-11-27",
-    "headline": "IMN: aire seco y estable hasta el 30 de noviembre; el empuje frío #5 trae ráfagas fuertes en cordilleras y lluvias dispersas en el Caribe y la Zona Norte",
+    "headline": "IMN: el empuje frío #5 refuerza los alisios hasta el 2 de diciembre; ráfagas fuertes en cordilleras, lluvias ocasionales en el Caribe y la Zona Norte y el resto del país estable",
     "items": [
-      "Tendencia 26–30 nov: días cálidos y pocas lluvias en el Valle Central (máx. 31 °C, mín. 17 °C) y el Pacífico Norte (máx. 36 °C); lluvias aisladas de tarde en el Pacífico Central y Sur.",
-      "Empuje frío #5 (26 nov): ráfagas de 40 a 70 km/h cerca de las cordilleras y de 70 a 90 km/h en montañas y el norte de Guanacaste; lluvia dispersa en la Zona Norte y cerca de la costa del Caribe.",
-      "El IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte."
+      "Tendencia 26 nov–2 dic: Valle Central con poca nubosidad y lloviznas en el sector oriental y zonas montañosas (máx. 29 °C, mín. 10 °C); Pacífico Sur estable (máx. 33 °C, mín. 12 °C).",
+      "Empuje frío #5: alisios más fuertes, ráfagas de moderadas a muy fuertes en el Pacífico Norte, el Valle Central y las montañas, y un leve descenso de temperaturas.",
+      "Caribe y Zona Norte: fin de semana mayormente nublado con lluvias ocasionales y aguaceros aislados, sin un evento de lluvias generalizadas."
     ],
     "links": [
       {
-        "t": "IMN · tendencia semanal (26–30 nov)",
+        "t": "IMN · tendencia semanal (26 nov–2 dic)",
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {

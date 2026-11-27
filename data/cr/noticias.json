@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-27T11:48:13Z",
+  "updatedAt": "2026-11-27T19:47:35Z",
   "items": [
+    {
+      "id": "n60",
+      "scope": "cr",
+      "regiones": [],
+      "tag": "Agricultura",
+      "date": "2026-11-27",
+      "source": "Puntarenas Se Oye · MAG",
+      "url": "https://www.puntarenasseoye.com/economia/innovacion-tecnologica-liderara-estrategia-para-hacer-mas-rentable-el-cafe-nacional/",
+      "title": "MAG e ICAFE lanzan una agenda nacional para subir la productividad de los cafetales",
+      "summary": "Una mesa técnica de seis instituciones (MAG, ICAFE, INTA, SFE, ONS e INA), con comités en las siete regiones, priorizará renovación de cafetales, fertilización según análisis de suelo, vigilancia de la roya y financiamiento acorde al ciclo del café. Responde a costos altos, cosechas cada vez menores y endeudamiento; no trae metas en cifras, así que no cambia la oferta de esta cosecha."
+    },
     {
       "id": "n58",
       "scope": "cr",
