@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:47:11Z",
+  "updatedAt": "2026-11-27T11:48:13Z",
   "enso": {
     "asOf": "2026-11-12",
     "facts": [
@@ -22,20 +22,20 @@
     "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
   },
   "impactos": [
-    "Valle Central y Valle Occidental, en el arranque de su pico de recolección, tienen semana seca y cálida (máx. ~31 °C): buen momento para secar al sol y acelerar la entrega de lotes; los alisios pueden traer ráfagas en patios expuestos.",
+    "Valle Central y Valle Occidental, en el arranque de su pico de recolección, siguen con tiempo seco y cálido (máx. ~31 °C): buen momento para secar al sol y acelerar entregas, aunque las ráfagas del empuje frío #5 (40–70 km/h en cordilleras) exigen proteger patios y camas africanas expuestas.",
     "Pérez Zeledón y Coto Brus, en plena recolección, solo tienen chubascos aislados por la tarde: el secado mejora, pero conviene seguir pidiendo control de humedad y actividad de agua en los lotes de la zona sur.",
-    "Turrialba y la Zona Norte pueden recibir lluvias ocasionales de montaña a fin de semana con el refuerzo de los alisios: el secado sigue más lento y vale revisar fruta caída y sobremaduración.",
+    "Turrialba y la Zona Norte reciben lluvias dispersas de montaña y viento fuerte con el empuje frío #5: el secado sigue más lento y conviene revisar fruta caída por viento y sobremaduración.",
     "Los Santos abre formalmente su cosecha del 4 al 6 de diciembre con tiempo seco y estable, favorable para lotes de altura densos.",
     "Con El Niño de fuerte a muy fuerte hasta ene–mar 2027, una época seca más cálida y posibles déficits de lluvia en el Caribe y el este de la Zona Norte, sube el riesgo de broca y de estrés en las floraciones de 2027-28; pide análisis físico antes de fijar volúmenes."
   ],
   "avisos": {
     "source": "IMN",
-    "asOf": "2026-11-26",
-    "headline": "IMN: del 26 al 30 de noviembre domina el aire seco y estable; solo lluvias ocasionales en montañas del Caribe y la Zona Norte",
+    "asOf": "2026-11-27",
+    "headline": "IMN: aire seco y estable hasta el 30 de noviembre; el empuje frío #5 trae ráfagas fuertes en cordilleras y lluvias dispersas en el Caribe y la Zona Norte",
     "items": [
-      "Tendencia 26–30 nov: días cálidos y pocas lluvias en el Valle Central (máx. 31 °C, mín. 17 °C) y el Pacífico Norte (máx. 36 °C); chubascos aislados de tarde en el Pacífico Sur (máx. 31 °C, mín. 12 °C).",
-      "Un sistema frontal al norte de Centroamérica no afecta directamente al país, pero puede reforzar los alisios y elevar la humedad en el Caribe y la Zona Norte (máx. 33 °C) hacia el fin de semana.",
-      "El IMN no reporta avisos meteorológicos específicos; prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte."
+      "Tendencia 26–30 nov: días cálidos y pocas lluvias en el Valle Central (máx. 31 °C, mín. 17 °C) y el Pacífico Norte (máx. 36 °C); lluvias aisladas de tarde en el Pacífico Central y Sur.",
+      "Empuje frío #5 (26 nov): ráfagas de 40 a 70 km/h cerca de las cordilleras y de 70 a 90 km/h en montañas y el norte de Guanacaste; lluvia dispersa en la Zona Norte y cerca de la costa del Caribe.",
+      "El IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte."
     ],
     "links": [
       {
@@ -43,12 +43,12 @@
         "url": "https://www.imn.ac.cr/tendencia-semanal"
       },
       {
-        "t": "El Observador · Lunes caluroso y con pocas lluvias (23 nov)",
-        "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/"
+        "t": "Telediario · Empuje frío #5 y ráfagas (26 nov)",
+        "url": "https://www.telediario.cr/nacional/pronostico-del-tiempo-como-estara-el-clima-el-26-de-noviembre"
       },
       {
-        "t": "El Observador · Noviembre rompe más de 23 récords de calor (13 nov)",
-        "url": "https://observador.cr/noviembre-rompe-mas-de-23-records-de-calor-en-costa-rica-y-el-imn-advierte-que-podrian-venir-mas/"
+        "t": "El Observador · Lunes caluroso y con pocas lluvias (23 nov)",
+        "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/"
       }
     ]
   },

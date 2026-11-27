@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-26T19:47:11Z",
+  "updatedAt": "2026-11-27T11:48:13Z",
   "items": [
+    {
+      "id": "n58",
+      "scope": "cr",
+      "regiones": [],
+      "tag": "Divisas",
+      "date": "2026-11-26",
+      "source": "El Observador",
+      "url": "https://observador.cr/tipo-de-cambio-baja-a-44379-y-roza-su-minimo-historico-mientras-el-banco-central-amplia-record-de-compras/",
+      "title": "El dólar cierra en ₡443,79 en Monex y el BCCR compra un récord de US$367 millones para estabilizar en noviembre",
+      "summary": "El tipo de cambio acumula una caída de 10,7 % en 2026 (₡53,28) y el Banco Central suma US$736,7 millones comprados en Monex en noviembre, el mayor monto de estabilización desde 2006. Con el colón tan fuerte, la liquidación en colones por fanega sigue presionada y los productores tienden a pedir más diferencial en dólares."
+    },
+    {
+      "id": "n59",
+      "scope": "cr",
+      "regiones": [
+        "zona-norte",
+        "turrialba",
+        "valle-central",
+        "valle-occidental"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-26",
+      "source": "Telediario · IMN",
+      "url": "https://www.telediario.cr/nacional/pronostico-del-tiempo-como-estara-el-clima-el-26-de-noviembre",
+      "title": "El empuje frío #5 trae ráfagas de hasta 90 km/h en montañas y lluvias dispersas en la Zona Norte y el Caribe",
+      "summary": "El IMN pronostica ráfagas de 40 a 70 km/h cerca de las cordilleras y de 70 a 90 km/h en zonas montañosas y el norte de Guanacaste, con lluvia dispersa en la Zona Norte. Puede aumentar la fruta caída en fincas expuestas y complicar el secado en patio."
+    },
     {
       "id": "n57",
       "scope": "mundo",
@@ -46,16 +73,6 @@
       "url": "https://observador.cr/costa-rica-tendra-un-lunes-caluroso-y-con-pocas-lluvias-temperaturas-llegaran-a-35-c-en-guanacaste/",
       "title": "IMN: semana caliente y casi sin lluvia; solo el Pacífico Sur conserva chubascos cortos por la tarde",
       "summary": "El lunes 23 Liberia llegó a 35,4 °C y Alajuela a 30,7 °C; el IMN prevé una época seca especialmente cálida por El Niño y posibles déficits de lluvia en el Caribe y el este de la Zona Norte. Buen secado al sol en el Valle Central; en Pérez Zeledón y Coto Brus aún conviene vigilar la humedad de los lotes."
-    },
-    {
-      "id": "n56",
-      "scope": "mundo",
-      "tag": "Producción",
-      "date": "2026-11-22",
-      "source": "CMB News",
-      "url": "https://commodity-board.com/vietnam-coffee-fob-prices-firm-despite-global-robusta-sell-off",
-      "title": "Vietnam entra en el pico de su cosecha 2026-27 y el precio en finca del robusta cae a unos 71.500 VND/kg",
-      "summary": "El robusta en finca de Dak Lak bajó de más de 83.000 a cerca de 71.200–72.000 VND/kg en una semana y Vietnam exportó 108.800 t en octubre (+50 % interanual), mientras el robusta de Londres cayó casi 10 % a un mínimo de tres años (~US$2.881/t). Más oferta asiática presiona los blends y resta soporte al arábica lavado centroamericano."
     },
     {
       "id": "n53",
@@ -126,17 +143,6 @@
       "url": "https://observador.cr/noviembre-rompe-mas-de-23-records-de-calor-en-costa-rica-y-el-imn-advierte-que-podrian-venir-mas/",
       "title": "Noviembre ya rompe más de 23 récords de calor y el IMN prevé temperaturas hasta 2 °C sobre lo normal",
       "summary": "En los primeros 11 días de noviembre el IMN registró más de 23 récords de temperatura máxima, con unos 37 °C en el Pacífico Norte y 33,3 °C en La Garita (oeste del Valle Central); por El Niño, las medias de noviembre a enero podrían quedar hasta 2 °C sobre lo normal. El calor acelera el secado pero favorece la broca y puede apurar la maduración en las zonas bajas."
-    },
-    {
-      "id": "n42",
-      "scope": "cr",
-      "regiones": [],
-      "tag": "Divisas",
-      "date": "2026-11-13",
-      "source": "Diario Extra · BCCR",
-      "url": "https://www.diarioextra.com/noticia/dolar-cae-a-¢44610-y-alcanza-nuevo-minimo-historico-en-monex/",
-      "title": "El dólar marca un nuevo mínimo histórico en Monex: ₡446,10, pese a compras del BCCR por US$102 millones",
-      "summary": "El promedio ponderado del Monex cerró el 13 de noviembre en ₡446,10 y superó el mínimo de ₡446,80 de septiembre; el BCCR compró unos US$102,6 millones entre el 10 y el 13 de noviembre y el dólar acumula una caída de ₡50,97 en 2026. Un colón más fuerte recorta la liquidación en colones al productor y empuja a beneficios y fincas a pedir más dólares por quintal."
     },
     {
       "id": "n43",
