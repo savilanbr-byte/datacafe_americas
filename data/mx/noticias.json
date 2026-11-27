@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:47:21Z",
+  "updatedAt": "2026-11-27T11:47:47Z",
   "items": [
     {
       "id": "n29",
@@ -10,6 +10,20 @@
       "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
       "title": "El robusta toca un mínimo de tres años y el arábica rebota desde su piso de cinco meses",
       "summary": "El robusta de ICE cayó 1,65 % a 2.742 USD/t tras marcar 2.709, su nivel más bajo en tres años, por el avance de la cosecha en Vietnam; el arábica subió 0,3 % a 263,40 ¢/lb después de tocar 258,65, mínimo de cinco meses. La presión sobre el robusta pesa en lo que la industria soluble paga por la bola y la cereza en Chiapas y el Golfo."
+    },
+    {
+      "id": "m48",
+      "scope": "mx",
+      "regiones": [
+        "chiapas-soconusco",
+        "robusta-chiapas"
+      ],
+      "tag": "Industria",
+      "date": "2026-11-26",
+      "source": "Agencia Reforma · Zócalo",
+      "url": "https://www.zocalo.com.mx/anuncia-nestle-reuniones-con-caficultores-de-chiapas-tras-protestas-por-precios-del-cafe/",
+      "title": "Nestlé anuncia reuniones con cafetaleros de Chiapas y el Soconusco llama a no venderle",
+      "summary": "Nestlé México dice que se reunirá con productores y autoridades federales y estatales y que en 2026-27 comprará más café mexicano que el ciclo pasado, sin dar precio; los Caficultores del Soconusco, que acusan una baja de 60 a 43 pesos por kilo, llaman a no venderle y a boicotear sus productos. Para un comprador, implica posible retención de café y competencia por el robusta y el arábica de la Costa-Sierra mientras dure la negociación."
     },
     {
       "id": "m46",
@@ -149,20 +163,6 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
       "title": "El USDA recorta a 11,5 millones de sacos la exportación de Colombia y el arábica rebota",
       "summary": "El USDA FAS bajó 6 % su estimado de exportación de Colombia para 2026-27 (11,5 M sacos) y el arábica subió 1,4 % el 19-nov, mientras el robusta tocó un mínimo de 2,75 años; menos lavados colombianos sostiene la demanda de suaves de México y Centroamérica."
-    },
-    {
-      "id": "m36",
-      "scope": "mx",
-      "regiones": [
-        "veracruz",
-        "robusta-golfo"
-      ],
-      "tag": "Logística",
-      "date": "2026-11-17",
-      "source": "Publimetro · Semar",
-      "url": "https://www.publimetro.com.mx/noticias/2026/11/18/frente-frio-6-provoca-cierre-de-puertos-en-mexico-alertan-por-lluvias-torrenciales-y-vientos/",
-      "title": "El frente frío 6 cierra los puertos de Veracruz, Tuxpan y Coatzacoalcos",
-      "summary": "La Semar cerró a la navegación mayor los puertos de Veracruz, Tuxpan, Coatzacoalcos y Alvarado por el norte de 70–90 km/h y olas de 3–4 m, mientras el SMN elevó la lluvia del martes 17 a 150–250 mm en el sur de Veracruz, el norte y este de Oaxaca y el noroeste de Chiapas. Embarques de café verde por Veracruz pueden retrasarse unos días."
     },
     {
       "id": "m37",
