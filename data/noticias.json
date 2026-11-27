@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-27T11:55:09Z",
+  "updatedAt": "2026-11-27T19:47:51Z",
   "items": [
+    {
+      "id": "n28a",
+      "scope": "am",
+      "pais": "México",
+      "tag": "Precios",
+      "date": "2026-11-27",
+      "source": "Infobae",
+      "url": "https://infobae.com/mexico/2026/11/27/gobierno-dialogara-hoy-con-nestle-tras-protesta-de-caficultores-buscara-pago-justo-a-productores-y-conservacion-del-cafe-nacional",
+      "title": "Agricultura negocia con Nestlé un precio justo para el café de Chiapas",
+      "summary": "La secretaria de Agricultura, Columba López, se reunió con productores en Chiapas y el 27 de noviembre con directivos de Nestlé; los cafeticultores, que hoy reciben 43 pesos por kilo, piden entre 50 y 60, y Sheinbaum pidió que la empresa compre directo y sin intermediarios. Un acuerdo podría fijar un piso de precio al productor en el Soconusco en plena cosecha."
+    },
     {
       "id": "n26g",
       "scope": "am",
@@ -237,17 +248,6 @@
       "url": "https://revistaflow.com/cafe-mexicano-en-riesgo-chiapas-preve-caida-de-40-en-su-cosecha-por-sequia-y-falta-de-trabajadores/",
       "title": "Chiapas: AMECAFÉ prevé hasta 40 % menos café en la Costa-Sierra",
       "summary": "La región pasaría de cerca de 1,5 millones a 900 mil quintales en 2026-27 por lluvias irregulares y escasez de cortadores. Menos oferta chiapaneca implica más competencia por lotes: conviene cerrar contratos temprano."
-    },
-    {
-      "id": "e4",
-      "scope": "am",
-      "pais": "Brasil",
-      "tag": "Clima",
-      "date": "2026-11-18",
-      "source": "Tribuna do Sertão · Sputnik Brasil / Minasul",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/11/18/1024828-el-nino-no-auge-seca-no-norte-e-nordeste-chuva-no-sul-e-preocupacao-com-o-cafe-em-minas",
-      "title": "Minasul advierte que el exceso de lluvia de El Niño compromete la cosecha 2027 en el Sur de Minas",
-      "summary": "El presidente de la cooperativa señala que septiembre y octubre fueron los meses más lluviosos en 40 años de registros en Varginha, lo que alteró la floración, y el Inmet prevé lluvias por encima de la media de noviembre a enero; las pérdidas aún no se han cuantificado. Es un riesgo adicional para la oferta de arábica brasileño en 2027, año de baja bienal."
     },
     {
       "id": "p1",
