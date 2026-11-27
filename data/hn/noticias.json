@@ -1,140 +1,120 @@
 {
- "updatedAt": "2026-11-26T19:47:52Z",
- "items": [
-  {
-   "id": "n32",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-25",
-   "source": "Barchart (TradingView)",
-   "url": "https://www.tradingview.com/news/barchart:a05e31572094b:0-heavy-rains-in-brazil-boost-arabica-coffee-prices/",
-   "title": "Lluvias fuertes en Brasil levantan el arábica, pero suben las existencias certificadas",
-   "summary": "El arábica de marzo sube 7 puntos (+2,7 %) por lluvias intensas en Brasil, mientras las existencias certificadas en ICE llegan a 272.868 sacos (máximo en 3,75 meses), con 152.903 sacos de café brasileño, y el real toca su nivel más bajo en 1,75 años. Más oferta brasileña en bolsa presiona los diferenciales de los centroamericanos lavados."
-  },
-  {
-   "id": "n31",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-25",
-   "source": "Business Recorder · Reuters",
-   "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
-   "title": "La robusta marca su menor nivel en tres años por la cosecha rápida de Vietnam",
-   "summary": "La robusta cayó 1,65 % a US$2.742 por tonelada tras tocar US$2.709, mínimo de tres años, porque la cosecha vietnamita avanza más rápido; el arábica subió 0,3 % a US$2,634 por libra después de tocar un mínimo de cinco meses de US$2,5865. Un arábica cerca de 260–265 ¢/lb deja los precios de exportación de Honduras por debajo del promedio de la cosecha pasada."
-  },
-  {
-   "id": "h31",
-   "scope": "hn",
-   "regiones": [
-    "opalaca",
-    "agalta",
-    "copan",
-    "comayagua",
-    "el-paraiso"
-   ],
-   "tag": "Clima",
-   "date": "2026-11-25",
-   "source": "Hondudiario · COPECO",
-   "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/",
-   "title": "Entra el primer frente frío: alerta verde en el norte y hasta 100 mm de lluvia en Santa Bárbara",
-   "summary": "COPECO declaró alerta verde por 48 horas desde el miércoles 25 en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro, y prevé acumulados de hasta 100 mm en Santa Bárbara, 60 mm en Yoro, 20 mm en Olancho y unos 15 mm en Copán, Lempira, Comayagua y El Paraíso, con mínima de 13 °C en Intibucá. Lluvias hasta el viernes en zonas montañosas del norte: frenan el secado al sol del pergamino y pueden dejar lotes con más humedad."
-  },
-  {
-   "id": "h26",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Clima",
-   "date": "2026-11-23",
-   "source": "Once Noticias · CENAOS",
-   "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/",
-   "title": "CENAOS espera uno o dos frentes fríos en diciembre; el lunes arranca seco",
-   "summary": "Para el lunes 23 COPECO prevé mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente; CENAOS estima que en diciembre entrarán uno o dos frentes fríos, con más lluvia sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía. Las zonas cafetaleras siguen con buen tiempo para secar pergamino hasta que llegue el primer frente."
-  },
-  {
-   "id": "h24",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Cafés especiales",
-   "date": "2026-11-21",
-   "source": "El Español",
-   "url": "https://www.elespanol.com/viajes/cocinillas-gastro/actualidad-gastronomica/20261121/mejor-cafe-mundo-llega-honduras-elegido-roma-cientos-candidatos/1003744467005_0.html",
-   "title": "Un café hondureño de Finca Piedra Parada gana el «Best of the Best» del premio Ernesto Illy",
-   "summary": "Denis Rolando, de Finca Piedra Parada, ganó en Roma el máximo galardón del Ernesto Illy International Coffee Award 2026 entre 27 finalistas de nueve países, con lotes de la cosecha 2025-26. Refuerza la visibilidad de los microlotes hondureños de alta gama ante tostadores y compradores de especiales."
-  },
-  {
-   "id": "n28",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-19",
-   "source": "Barchart (Yahoo Finanzas)",
-   "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
-   "title": "El arábica rebota tras el recorte del USDA a las exportaciones de Colombia; la robusta sigue en mínimos",
-   "summary": "El USDA bajó a 11,5 M de sacos las exportaciones colombianas 2026-27 (−6 %) y el arábica de marzo subió 1,4 %, mientras la robusta de enero cayó 1,7 % a su menor nivel en 2,75 años por la cosecha de Vietnam y el real brasileño en mínimos de 19 meses. Los inventarios certificados de arábica en ICE (186.414 sacos) están en su nivel más bajo en 27 años, lo que sostiene los diferenciales de los lavados centroamericanos como el hondureño."
-  },
-  {
-   "id": "h28",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Exportaciones",
-   "date": "2026-11-19",
-   "source": "Revista EyN · BCH",
-   "url": "https://www.revistaeyn.com/centroamericaymundo/exportaciones-de-honduras-crecieron-76-a-septiembre-impulsadas-por-el-cafe-AO32691881",
-   "title": "BCH: el café sigue al frente de las exportaciones a septiembre, con más volumen y menos precio",
-   "summary": "A septiembre de 2026 el café sumó US$2.089,4 millones (35,4 % de las mercancías generales), US$27,2 millones menos que en 2025: el volumen creció 14,7 % pero el precio promedio cayó 13,9 %. Destinos principales: EE. UU., Alemania y Bélgica; confirma que el ingreso por quintal viene a la baja al arrancar 2026-27."
-  },
-  {
-   "id": "h22",
-   "scope": "hn",
-   "regiones": [
-    "agalta"
-   ],
-   "tag": "Clima",
-   "date": "2026-11-17",
-   "source": "Once Noticias · COPECO",
-   "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/",
-   "title": "COPECO declara alerta verde en Cortés y Atlántida por la vaguada prefrontal",
-   "summary": "La alerta (boletín 050-2026) rige 48 horas desde el martes 17; CENAOS prevé chubascos con tormentas en el noroccidente y la montaña de Olancho, lluvias débiles y aisladas en el occidente, centro y oriente, y el jueves 19 más lluvia en el norte, centro y oriente por una cuña de alta presión. En Agalta y el oriente puede frenar el secado del pergamino; el occidente sigue con buen tiempo para secar."
-  },
-  {
-   "id": "h19",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Regulación",
-   "date": "2026-11-15",
-   "source": "Infobae · SAG",
-   "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
-   "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
-   "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
-  },
-  {
-   "id": "h27",
-   "scope": "hn",
-   "regiones": [],
-   "tag": "Agricultura",
-   "date": "2026-11-13",
-   "source": "TNH",
-   "url": "https://tnh.gob.hn/television/honduras-y-guatemala-impulsan-acuerdo-para-garantizar-derechos-de-trabajadores-durante-la-cosecha-de-cafe",
-   "title": "Honduras y Guatemala preparan un acuerdo para los recolectores guatemaltecos del café",
-   "summary": "En la mesa bilateral de movilidad laboral de Esquipulas ambos países avanzaron un acuerdo, aún en preparación, para ordenar la contratación de los miles de cortadores guatemaltecos que llegan a los departamentos fronterizos de octubre a abril, hoy con tratos verbales sobre pago, comida y alojamiento (OIM). Puede formalizar la mano de obra en las fincas del occidente en plena cosecha."
-  },
-  {
-   "id": "n20",
-   "scope": "mundo",
-   "tag": "Mercado",
-   "date": "2026-11-12",
-   "source": "Comunicaffe · OIC",
-   "url": "https://www.comunicaffe.com/ico-report-world-coffee-exports-increase-to-142-4-million-bags-as-market-returns-to-surplus/",
-   "title": "OIC: el mercado mundial vuelve al superávit y las exportaciones de Honduras crecen 19,3 %",
-   "summary": "Según la OIC, en 2025-26 se exportaron 142,4 M de sacos (+1 %) y hubo un superávit de 3 M de sacos, el primero desde 2020-21; el promedio mensual del indicador compuesto fue de 261,26 ¢/lb (−0,3 %). Las exportaciones de Honduras subieron 19,3 %."
-  },
-  {
-   "id": "n21",
-   "scope": "mundo",
-   "tag": "Exportaciones",
-   "date": "2026-11-12",
-   "source": "Comunicaffe · Cecafé",
-   "url": "https://www.comunicaffe.com/brazils-coffee-exports-set-october-record-at-5-3-million-bags-but-year-to-date-volumes-remain-well-below-2024-peak/",
-   "title": "Brasil exporta un récord de 5,3 M de sacos en octubre",
-   "summary": "Según Cecafé, Brasil embarcó 5,33 M de sacos en octubre (+28,4 %), con 4,12 M de arábica (+21,6 %) y 0,90 M de robusta; de enero a octubre suma 34,5 M (+3,5 %). La oferta brasileña presiona la bolsa de NY y con ella los diferenciales del café hondureño."
-  }
- ]
+  "updatedAt": "2026-11-27T11:49:22Z",
+  "items": [
+    {
+      "id": "n32",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Barchart (TradingView)",
+      "url": "https://www.tradingview.com/news/barchart:a05e31572094b:0-heavy-rains-in-brazil-boost-arabica-coffee-prices/",
+      "title": "Lluvias fuertes en Brasil levantan el arábica, pero suben las existencias certificadas",
+      "summary": "El arábica de marzo sube 7 puntos (+2,7 %) por lluvias intensas en Brasil, mientras las existencias certificadas en ICE llegan a 272.868 sacos (máximo en 3,75 meses), con 152.903 sacos de café brasileño, y el real toca su nivel más bajo en 1,75 años. Más oferta brasileña en bolsa presiona los diferenciales de los centroamericanos lavados."
+    },
+    {
+      "id": "n31",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-25",
+      "source": "Business Recorder · Reuters",
+      "url": "https://brecorder.com/news/40450759/robusta-coffee-sets-three-year-low",
+      "title": "La robusta marca su menor nivel en tres años por la cosecha rápida de Vietnam",
+      "summary": "La robusta cayó 1,65 % a US$2.742 por tonelada tras tocar US$2.709, mínimo de tres años, porque la cosecha vietnamita avanza más rápido; el arábica subió 0,3 % a US$2,634 por libra después de tocar un mínimo de cinco meses de US$2,5865. Un arábica cerca de 260–265 ¢/lb deja los precios de exportación de Honduras por debajo del promedio de la cosecha pasada."
+    },
+    {
+      "id": "h31",
+      "scope": "hn",
+      "regiones": [
+        "opalaca",
+        "agalta",
+        "copan",
+        "comayagua",
+        "el-paraiso"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-25",
+      "source": "Hondudiario · COPECO",
+      "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/",
+      "title": "Entra el primer frente frío: alerta verde en el norte y hasta 100 mm de lluvia en Santa Bárbara",
+      "summary": "COPECO declaró alerta verde por 48 horas desde el miércoles 25 en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro, y prevé acumulados de hasta 100 mm en Santa Bárbara, 60 mm en Yoro, 20 mm en Olancho y unos 15 mm en Copán, Lempira, Comayagua y El Paraíso, con mínima de 13 °C en Intibucá. Lluvias hasta el viernes en zonas montañosas del norte: frenan el secado al sol del pergamino y pueden dejar lotes con más humedad."
+    },
+    {
+      "id": "h26",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Clima",
+      "date": "2026-11-23",
+      "source": "Once Noticias · CENAOS",
+      "url": "https://oncenoticias.hn/nacionales/frente-frio-en-honduras-cuantos-fenomenos-masa-aire-se-esperan-diciembre-2026-que-zonas-afectadas-lluvias/",
+      "title": "CENAOS espera uno o dos frentes fríos en diciembre; el lunes arranca seco",
+      "summary": "Para el lunes 23 COPECO prevé mañanas secas y chubascos débiles y aislados por la tarde en el norte, centro y suroccidente; CENAOS estima que en diciembre entrarán uno o dos frentes fríos, con más lluvia sobre todo en Cortés, Atlántida, Colón e Islas de la Bahía. Las zonas cafetaleras siguen con buen tiempo para secar pergamino hasta que llegue el primer frente."
+    },
+    {
+      "id": "h24",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Cafés especiales",
+      "date": "2026-11-21",
+      "source": "El Español",
+      "url": "https://www.elespanol.com/viajes/cocinillas-gastro/actualidad-gastronomica/20261121/mejor-cafe-mundo-llega-honduras-elegido-roma-cientos-candidatos/1003744467005_0.html",
+      "title": "Un café hondureño de Finca Piedra Parada gana el «Best of the Best» del premio Ernesto Illy",
+      "summary": "Denis Rolando, de Finca Piedra Parada, ganó en Roma el máximo galardón del Ernesto Illy International Coffee Award 2026 entre 27 finalistas de nueve países, con lotes de la cosecha 2025-26. Refuerza la visibilidad de los microlotes hondureños de alta gama ante tostadores y compradores de especiales."
+    },
+    {
+      "id": "n28",
+      "scope": "mundo",
+      "tag": "Mercado",
+      "date": "2026-11-19",
+      "source": "Barchart (Yahoo Finanzas)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/arabica-coffee-rebounds-smaller-exports-165842123.html",
+      "title": "El arábica rebota tras el recorte del USDA a las exportaciones de Colombia; la robusta sigue en mínimos",
+      "summary": "El USDA bajó a 11,5 M de sacos las exportaciones colombianas 2026-27 (−6 %) y el arábica de marzo subió 1,4 %, mientras la robusta de enero cayó 1,7 % a su menor nivel en 2,75 años por la cosecha de Vietnam y el real brasileño en mínimos de 19 meses. Los inventarios certificados de arábica en ICE (186.414 sacos) están en su nivel más bajo en 27 años, lo que sostiene los diferenciales de los lavados centroamericanos como el hondureño."
+    },
+    {
+      "id": "h28",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-19",
+      "source": "Revista EyN · BCH",
+      "url": "https://www.revistaeyn.com/centroamericaymundo/exportaciones-de-honduras-crecieron-76-a-septiembre-impulsadas-por-el-cafe-AO32691881",
+      "title": "BCH: el café sigue al frente de las exportaciones a septiembre, con más volumen y menos precio",
+      "summary": "A septiembre de 2026 el café sumó US$2.089,4 millones (35,4 % de las mercancías generales), US$27,2 millones menos que en 2025: el volumen creció 14,7 % pero el precio promedio cayó 13,9 %. Destinos principales: EE. UU., Alemania y Bélgica; confirma que el ingreso por quintal viene a la baja al arrancar 2026-27."
+    },
+    {
+      "id": "h22",
+      "scope": "hn",
+      "regiones": [
+        "agalta"
+      ],
+      "tag": "Clima",
+      "date": "2026-11-17",
+      "source": "Once Noticias · COPECO",
+      "url": "https://oncenoticias.hn/nacionales/alerta-verde-departamentos-norte-de-honduras-honduras-pronostico-de-lluvias-copeco-cenaos/",
+      "title": "COPECO declara alerta verde en Cortés y Atlántida por la vaguada prefrontal",
+      "summary": "La alerta (boletín 050-2026) rige 48 horas desde el martes 17; CENAOS prevé chubascos con tormentas en el noroccidente y la montaña de Olancho, lluvias débiles y aisladas en el occidente, centro y oriente, y el jueves 19 más lluvia en el norte, centro y oriente por una cuña de alta presión. En Agalta y el oriente puede frenar el secado del pergamino; el occidente sigue con buen tiempo para secar."
+    },
+    {
+      "id": "h19",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Regulación",
+      "date": "2026-11-15",
+      "source": "Infobae · SAG",
+      "url": "https://www.infobae.com/honduras/2026/11/16/honduras-busca-proteger-sus-exportaciones-de-cafe-ante-las-nuevas-reglas-ambientales-europeas/",
+      "title": "Honduras acelera la georreferenciación de fincas para cumplir el EUDR",
+      "summary": "La SAG transfirió L100 millones al IHCAFE y, con OIRSA e ICF, busca georreferenciar unas 400.000 manzanas antes de que el reglamento europeo aplique a medianos y grandes operadores el 30 de diciembre de 2026 (pequeños: 30 de junio de 2027); más del 50 % del café va a la UE. También se entregaron 327.333 quintales de fertilizante a 83.777 caficultores. Para compradores europeos: confirma ya que los lotes vengan con geolocalización."
+    },
+    {
+      "id": "h27",
+      "scope": "hn",
+      "regiones": [],
+      "tag": "Agricultura",
+      "date": "2026-11-13",
+      "source": "TNH",
+      "url": "https://tnh.gob.hn/television/honduras-y-guatemala-impulsan-acuerdo-para-garantizar-derechos-de-trabajadores-durante-la-cosecha-de-cafe",
+      "title": "Honduras y Guatemala preparan un acuerdo para los recolectores guatemaltecos del café",
+      "summary": "En la mesa bilateral de movilidad laboral de Esquipulas ambos países avanzaron un acuerdo, aún en preparación, para ordenar la contratación de los miles de cortadores guatemaltecos que llegan a los departamentos fronterizos de octubre a abril, hoy con tratos verbales sobre pago, comida y alojamiento (OIM). Puede formalizar la mano de obra en las fincas del occidente en plena cosecha."
+    }
+  ]
 }

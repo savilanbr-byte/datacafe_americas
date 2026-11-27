@@ -1,126 +1,126 @@
 {
- "updatedAt": "2026-11-26T19:47:52Z",
- "enso": {
-  "asOf": "2026-11-12",
-  "facts": [
-   {
-    "v": "+2,5 °C",
-    "l": "Anomalía Niño 3.4"
-   },
-   {
-    "v": ">79%",
-    "l": "Fuerte o muy fuerte hasta ene–mar 2027"
-   },
-   {
-    "v": "~60%",
-    "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
-   }
+  "updatedAt": "2026-11-27T11:49:22Z",
+  "enso": {
+    "asOf": "2026-11-12",
+    "facts": [
+      {
+        "v": "+2,5 °C",
+        "l": "Anomalía Niño 3.4"
+      },
+      {
+        "v": ">79%",
+        "l": "Fuerte o muy fuerte hasta ene–mar 2027"
+      },
+      {
+        "v": "~60%",
+        "l": "Evento histórico (RONI ≥ +2,5 °C) en oct–dic y nov–ene"
+      }
+    ],
+    "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
+    "source": "NOAA CPC",
+    "status": "El Niño · fuerte a muy fuerte",
+    "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  "forecastSource": {
+    "name": "MET Norway · Yr",
+    "url": "https://www.yr.no/",
+    "period": ""
+  },
+  "impactos": [
+    "El frente frío se despide el viernes con lluvias débiles a moderadas solo en el norte y noroccidente: en Santa Bárbara (Opalaca) y Yoro (Agalta) el secado al sol sigue lento; pide la humedad del pergamino al recibir y rechaza lotes rehumedecidos o con olor a fermento.",
+    "En Copán, Montecillos, Comayagua y El Paraíso solo hay lluvias aisladas y un ambiente fresco (14–18 °C en La Esperanza): el corte de las zonas bajas y medias puede seguir y el secado se normaliza desde el fin de semana.",
+    "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene, fuera de estos frentes, un fin de año más seco y cálido de lo normal: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío.",
+    "Con la fruta madurando rápido antes del pico de cosecha (20-dic a 20-feb), las lluvias del frente pueden provocar caída de grano maduro donde falten recolectores: revisa la calidad de los primeros lotes.",
+    "La humedad de los frentes fríos favorece la roya en las zonas altas y húmedas de Agalta y Opalaca; pregunta por el manejo sanitario de la finca al contratar café 2026-27."
   ],
-  "headline": "NOAA mantiene el aviso de El Niño: sigue fortaleciéndose (+2,5 °C en Niño 3.4), será de fuerte a muy fuerte hasta ene–mar 2027 y empezaría a debilitarse a inicios de 2027.",
-  "source": "NOAA CPC",
-  "status": "El Niño · fuerte a muy fuerte",
-  "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
- },
- "forecastSource": {
-  "name": "MET Norway · Yr",
-  "url": "https://www.yr.no/",
-  "period": ""
- },
- "impactos": [
-  "El frente frío concentra la lluvia en el norte: Yoro (Agalta) hasta 40 mm y Santa Bárbara (Opalaca) 30 mm este jueves; ahí el secado al sol del pergamino sigue interrumpido: pide la humedad del grano al recibir y evita lotes rehumedecidos o con olor a fermento.",
-  "En Copán, Montecillos, Comayagua y El Paraíso solo habrá lloviznas (3–10 mm) y el frío es breve (12 °C de mínima en Intibucá): el corte de las zonas bajas y medias puede seguir, pero conviene secar en patio techado o secadora.",
-  "El Niño fuerte (+2,5 °C en Niño 3.4) mantiene, fuera de estos frentes, un fin de año más seco y cálido de lo normal: los cafetales bajos (800–1.100 m) del corredor seco son los más golpeados; espera más grano pequeño y defectos en los lotes de bajío.",
-  "Con la fruta madurando rápido antes del pico de cosecha (20-dic a 20-feb), las lluvias del frente pueden provocar caída de grano maduro donde falten recolectores: revisa la calidad de los primeros lotes.",
-  "La humedad de los frentes fríos favorece la roya en las zonas altas y húmedas de Agalta y Opalaca; pregunta por el manejo sanitario de la finca al contratar café 2026-27."
- ],
- "avisos": {
-  "source": "COPECO",
-  "asOf": "2026-11-26",
-  "headline": "COPECO: el primer frente frío sigue el jueves 26 con lluvias fuertes en el norte y lloviznas en las zonas cafetaleras; alerta verde en Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro",
-  "items": [
-   "Acumulados del jueves 26: Atlántida y Cortés hasta 100 mm, Colón 60 mm, Yoro 40 mm, Santa Bárbara 30 mm; Francisco Morazán 15 mm; Intibucá y La Paz 10 mm; Lempira, Olancho, Comayagua y Copán 5 mm; Ocotepeque y El Paraíso 3 mm. El sur (Choluteca y Valle) sigue seco.",
-   "Temperaturas más bajas: mínima de 12 °C y máxima de 20 °C en Intibucá; mínimas de 17 °C en El Paraíso y 18 °C en Copán, Lempira y Ocotepeque.",
-   "La alerta verde (boletín 051-2026) rige 48 horas desde el miércoles 25; el frente avanza lento por el Caribe y los vientos del norte mantienen lluvias en las montañas del norte hasta el viernes 27."
-  ],
-  "links": [
-   {
-    "t": "COPECO",
-    "url": "https://copeco.gob.hn/"
-   },
-   {
-    "t": "Hondudiario (26-nov)",
-    "url": "https://www.hondudiario.com/2026/11/26/frente-frio-dejara-lluvias-y-descenso-de-temperaturas-en-varias-regiones-del-pais/"
-   },
-   {
-    "t": "Hondudiario (25-nov)",
-    "url": "https://www.hondudiario.com/2026/11/25/copeco-pronostica-lluvias-actividad-electrica-y-descenso-de-temperaturas/"
-   },
-   {
-    "t": "ICN Digital (25-nov)",
-    "url": "https://icndigital.com/copeco-declara-alerta-verde-en-seis-departamentos-del-pais-25-11-2026/"
-   }
+  "avisos": {
+    "source": "COPECO",
+    "asOf": "2026-11-27",
+    "headline": "COPECO: masa de aire frío el viernes 27 con viento racheado y lluvias débiles a moderadas en el norte y noroccidente; el resto del país, lluvias aisladas y el sur seco",
+    "items": [
+      "Lluvias dispersas débiles a moderadas sobre todo en el norte y noroccidente; en el resto, lloviznas aisladas, y el sur (Choluteca) sigue seco con máximas de 36 °C.",
+      "Ambiente fresco: La Esperanza (Intibucá) entre 14 y 18 °C; Distrito Central con mínima de 18 °C y máxima de 25 °C; San Pedro Sula entre 22 y 27 °C.",
+      "Oleaje de 2 a 4 pies en el Caribe y de 1 a 3 pies en el golfo de Fonseca; la alerta verde del boletín 051-2026 (48 horas desde el miércoles 25) cubría Islas de la Bahía, Cortés, Atlántida, Colón, Santa Bárbara y Yoro."
+    ],
+    "links": [
+      {
+        "t": "COPECO",
+        "url": "https://copeco.gob.hn/"
+      },
+      {
+        "t": "Radio HRN (27-nov)",
+        "url": "https://www.radiohrn.hn/clima-honduras-pronostico-lluvias-aire-frio-viernes-27-noviembre-2026-2026-11-26"
+      },
+      {
+        "t": "Hondudiario (26-nov)",
+        "url": "https://www.hondudiario.com/2026/11/26/frente-frio-dejara-lluvias-y-descenso-de-temperaturas-en-varias-regiones-del-pais/"
+      },
+      {
+        "t": "ICN Digital (25-nov)",
+        "url": "https://icndigital.com/copeco-declara-alerta-verde-en-seis-departamentos-del-pais-25-11-2026/"
+      }
+    ]
+  },
+  "regions": [
+    {
+      "region": "copan",
+      "dept": "Copán",
+      "place": "Santa Rosa de Copán",
+      "lat": 14.77,
+      "lon": -88.78,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "opalaca",
+      "dept": "Opalaca",
+      "place": "La Esperanza, Intibucá",
+      "lat": 14.31,
+      "lon": -88.18,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "montecillos",
+      "dept": "Montecillos",
+      "place": "Marcala, La Paz",
+      "lat": 14.15,
+      "lon": -88.03,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "comayagua",
+      "dept": "Comayagua",
+      "place": "Siguatepeque",
+      "lat": 14.6,
+      "lon": -87.83,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "el-paraiso",
+      "dept": "El Paraíso",
+      "place": "Danlí",
+      "lat": 14.03,
+      "lon": -86.58,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    },
+    {
+      "region": "agalta",
+      "dept": "Agalta",
+      "place": "Gualaco, Olancho",
+      "lat": 15.1,
+      "lon": -86.11,
+      "p7": null,
+      "tmax": null,
+      "tmin": null
+    }
   ]
- },
- "regions": [
-  {
-   "region": "copan",
-   "dept": "Copán",
-   "place": "Santa Rosa de Copán",
-   "lat": 14.77,
-   "lon": -88.78,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "opalaca",
-   "dept": "Opalaca",
-   "place": "La Esperanza, Intibucá",
-   "lat": 14.31,
-   "lon": -88.18,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "montecillos",
-   "dept": "Montecillos",
-   "place": "Marcala, La Paz",
-   "lat": 14.15,
-   "lon": -88.03,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "comayagua",
-   "dept": "Comayagua",
-   "place": "Siguatepeque",
-   "lat": 14.6,
-   "lon": -87.83,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "el-paraiso",
-   "dept": "El Paraíso",
-   "place": "Danlí",
-   "lat": 14.03,
-   "lon": -86.58,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  },
-  {
-   "region": "agalta",
-   "dept": "Agalta",
-   "place": "Gualaco, Olancho",
-   "lat": 15.1,
-   "lon": -86.11,
-   "p7": null,
-   "tmax": null,
-   "tmin": null
-  }
- ]
 }
