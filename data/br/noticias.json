@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-11-26T19:47:25Z",
+  "updatedAt": "2026-11-27T11:48:30Z",
   "items": [
     {
-      "id": "b76",
+      "id": "b77",
       "scope": "br",
       "regiones": [],
       "tag": "Divisas",
       "date": "2026-11-26",
-      "source": "SBT News",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/dolar-cai-a-r-5-73-e-ibovespa-dispara-mais-de-3",
-      "title": "El dólar sigue cayendo y toca R$5,71 por la apuesta a Trabuco en Hacienda y una inflación menor",
-      "summary": "El 26-nov el dólar bajaba 1,4 % a R$5,736 (mínimo de R$5,712) y la PTAX cayó 2,3 % a R$5,7446, tras un IPCA-15 de 0,22 % (se esperaba 0,34 %) y la expectativa de que el banquero Luiz Carlos Trabuco asuma Hacienda; un real más fuerte encarece el café brasileño en dólares y puede frenar las ventas del productor."
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26112026/",
+      "title": "El dólar cae 1,23 % y cierra en R$5,75 por la apuesta a Trabuco en Hacienda",
+      "summary": "El dólar al contado cerró el 26-nov en R$5,7464 (−1,23 %), cuarta baja seguida, ante la expectativa de que Lula nombre a Luiz Carlos Trabuco, del consejo de Bradesco, como ministro de Hacienda. Un real más fuerte encarece el café brasileño en dólares y frena las ventas del productor."
+    },
+    {
+      "id": "b59",
+      "scope": "br",
+      "regiones": [],
+      "tag": "Precios",
+      "date": "2026-11-26",
+      "source": "CEPEA · Cotação do Café",
+      "url": "https://cotacaodocafe.com/historico/",
+      "title": "CEPEA: el conilon baja por octava sesión a R$870 la saca; el arábica cede a R$1.666",
+      "summary": "El 26-nov el indicador del arábica (tipo 6, puesto en São Paulo) cayó 0,78 % a R$1.665,87 y el del conilon (puesto en Espírito Santo) 0,40 % a R$870,08 por saca de 60 kg. Con el dólar a R$5,75, el conilon ronda US$151 por saca, el nivel más bajo en meses: ventana de compra para robusta brasileño."
     },
     {
       "id": "b74",
@@ -45,17 +56,6 @@
       "url": "https://www.cidadeacidade.com.br/noticia/cafes-campeoes-do-14-premio-regiao-do-cerrado-mineiro-serao-ofertados-em-leilao-on-line-nos-dias-25-e-26-de-novembro",
       "title": "Subasta en línea de los campeones del 14.º Premio Región del Cerrado Mineiro, 25 y 26 de noviembre",
       "summary": "Se ofrecen nueve lotes (los tres primeros de las categorías natural, cereza descascarado y fermentado, cada uno de dos sacos de 30 kg) en la plataforma Coffee Chain con Expocacer; el concurso tuvo 920 muestras. La puja cierra el 26-nov a las 16:00 de Brasilia."
-    },
-    {
-      "id": "b59",
-      "scope": "br",
-      "regiones": [],
-      "tag": "Precios",
-      "date": "2026-11-25",
-      "source": "CEPEA · Cotação do Café",
-      "url": "https://cotacaodocafe.com/historico/",
-      "title": "CEPEA: el conilon cae otro 3,5 % a R$874 la saca; el arábica se mantiene en R$1.679",
-      "summary": "El indicador del conilon (tipo 6, criba 13 arriba, Espírito Santo) bajó 3,52 % el 25-nov a R$873,54, su séptima baja seguida y −10,2 % desde el 13-nov; el del arábica (tipo 6 bebida dura) quedó en R$1.678,92 (−0,01 %). Con el dólar en R$5,8179 equivalen a unos US$150 y US$289 por saca: el conilon sigue abaratándose en dólares."
     },
     {
       "id": "b68",
@@ -200,19 +200,6 @@
       "url": "https://br.investing.com/news/commodities-news/adido-do-usda-eleva-previsao-de-safra-de-cafe-do-brasil-2130325",
       "title": "El agregado del USDA eleva la cosecha 2026-27 de Brasil a un récord de 72,5 M de sacas",
       "summary": "Subió el arábica a 49,2 M de sacas (desde 47,5 M; +29,5 % anual) y bajó el conilon a 23,3 M (desde 24,4 M) por el mal clima en el Espírito Santo; las exportaciones se mantienen en 49 M de sacas (+26 %). Para 2027-28 ve floradas tempranas prometedoras, pero será año de baja del ciclo bienal del arábica y preocupa El Niño."
-    },
-    {
-      "id": "b46",
-      "scope": "br",
-      "regiones": [
-        "conilon-es"
-      ],
-      "tag": "Regulación",
-      "date": "2026-11-16",
-      "source": "Reuters (MarketScreener)",
-      "url": "https://www.marketscreener.com/news/nestle-brazil-coffee-supplier-faces-hearing-over-labor-abuse-claims--ce785edfda8ff624",
-      "title": "Cooabriel, gran cooperativa de conilon y proveedora de Nestlé, va a audiencia por trabajo análogo a la esclavitud",
-      "summary": "El Ministerio Público del Trabajo acusa a la cooperativa del Espírito Santo de controles insuficientes para impedir que entre a su cadena café producido en condiciones análogas a la esclavitud; un fallo preliminar de octubre ya la obliga a tomar medidas. Para compradores de conilon del ES, refuerza la necesidad de debida diligencia laboral sobre proveedores."
     }
   ]
 }
