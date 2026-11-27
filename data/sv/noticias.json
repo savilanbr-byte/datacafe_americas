@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:47:10Z",
+  "updatedAt": "2026-11-27T11:47:54Z",
   "items": [
     {
       "id": "n33",
@@ -27,6 +27,17 @@
       "url": "https://www.elsalvador.com/noticias/nacional/clima-el-salvador-25-noviembre/1305781/2026/",
       "title": "MARN: tormentas en las cordilleras y nortes con ráfagas de hasta 70 km/h desde la noche del 25 de noviembre",
       "summary": "El MARN previó tormentas por la tarde en El Bálsamo, Apaneca-Ilamatepec y Tecapa-Chinameca, y luego nortes de 10 a 30 km/h con ráfagas de 35 a 60 km/h (hasta 70 km/h en zonas altas del norte, occidente y oriente), que siguen el 26 y 27 sin lluvia. Riesgo de fruta caída en fincas altas y buenas condiciones de secado en patio después."
+    },
+    {
+      "id": "s30",
+      "scope": "sv",
+      "regiones": [],
+      "tag": "Exportaciones",
+      "date": "2026-11-25",
+      "source": "ContraPunto (BCR)",
+      "url": "https://www.contrapunto.com.sv/exportaciones-de-el-salvador-crecen-4/",
+      "title": "BCR: las exportaciones de café suman US$183,89 millones de enero a octubre, 15,4 % más que en 2025",
+      "summary": "El café sumó US$24,47 millones más que en el mismo periodo de 2025; frente al acumulado a septiembre (US$181,4 M) octubre aportó solo unos US$2,5 millones, porque los embarques de la cosecha 2026-27 apenas arrancan. Son cifras de año calendario del BCR, distintas del ciclo cafetero del ISC."
     },
     {
       "id": "s26",
@@ -118,41 +129,6 @@
       "url": "https://diarioelsalvador.com/dedinero/el-salvador-promueve-su-cafe-en-campeonato-de-barismo-en-argentina/875807",
       "title": "El ISC promueve el café salvadoreño en un campeonato de baristas de Café Martínez en Argentina",
       "summary": "El Instituto Salvadoreño del Café y la embajada en Argentina participaron en el 7.º Campeonato Internacional de Baristas 2026 de la cadena Café Martínez, que se disputó con grano de origen salvadoreño. Es una vitrina comercial en Sudamérica; la nota no da volúmenes ni precios de compra."
-    },
-    {
-      "id": "s18",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Clima",
-      "date": "2026-11-11",
-      "source": "El Diario de Hoy",
-      "url": "https://www.elsalvador.com/noticias/nacional/meteorologia-y-climatologia-sequia-lluvia-viento-ministerio-de-medio-ambiente/1303607/2026/",
-      "title": "El MARN da por iniciada la época seca desde el 9 de noviembre",
-      "summary": "Las lluvias bajaron desde el 18 de octubre y el inicio de la época seca varió entre el 21 de octubre y el 10 de noviembre según la zona; aún puede haber lluvias puntuales por frentes fríos y madrugadas muy frescas por los vientos nortes. Para el comprador: mejora el secado en patio del café que se corta ahora, aunque sigue el riesgo de lluvias aisladas."
-    },
-    {
-      "id": "s28",
-      "scope": "sv",
-      "regiones": [],
-      "tag": "Exportaciones",
-      "date": "2026-11-09",
-      "source": "Diario El Salvador (BCR)",
-      "url": "https://diarioelsalvador.com/dedinero/el-salvador-exporto-181-4-millones-de-cafe-hasta-septiembre/874020",
-      "title": "BCR: El Salvador exportó US$181,4 millones de café de enero a septiembre, el mayor monto en 13 años",
-      "summary": "Fueron más de 553.300 quintales a un precio promedio de US$327,8 por quintal, 15,3 % más en valor que en 2025; EE. UU. compró US$106,9 millones, seguido de Bélgica (US$13,1 M) y Reino Unido (US$8,1 M). Son cifras de año calendario, distintas del ciclo cafetero que reporta el ISC."
-    },
-    {
-      "id": "s29",
-      "scope": "sv",
-      "regiones": [
-        "tecapa-chinameca"
-      ],
-      "tag": "Cafés especiales",
-      "date": "2026-11-09",
-      "source": "El Diario de Hoy",
-      "url": "https://www.elsalvador.com/noticias/nacional/cafe-salvadoreno-premio-internacional/1303155/2026/",
-      "title": "Un Geisha honey de Finca Santa Emilia (Usulután) gana el primer lugar de los K-Coffee Awards 2026 en Corea del Sur",
-      "summary": "Ganó en la categoría de procesos no lavados; otro Geisha natural de la misma finca y un Pacamara honey de Café de Don Justo, de Tecapa-Chinameca, entraron al Top 10. La nota no da puntajes ni precios, pero subraya la oferta de microlotes de Tecapa-Chinameca para Asia."
     }
   ]
 }
