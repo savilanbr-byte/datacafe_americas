@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-27T11:48:36Z",
+  "updatedAt": "2026-11-27T19:47:43Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio interbancario BCRP (venta)",
-      "value": 3.492,
+      "value": 3.478,
       "dec": 3,
       "unit": "PEN/USD",
-      "change": 0.015,
+      "change": -0.014,
       "chgDec": 3,
-      "asOf": "2026-11-25",
+      "asOf": "2026-11-26",
       "source": "BCRP",
       "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-11-17/2026-11-27/",
       "liveUrl": "https://estadisticas.bcrp.gob.pe/",
       "liveT": "BCRP",
-      "note": "En lo que va de noviembre (2 al 25) se movió entre S/3,401 y S/3,492; el 25-nov cerró en S/3,492 (+0,015), nuevo máximo del mes. El BCRP aún no publica el dato del 26-nov."
+      "note": "En lo que va de noviembre (2 al 26) se movió entre S/3,401 y S/3,492 (máximo del 25-nov); el 26-nov cerró en S/3,478 (−0,014). El BCRP aún no publica el dato del 27-nov."
     },
     "expo": {
       "label": "Precio promedio de exportación ene–ago 2026",
