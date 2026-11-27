@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-26T19:47:16Z",
+  "updatedAt": "2026-11-27T11:48:18Z",
   "items": {
     "tc": {
       "label": "Tipo de cambio de referencia Banguat",
-      "value": 7.6453,
+      "value": 7.6528,
       "dec": 4,
       "unit": "GTQ/USD",
-      "asOf": "2026-11-26",
+      "asOf": "2026-11-27",
       "source": "Banguat",
       "url": "https://www.banguat.gob.gt/tipo_cambio/",
       "liveUrl": "https://www.banguat.gob.gt/",
       "liveT": "Banguat",
-      "note": "Banguat: Q7,64526 por dólar vigente el jueves 26-nov (Q7,64778 el 25-nov). En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
-      "change": -0.0025,
+      "note": "Banguat: Q7,65281 por dólar vigente el viernes 27-nov (Q7,64526 el 26-nov). En 2026 se ha movido entre Q7,61 y Q7,67 por dólar.",
+      "change": 0.0075,
       "chgDec": 4
     },
     "expo": {
